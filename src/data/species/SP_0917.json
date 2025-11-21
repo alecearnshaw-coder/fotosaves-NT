@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Fringillidae-Frin/Fringillinae_Image_Listing.xlsx",
+    "generated_at": "2025-10-25T02:14:34.707029",
+    "group_key": "SP_0917",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0917",
+      "Slug": "Carduelino",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_Goldfinch_RutlandWaterUK_22Aug2009_600.jpg",
+      "Large_Filename": "A_Goldfinch_RutlandWaterUK_22Aug2009_1200.jpg",
+      "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter 1.7x",
+      "Sex_Age": "M",
+      "Location": "Rutland Water",
+      "Province": "Rutland",
+      "Country": "UK",
+      "Date": "22-8-2009",
+      "Location_Date": "Rutland Water, Rutland, UK - 22/8/2009",
+      "Threat_Status": null
+    }
+  ]
+}

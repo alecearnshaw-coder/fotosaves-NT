@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.059259",
+    "group_key": "SP_0612",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0612",
+      "Slug": "FiofioGrande",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_FiofioGrande1_Ituzaingo_17Mar2019_600.jpg",
+      "Large_Filename": "A_FiofioGrande1_Ituzaingo_17Mar2019_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Zanjón Loreto, Ituzaingó",
+      "Province": "Corrientes",
+      "Country": null,
+      "Date": "17-03-2019",
+      "Location_Date": "Zanjón Loreto, Ituzaingó, Corrientes - 17-03-2019",
+      "Threat_Status": "Vulnerable"
+    },
+    {
+      "Species_ID": "SP_0612",
+      "Slug": "FiofioGrande",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "FiofioGrande1_Otamendi_02Dic07_th.jpg",
+      "Large_Filename": "FiofioGrande1_Otamendi_02Dic07.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Otamendi",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "2-12-2007",
+      "Location_Date": "Otamendi, Buenos Aires - 2/12/2007",
+      "Threat_Status": "Vulnerable"
+    },
+    {
+      "Species_ID": "SP_0612",
+      "Slug": "FiofioGrande",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "FiofioGrande2_Otamendi_02Dic07_th.jpg",
+      "Large_Filename": "FiofioGrande2_Otamendi_02Dic07.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Otamendi",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "2-12-2007",
+      "Location_Date": "Otamendi, Buenos Aires - 2/12/2007",
+      "Threat_Status": "Vulnerable"
+    }
+  ]
+}

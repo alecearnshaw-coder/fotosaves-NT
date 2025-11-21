@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-13T23:30:46.150631",
+    "group_key": "SP_0415",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0415",
+      "Slug": "LechuzaListada",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_LechuzaListada_RP101_15Sep2018_600.jpg",
+      "Large_Filename": "A_LechuzaListada_RP101_15Sep2018_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "RP101",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "15-09-2018",
+      "Location_Date": "RP101, Misiones - 15-09-2018",
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Fringillidae-Euph/Euphoniinae_Image_Listing.xlsx",
+    "generated_at": "2025-10-25T02:24:13.885935",
+    "group_key": "SP_0910",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0910",
+      "Slug": "TangaraCabezaCeleste",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_TangaraCabezaCeleste2_SFrancisco_15Oct2017_600.jpg",
+      "Large_Filename": "A_TangaraCabezaCeleste2_SFrancisco_15Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": "M",
+      "Location": "San Francisco, Sierras de Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "15-10-2017",
+      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 15-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0910",
+      "Slug": "TangaraCabezaCeleste",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TangaraCabezaCeleste1_SFrancisco_15Oct2017_600.jpg",
+      "Large_Filename": "A_TangaraCabezaCeleste1_SFrancisco_15Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "San Francisco, Sierras de Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "15-10-2017",
+      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 15-10-2017",
+      "Threat_Status": null
+    }
+  ]
+}

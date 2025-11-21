@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-17T23:31:27.291026",
+    "group_key": "SP_0500",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0500",
+      "Slug": "CarpinteroGrande",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_CarpinteroGrandeM_Karadya_3Jul2016_600.jpg",
+      "Large_Filename": "A_CarpinteroGrandeM_Karadya_3Jul2016_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "M",
+      "Location": "BioReserva Karadyá, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "3-07-2016",
+      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 3-07-2016",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0500",
+      "Slug": "CarpinteroGrande",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_CarpinteroGrandeH_Macuco_21Sep2015_600.jpg",
+      "Large_Filename": "A_CarpinteroGrandeH_Macuco_21Sep2015_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF 1.4x III",
+      "Sex_Age": "F",
+      "Location": "Parque Nacional Iguazú",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "21-09-2015",
+      "Location_Date": "Parque Nacional Iguazú, Misiones - 21-09-2015",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0500",
+      "Slug": "CarpinteroGrande",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_CarpinteroGrandeH2_Macuco_21Sep2015_600.jpg",
+      "Large_Filename": "A_CarpinteroGrandeH2_Macuco_21Sep2015_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF 1.4x III",
+      "Sex_Age": "F",
+      "Location": "Parque Nacional Iguazú",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "21-09-2015",
+      "Location_Date": "Parque Nacional Iguazú, Misiones - 21-09-2015",
+      "Threat_Status": null
+    }
+  ]
+}

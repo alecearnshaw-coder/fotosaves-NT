@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.051373",
+    "group_key": "SP_0624",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0624",
+      "Slug": "TachuriColudo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_TachuriColudo1_RNSantaMaria_15Mar2019_600.jpg",
+      "Large_Filename": "A_TachuriColudo1_RNSantaMaria_15Mar2019_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Reserva Natural Provincial Rincón de Santa María, Ituzaingó",
+      "Province": "Corrientes",
+      "Country": null,
+      "Date": "15-03-2019",
+      "Location_Date": "Reserva Natural Provincial Rincón de Santa María, Ituzaingó, Corrientes - 15-03-2019",
+      "Threat_Status": "Vulnerable"
+    }
+  ]
+}

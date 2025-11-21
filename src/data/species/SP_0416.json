@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-13T23:30:46.154629",
+    "group_key": "SP_0416",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0416",
+      "Slug": "LechuzaBatarazAustral",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_LechuzaBatarazAustral_ConcepcionCHILE_15Oct2008_600.jpg",
+      "Large_Filename": null,
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Universidad de Concepción, Concepción",
+      "Province": "Biobío",
+      "Country": "CHILE",
+      "Date": "15-10-2008",
+      "Location_Date": "Universidad de Concepción, Concepción, Biobío, CHILE - 15-10-2008",
+      "Threat_Status": null
+    }
+  ]
+}

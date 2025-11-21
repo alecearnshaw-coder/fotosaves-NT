@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Charadriiformes/PlayerasA_Image_Listing.xlsx",
+    "generated_at": "2025-09-07T00:25:36.191013",
+    "group_key": "SP_0166",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0166",
+      "Slug": "PlayerasA_ChorlitoPuneno",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_ChorlitoPunenio_LagunaBrava_27Feb2025_600.jpg",
+      "Large_Filename": "A_ChorlitoPunenio_LagunaBrava_27Feb2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Laguna Brava",
+      "Province": "La Rioja",
+      "Country": null,
+      "Date": "27-02-2025",
+      "Location_Date": "Laguna Brava, La Rioja - 27-02-2025",
+      "Threat_Status": null
+    }
+  ]
+}

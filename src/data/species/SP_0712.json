@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.260475",
+    "group_key": "SP_0712",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0712",
+      "Slug": "GauchoGrande",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_GauchoGrande_Esquel_1May2011_600.jpg",
+      "Large_Filename": "A_GauchoGrande_Esquel_1May2011_1200.jpg",
+      "Equipment": "Nikon P6000 + Vixen 67 Geoma II ED scope + GLH30 (x30 Wide) eyepiece",
+      "Sex_Age": null,
+      "Location": "Esquel",
+      "Province": "Chubut",
+      "Country": null,
+      "Date": "1-05-2011",
+      "Location_Date": "Esquel, Chubut - 1-05-2011",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0712",
+      "Slug": "GauchoGrande",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "GauchoGrande2_Esquel_01May2011_th.jpg",
+      "Large_Filename": "GauchoGrande2_Esquel_01May2011.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Esquel",
+      "Province": "Chubut",
+      "Country": null,
+      "Date": "1-05-2011",
+      "Location_Date": "Esquel, Chubut - 1-05-2011",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0712",
+      "Slug": "GauchoGrande",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "GauchoGrande3_Esquel_01May2011_th.jpg",
+      "Large_Filename": "GauchoGrande3_Esquel_01May2011.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Esquel",
+      "Province": "Chubut",
+      "Country": null,
+      "Date": "1-05-2011",
+      "Location_Date": "Esquel, Chubut - 1-05-2011",
+      "Threat_Status": null
+    }
+  ]
+}

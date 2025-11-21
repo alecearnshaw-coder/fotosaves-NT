@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-21T15:02:47.414453",
+    "group_key": "SP_0542",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0542",
+      "Slug": "LoroHablador",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_LoroHablador_EcoportalDePiedra_19Ago2014_600.jpg",
+      "Large_Filename": "A_LoroHablador_EcoportalDePiedra_19Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + + Extender EF 1.4x III + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "EcoPortal de Piedra, Palma Sola",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "19-08-2014",
+      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 19-08-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0542",
+      "Slug": "LoroHablador",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "LoroHablador_Iguazu_1999_th.jpg",
+      "Large_Filename": "LoroHablador_Iguazu_1999m.jpg",
+      "Equipment": null,
+      "Sex_Age": "K",
+      "Location": "Estación de Recría \"Guira Oga\", Iguazú",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "7-1999",
+      "Location_Date": "Estación de Recría \"Guira Oga\", Iguazú, Misiones - 7/1999",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0542",
+      "Slug": "LoroHablador",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "LoroHablador_RN_2991_th.jpg",
+      "Large_Filename": "LoroHablador_RN_2991m2.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Ribera Norte, Acassuso",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "10-2001",
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 10/2001",
+      "Threat_Status": null
+    }
+  ]
+}

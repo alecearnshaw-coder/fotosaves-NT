@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.355354",
+    "group_key": "SP_0591",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0591",
+      "Slug": "MosquetaPicoPala",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_MosquetaPicoPala1_PtoIguazu_15Sep2018_600.jpg",
+      "Large_Filename": "A_MosquetaPicoPala1_PtoIguazu_15Sep2018_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Puerto Iguazú",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "15-09-2018",
+      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0591",
+      "Slug": "MosquetaPicoPala",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_MosquetaPicoPala2_PtoIguazu_15Sep2018_600.jpg",
+      "Large_Filename": "A_MosquetaPicoPala2_PtoIguazu_15Sep2018_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Puerto Iguazú",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "15-09-2018",
+      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0591",
+      "Slug": "MosquetaPicoPala",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Todirostrum_cinereus2_RNM_Panama_Mayo2005_600.jpg",
+      "Large_Filename": null,
+      "Equipment": "Canon EOS 3000 + Vivitar zoom 100-300 F5.6/6.7",
+      "Sex_Age": null,
+      "Location": "Reserva Natural Municipal",
+      "Province": "Panamá",
+      "Country": "PANAMA",
+      "Date": "05-2005",
+      "Location_Date": "Reserva Natural Municipal, Panamá, PANAMA - 05-2005",
+      "Threat_Status": null
+    }
+  ]
+}

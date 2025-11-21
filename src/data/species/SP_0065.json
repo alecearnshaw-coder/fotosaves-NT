@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Galliformes/Galliformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-01T11:26:39.829404",
+    "group_key": "SP_0065",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0065",
+      "Slug": "PavaDeMonteYunguena",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_PaveDeMonte1_EcoportalDePiedra_18Ago2014_600.jpg",
+      "Large_Filename": "A_PaveDeMonte1_EcoportalDePiedra_18Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + + Extender EF 1.4x III + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "EcoPortal de Piedra, camino a El Fuerte",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "18-08-2014",
+      "Location_Date": "EcoPortal de Piedra, camino a El Fuerte, Jujuy - 18-08-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0065",
+      "Slug": "PavaDeMonteYunguena",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PaveDeMonteCoun2_EcoportalDePiedra_18Ago2014_600.jpg",
+      "Large_Filename": "A_PaveDeMonteCoun2_EcoportalDePiedra_18Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + + Extender EF 1.4x III + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "EcoPortal de Piedra, camino a El Fuerte",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "18-08-2014",
+      "Location_Date": "EcoPortal de Piedra, camino a El Fuerte, Jujuy - 18-08-2014",
+      "Threat_Status": null
+    }
+  ]
+}

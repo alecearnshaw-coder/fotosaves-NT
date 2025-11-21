@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-13T23:30:46.213214",
+    "group_key": "SP_0412",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0412",
+      "Slug": "LechuzonMochoChico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_LechuzonMochoChico_RP101_2May2014_600.jpg",
+      "Large_Filename": "A_LechuzonMochoChico_RP101_2May2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "RP101",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "2-05-2014",
+      "Location_Date": "RP101, Misiones - 2-05-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0412",
+      "Slug": "LechuzonMochoChico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_LechuzonMochoChico_Karadya_8Sep2018_600.jpg",
+      "Large_Filename": "A_LechuzonMochoChico_Karadya_8Sep2018_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4 + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "BioReserva Karadyá, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "8-09-2018",
+      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 8-09-2018",
+      "Threat_Status": null
+    }
+  ]
+}

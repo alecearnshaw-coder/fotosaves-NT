@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-14T18:26:38.308833",
+    "group_key": "SP_0438",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0438",
+      "Slug": "EsparveroPatagonico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_EsparveroPatagonicoJ2_PNTF_Feb2008_600.jpg",
+      "Large_Filename": "A_EsparveroPatagonicoJ2_PNTF_Feb2008_600.jpg",
+      "Equipment": "Panasonic Lumix FX30 + DMW-LT55 telecoverter 1.7x",
+      "Sex_Age": null,
+      "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
+      "Province": "Tierra del Fuego",
+      "Country": null,
+      "Date": "02-2008",
+      "Location_Date": "Parque Nacional Tierra del Fuego, Ushuaia, Tierra del Fuego - 02-2008",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0438",
+      "Slug": "EsparveroPatagonico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_EsparveroPatagonicoJ1_PNTF_Feb2008_600.jpg",
+      "Large_Filename": "A_EsparveroPatagonicoJ1_PNTF_Feb2008_800.jpg",
+      "Equipment": "Panasonic Lumix FX30 + DMW-LT55 telecoverter 1.7x",
+      "Sex_Age": null,
+      "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
+      "Province": "Tierra del Fuego",
+      "Country": null,
+      "Date": "02-2008",
+      "Location_Date": "Parque Nacional Tierra del Fuego, Ushuaia, Tierra del Fuego - 02-2008",
+      "Threat_Status": null
+    }
+  ]
+}

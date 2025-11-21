@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
+    "generated_at": "2025-09-07T00:28:10.017888",
+    "group_key": "SP_0183",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0183",
+      "Slug": "PlayerasB_PlayeritoManchado",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_TerekSandpiper1_Kasai-Rimkai-Edogawa-Japan_11-10-2025_600.jpg",
+      "Large_Filename": "A_TerekSandpiper1_Kasai-Rimkai-Edogawa-Japan_11-10-2025_1200.jpg",
+      "Equipment": "Canon 7D MkII + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Kasai-Rimkai Park, Edogawa",
+      "Province": "Tokyo",
+      "Country": "JAPAN",
+      "Date": "11-10-2025",
+      "Location_Date": null,
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0183",
+      "Slug": "PlayerasB_PlayeritoManchado",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TerekSandpiper2_Kasai-Rimkai-Edogawa-Japan_11-10-2025_600.jpg",
+      "Large_Filename": "A_TerekSandpiper2_Kasai-Rimkai-Edogawa-Japan_11-10-2025_1200.jpg",
+      "Equipment": "Canon 7D MkII + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Kasai-Rimkai Park, Edogawa",
+      "Province": "Tokyo",
+      "Country": "JAPAN",
+      "Date": "11-10-2025",
+      "Location_Date": null,
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Furnariidae-Furn/Furnariidae-Furn_Image_Listing.xlsx",
+    "generated_at": "2025-09-28T11:31:08.476004",
+    "group_key": "SP_0802",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0802",
+      "Slug": "RemolineraCastana",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_RermolineraCastania1_CaminoALagunaBrava_27Feb2025_600.jpg",
+      "Large_Filename": "A_RemolineraCastania1_CaminoALagunaBrava_27Feb2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Camino a Laguna Brava",
+      "Province": "La Rioja",
+      "Country": null,
+      "Date": "27-02-2025",
+      "Location_Date": "Camino a Laguna Brava, La Rioja - 27-02-2025",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0802",
+      "Slug": "RemolineraCastana",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_RemolineraCastana_SJeronimo_19Mar2013_600.jpg",
+      "Large_Filename": "A_RemolineraCastana_SJeronimo_19Mar2013_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS",
+      "Sex_Age": null,
+      "Location": "Dique San Jerónimo, La Cumbre",
+      "Province": "Córdoba",
+      "Country": null,
+      "Date": "19-03-2013",
+      "Location_Date": "Dique San Jerónimo, La Cumbre, Córdoba - 19-03-2013",
+      "Threat_Status": null
+    }
+  ]
+}

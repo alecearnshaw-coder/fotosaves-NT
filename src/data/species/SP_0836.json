@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
+    "generated_at": "2025-09-28T18:57:40.329656",
+    "group_key": "SP_0836",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0836",
+      "Slug": "CanasteroCastano",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_CanasteroCastano_PasoCordoba_15Sept2012_600.jpg",
+      "Large_Filename": "A_CanasteroCastano_PasoCordoba_15Sept2012_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Paso Córdoba, General Roca",
+      "Province": "Río Negro",
+      "Country": null,
+      "Date": "15-09-2012",
+      "Location_Date": "Paso Córdoba, General Roca, Río Negro - 15-09-2012",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0836",
+      "Slug": "CanasteroCastano",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "CanasteroCastano2_PasoCordoba_15Sep2012_600.jpg",
+      "Large_Filename": "CanasteroCastano2_PasoCordoba_15Sep2012_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Paso Córdoba, General Roca",
+      "Province": "Río Negro",
+      "Country": null,
+      "Date": "15-09-2012",
+      "Location_Date": "Paso Córdoba, General Roca, Río Negro - 15-09-2012",
+      "Threat_Status": null
+    }
+  ]
+}

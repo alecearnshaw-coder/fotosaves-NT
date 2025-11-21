@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Icteridae/Icteridae_Image_Listing.xlsx",
+    "generated_at": "2025-10-25T13:53:09.058236",
+    "group_key": "SP_0937",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0937",
+      "Slug": "Yapu",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_Yapu_SFrancisco_15Oct2017_600.jpg",
+      "Large_Filename": "A_Yapu_SFrancisco_15Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "San Francisco, Sierras de Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "15-10-2017",
+      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 15-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0937",
+      "Slug": "Yapu",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Yapu_EcoPortalDePiedra_16Ago2014_600.jpg",
+      "Large_Filename": "A_Yapu_EcoPortalDePiedra_16Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "EcoPortal de Piedra, Palma Sola",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "16-08-2014",
+      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 16-08-2014",
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-21T15:02:47.414453",
+    "group_key": "SP_0552",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0552",
+      "Slug": "MaracanaCDorado",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_MaracanaCDorado2_PNC-Mesada_27Ago2023_600.jpg",
+      "Large_Filename": "A_MaracanaCDorado2_PNC-Mesada_27Ago2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Mesada de las Colmenas, Marque Nacional Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "27-08-2023",
+      "Location_Date": "Mesada de las Colmenas, Marque Nacional Calilegua, Jujuy - 27-08-2023",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0552",
+      "Slug": "MaracanaCDorado",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_MaracanaCDorado1_PNCalilegua-Mesada_27Ago2023_600.jpg",
+      "Large_Filename": "A_MaracanaCDorado1_PNCalilegua-Mesada_27Ago2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Mesada de las Colmenas, Marque Nacional Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "27-08-2023",
+      "Location_Date": "Mesada de las Colmenas, Marque Nacional Calilegua, Jujuy - 27-08-2023",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0552",
+      "Slug": "MaracanaCDorado",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_MaracanaCuelloDorado1_EcoPortalDePiedra_17Ago2014_600.jpg",
+      "Large_Filename": "A_MaracanaCuelloDorado1_EcoPortalDePiedra_17Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + + Extender EF 1.4x III + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "EcoPortal de Piedra, Palma Sola",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "17-08-2014",
+      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 17-08-2014",
+      "Threat_Status": null
+    }
+  ]
+}

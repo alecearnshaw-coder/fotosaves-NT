@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.141591",
+    "group_key": "SP_0679",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0679",
+      "Slug": "BurlistoCopeton",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_BurlistoCopeton2_PNC_14Oct2017_600.jpg",
+      "Large_Filename": "A_BurlistoCopeton2_PNC_14Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Entre Río Jordán y Monolito, Sierras de Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "14-10-2017",
+      "Location_Date": "Entre Río Jordán y Monolito, Sierras de Calilegua, Jujuy - 14-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0679",
+      "Slug": "BurlistoCopeton",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_BurlistoCopeton_PNC_14Oct2017_600.jpg",
+      "Large_Filename": "A_BurlistoCopeton_PNC_14Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Entre Río Jordán y Monolito, Sierras de Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "14-10-2017",
+      "Location_Date": "Entre Río Jordán y Monolito, Sierras de Calilegua, Jujuy - 14-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0679",
+      "Slug": "BurlistoCopeton",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_BurlistoCopeton1_Yala_11Oct2014_600.jpg",
+      "Large_Filename": "A_BurlistoCopeton1_Yala_11Oct2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Parque Provincial Potrero de Yala",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "11-10-2014",
+      "Location_Date": "Parque Provincial Potrero de Yala, Jujuy- 11-10-2014",
+      "Threat_Status": null
+    }
+  ]
+}

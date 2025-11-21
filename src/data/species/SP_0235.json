@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Sphenisciformes/Sphenisciformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-09T20:20:14.865581",
+    "group_key": "SP_0235",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0235",
+      "Slug": "PinguinoRey",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_PinguinoRey1_IslaMartillo_31Ene2013_600.jpg",
+      "Large_Filename": "A_PinguinoRey1_IslaMartillo_31Ene2013_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Isla Martillo, Harberton",
+      "Province": "Tierra del Fuego",
+      "Country": null,
+      "Date": "31-01-2014",
+      "Location_Date": "Isla Martillo, Harberton, Tierra del Fuego - 31-01-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0235",
+      "Slug": "PinguinoRey",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PinguinoRey2_IslaMartillo_31Ene2013_600.jpg",
+      "Large_Filename": "A_PinguinoRey2_IslaMartillo_31Ene2013_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Isla Martillo, Harberton",
+      "Province": "Tierra del Fuego",
+      "Country": null,
+      "Date": "31-01-2014",
+      "Location_Date": "Isla Martillo, Harberton, Tierra del Fuego - 31-01-2014",
+      "Threat_Status": null
+    }
+  ]
+}

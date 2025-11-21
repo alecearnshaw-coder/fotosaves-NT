@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.124610",
+    "group_key": "SP_0598",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0598",
+      "Slug": "BirroChico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_BirroChico_RJordan_15Oct2017_600.jpg",
+      "Large_Filename": "A_BirroChico_RJordan_15Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Río Jordán, Sierras de Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "15-10-2017",
+      "Location_Date": "Río Jordán, Sierras de Calilegua, Jujuy - 15-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0598",
+      "Slug": "BirroChico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_BirroChico_Vega_14Abr2007_600.jpg",
+      "Large_Filename": "A_BirroChico_Vega_14Abr2007_1200.jpg",
+      "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter 1.7x",
+      "Sex_Age": null,
+      "Location": "Vega",
+      "Province": "Cundinamarca",
+      "Country": "COLOMBIA",
+      "Date": "14-04-2007",
+      "Location_Date": "Vega, Cundinamarca, COLOMBIA - 14-04-2007",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0598",
+      "Slug": "BirroChico",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "BirroChico2_Colombia_Abr07_th.jpg",
+      "Large_Filename": "BirroChico2_Colombia_Abr07.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Vega",
+      "Province": "Cundinamarca",
+      "Country": "COLOMBIA",
+      "Date": "14-04-2007",
+      "Location_Date": "Vega, Cundinamarca, COLOMBIA - 14-04-2007",
+      "Threat_Status": null
+    }
+  ]
+}

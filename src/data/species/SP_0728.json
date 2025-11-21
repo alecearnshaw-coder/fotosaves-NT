@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Thamnophilidae/Thamnophilidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-27T11:27:12.739266",
+    "group_key": "SP_0728",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0728",
+      "Slug": "TiluchiAlaRojiza",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_TiluchiAlaRojizaM_ReservaSurucua_6May2014_600.jpg",
+      "Large_Filename": "A_TiluchiAlaRojizaM_ReservaSurucua_6May2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "M",
+      "Location": "Surucuá Reserva y Ecolodge, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "6-05-2014",
+      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 6-05-2014",
+      "Threat_Status": "Vulnerable"
+    }
+  ]
+}

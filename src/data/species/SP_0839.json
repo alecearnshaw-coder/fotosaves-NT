@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
+    "generated_at": "2025-09-28T18:57:40.447887",
+    "group_key": "SP_0839",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0839",
+      "Slug": "PijuiCanela",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_PijuiCanela2_PNC_11Oct2017_600.jpg",
+      "Large_Filename": "A_PijuiCanela2_PNC_11Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Parque Nacional Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "11-10-2017",
+      "Location_Date": "Parque Nacional Calilegua, Jujuy - 11-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0839",
+      "Slug": "PijuiCanela",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PijuiCanela1_PNC_11Oct2017_600.jpg",
+      "Large_Filename": "A_PijuiCanela1_PNC_11Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Parque Nacional Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "11-10-2017",
+      "Location_Date": "Parque Nacional Calilegua, Jujuy - 11-10-2017",
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-21T15:02:47.351954",
+    "group_key": "SP_0540",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0540",
+      "Slug": "LoroAlisero",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_LoroAlisero_ElFuerte_18Ago2014_600.jpg",
+      "Large_Filename": "A_LoroAlisero_ElFuerte_18Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + + Extender EF 1.4x III + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "El Fuerte",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "18-08-2014",
+      "Location_Date": "El Fuerte, Jujuy - 18-08-2014",
+      "Threat_Status": "Vulnerable"
+    },
+    {
+      "Species_ID": "SP_0540",
+      "Slug": "LoroAlisero",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_LoroAlisero_ElFuerte_18Ago2014_600.jpg",
+      "Large_Filename": "A_LoroAlisero_ElFuerte_18Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + + Extender EF 1.4x III + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": null,
+      "Province": null,
+      "Country": null,
+      "Date": null,
+      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 18-08-2014",
+      "Threat_Status": null
+    }
+  ]
+}

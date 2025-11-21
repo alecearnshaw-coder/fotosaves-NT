@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Icteridae/Icteridae_Image_Listing.xlsx",
+    "generated_at": "2025-10-25T13:53:08.980111",
+    "group_key": "SP_0935",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0935",
+      "Slug": "LoicaPampeana",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_LoicaPampeanaM_Berraondo_6Aug2024_600.jpg",
+      "Large_Filename": "A_LoicaPampeanaM_Berraondo_6Aug2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "M",
+      "Location": "Ea. El Chasicó, Berraondo",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "6-08-2024",
+      "Location_Date": "Ea. El Chasicó, Berraondo, Buenos Aires - 6-08-2024",
+      "Threat_Status": "Endangered"
+    }
+  ]
+}

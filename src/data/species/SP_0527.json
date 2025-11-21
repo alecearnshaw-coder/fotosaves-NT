@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-21T11:56:38.837051",
+    "group_key": "SP_0527",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0527",
+      "Slug": "HalconNegroChico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_HalconNegroChico_Surucua_23Sept_2015_600.jpg",
+      "Large_Filename": "A_HalconNegroChico_Surucua_23Sept_2015_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Surucuá Reserva y Ecolodge, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "23-09-2015",
+      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 23-09-2015",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0527",
+      "Slug": "HalconNegroChico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_HalconNegroChico_ReservaSurucua_3May2014_600.jpg",
+      "Large_Filename": "A_HalconNegroChico_ReservaSurucua_3May2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Surucuá Reserva y Ecolodge, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "3-05-2014",
+      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 3-05-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0527",
+      "Slug": "HalconNegroChico",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_HalconNegroChico_RP101_2May2014_600.jpg",
+      "Large_Filename": "A_HalconNegroChico_RP101_2May2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "RP101",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "2-05-2014",
+      "Location_Date": "RP101, Misiones - 2-05-2014",
+      "Threat_Status": null
+    }
+  ]
+}

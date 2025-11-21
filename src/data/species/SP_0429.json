@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-14T18:26:38.340648",
+    "group_key": "SP_0429",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0429",
+      "Slug": "MilanoTijereta",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_MilanoTijera1_Yala_8Oct2017_600.jpg",
+      "Large_Filename": "A_MilanoTijera1_Yala_8Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Laguna Rodeo, Parque Provincial Potrero de Yala, Yala",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "08-10-2017",
+      "Location_Date": "Laguna Rodeo, Parque Provincial Potrero de Yala, Yala, Jujuy- 08-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0429",
+      "Slug": "MilanoTijereta",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_MilanoTijera2_Yala_8Oct2017_600.jpg",
+      "Large_Filename": "A_MilanoTijera2_Yala_8Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Laguna Rodeo, Parque Provincial Potrero de Yala, Yala",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "08-10-2017",
+      "Location_Date": "Laguna Rodeo, Parque Provincial Potrero de Yala, Yala, Jujuy- 08-10-2017",
+      "Threat_Status": null
+    }
+  ]
+}

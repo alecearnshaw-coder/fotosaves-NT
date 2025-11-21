@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
+    "generated_at": "2025-10-26T16:47:20.239380",
+    "group_key": "SP_1049",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_1049",
+      "Slug": "CapuchinoDeCollar",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": "Y",
+      "Thumbnail_Filename": "S_Zelichi2_PtoBoca_Ene04_th.jpg",
+      "Large_Filename": "S_Zelichi2_PtoBoca_Ene04_m.jpg",
+      "Equipment": null,
+      "Sex_Age": "En jaula, siendo usado como llamador - <span class='english-text'><b>Being used to lure other Seedeaters to the cage trap.</b></span>",
+      "Location": "Gualeguaychú",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "1-2004",
+      "Location_Date": "Gualeguaychú, Entre Ríos - 1/2004",
+      "Threat_Status": "Near-threatened"
+    },
+    {
+      "Species_ID": "SP_1049",
+      "Slug": "CapuchinoDeCollar",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "S_Zelichi3_PtoBoca_Ene04_th.jpg",
+      "Large_Filename": "S_Zelichi3_PtoBoca_Ene04_m.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Gualeguaychú",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "1-2004",
+      "Location_Date": "Gualeguaychú, Entre Ríos - 1/2004",
+      "Threat_Status": "Near-threatened"
+    }
+  ]
+}
