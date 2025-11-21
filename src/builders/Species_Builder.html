@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alec Earnshaw">
+    <meta name="description" content="Test CSS frames for bird photos">
+    <title>CSS Frame Test</title>
+    <link rel="stylesheet" href="/lightbox/css/lightbox.css">
+    <link rel="stylesheet" href="/styles/Species_Builder_styles.css" type="text/css">
+    <script src="/scripts/shared/genderMap.js"></script>
+    <style>
+      /* Breadcrumb box styling aligned with Group_Builder green/brown scheme */
+      .subHeadingBox {
+        border: 2px solid #6a9678;
+        padding: 6px 8px;
+        background: #b0dbaa;
+        max-width: 780px;
+        margin: 24px auto 10px auto;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      }
+      .Sp_Text { font-weight: bold; font-size: 1.em; color: #494242; }
+      .En_Text { font-weight: bold; font-size: 1.em; color: #036118; }
+      .crumb-title { font-weight: bold; font-style: italic; color: #685244; font-size: 1.4em; margin: 0; }
+    </style>
+    <link rel="stylesheet" href="/styles/shared_header.css">
+    <style>
+      /* Page-scoped spacing adjustments so Group_Builder is unaffected */
+      .species-page .photo-group { margin-bottom: 20px; }
+      
+      /* Match Group page heading typography and spacing */
+      h1 {
+        font-weight: bold;
+        font-style: italic;
+        color: #685244;
+        font-size: 2.2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .centerCell {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+      }
+      
+      /* Small round "back to top" control on each photo frame */
+      .image-frame { position: relative; }
+      .image-frame .to-top {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.6);
+        color: #fff;
+        text-align: center;
+        line-height: 22px;
+        font-size: 15px;
+        font-weight: 900;
+        text-decoration: none;
+        opacity: 0.75;
+      }
+      .image-frame .to-top:hover { opacity: 1; }
+      .image-frame .to-top-tooltip {
+        position: absolute;
+        top: 0;
+        right: 28px;
+        background: rgba(255,255,255,0.98);
+        border: 1px solid #6a9678;
+        padding: 4px 8px;
+        border-radius: 8px;
+        font-size: 12px;
+        line-height: 1.2;
+        white-space: nowrap;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+        pointer-events: none;
+        z-index: 10;
+        display: none;
+      }
+      .image-frame .to-top:hover + .to-top-tooltip { display: block; }
+      .image-frame .to-top-tooltip .tip-es { color: #494242; }
+      .image-frame .to-top-tooltip .tip-en { color: #036118; }
+
+      /* Quick links are defined in shared_header.css */
+
+      /* Blue taxonomic return link */
+      a.heading-return-link { color: #0066cc; text-decoration: none; }
+      a.heading-return-link:hover { text-decoration: underline; }
+
+      /* Header container uses shared_header.css */
+      #headingBox {
+        border: 2px solid #6a9678;
+        padding: 0px 20px;
+        background: #b0dbaa;
+        width: 800px;
+        margin: 10px auto;
+        text-align: center;
+        border-radius: 15px;
+      }
+    </style>
+</head>
+<body class="species-page">
+    <a id="top"></a>
+
+    <div class="heading-container">
+        <!-- Site Header with three-band design, each line a band -->
+        <div class="site-header-banded">
+          <div class="site-header-band site-header-band-dark">
+              <div class="headline">fotos <span style="color:#FF9966">de animales silvestres</span> <span class="subheadline">de ARGENTINA</span></div>
+          </div>
+          <div class="site-header-band site-header-band-light">
+              <div class="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+          </div>
+          <div class="site-header-band site-header-band-dark">
+              <div class="headline">photos <span style="color:#FF9966">of wild animals</span> <span class="subheadline">of ARGENTINA</span></div>
+          </div>
+        </div>
+        <div class="quick-links">
+          <div class="links-left">
+            <span class="label-es">Enlaces:</span>
+            <a class="quick-link" href="/Aves.html" title="Selección de órdenes y familias de aves">Aves</a>
+            <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
+          </div>
+          <div class="links-right">
+            <span class="label-en">Links:</span>
+            <a class="quick-link" href="/Birds.html" title="Select bird orders and families">Birds</a>
+            <a class="quick-link" href="/index_english.html" title="Site home (English)">Site home</a>
+          </div>
+        </div>
+    </div>
+
+    <!-- Order/Family 3-line heading (outside main content container) -->
+    <div id="taxonomic-header"></div>
+
+    <div class="container">
+
+        <!-- Species Title -->
+        <div id="species-title"></div>
+
+        <!-- Conservation Status Grid -->
+        <div id="status-panel"></div>
+
+
+
+          
+        <!-- Photo Groups -->
+        <div id="images"></div>
+        <style>
+          .photo { position: relative; }
+        
+         /* .img-frame { position: absolute; top: 0; left: 0; } 
+          .display-box { position: absolute; bottom: 0; left: 0; }
+          .equipment { position: absolute; top: 0; left: 0; }
+          .date { position: absolute; bottom: 0; left: 0; }
+          .description-box { position: absolute; bottom: 0; left: 0; } */
+
+          /* Slide Thumbnails Styles */
+          .slide-container {
+            margin: 30px 0;
+            padding: 8px;
+            background-color: #b8c9b8;
+            border: 2px solid #8a9a8a;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+          }
+
+          .slide-title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.0em;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 3px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid #999;
+          }
+
+          .slide-title-english {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.0em;
+            font-weight: bold;
+            color: #315523;
+            text-align: center;
+            margin-bottom: 8px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid #999;
+          }
+
+
+          .slide-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+          }
+
+          .slide-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+          }
+
+          .slide-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 240px;
+          }
+
+          .slide-frame {
+            background-image: url('/images/cr/ffn.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 230px;
+            height: 230px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 30px;
+            box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
+          }
+
+          .slide-frame img {
+            width: auto;
+            height: auto;
+            max-width: none;
+            max-height: none;
+            border: 1px solid #3a3a3a;
+            box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+          }
+
+          .slide-frame a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .slide-info {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.75em;
+            color: #666;
+            text-align: center;
+            line-height: 1.3;
+            max-width: 230px;
+            word-wrap: break-word;
+            margin-top: 3px;
+          }
+
+          .slide-location {
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 2px;
+            word-wrap: break-word;
+            line-height: 1.2;
+          }
+
+          .slide-date {
+            font-weight: bold;
+            color: #444;
+            margin-top: 2px;
+            word-wrap: break-word;
+            line-height: 1.2;
+          }
+
+          /* Responsive design for slides */
+          @media (max-width: 768px) {
+            .slide-row {
+              flex-direction: column;
+              align-items: center;
+              gap: 15px;
+            }
+
+            .slide-item {
+              max-width: 250px;
+            }
+
+            .slide-frame {
+              width: 230px;
+              height: 230px;
+            }
+
+            .slide-info {
+              font-size: 0.8em;
+              max-width: 230px;
+            }
+
+            .slide-location {
+              margin-bottom: 3px;
+            }
+
+            .slide-date {
+              margin-top: 3px;
+              font-size: 0.85em;
+            }
+          }
+        </style>
+
+        <!-- Navigation and Footer includes -->
+        <!--#include virtual="includes/navigation.html" -->
+        <!--#include virtual="includes/footer.html" -->
+    </div>
+    
+    <script>
+
+    let species_data = {};
+
+    // genderMap is provided by shared/genderMap.js
+
+    async function loadTables() {
+
+                  // READ URL PARAMETERS
+      // Page data needed to build page: 
+      //    pageLevel (order, suborder, family or subfamily) 
+      //       and 
+      //    groupID (Rheiformes, Scolopaci, Icteridae, Dendrocolaptinae, etc.)
+      //       and
+      //    path (folder path to the images)
+      const urlParams = new URLSearchParams(window.location.search);
+          const species_ID = urlParams.get('speciesId');
+          const Path = urlParams.get('imagesPath');
+          console.log('Species ID:', species_ID);
+          console.log('Path:', Path);
+
+
+        try {
+            console.log('Loading orders data...');
+            
+            // Load all JSON data with error handling for missing files
+            const loadJsonFile = async (filename, fallback = { data: [] }) => {
+                try {
+                    const response = await fetch(filename, { cache: 'no-store' });
+                    if (response.ok) {
+                        const data = await response.json();
+                        console.log(`✅ Loaded ${filename}:`, data);
+                        return data;
+                    } else {
+                        console.warn(`⚠️ File ${filename} not found (${response.status}), using fallback`);
+                        return fallback;
+                    }
+                } catch (error) {
+                    console.warn(`⚠️ Error loading ${filename}:`, error.message, '- using fallback');
+                    return fallback;
+                }
+            };
+            
+            // Load files with fallbacks
+            window.orders = await loadJsonFile('/data/taxonomy/orders.json', { data: [] });
+            window.suborders = await loadJsonFile('/data/taxonomy/suborders.json', { data: [] });
+            window.families = await loadJsonFile('/data/taxonomy/families.json', { data: [] });
+            window.subfamilies = await loadJsonFile('/data/taxonomy/subfamilies.json', { data: [] });
+            window.species = await loadJsonFile('/data/taxonomy/species.json', { data: [] });
+            window.images = await loadJsonFile('/data/species/'+species_ID+'.json', { data: [] });   // HARD CODED
+            
+            console.log('Data loading completed');
+//            console.log('Orders:', window.orders);
+//            console.log('Suborders:', window.suborders);
+//            console.log('Families:', window.families);
+//            console.log('Subfamilies:', window.subfamilies);
+
+            const ordersArray = (window.orders && window.orders.data) ? window.orders.data : (window.orders || []);
+            const subordersArray = (window.suborders && window.suborders.data) ? window.suborders.data : (window.suborders || []);
+            const familiesArray = (window.families && window.families.data) ? window.families.data : (window.families || []);
+            const subfamiliesArray = (window.subfamilies && window.subfamilies.data) ? window.subfamilies.data : (window.subfamilies || []);
+            const speciesArray = (window.species && window.species.data) ? window.species.data : (window.species || []);
+            const imagesArray = (window.images && window.images.data) ? window.images.data : (window.images || []);
+
+
+            // Get species data
+            // search speciesArray and get row were speciesArray.ID is equal to species_ID
+              const species_data = speciesArray.find(species =>
+              species.Species_ID === species_ID);   // gets a single species row
+              console.log(species_data);
+
+            // BUILD TAXONOMIC BREADCRUMB BOX ABOVE SPECIES TITLE
+            buildTaxonomicBreadcrumbBox(species_data, ordersArray, subordersArray, familiesArray, subfamiliesArray);
+
+            // BUILD TAXONOMIC BOX
+            if (species_data.Endangered) {
+              renderConservationStatus(species_data.Endangered, 'status-panel');
+            }
+            
+            // BUILD SPECIES HEADING BOX
+            buildSpeciesHeadingBox(species_data);
+
+            // SHOW IMAGES IN ORDER first (non-slides), incldung gender box if required, photo, equipment, location & date 
+            buildPhotoGroups(imagesArray, species_ID, Path);
+
+            // Then render slide thumbnails (Slide === "Y") after main images
+            renderSlides(imagesArray, species_ID, Path);
+
+        }catch (error) {
+            console.error('Critical error loading data:', error);
+        };
+    }
+
+
+    function formatLocation(photo) {
+      let loc = photo.place;
+      if (photo.province) loc += ', ' + photo.province;
+      if (photo.country && photo.country !== 'Argentina') loc += ', ' + photo.country;
+      return loc;
+    }
+
+    function formatDate(dateStr) {
+      // Parse date string "YYYY-MM-DD" and create date in local timezone
+      const [year, month, day] = dateStr.split('-').map(Number);
+      const d = new Date(year, month - 1, day); // month is 0-indexed in JavaScript
+      return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+    }
+
+    function buildSpeciesHeadingBox(data) {
+        // Species Title
+       document.getElementById('species-title').innerHTML = `
+       <div class="species-section">
+       <div class="species-title">
+       ${data.Species_Name_Sp}<br>
+       <span class="scientific-name">${data.Species_Name_Sci}</span><br>
+       <span class="english-text">${data.Species_Name_En}</span>
+       </div>
+       </div>
+       `;
+    }
+
+    function buildTaxonomicBreadcrumbBox(sp, ordersArray, subordersArray, familiesArray, subfamiliesArray) {
+      const mount = document.getElementById('taxonomic-header');
+      if (!mount || !sp) return;
+
+      const order = sp.Order_Sci || '';
+      const suborder = sp.Suborder_Sci || '';
+      const family = sp.Family_Sci || '';
+      const subfamily = sp.Subfamily_Sci || '';
+
+      // Decide label set and scientific breadcrumb according to availability
+      let labelEs = '';
+      let labelEn = '';
+      let parts = [];
+
+      if (subfamily) {
+        labelEs = 'Orden - Familia - Subfamilia:';
+        labelEn = 'Order - Family - Subfamily:';
+        parts = [order, family, subfamily].filter(Boolean);
+      } else if (suborder) {
+        labelEs = 'Orden - Suborden - Familia:';
+        labelEn = 'Order - Suborder - Family:';
+        parts = [order, suborder, family].filter(Boolean);
+      } else {
+        labelEs = 'Orden - Familia:';
+        labelEn = 'Order - Family:';
+        parts = [order, family].filter(Boolean);
+      }
+
+      // Decide best return target (subfamily > passerine family > suborder > family > order)
+      let returnName = '';
+      let groupType = '';
+      let path = '';
+      if (subfamily) {
+        const sfRow = (subfamiliesArray || []).find(sf => sf.Subfamily_Sci === subfamily);
+        if (sfRow) {
+          returnName = subfamily;
+          groupType = 'subfamily';
+          path = sfRow.SF_Path || '';
+        }
+      }
+      if (!returnName && family) {
+        const famRow = (familiesArray || []).find(f => f.Family_Name_Sci === family);
+        if (famRow && (order === 'Passeriformes')) {
+          // Passeriformes: always link to family (or subfamily if present above)
+          returnName = family;
+          groupType = 'family';
+          path = `/Passeriformes/${famRow.Family_Name_Sci}/`;
+        }
+      }
+      if (!returnName && suborder) {
+        const soRow = (subordersArray || []).find(so => so.SO_Name_Sci === suborder);
+        if (soRow) {
+          returnName = suborder;
+          groupType = 'suborder';
+          path = `/${order}/`;
+        }
+      }
+      // For non-passerine orders without suborders, choose family only when the order is marked to subdivide by families (FA); otherwise link to the order
+      if (!returnName) {
+        const orderRow = (ordersArray || []).find(o => o.Order_Name_Sci === order);
+        if (orderRow && orderRow.Subdivide === 'FA' && family) {
+          const famRow = (familiesArray || []).find(f => f.Family_Name_Sci === family);
+          if (famRow) {
+            returnName = family;
+            groupType = 'family';
+            path = `/${famRow.Family_Path || ''}`;
+          }
+        }
+      }
+      if (!returnName && order) {
+        returnName = order;
+        groupType = 'order';
+        path = `/${order}/`;
+      }
+
+      // Build optional link URL
+      let href = '';
+      if (returnName && groupType && path) {
+        const params = new URLSearchParams();
+        params.set('path', path);
+        params.set('groupType', groupType);
+        params.set('groupId', returnName);
+        href = `/grupo?${params.toString()}`;
+      }
+
+      // Render breadcrumb, making the chosen returnName clickable and blue
+      const partsHTML = parts.map(p => (href && p === returnName) ? `<a class="heading-return-link" href="${href}">${p}</a>` : p).join(' \u2013 ');
+      const box = document.createElement('div');
+      box.id = 'headingBox';
+      box.innerHTML = `
+        <table style="width: 100%; margin: auto;">
+          <tr class="data-row">
+            <td style="text-align: center;"><span class="Sp_Text">${labelEs}</span><br><span class="En_Text">${labelEn}</span></td>
+            <td><div class="crumb-title">${partsHTML}</div></td>
+          </tr>
+        </table>
+      `;
+      mount.replaceWith(box);
+    }
+
+    function buildPhotoGroups(imagesArray, species_ID, Path) {
+      const container = document.getElementById('images');
+      container.textContent = '';
+
+      imagesArray.forEach(item => {
+        const group = document.createElement('div');
+        if (item.Slide === "Y")
+          return;
+        group.className = 'photo-group';
+
+        // Sex/Age bar (optional)
+        const code = (item.Sex_Age_Code || item.Sex_Age || '').toString().trim().toUpperCase();
+        const map = genderMap[code];
+        if (map || (item.Sex_Age && item.Sex_Age.trim())) { 
+          const gb = document.createElement('div');
+          gb.className = 'gender-box';
+          gb.innerHTML = map ? map.label : item.Sex_Age;
+          if (map && map.color) gb.style.backgroundColor = map.color;
+          group.appendChild(gb);
+        }
+
+        // Image frame (black background, centered)
+        const frame = document.createElement('div');
+        frame.className = 'image-frame';
+
+        const thumb = '/images/Aves/' + (Path || '') + item.Thumbnail_Filename;
+        const large = '/images/Aves/' + (Path || '') + (item.Large_Filename || '');
+        const hasLarge = !!item.Large_Filename && item.Large_Filename !== item.Thumbnail_Filename;
+
+        const img = document.createElement('img');
+        img.loading = 'lazy';
+        img.src = thumb;
+        img.alt = (window.species_data && window.species_data.Species_Name_Sp) || '';
+
+        if (hasLarge) {
+          const a = document.createElement('a');
+          a.href = large;
+          a.setAttribute('rel', 'lightbox[' + (species_ID || 'set') + ']');
+          a.setAttribute('title', item.Location_Date || '');
+          a.appendChild(img);
+          frame.appendChild(a);
+        } else {
+        img.classList.add('unpaired'); // optional for styling
+        frame.appendChild(img);
+        }
+
+        // Add a small "back to top" control in the top-right corner of the frame
+        const toTop = document.createElement('a');
+        toTop.href = '#top';
+        toTop.className = 'to-top';
+        toTop.textContent = '⬆';
+        frame.appendChild(toTop);
+
+        const tip = document.createElement('div');
+        tip.className = 'to-top-tooltip';
+        tip.innerHTML = '<div class="tip-es">Volver arriba</div><div class="tip-en">Back to top</div>';
+        frame.appendChild(tip);
+
+        group.appendChild(frame);
+
+
+        // Info rows
+        const cam = document.createElement('div');
+        cam.className = 'info-section camera-info';
+        cam.textContent = item.Equipment || '';
+        group.appendChild(cam);
+
+        let Date = item.Date.slice(0, 10);  
+        let Location = item.Location;
+        let Province = item.Province;
+        let Country = ""
+        if ((item.Country !== null) && (item.Country.trim() !== "")) Country = ', ' + item.Country.toUpperCase();
+        let Location_Date = Location + ', ' + Province + Country + ' - ' + Date;  
+        const loc = document.createElement('div');
+        loc.className = 'info-section location-info';
+        loc.textContent = Location_Date || '';
+        group.appendChild(loc);
+
+        container.appendChild(group);
+      });
+    } 
+
+    function renderSlides(imagesArray, species_ID, Path) {
+      const slides = imagesArray.filter(item => String(item.Slide || '').toUpperCase() === 'Y');
+      if (!slides.length) return;
+
+      const imagesEl = document.getElementById('images');
+      const container = document.createElement('div');
+      container.className = 'slide-container';
+
+      const titleEs = document.createElement('div');
+      titleEs.className = 'slide-title';
+      titleEs.textContent = 'Otras fotos: algunas más antiguas, algunas muy buenas.';
+      container.appendChild(titleEs);
+
+      const titleEn = document.createElement('div');
+      titleEn.className = 'slide-title-english';
+      titleEn.textContent = 'Other photos: some older, some very good.';
+      container.appendChild(titleEn);
+
+      const grid = document.createElement('div');
+      grid.className = 'slide-grid';
+
+      const row = document.createElement('div');
+      row.className = 'slide-row';
+
+      slides.forEach(item => {
+        const itemEl = document.createElement('div');
+        itemEl.className = 'slide-item';
+
+        const frame = document.createElement('div');
+        frame.className = 'slide-frame';
+
+        const thumb = '/images/Aves/' + (Path || '') + item.Thumbnail_Filename;
+        const large = '/images/Aves/' + (Path || '') + (item.Large_Filename || '');
+        const hasLarge = !!item.Large_Filename && item.Large_Filename !== item.Thumbnail_Filename;
+
+        const img = document.createElement('img');
+        img.loading = 'lazy';
+        img.src = thumb;
+        img.alt = (window.species_data && window.species_data.Species_Name_Sp) || '';
+
+        if (hasLarge) {
+          const a = document.createElement('a');
+          a.href = large;
+          a.setAttribute('rel', 'lightbox[' + (species_ID || 'slides') + ']');
+          a.setAttribute('title', item.Location_Date || '');
+          a.appendChild(img);
+          frame.appendChild(a);
+        } else {
+          frame.appendChild(img);
+        }
+
+        itemEl.appendChild(frame);
+
+        const info = document.createElement('div');
+        info.className = 'slide-info';
+
+        const locEl = document.createElement('div');
+        locEl.className = 'slide-location';
+        const country = (item.Country && item.Country.trim() && item.Country !== 'Argentina') ? ', ' + item.Country.toUpperCase() : '';
+        const locText = [item.Location, item.Province].filter(Boolean).join(', ') + (country || '');
+        locEl.textContent = locText.trim();
+
+        const dateEl = document.createElement('div');
+        dateEl.className = 'slide-date';
+        const d = (item.Date || '').toString();
+        dateEl.textContent = d ? d.slice(0, 10) : '';
+
+        info.appendChild(locEl);
+        info.appendChild(dateEl);
+
+        itemEl.appendChild(info);
+        row.appendChild(itemEl);
+      });
+
+      grid.appendChild(row);
+      container.appendChild(grid);
+
+      // Insert slides after the main images block
+      imagesEl.parentNode.insertBefore(container, imagesEl.nextSibling);
+    }
+
+
+    // Conservation Status Grid
+    const STATUS_ITEMS = [
+      { key: 'NT', className: 'nt', es: 'CASI AMENAZADA',        en: 'NEAR THREATENED' },
+      { key: 'VU', className: 'vu', es: 'VULNERABLE',             en: 'VULNERABLE' },
+      { key: 'EN', className: 'en', es: 'EN PELIGRO',             en: 'ENDANGERED' },
+      { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO',     en: 'CRITICALLY ENDANGERED' },
+    ];
+
+    function normalizeThreat(value) {
+      if (!value) return '';
+      const key = String(value).toUpperCase().trim();
+      return (key === 'NT' || key === 'VU' || key === 'EN' || key === 'CR') ? key : '';
+    }
+
+    function renderConservationStatus(selectedKey, mount) {
+      const key = normalizeThreat(selectedKey);
+      const el = (typeof mount === 'string') ? document.getElementById(mount) : mount;
+      if (!el) return;
+
+      el.innerHTML = `
+        <div class="status-panel">
+          <div class="status-heading">
+            <div class="es">¡ESPECIE GLOBALMENTE AMENAZADA!</div>
+            <div class="en">GLOBALLY THREATENED SPECIES!</div>
+          </div>
+          <div class="status-grid">
+            ${STATUS_ITEMS.map(item => `
+              <div class="status-box ${item.className} ${item.key === key ? 'is-selected' : ''}">
+                <span class="label-es">${item.es}</span>
+                <span class="label-en">${item.en}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+
+    // call loadTables()
+    loadTables();    
+    console.log(species_data);
+
+    </script>
+ 
+    <SCRIPT src="/lightbox/js/jquery-1.7.2.min.js"></SCRIPT>
+    <SCRIPT src="/lightbox/js/jquery-ui-1.8.18.custom.min.js"></SCRIPT>
+    <SCRIPT src="/lightbox/js/jquery.smooth-scroll.min.js"></SCRIPT>
+    <SCRIPT src="/lightbox/js/lightbox.js"></SCRIPT>
+
+</body>
+</html>
+
+
+

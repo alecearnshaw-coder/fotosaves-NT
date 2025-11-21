@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
+    "generated_at": "2025-09-28T18:57:40.460322",
+    "group_key": "SP_0841",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0841",
+      "Slug": "PijuCoronaRojiza",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_PijuiCoronaRojiza_Karadya_3Jul2016_600.jpg",
+      "Large_Filename": "A_PijuiCoronaRojiza_Karadya_3Jul2016_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "BioReserva Karadyá, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "3-07-2016",
+      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 3-07-2016",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0841",
+      "Slug": "PijuiCoronaRojiza",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PijuiCoronaRojiza_Cantareira_01Nov2008_600.jpg",
+      "Large_Filename": "A_PijuiCoronaRojiza_Cantareira_01Nov2008_1200.jpg",
+      "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter 1.7x",
+      "Sex_Age": null,
+      "Location": "Serra da Cantareira",
+      "Province": "Sao Paulo",
+      "Country": "BRAZIL",
+      "Date": "01-11-2008",
+      "Location_Date": "Serra da Cantareira, Sao Paulo, BRAZIL - 01-11-2008",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0841",
+      "Slug": "PijuiCoronaRojiza",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "PijuiCoronaRojiza1_Cantareira_SaoPaulo_Nov08_th.jpg",
+      "Large_Filename": "PijuiCoronaRojiza1_Cantareira_SaoPaulo_Nov08.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Cantareira",
+      "Province": "Sao Paulo",
+      "Country": "BRAZIL",
+      "Date": "10-2008",
+      "Location_Date": "Cantareira, Sao Paulo, BRAZIL - 10/2008",
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Caprimulgiformes/Caprimulgiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-13T01:47:12.463247",
+    "group_key": "SP_0332",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0332",
+      "Slug": "AtajacaminosLira",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_AtajacaminosLira_Yala_11Oct2014_600.jpg",
+      "Large_Filename": "A_AtajacaminosLira_Yala_11Oct2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": "M",
+      "Location": "Parque Provincial Potrero de Yala",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "11-10-2014",
+      "Location_Date": "Parque Provincial Potrero de Yala, Jujuy - 11-10-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0332",
+      "Slug": "AtajacaminosLira",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_AtajacaminosLiraH_Yala_9Oct2017_600.jpg",
+      "Large_Filename": "A_AtajacaminosLiraH_Yala_9Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": "F",
+      "Location": "Parque Provincial Potrero de Yala",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "9-10-2017",
+      "Location_Date": "Parque Provincial Potrero de Yala, Jujuy - 9-10-2017",
+      "Threat_Status": null
+    }
+  ]
+}

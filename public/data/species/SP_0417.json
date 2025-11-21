@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-13T23:30:46.167789",
+    "group_key": "SP_0417",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0417",
+      "Slug": "LechuzaBatarazChaquenia",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "Strix_chacoensis_Chaco_Ago2002_600.jpg",
+      "Large_Filename": null,
+      "Equipment": "Canon AV1 + Tamron Zoom 80-210 mm",
+      "Sex_Age": null,
+      "Location": "Reserva Provincial \"El Loro Hablador\", El Impenetrable",
+      "Province": "Chaco",
+      "Country": null,
+      "Date": "8-2002",
+      "Location_Date": "Reserva Provincial \"El Loro Hablador\", El Impenetrable, Chaco - 8/2002",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0417",
+      "Slug": "LechuzaBatarazChaquenia",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "Strix_chacoensis2_Chaco_Ago2002_th.jpg",
+      "Large_Filename": "Strix_chacoensis2_Chaco_Ago2002.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Reserva Provincial \"El Loro Hablador\", El Impenetrable",
+      "Province": "Chaco",
+      "Country": null,
+      "Date": "8-2002",
+      "Location_Date": "Reserva Provincial \"El Loro Hablador\", El Impenetrable, Chaco - 8/2002",
+      "Threat_Status": null
+    }
+  ]
+}

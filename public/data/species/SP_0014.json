@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-03T00:00:57.742315",
+    "group_key": "SP_0014",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0014",
+      "Slug": "InambuSilbon",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_InambuSilbon_PampaDLViuda_01Mar2025_600.jpg",
+      "Large_Filename": "A_InambuSilbon_PampaDLViuda_01Mar2025_1200.jpg",
+      "Equipment": "Canon EOS 7D MkII + Canon Zoom 18-135 mm f/3.5-5.6 IS",
+      "Sex_Age": null,
+      "Location": "Pampa de la Viuda Agustina",
+      "Province": "La Rioja",
+      "Country": null,
+      "Date": "1-03-2025",
+      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0014",
+      "Slug": "InambuSilbon",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "InambuSilbon_DiquePasoCarretas_24Oct2011_600.jpg",
+      "Large_Filename": "InambuSilbon_DiquePasoCarretas_24Oct2011.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Dique Paso de las Carretas",
+      "Province": "San Luis",
+      "Country": null,
+      "Date": "24-10-2011",
+      "Location_Date": "Dique Paso de las Carretas, San Luis - 24-10-2011",
+      "Threat_Status": null
+    }
+  ]
+}

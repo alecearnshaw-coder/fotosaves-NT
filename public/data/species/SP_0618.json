@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.322993",
+    "group_key": "SP_0618",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0618",
+      "Slug": "MosquetaCoronaOliva",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_MosquetaCoronaOliva_ReservaSurucua_3May2014_600.jpg",
+      "Large_Filename": "A_MosquetaCoronaOliva_ReservaSurucua_3May2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": null,
+      "Province": null,
+      "Country": null,
+      "Date": null,
+      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 3 -05-2014",
+      "Threat_Status": null
+    }
+  ]
+}

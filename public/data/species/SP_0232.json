@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
+    "generated_at": "2025-09-09T00:20:49.080195",
+    "group_key": "SP_0232",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0232",
+      "Slug": "PlayerasC_GaviotaChica",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_GaviotaChica_600.jpg",
+      "Large_Filename": "A_GaviotaChica_1200.jpg",
+      "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter1.7x",
+      "Sex_Age": null,
+      "Location": "Miraflores",
+      "Province": "Lima",
+      "Country": "PERU",
+      "Date": "12-2006",
+      "Location_Date": "Miraflores , Lima, PERU - 12/2006",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0232",
+      "Slug": "PlayerasC_GaviotaChica",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "GaviotaChica2_LimaPeru_Dic06_th.jpg",
+      "Large_Filename": "GaviotaChica2_LimaPeru_Dic06.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Miraflores",
+      "Province": "Lima",
+      "Country": "PERU",
+      "Date": "12-2006",
+      "Location_Date": "Miraflores , Lima, PERU - 12/2006",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0232",
+      "Slug": "PlayerasC_GaviotaChica",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "GaviotaChica1_VillaPeru_Dic06_th.jpg",
+      "Large_Filename": "GaviotaChica1_VillaPeru_Dic06.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Pantanos de Villa",
+      "Province": "Lima",
+      "Country": "PERU",
+      "Date": "12-2006",
+      "Location_Date": "Pantanos de Villa, Lima, PERU - 12/2006",
+      "Threat_Status": null
+    }
+  ]
+}

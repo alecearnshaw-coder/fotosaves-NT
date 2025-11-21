@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bird Photos - New Version</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #999973;
+            color: #663300;
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #DCDBB8;
+            border-radius: 8px;
+            padding: 12px;
+        }
+        .order-row { display: flex; margin-bottom: 8px; align-items: flex-start; min-height: 60px; }
+        .order-image { flex: 0 0 180px; margin-right: 15px; }
+        .order-image img { width: 180px; height: 125px; object-fit: cover; border: 1px solid #663300; border-radius: 8px; }
+        .order-content { flex: 1; font-size: 90%; line-height: 1.3; }
+        .order-title { font-weight: bold; margin-bottom: 2px; font-size: 160%; }
+        .order-title a { color: #7A2900; text-decoration: none; }
+        .order-title a:hover { text-decoration: underline; }
+        .order-scientific { font-style: italic; }
+        .order-spanish { color: #666666; }
+        .species-count { color: #008080; font-weight: bold; margin: 0px 0; font-size: 118%; }
+        .photo-count { color: #443322; font-weight: bold; margin: 2px 0; }
+        .family-list { font-size: 110%; color: #443322; margin-top: 2px; line-height: 1.2; }
+        .family-name { color: #D55A00; font-weight: bold; font-size: 100%; }
+        .subgroup { margin-left: 0px; margin-top: 5px; padding-left: 10px; border-left: 2px solid #CC6600; }
+        .subgroup-row { display: flex; margin-bottom: 5px; align-items: flex-start; }
+        .subgroup-image { flex: 0 0 180px; margin-right: 10px; }
+        .subgroup-image img { width: 180px; height: 125px; object-fit: cover; border: 1px solid #663300; border-radius: 8px; }
+        .subgroup-content { flex: 1; font-size: 85%; line-height: 1.2; }
+        .placeholder { color: #333333; font-style: italic; }
+    </style>
+    <link rel="stylesheet" href="/styles/shared_header.css">
+</head>
+<body>
+    <div class="heading-container">
+        <div class="site-header-banded">
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">photos <span style="color:#FF9966">of wild animals</span> <span class="subheadline">of ARGENTINA</span></div>
+            </div>
+            <div class="site-header-band site-header-band-light">
+                <div class="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+            </div>
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">fotos <span style="color:#FF9966">de animales silvestres</span> <span class="subheadline">de ARGENTINA</span></div>
+            </div>
+        </div>
+        <div class="quick-links">
+            <div class="links-right">
+                <span class="label-en">Links:</span>
+                <a class="quick-link" href="/index_english.html" title="Site home (English)">Site home</a>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align:center; margin: 6px 0 8px 0;">
+        <a class="quick-link" href="/Aves.html" title="Ir a página en Español">Ir a página en Español</a>
+    </div>
+
+    <div class="container">
+        <div id="orders-container"></div>
+    </div>
+    
+    <script>
+        let orders = [];
+        let suborders = [];
+        let families = [];
+        let subfamilies = [];
+        let species = [];
+        
+        async function loadOrders() {
+            try {
+                const loadJsonFile = async (filename, fallback = { data: [] }) => {
+                    try {
+                        const response = await fetch(filename, { cache: 'no-store' });
+                        if (response.ok) return await response.json();
+                        return fallback;
+                    } catch (error) { return fallback; }
+                };
+                window.orders = await loadJsonFile(`/data/taxonomy/orders.json`, { data: [] });
+                window.suborders = await loadJsonFile(`/data/taxonomy/suborders.json`, { data: [] });
+                window.families = await loadJsonFile(`/data/taxonomy/families.json`, { data: [] });
+                window.subfamilies = await loadJsonFile(`/data/taxonomy/subfamilies.json`, { data: [] });
+                window.species = await loadJsonFile(`/data/taxonomy/species.json`, { data: [] });
+                displayOrders();
+            } catch (error) {
+                document.getElementById('orders-container').innerHTML = '<div class="placeholder">Error loading data</div>';
+            }
+        }
+
+        function displaySpeciesForOrder(orderId, familiesArray, speciesArray) {
+            const orderFamilies = familiesArray.filter(family => family.Parent_Order_ID === orderId);
+            if (!orderFamilies.length) return '';
+            let output = '';
+            orderFamilies.forEach(family => {
+                const speciesList = speciesArray.filter(s => s.Family_Sci === family.Family_Name_Sci && s.Image_Cnt > 0);
+                if (speciesList.length > 0) {
+                    const speciesHTML = speciesList.map(s => `<span class="family-list">${s.Species_Name_En} (${s.Image_Cnt})</span>`).join(', ');
+                    const familyHTML = `<span class="family-name">${family.Family_Name_Sci.toUpperCase()} (${speciesList.length})</span>`;
+                    if (output !== '') output += ' - ';
+                    output += `${familyHTML}: ${speciesHTML}`;
+                }
+            });
+            return output;
+        }
+
+        function displayOrders() {
+            const container = document.getElementById('orders-container');
+            container.innerHTML = '';
+            const ordersArray = (window.orders && window.orders.data) ? window.orders.data : (window.orders || []);
+            const subordersArray = (window.suborders && window.suborders.data) ? window.suborders.data : (window.suborders || []);
+            const familiesArray = (window.families && window.families.data) ? window.families.data : (window.families || []);
+            const subfamiliesArray = (window.subfamilies && window.subfamilies.data) ? window.subfamilies.data : (window.subfamilies || []);
+            const speciesArray = (window.species && window.species.data) ? window.species.data : (window.species || []);
+
+            const nonPasseriformesOrders = ordersArray.filter(order => order.Order_ID !== 'OR_029');
+            nonPasseriformesOrders.forEach(order => {
+                if (order.Subdivide === 'SO') {
+                    createOrderWithSuborders(container, order, subordersArray, familiesArray, subfamiliesArray, speciesArray);
+                } else if (order.Subdivide === 'FA') {
+                    createOrderWithFamilies(container, order, familiesArray, subfamiliesArray, speciesArray);
+                } else {
+                    createOrderElement(container, order, familiesArray, speciesArray);
+                }
+            });
+
+            // Spacer text box before Passeriformes (optional text)
+            const textBoxRow = document.createElement('div');
+            textBoxRow.className = 'order-row';
+            textBoxRow.style.marginTop = '20px';
+            textBoxRow.style.marginBottom = '20px';
+            const textBoxImage = document.createElement('div');
+            textBoxImage.className = 'order-image';
+            textBoxImage.style.visibility = 'hidden';
+            const textBoxContent = document.createElement('div');
+            textBoxContent.className = 'order-content';
+            const textBox = document.createElement('div');
+            textBox.style.width = '84%';
+            textBox.style.minHeight = '80px';
+            textBox.style.padding = '10px';
+            textBox.style.border = '2px solid #663300';
+            textBox.style.borderRadius = '8px';
+            textBox.style.fontFamily = 'Arial, Helvetica, sans-serif';
+            textBox.style.fontSize = '14px';
+            textBox.style.backgroundColor = '#F5F5DC';
+            textBox.contentEditable = 'true';
+            textBox.style.textAlign = 'center';
+            const heading = document.createElement('div');
+            heading.className = 'order-title';
+            heading.innerHTML = `Order <span class="order-scientific">Passeriformes</span> <span class="order-spanish">(Songbirds)</span>`;
+            heading.style.textAlign = 'center';
+            heading.style.marginBottom = '10px';
+            const placeholder = document.createElement('div');
+            placeholder.className = 'placeholder';
+            placeholder.innerHTML = 'Birds of the passerine (or Passeriformes) order usually account for approximately 50% of the bird species in most regions of the world. This is particularly true in Argentina.<br>So this large order is broken down by family, and in some cases - where it makes sense - also by subfamily.';
+            placeholder.style.textAlign = 'left';
+            placeholder.style.marginTop = '10px';
+            textBox.appendChild(heading);
+            textBox.appendChild(placeholder);
+            textBoxContent.appendChild(textBox);
+            textBoxRow.appendChild(textBoxImage);
+            textBoxRow.appendChild(textBoxContent);
+            container.appendChild(textBoxRow);
+
+            createPasseriformesSection(container, familiesArray, subfamiliesArray, speciesArray);
+        }
+
+        function createOrderWithSuborders(container, order, subordersArray, familiesArray, subfamiliesArray, speciesArray) {
+            const orderRow = document.createElement('div');
+            orderRow.className = 'order-row';
+            const orderImage = document.createElement('div');
+            orderImage.className = 'order-image';
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + order.Order_Image || 'images/placeholder.jpg';
+            img.alt = order.Order_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            orderImage.appendChild(img);
+            const orderContent = document.createElement('div');
+            orderContent.className = 'order-content';
+            const orderTitle = document.createElement('div');
+            orderTitle.className = 'order-title';
+            orderTitle.innerHTML = `Order <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_En})</span>`;
+            const orderSpecies = document.createElement('div');
+            orderSpecies.className = 'species-count';
+            orderSpecies.textContent = `SPECIES: ${order.Species_Cnt} of ${order.Known_Species_Cnt} present in Argentina`;
+            orderContent.appendChild(orderTitle);
+            orderContent.appendChild(orderSpecies);
+            const orderSuborders = subordersArray.filter(so => so.Parent_ID === order.Order_ID);
+            if (orderSuborders.length > 0) {
+                const subgroupsDiv = document.createElement('div');
+                subgroupsDiv.className = 'subgroup';
+                orderSuborders.forEach(suborder => {
+                    const subgroupElement = createSuborderElement(order, suborder, familiesArray, subfamiliesArray, speciesArray);
+                    subgroupsDiv.appendChild(subgroupElement);
+                });
+                orderContent.appendChild(subgroupsDiv);
+            }
+            orderRow.appendChild(orderImage);
+            orderRow.appendChild(orderContent);
+            container.appendChild(orderRow);
+        }
+
+        function createOrderWithFamilies(container, order, familiesArray, subfamiliesArray, speciesArray) {
+            const orderRow = document.createElement('div');
+            orderRow.className = 'order-row';
+            const orderImage = document.createElement('div');
+            orderImage.className = 'order-image';
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + order.Order_Image || 'images/placeholder.jpg';
+            img.alt = order.Order_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            orderImage.appendChild(img);
+            const orderContent = document.createElement('div');
+            orderContent.className = 'order-content';
+            const orderTitle = document.createElement('div');
+            orderTitle.className = 'order-title';
+            orderTitle.innerHTML = `Order <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_En})</span>`;
+            const orderSpecies = document.createElement('div');
+            orderSpecies.className = 'species-count';
+            orderContent.appendChild(orderTitle);
+            orderContent.appendChild(orderSpecies);
+            const orderFamilies = familiesArray.filter(family => family.Parent_Order_ID === order.Order_ID);
+            if (orderFamilies.length > 0) {
+                const subgroupsDiv = document.createElement('div');
+                subgroupsDiv.className = 'subgroup';
+                orderFamilies.forEach(family => {
+                    const familyElement = createFamilyElement(family, familiesArray, subfamiliesArray, speciesArray, 'O');
+                    subgroupsDiv.appendChild(familyElement);
+                });
+                orderContent.appendChild(subgroupsDiv);
+            }
+            orderRow.appendChild(orderImage);
+            orderRow.appendChild(orderContent);
+            container.appendChild(orderRow);
+        }
+
+        function createOrderElement(container, order, familiesArray, speciesArray) {
+            const imageFolderPath = '/' + order.Order_Name_Sci + '/';
+            const groupType = 'order';
+            const groupId = order.Order_Name_Sci;
+            const url = new URL('/grupo', window.location.href);
+            url.searchParams.set('path', imageFolderPath);
+            url.searchParams.set('groupType', groupType);
+            url.searchParams.set('groupId', groupId);
+            const orderRow = document.createElement('div');
+            orderRow.className = 'order-row';
+            const orderImage = document.createElement('div');
+            orderImage.className = 'order-image';
+            const Link = document.createElement('a');
+            Link.href = url.toString();
+            Link.style.textDecoration = 'none';
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + order.Order_Image || 'images/placeholder.jpg';
+            img.alt = order.Order_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            Link.appendChild(img);
+            orderImage.appendChild(Link);
+            const orderContent = document.createElement('div');
+            orderContent.className = 'order-content';
+            const orderTitle = document.createElement('div');
+            orderTitle.className = 'order-title';
+            const Title_Link = document.createElement('a');
+            Title_Link.href = url.toString();
+            Title_Link.style.textDecoration = 'none';
+            Title_Link.style.color = 'inherit';
+            Title_Link.innerHTML = `Order <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_En})</span>`;
+            orderTitle.appendChild(Title_Link);
+            const orderSpecies = document.createElement('div');
+            orderSpecies.className = 'species-count';
+            orderContent.appendChild(orderTitle);
+            orderContent.appendChild(orderSpecies);
+            const speciesData = displaySpeciesForOrder(order.Order_ID, familiesArray, speciesArray);
+            if (order.Species_Cnt > 0) {
+                orderSpecies.textContent = `SPECIES: ${order.Species_Cnt} of ${order.Known_Species_Cnt} present in Argentina`;
+                const orderBreakdown = document.createElement('div');
+                orderBreakdown.className = 'family-list';
+                orderBreakdown.style.marginTop = '2px';
+                orderBreakdown.style.lineHeight = '1.2';
+                orderBreakdown.innerHTML = `${order.Image_Cnt} photos: ${speciesData}`;
+                orderContent.appendChild(orderBreakdown);
+            }
+            orderRow.appendChild(orderImage);
+            orderRow.appendChild(orderContent);
+            container.appendChild(orderRow);
+        }
+
+        function createSuborderElement(order, suborder, familiesArray, subfamiliesArray, speciesArray) {
+            const imageFolderPath = '/' + order.Order_Name_Sci + '/';
+            const groupType = 'suborder';
+            const groupId = suborder.SO_Name_Sci;
+            const url = new URL('/grupo', window.location.href);
+            url.searchParams.set('path', imageFolderPath);
+            url.searchParams.set('groupType', groupType);
+            url.searchParams.set('groupId', groupId);
+            const subgroupRow = document.createElement('div');
+            subgroupRow.className = 'subgroup-row';
+            const subgroupImage = document.createElement('div');
+            subgroupImage.className = 'subgroup-image';
+            const Link = document.createElement('a');
+            Link.href = url.toString() || '#';
+            Link.style.textDecoration = 'none';
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + suborder.SO_Image || 'images/placeholder.jpg';
+            img.alt = suborder.SO_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            Link.appendChild(img);
+            subgroupImage.appendChild(Link);
+            const subgroupContent = document.createElement('div');
+            subgroupContent.className = 'subgroup-content';
+            const subgroupTitle = document.createElement('div');
+            subgroupTitle.className = 'order-title';
+            const Title_Link = document.createElement('a');
+            Title_Link.href = url.toString() || '#';
+            Title_Link.style.textDecoration = 'none';
+            Title_Link.style.color = 'inherit';
+            Title_Link.innerHTML = `Suborder <span class="order-scientific">${suborder.SO_Name_Sci}</span> <span class="order-spanish">(${suborder.SO_Name_En})</span>`;
+            subgroupTitle.appendChild(Title_Link);
+            const subgroupSpecies = document.createElement('div');
+            subgroupSpecies.className = 'species-count';
+            subgroupSpecies.textContent = `SPECIES: ${suborder.Species_Cnt} of ${suborder.Known_Species_Cnt} present in Argentina`;
+            subgroupContent.appendChild(subgroupTitle);
+            subgroupContent.appendChild(subgroupSpecies);
+            const breakdownText = generateSuborderPhotoBreakdown(suborder, familiesArray, speciesArray);
+            if (breakdownText) {
+                const suborderBreakdown = document.createElement('div');
+                suborderBreakdown.className = 'family-list';
+                suborderBreakdown.style.marginTop = '2px';
+                suborderBreakdown.style.lineHeight = '1.2';
+                suborderBreakdown.innerHTML = `${suborder.Image_Cnt} photos: ${breakdownText}`;
+                subgroupContent.appendChild(suborderBreakdown);
+            }
+            subgroupRow.appendChild(subgroupImage);
+            subgroupRow.appendChild(subgroupContent);
+            return subgroupRow;
+        }
+
+        function createFamilyElement(family, familiesArray, subfamiliesArray, speciesArray, Family_Type) {
+            if (!familiesArray || !Array.isArray(familiesArray)) return '';
+            if (!speciesArray || !Array.isArray(speciesArray)) return '';
+            let imageFolderPath = '';
+            if (Family_Type === 'O') {
+                imageFolderPath = '/' + family.Family_Path;
+            } else {
+                imageFolderPath = '/Passeriformes/' + family.Family_Name_Sci + '/';
+            }
+            const groupType = 'family';
+            const groupId = family.Family_Name_Sci;
+            const url = new URL('/grupo', window.location.href);
+            url.searchParams.set('path', imageFolderPath);
+            url.searchParams.set('groupType', groupType);
+            url.searchParams.set('groupId', groupId);
+            const subgroupRow = document.createElement('div');
+            subgroupRow.className = 'subgroup-row';
+            const isPasseriformesFamily = family.Parent_Order_ID === 'OR_029';
+            const hasSubfamilies = family.SubFamilies === 'Y';
+            const subgroupImage = document.createElement('div');
+            subgroupImage.className = isPasseriformesFamily ? 'order-image' : 'subgroup-image';
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + family.Family_Image || 'images/placeholder.jpg';
+            img.alt = family.Family_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            if (hasSubfamilies) {
+                subgroupImage.appendChild(img);
+            } else {
+                const Link = document.createElement('a');
+                Link.href = url.toString() || '#';
+                Link.style.textDecoration = 'none';
+                Link.appendChild(img);
+                subgroupImage.appendChild(Link);
+            }
+            const subgroupContent = document.createElement('div');
+            subgroupContent.className = isPasseriformesFamily ? 'order-content' : 'subgroup-content';
+            const subgroupTitle = document.createElement('div');
+            subgroupTitle.className = 'order-title';
+            if (hasSubfamilies) {
+                subgroupTitle.innerHTML = `Family <span class="order-scientific">${family.Family_Name_Sci}</span> <span class="order-spanish">(${family.Family_Name_En})</span>`;
+            } else {
+                const Title_Link = document.createElement('a');
+                Title_Link.href = url.toString() || '#';
+                Title_Link.style.textDecoration = 'none';
+                Title_Link.style.color = 'inherit';
+                Title_Link.innerHTML = `Family <span class="order-scientific">${family.Family_Name_Sci}</span> <span class="order-spanish">(${family.Family_Name_En})</span>`;
+                subgroupTitle.appendChild(Title_Link);
+            }
+            const subgroupSpecies = document.createElement('div');
+            subgroupSpecies.className = 'species-count';
+            subgroupSpecies.textContent = `SPECIES: ${family.Species_Cnt} of ${family.Known_Species_Cnt} present in Argentina`;
+            subgroupContent.appendChild(subgroupTitle);
+            subgroupContent.appendChild(subgroupSpecies);
+            const familyBreakdown = document.createElement('div');
+            familyBreakdown.className = 'family-list';
+            familyBreakdown.style.marginTop = '2px';
+            familyBreakdown.style.lineHeight = '1.2';
+            if (family.SubFamilies !== 'Y') {
+                const familySpeciesList = speciesArray.filter(s => s.Family_Sci === family.Family_Name_Sci && s.Image_Cnt > 0);
+                const PhotoCount = family.Image_Cnt;
+                const speciesHTML = familySpeciesList.map(s => `<span class="family-list">${s.Species_Name_En} (${s.Image_Cnt})</span>`).join(', ');
+                familyBreakdown.innerHTML = `${PhotoCount} photos: ${speciesHTML}`;
+            }
+            subgroupContent.appendChild(familyBreakdown);
+            if (family.SubFamilies === 'Y') {
+                const familySubfamilies = subfamiliesArray.filter(sf => sf.Family_ID === family.Family_ID);
+                if (familySubfamilies.length > 0) {
+                    const subfamiliesDiv = document.createElement('div');
+                    subfamiliesDiv.className = 'subgroup';
+                    familySubfamilies.forEach(subfamily => {
+                        const subfamilyElement = createSubfamilyElement(subfamily, family, speciesArray);
+                        subfamiliesDiv.appendChild(subfamilyElement);
+                    });
+                    subgroupContent.appendChild(subfamiliesDiv);
+                }
+            }
+            subgroupRow.appendChild(subgroupImage);
+            subgroupRow.appendChild(subgroupContent);
+            return subgroupRow;
+        }
+
+        function createSubfamilyElement(subfamily, parentFamily, speciesArray) {
+            const imageFolderPath = subfamily.SF_Path;
+            const groupType = 'subfamily';
+            const groupId = subfamily.Subfamily_Sci;
+            const url = new URL('/grupo', window.location.href);
+            url.searchParams.set('path', imageFolderPath);
+            url.searchParams.set('groupType', groupType);
+            url.searchParams.set('groupId', groupId);
+            const subgroupRow = document.createElement('div');
+            subgroupRow.className = 'subgroup-row';
+            const subgroupImage = document.createElement('div');
+            subgroupImage.className = 'subgroup-image';
+            const Link = document.createElement('a');
+            Link.href = url.toString() || '#';
+            Link.style.textDecoration = 'none';
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + subfamily.Subfamily_Image || 'images/placeholder.jpg';
+            img.alt = subfamily.Subfamily_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            Link.appendChild(img);
+            subgroupImage.appendChild(Link);
+            const subgroupContent = document.createElement('div');
+            subgroupContent.className = 'subgroup-content';
+            const subgroupTitle = document.createElement('div');
+            subgroupTitle.className = 'order-title';
+            const Title_Link = document.createElement('a');
+            Title_Link.href = url.toString() || '#';
+            Title_Link.style.textDecoration = 'none';
+            Title_Link.style.color = 'inherit';
+            Title_Link.innerHTML = `Subfamily <span class="order-scientific">${subfamily.Subfamily_Sci}</span> <span class="order-spanish">(${subfamily.Subfamily_En})</span>`;
+            subgroupTitle.appendChild(Title_Link);
+            const subgroupSpecies = document.createElement('div');
+            subgroupSpecies.className = 'species-count';
+            subgroupSpecies.textContent = `SPECIES: ${subfamily.Species_Cnt} of ${subfamily.Known_Species_Cnt} present in Argentina`;
+            subgroupContent.appendChild(subgroupTitle);
+            subgroupContent.appendChild(subgroupSpecies);
+            const subfamilyBreakdown = document.createElement('div');
+            subfamilyBreakdown.className = 'family-list';
+            subfamilyBreakdown.style.marginTop = '2px';
+            subfamilyBreakdown.style.lineHeight = '1.2';
+            const subfamilySpeciesList = speciesArray.filter(s => s.Subfamily_Sci === subfamily.Subfamily_Sci && s.Image_Cnt > 0);
+            const PhotoCount = subfamily.Image_Cnt;
+            const speciesHTML = subfamilySpeciesList.map(s => `<span class="family-list">${s.Species_Name_En} (${s.Image_Cnt})</span>`).join(', ');
+            subfamilyBreakdown.innerHTML = `${PhotoCount} photos: ${speciesHTML}`;
+            subgroupContent.appendChild(subfamilyBreakdown);
+            subgroupRow.appendChild(subgroupImage);
+            subgroupRow.appendChild(subgroupContent);
+            return subgroupRow;
+        }
+
+        function generateSuborderPhotoBreakdown(suborder, familiesArray, speciesArray) {
+            let output = '';
+            const suborderFamilyList = familiesArray.filter(family => family.Suborder_ID === suborder.SO_ID);
+            if (!suborderFamilyList.length) return '';
+            suborderFamilyList.forEach(family => {
+                const speciesList = speciesArray.filter(s => s.Family_Sci === family.Family_Name_Sci && s.Image_Cnt > 0);
+                if (speciesList.length > 0) {
+                    const speciesHTML = speciesList.map(s => `<span class="family-list">${s.Species_Name_En} (${s.Image_Cnt})</span>`).join(', ');
+                    const familyHTML = `<span class="family-name">${family.Family_Name_Sci.toUpperCase()} (${speciesList.length})</span>`;
+                    if (output !== '') output += ' - ';
+                    output += `${familyHTML}: ${speciesHTML}`;
+                }
+            });
+            return output;
+        }
+
+        function createPasseriformesSection(container, familiesArray, subfamiliesArray, speciesArray) {
+            const passeriformesFamilies = familiesArray.filter(family => family.Parent_Order_ID === 'OR_029' && family.Image_Cnt > 0);
+            if (!passeriformesFamilies.length) return;
+            passeriformesFamilies.forEach(family => {
+                const familyElement = createFamilyElement(family, familiesArray, subfamiliesArray, speciesArray, 'P');
+                container.appendChild(familyElement);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', loadOrders);
+    </script>
+</body>
+</html>
+

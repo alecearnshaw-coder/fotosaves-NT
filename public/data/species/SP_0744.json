@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Rhinocryptidae/Rhinocryptidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-27T13:33:47.106852",
+    "group_key": "SP_0744",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0744",
+      "Slug": "ChurrinGrande",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "Ochre-flankedTapaculo1_Conce_Chile_Oct08_600.jpg",
+      "Large_Filename": "Ochre-flankedTapaculo1_Conce_Chile_Oct08.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Concepción",
+      "Province": "Biobío",
+      "Country": "CHILE",
+      "Date": "10-2008",
+      "Location_Date": "Concepción, Biobío, CHILE - 10/2008",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0744",
+      "Slug": "ChurrinGrande",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "Ochre-flankedTapaculo2_Conce_Chile_Oct08_th.jpg",
+      "Large_Filename": "Ochre-flankedTapaculo2_Conce_Chile_Oct08.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Concepción",
+      "Province": "Biobío",
+      "Country": "CHILE",
+      "Date": "10-2008",
+      "Location_Date": "Concepción, Biobío, CHILE - 10/2008",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0744",
+      "Slug": "ChurrinGrande",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "Ochre-flankedTapaculo3_Conce_Chile_Oct08_th.jpg",
+      "Large_Filename": "Ochre-flankedTapaculo3_Conce_Chile_Oct08.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Concepción",
+      "Province": "Biobío",
+      "Country": "CHILE",
+      "Date": "10-2008",
+      "Location_Date": "Concepción, Biobío, CHILE - 10/2008",
+      "Threat_Status": null
+    }
+  ]
+}

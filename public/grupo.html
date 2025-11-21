@@ -1,0 +1,1124 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Fotos de Aves - Nueva Versión</title>
+    <style>
+
+body {
+    background-color: #999973;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 8px 20px 20px 20px; /* Reduce top padding from 20px to 8px */
+    line-height: 1.4;
+}
+
+
+
+/*.HTML_container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 3px;
+    border-radius: 15px;
+} */
+
+.heading-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 12px 6px 12px;
+    border-radius: 15px;
+}
+
+
+.container {
+    background: #afceaf;         /* light greenish background */
+    border: 2px solid #769e76;   /* green border */
+    border-radius: 18px;         /* rounded corners */
+    padding: 4px 12px;          /* space inside the box */
+    margin: 5px auto;           /* space outside the box, centered */
+    max-width: 800px;            /* optional: limits how wide the box can get */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* optional: subtle shadow */
+}
+/* Header styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+/* header typography moved to shared_header.css */
+
+
+/* header block styles moved to shared_header.css */
+
+
+#headingBox {
+  border: 2px solid #6a9678;
+  padding: 0px 20px;
+  background: #b0dbaa;
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 15px;
+}
+
+h1 {
+    font-weight: bold;
+  font-style: italic;
+  color: #685244;
+  font-size: 2.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}   
+
+.subHeadingBox {
+  border: 2px solid #6a9678;
+  padding: 6px 8px;
+  background: #b0dbaa;
+  max-width: 780px;
+  margin: 6px auto 10px auto;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+h2 {
+    font-weight: bold;
+  font-style: italic;
+  color: #685244;
+  font-size: 1.4em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}   
+.italicText {
+  font-weight: bold;
+  font-style: italic;
+  color: #685244;
+  font-size: 2.2em;
+}
+.Sp_Text {
+  font-weight: bold;
+  font-size: 1.em;
+  color: #494242;
+
+}
+.En_Text {
+  font-weight: bold;
+  font-size: 1.em;
+  color: #036118;
+}
+.centerCell {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#speciesIndex {
+    width: 99%;
+    margin: 10px auto;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #bbd3bb; /* Species text - darker row background */
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#speciesIndex td, #speciesIndex th { /* Interspecies line color */
+    padding: 2px 20px;    /* vertical and horizontal padding */
+    border-bottom: 1px solid #315f30;
+}
+
+#speciesIndex tr:nth-child(even) {
+    background-color: #d6ecd3;  /* Lighter row  for zebra striping */
+}
+
+/*#speciesIndex tr.data-row:hover {
+    background-color: #dab9c6;  
+}     */
+
+#speciesIndex tr:hover {
+    background-color: #b6899b;  
+}
+
+#speciesIndex a {
+    color: #013b01; /* dark green */
+    text-decoration: none;
+}
+
+#speciesIndex a:hover {
+    /*text-decoration: underline; */
+    font-weight: bold; 
+    color: #010801;
+}
+
+#speciesIndex b {
+    color: #7c7151; /* group header text font color */
+}
+
+#speciesIndex tr.group-header { /* group header background color */
+    background-color: #e6f7bc;
+    font-style: italic;
+    font-size: 1.2em;
+}
+    </style>
+    <link rel="stylesheet" href="/lightbox/css/lightbox.css">
+    <link rel="stylesheet" href="/styles/Species_Builder_styles.css">
+    <link rel="stylesheet" href="/styles/shared_header.css">
+    <style>
+        /* Smooth scrolling for anchor navigation on this page */
+        html { scroll-behavior: smooth; }
+        
+        /* Species section should leave a small top margin when scrolled to */
+        .species-section {
+            scroll-margin-top: 20px;
+        }
+
+        /* Spacing overrides: tighten after species block, enlarge before new family heading */
+        .container .species-section { margin-bottom: 36px; }
+        .subHeadingBox { margin-top: 2px; }
+
+        /* Spacing between two photos of the same species */
+        .species-section .species-photos .photo-group { margin-bottom: 16px; }
+
+        /* Small round "back to top" control on each photo frame */
+        .image-frame { position: relative; }
+        .image-frame .to-top {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.6);
+            color: #fff;
+            text-align: center;
+            line-height: 22px;
+            font-size: 15px;
+            font-weight: 900;
+            text-decoration: none;
+            opacity: 0.75;
+        }
+        .image-frame .to-top:hover { opacity: 1; }
+        /* Custom two-line tooltip (ES + EN) for the up arrow */
+        .image-frame .to-top-tooltip {
+            position: absolute;
+            top: 0;
+            right: 28px;
+            background: rgba(255,255,255,0.98);
+            border: 1px solid #6a9678;
+            padding: 4px 8px;
+            border-radius: 8px;
+            font-size: 12px;
+            line-height: 1.2;
+            white-space: nowrap;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+            pointer-events: none;
+            z-index: 10;
+            display: none;
+        }
+        .image-frame .to-top:hover + .to-top-tooltip { display: block; }
+        .image-frame .to-top-tooltip .tip-es { color: #494242; }
+        .image-frame .to-top-tooltip .tip-en { color: #036118; }
+
+        
+
+        /* Quick links styles are provided by shared_header.css */
+        
+        /* Extra spacing around the Table of Contents container */
+        .toc-container { margin: 10px auto; }
+        /* Tighten TOC title area */
+        .heading-container.toc-container { padding-top: 7px; }
+        .heading-container.toc-container > div:first-child { margin: 0; }
+
+        /* Style the species "more photos" link */
+        .species-more-link {
+            margin: -8px 0 2px 0;
+            text-align: center;
+        }
+        .species-more-link .more-link {
+            display: inline-block;
+            padding: 3px 10px;
+            background-color: rgba(255,255,255,0.8);
+            border: 1px solid #769e76;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 1.1;
+            color: #013b01;
+            transition: background-color 0.2s;
+        }
+        .species-more-link .more-link:hover {
+            background-color: rgba(255,255,255,0.95);
+            text-decoration: none;
+        }
+        .species-more-link .more-icon {
+            font-size: 16px;
+            margin: 0 3px;
+            vertical-align: middle;
+        }
+        .species-more-link .more-text-es,
+        .species-more-link .more-text-en {
+            font-size: 14px;
+            vertical-align: middle;
+        }
+        .species-more-link .more-text-en {
+            color: #036118;
+        }
+    </style>
+</head>
+<body>
+
+    <a id="top"></a>
+
+    <!-- Objects place in page 
+        ---------------------- -->
+
+    <!-- 1. Fotosaves site header -->
+    <div class="heading-container">
+        <!-- Site Header with three-band design, each line a band -->
+        <div class="site-header-banded">
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">fotos <span style="color:#FF9966">de animales silvestres</span> <span class="subheadline">de ARGENTINA</span></div>
+            </div>
+            <div class="site-header-band site-header-band-light">
+                <div class="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+            </div>
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">photos <span style="color:#FF9966">of wild animals</span> <span class="subheadline">of ARGENTINA</span></div>
+            </div>
+        </div>
+        <div class="quick-links">
+            <div class="links-left">
+                <span class="label-es">Enlaces:</span>
+                <a class="quick-link" href="/Aves.html" title="Selección de órdenes y familias de aves">Aves</a>
+                <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
+            </div>
+            <div class="links-right">
+                <span class="label-en">Links:</span>
+                <a class="quick-link" href="/Birds.html" title="Select bird orders and families">Birds</a>
+                <a class="quick-link" href="/index_english.html" title="Site home (English)">Site home</a>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/shared/genderMap.js"></script>
+
+     <!-- 2. Navigation links are shown inside the heading container -->
+
+
+     <!-- 3. Dynamicly-generated Heading box -->
+     <div id="headingBox"></div>
+
+     <!-- 4. Dynamicly-generated Species index table -->
+    <div class="heading-container toc-container"> 
+        <div style="text-align: center;"><span class="Sp_Text">Tabla de contenido - </span><span class="En_Text">Table of contents</span></div>
+        <table id="speciesIndex">
+            <colgroup>
+                <col style="width: 30%;">
+                <col style="width: 36%;">
+                <col style="width: 34%;">   
+            </colgroup>
+        </table> 
+    </div>
+
+    <!-- species-title not used in group view; titles are rendered per-species -->
+
+    <!-- 5. Dynamicly-generated images section -->
+    <div class="container">
+
+        <!-- 5.1. The image section may contain one or more constructs that consist of
+            1. The Family heading
+            2. The species anchor
+            2. The species name heading
+            3. The conservation status block
+            4. Betwwen 1 or 2 images of the species, each of which consists of:
+                3.1. Optionally the gender-age block
+                3.2. The image, with equipment & location / date boxes
+            5. The link to the species page   -->
+    
+        <div id="images"></div>
+
+        <template id="photo-group-template">
+            <div class="photo-group">
+              <div class="gender-box" data-el="gender" hidden></div>
+              <div class="image-frame" data-el="frame">
+                <a data-el="link"><img data-el="img" alt=""></a>
+              </div>
+              <div class="info-section camera-info" data-el="camera"></div>
+              <div class="info-section location-info" data-el="location"></div>
+            </div>
+          </template>
+
+        <template id="species-section-template">
+            <div class="species-section" data-el="section">
+                <div class="species-title-box">
+                    <div class="species-title" data-el="title"></div>
+                </div>
+                <div data-el="status"></div>
+                <div class="species-photos" data-el="photos"></div>
+            </div>
+        </template>
+
+    </div>
+
+
+    
+    <script>
+                
+        // GET SCRIPT HANDLE FOR SPECIES INDEX TABLE
+        const table = document.getElementById("speciesIndex");
+
+        let orders = [];
+        let suborders = [];
+        let families = [];
+        let subfamilies = [];
+        let species = [];          
+
+        
+        async function loadOrders() {
+            try {
+                console.log('Loading orders data...');
+                
+                // Load all JSON data with error handling for missing files
+                const loadJsonFile = async (filename, fallback = { data: [] }) => {
+                    try {
+                        const response = await fetch(filename, { cache: 'no-store' });
+                        if (response.ok) {
+                            const data = await response.json();
+                            console.log(`✅ Loaded ${filename}:`, data);
+                            return data;
+                        } else {
+                            console.warn(`⚠️ File ${filename} not found (${response.status}), using fallback`);
+                            return fallback;
+                        }
+                    } catch (error) {
+                        console.warn(`⚠️ Error loading ${filename}:`, error.message, '- using fallback');
+                        return fallback;
+                    }
+                };
+                
+                // Load files with fallbacks
+                window.orders = await loadJsonFile('/data/taxonomy/orders.json', { data: [] });
+                window.suborders = await loadJsonFile('/data/taxonomy/suborders.json', { data: [] });
+                window.families = await loadJsonFile('/data/taxonomy/families.json', { data: [] });
+                window.subfamilies = await loadJsonFile('/data/taxonomy/subfamilies.json', { data: [] });
+                window.species = await loadJsonFile('/data/taxonomy/species.json', { data: [] });
+                
+                console.log('Data loading completed');
+                console.log('Orders:', window.orders);
+                console.log('Suborders:', window.suborders);
+                console.log('Families:', window.families);
+                console.log('Subfamilies:', window.subfamilies);
+
+                const ordersArray = (window.orders && window.orders.data) ? window.orders.data : (window.orders || []);
+                const subordersArray = (window.suborders && window.suborders.data) ? window.suborders.data : (window.suborders || []);
+                const familiesArray = (window.families && window.families.data) ? window.families.data : (window.families || []);
+                const subfamiliesArray = (window.subfamilies && window.subfamilies.data) ? window.subfamilies.data : (window.subfamilies || []);
+                const speciesArray = (window.species && window.species.data) ? window.species.data : (window.species || []);
+
+            // READ URL PARAMETERS
+            // Page data needed to build page: 
+            //    pageLevel (order, suborder, family or subfamily) 
+            //       and 
+            //    groupID (Rheiformes, Scolopaci, Icteridae, Dendrocolaptinae, etc.)
+            //       and
+            //    path (folder path to the images)
+                const urlParams = new URLSearchParams(window.location.search);
+                const path = urlParams.get('path');
+                const pageLevel = urlParams.get('groupType');
+                const groupID = urlParams.get('groupId');
+                console.log('Path:', path);
+                console.log('Page Level:', pageLevel);
+                console.log('Group ID:', groupID);
+
+ 
+            // BUILD HEADING BOX
+                buildHeadingBox(pageLevel, groupID, ordersArray, subordersArray, familiesArray, subfamiliesArray);
+                // If landing on a family with subfamilies, add a compact subfamily quick row under the top box
+                buildSubfamilyQuickRow(pageLevel, groupID, familiesArray, subfamiliesArray, path);
+                
+            // BUILD SPECIES INDEX TABLE
+                buildSpeciesIndexTable(speciesArray, pageLevel, groupID);
+               
+
+            // BUILD IMAGES SECTION
+               buildImagesSection(pageLevel, groupID, speciesArray, ordersArray, subordersArray, familiesArray, subfamiliesArray, path);
+
+
+            }catch (error) {
+                console.error('Critical error loading data:', error);
+            };
+        }
+
+        function buildHeadingBox(pageLevel, groupID, ordersArray, subordersArray, familiesArray, subfamiliesArray) {
+
+            // Add page heading
+            const headingBox = document.getElementById('headingBox');
+            let Scientific = "";
+            let Spanish = "";
+            let English = "";
+            let Sp_Descr = "";
+            let En_Descr = "";
+            let Tax_Group_Sp = "";
+            let Tax_Group_En = "";
+        
+            
+            // Find text to show in heading box
+            switch(pageLevel) {
+                // Process aeperately for each taxonomic level
+                case "order":
+                    // Find the descriptions in the orders table
+                    // 1. Find the matching row
+                    const Order_Row = ordersArray.find(order => order.Order_Name_Sci === groupID);
+                    // 2. Get the Spanish description
+                    Sp_Descr = Order_Row ? Order_Row.Order_Name_Sp : null;
+                    // 3. Get the English description
+                    En_Descr = Order_Row ? Order_Row.Order_Name_En : null;
+                // format the text
+                    Scientific = `<h1>${groupID}</h1>`;
+                    Tax_Group_Sp = "Orden";
+                    Tax_Group_En = "Order";
+                    break;
+                case "suborder":
+                    // Find the descriptions in the suborders table
+                    // 1. Find the matching row
+                    const Suborder_Row = subordersArray.find(suborder => suborder.SO_Name_Sci === groupID);
+                    // 2. Get the Spanish description
+                    Sp_Descr = Suborder_Row ? Suborder_Row.SO_Name_Sp : null;
+                    // 3. Get the English description
+                    En_Descr = Suborder_Row ? Suborder_Row.SO_Name_En : null;
+                    // format the text with breadcrumb Order – Suborder
+                    let parentOrderName = '';
+                    if (Suborder_Row && Suborder_Row.Parent_ID) {
+                        const parentOrder = ordersArray.find(o => o.Order_ID === Suborder_Row.Parent_ID);
+                        parentOrderName = parentOrder ? parentOrder.Order_Name_Sci : '';
+                    }
+                    const suborderBreadcrumb = parentOrderName ? `${parentOrderName} – ${groupID}` : '';
+                    Scientific = `${suborderBreadcrumb ? `<div>${suborderBreadcrumb}</div>` : ''}<h1>${groupID}</h1>`;
+                    Tax_Group_Sp = "Suborden"  ;
+                    Tax_Group_En = "Suborder";
+                    break;
+                case "family":
+                    // Find the descriptions in the families table
+                    // 1. Find the matching row
+                    const Family_Row = familiesArray.find(family => family.Family_Name_Sci === groupID);
+                    // 2. Get the Spanish description
+                    Sp_Descr = Family_Row ? Family_Row.Family_Name_Sp : null;
+                    // 3. Get the English description
+                    En_Descr = Family_Row ? Family_Row.Family_Name_En : null;
+                    // format the text with breadcrumb Order – Family
+                    let parentOrderNameForFamily = '';
+                    if (Family_Row && Family_Row.Parent_Order_ID) {
+                        const parentOrder = ordersArray.find(o => o.Order_ID === Family_Row.Parent_Order_ID);
+                        parentOrderNameForFamily = parentOrder ? parentOrder.Order_Name_Sci : '';
+                    }
+                    const familyBreadcrumb = parentOrderNameForFamily ? `${parentOrderNameForFamily} – ${groupID}` : '';
+                    Scientific = `${familyBreadcrumb ? `<div>${familyBreadcrumb}</div>` : ''}<h1>${groupID}</h1>`
+                    Tax_Group_Sp = "Familia"  ;
+                    Tax_Group_En = "Family";
+
+                    break;
+                case "subfamily":
+                    // Find the descriptions in the subfamilies table
+                    // 1. Find the matching row
+                    const Subfamily_Row = subfamiliesArray.find(subfamily => subfamily.Subfamily_Sci === groupID);
+                    // 2. Get the Spanish description
+                    Sp_Descr = Subfamily_Row ? Subfamily_Row.Subfamily_Sp : null;
+                    // 3. Get the English description
+                    En_Descr = Subfamily_Row ? Subfamily_Row.Subfamily_En : null;
+                    // format the text with breadcrumb Order – Family – Subfamily (Subfamily as main h1)
+                    let crumbOrder = '';
+                    let crumbFamily = '';
+                    if (Subfamily_Row) {
+                        const parentFamily = familiesArray.find(f => f.Family_ID === Subfamily_Row.Family_ID);
+                        if (parentFamily) {
+                            crumbFamily = parentFamily.Family_Name_Sci;
+                            const parentOrder = ordersArray.find(o => o.Order_ID === parentFamily.Parent_Order_ID);
+                            crumbOrder = parentOrder ? parentOrder.Order_Name_Sci : '';
+                        }
+                    }
+                    const breadcrumb = [crumbOrder, crumbFamily].filter(Boolean).join(' – ');
+                    Scientific = `${breadcrumb ? `<div>${breadcrumb} – ${groupID}</div>` : ''}<h1>${groupID}</h1>`;
+                    Tax_Group_Sp = "Subfamilia"  ;
+                    Tax_Group_En = "Subfamily";
+                    break;
+            }
+            // Format the Spanish and English descriptions
+            Spanish = `<span class="Sp_Text">${Sp_Descr}</span>`;
+            English = `<span class="En_Text">${En_Descr}</span>`;
+
+            // Finally set the heading box text!
+            /////headingBox.innerHTML = Scientific + Spanish + English;
+
+            headingBox.innerHTML = `
+            <table style="width: 100%; margin: auto;">
+                <tr class="data-row">
+                    <td style="text-align: center;"><span class="Sp_Text">${Tax_Group_Sp}:</span><br><span class="En_Text">${Tax_Group_En}:</span></td>
+                    <td class="centerCell">${Scientific}</td>
+                    <td style="text-align: center;">${Spanish}<br>${English}</td>
+                </tr>
+            </table>
+            `;
+        }
+
+        function buildSubHeadingBox(pageLevel, order, family, familiesArray, subfamiliesArray, subfamilySci = '') {
+
+            // Define the variables
+            let Scientific1= "";   // Normally "Order"
+            let Spanish1 = "";
+            let English1 = "";
+            let Scientific2= "";    // Normally "Family"
+            let Spanish2 = "";
+            let English2 = "";
+            let Sp_Descr = "";
+            let En_Descr = "";
+    
+            // Find text to show in heading box
+            switch(pageLevel) {
+                // After TOC for order/suborder: show Family only
+                case "order":
+                case "suborder": {
+                    const famRow = familiesArray.find(f => f.Family_Name_Sci === family);
+                    Scientific2 = family;
+                    Sp_Descr = famRow ? famRow.Family_Name_Sp : family;
+                    En_Descr = famRow ? famRow.Family_Name_En : family;
+                    Spanish2 = "Familia:";
+                    English2 = "Family:";
+                    break;
+                }
+                // For family pages: show Family only (even if subfamilies exist)
+                case "family": {
+                    const famRow = familiesArray.find(f => f.Family_Name_Sci === family);
+                    Scientific2 = family;
+                    Sp_Descr = famRow ? famRow.Family_Name_Sp : family;
+                    En_Descr = famRow ? famRow.Family_Name_En : family;
+                    Spanish2 = "Familia:";
+                    English2 = "Family:";
+                    break;
+                }
+                // For subfamily pages: show Subfamily only
+                case "subfamily": {
+                    const subfamRow = (subfamiliesArray || []).find(sf => sf.Subfamily_Sci === (subfamilySci || ''))
+                        || (subfamiliesArray || []).find(sf => sf.Subfamily_Sci === family);
+                    Scientific2 = subfamRow ? subfamRow.Subfamily_Sci : (subfamilySci || family);
+                    Sp_Descr = subfamRow ? subfamRow.Subfamily_Sp : '';
+                    En_Descr = subfamRow ? subfamRow.Subfamily_En : '';
+                    Spanish2 = "Subfamilia:";
+                    English2 = "Subfamily:";
+                    break;
+                }
+            }
+
+            // Add family heading
+            const container = document.getElementById('images');
+            const subHeadingBox = document.createElement('div');
+            subHeadingBox.className = "subHeadingBox";  
+            
+
+            // Finally set the heading box text!
+            subHeadingBox.innerHTML = `
+            <table style="width: 100%; margin: auto;">
+                <tr class="data-row">
+                    ${Scientific2 ? `<td style=\"text-align: center;\"><span class=\"Sp_Text\">${Spanish2 || ''}</span><br><span class=\"En_Text\">${English2 || ''}</span></td>` : ''}
+                    ${Scientific2 ? `<td><h2>${Scientific2}</h2></td>` : ''}
+                    <td style="text-align: center;"><span class="Sp_Text">${Sp_Descr}</span><br><span class="En_Text">${En_Descr}</span></td>
+                </tr>
+            </table>
+            `;
+            container.appendChild(subHeadingBox);
+        }
+
+        
+        function buildLocation(item) {
+        const parts = [
+            item.place || '',
+            item.province || '',
+            (item.country && item.country !== 'Argentina') ? item.country : ''
+            ];
+            return parts.filter(p => p && p !== 'null' && p !== 'undefined').join(', ');
+        }
+
+        function formatDateLoose(raw) {
+            if (!raw) return '';
+            const s = String(raw);
+            // Strip time part if present (e.g., 2020-05-12T00:00:00)
+            if (s.includes('T')) return formatDateLoose(s.split('T')[0]);
+            // YYYY-MM-DD
+            if (/^\d{4}-\d{2}-\d{2}$/.test(s)) {
+                const [y,m,d] = s.split('-').map(Number);
+                return new Date(y, m - 1, d).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+            }
+            // YYYY-MM
+            if (/^\d{4}-\d{2}$/.test(s)) {
+                const [y,m] = s.split('-').map(Number);
+                return new Date(y, m - 1, 1).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+            }
+            // YYYY
+            if (/^\d{4}$/.test(s)) return s;
+            return s; // fallback: show as-is
+        }
+
+
+        function buildSpeciesIndexTable(speciesArray, pageLevel, groupID) {
+            const table = document.getElementById("speciesIndex");
+            let lastGroup = ""; 
+            let Blank_Row = false;   // Flag to avoid first row of the table being a blank
+            for (const species of speciesArray) {
+                //font-weight: bold;
+                // Only include species that belong to this page's group    
+                if (
+                (pageLevel === "order" && species.Order_Sci !== groupID) ||
+                (pageLevel === "suborder" && species.Suborder_Sci !== groupID) ||
+                (pageLevel === "family" && species.Family_Sci !== groupID) ||
+                (pageLevel === "subfamily" && species.Subfamily_Sci !== groupID)||
+                species.Image_Cnt ==  null || species.Image_Cnt == 0    // if count = null or 0 skip this species, do not add to table.
+                ) {
+                    continue;
+                }
+
+                // Determine grouping logic
+                let groupKey = "";
+                if (pageLevel === "order" || pageLevel === "suborder") {
+                    groupKey = species.Family_Sci;  // in these 2 cases the first level of grouping is by family
+                } 
+                else if (pageLevel === "family") {
+                    groupKey = species.Subfamily_Sci || "";  // Optional: blank if no subfamily
+                }
+
+                // Add group header row if needed, i.e. if the group key is different from the last group key
+                if (groupKey && groupKey !== lastGroup) {
+                    if (Blank_Row) {
+                        // Insert a blank line to separate the groups
+                        const blankRow = table.insertRow();
+                        blankRow.innerHTML = "<td colspan='3'>&nbsp;</td>";
+                    }
+                    Blank_Row = true;   // Set flag to avoid first row of the table being a blank
+
+                    // Insert the group header row
+                    const headerRow = table.insertRow();
+                    headerRow.classList.add("group-header");
+                    const cell = headerRow.insertCell();
+                    cell.colSpan = 3;
+
+                    cell.innerHTML = `<b>${groupKey}</b>`; 
+                  // cell.style.backgroundColor = "#eef";
+                  // cell.style.fontWeight = "bold";
+
+                    // While you're about it, create the taxonomic (family) break for the images section
+                    /*
+                    if (pageLevel === "order" || pageLevel === "suborder") {
+                        const taxonomicBreak = document.createElement("div");
+                        taxonomicBreak.className = "heading-container";        // NEEDS FURTHER STYLING
+                        taxonomicBreak.innerHTML = `<b>${groupKey}</b><br>`;
+                        images.appendChild(taxonomicBreak);
+                    } */
+                    lastGroup = groupKey;                    
+                }
+
+            // Add species row
+            const row = table.insertRow();
+            row.innerHTML = `
+            <td><a href="#${species.Species_Anchor}">${species.Species_Name_Sp}</a></td>
+            <td><a href="#${species.Species_Anchor}">${species.Species_Name_En}</a></td>
+            <td><a href="#${species.Species_Anchor}"><i>${species.Species_Name_Sci}</i></a></td>
+            `;
+
+
+            // Check the species record to display 1 or 2 cover images
+            // If there is a thumbnail1 cover for the species, display it
+            /* if (species.coverThumb1) {
+                // Create the photo group
+                const photoGroup = document.createElement("div");
+                photoGroup.className = "photo-group";
+                photoGroup.innerHTML = `<b>${species.Species_Name_Sp}</b><br>`;
+
+                // Check if the image has a gender
+                if (species.coverSex1) {                       
+
+                    // Create the gender box
+                    const genderBox = document.createElement("div");
+                    genderBox.className = "gender-box";
+                    genderBox.innerHTML = `<b>${species.coverSex1}</b>`;    // NEEDS FURTHER STYLING
+                    photoGroup.appendChild(genderBox);
+                }
+
+                // Create the image frame
+                const imageFrame = document.createElement("div");
+                imageFrame.className = "image-frame";
+                imageFrame.innerHTML = `<a href="#${species.Species_Anchor}"><img src="${species.coverThumb1}" alt="${species.Species_Name_Sp}"></a>`;
+                photoGroup.appendChild(imageFrame);
+
+                // Create the camera info
+                const cameraInfo = document.createElement("div");
+                cameraInfo.className = "info-section camera-info";
+                cameraInfo.innerHTML = `<b>${species.coverCamera1}</b>`;    // NEEDS FURTHER STYLING
+                photoGroup.appendChild(cameraInfo);
+
+        
+
+                // Append the photo group to the images section
+                images.appendChild(photoGroup); 
+                } */
+
+            } 
+        }
+
+        async function buildImagesSection(pageLevel, groupID, speciesArray, ordersArray, subordersArray, familiesArray, subfamiliesArray, Path) {
+            
+            const imageContainer = document.getElementById("images");
+
+            // 1. Define the group key. Essentially it will always be the family name for both orders and suborders. Provision made for subfamily name for families
+            // 2. Then construct the family list by scanning the species array
+            //let groupKey = "";
+            //if (pageLevel === "order" || pageLevel === "suborder") {
+            //    groupKey = species.Family_Sci;  // in these 2 cases the first level of grouping is by family
+            //} 
+            //else if (pageLevel === "family") {
+            //    groupKey = species.Subfamily_Sci || "";  // Optional: blank if no subfamily
+            //}
+
+            // STEP 1: Build the family list (familySet)
+            // Scan the species array to build the family list
+                // Step 1.a: Collect all species by selected order, suborder or family
+
+            let filtered = [];
+            if (pageLevel === "order") {
+                filtered = speciesArray.filter(sp => sp.Order_Sci === groupID);   
+            } else if (pageLevel === "suborder") {
+                filtered = speciesArray.filter(sp => sp.Suborder_Sci === groupID);
+            } else if (pageLevel === "family") {
+                filtered = speciesArray.filter(sp => sp.Family_Sci === groupID);
+            } else if (pageLevel === "subfamily") {
+                filtered = speciesArray.filter(sp => sp.Subfamily_Sci === groupID);
+            }
+
+                // Step 1.b: Reduce the list to only include one instance of each family
+            const familySet = new Set(filtered.map(sp => sp.Family_Sci).filter(Boolean));
+
+                // Step 1.c Convert to array
+            const familyList = Array.from(familySet)
+
+
+            // STEP 2: Build Images section with headings depends on page type
+            const container = document.getElementById("images");
+
+            // Subfamily page: single header for subfamily
+            if (pageLevel === 'subfamily') {
+                const anySp = filtered[0];
+                const orderSci = anySp ? anySp.Order_Sci : '';
+                const familySci = anySp ? anySp.Family_Sci : '';
+                buildSubHeadingBox('subfamily', orderSci, familySci, familiesArray, subfamiliesArray, groupID);
+                const speciesInSubfamily = filtered.filter(sp => Number(sp.Image_Cnt || 0) > 0);
+                for (const sp of speciesInSubfamily) {
+                    try {
+                        const resp = await fetch(`/data/species/${sp.Species_ID}.json`);
+                        const json = await resp.json();
+                        const imagesArray = (json && json.data) ? json.data : (json || []);
+                        const ssTpl = document.getElementById('species-section-template');
+                        const ssNode = ssTpl.content.cloneNode(true);
+                        if (sp.Species_Anchor) {
+                            const section = ssNode.querySelector('[data-el="section"]');
+                            section.id = sp.Species_Anchor;
+                        }
+                        const titleEl = ssNode.querySelector('[data-el="title"]');
+                        titleEl.innerHTML = `
+                            ${sp.Species_Name_Sp}<br>
+                            <span class="scientific-name">${sp.Species_Name_Sci}</span><br>
+                            <span class="english-text">${sp.Species_Name_En}</span>
+                            ${sp.Exotic && sp.Exotic.trim() !== '' ? `<br><span class="exotic-species"><span class="exotic-spanish">Especie EXÓTICA proveniente de ${sp.Exotic}</span> - <span class="exotic-english">EXOTIC species from ${sp.Exotic}</span></span>` : ''}
+                        `;
+                        const statusMount = ssNode.querySelector('[data-el="status"]');
+                        const statusPanel = renderConservationStatusEl(sp.Endangered);
+                        if (statusPanel) statusMount.replaceWith(statusPanel); else statusMount.remove();
+                        const photosEl = ssNode.querySelector('[data-el="photos"]');
+                        const coverItems = imagesArray.filter(item => item.Slide !== 'Y' && item.Cover === 'Y');
+                        coverItems.forEach(item => {
+                            photosEl.appendChild(renderPhotoGroup(item, Path));
+                        });
+                        if (sp.Has_Sp_Link === 'Y') {
+                            const moreLink = renderSpeciesMoreLink(sp, Path);
+                            photosEl.parentNode.appendChild(moreLink);
+                        }
+                        container.appendChild(ssNode);
+                    } catch (err) {
+                        console.error(`Failed to load ${sp.Species_ID}.json`, err);
+                    }
+                }
+                return;
+            }
+
+            // Family page: if subfamilies exist, group sections by subfamily; else show Family-only header
+            if (pageLevel === 'family') {
+                const subfamilySet = new Set(filtered.map(sp => sp.Subfamily_Sci).filter(Boolean));
+                if (subfamilySet.size > 0) {
+                    for (const subfamilySci of subfamilySet) {
+                        const anySp = filtered.find(sp => sp.Subfamily_Sci === subfamilySci);
+                        const orderSci = anySp ? anySp.Order_Sci : '';
+                        const familySci = anySp ? anySp.Family_Sci : '';
+                        buildSubHeadingBox('subfamily', orderSci, familySci, familiesArray, subfamiliesArray, subfamilySci);
+                        const speciesInSubfamily = filtered.filter(sp => sp.Subfamily_Sci === subfamilySci && Number(sp.Image_Cnt || 0) > 0);
+                        for (let i = 0; i < speciesInSubfamily.length; i++) {
+                            const sp = speciesInSubfamily[i];
+                            try {
+                                const resp = await fetch(`/data/species/${sp.Species_ID}.json`);
+                                const json = await resp.json();
+                                const imagesArray = (json && json.data) ? json.data : (json || []);
+                                const ssTpl = document.getElementById('species-section-template');
+                                const ssNode = ssTpl.content.cloneNode(true);
+                                if (sp.Species_Anchor) {
+                                    const anchor = ssNode.querySelector('[data-el="anchor"]');
+                                    anchor.id = sp.Species_Anchor;
+                                }
+                                const titleEl = ssNode.querySelector('[data-el="title"]');
+                                titleEl.innerHTML = `
+                                    ${sp.Species_Name_Sp}<br>
+                                    <span class="scientific-name">${sp.Species_Name_Sci}</span><br>
+                                    <span class="english-text">${sp.Species_Name_En}</span>
+                                    ${sp.Exotic && sp.Exotic.trim() !== '' ? `<br><span class="exotic-species"><span class="exotic-spanish">Especie EXÓTICA proveniente de ${sp.Exotic}</span> - <span class="exotic-english">EXOTIC species from ${sp.Exotic}</span></span>` : ''}
+                                `;
+                                const statusMount = ssNode.querySelector('[data-el="status"]');
+                                const statusPanel = renderConservationStatusEl(sp.Endangered);
+                                if (statusPanel) statusMount.replaceWith(statusPanel); else statusMount.remove();
+                                const photosEl = ssNode.querySelector('[data-el="photos"]');
+                                const coverItems = imagesArray.filter(item => item.Slide !== 'Y' && item.Cover === 'Y');
+                                coverItems.forEach(item => {
+                                    photosEl.appendChild(renderPhotoGroup(item, Path));
+                                });
+                                if (sp.Has_Sp_Link === 'Y') {
+                                    const moreLink = renderSpeciesMoreLink(sp, Path);
+                                    photosEl.parentNode.appendChild(moreLink);
+                                }
+                            container.appendChild(ssNode);
+                            } catch (err) {
+                                console.error(`Failed to load ${sp.Species_ID}.json`, err);
+                            }
+                        }
+                        // Spacer after each subfamily block
+                        const spacer = document.createElement('div');
+                        spacer.style.height = '30px';
+                        container.appendChild(spacer);
+                    }
+                    return;
+                }
+            }
+
+            // Default: iterate per family and render Family-only subheading
+            for (const familySci of familyList) {
+                const anySp = filtered.find(sp => sp.Family_Sci === familySci);
+                const orderSci = anySp ? anySp.Order_Sci : '';
+                buildSubHeadingBox(pageLevel, orderSci, familySci, familiesArray, subfamiliesArray);
+                const speciesInFamily = filtered.filter(sp => sp.Family_Sci === familySci && Number(sp.Image_Cnt || 0) > 0);
+                for (let i = 0; i < speciesInFamily.length; i++) {
+                    const sp = speciesInFamily[i];
+                    try {
+                        const resp = await fetch(`/data/species/${sp.Species_ID}.json`);
+                        const json = await resp.json();
+                        const imagesArray = (json && json.data) ? json.data : (json || []);
+                        const ssTpl = document.getElementById('species-section-template');
+                        const ssNode = ssTpl.content.cloneNode(true);
+                        if (sp.Species_Anchor) {
+                            const section = ssNode.querySelector('[data-el="section"]');
+                            section.id = sp.Species_Anchor;
+                        }
+                        const titleEl = ssNode.querySelector('[data-el="title"]');
+                        titleEl.innerHTML = `
+                            ${sp.Species_Name_Sp}<br>
+                            <span class="scientific-name">${sp.Species_Name_Sci}</span><br>
+                            <span class="english-text">${sp.Species_Name_En}</span>
+                            ${sp.Exotic && sp.Exotic.trim() !== '' ? `<br><span class="exotic-species"><span class="exotic-spanish">Especie EXÓTICA proveniente de ${sp.Exotic}</span> - <span class="exotic-english">EXOTIC species from ${sp.Exotic}</span></span>` : ''}
+                        `;
+                        const statusMount = ssNode.querySelector('[data-el="status"]');
+                        const statusPanel = renderConservationStatusEl(sp.Endangered);
+                        if (statusPanel) statusMount.replaceWith(statusPanel); else statusMount.remove();
+                        const photosEl = ssNode.querySelector('[data-el="photos"]');
+                        const coverItems = imagesArray.filter(item => item.Slide !== 'Y' && item.Cover === 'Y');
+                        coverItems.forEach(item => {
+                            photosEl.appendChild(renderPhotoGroup(item, Path));
+                        });
+                        if (sp.Has_Sp_Link === 'Y') {
+                            const moreLink = renderSpeciesMoreLink(sp, Path);
+                            photosEl.parentNode.appendChild(moreLink);
+                        }
+                    container.appendChild(ssNode);
+                    } catch (err) {
+                        console.error(`Failed to load ${sp.Species_ID}.json`, err);
+                    }
+                }
+                // Spacer after last species of this family
+                const spacer = document.createElement('div');
+                spacer.style.height = '30px';
+                container.appendChild(spacer);
+            }
+        }
+
+        // Optional compact row under top box listing subfamilies when on a Family page
+        function buildSubfamilyQuickRow(pageLevel, groupID, familiesArray, subfamiliesArray, path) {
+            if (pageLevel !== 'family') return;
+            const famRow = familiesArray.find(f => f.Family_Name_Sci === groupID);
+            if (!famRow) return;
+            const subfams = (subfamiliesArray || []).filter(sf => sf.Family_ID === famRow.Family_ID);
+            if (!subfams.length) return;
+            const mount = document.getElementById('headingBox');
+            const row = document.createElement('div');
+            row.style.maxWidth = '800px';
+            row.style.margin = '4px auto 0 auto';
+            row.style.textAlign = 'center';
+            row.innerHTML = `
+                <div><span class="Sp_Text">Subfamilias</span> – <span class="En_Text">Subfamilies</span></div>
+                <div>
+                    ${subfams.map(sf => {
+                        const url = new URL('Group_Builder.html', window.location.href);
+                        url.searchParams.set('path', sf.SF_Path || path || '');
+                        url.searchParams.set('groupType', 'subfamily');
+                        url.searchParams.set('groupId', sf.Subfamily_Sci);
+                        return `<a href="${url.toString()}">${sf.Subfamily_Sci}</a>`;
+                    }).join(' | ')}
+                </div>
+            `;
+            mount.insertAdjacentElement('afterend', row);
+        }
+
+        // Removed obsolete buildSpeciesHeadingBox; species title is rendered inline per-species
+
+
+        
+        function renderPhotoGroup(item, path) { 
+            const tpl = document.getElementById('photo-group-template');
+            const node = tpl.content.cloneNode(true);
+
+            // Gender
+            const genderEl = node.querySelector('[data-el="gender"]');
+            const code = (item.Sex_Age_Code || item.Sex_Age || '').toString().trim().toUpperCase();
+            const map = (window.genderMap || {})[code];
+            if (map || (item.Sex_Age && item.Sex_Age.trim())) {
+                genderEl.hidden = false;
+                genderEl.innerHTML = map ? map.label : item.Sex_Age;
+                if (map && map.color) genderEl.style.backgroundColor = map.color;
+            }
+
+            // Image (thumb + optional large link)
+            const img = node.querySelector('[data-el="img"]');
+            const link = node.querySelector('[data-el="link"]');
+            const frame = node.querySelector('[data-el="frame"]');
+            const thumb = '/images/Aves/' + (path || '') + item.Thumbnail_Filename;
+            const large = '/images/Aves/' + (path || '') + (item.Large_Filename || '');
+            const hasLarge = !!item.Large_Filename && item.Large_Filename !== item.Thumbnail_Filename;
+
+            img.loading = 'eager';  // Load immediately to prevent scroll calculation issues
+            img.src = thumb;
+            img.width = 600;  // Reserve space before image loads
+            img.height = 400;  // Typical aspect ratio for thumbnails
+        //    img.alt = speciesNameSp || '';
+
+            if (hasLarge) {
+                link.href = large;
+                link.setAttribute('rel', 'lightbox[' + (item.Species_ID || 'set') + ']');
+                link.setAttribute('title', item.Location_Date || '');
+            } else {
+                link.replaceWith(img);
+            }
+
+            // Add a small "back to top" control in the top-right corner of the frame
+            if (frame) {
+                const toTop = document.createElement('a');
+                toTop.href = '#top';
+                toTop.className = 'to-top';
+                toTop.textContent = '⬆';
+                frame.appendChild(toTop);
+
+                // custom tooltip (two lines, ES + EN)
+                const tip = document.createElement('div');
+                tip.className = 'to-top-tooltip';
+                tip.innerHTML = '<div class="tip-es">Volver arriba</div><div class="tip-en">Back to top</div>';
+                frame.appendChild(tip);
+            }
+
+            // Info
+            node.querySelector('[data-el="camera"]').textContent = item.Equipment || '';
+            const date = (item.Date || '').slice(0, 10);
+            const country = (item.Country && item.Country.trim() && item.Country !== 'Argentina') ? ', ' + item.Country.toUpperCase() : '';
+            node.querySelector('[data-el="location"]').textContent =
+                `${item.Location || ''}, ${item.Province || ''}${country} - ${date}`;
+
+            return node;
+
+        }
+        
+        // Render the bilingual "more species" link with bird icon
+        function renderSpeciesMoreLink(sp, pathPrefix) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'species-more-link';
+            const params = new URLSearchParams({
+                speciesId: sp.Species_ID,
+                imagesPath: pathPrefix
+            });
+            const href = `/especie?${params.toString()}`;
+            wrapper.innerHTML = `
+                <a class="more-link" href="${href}">
+                    <span class="more-text-es">Más fotos...</span>
+                    <span class="more-icon" aria-hidden="true">📷</span>
+                    <span class="more-text-en">More photos...</span>
+                </a>
+            `;
+            return wrapper;
+        }
+        
+        // Conservation Status helpers (for per-species status in group view)
+        const STATUS_ITEMS = [
+          { key: 'NT', className: 'nt', es: 'CASI AMENAZADA',        en: 'NEAR THREATENED' },
+          { key: 'VU', className: 'vu', es: 'VULNERABLE',             en: 'VULNERABLE' },
+          { key: 'EN', className: 'en', es: 'EN PELIGRO',             en: 'ENDANGERED' },
+          { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO',     en: 'CRITICALLY ENDANGERED' },
+        ];
+
+        function normalizeThreat(value) {
+          if (!value) return '';
+          const key = String(value).toUpperCase().trim();
+          return (key === 'NT' || key === 'VU' || key === 'EN' || key === 'CR') ? key : '';
+        }
+
+        function renderConservationStatusEl(selectedKey) {
+          const key = normalizeThreat(selectedKey);
+          if (!key) return null;
+          const wrapper = document.createElement('div');
+          wrapper.innerHTML = `
+            <div class="status-panel">
+              <div class="status-heading">
+                <div class="es">¡ESPECIE GLOBALMENTE AMENAZADA!</div>
+                <div class="en">GLOBALLY THREATENED SPECIES!</div>
+              </div>
+              <div class="status-grid">
+                ${STATUS_ITEMS.map(item => `
+                  <div class="status-box ${item.className} ${item.key === key ? 'is-selected' : ''}">
+                    <span class="label-es">${item.es}</span>
+                    <span class="label-en">${item.en}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>`;
+          return wrapper.firstElementChild || wrapper;
+        }
+        /* function loadSpeciesData() {
+            fetch("species.json")
+            .then(response => response.json())
+            .then(data => {
+                buildSpeciesIndexTable(data, pageLevel, groupID);
+            })
+            .catch(error => console.error("Error loading species data:", error));
+        }  */
+
+        // Wait for the DOM to be fully loaded before running the script
+        document.addEventListener('DOMContentLoaded', loadOrders);
+    </script>
+    <SCRIPT src="/lightbox/js/jquery-1.7.2.min.js"></SCRIPT>
+    <SCRIPT src="/lightbox/js/jquery-ui-1.8.18.custom.min.js"></SCRIPT>
+    <SCRIPT src="/lightbox/js/jquery.smooth-scroll.min.js"></SCRIPT>
+    <SCRIPT src="/lightbox/js/lightbox.js"></SCRIPT>
+    
+</body>

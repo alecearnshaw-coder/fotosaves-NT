@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
+    "generated_at": "2025-10-26T16:47:20.239380",
+    "group_key": "SP_1034",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_1034",
+      "Slug": "CapuchinoIbera",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_CapuchinoIbera_CambaTrapo_4Ene2009_600.jpg",
+      "Large_Filename": null,
+      "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter 1.7x",
+      "Sex_Age": "M",
+      "Location": "Camba Trapo, Colonia Pellegrini",
+      "Province": "Corrientes",
+      "Country": null,
+      "Date": "04-01-2006",
+      "Location_Date": "Camba Trapo, Colonia Pellegrini, Corrientes - 04-01-2006",
+      "Threat_Status": "Near-threatened"
+    }
+  ]
+}

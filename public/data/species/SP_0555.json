@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-21T15:02:47.383203",
+    "group_key": "SP_0555",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0555",
+      "Slug": "CalancateFrenteDorada",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_CalancateFrenteDorada_Picazos_26Oct2019_600.jpg",
+      "Large_Filename": "A_CalancateFrenteDorada_Picazos_26Oct2019_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Establecimiento Los Picazos, Tres Marías",
+      "Province": "Formosa",
+      "Country": null,
+      "Date": "26-11-2019",
+      "Location_Date": "Establecimiento Los Picazos, Tres Marías, Formosa - 26-11-2019",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0555",
+      "Slug": "CalancateFrenteDorada",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_CalancateFrenteDorada_CaminoAPayagua_19Oct2019_600.jpg",
+      "Large_Filename": "A_CalancateFrenteDorada_CaminoAPayagua_19Oct2019_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Camino a Payaguá",
+      "Province": "Formosa",
+      "Country": null,
+      "Date": "19-10-2019",
+      "Location_Date": "Camino a Payaguá, Formosa - 19-10-2019",
+      "Threat_Status": null
+    }
+  ]
+}

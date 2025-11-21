@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Gruiformes/Gruiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-04T03:21:11.482756",
+    "group_key": "SP_0135",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0135",
+      "Slug": "GallaretaGigante",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_GallaretaGigante_LagunaHuancar_12Oct2014_600.jpg",
+      "Large_Filename": "A_GallaretaGigante_LagunaHuancar_12Oct2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Laguna Huancar, Abra Pampa",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "12-10-2014",
+      "Location_Date": "Laguna Huancar, Abra Pampa, Jujuy - 12-10-2014",
+      "Threat_Status": null
+    }
+  ]
+}

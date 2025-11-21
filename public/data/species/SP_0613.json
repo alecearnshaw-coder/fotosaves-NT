@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.066254",
+    "group_key": "SP_0613",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0613",
+      "Slug": "FiofioOlivaceo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_FiofioOlivaceo_RECS_23Nov2021_600.jpg",
+      "Large_Filename": "A_FiofioOlivaceo_RECS_23Nov2021_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ecológica Costanera Sur (RECS)",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "23-11-2021",
+      "Location_Date": "Reserva Ecológica Costanera Sur (RECS), CABA - 23-11-2021",
+      "Threat_Status": "Vulnerable"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Furnariidae-Phyl/Furnariidae-Phyl_Image_Listing.xlsx",
+    "generated_at": "2025-09-28T10:22:35.386963",
+    "group_key": "SP_0771",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0771",
+      "Slug": "PicoleznaRojizo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_PicoleznaRojizo_SSS_11ul2016_600.jpg",
+      "Large_Filename": "A_PicoleznaRojizo_SSS_11ul2016_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "San Sebastián de la Selva, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "11-07-2016",
+      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 11-07-2016",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0771",
+      "Slug": "PicoleznaRojizo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PicoleznaRojizo_EcoPortal_17Octo2017_600.jpg",
+      "Large_Filename": "A_PicoleznaRojizo_EcoPortal_17Octo2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Ecoportal de Piedra, Palma Sola",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "17-10-2017",
+      "Location_Date": "Ecoportal de Piedra, Palma Sola, Jujuy - 17-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0771",
+      "Slug": "PicoleznaRojizo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PicoleznaRojizo_EcoPortalDePiedra_16Ago2014_600.jpg",
+      "Large_Filename": "A_PicoleznaRojizo_EcoPortalDePiedra_16Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "EcoPortal de Piedra, Palma Sola",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "16-08-2014",
+      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 16-08-2014",
+      "Threat_Status": null
+    }
+  ]
+}

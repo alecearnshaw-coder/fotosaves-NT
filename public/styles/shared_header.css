@@ -1,0 +1,86 @@
+.heading-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px 12px 6px 12px;
+  border-radius: 15px;
+}
+
+.site-header-banded {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 4px auto 0 auto; /* no extra gap below header */
+  padding: 2px 0;
+  background-color: #666666; /* ensures no apparent clipping at rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.site-header-band {
+  width: 100%;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  margin: 0;
+  border: none;
+}
+.site-header-band-dark { background-color: #666666 !important; }
+.site-header-band-dark .headline, .site-header-band-dark .subheadline {
+  color: #fff !important;
+  text-align: center !important;
+}
+.site-header-band-light { background-color: #DCBBAB !important; }
+.site-header-band-light .site-title {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.35em;
+  color: #000;
+  font-weight: normal;
+  margin: 2px 0 2px 0;
+  text-align: center !important;
+}
+.site-header-band-light .site-title a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.site-header-band-light .site-title a:hover { text-decoration: underline; }
+.headline {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Quick links under the header */
+.quick-links {
+  max-width: 800px;
+  margin: 2px auto 2px auto; /* small gap under the band, same on both pages */
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.quick-links .links-left,
+.quick-links .links-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.quick-links .label-es { color: #494242; font-weight: bold; }
+.quick-links .label-en { color: #036118; font-weight: bold; }
+.quick-link {
+  background: #e6f7bc;
+  border: 1px solid #6a9678;
+  color: #013b01;
+  padding: 2px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px; /* unify size across pages */
+  line-height: 1.2;
+}
+.quick-link:hover { background: #d6ecd3; font-weight: bold; }
+
+

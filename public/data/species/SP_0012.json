@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-03T00:00:57.742315",
+    "group_key": "SP_0012",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0012",
+      "Slug": "InambuSerrano",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_InambuSerrano_Intermedia_13Oct2014_600.jpg",
+      "Large_Filename": "A_InambuSerrano_Intermedia_13Oct2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS",
+      "Sex_Age": null,
+      "Location": "La Intermedia",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "13-10-2014",
+      "Location_Date": "La Intermedia, Jujuy - 13-10-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0012",
+      "Slug": "InambuSerrano",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_InambuSerrano2_Intermedia_13Oct2014_600.jpg",
+      "Large_Filename": "A_InambuSerrano2_Intermedia_13Oct2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS",
+      "Sex_Age": null,
+      "Location": "La Intermedia",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "13-10-2014",
+      "Location_Date": "La Intermedia, Jujuy - 13-10-2014",
+      "Threat_Status": null
+    }
+  ]
+}

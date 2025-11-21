@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
+    "generated_at": "2025-10-26T16:47:20.489375",
+    "group_key": "SP_0977",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0977",
+      "Slug": "Tersina",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_TersinaM1_Cataratas_22Sept2015_600.jpg",
+      "Large_Filename": "A_TersinaM1_Cataratas_22Sept2015_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "M",
+      "Location": "Parque Nacional Iguazú",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "22-09-2015",
+      "Location_Date": "Parque Nacional Iguazú, Misiones - 22-09-2015",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0977",
+      "Slug": "Tersina",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_TersinaH_Cataratas_22Sept2015_600.jpg",
+      "Large_Filename": "A_TersinaH_Cataratas_22Sept2015_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "F",
+      "Location": "Parque Nacional Iguazú",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "22-09-2015",
+      "Location_Date": "Parque Nacional Iguazú, Misiones - 22-09-2015",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0977",
+      "Slug": "Tersina",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TersinaH_RP101_1May2014_600.jpg",
+      "Large_Filename": "A_TersinaH_RP101_1May2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "F",
+      "Location": "Surucuá Reserva y Ecolodge, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "1-05-2014",
+      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 1-05-2014",
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
+    "generated_at": "2025-10-26T16:47:20.223761",
+    "group_key": "SP_1006",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_1006",
+      "Slug": "ComeseboPunenio",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_ComeseboPunenio_MulasMuertas_27Feb2025_600.jpg",
+      "Large_Filename": "A_ComeseboPunenio_MulasMuertas_27Feb2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "M",
+      "Location": "Laguna Mulas Muertas",
+      "Province": "La Rioja",
+      "Country": null,
+      "Date": "27-02-2025",
+      "Location_Date": "Laguna Mulas Muertas, La Rioja - 27-02-2025",
+      "Threat_Status": "Near-threatened"
+    }
+  ]
+}

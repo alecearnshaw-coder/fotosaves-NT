@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-14T18:26:38.250884",
+    "group_key": "SP_0434",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0434",
+      "Slug": "AguilaHarpia",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_Harpia_600.jpg",
+      "Large_Filename": "A_Harpia.jpg",
+      "Equipment": "Canon EOS 3000 + Canon zoom 38-76mm F4.5-5.6",
+      "Sex_Age": "En cuativerio - <span class='english-text'><b>Captive</b></span>",
+      "Location": "Recinto del Águila Harpía, Parque Municipal Summit",
+      "Province": "Ancón",
+      "Country": "PANAMA",
+      "Date": "05-2005",
+      "Location_Date": "Recinto del Águila Harpía, Parque Municipal Summit, Ancón, PANAMA - 05-2005",
+      "Threat_Status": "Vulnerable"
+    },
+    {
+      "Species_ID": "SP_0434",
+      "Slug": "AguilaHarpia",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "Harpia_macho_Summit_Panama_th.jpg",
+      "Large_Filename": "Harpia_macho_Summit_Panama.jpg",
+      "Equipment": null,
+      "Sex_Age": "M",
+      "Location": "Recinto del Águila Harpía, Parque Municipal Summit",
+      "Province": "Ancón",
+      "Country": "PANAMA",
+      "Date": "05-2005",
+      "Location_Date": "Recinto del Águila Harpía, Parque Municipal Summit, Ancón, PANAMA - 05-2005",
+      "Threat_Status": "Vulnerable"
+    },
+    {
+      "Species_ID": "SP_0434",
+      "Slug": "AguilaHarpia",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "Harpia_macho2_Summit_Panama_th.jpg",
+      "Large_Filename": "Harpia_macho2_Summit_Panama.jpg",
+      "Equipment": null,
+      "Sex_Age": "M",
+      "Location": "Recinto del Águila Harpía, Parque Municipal Summit",
+      "Province": "Ancón",
+      "Country": "PANAMA",
+      "Date": "05-2005",
+      "Location_Date": "Recinto del Águila Harpía, Parque Municipal Summit, Ancón, PANAMA - 05-2005",
+      "Threat_Status": "Vulnerable"
+    }
+  ]
+}

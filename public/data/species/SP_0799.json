@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Furnariidae-Furn/Furnariidae-Furn_Image_Listing.xlsx",
+    "generated_at": "2025-09-28T11:31:08.483997",
+    "group_key": "SP_0799",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0799",
+      "Slug": "RemolineraChocolate",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_RemolineraChocolate2_RP14_22Feb20_600.jpg",
+      "Large_Filename": "A_RemolineraChocolate2_RP14_22Feb20_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Río de la Suela, Copina",
+      "Province": "Córdoba",
+      "Country": null,
+      "Date": "22-02-2020",
+      "Location_Date": "Río de la Suela, Copina, Córdoba - 22-02-2020",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0799",
+      "Slug": "RemolineraChocolate",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_RemolineraChocolate1_RP14_22Feb20_600.jpg",
+      "Large_Filename": "A_RemolineraChocolate1_RP14_22Feb20_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Río de la Suela, Copina",
+      "Province": "Córdoba",
+      "Country": null,
+      "Date": "22-02-2020",
+      "Location_Date": "Río de la Suela, Copina, Córdoba - 22-02-2020",
+      "Threat_Status": null
+    }
+  ]
+}

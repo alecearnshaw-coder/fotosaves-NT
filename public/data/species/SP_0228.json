@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
+    "generated_at": "2025-09-09T00:20:49.063189",
+    "group_key": "SP_0228",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0228",
+      "Slug": "PlayerasC_GaviotaAndina",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_GaviotaAndina_LagunaHuancar_12Oct2014_600.jpg",
+      "Large_Filename": "A_GaviotaAndina_LagunaHuancar_12Oct2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF 1.4x III",
+      "Sex_Age": null,
+      "Location": "Laguna Huancar, Abra Pampa",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "12-10-2014",
+      "Location_Date": "Laguna Huancar, Abra Pampa, Jujuy - 12-10-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0228",
+      "Slug": "PlayerasC_GaviotaAndina",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GaviotaAndina_AMarcapomacocha_20Sep2016_600.jpg",
+      "Large_Filename": "A_GaviotaAndina_AMarcapomacocha_20Sep2016_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Marcapomacocha",
+      "Province": "Lima",
+      "Country": "PERU",
+      "Date": "20-09-2016",
+      "Location_Date": "Marcapomacocha, Lima, PERU - 20-09-2016",
+      "Threat_Status": null
+    }
+  ]
+}

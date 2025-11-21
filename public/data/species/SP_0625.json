@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.186562",
+    "group_key": "SP_0625",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0625",
+      "Slug": "DoraditoCopeton",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_DoraditoCopeton_Cambyreta_17mar2019_600.jpg",
+      "Large_Filename": "A_DoraditoCopeton_Cambyreta_17mar2019_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
+      "Province": "Corrientes",
+      "Country": null,
+      "Date": "16-03-2019",
+      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0625",
+      "Slug": "DoraditoCopeton",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_DoraditoCopeton_LagunaGalarza_20Abr2014_600.jpg",
+      "Large_Filename": null,
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Laguna Galarza, Esteros del Iberá",
+      "Province": "Corrientes",
+      "Country": null,
+      "Date": "20-04-2014",
+      "Location_Date": "Laguna Galarza, Esteros del Iberá, Corrientes - 20-04-2014",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0625",
+      "Slug": "DoraditoCopeton",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "DoraditoCopeton_Otamendi_6Ene06_th.jpg",
+      "Large_Filename": null,
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Otamendi",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "6-1-2006",
+      "Location_Date": "Otamendi, Buenos Aires - 6/1/2006",
+      "Threat_Status": null
+    }
+  ]
+}

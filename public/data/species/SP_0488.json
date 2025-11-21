@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-17T23:31:27.218895",
+    "group_key": "SP_0488",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0488",
+      "Slug": "CarpinteroNegro",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_CarpinteroNegro_Capilla_18Mar2013_600.jpg",
+      "Large_Filename": "A_CarpinteroNegro_Capilla_18Mar2013_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS",
+      "Sex_Age": "M",
+      "Location": "Las Gemelas, Capilla del Monte",
+      "Province": "Córdoba",
+      "Country": null,
+      "Date": "18-03-2013",
+      "Location_Date": "Las Gemelas, Capilla del Monte, Córdoba - 18-03-2013",
+      "Threat_Status": "Near-threatened"
+    }
+  ]
+}

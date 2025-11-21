@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.190550",
+    "group_key": "SP_0629",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0629",
+      "Slug": "DoraditoLimon",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_DoraditoLimon2_RECUCN_13Oct2023_600.jpg",
+      "Large_Filename": "A_DoraditoLimon2_RECUCN_13Oct2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ciudad Universitaria Costanera Norte",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "13-10-2023",
+      "Location_Date": "Reserva Ciudad Universitaria Costanera Norte, CABA - 13-10-2023",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0629",
+      "Slug": "DoraditoLimon",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_DoraditoLimon_RECUCN_13Oct2023_600.jpg",
+      "Large_Filename": "A_DoraditoLimon_RECUCN_13Oct2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ciudad Universitaria Costanera Norte",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "13-10-2023",
+      "Location_Date": "Reserva Ciudad Universitaria Costanera Norte, CABA - 13-10-2023",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0629",
+      "Slug": "DoraditoLimon",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_DoraditoLimon3_RECUCN_13Oct2023_600.jpg",
+      "Large_Filename": "A_DoraditoLimon3_RECUCN_13Oct2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ciudad Universitaria Costanera Norte",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "13-10-2023",
+      "Location_Date": "Reserva Ciudad Universitaria Costanera Norte, CABA - 13-10-2023",
+      "Threat_Status": null
+    }
+  ]
+}

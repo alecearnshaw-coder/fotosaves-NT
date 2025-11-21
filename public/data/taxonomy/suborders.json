@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "source_file": "Suborders_Data.xlsx",
+    "generated_at": "2025-07-27T14:15:39.192795",
+    "total_rows": 3,
+    "columns": [
+      "SO_ID",
+      "Parent_ID",
+      "SO_Name_Sci",
+      "SO_Name_Sp",
+      "SO_Name_En",
+      "SO_Image",
+      "Known_Species_Cnt",
+      "Species_Cnt",
+      "Image_Cnt",
+      "SO_URL"
+    ],
+    "column_range": "B-K"
+  },
+  "data": [
+    {
+      "SO_ID": "SO_001",
+      "Parent_ID": "OR_010",
+      "SO_Name_Sci": "Charadrii",
+      "SO_Name_Sp": "Chorlos, Teros Reales y Ostreros",
+      "SO_Name_En": "Plovers, Stilts & Oystercatchers",
+      "SO_Image": "A_Chorlo.jpg",
+      "Known_Species_Cnt": 20,
+      "Species_Cnt": 18,
+      "Image_Cnt": 240,
+      "SO_URL": "FotosCharadrii.html"
+    },
+    {
+      "SO_ID": "SO_002",
+      "Parent_ID": "OR_010",
+      "SO_Name_Sci": "Scolopaci",
+      "SO_Name_Sp": "Playeros, Becasinas, Agachonas y Jacanas",
+      "SO_Name_En": "Sandpipers, Snipes, Seedsnipes & Jacanas",
+      "SO_Image": "A_Playerito.jpg",
+      "Known_Species_Cnt": 34,
+      "Species_Cnt": 30,
+      "Image_Cnt": 409,
+      "SO_URL": "FotosScolopaci.html"
+    },
+    {
+      "SO_ID": "SO_003",
+      "Parent_ID": "OR_010",
+      "SO_Name_Sci": "Lari",
+      "SO_Name_Sp": "Salteadores, Rayadores, Gaviotines y Gaviotas",
+      "SO_Name_En": "Skuas, Skimmers, Terns &  Gulls",
+      "SO_Image": "A_Gaviota.jpg",
+      "Known_Species_Cnt": 30,
+      "Species_Cnt": 20,
+      "Image_Cnt": 284,
+      "SO_URL": "FotosLari.html"
+    }
+  ]
+}

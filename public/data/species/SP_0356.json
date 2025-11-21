@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Apodiformes/Apodidae/Apodidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-13T20:48:01.407425",
+    "group_key": "SP_0356",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0356",
+      "Slug": "VencejoDeTormenta",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_VencejoDeTormenta_Chancani_2Mar2014_600.jpg",
+      "Large_Filename": "A_VencejoDeTormenta_Chancani_2Mar2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF 1.4x III",
+      "Sex_Age": null,
+      "Location": "Reserva Provincial Chancaní",
+      "Province": "Córdoba",
+      "Country": null,
+      "Date": "2-03-2014",
+      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 2-03-2014",
+      "Threat_Status": null
+    }
+  ]
+}

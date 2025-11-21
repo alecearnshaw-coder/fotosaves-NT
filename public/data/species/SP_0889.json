@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Turdidae/Turdidae_Image_Listing.xlsx",
+    "generated_at": "2025-10-09T01:40:04.390346",
+    "group_key": "SP_0889",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0889",
+      "Slug": "ZorzalNegro",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_ZorzalNegro1_SFrancisco_15Oct2017_600.jpg",
+      "Large_Filename": "A_ZorzalNegro1_SFrancisco_15Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Parque Nacional Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "15-10-2017",
+      "Location_Date": "Parque Nacional Calilegua, Jujuy - 15-10-2017",
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "source_file": "Subfamilies_Data.xlsx",
+    "generated_at": "2025-07-27T16:00:46.096247",
+    "total_rows": 7,
+    "columns": [
+      "Subfamily_ID",
+      "Family_ID",
+      "Subfamily_Sci",
+      "Subfamily_Sp",
+      "Subfamily_En",
+      "Subfamily_Image",
+      "Known_Species_Cnt",
+      "Species_Cnt",
+      "Image_Cnt",
+      "SF_Path"
+    ],
+    "column_range": "B-K"
+  },
+  "data": [
+    {
+      "Subfamily_ID": "SF_0001",
+      "Family_ID": "FA_0068",
+      "Subfamily_Sci": "Sclerurinae",
+      "Subfamily_Sp": "Raspahojas y Camineras",
+      "Subfamily_En": "Leaftossers & Miners",
+      "Subfamily_Image": "A_Caminera.jpg",
+      "Known_Species_Cnt": 7,
+      "Species_Cnt": 6,
+      "Image_Cnt": 45,
+      "SF_Path": "/Passeriformes/Furnariidae-1Scleru/"
+    },
+    {
+      "Subfamily_ID": "SF_0002",
+      "Family_ID": "FA_0068",
+      "Subfamily_Sci": "Dendrocolaptinae",
+      "Subfamily_Sp": "Trepadores y Chincheros",
+      "Subfamily_En": "Woodcreepers & Scythebills",
+      "Subfamily_Image": "A_Chinchero.jpg",
+      "Known_Species_Cnt": 12,
+      "Species_Cnt": 11,
+      "Image_Cnt": 84,
+      "SF_Path": "/Passeriformes/Furnariidae-Dendro/"
+    },
+    {
+      "Subfamily_ID": "SF_0003",
+      "Family_ID": "FA_0068",
+      "Subfamily_Sci": "Philydorinae",
+      "Subfamily_Sp": "Ticoticos, Picoleznas, algunas Bandurritas",
+      "Subfamily_En": "Folieage-gleaners, Treerunners, some Earthcreepers",
+      "Subfamily_Image": "A_Ticotico.jpg",
+      "Known_Species_Cnt": 15,
+      "Species_Cnt": 9,
+      "Image_Cnt": 73,
+      "SF_Path": "/Passeriformes/Furnariidae-Phyl/"
+    },
+    {
+      "Subfamily_ID": "SF_0004",
+      "Family_ID": "FA_0068",
+      "Subfamily_Sci": "Furnariinae",
+      "Subfamily_Sp": "Horneros, Remolineras, Bandurritas, etc.",
+      "Subfamily_En": "Horneros, Cinclodes, Earthcreepers",
+      "Subfamily_Image": "A_Hornero.jpg",
+      "Known_Species_Cnt": 19,
+      "Species_Cnt": 15,
+      "Image_Cnt": 274,
+      "SF_Path": "/Passeriformes/Furnariidae-Furn/"
+    },
+    {
+      "Subfamily_ID": "SF_0005",
+      "Family_ID": "FA_0068",
+      "Subfamily_Sci": "Synallaxinae",
+      "Subfamily_Sp": "Pijuís, Espineros, Canasteros, Curutiés, etc.",
+      "Subfamily_En": "Spinetails, Thornbirds, Canasteros & Allies",
+      "Subfamily_Image": "A_Canastero.jpg",
+      "Known_Species_Cnt": 42,
+      "Species_Cnt": 38,
+      "Image_Cnt": 582,
+      "SF_Path": "/Passeriformes/Furnariidae-Sina/"
+    },
+    {
+      "Subfamily_ID": "SF_0006",
+      "Family_ID": "FA_0082",
+      "Subfamily_Sci": "Fringillinae",
+      "Subfamily_Sp": "Cabecitasnegras, Negrillos, etc.",
+      "Subfamily_En": "Siskins, Finches & Allies",
+      "Subfamily_Image": "A_Cabecita.jpg",
+      "Known_Species_Cnt": 8,
+      "Species_Cnt": 6,
+      "Image_Cnt": 42,
+      "SF_Path": "/Passeriformes/Fringillidae-Frin/"
+    },
+    {
+      "Subfamily_ID": "SF_0007",
+      "Family_ID": "FA_0082",
+      "Subfamily_Sci": "Euphoniinae",
+      "Subfamily_Sp": "Tangaráes",
+      "Subfamily_En": "Euphonias",
+      "Subfamily_Image": "A_Tangara.jpg",
+      "Known_Species_Cnt": 6,
+      "Species_Cnt": 5,
+      "Image_Cnt": 28,
+      "SF_Path": "/Passeriformes/Fringillidae-Euph/"
+    }
+  ]
+}

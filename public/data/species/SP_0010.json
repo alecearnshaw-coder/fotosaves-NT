@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
+    "generated_at": "2025-09-03T00:00:57.762305",
+    "group_key": "SP_0010",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0010",
+      "Slug": "Guaipo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_Guaipo_ElFuerte_18Ago2014_600.jpg",
+      "Large_Filename": "A_Guaipo_ElFuerte_18Ago2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS",
+      "Sex_Age": null,
+      "Location": "El Fuerte",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "18-08-2014",
+      "Location_Date": "El Fuerte, Jujuy - 18-08-2014",
+      "Threat_Status": null
+    }
+  ]
+}

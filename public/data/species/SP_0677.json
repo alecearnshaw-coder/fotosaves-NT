@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.094699",
+    "group_key": "SP_0677",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0677",
+      "Slug": "MosquetaBoreal",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": "Y",
+      "Thumbnail_Filename": "MosquetaBoreal1_Bogoya_Abr07_th.jpg",
+      "Large_Filename": "MosquetaBoreal1_Bogoya_Abr07.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "J. Botánico",
+      "Province": "Bogotá",
+      "Country": "COLOMBIA",
+      "Date": "4-2007",
+      "Location_Date": "J. Botánico, Bogotá, COLOMBIA - 4/2007",
+      "Threat_Status": "Vulnerable"
+    },
+    {
+      "Species_ID": "SP_0677",
+      "Slug": "MosquetaBoreal",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "MosquetaBoreal2_Bogota_Abr07_th.jpg",
+      "Large_Filename": "MosquetaBoreal2_Bogota_Abr07.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "J. Botánico",
+      "Province": "Bogotá",
+      "Country": "COLOMBIA",
+      "Date": "4-2007",
+      "Location_Date": "J. Botánico, Bogotá, COLOMBIA - 4/2007",
+      "Threat_Status": "Vulnerable"
+    },
+    {
+      "Species_ID": "SP_0677",
+      "Slug": "MosquetaBoreal",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "MosquetaBoreal3_Bogota_Abr07_th.jpg",
+      "Large_Filename": "MosquetaBoreal3_Bogota_Abr07.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "J. Botánico",
+      "Province": "Bogotá",
+      "Country": "COLOMBIA",
+      "Date": "4-2007",
+      "Location_Date": "J. Botánico, Bogotá, COLOMBIA - 4/2007",
+      "Threat_Status": "Vulnerable"
+    }
+  ]
+}

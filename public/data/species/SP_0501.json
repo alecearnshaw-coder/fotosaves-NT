@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-17T23:31:27.275401",
+    "group_key": "SP_0501",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0501",
+      "Slug": "CarpinteroGargantaNegra",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_Crimson-crestedWoodpeckerM-_PqueNatMetropolitanoPanama_22May2017_600.jpg",
+      "Large_Filename": "A_Crimson-crestedWoodpeckerM-_PqueNatMetropolitanoPanama_22May2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "M",
+      "Location": "Parque Natural Metropolitano",
+      "Province": "Ciudad de Panamá",
+      "Country": "PANAMA",
+      "Date": "22-05-2017",
+      "Location_Date": "Parque Natural Metropolitano, Ciudad de Panamá, PANAMA - 22-05-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0501",
+      "Slug": "CarpinteroGargantaNegra",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Crimson-crestedWoodpeckerM2-_PqueNatMetropolitanoPanama_22May2017_600.jpg",
+      "Large_Filename": "A_Crimson-crestedWoodpeckerM2-_PqueNatMetropolitanoPanama_22May2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "M",
+      "Location": "Parque Natural Metropolitano",
+      "Province": "Ciudad de Panamá",
+      "Country": "PANAMA",
+      "Date": "22-05-2017",
+      "Location_Date": "Parque Natural Metropolitano, Ciudad de Panamá, PANAMA - 22-05-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0501",
+      "Slug": "CarpinteroGargantaNegra",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Crimson-crestedWoodpeckerM3-_PqueNatMetropolitanoPanama_22May2017_600.jpg",
+      "Large_Filename": "A_Crimson-crestedWoodpeckerM3-_PqueNatMetropolitanoPanama_22May2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": "M",
+      "Location": "Parque Natural Metropolitano",
+      "Province": "Ciudad de Panamá",
+      "Country": "PANAMA",
+      "Date": "22-05-2017",
+      "Location_Date": "Parque Natural Metropolitano, Ciudad de Panamá, PANAMA - 22-05-2017",
+      "Threat_Status": null
+    }
+  ]
+}

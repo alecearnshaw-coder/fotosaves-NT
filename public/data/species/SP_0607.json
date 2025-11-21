@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.242895",
+    "group_key": "SP_0607",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0607",
+      "Slug": "FiofioPlomizo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_FiofioPlomizo_Calilegua_16Oct2017_600.jpg",
+      "Large_Filename": "A_FiofioPlomizo_Calilegua_16Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "16-10-2017",
+      "Location_Date": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua, Jujuy - 16-10-2017",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0607",
+      "Slug": "FiofioPlomizo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_FiofioPlomizo_PNC_14Oct2017_600.jpg",
+      "Large_Filename": "A_FiofioPlomizo_PNC_14Oct2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Abra Colorada, Parque Nacional Calilegua",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "14-10-2017",
+      "Location_Date": "Abra Colorada, Parque Nacional Calilegua, Jujuy - 14-10-2017",
+      "Threat_Status": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Rhinocryptidae/Rhinocryptidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-27T13:33:47.103340",
+    "group_key": "SP_0739",
+    "total_rows": 2,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0739",
+      "Slug": "HuehuetCastano",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "HuetHuetCastano1_Vilches_18Dic09_600.jpg",
+      "Large_Filename": "HuetHuetCastano1_Vilches_18Dic09.jpg",
+      "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter 1.7x + Flash Vivitar 285 HV",
+      "Sex_Age": null,
+      "Location": "Vilches",
+      "Province": "Maule",
+      "Country": "CHILE",
+      "Date": "18-12-2009",
+      "Location_Date": "Vilches, Maule, CHILE - 18/12/2009",
+      "Threat_Status": null
+    },
+    { 
+      "Species_ID": "SP_0739",
+      "Slug": "HuehuetCastano",
+      "Subspecies_ID": null,
+      "Slide": "Y",
+      "Cover": null,
+      "Thumbnail_Filename": "HuehuetCastano_Conce-Chile_Oct08_th.jpg",
+      "Large_Filename": "HuehuetCastano_Conce-Chile_Oct08.jpg",
+      "Equipment": null,
+      "Sex_Age": null,
+      "Location": "Concepción",
+      "Province": "Biobío",
+      "Country": "CHILE",
+      "Date": "10-2008",
+      "Location_Date": "Concepción, Biobío, CHILE - 10/2008",
+      "Threat_Status": null
+    }
+  ]
+}

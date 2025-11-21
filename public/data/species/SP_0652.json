@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
+    "generated_at": "2025-09-26T23:21:33.409574",
+    "group_key": "SP_0652",
+    "total_rows": 3,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0652",
+      "Slug": "Pitangua",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_Pitangua_Surucua_25Sept_2015_600.jpg",
+      "Large_Filename": "A_Pitangua_Surucua_25Sept_2015_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Surucuá Reserva y Ecolodge, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "25-09-2015",
+      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 25-09-2015",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0652",
+      "Slug": "Pitangua",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Pitangua_Ituzaingo_16Mar2019_600.jpg",
+      "Large_Filename": "A_Pitangua_Ituzaingo_16Mar2019_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Ituzaingó",
+      "Province": "Corrientes",
+      "Country": null,
+      "Date": "17-03-2019",
+      "Location_Date": "Ituzaingó, Corrientes - 17-03-2019",
+      "Threat_Status": null
+    },
+    {
+      "Species_ID": "SP_0652",
+      "Slug": "Pitangua",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Pitangua_ReservaSurucua_2May2014_600.jpg",
+      "Large_Filename": "A_Pitangua_ReservaSurucua_2May2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
+      "Sex_Age": null,
+      "Location": "Surucuá Reserva y Ecolodge, Andresito",
+      "Province": "Misiones",
+      "Country": null,
+      "Date": "2-05-2014",
+      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 2-05-2014",
+      "Threat_Status": null
+    }
+  ]
+}

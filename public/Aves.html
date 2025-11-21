@@ -1,0 +1,1035 @@
+<!-- CACHE BUST: 2025-01-27-22-45-00 - MODEST FONT SIZE INCREASE TO 110% FOR CHILDREN -->
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Fotos de Aves - Nueva Versión</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #999973;
+            color: #663300;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #DCDBB8;
+            border-radius: 8px;
+            padding: 12px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 150%;
+            color: #666666;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+        
+        .header p {
+            font-size: 90%;
+            color: #008080;
+            margin: 0;
+        }
+        
+        .order-row {
+            display: flex;
+            margin-bottom: 8px;
+            align-items: flex-start;
+            min-height: 60px;
+        }
+        
+        .order-image {
+            flex: 0 0 180px;
+            margin-right: 15px;
+        }
+        
+        .order-image img {
+            width: 180px;
+            height: 125px;
+            object-fit: cover;
+            border: 1px solid #663300;
+            border-radius: 8px;
+        }
+        
+        .order-content {
+            flex: 1;
+            font-size: 90%;
+            line-height: 1.3;
+        }
+        
+        .order-title {
+            font-weight: bold;
+            margin-bottom: 2px;
+            font-size: 160%;
+        }
+        
+        .order-title a {
+            color: #7A2900;
+            text-decoration: none;
+        }
+        
+        .order-title a:hover {
+            text-decoration: underline;
+        }
+        
+        .order-scientific {
+            font-style: italic;
+        }
+        
+        .order-spanish {
+            color: #666666;
+        }
+        
+        .species-count {
+            color: #008080;
+            font-weight: bold;
+            margin: 0px 0;
+            font-size: 118%;
+        }
+        
+        .photo-count {
+            color: #443322;
+            font-weight: bold;
+            margin: 2px 0;
+        }
+        
+        .family-list {
+            font-size: 110%;
+            color: #443322;
+            margin-top: 2px;
+            line-height: 1.2;
+        }
+        
+        .family-name {
+            color: #D55A00;
+            font-weight: bold;
+            font-size: 100%;
+        }
+        
+        .subgroup {
+            margin-left: 0px;
+            margin-top: 5px;
+            padding-left: 10px;
+            border-left: 2px solid #CC6600;
+        }
+        
+        .subgroup-row {
+            display: flex;
+            margin-bottom: 5px;
+            align-items: flex-start;
+        }
+        
+        .subgroup-image {
+            flex: 0 0 180px;
+            margin-right: 10px;
+        }
+        
+        .subgroup-image img {
+            width: 180px;
+            height: 125px;
+            object-fit: cover;
+            border: 1px solid #663300;
+            border-radius: 8px;
+        }
+        
+        .subgroup-content {
+            flex: 1;
+            font-size: 85%;
+            line-height: 1.2;
+        }
+        
+        .placeholder {
+            color: #333333;
+            font-style: italic;
+        }
+    </style>
+    <link rel="stylesheet" href="/styles/shared_header.css">
+</head>
+<body>
+    <div class="heading-container">
+        <div class="site-header-banded">
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">fotos <span style="color:#FF9966">de animales silvestres</span> <span class="subheadline">de ARGENTINA</span></div>
+            </div>
+            <div class="site-header-band site-header-band-light">
+                <div class="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+            </div>
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">photos <span style="color:#FF9966">of wild animals</span> <span class="subheadline">of ARGENTINA</span></div>
+            </div>
+        </div>
+        <div class="quick-links">
+            <div class="links-left">
+                <span class="label-es">Enlaces:</span>
+                <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div style="text-align:center; margin: 6px 0 8px 0;">
+        <a class="quick-link" href="/Birds.html" title="Go to English version">Go to English version</a>
+    </div>
+
+    <div class="container">
+        <div id="orders-container">
+            <!-- Orders will be loaded here -->
+        </div>
+    </div>
+    
+    <script>
+        let orders = [];
+        let suborders = [];
+        let families = [];
+        let subfamilies = [];
+        let species = [];
+        
+        async function loadOrders() {
+            try {
+                console.log('Loading orders data...');
+                
+                // Load all JSON data with error handling for missing files
+                const loadJsonFile = async (filename, fallback = { data: [] }) => {
+                    try {
+                        const response = await fetch(filename, { cache: 'no-store' });
+                        if (response.ok) {
+                            const data = await response.json();
+                            console.log(`✅ Loaded ${filename}:`, data);
+                            return data;
+                        } else {
+                            console.warn(`⚠️ File ${filename} not found (${response.status}), using fallback`);
+                            return fallback;
+                        }
+                    } catch (error) {
+                        console.warn(`⚠️ Error loading ${filename}:`, error.message, '- using fallback');
+                        return fallback;
+                    }
+                };
+                
+                // Load files with fallbacks
+                window.orders = await loadJsonFile(`/data/taxonomy/orders.json`, { data: [] });
+                window.suborders = await loadJsonFile(`/data/taxonomy/suborders.json`, { data: [] });
+                window.families = await loadJsonFile(`/data/taxonomy/families.json`, { data: [] });
+                window.subfamilies = await loadJsonFile(`/data/taxonomy/subfamilies.json`, { data: [] });
+                window.species = await loadJsonFile(`/data/taxonomy/species.json`, { data: [] });
+                
+                console.log('Data loading completed');  
+                console.log('Orders:', window.orders);
+                console.log('Suborders:', window.suborders);
+                console.log('Families:', window.families);
+                console.log('Subfamilies:', window.subfamilies);
+                
+                /*const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+                await delay(2000);
+                console.log('This runs after 2 seconds'); */
+
+                displayOrders();
+            } catch (error) {
+                console.error('Critical error loading data:', error);
+                document.getElementById('orders-container').innerHTML = 
+                '<div class="placeholder">Error loading data: ' + error.message + '</div>';
+            }
+        }
+        
+        
+        function displaySpeciesForOrder(orderId, familiesArray, speciesArray) {
+            console.log(`Displaying species for order: ${orderId}`);
+            
+            // Find families for this order
+            const orderFamilies = familiesArray.filter(family => 
+            family.Parent_Order_ID === orderId
+            );
+            
+            if (orderFamilies.length === 0) {
+                console.log('No families found for this order');
+                return { count: 0, names: '' };
+            }
+            
+            console.log(`Found ${orderFamilies.length} families for order ${orderId}`);
+            
+            //let SpeciesCount = 0;
+            //let PhotoCount =0
+            let output = "";
+            
+            // Process each family
+            orderFamilies.forEach(family => {
+                console.log(`Processing family: ${family.Family_Name_Sci}`);
+                
+                // Find species for this family using scientific family name
+                const speciesList = speciesArray.filter(species => 
+                species.Family_Sci === family.Family_Name_Sci &&
+                species.Image_Cnt > 0
+                );             
+                console.log(`Found ${speciesList.length} species for family ${family.Family_Name_Sci}`);
+                
+                // Add to total species count
+                //SpeciesCount += speciesList.length;
+
+
+                // Build the HTML output text
+                if (speciesList.length > 0) {
+                    const speciesHTML = speciesList.map(species =>
+                    {
+                        // PhotoCount += species.Image_Cnt;
+                        return `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
+                    }
+                    ).join(', ');
+                    console.log(`HTML output for family ${family.Family_Name_Sci}:`, speciesHTML);
+
+                    const familyHTML = `<span class="family-name">${family.Family_Name_Sci.toUpperCase()} (${speciesList.length})</span>`;
+                    console.log(`HTML output for family ${family.Family_Name_Sci}:`, familyHTML);
+
+                    // Append this family+species section to the output string
+                    if (output !=="") output += " - ";
+                    output += `${familyHTML}: ${speciesHTML}`;
+                    console.log(`HTML output for order: ${output}`);
+
+                }
+            });
+            return output;           
+            //return { 
+            //    count: SpeciesCount, 
+            //    names: `${PhotoCount} fotos: ${output}` 
+            //};
+            
+        }
+                
+        
+        function displayOrders() {
+            const container = document.getElementById('orders-container');
+            container.innerHTML = '';
+            
+            const ordersArray = (window.orders && window.orders.data) ? window.orders.data : (window.orders || []);
+            const subordersArray = (window.suborders && window.suborders.data) ? window.suborders.data : (window.suborders || []);
+            const familiesArray = (window.families && window.families.data) ? window.families.data : (window.families || []);
+            const subfamiliesArray = (window.subfamilies && window.subfamilies.data) ? window.subfamilies.data : (window.subfamilies || []);
+            const speciesArray = (window.species && window.species.data) ? window.species.data : (window.species || []);
+            
+            console.log('Processing orders:', ordersArray.length);
+            console.log('Available suborders:', subordersArray.length);
+            console.log('Available families:', familiesArray.length);
+            console.log('Available subfamilies:', subfamiliesArray.length);
+            console.log('Available species:', speciesArray.length);
+            
+            // Process regular orders (excluding Passeriformes - OR_029)
+            const nonPasseriformesOrders = ordersArray.filter(order => order.Order_ID !== 'OR_029');
+            
+            nonPasseriformesOrders.forEach(order => {
+                console.log(`Processing order: ${order.Order_Name_Sci} (Subdivide: ${order.Subdivide})`);
+                
+                if (order.Subdivide === 'SO') {
+                    // Order with suborders
+                    createOrderWithSuborders(container, order, subordersArray, familiesArray, subfamiliesArray, speciesArray);
+                } else if (order.Subdivide === 'FA') {
+                    // Order with family breakout
+                    createOrderWithFamilies(container, order, familiesArray, subfamiliesArray, speciesArray);
+                } else {
+                    // Regular order
+                    createOrderElement(container, order, familiesArray, speciesArray);
+                }
+            });
+            
+            // Add text box between non-passerine orders and Passeriformes
+            const textBoxRow = document.createElement('div');
+            textBoxRow.className = 'order-row';
+            textBoxRow.style.marginTop = '20px';
+            textBoxRow.style.marginBottom = '20px';
+            
+            const textBoxImage = document.createElement('div');
+            textBoxImage.className = 'order-image';
+            textBoxImage.style.visibility = 'hidden'; // Invisible spacer
+            
+            const textBoxContent = document.createElement('div');
+            textBoxContent.className = 'order-content';
+            
+            const textBox = document.createElement('div');
+            textBox.style.width = '84%';
+            textBox.style.minHeight = '80px';
+            textBox.style.padding = '10px';
+            textBox.style.border = '2px solid #663300';
+            textBox.style.borderRadius = '8px';
+            textBox.style.fontFamily = 'Arial, Helvetica, sans-serif';
+            textBox.style.fontSize = '14px';
+            textBox.style.backgroundColor = '#F5F5DC';
+            textBox.contentEditable = 'true';
+            textBox.style.textAlign = 'center';
+            
+            // Create the heading with same styles as lines 408-410
+            const heading = document.createElement('div');
+            heading.className = 'order-title';
+            heading.innerHTML = `Orden <span class="order-scientific">Passeriformes</span> <span class="order-spanish">(Pájaros)</span>`;
+            heading.style.textAlign = 'center';
+            heading.style.marginBottom = '10px';
+            
+            // Create placeholder text with styles from lines 260-268
+            const placeholder = document.createElement('div');
+            placeholder.className = 'placeholder';
+            placeholder.innerHTML = 'De aquí en adelante se muestran las aves del orden de los Passeriformes. Este grupo generalmente representa aproximadamente el 50% de las especies de aves en la mayoría de las regiones del mundo. Esto es particularmente cierto en Argentina.<br>Por lo tanto, este gran orden se divide por familias, y en algunos casos -cuando tiene sentido- también por subfamilias.';
+            placeholder.style.textAlign = 'left';
+            placeholder.style.marginTop = '10px';
+            
+            textBox.appendChild(heading);
+            textBox.appendChild(placeholder);
+            
+            textBoxContent.appendChild(textBox);
+            textBoxRow.appendChild(textBoxImage);
+            textBoxRow.appendChild(textBoxContent);
+            container.appendChild(textBoxRow);
+            
+            // Create separate Passeriformes section
+            createPasseriformesSection(container, familiesArray, subfamiliesArray, speciesArray);
+        }
+        
+        function createOrderWithSuborders(container, order, subordersArray, familiesArray, subfamiliesArray, speciesArray) {
+            console.log(`Creating order with suborders: ${order.Order_Name_Sci}`);
+            
+            const orderRow = document.createElement('div');
+            orderRow.className = 'order-row';
+            
+            // Order image
+            const orderImage = document.createElement('div');
+            orderImage.className = 'order-image';
+            
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + order.Order_Image || 'images/placeholder.jpg';
+            img.alt = order.Order_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            orderImage.appendChild(img);
+            
+            // Order content
+            const orderContent = document.createElement('div');
+            orderContent.className = 'order-content';
+            
+            const orderTitle = document.createElement('div');
+            orderTitle.className = 'order-title';
+            orderTitle.innerHTML = `Orden <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_Sp})</span>`;
+            
+            // Add species count information
+            const orderSpecies = document.createElement('div');
+            orderSpecies.className = 'species-count';
+            orderSpecies.textContent = `ESPECIES: ${order.Species_Cnt} de las ${order.Known_Species_Cnt} presentes en Argentina`;
+            
+            orderContent.appendChild(orderTitle);
+            orderContent.appendChild(orderSpecies);
+            
+            // Get suborders for this order
+            const orderSuborders = subordersArray.filter(so => so.Parent_ID === order.Order_ID);
+            console.log(`Found ${orderSuborders.length} suborders for ${order.Order_Name_Sci}`);
+            
+            if (orderSuborders.length > 0) {
+                const subgroupsDiv = document.createElement('div');
+                subgroupsDiv.className = 'subgroup';
+                
+                orderSuborders.forEach(suborder => {
+                    const subgroupElement = createSuborderElement(order, suborder, familiesArray, subfamiliesArray, speciesArray);
+                    subgroupsDiv.appendChild(subgroupElement);
+                });
+                
+                orderContent.appendChild(subgroupsDiv);
+            }
+            orderRow.appendChild(orderImage);
+            orderRow.appendChild(orderContent);
+            container.appendChild(orderRow);
+        }
+        
+        function createOrderWithFamilies(container, order, familiesArray, subfamiliesArray, speciesArray) {
+            console.log(`Creating order with family breakout: ${order.Order_Name_Sci}`, order);
+
+               // Add safety checks
+               if (!speciesArray || !Array.isArray(speciesArray)) {
+                console.warn('genercreateFamilyElement: speciesArray is undefined or not an array in creatOrderWFams');
+                return '';
+            }
+            
+            const orderRow = document.createElement('div');
+            orderRow.className = 'order-row';
+            
+            // Order image
+            const orderImage = document.createElement('div');
+            orderImage.className = 'order-image';
+            
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + order.Order_Image || 'images/placeholder.jpg';
+            img.alt = order.Order_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            orderImage.appendChild(img);
+            
+            // Order content
+            const orderContent = document.createElement('div');
+            orderContent.className = 'order-content';
+            
+            const orderTitle = document.createElement('div');
+            orderTitle.className = 'order-title';
+            orderTitle.innerHTML = `Orden <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_Sp})</span>`;
+            
+            // Add species count information
+            const orderSpecies = document.createElement('div');
+            orderSpecies.className = 'species-count';
+            // orderSpecies.textContent = `ESPECIES: ${order.Species_Cnt} de las ${order.Known_Species_Cnt} presentes en Argentina`;
+            
+            orderContent.appendChild(orderTitle);
+            orderContent.appendChild(orderSpecies);
+            
+            // Get families for this order
+            const orderFamilies = familiesArray.filter(family => family.Parent_Order_ID === order.Order_ID);
+            console.log(`Found ${orderFamilies.length} families for ${order.Order_Name_Sci}`);
+            console.log('Family IDs found:', orderFamilies.map(f => f.Family_ID));
+
+
+
+                           // Add safety checks
+            if (!speciesArray || !Array.isArray(speciesArray)) {
+                console.warn('createFamilyElement: speciesArray is undefined or not an array in creatOrderWFams');
+                return '';
+            }
+
+            
+            if (orderFamilies.length > 0) {
+                const subgroupsDiv = document.createElement('div');
+                subgroupsDiv.className = 'subgroup';
+                
+                orderFamilies.forEach(family => {
+                    console.log(`Creating family element for: ${family.Family_Name_Sci}`);
+                    const familyElement = createFamilyElement(family, familiesArray, subfamiliesArray, speciesArray, 'O');
+                    subgroupsDiv.appendChild(familyElement);
+                });
+                
+                orderContent.appendChild(subgroupsDiv);
+            }
+            
+            orderRow.appendChild(orderImage);
+            orderRow.appendChild(orderContent);
+            container.appendChild(orderRow);
+        }
+        
+        function createOrderElement(container, order, familiesArray, speciesArray) {
+            console.log(`Creating regular order: ${order.Order_Name_Sci}`);
+
+        //    const imageFolderPath = '/'+order.Order_Name_Sci +'/Fotos'+order.Order_Name_Sci+'.html';  // Full path to the target link
+            const imageFolderPath = '/'+order.Order_Name_Sci +'/';                       // Path to the images
+            const TargetPage = imageFolderPath + 'Fotos'+order.Order_Name_Sci+'.html';  // Name of the filename to link to
+            const groupType = 'order';                               // example
+            const groupId = order.Order_Name_Sci;                       // example
+
+            // create the link to the Group_Builder page
+            const params = new URLSearchParams();
+            params.set('path', imageFolderPath);
+            params.set('groupType', groupType);
+            params.set('groupId', groupId);
+            const url = `/grupo?${params.toString()}`;
+
+            
+            // GET SCRIPT HANDLE FOR ORDER-ROW
+            const orderRow = document.createElement('div');
+            orderRow.className = 'order-row';
+            
+            // GET SCRIPT HANDLE FOR Order image
+            const orderImage = document.createElement('div');
+            orderImage.className = 'order-image';
+            
+            // create the link element for order pages
+            const Link = document.createElement('a'); // 
+            Link.href = url.toString();
+            Link.style.textDecoration = 'none';  // remove undelining
+            
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + order.Order_Image || 'images/placeholder.jpg';
+            img.alt = order.Order_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            Link.appendChild(img);              // Append image to link. Then... 
+            orderImage.appendChild(Link);       // link to container
+            
+            // Order content
+            const orderContent = document.createElement('div');
+            orderContent.className = 'order-content';
+            
+            const orderTitle = document.createElement('div');
+            orderTitle.className = 'order-title';
+            
+            // create the link element for the order title
+            const Title_Link = document.createElement('a');
+            Title_Link.href = url.toString();
+            Title_Link.style.textDecoration = 'none';  // remove undelining
+            Title_Link.style.color = 'inherit';    // keep original text color
+            
+            // Set the link content
+            Title_Link.innerHTML = `Orden <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_Sp})</span>`;
+            
+            // Append the link to the title div
+            orderTitle.appendChild(Title_Link);
+            
+            /* const orderPhotos = document.createElement('div');
+            orderPhotos.className = 'photo-count';
+            orderPhotos.textContent = `${order.Image_Cnt} fotos`; */
+            
+            // Add species count information
+            const orderSpecies = document.createElement('div');
+            orderSpecies.className = 'species-count';
+            //orderSpecies.textContent = `ESPECIES: ${order.Species_Cnt} de las ${order.Known_Species_Cnt} presentes en Argentina`;
+            
+            orderContent.appendChild(orderTitle);
+            orderContent.appendChild(orderSpecies);
+            
+            // Generate photo breakdown for orders without children (3rd line)
+            const speciesData = displaySpeciesForOrder(order.Order_ID, familiesArray, speciesArray);
+            if (order.Species_Cnt > 0) {
+                // Update the species count line above
+                orderSpecies.textContent = `ESPECIES: ${order.Species_Cnt} de las ${order.Known_Species_Cnt} presentes en Argentina`;
+                
+                // Add the species names line
+                const orderBreakdown = document.createElement('div');
+                orderBreakdown.className = 'family-list';
+                orderBreakdown.style.marginTop = '2px';
+                orderBreakdown.style.lineHeight = '1.2';
+                orderBreakdown.innerHTML = `${order.Image_Cnt} fotos: ${speciesData}`;
+                orderContent.appendChild(orderBreakdown);
+            }
+            orderRow.appendChild(orderImage);
+            orderRow.appendChild(orderContent);
+            
+            container.appendChild(orderRow);
+        }
+        
+        function createSuborderElement(order, suborder, familiesArray, subfamiliesArray, speciesArray) {
+            console.log(`Creating suborder: ${suborder.SO_Name_Sci}`);
+
+            const imageFolderPath = '/'+order.Order_Name_Sci + '/'  // Path to the images
+            const TargetPage = imageFolderPath +  suborder.SO_URL;  //+'Fotos' + suborder.SO_Name_Sci + '.html';  // Name of the filename to link to
+            const groupType = 'suborder';                               // example
+            const groupId = suborder.SO_Name_Sci;                       // example
+
+            // create the link to the grupo page
+            const params = new URLSearchParams();
+            params.set('path', imageFolderPath);
+            params.set('groupType', groupType);
+            params.set('groupId', groupId);
+            const url = `/grupo?${params.toString()}`;
+
+            
+            const subgroupRow = document.createElement('div');
+            subgroupRow.className = 'subgroup-row';
+            
+            // Suborder image
+            const subgroupImage = document.createElement('div');
+            subgroupImage.className = 'subgroup-image';
+            
+            // create the link element to suborder pages
+            const Link = document.createElement('a'); // 
+            Link.href = url.toString() || '#';
+            Link.style.textDecoration = 'none';  // remove undelining
+            
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + suborder.SO_Image || 'images/placeholder.jpg';
+            img.alt = suborder.SO_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            Link.appendChild(img);
+            subgroupImage.appendChild(Link);
+            
+            // Suborder content
+            const subgroupContent = document.createElement('div');
+            subgroupContent.className = 'subgroup-content';
+            
+            const subgroupTitle = document.createElement('div');
+            subgroupTitle.className = 'order-title';
+            
+            // link for suborder title
+            const Title_Link = document.createElement('a');
+            Title_Link.href = url.toString() || '#';
+            Title_Link.style.textDecoration = 'none';  // remove undelining
+            Title_Link.style.color = 'inherit';    // keep original text color
+                        
+            Title_Link.innerHTML = `Suborden <span class="order-scientific">${suborder.SO_Name_Sci}</span> <span class="order-spanish">(${suborder.SO_Name_Sp})</span>`;
+            subgroupTitle.appendChild(Title_Link);
+            
+            // Add species count information
+            const subgroupSpecies = document.createElement('div');
+            subgroupSpecies.className = 'species-count';
+            subgroupSpecies.textContent = `ESPECIES: ${suborder.Species_Cnt} de las ${suborder.Known_Species_Cnt} presentes en Argentina`;
+            
+            subgroupContent.appendChild(subgroupTitle);
+            subgroupContent.appendChild(subgroupSpecies);
+            
+            // Generate photo breakdown for suborders (3rd line)
+            const breakdownText = generateSuborderPhotoBreakdown(suborder, familiesArray, speciesArray);
+            if (breakdownText) {
+                const suborderBreakdown = document.createElement('div');
+                suborderBreakdown.className = 'family-list';
+                suborderBreakdown.style.marginTop = '2px';
+                suborderBreakdown.style.lineHeight = '1.2';
+                suborderBreakdown.innerHTML = `${suborder.Image_Cnt} fotos: ${breakdownText}`;
+                subgroupContent.appendChild(suborderBreakdown);
+            }
+            subgroupRow.appendChild(subgroupImage);
+            subgroupRow.appendChild(subgroupContent);
+            
+            return subgroupRow;
+        }
+        
+        function createFamilyElement(family, familiesArray, subfamiliesArray, speciesArray, Family_Type) {
+
+
+            // Add safety checks
+            if (!familiesArray || !Array.isArray(familiesArray)) {
+                console.warn('createFamilyElement: familiesArray is undefined or not an array');
+                return '';
+            }
+            
+            // Add safety checks
+            if (!speciesArray || !Array.isArray(speciesArray)) {
+                console.warn('createFamilyElement: speciesArray is undefined or not an array');
+                return '';
+            }
+
+            // Family_Type allows to call create FamilyElements from 2 different functions.
+            // Family_Type = 'O' for Orders, Family_Type = 'P' for Passeriformes    
+            // Because the Order calls are families which are not buried in the Passeriformes folder so the Path is different.
+            
+            console.log(`Creating family: ${family.Family_Name_Sci}`, family);
+
+            if (Family_Type === 'O') {
+                imageFolderPath = '/'+family.Family_Path;
+                TargetPage = imageFolderPath + 'Fotos' + family.Family_Name_Sci + '.html';
+            } else {
+                imageFolderPath = '/Passeriformes/' + family.Family_Name_Sci + '/';
+                TargetPage = imageFolderPath + 'Fotos' + family.Family_Name_Sci + '.html';
+            }
+            
+            const groupType = 'family';                               // example
+            const groupId = family.Family_Name_Sci;                       // example
+
+            // create the link to the grupo page
+            const params = new URLSearchParams();
+            params.set('path', imageFolderPath);
+            params.set('groupType', groupType);
+            params.set('groupId', groupId);
+            const url = `/grupo?${params.toString()}`;
+
+            
+            const subgroupRow = document.createElement('div');
+            subgroupRow.className = 'subgroup-row';
+            
+            // Check if this is a Passeriformes family for proper sizing
+            const isPasseriformesFamily = family.Parent_Order_ID === 'OR_029';
+            const hasSubfamilies = family.SubFamilies === 'Y';
+            
+            // Family image - use order-image size for Passeriformes families
+            const subgroupImage = document.createElement('div');
+            subgroupImage.className = isPasseriformesFamily ? 'order-image' : 'subgroup-image';
+            
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + family.Family_Image || 'images/placeholder.jpg';
+            img.alt = family.Family_Name_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            
+            if (hasSubfamilies) {
+                // No link at family level when subfamilies exist
+                subgroupImage.appendChild(img);
+            } else {
+                // create the link to family pages only when there are no subfamilies
+                const Link = document.createElement('a');
+                Link.href = url.toString() || '#';
+                Link.style.textDecoration = 'none';
+                Link.appendChild(img);
+                subgroupImage.appendChild(Link);
+            }
+            
+            // Family content - use order-content for Passeriformes families
+            const subgroupContent = document.createElement('div');
+            subgroupContent.className = isPasseriformesFamily ? 'order-content' : 'subgroup-content';
+                       
+            const subgroupTitle = document.createElement('div');
+            subgroupTitle.className = 'order-title';
+            
+            if (hasSubfamilies) {
+                // Plain text title when subfamilies exist (no link)
+                subgroupTitle.innerHTML = `Familia <span class="order-scientific">${family.Family_Name_Sci}</span> <span class="order-spanish">(${family.Family_Name_Sp})</span>`;
+            } else {
+                // create the link element for the family title only when there are no subfamilies
+                const Title_Link = document.createElement('a');
+                Title_Link.href = url.toString() || '#';
+                Title_Link.style.textDecoration = 'none';  // remove undelining
+                Title_Link.style.color = 'inherit';    // keep original text color
+                Title_Link.innerHTML = `Familia <span class="order-scientific">${family.Family_Name_Sci}</span> <span class="order-spanish">(${family.Family_Name_Sp})</span>`;
+                subgroupTitle.appendChild(Title_Link);
+            }
+            
+            const subgroupPhotos = document.createElement('div');
+            subgroupPhotos.className = 'photo-count';
+            subgroupPhotos.textContent = `${family.Image_Cnt} fotos`;
+            
+            // Add species count information
+            const subgroupSpecies = document.createElement('div');
+            subgroupSpecies.className = 'species-count';
+            subgroupSpecies.textContent = `ESPECIES: ${family.Species_Cnt} de las ${family.Known_Species_Cnt} presentes en Argentina`;
+            
+            subgroupContent.appendChild(subgroupTitle);
+            subgroupContent.appendChild(subgroupSpecies);
+
+            const familyBreakdown = document.createElement('div');
+            familyBreakdown.className = 'family-list';
+            familyBreakdown.style.marginTop = '2px';
+            familyBreakdown.style.lineHeight = '1.2';
+                           
+            // Generate photo breakdown for families without subfamilies (3rd line)
+            if (family.SubFamilies !== 'Y') {
+
+                // List the species only when photo count > 0
+                const familySpeciesList = speciesArray
+                    .filter(species => species.Family_Sci === family.Family_Name_Sci && species.Image_Cnt>0)
+
+                // Calculate the total photo count for the family
+                const PhotoCount = family.Image_Cnt;
+                //const PhotoCount = familySpeciesList.reduce((sum, species) => sum + species.Image_Cnt, 0);
+
+                // Format the species names with photo counts
+                const speciesHTML = familySpeciesList.map(species => 
+                    `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
+                ).join(', ');
+
+                // Display the photo count and species names
+                familyBreakdown.innerHTML = `${PhotoCount} fotos: ${speciesHTML}`;
+
+             //    Similar code in fewer statements
+                //if (PhotoCount > 0) {
+                //    familyBreakdown.innerHTML = `${PhotoCount} fotos: ${familySpeciesList.map(species => 
+                //        `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
+                //    ).join(', ')}`;
+                //} else {
+            }
+
+            subgroupContent.appendChild(familyBreakdown);
+            
+            // Check if family has subfamilies
+            if (family.SubFamilies === 'Y') {
+                const familySubfamilies = subfamiliesArray.filter(sf => sf.Family_ID === family.Family_ID);
+                console.log(`Found ${familySubfamilies.length} subfamilies for ${family.Family_Name_Sci}`);
+                
+                if (familySubfamilies.length > 0) {
+                    const subfamiliesDiv = document.createElement('div');
+                    subfamiliesDiv.className = 'subgroup';
+                    
+                    familySubfamilies.forEach(subfamily => {
+                        const subfamilyElement = createSubfamilyElement(subfamily, family, speciesArray);
+                        subfamiliesDiv.appendChild(subfamilyElement);
+                    });
+                    subgroupContent.appendChild(subfamiliesDiv);
+                }
+            }
+            
+            subgroupRow.appendChild(subgroupImage);
+            subgroupRow.appendChild(subgroupContent);   
+            
+            return subgroupRow;
+        }
+        
+        function createSubfamilyElement(subfamily, parentFamily, speciesArray) {
+            console.log(`Creating subfamily: ${subfamily.Subfamily_Sci}`);
+
+            const imageFolderPath = subfamily.SF_Path;   // Path to the images
+            const TargetPage = imageFolderPath + 'Fotos' + subfamily.Subfamily_Sci + '.html';   // Name of the filename to link to
+
+            const groupType = 'subfamily';                               // example
+            const groupId = subfamily.Subfamily_Sci;                       // example
+
+            // create the link to the grupo page
+            const params = new URLSearchParams();
+            params.set('path', imageFolderPath);
+            params.set('groupType', groupType);
+            params.set('groupId', groupId);
+            const url = `/grupo?${params.toString()}`;
+
+            
+            const subgroupRow = document.createElement('div');
+            subgroupRow.className = 'subgroup-row';
+            
+            // Subfamily image
+            const subgroupImage = document.createElement('div');
+            subgroupImage.className = 'subgroup-image';
+            
+            // create the link to subfamily pages
+            const Link = document.createElement('a'); // 
+            Link.href = url.toString() || '#';
+            Link.style.textDecoration = 'none';  // remove undelining
+            
+            // create the image element for the subfamily
+            const img = document.createElement('img');
+            img.src = '/images/thumbnails/' + subfamily.Subfamily_Image || 'images/placeholder.jpg';
+            img.alt = subfamily.Subfamily_Sci;
+            img.onerror = function() { this.src = 'images/placeholder.jpg'; };
+            Link.appendChild(img);
+            subgroupImage.appendChild(Link);
+            
+            // Subfamily content
+            const subgroupContent = document.createElement('div');
+            subgroupContent.className = 'subgroup-content';
+            
+            const subgroupTitle = document.createElement('div');
+            subgroupTitle.className = 'order-title';
+            
+            // create the link element for the suborder title
+            const Title_Link = document.createElement('a');
+            Title_Link.href = url.toString() || '#';
+            Title_Link.style.textDecoration = 'none';  // remove undelining
+            Title_Link.style.color = 'inherit';    // keep original text color
+            
+            Title_Link.innerHTML = `Subfam. <span class="order-scientific">${subfamily.Subfamily_Sci}</span> <span class="order-spanish">(${subfamily.Subfamily_Sp})</span>`;
+            subgroupTitle.appendChild(Title_Link);
+            
+            const subgroupPhotos = document.createElement('div');
+            subgroupPhotos.className = 'photo-count';
+            subgroupPhotos.textContent = `${subfamily.Image_Cnt} fotos`;
+            
+            // Add species count information
+            const subgroupSpecies = document.createElement('div');
+            subgroupSpecies.className = 'species-count';
+            subgroupSpecies.textContent = `ESPECIES: ${subfamily.Species_Cnt} de las ${subfamily.Known_Species_Cnt} presentes en Argentina`;
+            
+            subgroupContent.appendChild(subgroupTitle);
+            subgroupContent.appendChild(subgroupSpecies);
+            
+            // Generate photo breakdown for subfamilies (3rd line)
+            const subfamilyBreakdown = document.createElement('div');
+            subfamilyBreakdown.className = 'family-list';
+            subfamilyBreakdown.style.marginTop = '2px';
+            subfamilyBreakdown.style.lineHeight = '1.2';
+            //subfamilyBreakdown.innerHTML = `${subfamily.Image_Cnt} fotos: [Especies](${subfamily.Image_Cnt || 0})`;
+
+            // List the species only when photo count > 0
+            const subfamilySpeciesList = speciesArray
+                    .filter(species => species.Subfamily_Sci === subfamily.Subfamily_Sci && species.Image_Cnt>0)
+
+            // Calculate the total photo count for the family
+            const PhotoCount = subfamily.Image_Cnt;
+
+                // Format the species names with photo counts
+            const speciesHTML = subfamilySpeciesList.map(species => 
+                    `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
+                ).join(', ');
+
+            subfamilyBreakdown.innerHTML = `${PhotoCount} fotos: ${speciesHTML}`;
+
+            subgroupContent.appendChild(subfamilyBreakdown);
+            subgroupRow.appendChild(subgroupImage);
+            subgroupRow.appendChild(subgroupContent);
+            
+            return subgroupRow;
+        }
+        
+        function generatePhotoBreakdown(orderId, familiesArray, subfamiliesArray, orderSubdivide = null) {
+            // Get families for this order
+            const orderFamilies = familiesArray.filter(family => family.Parent_Order_ID === orderId);
+            
+            if (orderFamilies.length === 0) return '';
+            
+            const breakdownParts = [];
+            
+            orderFamilies.forEach(family => {
+                if (family.SubFamilies === 'Y') {
+                    // Family has subfamilies - show subfamily breakdown (no orange for subfamilies)
+                    const familySubfamilies = subfamiliesArray.filter(sf => sf.Family_ID === family.Family_ID);
+                    if (familySubfamilies.length > 0) {
+                        const subfamilyParts = familySubfamilies.map(subfamily => 
+                        `${subfamily.Subfamily_Sci.toUpperCase()}(${subfamily.Image_Cnt || 0})`
+                        ).join(', ');
+                        breakdownParts.push(`${subfamilyParts}`);
+                    }
+                } else {
+                    // Family has no subfamilies - show family with placeholder species
+                    // For orders without subdivisions OR with SO subdivisions, show family names in orange
+                    if (orderSubdivide === null || orderSubdivide === '' || orderSubdivide === 'SO') {
+                        breakdownParts.push(`<span class="family-name">${family.Family_Name_Sci.toUpperCase()}</span>: [Especies](${family.Image_Cnt || 0})`);
+                    } else {
+                        breakdownParts.push(`[Especies](${family.Image_Cnt || 0})`);
+                    }
+                }
+            });
+            
+            return breakdownParts.join(' - ');
+        }
+        
+        function generateSuborderPhotoBreakdown(suborder, familiesArray, speciesArray) {
+            // Get families for this suborder based on suborder ID mapping
+            let output = "";
+
+            // Calculate the total photo count for the suborder
+            const PhotoCount = suborder.Image_Cnt;
+
+            console.log(suborder.SO_ID);
+
+            // List the species only when photo count > 0
+            const suborderFamilyList = familiesArray
+                    .filter(family => family.Suborder_ID === suborder.SO_ID )//&& family.Image_Cnt>0)
+            
+            if (suborderFamilyList.length === 0) return '';
+            
+            // Process each family
+            suborderFamilyList.forEach(family => {
+                console.log(`Processing family: ${family.Family_Name_Sci}`);
+                
+                // Find species for this family using scientific family name
+                const speciesList = speciesArray.filter(species => 
+                species.Family_Sci === family.Family_Name_Sci &&
+                species.Image_Cnt > 0
+                );          
+                console.log(`Found ${speciesList.length} species for family ${family.Family_Name_Sci}`);
+
+
+                // Build the HTML output text
+                if (speciesList.length > 0) {
+                    const speciesHTML = speciesList.map(species =>
+                    {
+                        //PhotoCount += species.Image_Cnt;
+                        return `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
+                    }
+                    ).join(', ');
+                    console.log(`HTML output for family ${family.Family_Name_Sci}:`, speciesHTML);
+
+                    const familyHTML = `<span class="family-name">${family.Family_Name_Sci.toUpperCase()} (${speciesList.length})</span>`;
+                    console.log(`HTML output for family ${family.Family_Name_Sci}:`, familyHTML);
+
+                    // Append this family+species section to the output string
+                    if (output !=="") output += " - ";
+                    output += `${familyHTML}: ${speciesHTML}`;
+                    console.log(`HTML output for order: ${output}`);
+                }
+            });          
+            return output;
+        }
+        
+        function createPasseriformesSection(container, familiesArray, subfamiliesArray, speciesArray) {
+            console.log('Creating separate Passeriformes section');
+            
+            // Get Passeriformes families (Order_ID = OR_029)
+            const passeriformesFamilies = familiesArray.filter(family => 
+                family.Parent_Order_ID === 'OR_029' 
+                &&                                    //   TBD Will not show families for which there are no photos. TESTED OK!
+                family.Image_Cnt > 0                   //   TBD Will not show families for which there are no photos. TESTED OK!
+            );
+            
+            console.log(`Found ${passeriformesFamilies.length} Passeriformes families`);
+            
+            if (passeriformesFamilies.length === 0) {
+                console.log('No Passeriformes families found');
+                return;
+            }
+            
+            // Add Passeriformes families as separate rows (flush left, no order header)
+            passeriformesFamilies.forEach(family => {
+                console.log(`Creating Passeriformes family: ${family.Family_Name_Sci}`);
+                const familyElement = createFamilyElement(family, familiesArray, subfamiliesArray, speciesArray, 'P');
+                container.appendChild(familyElement);
+            });
+        }
+        
+        document.addEventListener('DOMContentLoaded', loadOrders);
+    </script>
+</body>
+</html> 

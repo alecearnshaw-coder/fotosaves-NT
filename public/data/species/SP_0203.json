@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
+    "generated_at": "2025-09-07T00:28:10.021308",
+    "group_key": "SP_0203",
+    "total_rows": 1,
+    "columns": [
+      "Species_ID",
+      "Slug",
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date",
+      "Location_Date",
+      "Threat_Status"
+    ],
+    "column_range": "B-P"
+  },
+  "data": [
+    {
+      "Species_ID": "SP_0203",
+      "Slug": "PlayerasB_PlayeritoMenor",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_LeastSandpiper_DesPlainesRiver_16May2017_600.jpg",
+      "Large_Filename": "A_LeastSandpiper_DesPlainesRiver_16May2017_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
+      "Sex_Age": null,
+      "Location": "Des Plains river, Mt. Prospect",
+      "Province": "Illinois",
+      "Country": "USA",
+      "Date": "16-05-2017",
+      "Location_Date": "Des Plains river, Mt. Prospect, Illinois, USA - 16-05-2017",
+      "Threat_Status": "NT"
+    }
+  ]
+}
