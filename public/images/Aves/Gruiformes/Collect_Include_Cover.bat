@@ -1,0 +1,6 @@
+@echo off
+echo Processing...
+python collect_image_listing_include_cover.py
+echo.
+echo Process completed. Press any key to close...
+pause
