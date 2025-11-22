@@ -319,6 +319,56 @@
             console.log('Available subfamilies:', subfamiliesArray.length);
             console.log('Available species:', speciesArray.length);
             
+            // Add introductory text box at the very beginning
+            const introBoxRow = document.createElement('div');
+            introBoxRow.className = 'order-row';
+            introBoxRow.style.marginTop = '20px';
+            introBoxRow.style.marginBottom = '20px';
+            
+            const introBoxImage = document.createElement('div');
+            introBoxImage.className = 'order-image';
+            introBoxImage.style.visibility = 'hidden'; // Invisible spacer
+            
+            const introBoxContent = document.createElement('div');
+            introBoxContent.className = 'order-content';
+            
+            const introBox = document.createElement('div');
+            introBox.style.width = '90%';
+            introBox.style.minHeight = '80px';
+            introBox.style.padding = '10px';
+            introBox.style.border = '2px solid #663300';
+            introBox.style.borderRadius = '8px';
+            introBox.style.fontFamily = 'Arial, Helvetica, sans-serif';
+            introBox.style.fontSize = '14px';
+            introBox.style.backgroundColor = '#F5F5DC';
+            introBox.style.textAlign = 'left';
+            
+            const introHeading = document.createElement('div');
+            introHeading.style.textAlign = 'center';
+            introHeading.style.marginBottom = '10px';
+            introHeading.style.fontWeight = 'bold';
+            introHeading.style.fontSize = '18px';
+            introHeading.innerHTML = 'Aves Silvestres de Argentina';
+            
+            const introText = document.createElement('div');
+            introText.style.textAlign = 'left';
+            introText.style.marginTop = '10px';
+            introText.innerHTML = `
+                Argentina tiene una rica avifauna de unas <b>mil especies</b> de aves, gracias a su variada geografía, amplia extensión latitudinal y extensos mares. Sumando registros escasos y extraordinarios, se acerca a unas <b>1.200 especies</b>.
+                <br><br>
+                Las aves se clasifican por órdenes, que en algunos casos reunen formas fácilmente reconocibles, como ñandúes, palomas o loros. En otros casos esta distinción ocurre a nivel de familia, como pasa con vencejos y picaflores, o tucanes y carpinteros. La presentación elegida para este sitio busca exponer esta diversidad, siguiendo la taxonomía de <b>AviList</b>.
+                <br><br>
+                <b>Tips para navegar el sitio:</b> selecciona un grupo y verás una o dos fotos de las especies que lo componen. Debajo de cada especie tendrás un enlace para ver más fotos de la misma especie. Agranda las fotos pulsando en ella, y luego reduce pulsando en el marco negro para no perder el lugar. A nivel de especie puedes recorrer las fotos agrandadas pulsando en las flechitas laterales. <i>Disfruta de las fotos, aprecia la gran biodiversidad de la naturaleza, y... ¡haz lo que puedas para cuidarla!</i>
+            `;
+            
+            introBox.appendChild(introHeading);
+            introBox.appendChild(introText);
+            
+            introBoxContent.appendChild(introBox);
+            introBoxRow.appendChild(introBoxImage);
+            introBoxRow.appendChild(introBoxContent);
+            container.appendChild(introBoxRow);
+            
             // Process regular orders (excluding Passeriformes - OR_029)
             const nonPasseriformesOrders = ordersArray.filter(order => order.Order_ID !== 'OR_029');
             

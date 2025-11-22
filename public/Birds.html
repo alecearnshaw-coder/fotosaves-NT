@@ -121,6 +121,56 @@
             const subfamiliesArray = (window.subfamilies && window.subfamilies.data) ? window.subfamilies.data : (window.subfamilies || []);
             const speciesArray = (window.species && window.species.data) ? window.species.data : (window.species || []);
 
+            // Add introductory text box at the very beginning
+            const introBoxRow = document.createElement('div');
+            introBoxRow.className = 'order-row';
+            introBoxRow.style.marginTop = '20px';
+            introBoxRow.style.marginBottom = '20px';
+            
+            const introBoxImage = document.createElement('div');
+            introBoxImage.className = 'order-image';
+            introBoxImage.style.visibility = 'hidden'; // Invisible spacer
+            
+            const introBoxContent = document.createElement('div');
+            introBoxContent.className = 'order-content';
+            
+            const introBox = document.createElement('div');
+            introBox.style.width = '90%';
+            introBox.style.minHeight = '80px';
+            introBox.style.padding = '10px';
+            introBox.style.border = '2px solid #663300';
+            introBox.style.borderRadius = '8px';
+            introBox.style.fontFamily = 'Arial, Helvetica, sans-serif';
+            introBox.style.fontSize = '14px';
+            introBox.style.backgroundColor = '#F5F5DC';
+            introBox.style.textAlign = 'left';
+            
+            const introHeading = document.createElement('div');
+            introHeading.style.textAlign = 'center';
+            introHeading.style.marginBottom = '10px';
+            introHeading.style.fontWeight = 'bold';
+            introHeading.style.fontSize = '18px';
+            introHeading.innerHTML = 'Wild Birds of Argentina';
+            
+            const introText = document.createElement('div');
+            introText.style.textAlign = 'left';
+            introText.style.marginTop = '10px';
+            introText.innerHTML = `
+                Argentina has a rich avifauna of about <b>one thousand species</b> of birds, thanks to its varied geography, wide latitudinal range, and extensive seas. Including rare and extraordinary records, it approaches some <b>1,200 species</b>.
+                <br><br>
+                Birds are classified by orders, which in some cases bring together easily recognizable forms, such as rheas, pigeons, or parrots. In other cases, this distinction occurs at the family level, as is the case with swifts and hummingbirds, or toucans and woodpeckers. The presentation chosen for this site seeks to expose this diversity, following the taxonomy of <b>AviList</b>.
+                <br><br>
+                <b>Tips for navigating the site:</b> select a group and you will see one or two photos of the species that compose it. Below each species you will have a link to see more photos of the same species. Enlarge the photos by clicking on them, then reduce by clicking on the black frame so as not to lose your place. At the species level you can browse through the enlarged photos by clicking on the side arrows. <i>Enjoy the photos, appreciate the great biodiversity of nature, and... do what you can to take care of it!</i>
+            `;
+            
+            introBox.appendChild(introHeading);
+            introBox.appendChild(introText);
+            
+            introBoxContent.appendChild(introBox);
+            introBoxRow.appendChild(introBoxImage);
+            introBoxRow.appendChild(introBoxContent);
+            container.appendChild(introBoxRow);
+
             const nonPasseriformesOrders = ordersArray.filter(order => order.Order_ID !== 'OR_029');
             nonPasseriformesOrders.forEach(order => {
                 if (order.Subdivide === 'SO') {
