@@ -1,14 +1,11 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async rewrites() {
     return [
-      // All Aves group pages (orders, families, Passeriformes families, etc.)
       {
-        source: '/aves/:path*',
+        source: '/grupo/:path*',
         destination: '/grupo.html',
       },
-      // All species detail pages
       {
         source: '/especie/:path*',
         destination: '/especie.html',
