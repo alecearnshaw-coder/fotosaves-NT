@@ -4,7 +4,7 @@ export default function Home() {
     <div>
       <script
         dangerouslySetInnerHTML={{
-          __html: `window.location.href = '/index_sp.html';`,
+          __html: `window.location.href = '/index.html';`,
         }}
       />
       <p>Redirecting to fotosaves.com.ar...</p>
