@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "AMBA",
       "Country": null,
       "Date": "15-11-2015",
-      "Location_Date": "Reserva Costanera Sur, AMBA - 15-11-2015",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "23-03-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23-03-2012",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "5-04-2015",
-      "Location_Date": "Reserva Ecológica Costanera Sur, AMBA - 5-04-2015",
+      "Date": "05-04-2015",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "5-04-2015",
-      "Location_Date": "Reserva Ecológica Costanera Sur, AMBA - 5-04-2015",
+      "Date": "05-04-2015",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-3-2012",
-      "Location_Date": "Laguna Sirena, Yataity Calle, Corrientes - 23/3/2012",
+      "Date": "23-03-2012",
       "Threat_Status": null
     }
   ]

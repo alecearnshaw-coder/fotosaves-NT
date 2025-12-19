@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 24-11-2013",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-01-2014",
-      "Location_Date": "Ceibas, Entre Ríos - 5-01-2014",
+      "Date": "05-01-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "20-09-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 20/09/2009",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "12-2004",
-      "Location_Date": "Costanera Sur, CABA - 12/2004",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Perdices, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-12-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 6/12/2007",
+      "Date": "06-12-2007",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "18-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 18/11/2007",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/11/2007",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/11/2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2008",
+      "Date": "24-01-2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2008",
+      "Date": "24-01-2008",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-3-2010 - DigiScoped",
-      "Location_Date": "Ceibas, Entre Ríos - 28/3/2010 - DigiScoped",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
+      "Date": "09-10-2010",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
+      "Date": "09-10-2010",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     }
   ]

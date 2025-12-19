@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "08-10-2017",
-      "Location_Date": "Parque Provincial Potrero de Yala, Yala, Jujuy- 08-10-2017",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "14-04-2018",
-      "Location_Date": "Monolito, Parque Nacional Calilegua, Jujuy - 14-04-2018",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "10-10-2017",
-      "Location_Date": "Parque Provincial Potrero de Yala, Yala, Jujuy- 10-10-2017",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "16-08-2014",
-      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 16-08-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "11-10-2014",
-      "Location_Date": "Parque Provincial Potrero de Yala, Jujuy - 11-10-2014",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Chicaque",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "4-2007",
-      "Location_Date": "Chicaque, Bogotá, COLOMBIA - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     }
   ]

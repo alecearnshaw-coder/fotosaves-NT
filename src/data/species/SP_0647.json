@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-10-2009",
-      "Location_Date": "Reserva Natural Municipal de Vicente López, Buenos Aires - 18-10-2009",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-06-2021",
-      "Location_Date": "Olivos, Buenos Aires - 20-06-2021",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-5-2015",
-      "Location_Date": "Ceibas, Entre Ríos - 9-5-2015",
+      "Date": "09-05-2015",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2001",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/2001",
+      "Date": "08-2001",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2001",
-      "Location_Date": "Perdices, Entre Ríos, 11/2006",
+      "Date": "08-2001",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2001",
-      "Location_Date": "Ceibas, Entre Ríos, 11/2005",
+      "Date": "08-2001",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2005",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 12/2005",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "J. Botánico",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "4-2007",
-      "Location_Date": "J. Botánico, Bogotá, COLOMBIA - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Palermo",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Palermo, Buenos Aires - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Reserva de Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "31-1-2009",
-      "Location_Date": "Reserva de Vicente López, Buenos Aires - 31/1/2009",
+      "Date": "31-01-2009",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-7-2009",
-      "Location_Date": "Ibicuy, Entre Ríos - 26/7/2009",
+      "Date": "26-07-2009",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-10-2009",
-      "Location_Date": "Reserva Vicente Lopez, Buenos Aires - 18/10/2009",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-10-2009",
-      "Location_Date": "Reserva Vicente Lopez, Buenos Aires - 18/10/2009",
       "Threat_Status": null
     }
   ]

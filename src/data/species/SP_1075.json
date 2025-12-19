@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-01-2014",
-      "Location_Date": "Reserva Natural de Vicente López, La Lucila, Buenos Aires - 11-01-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-07-2011",
-      "Location_Date": "Reserva Ecológica de Punta Lara, Buenos Aires - 17-07-2011",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "14-05-2016",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 14-05-2016",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "30-03-2024",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 30-03-2024",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "30-03-2024",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 30-03-2024",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-7-2011",
-      "Location_Date": "Punta Lara, Buenos Aires - 17/7/2011",
+      "Date": "17-07-2011",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-7-2011",
-      "Location_Date": "Punta Lara, Buenos Aires - 17/7/2011",
+      "Date": "17-07-2011",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-7-2011",
-      "Location_Date": "Punta Lara, Buenos Aires - 17/7/2011",
+      "Date": "17-07-2011",
       "Threat_Status": null
     }
   ]

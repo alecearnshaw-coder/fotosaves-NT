@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Yavi, Jujuy - 13-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "08-10-2017",
-      "Location_Date": "Parque Provincial Potrero de Yala, Yala, Jujuy- 08-10-2017",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "11-10-2014",
-      "Location_Date": "Parque Provincial Potrero de Yala, Jujuy - 11-10-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "20-09-2016",
-      "Location_Date": "Chinchan, Lima, PERU - 20-09-2016",
       "Threat_Status": null
     }
   ]

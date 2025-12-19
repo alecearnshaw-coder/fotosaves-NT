@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-02-2011",
-      "Location_Date": "Reserva \"Ribera Norte\", Acassuso, Buenos Aires - 13-02-2011",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Barrio Santa Rita, San Isidro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-2-2014",
-      "Location_Date": "Barrio Santa Rita, San Isidro, Buenos Aires - 16/2/2014",
+      "Date": "16-02-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "18-02-2025",
-      "Location_Date": "Ciudad de La Rioja, La Rioja - 18-02-2025",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Barrio Santa Rita, San Isidro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-2-2014",
-      "Location_Date": "Barrio Santa Rita, San Isidro, Buenos Aires - 16/2/2014",
+      "Date": "16-02-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "17-08-2014",
-      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 17-08-2014",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "24-10-2019",
-      "Location_Date": "Herradura, Formosa - 24-10-2019",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "24-10-2019",
-      "Location_Date": "Herradura, Formosa - 24-10-2019",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-12-2017",
-      "Location_Date": "Olivos, Buenos Aires - 13-12-2017",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-01-2018",
-      "Location_Date": "Olivos, Buenos Aires - 18-01-2018",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "15-04-2018",
-      "Location_Date": "Catamontaña, Jujuy - 15-04-2018",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 06-01-2013",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 21-01-2013",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-03-2014",
-      "Location_Date": "Punta Lara, Buenos Aires - 16-03-2014",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-12-2020",
-      "Location_Date": "Olivos, Buenos Aires - 7-12-2020",
+      "Date": "07-12-2020",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-1-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
+      "Date": "06-01-2013",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-1-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
+      "Date": "06-01-2013",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-1-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
+      "Date": "06-01-2013",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-1-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
+      "Date": "06-01-2013",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-02-2012",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 18-02-2012",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "22-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 22-01-2013",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2005",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 3/2005",
+      "Date": "03-2005",
       "Threat_Status": null
     },
     {
@@ -395,7 +373,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "1999",
-      "Location_Date": "Reserva Ribera Norte, Buenos Aires -1999",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -429,7 +405,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Perdices, Entre Ríos - 21/12/2008",
       "Threat_Status": null
     },
     {
@@ -446,7 +421,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Perdices, Entre Ríos - 21/12/2008",
       "Threat_Status": null
     },
     {
@@ -463,7 +437,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Perdices, Entre Ríos - 21/12/2008",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-1-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008",
+      "Date": "07-01-2008",
       "Threat_Status": null
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-1-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008",
+      "Date": "07-01-2008",
       "Threat_Status": null
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-1-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008",
+      "Date": "07-01-2008",
       "Threat_Status": null
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -547,8 +516,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -564,8 +532,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -581,8 +548,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -598,8 +564,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -615,8 +580,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -632,8 +596,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2007",
-      "Location_Date": "Olivos, Buenos Aires - 6/2007",
+      "Date": "06-2007",
       "Threat_Status": null
     },
     {
@@ -649,8 +612,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2007",
-      "Location_Date": "Olivos, Buenos Aires - 6/2007",
+      "Date": "06-2007",
       "Threat_Status": null
     },
     {
@@ -666,8 +628,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-11-2008",
-      "Location_Date": "Costanera Sur, CABA - 8/11/2008",
+      "Date": "08-11-2008",
       "Threat_Status": null
     },
     {
@@ -683,8 +644,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -700,8 +660,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -717,8 +676,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -734,8 +692,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -751,8 +708,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -768,8 +724,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "8-10-200 9",
-      "Location_Date": "Ceibas, Entre Ríos - 8/10/200 9",
+      "Date": "08-10-2009",
       "Threat_Status": null
     },
     {
@@ -785,8 +740,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2010",
-      "Location_Date": "Perdices, Entre Ríos - 10/1/2010",
+      "Date": "10-01-2010",
       "Threat_Status": null
     },
     {
@@ -802,8 +756,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-2-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 13/2/2011",
+      "Date": "13-02-2011",
       "Threat_Status": null
     },
     {
@@ -819,8 +772,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-2-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 13/2/2011",
+      "Date": "13-02-2011",
       "Threat_Status": null
     },
     {
@@ -836,8 +788,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-2-2012",
-      "Location_Date": "Olivos, Buenos Aires - 21/2/2012",
+      "Date": "21-02-2012",
       "Threat_Status": null
     },
     {
@@ -853,8 +804,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-2-2012",
-      "Location_Date": "Olivos, Buenos Aires - 21/2/2012",
+      "Date": "21-02-2012",
       "Threat_Status": null
     },
     {
@@ -870,8 +820,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-2-2012",
-      "Location_Date": "Olivos, Buenos Aires - 21/2/2012",
+      "Date": "21-02-2012",
       "Threat_Status": null
     },
     {
@@ -887,8 +836,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Colonia Pellegrini, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": null
     }
   ]

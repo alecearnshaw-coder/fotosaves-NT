@@ -308,6 +308,7 @@ h2 {
         </div>
     </div>
     <script src="/scripts/shared/genderMap.js"></script>
+    <script src="/scripts/shared/locationDate.js"></script>
 
      <!-- 2. Navigation links are shown inside the heading container -->
 
@@ -1022,7 +1023,7 @@ h2 {
             if (hasLarge) {
                 link.href = large;
                 link.setAttribute('rel', 'lightbox[' + (item.Species_ID || 'set') + ']');
-                link.setAttribute('title', item.Location_Date || '');
+                link.setAttribute('title', buildLocationDateString(item));
             } else {
                 link.replaceWith(img);
             }

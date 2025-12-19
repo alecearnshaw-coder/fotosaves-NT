@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "6-07-2016",
-      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 6-07-2016",
+      "Date": "06-07-2016",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "3-05-2014",
-      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 3-05-2014",
+      "Date": "03-05-2014",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-06-2017",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 25-06-2017",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-03-2014",
-      "Location_Date": "Punta Lara, Buenos Aires - 16-03-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-01-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 24-01-2008",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-01-2014",
-      "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 12-01-2014",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-5-2015",
-      "Location_Date": "Ceibas, Entre Ríos - 9-5-2015",
+      "Date": "09-05-2015",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Isla Talavera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-03-2024",
-      "Location_Date": "Isla Talavera, Buenos Aires - 5-03-2024",
+      "Date": "05-03-2024",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-1998",
-      "Location_Date": "Estancia San Isidro, Magdalena, Buenos Aires - 12/1998",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2002",
-      "Location_Date": "Estancia San Isidro, Magdalena, Buenos Aires - 12/2002",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-1-2006",
-      "Location_Date": "Otamendi, Buenos Aires - 9/1/2006",
+      "Date": "09-01-2006",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-5-2007",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 26/5/2007",
+      "Date": "26-05-2007",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "2001",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2001",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-7-2007",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 1/7/2007",
+      "Date": "01-07-2007",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2008",
+      "Date": "24-01-2008",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2008",
+      "Date": "24-01-2008",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-4-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 10/4/2009",
+      "Date": "10-04-2009",
       "Threat_Status": null
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-4-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 10/4/2009",
+      "Date": "10-04-2009",
       "Threat_Status": null
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-7-2009",
-      "Location_Date": "Escobar, Buenos Aires - 11/7/2009",
+      "Date": "11-07-2009",
       "Threat_Status": null
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-7-2009",
-      "Location_Date": "Escobar, Buenos Aires - 11/7/2009",
+      "Date": "11-07-2009",
       "Threat_Status": null
     },
     {
@@ -547,8 +516,7 @@
       "Location": "Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-7-2009",
-      "Location_Date": "Escobar, Buenos Aires - 11/7/2009",
+      "Date": "11-07-2009",
       "Threat_Status": null
     },
     {
@@ -564,8 +532,7 @@
       "Location": "Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-7-2009",
-      "Location_Date": "Escobar, Buenos Aires - 11/7/2009",
+      "Date": "11-07-2009",
       "Threat_Status": null
     },
     {
@@ -581,8 +548,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-6-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 15/6/2010",
+      "Date": "15-06-2010",
       "Threat_Status": null
     },
     {
@@ -598,8 +564,7 @@
       "Location": "Pubta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-7-2011",
-      "Location_Date": "Pubta Lara, Buenos Aires - 17/7/2011",
+      "Date": "17-07-2011",
       "Threat_Status": null
     },
     {
@@ -615,8 +580,7 @@
       "Location": "Pubta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-7-2011",
-      "Location_Date": "Pubta Lara, Buenos Aires - 17/7/2011",
+      "Date": "17-07-2011",
       "Threat_Status": null
     },
     {
@@ -632,8 +596,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-10-2011",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 2/10/2011",
+      "Date": "02-10-2011",
       "Threat_Status": null
     }
   ]

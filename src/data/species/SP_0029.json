@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Ciudad de Buenos Aires",
       "Country": null,
       "Date": "17-06-2007",
-      "Location_Date": "Reserva Costanera Sur, Ciudad de Buenos Aires - 17-06-2007",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Bío Bío",
       "Country": "CHILE",
       "Date": "17-10-2008",
-      "Location_Date": "Concepción, Bío Bío, CHILE - 17-10-2008",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "6-2007",
-      "Location_Date": "Costanera Sur, CABA - 6/2007",
+      "Date": "06-2007",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "17-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 17/6/2007",
+      "Date": "17-06-2007",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "17-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 17/6/2007",
+      "Date": "17-06-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "17-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 17/6/2007",
+      "Date": "17-06-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-5-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 13/5/07",
+      "Date": "13-05-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-5-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 13/5/07",
+      "Date": "13-05-2007",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2002",
-      "Location_Date": "Costanera Sur, Buenos Aires - 10/2002",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2002",
-      "Location_Date": "Costanera Sur, Buenos Aires - 10/2002",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2002",
-      "Location_Date": "Costanera Sur, Buenos Aires - 10/2002",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Costanera Sur, Buenos Aires - 8/2006",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Olavarria, Buenos Aires - 2/2002",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 8/2002",
       "Threat_Status": null
     },
     {
@@ -327,7 +309,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Costanera Sur, Buenos Aires - 7/2007",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 10/2007",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "13-3-20011",
-      "Location_Date": "Río Lapataia, PN Tierra del Fuego, Tierra del Fuego - 13/3/20011",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "La Herradura, Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "25-3-2009",
-      "Location_Date": "La Herradura, Plottier, Neuquén - 25/3/2009",
+      "Date": "25-03-2009",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Lago Pellegrini",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "26-3-2009",
-      "Location_Date": "Lago Pellegrini, Río Negro - 26/3/2009",
+      "Date": "26-03-2009",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Lago Pellegrini",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "26-3-2009",
-      "Location_Date": "Lago Pellegrini, Río Negro - 26/3/2009",
+      "Date": "26-03-2009",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-4-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 21/4/2009",
+      "Date": "21-04-2009",
       "Threat_Status": null
     }
   ]

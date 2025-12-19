@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "California",
       "Country": "USA",
       "Date": "30-09-2008",
-      "Location_Date": "Bolsa Chica Wildlife Reserve, Huntington, California, USA - 30-09-2008",
       "Threat_Status": "VU"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "California",
       "Country": "USA",
       "Date": "30-09-2008",
-      "Location_Date": "Bolsa Chica Wildlife Reserve, Huntington, California, USA - 30-09-2008",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "California",
       "Country": "USA",
       "Date": "30-09-2008",
-      "Location_Date": "Bolsa Chica Wildlife Reserve, Huntington, California, USA - 30-09-2008",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "California",
       "Country": "USA",
       "Date": "30-09-2008",
-      "Location_Date": "Bolsa Chica Wildlife Reserve, Huntington, California, USA - 30-09-2008",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "CA",
       "Country": "USA",
       "Date": "11-2008",
-      "Location_Date": "Bolsa Chica Wildlife Reserve, Huntiington, CA, USA - 11/2008",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-10-2013",
-      "Location_Date": "La Argentina, Entre Ríos - 05-10-2013",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-10-2013",
-      "Location_Date": "La Argentina, Entre Ríos - 05-10-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-10-2013",
-      "Location_Date": "La Argentina, Entre Ríos - 05-10-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "08-01-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 08-01-2007",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-3-2014",
-      "Location_Date": "Punta Lara, Buenos Aires - 16/3/2014",
+      "Date": "16-03-2014",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "7-10-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 7/10/2007",
+      "Date": "07-10-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "R. N. Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-2001",
-      "Location_Date": "R. N. Otamendi, Buenos Aires - 9/2001",
+      "Date": "09-2001",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "04-01-2009",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Punta Lara, Buenos Aires - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Punta Rasa, San Clemente del Tuyú, Buenos Aires - 11/2004",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-7-2011",
-      "Location_Date": "Ibicuy , Entre Ríos - 9/7/2011",
+      "Date": "09-07-2011",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Chavarría",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-3-2012",
-      "Location_Date": "Chavarría, Corrientes - 22/3/2012",
+      "Date": "22-03-2012",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Chavarría",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-3-2012",
-      "Location_Date": "Chavarría, Corrientes - 22/3/2012",
+      "Date": "22-03-2012",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Chavarría",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-3-2012",
-      "Location_Date": "Chavarría, Corrientes - 22/3/2012",
+      "Date": "22-03-2012",
       "Threat_Status": null
     }
   ]

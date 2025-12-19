@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2004",
-      "Location_Date": "Gualeguaychú, Entre Ríos - 1/2004",
+      "Date": "01-2004",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2004",
-      "Location_Date": "Gualeguaychú, Entre Ríos - 1/2004",
+      "Date": "01-2004",
       "Threat_Status": "Near-threatened"
     }
   ]

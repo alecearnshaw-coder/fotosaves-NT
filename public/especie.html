@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/lightbox/css/lightbox.css">
     <link rel="stylesheet" href="/styles/Species_Builder_styles.css" type="text/css">
     <script src="/scripts/shared/genderMap.js"></script>
+    <script src="/scripts/shared/locationDate.js"></script>
     <style>
       /* Breadcrumb box styling aligned with Group_Builder green/brown scheme */
       .subHeadingBox {
@@ -121,13 +122,13 @@
         <div class="quick-links">
           <div class="links-left">
             <span class="label-es">Enlaces:</span>
-            <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
             <a class="quick-link" href="/Aves.html" title="Selección de órdenes y familias de aves">Aves</a>
+            <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
           </div>
           <div class="links-right">
             <span class="label-en">Links:</span>
-            <a class="quick-link" href="/index_english.html" title="Site home (English)">Site home</a>
             <a class="quick-link" href="/Birds.html" title="Select bird orders and families">Birds</a>
+            <a class="quick-link" href="/index_english.html" title="Site home (English)">Site home</a>
           </div>
         </div>
     </div>
@@ -314,6 +315,7 @@
     let species_data = {};
 
     // genderMap is provided by shared/genderMap.js
+    // buildLocationDateString is provided by shared/locationDate.js
 
     async function loadTables() {
 
@@ -571,7 +573,7 @@
           const a = document.createElement('a');
           a.href = large;
           a.setAttribute('rel', 'lightbox[' + (species_ID || 'set') + ']');
-          a.setAttribute('title', item.Location_Date || '');
+          a.setAttribute('title', buildLocationDateString(item));
           a.appendChild(img);
           frame.appendChild(a);
         } else {
@@ -659,7 +661,7 @@
           const a = document.createElement('a');
           a.href = large;
           a.setAttribute('rel', 'lightbox[' + (species_ID || 'slides') + ']');
-          a.setAttribute('title', item.Location_Date || '');
+          a.setAttribute('title', buildLocationDateString(item));
           a.appendChild(img);
           frame.appendChild(a);
         } else {

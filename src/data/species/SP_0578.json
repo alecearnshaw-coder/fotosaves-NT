@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 03-01-2009",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "25-11-2019",
-      "Location_Date": "Establecimiento Los Picazos, Tres Marías, Formosa - 25-11-2019",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 03-01-2009",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-12-2012",
-      "Location_Date": "Parque Natural Municipal \"Las Piedras\", Gualeguaychú, Entre Ríos - 29-12-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "06-08-2007",
-      "Location_Date": "Parque Natural Enrique Berdúc, Paraná, Entre Ríos - 06-08-2007",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "21-10-2019",
-      "Location_Date": "Reserva Guaycolec, Formosa - 21-10-2019",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-12-2012",
-      "Location_Date": "Parque Natural Municipal \"Las Piedras\", Gualeguaychú, Entre Ríos - 29-12-2012",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-03-2024",
-      "Location_Date": "Perdices, Entre Ríos - 5-03-2024",
+      "Date": "05-03-2024",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-8-2007",
-      "Location_Date": "Pque. Natural Enrique Berduc, Paraná, Entre Ríos - 6/8/2007",
+      "Date": "06-08-2007",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-8-2007",
-      "Location_Date": "Enrique Berduc, Paraná, Entre Ríos - 6/8/2007",
+      "Date": "06-08-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-2-2009",
-      "Location_Date": "Victoria, Entre Ríos - 18/2/2009",
+      "Date": "18-02-2009",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-2-2009",
-      "Location_Date": "Victoria, Entre Ríos - 18/2/2009",
+      "Date": "18-02-2009",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-2-2009",
-      "Location_Date": "Victoria, Entre Ríos - 18/2/2009",
+      "Date": "18-02-2009",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-12-2009",
-      "Location_Date": "Pque. Natural Enrique Berduc, Paraná, Entre Ríos - 6/12/2009",
+      "Date": "06-12-2009",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-12-2009",
-      "Location_Date": "Pque. Natural Enrique Berduc, Paraná, Entre Ríos - 6/12/2009",
+      "Date": "06-12-2009",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-12-2009",
-      "Location_Date": "Pque. Natural Enrique Berduc, Paraná, Entre Ríos - 6/12/2009",
+      "Date": "06-12-2009",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-12-2009",
-      "Location_Date": "Pque. Natural Enrique Berduc, Paraná, Entre Ríos - 3/12/2009",
+      "Date": "03-12-2009",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-12-2009",
-      "Location_Date": "Pque. Natural Enrique Berduc, Paraná, Entre Ríos - 3/12/2009",
+      "Date": "03-12-2009",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Refugio del Peñón, Camino a Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Refugio del Peñón, Camino a Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Refugio del Peñón, Camino a Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Refugio del Peñón, Camino a Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "15-01-2012",
-      "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 15-01-2012",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Abra Pampa, Jujuy- 13-10-2014",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-5-2011",
-      "Location_Date": "Esquel, Chubut - 1/5/2011",
+      "Date": "01-05-2011",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-5-2011",
-      "Location_Date": "Esquel, Chubut - 1/5/2011",
+      "Date": "01-05-2011",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-5-2011",
-      "Location_Date": "Esquel, Chubut - 1/5/2011",
+      "Date": "01-05-2011",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-5-2011",
-      "Location_Date": "Esquel, Chubut - 1/5/2011",
+      "Date": "01-05-2011",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-10-2011",
-      "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 30/10/2011",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-10-2011",
-      "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 30/10/2011",
       "Threat_Status": null
     }
   ]

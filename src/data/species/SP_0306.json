@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "07-08-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 07-08-2010",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrietes",
       "Country": null,
       "Date": "20-04-2014",
-      "Location_Date": "Campos del Aguapey, Corrietes - 20-04-2014",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "7-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 7/8/2010",
+      "Date": "07-08-2010",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "7-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 7/8/2010",
+      "Date": "07-08-2010",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "7-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 7/8/2010",
+      "Date": "07-08-2010",
       "Threat_Status": null
     }
   ]

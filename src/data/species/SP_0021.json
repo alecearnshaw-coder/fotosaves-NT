@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Sao Paulo",
       "Country": "BRAZIL",
       "Date": "18-10-2008",
-      "Location_Date": "Parque do Ibirapuera, Sao Paulo, BRAZIL - 18-10-2008",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "NN",
       "Country": "GERMANY",
       "Date": "1999",
-      "Location_Date": "[en cautiverio] / [in captivity], NN, GERMANY - 1999",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "17-10-2007",
-      "Location_Date": "Costanera Sur, CABA - 17/10/2007",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Sao Paulo",
       "Country": "BRAZIL",
       "Date": "10-2008",
-      "Location_Date": "Parque do Ibirapuera, Sao Paulo, BRAZIL - 10/2008",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-4-2009",
-      "Location_Date": "Perdices, Entre Ríos - 20/4/2009",
+      "Date": "20-04-2009",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "27-3-2012",
-      "Location_Date": "Iberá, Corrientes - 27/3/2012",
+      "Date": "27-03-2012",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": null
     }
   ]

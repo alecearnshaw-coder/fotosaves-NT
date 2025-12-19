@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Provincial \"El Loro Hablador\", El Impenetrable",
       "Province": "Chaco",
       "Country": null,
-      "Date": "8-2002",
-      "Location_Date": "Reserva Provincial \"El Loro Hablador\", El Impenetrable, Chaco - 8/2002",
+      "Date": "08-2002",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Provincial \"El Loro Hablador\", El Impenetrable",
       "Province": "Chaco",
       "Country": null,
-      "Date": "8-2002",
-      "Location_Date": "Reserva Provincial \"El Loro Hablador\", El Impenetrable, Chaco - 8/2002",
+      "Date": "08-2002",
       "Threat_Status": null
     }
   ]

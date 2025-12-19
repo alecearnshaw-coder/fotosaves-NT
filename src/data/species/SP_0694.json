@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-09-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1-09-2007",
+      "Date": "01-09-2007",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-01-2014",
-      "Location_Date": "Ceibas, Entre Ríos - 5-01-2014",
+      "Date": "05-01-2014",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-12-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 1-12-2012",
+      "Date": "01-12-2012",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15-07-2007",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Costanera Sur, CABA - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2005",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2005",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Refugio de Estancia Marahué, Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Refugio de Estancia Marahué, Pedro Luro, Buenos Aires - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "1999",
-      "Location_Date": "Estancia San Isidro, Magdalena, Buenos Aires - 1999",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2002",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2002",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2006",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-3-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 1/3/2007",
+      "Date": "01-03-2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
+      "Date": "09-10-2010",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Punta Lara, Buenos Aires - 10/2006",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Punta Lara, Buenos Aires - 10/2006",
       "Threat_Status": null
     },
     {
@@ -327,7 +309,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2003",
-      "Location_Date": "Refugio de Estancia Marahué, Pedro Luro, Buenos Aires - 10/2003",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 12/2006",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2006",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-5-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 13/5/2007",
+      "Date": "13-05-2007",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     }
   ]

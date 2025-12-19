@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "14-01-2012",
-      "Location_Date": "Caleta Córdoba, Comodoro Rivadavia, Chubut - 14-01-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "14-10-2014",
-      "Location_Date": "Yavi, Jujuy - 14-10-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-09-2014",
-      "Location_Date": "Punta Rasa, Buenos Aires - 20-09-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Punta Rasa, San Clemente del Tuyú, Buenos Aires - 11/2004",
       "Threat_Status": null
     }
   ]

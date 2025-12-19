@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "17-03-2019",
-      "Location_Date": "Zanjón Loreto, Ituzaingó, Corrientes - 17-03-2019",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 2/12/2007",
+      "Date": "02-12-2007",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 2/12/2007",
+      "Date": "02-12-2007",
       "Threat_Status": "Vulnerable"
     }
   ]

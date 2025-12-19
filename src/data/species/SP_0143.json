@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "AMBA",
       "Country": null,
       "Date": "21-01-2018",
-      "Location_Date": "Reserva Ecológica Costanera Sur, AMBA - 21-01-2018",
       "Threat_Status": null
     }
   ]

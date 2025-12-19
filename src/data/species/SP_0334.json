@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-07-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 22-07-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "18-05-2014",
-      "Location_Date": "Ceibas, Entre Ríos - 18-05-2014",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-5-2015",
-      "Location_Date": "Ceibas, Entre Ríos - 9-5-2015",
+      "Date": "09-05-2015",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "16-8-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 16/8/2009",
+      "Date": "16-08-2009",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 6/9/2009",
+      "Date": "06-09-2009",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 6/9/2009",
+      "Date": "06-09-2009",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 6/9/2009",
+      "Date": "06-09-2009",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 6/9/2009",
+      "Date": "06-09-2009",
       "Threat_Status": null
     }
   ]

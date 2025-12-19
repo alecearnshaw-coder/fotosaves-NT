@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-10-2013",
-      "Location_Date": "La Argentina, Entre Ríos - 05-10-2013",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-12-2014",
-      "Location_Date": "La Argentina, Entre Ríos - 27-12-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "25-11-2019",
-      "Location_Date": "Establecimiento Los Picazos, Tres Marías, Formosa - 25-11-2019",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "27-03-2012",
-      "Location_Date": "Laguna Iberá, Corrientes - 27-03-2012",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "06-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 06-10-2013",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-2007",
-      "Location_Date": "Vuelta de Obligado, Buenos Aires - 20/5/2007",
+      "Date": "05-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Parque Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-8-2007",
-      "Location_Date": "Parque Natural Enrique Berduc, Paraná, Entre Ríos - 6/8/2007",
+      "Date": "06-08-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Parque Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-8-2007",
-      "Location_Date": "Parque Natural Enrique Berduc, Paraná, Entre Ríos - 6/8/2007",
+      "Date": "06-08-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Parque Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-8-2007",
-      "Location_Date": "Parque Natural Enrique Berduc, Paraná, Entre Ríos - 6/8/2007",
+      "Date": "06-08-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Eª Rincón del Socorro, Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Eª Rincón del Socorro, Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Eª Rincón del Socorro, Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Eª Rincón del Socorro, Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe",
       "Province": "Santa Fe",
       "Country": null,
-      "Date": "2-12-2009",
-      "Location_Date": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe, Santa Fe - 2/12/2009",
+      "Date": "02-12-2009",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe",
       "Province": "Santa Fe",
       "Country": null,
-      "Date": "2-12-2009",
-      "Location_Date": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe, Santa Fe - 2/12/2009",
+      "Date": "02-12-2009",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe",
       "Province": "Santa Fe",
       "Country": null,
-      "Date": "2-12-2009",
-      "Location_Date": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe, Santa Fe - 2/12/2009",
+      "Date": "02-12-2009",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe",
       "Province": "Santa Fe",
       "Country": null,
-      "Date": "2-12-2009",
-      "Location_Date": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe, Santa Fe - 2/12/2009",
+      "Date": "02-12-2009",
       "Threat_Status": null
     }
   ]

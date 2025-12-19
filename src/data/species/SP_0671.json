@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "19-09-2010",
-      "Location_Date": "Entre Ríos - 19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "19-09-2010",
-      "Location_Date": "Entre Ríos - 19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "20-04-2014",
-      "Location_Date": "Campos del Aguapey, Corrientes - 20-04-2014",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "19-9-2010",
-      "Location_Date": "Perdices, Entre Ríos - 19/9/2010",
+      "Date": "19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "19-9-2010",
-      "Location_Date": "Perdices, Entre Ríos - 19/9/2010",
+      "Date": "19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "19-9-2010",
-      "Location_Date": "Perdices, Entre Ríos - 19/9/2010",
+      "Date": "19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "19-9-2010",
-      "Location_Date": "Perdices, Entre Ríos - 19/9/2010",
+      "Date": "19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "19-9-2010",
-      "Location_Date": "Perdices, Entre Ríos - 19/9/2010",
+      "Date": "19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "19-9-2010",
-      "Location_Date": "Perdices, Entre Ríos - 19/9/2010",
+      "Date": "19-09-2010",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Perdices, Entre Ríos - 11/2004",
       "Threat_Status": "Vulnerable"
     }
   ]

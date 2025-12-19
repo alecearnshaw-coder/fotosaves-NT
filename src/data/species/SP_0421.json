@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "La Cumbre, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "La Cumbre, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "Camino E66, La Cumbre, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "Camino E66, La Cumbre, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18-11-2010",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "3 -05-2014",
-      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 3 -05-2014",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "21-09-2015",
-      "Location_Date": "Parque Nacional Iguazú, Misiones - 21-09-2015",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "P. P. \"El Loro Hablador\", El Impenetrable",
       "Province": "Chaco",
       "Country": null,
-      "Date": "8-2002",
-      "Location_Date": "P. P. \"El Loro Hablador\", El Impenetrable, Chaco - 8/2002",
+      "Date": "08-2002",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-5-2008",
-      "Location_Date": "Copiapó, Atacama, CHILE - 24/5/2008",
+      "Date": "24-05-2008",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17/12/2009",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "11-2010",
-      "Location_Date": "Ushuaia, Grande, Tierra del Fuego - 11/2010",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "La Herradura, Plotier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "3-9-2010",
-      "Location_Date": "La Herradura, Plotier, Neuquén - 3/9/2010",
+      "Date": "03-09-2010",
       "Threat_Status": null
     }
   ]

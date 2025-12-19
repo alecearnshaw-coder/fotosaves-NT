@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-12-2023",
-      "Location_Date": "Reserva Natural del Puerto, Mar del Plata, Buenos Aires - 9-12-2023",
+      "Date": "09-12-2023",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "14-09-2012",
-      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 14-09-2012",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-01-2024",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 17-01-2024",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-06-2021",
-      "Location_Date": "Olivos, Buenos Aires - 13-06-2021",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "22-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 22-03-2013",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-01-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 26-01-2013",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "1-02-2014",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Ushuaia, Tierra del Fuego - 1-02-2014",
+      "Date": "01-02-2014",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-06-2014",
-      "Location_Date": "Vieytes, Buenos Aires - 21-06-2014",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "17-02-2017",
-      "Location_Date": "Reserva Bahía Encerrada, Ushuaia, Tierra del Fuego - 17-02-2017",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "17-02-2017",
-      "Location_Date": "Reserva Bahía Encerrada, Ushuaia, Tierra del Fuego - 17-02-2017",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Los Robles, Moreno",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-6-2010",
-      "Location_Date": "Los Robles, Moreno, Buenos Aires - 5/6/2010",
+      "Date": "05-06-2010",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Otamendi, Buenos Aires - 10/2006",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2002",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2002",
+      "Date": "04-2002",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Perdices, Entre Ríos - 12/2006",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Punta Rasa, Buenos Aires - 11/2004",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-5-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
+      "Date": "26-05-2007",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Ea. Marahué, Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Ea. Marahué, Pedro Luro, Buenos Aires - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Ruta 5",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-4-2009",
-      "Location_Date": "Ruta 5, Buenos Aires - 1/4/2009",
+      "Date": "01-04-2009",
       "Threat_Status": null
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Ruta 5",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-4-2009",
-      "Location_Date": "Ruta 5, Buenos Aires - 1/4/2009",
+      "Date": "01-04-2009",
       "Threat_Status": null
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Ruta 5",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-3-2009",
-      "Location_Date": "Ruta 5, Buenos Aires - 1/4/2009",
+      "Date": "01-03-2009",
       "Threat_Status": null
     },
     {
@@ -547,8 +516,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     },
     {
@@ -564,8 +532,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     },
     {
@@ -581,8 +548,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     },
     {
@@ -598,8 +564,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     }
   ]

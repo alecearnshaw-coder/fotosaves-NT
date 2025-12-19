@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "7-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 7-07-2016",
+      "Date": "07-07-2016",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "7-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 7-07-2016",
+      "Date": "07-07-2016",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "7-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 7-07-2016",
+      "Date": "07-07-2016",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "13-09-2018",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 13-09-2018",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "23-09-2015",
-      "Location_Date": "Parque Nacional Iguazú, Misiones - 23-09-2015",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "23-09-2015",
-      "Location_Date": "Parque Nacional Iguazú, Misiones - 23-09-2015",
       "Threat_Status": null
     }
   ]

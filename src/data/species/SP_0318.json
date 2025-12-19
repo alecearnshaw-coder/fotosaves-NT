@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-10-2018",
-      "Location_Date": "Parque Municipal Finky, Turdera, Buenos Aires - 25-10-2018",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-10-2018",
-      "Location_Date": "Parque Municipal Finky, Turdera, Buenos Aires - 25-10-2018",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-10-2018",
-      "Location_Date": "Parque Municipal Finky, Turdera, Buenos Aires - 25-10-2018",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "20-11-2015",
-      "Location_Date": "Reserva Ecológica Costanera Sur, CABA - 20-11-2015",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "08-12-2007",
-      "Location_Date": "Reserva Municipal de San Isidro \"Ribera Norte\", Buenos Aires - 08-12-2007",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     }
   ]

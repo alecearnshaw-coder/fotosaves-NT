@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "23-09-2015",
-      "Location_Date": "Ruta 101, Parque Nacional Iguazú, Misiones - 23-09-2015",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "23-09-2015",
-      "Location_Date": "Ruta 101, Parque Nacional Iguazú, Misiones - 23-09-2015",
       "Threat_Status": null
     }
   ]

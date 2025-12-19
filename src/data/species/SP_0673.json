@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "27-10-2019",
-      "Location_Date": "RP2, Formosa - 27-10-2019",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "27-10-2019",
-      "Location_Date": "RP2, Formosa - 27-10-2019",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "19-10-2019",
-      "Location_Date": "RP2, Formosa - 19-10-2019",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-01-2009",
-      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 5-01-2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "19-10-2019",
-      "Location_Date": "RP2, Formosa - 19-10-2019",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "04-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -327,7 +309,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Ea. \"El Bagual\", Formosa - 11/2004",
       "Threat_Status": "Vulnerable"
     }
   ]

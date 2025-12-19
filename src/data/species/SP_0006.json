@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "15-01-2012",
-      "Location_Date": "Ruta Provincial 27, Comodoro Rivadavia, Chubut - 15-01-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "15-01-2012",
-      "Location_Date": "Ruta Provincial 27, Comodoro Rivadavia, Chubut - 15-01-2012",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "15-01-2012",
-      "Location_Date": "Ruta Provincial 27, Comodoro Rivadavia, Chubut - 15-01-2012",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "13-02-2006",
-      "Location_Date": "Ruta Provincial 1, Isla Escondida, Chubut - 13-02-2026",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "13-02-2006",
-      "Location_Date": "Ruta Provincial 1, Chubut - 13-02-2026",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "11-02-2006",
-      "Location_Date": "Camarones, Km16, Chubut - 11-02-2006",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "03-07-2009",
-      "Location_Date": "Uzcudún, Chubut - 03-07-2009",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Punta Ninfas, Pto. Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-1998",
-      "Location_Date": "Punta Ninfas, Pto. Madryn, Chubut - 1/1998",
+      "Date": "01-1998",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Península Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-1998",
-      "Location_Date": "Península Valdés, Chubut - 1/1998",
+      "Date": "01-1998",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2004",
-      "Location_Date": "Camarones, Chubut - 2/2004",
+      "Date": "02-2004",
       "Threat_Status": null
     }
   ]

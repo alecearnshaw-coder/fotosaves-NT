@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Camino a Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-01-2009",
-      "Location_Date": "Camino a Colonia Pellegrini, Corrientes- 5-01-2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "07-12-2015",
-      "Location_Date": "P. N. El Palmar, Ubajay, Entre Ríos - 07-12-2015",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2004",
-      "Location_Date": "Gualeguaychú, Entre Ríos - 1/2004",
+      "Date": "01-2004",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2004",
-      "Location_Date": "Gualeguaychú, Entre Ríos - 1/2004",
+      "Date": "01-2004",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "5-1-2009",
-      "Location_Date": "Iberá, Corrientes - 5/1/2009",
+      "Date": "05-01-2009",
       "Threat_Status": "Vulnerable"
     }
   ]

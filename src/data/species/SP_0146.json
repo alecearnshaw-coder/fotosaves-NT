@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-07-2013",
-      "Location_Date": "Punta Piedras, Buenos Aires - 07-07-2013",
       "Threat_Status": "VU"
     }
   ]

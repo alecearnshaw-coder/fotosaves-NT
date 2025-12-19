@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "4-07-2016",
-      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 4-07-2016",
+      "Date": "04-07-2016",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "15-04-2018",
-      "Location_Date": "Bosque nativo en el cruce de RN38 y RN 66 (entre Perico y San Pedro), Jujuy - 15-04-2018",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2017",
-      "Location_Date": "RP1 y Río San Francisco, Jujuy - 12-10-2017",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2017",
-      "Location_Date": "RP1 y Río San Francisco, Jujuy - 12-10-2017",
       "Threat_Status": null
     }
   ]

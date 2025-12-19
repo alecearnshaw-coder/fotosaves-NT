@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Laguna Runtuyoc, Abra Pampa, Jujuy - 13-10-2014",
       "Threat_Status": "Vulnerable"
     }
   ]

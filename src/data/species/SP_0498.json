@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Pumahuasi, Jujuy- 13-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Pumahuasi, Jujuy- 13-10-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Pumahuasi, Jujuy- 13-10-2014",
       "Threat_Status": null
     }
   ]

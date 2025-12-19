@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "15-07-2012",
-      "Location_Date": "Olivos, Buenos Aires - 15-07-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "23-09-2013",
-      "Location_Date": "Olivos, Buenos Aires - 23-09-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-06-2021",
-      "Location_Date": "Olivos, Buenos Aires - 20-06-2021",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Olivos, Buenos Aires - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Olivos, Buenos Aires - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Av. Gral Paz",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Av. Gral Paz, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-6-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/6/2007",
+      "Date": "03-06-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Olivos, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Olivos, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-2007",
-      "Location_Date": "Olivos, Buenos Aires - 11/2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-7-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/7/2008",
+      "Date": "09-07-2008",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Brazo Largo",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Brazo Largo, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "15-11-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 15/11/2008",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-5-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 25/5/2009",
+      "Date": "25-05-2009",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-5-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 25/5/2009",
+      "Date": "25-05-2009",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-6-2009",
-      "Location_Date": "Olivos, Buenos Aires - 20/6/2009",
+      "Date": "20-06-2009",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-9-2009",
-      "Location_Date": "Olivos, Buenos Aires - 6/9/2009",
+      "Date": "06-09-2009",
       "Threat_Status": null
     },
     {
@@ -378,7 +357,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2009",
-      "Location_Date": "Olivos, Buenos Aires - 10/10/2009",
       "Threat_Status": null
     },
     {
@@ -395,7 +373,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2009",
-      "Location_Date": "Olivos, Buenos Aires - 10/10/2009",
       "Threat_Status": null
     },
     {
@@ -412,7 +389,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2009",
-      "Location_Date": "Olivos, Buenos Aires - 10/10/2009",
       "Threat_Status": null
     },
     {
@@ -429,7 +405,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "23-10-2009",
-      "Location_Date": "Olivos, Buenos Aires - 23/10/2009",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-05-2011",
-      "Location_Date": "Esquel, Chubut - 1-05-2011",
+      "Date": "01-05-2011",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-05-2011",
-      "Location_Date": "Esquel, Chubut - 1-05-2011",
+      "Date": "01-05-2011",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1-05-2011",
-      "Location_Date": "Esquel, Chubut - 1-05-2011",
+      "Date": "01-05-2011",
       "Threat_Status": null
     }
   ]

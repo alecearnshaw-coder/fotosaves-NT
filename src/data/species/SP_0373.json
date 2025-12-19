@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2014",
-      "Location_Date": "Hornaditas, Jujuy - 12-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "08-10-2017",
-      "Location_Date": "Parque Provincial Potrero de Yala, Yala, Jujuy- 08-10-2017",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "20-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 20-03-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "20-03-2013",
-      "Location_Date": "Cuestas del Uritoco, Capilla del Monte, Córdoba - 20-03-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "20-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 20-03-2013",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "20-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 20-03-2013",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "18-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 18-03-2013",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "20-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 20-03-2013",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "18-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 18-03-2013",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "18-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 18-03-2013",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "08-10-2017",
-      "Location_Date": "Parque Provincial Potrero de Yala, Yala, Jujuy - 08-10-2017",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "22-02-2025",
-      "Location_Date": "3ra Estación del Cablecarril, Chilecito, La Rioja - 22-02-2025",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "21-03-2013",
-      "Location_Date": "Ongamira, Córdoba - 21-03-2013",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "21-03-2013",
-      "Location_Date": "Ongamira, Córdoba - 21-03-2013",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "22-02-2020",
-      "Location_Date": "Parque Nacional Quebrada del Condorito, Córdoba - 22-02-2020",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "7-2000",
-      "Location_Date": "Parque Nacional Calilegua, Jujuy - 7/2000",
+      "Date": "07-2000",
       "Threat_Status": null
     }
   ]

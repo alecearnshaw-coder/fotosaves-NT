@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "4-200 8",
-      "Location_Date": "Punta Rasa, Buenos Aires - 4/2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-07-2013",
-      "Location_Date": "Punta Piedras, Buenos Aires - 7-07-2013",
+      "Date": "07-07-2013",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "03-06-2014",
-      "Location_Date": "Mar Chiquita, Buenos Aires - 03-06-2014",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Necochea & Clarmoecó",
       "Province": "Bueos Aires",
       "Country": null,
-      "Date": "17-7-2009",
-      "Location_Date": "Necochea & Clarmoecó, Bueos Aires - 17/7/2009",
+      "Date": "17-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Bahia Bustamante",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2003",
-      "Location_Date": "Bahia Bustamante, Chubut - 2/2003",
+      "Date": "02-2003",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Bahia Bustamante",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2003",
-      "Location_Date": "Bahia Bustamante, Chubut - 2/2003",
+      "Date": "02-2003",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Bahia Bustamante",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2003",
-      "Location_Date": "Bahia Bustamante, Chubut - 2/2003",
+      "Date": "02-2003",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Bahia Bustamante",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2003",
-      "Location_Date": "Bahia Bustamante, Chubut - 2/2003",
+      "Date": "02-2003",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -547,8 +516,7 @@
       "Location": "Bahia Bustamante",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2003",
-      "Location_Date": "Bahia Bustamante, Chubut - 2/2003",
+      "Date": "02-2003",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -564,8 +532,7 @@
       "Location": "Bahia Bustamante",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2003",
-      "Location_Date": "Bahia Bustamante, Chubut - 2/2003",
+      "Date": "02-2003",
       "Threat_Status": "Near-threatened"
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
       "Date": "12-04-2007",
-      "Location_Date": "Jardín Botánico, Bogotá, Cundinamarca, COLOMBIA - 12-04-2007",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
       "Date": "12-04-2007",
-      "Location_Date": "J, Botánico, Bogotá, Cundinamarca, COLOMBIA - 12-04-2007",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
       "Date": "12-04-2007",
-      "Location_Date": "J, Botánico, Bogotá, Cundinamarca, COLOMBIA - 12-04-2007",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
       "Date": "12-04-2007",
-      "Location_Date": "J, Botánico, Bogotá, Cundinamarca, COLOMBIA - 12-04-2007",
       "Threat_Status": null
     }
   ]

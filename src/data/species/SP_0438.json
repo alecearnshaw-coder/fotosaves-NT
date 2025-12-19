@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "02-2008",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Ushuaia, Tierra del Fuego - 02-2008",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "02-2008",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Ushuaia, Tierra del Fuego - 02-2008",
       "Threat_Status": null
     }
   ]

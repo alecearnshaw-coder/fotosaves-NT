@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "28-11-2016",
-      "Location_Date": "Reserva Natural de Pilar, Pilar, Buenos Aires - 28-11-2016",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Perdces, Entre Ríos - 30-12-2007",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "3-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 3-03-2014",
+      "Date": "03-03-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2001",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 12/2001",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2001",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 12/2001",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 12/2006",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/11/2007",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/11/2007",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/11/2007",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 12/2007",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 30/12/2007",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 30/12/2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-2-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 22/2/2008",
+      "Date": "22-02-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-2-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 22/2/2008",
+      "Date": "22-02-2008",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-10-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/10/2008",
+      "Date": "09-10-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-10-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/10/2008",
+      "Date": "09-10-2008",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-10-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/10/2008",
+      "Date": "09-10-2008",
       "Threat_Status": null
     },
     {
@@ -327,7 +309,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2009",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2010",
-      "Location_Date": "Perdices, Entre Ríos - 10/1/2010",
+      "Date": "10-01-2010",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2010",
-      "Location_Date": "Perdices, Entre Ríos - 10/1/2010",
+      "Date": "10-01-2010",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "29-08-2023",
-      "Location_Date": "Peña Alta, San Francisco, Sierras de Calilegua, Jujuy - 29-08-2023",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "24-02-2020",
-      "Location_Date": "El Rincón, Cruz Grande, Córdoba - 24-02-2020",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16-12-2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "28-01-2014",
-      "Location_Date": "Ea. Maria Behety, Río Grande, Tierra del Fuego - 28-01-2014",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "22-02-2020",
-      "Location_Date": "Quebrada de Batán, Altas Cumbres, Córdoba - 22-02-2020",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ea. Cabo San Pablo",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "1-2001",
-      "Location_Date": "Ea. Cabo San Pablo, Tierra del Fuego - 1/2001",
+      "Date": "01-2001",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ea. Cabo San Pablo",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "1-2001",
-      "Location_Date": "Ea. Cabo San Pablo, Tierra del Fuego - 1/2001",
+      "Date": "01-2001",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ea. San Joséْ, Ruta \"b\", Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Ea. San Joséْ, Ruta \"b\", Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ea. San Joséْ, Ruta \"b\", Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Ea. San Joséْ, Ruta \"b\", Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Farellones, Santiago, CHILE - 16/12/2009",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-10-2011",
-      "Location_Date": "Manzano Histórico, Tunuyan, Mendoza - 30/10/2011",
       "Threat_Status": "Vulnerable"
     }
   ]

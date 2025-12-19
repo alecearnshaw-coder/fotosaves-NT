@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "AMBA",
       "Country": null,
       "Date": "15-03-2007",
-      "Location_Date": "Lago de Palermo, AMBA - 15-03-2007",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "31-03-2014",
-      "Location_Date": "Olivos, Buenos Aires - 31-03-2014",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Av. 9 de julio",
       "Province": "AMBA",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Av. 9 de julio, AMBA - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Av. 9 de julio",
       "Province": "AMBA",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Av. 9 de julio, AMBA - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Av. 9 de julio",
       "Province": "AMBA",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Av. 9 de julio, AMBA - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Palermo",
       "Province": "AMBA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Palermo, AMBA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     }
   ]

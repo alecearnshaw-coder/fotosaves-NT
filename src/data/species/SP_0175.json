@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016",
-      "Location_Date": "Pucusana, Lima, PERU - 17-09-2016",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Bío Bío",
       "Country": "CHILE",
       "Date": "14-10-2008",
-      "Location_Date": "Desembocadura del Bio Bío, Concepción, Bío Bío, CHILE - 14-10-2008",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "CHILE",
       "Country": null,
       "Date": "14-10-2008",
-      "Location_Date": "Desembocadura del Río Bio Bio, Concepción, Bío Bío, CHILE - 14/10/2008",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "CHILE",
       "Country": null,
       "Date": "14-10-2008",
-      "Location_Date": "Desembocadura del Río Bio Bio, Concepción, Bío Bío, CHILE - 14/10/2008",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "CHILE",
       "Country": null,
       "Date": "14-10-2008",
-      "Location_Date": "Desembocadura del Río Bio Bio, Concepción, Bío Bío, CHILE - 14/10/2008",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "CA",
       "Country": "USA",
       "Date": "12-2008",
-      "Location_Date": "Seal Beach golf course, CA, USA - 12/2008",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "CA",
       "Country": "USA",
       "Date": "12-2008",
-      "Location_Date": "Seal Beach golf course, CA, USA - 12/2008",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "CHILE",
       "Country": null,
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17/12/2009",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "CHILE",
       "Country": null,
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17/12/2009",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 14/1/2012",
+      "Date": "14-01-2012",
       "Threat_Status": null
     }
   ]

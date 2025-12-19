@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016",
-      "Location_Date": "Pucusana, Lima, PERU - 17-09-2016",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016",
-      "Location_Date": "Pucusana, Lima, PERU - 17-09-2016",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016",
-      "Location_Date": "Pucusana, Lima, PERU - 17-09-2016",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17/12/2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17/12/2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17/12/2009",
       "Threat_Status": "Near-threatened"
     }
   ]

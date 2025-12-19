@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "13-09-2012",
-      "Location_Date": "Paso Córdoba, Río Negro - 13-09-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "11-02-2006",
-      "Location_Date": "Camarones, Chubut - 11-02-2006",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "11-10-2014",
-      "Location_Date": "Tilcara, Jujuy- 11-10-2014",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2002",
-      "Location_Date": "Punta Cantor, Peninsula Valdés, Chubut - 2/2002",
+      "Date": "02-2002",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2002",
-      "Location_Date": "Punta Cantor, Peninsula Valdés, Chubut - 2/2002",
+      "Date": "02-2002",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2002",
-      "Location_Date": "Punta Cantor, Peninsula Valdés, Chubut - 2/2002",
+      "Date": "02-2002",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Uzcudún",
       "Province": "Chubut",
       "Country": null,
-      "Date": "3-7-2009",
-      "Location_Date": "Uzcudún, Chubut - 3/7/2009",
+      "Date": "03-07-2009",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2002",
-      "Location_Date": "Punta Cantor, Peninsula Valdés, Chubut - 2/2002",
+      "Date": "02-2002",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "La Herradura, Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "25-3-2009",
-      "Location_Date": "La Herradura, Plottier, Neuquén - 25/3/2009",
+      "Date": "25-03-2009",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "La Herradura, Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "25-3-2009",
-      "Location_Date": "La Herradura, Plottier, Neuquén - 25/3/2009",
+      "Date": "25-03-2009",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "27-3-2009",
-      "Location_Date": "Gral. Roca, Río Negro - 27/3/2009",
+      "Date": "27-03-2009",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2003",
-      "Location_Date": "Camarones, Chubut - 2/2003",
+      "Date": "02-2003",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "3-2009",
-      "Location_Date": "Gral. Roca, Río Negro - 29/3/2009",
+      "Date": "03-2009",
       "Threat_Status": null
     }
   ]

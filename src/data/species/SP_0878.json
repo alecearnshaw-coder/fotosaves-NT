@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "8-5-2016",
-      "Location_Date": "Ceibas, Entre Ríos - 8-5-2016",
+      "Date": "08-05-2016",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "15-07-2012",
-      "Location_Date": "Olivos, Buenos Aires - 15-07-2012",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-07-2012",
-      "Location_Date": "Olivos, Buenos Aires - 9-07-2012",
+      "Date": "09-07-2012",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "11-01-2014",
-      "Location_Date": "Reserva Ecológica Costanera Sur, CABA - 11-01-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "13-11-2015",
-      "Location_Date": "Reserva Costanera Sur, CABA - 13-11-2015",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "28-05-2016",
-      "Location_Date": "Olivos, Buenos Aires - 28-05-2016",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-6-2010",
-      "Location_Date": "Costanera Sur, CABA - 20/6/2010",
+      "Date": "20-06-2010",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "4-2006",
-      "Location_Date": "Costanera Sur, CABA - 4/2006",
+      "Date": "04-2006",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "4-2006",
-      "Location_Date": "Costanera Sur, CABA - 4/2006",
+      "Date": "04-2006",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "4-2006",
-      "Location_Date": "Costanera Sur, CABA - 4/2006",
+      "Date": "04-2006",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Otamendi, Buenos Aires - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Otamendi, Buenos Aires - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "25-9-2008",
-      "Location_Date": "Costanera Sur, CABA - 25/9/2008",
+      "Date": "25-09-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-4-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 10/4/2009",
+      "Date": "10-04-2009",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Costanera Sur, CABA - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Punta Indio",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2002",
-      "Location_Date": "Punta Indio, Buenos Aires - 4/2002",
+      "Date": "04-2002",
       "Threat_Status": null
     }
   ]

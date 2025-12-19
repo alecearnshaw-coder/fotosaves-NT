@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "16-10-2017",
-      "Location_Date": "P 83 entre Monolito y Río Jordán, Serranías de Calilegua, Jujuy - 16-10-2017",
       "Threat_Status": null
     }
   ]

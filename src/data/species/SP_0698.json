@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "14-02-2006",
-      "Location_Date": "Cerro Avanzado, Puerto Madryn, Chubut - 14-02-2006",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "3-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 3-03-2014",
+      "Date": "03-03-2014",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "3-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 3-03-2014",
+      "Date": "03-03-2014",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Puerto Madryn, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Puerto Madryn, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Puerto Madryn, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Puerto Madryn, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "29-10-2011",
-      "Location_Date": "Potrerillos, Mendoza - 29/10/2011",
       "Threat_Status": null
     }
   ]

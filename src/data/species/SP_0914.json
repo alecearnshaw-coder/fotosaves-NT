@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "13-09-2018",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 13-09-2018",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "13-09-2018",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 13-09-2018",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Jardín de los Picaflores, Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "2-05-2014",
-      "Location_Date": "Jardín de los Picaflores, Iguazú, Misiones - 2-05-2014",
+      "Date": "02-05-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "13-09-2018",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 13-09-2018",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "20-09-2015",
-      "Location_Date": "Parque Nacional Iguazú, Misiones - 20-09-2015",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "2 -05-2014",
-      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 2 -05-2014",
       "Threat_Status": null
     }
   ]

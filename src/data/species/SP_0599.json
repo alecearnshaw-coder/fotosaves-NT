@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "24-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 24-03-2013",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "24-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 24-03-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "24-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 24-03-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "24-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 24-03-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "29-02-2020",
-      "Location_Date": "Capilla del Monte, Córdoba - 29-02-2020",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Pedro Luro, Buenos Aires - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Pedro Luro, Buenos Aires - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Pedro Luro, Buenos Aires - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Bahía Blanca",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2005",
-      "Location_Date": "Bahía Blanca, Buenos Aires - 6/2005",
+      "Date": "06-2005",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Bahía Blanca",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2005",
-      "Location_Date": "Bahía Blanca, Buenos Aires - 6/2005",
+      "Date": "06-2005",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "3-2009",
-      "Location_Date": "Gral. Roca, Río Negro - 29/3/2009",
+      "Date": "03-2009",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "29-3-2009",
-      "Location_Date": "Gral. Roca, Río Negro - 29/3/2009",
+      "Date": "29-03-2009",
       "Threat_Status": null
     }
   ]

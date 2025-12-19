@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "05-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 05-01-2013",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "AMBA",
       "Country": null,
       "Date": "08-12-2012",
-      "Location_Date": "Lago de Palermo, AMBA - 08-12-2012",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-11-2013",
-      "Location_Date": "Olivos, Buenos Aires - 06-11-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-06-2021",
-      "Location_Date": "Olivos, Buenos Aires - 13-06-2021",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "AMBA",
       "Country": null,
       "Date": "29-06-2008",
-      "Location_Date": "Lago de Palermo, AMBA - 29-06-2008",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "22-05-2016",
-      "Location_Date": "Reserva de Vicente López, La Lucila, Buenos Aires - 22-05-2016",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "20-6-2010",
-      "Location_Date": "Costanera Sur, AMBA - 20/6/2010",
+      "Date": "20-06-2010",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Av. 9 de julio",
       "Province": "AMBA",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Av. 9 de julio, AMBA - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Olivos, Buenos Aires -1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Olivos, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Acassuso",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Ribera Norte, Acassuso - 12/2006",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2008",
-      "Location_Date": "Olivos, Buenos Aires - 4/2008",
+      "Date": "04-2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Lag. de Palermo",
       "Province": "AMBA",
       "Country": null,
-      "Date": "6-2008",
-      "Location_Date": "Lag. de Palermo, AMBA - 6/2008",
+      "Date": "06-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2009",
-      "Location_Date": "Olivos, Buenos Aires - 2/2009",
+      "Date": "02-2009",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "9-2001",
-      "Location_Date": "Ribera Norte, Acassuso - 9/2001",
+      "Date": "09-2001",
       "Threat_Status": null
     }
   ]

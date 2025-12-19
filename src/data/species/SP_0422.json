@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "27-03-2012",
-      "Location_Date": "Esteros del Iberá, Colonia Carlos Pellegrini, Corrientes - 27-03-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "25-11-2019",
-      "Location_Date": "Establecimiento Los Picazos, Tres Marías, Formosa - 25-11-2019",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "19-04-2014",
-      "Location_Date": "Estancia Virocay, Corrientes - 19-04-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Ea. \"El Bagual\", Formosa - 11/2004",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "27-3-2012",
-      "Location_Date": "Iberá, Corrientes - 27/3/2012",
+      "Date": "27-03-2012",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ea. Rincón del Socorro, Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-3-2012",
-      "Location_Date": "Ea. Rincón del Socorro, Iberá, Corrientes - 24/3/2012",
+      "Date": "24-03-2012",
       "Threat_Status": null
     }
   ]

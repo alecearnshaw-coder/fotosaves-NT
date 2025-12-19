@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Tokyo",
       "Country": "JAPAN",
       "Date": "11-10-2025",
-      "Location_Date": null,
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Tokyo",
       "Country": "JAPAN",
       "Date": "11-10-2025",
-      "Location_Date": null,
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2010",
-      "Location_Date": "Puente Buñirigo, Magdalena, Buenos Aires - 27-10-2010",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-09-2014",
-      "Location_Date": "San Clemente del Tuyú, Buenos Aires - 21-09-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-01-2024",
-      "Location_Date": "Gerli, Buenos Aires - 26-01-2024",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2005",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 12/2005",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Puerto de Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-10-2009",
-      "Location_Date": "Puerto de Olivos, Buenos Aires - 2/10/2009",
+      "Date": "02-10-2009",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2009",
-      "Location_Date": "Puente Buñirigo, Magdalena, Buenos Aires - 27/10/2009",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2009",
-      "Location_Date": "Puente Buñirigo, Magdalena, Buenos Aires - 27/10/2009",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     }
   ]

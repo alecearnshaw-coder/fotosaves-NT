@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Perico",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-4-2018",
-      "Location_Date": "Perico, Jujuy, 11/4/2018",
+      "Date": "11-04-2018",
       "Threat_Status": null
     }
   ]

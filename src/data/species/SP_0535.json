@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Natural Ribera Norte, Acassuso, San Isidro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-8-2011",
-      "Location_Date": "Reserva Natural Ribera Norte, Acassuso, San Isidro, Buenos Aires - 6-8-2011",
+      "Date": "06-08-2011",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Natural Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-10-2013",
-      "Location_Date": "Reserva Natural Ribera Norte, Acassuso, Buenos Aires - 4-10-2013",
+      "Date": "04-10-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "14-07-2019",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 14-07-2019",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-07-2019",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 20-07-2019",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-07-2019",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 20-07-2019",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-07-2019",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 20-07-2019",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Eco Parque, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-10-2023",
-      "Location_Date": "Eco Parque, San Fernando, Buenos Aires - 8-10-2023",
+      "Date": "08-10-2023",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2006",
-      "Location_Date": "Olivos, Buenos Aires -3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Acassuso, Buenos Aires - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Acassuso, Buenos Aires - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-8-2007",
-      "Location_Date": "Acassuso, Buenos Aires - 5/8/2007",
+      "Date": "05-08-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-8-2007",
-      "Location_Date": "Acassuso, Buenos Aires - 5/8/2007",
+      "Date": "05-08-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-8-2007",
-      "Location_Date": "Acassuso, Buenos Aires - 5/8/2007",
+      "Date": "05-08-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-8-2007",
-      "Location_Date": "Acassuso, Buenos Aires - 5/8/2007",
+      "Date": "05-08-2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Palermo, CABA - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/7/2011",
+      "Date": "07-2011",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-7-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/7/2011",
+      "Date": "24-07-2011",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-7-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/7/2011",
+      "Date": "24-07-2011",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-7-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/7/2011",
+      "Date": "24-07-2011",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-7-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/7/2011",
+      "Date": "24-07-2011",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-7-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/7/2011",
+      "Date": "24-07-2011",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-8-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 6/8/2011",
+      "Date": "06-08-2011",
       "Threat_Status": null
     }
   ]

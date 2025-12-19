@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-10-2013",
-      "Location_Date": "La Argentina, Entre Ríos - 05-10-2013",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Natural Municipal Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-01-2010",
-      "Location_Date": "Reserva Natural Municipal Ribera Norte, Acassuso, Buenos Aires - 3-01-2010",
+      "Date": "03-01-2010",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Natural Municipal Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-08-2014",
-      "Location_Date": "Reserva Natural Municipal Ribera Norte, Acassuso, Buenos Aires - 9-08-2014",
+      "Date": "09-08-2014",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "11-2005",
-      "Location_Date": "Costanera Sur, CABA - 11/2005",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 10/2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
+      "Date": "15-07-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-7-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 28/7/2007",
+      "Date": "28-07-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-9-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 29/9/2007",
+      "Date": "29-09-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2008",
+      "Date": "24-01-2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-2-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 22/2/2008",
+      "Date": "22-02-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-1-2010",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 3/1/2010",
+      "Date": "03-01-2010",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-7-2010",
-      "Location_Date": "Ibicuy, Entre Ríos - 9/7/2010",
+      "Date": "09-07-2010",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-7-2010",
-      "Location_Date": "Ibicuy, Entre Ríos - 9/7/2010",
+      "Date": "09-07-2010",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": null
     }
   ]
