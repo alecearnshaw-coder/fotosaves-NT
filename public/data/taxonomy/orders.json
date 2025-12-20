@@ -13,9 +13,10 @@
       "Known_Species_Cnt",
       "Species_Cnt",
       "Image_Cnt",
-      "Subdivide"
+      "Subdivide",
+      "Order_Path"
     ],
-    "column_range": "B-K"
+    "column_range": "B-L"
   },
   "data": [
     {
@@ -28,7 +29,8 @@
       "Known_Species_Cnt": 2,
       "Species_Cnt": 2,
       "Image_Cnt": 37,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Rheiformes/"
     },
     {
       "Order_ID": "OR_002",
@@ -40,7 +42,8 @@
       "Known_Species_Cnt": 17,
       "Species_Cnt": 8,
       "Image_Cnt": 47,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Tinamiformes/"
     },
     {
       "Order_ID": "OR_003",
@@ -52,7 +55,8 @@
       "Known_Species_Cnt": 40,
       "Species_Cnt": 35,
       "Image_Cnt": 522,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Anseriformes/"
     },
     {
       "Order_ID": "OR_004",
@@ -64,7 +68,8 @@
       "Known_Species_Cnt": 11,
       "Species_Cnt": 7,
       "Image_Cnt": 33,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Galliformes/"
     },
     {
       "Order_ID": "OR_005",
@@ -76,7 +81,8 @@
       "Known_Species_Cnt": 3,
       "Species_Cnt": 3,
       "Image_Cnt": 37,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Phoenicopteriformes/"
     },
     {
       "Order_ID": "OR_006",
@@ -88,7 +94,8 @@
       "Known_Species_Cnt": 6,
       "Species_Cnt": 5,
       "Image_Cnt": 103,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Podicipediformes/"
     },
     {
       "Order_ID": "OR_007",
@@ -100,7 +107,8 @@
       "Known_Species_Cnt": 13,
       "Species_Cnt": 9,
       "Image_Cnt": 78,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Cuculiformes/"
     },
     {
       "Order_ID": "OR_008",
@@ -112,7 +120,8 @@
       "Known_Species_Cnt": 26,
       "Species_Cnt": 14,
       "Image_Cnt": 122,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Columbiformes/"
     },
     {
       "Order_ID": "OR_009",
@@ -124,7 +133,8 @@
       "Known_Species_Cnt": 28,
       "Species_Cnt": 21,
       "Image_Cnt": 273,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Gruiformes/"
     },
     {
       "Order_ID": "OR_010",
@@ -136,7 +146,8 @@
       "Known_Species_Cnt": 88,
       "Species_Cnt": 68,
       "Image_Cnt": 933,
-      "Subdivide": "SO"
+      "Subdivide": "SO",
+      "Order_Path": null
     },
     {
       "Order_ID": "OR_011",
@@ -148,7 +159,8 @@
       "Known_Species_Cnt": 13,
       "Species_Cnt": 3,
       "Image_Cnt": 45,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Sphenisciformes/"
     },
     {
       "Order_ID": "OR_012",
@@ -160,7 +172,8 @@
       "Known_Species_Cnt": 43,
       "Species_Cnt": 10,
       "Image_Cnt": 175,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Procellariiformes/"
     },
     {
       "Order_ID": "OR_013",
@@ -172,7 +185,8 @@
       "Known_Species_Cnt": 3,
       "Species_Cnt": 3,
       "Image_Cnt": 50,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Ciconiiformes/"
     },
     {
       "Order_ID": "OR_014",
@@ -184,7 +198,8 @@
       "Known_Species_Cnt": 11,
       "Species_Cnt": 7,
       "Image_Cnt": 108,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Suliformes/"
     },
     {
       "Order_ID": "OR_015",
@@ -196,7 +211,8 @@
       "Known_Species_Cnt": 25,
       "Species_Cnt": 19,
       "Image_Cnt": 354,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Pelecaniformes/"
     },
     {
       "Order_ID": "OR_016",
@@ -208,7 +224,8 @@
       "Known_Species_Cnt": 18,
       "Species_Cnt": 8,
       "Image_Cnt": 82,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Caprimulgiformes/"
     },
     {
       "Order_ID": "OR_017",
@@ -220,7 +237,8 @@
       "Known_Species_Cnt": 2,
       "Species_Cnt": 1,
       "Image_Cnt": 4,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Nyctibiiformes/"
     },
     {
       "Order_ID": "OR_018",
@@ -232,7 +250,8 @@
       "Known_Species_Cnt": 46,
       "Species_Cnt": 26,
       "Image_Cnt": 251,
-      "Subdivide": "FA"
+      "Subdivide": "FA",
+      "Order_Path": null
     },
     {
       "Order_ID": "OR_019",
@@ -244,7 +263,8 @@
       "Known_Species_Cnt": 22,
       "Species_Cnt": 18,
       "Image_Cnt": 112,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Strigiformes/"
     },
     {
       "Order_ID": "OR_020",
@@ -256,7 +276,8 @@
       "Known_Species_Cnt": 6,
       "Species_Cnt": 5,
       "Image_Cnt": 53,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Cathartiformes/"
     },
     {
       "Order_ID": "OR_021",
@@ -268,7 +289,8 @@
       "Known_Species_Cnt": 43,
       "Species_Cnt": 26,
       "Image_Cnt": 285,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Accipitriformes/"
     },
     {
       "Order_ID": "OR_022",
@@ -280,7 +302,8 @@
       "Known_Species_Cnt": 3,
       "Species_Cnt": 3,
       "Image_Cnt": 16,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Trogoniformes/"
     },
     {
       "Order_ID": "OR_023",
@@ -292,7 +315,8 @@
       "Known_Species_Cnt": 6,
       "Species_Cnt": 5,
       "Image_Cnt": 64,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Coraciiformes/"
     },
     {
       "Order_ID": "OR_024",
@@ -304,7 +328,8 @@
       "Known_Species_Cnt": 4,
       "Species_Cnt": 4,
       "Image_Cnt": 12,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Galbuliformes/"
     },
     {
       "Order_ID": "OR_025",
@@ -316,7 +341,8 @@
       "Known_Species_Cnt": 33,
       "Species_Cnt": 30,
       "Image_Cnt": 271,
-      "Subdivide": "FA"
+      "Subdivide": "FA",
+      "Order_Path": null
     },
     {
       "Order_ID": "OR_026",
@@ -328,7 +354,8 @@
       "Known_Species_Cnt": 2,
       "Species_Cnt": 2,
       "Image_Cnt": 5,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Cariamiformes/"
     },
     {
       "Order_ID": "OR_027",
@@ -340,7 +367,8 @@
       "Known_Species_Cnt": 15,
       "Species_Cnt": 11,
       "Image_Cnt": 139,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Falconiformes/"
     },
     {
       "Order_ID": "OR_028",
@@ -352,7 +380,8 @@
       "Known_Species_Cnt": 30,
       "Species_Cnt": 20,
       "Image_Cnt": 146,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": "Aves/Psittaciformes/"
     },
     {
       "Order_ID": "OR_029",
@@ -364,7 +393,8 @@
       "Known_Species_Cnt": 529,
       "Species_Cnt": 424,
       "Image_Cnt": 4421,
-      "Subdivide": null
+      "Subdivide": null,
+      "Order_Path": null
     }
   ]
 }
