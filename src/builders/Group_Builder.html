@@ -171,7 +171,7 @@ h2 {
 /* Breadcrumb navigation bar styles */
 #breadcrumbs {
     max-width: 820px;
-    margin: 6px auto 18px auto;
+    margin: 6px auto 28px auto;
 }
 
 .breadcrumb-table {
@@ -1047,11 +1047,11 @@ h2 {
             }
 
             // Default: iterate per family and render Family-only subheading
-            // Skip subheading if pageLevel is 'family' (would duplicate the main heading)
+            // Skip subheading if pageLevel is 'family' or 'subfamily' (would duplicate the main heading)
             for (const familySci of familyList) {
                 const anySp = filtered.find(sp => sp.Family_Sci === familySci);
                 const orderSci = anySp ? anySp.Order_Sci : '';
-                if (pageLevel !== 'family') {
+                if (pageLevel !== 'family' && pageLevel !== 'subfamily') {
                     buildSubHeadingBox(pageLevel, orderSci, familySci, familiesArray, subfamiliesArray);
                 }
                 const speciesInFamily = filtered.filter(sp => sp.Family_Sci === familySci && Number(sp.Image_Cnt || 0) > 0);
