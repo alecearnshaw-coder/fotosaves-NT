@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "15-10-2017",
-      "Location_Date": "Sierras de Calilegua, Jujuy - 15-10-2017",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Ontario",
       "Country": "CANADA",
       "Date": "06-11-2010",
-      "Location_Date": "Niagra, Ontario, CANADA - 06-11-2010",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "19-08-2014",
-      "Location_Date": "Palma Sola, Jujuy - 19-08-2014",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Va. Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-3-2012",
-      "Location_Date": "Va. Paranacito, Entre Ríos - 29/3/2012",
+      "Date": "29-03-2012",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Niagara Falls",
       "Province": "Ontario",
       "Country": "Canada",
-      "Date": "6-11-2010",
-      "Location_Date": "Niagara Falls, Ontario, Canada - 6/11/2010",
+      "Date": "06-11-2010",
       "Threat_Status": null
     }
   ]

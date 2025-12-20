@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-12-2024",
-      "Location_Date": "Tapera de López, San Clemente del Tuyú, Buenos Aires - 21-12-2024",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "13-01-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Laguna de los Patos, Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2014",
-      "Location_Date": "Lagunas de Abra Pampa, Jujuy - 12-10-2014",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Tapera de López, San Clemente del Tuyú",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-3-2019",
-      "Location_Date": "Tapera de López, San Clemente del Tuyú, Buenos Aires - 23-3-2019",
+      "Date": "23-03-2019",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Laguna \"La Salada\", Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Laguna \"La Salada\", Pedro Luro, Buenos Aires - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Laguna \"La Salada\", Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Laguna \"La Salada\", Pedro Luro, Buenos Aires - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Laguna \"La Salada\", Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Laguna \"La Salada\", Pedro Luro, Buenos Aires - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Laguna Negra, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-7-2009",
-      "Location_Date": "Laguna Negra, Trelew, Chubut - 30/7/2009",
+      "Date": "30-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Laguna Negra, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-7-2009",
-      "Location_Date": "Laguna Negra, Trelew, Chubut - 30/7/2009",
+      "Date": "30-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Laguna Negra, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-7-2009",
-      "Location_Date": "Laguna Negra, Trelew, Chubut - 30/7/2009",
+      "Date": "30-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 12/1/2012",
+      "Date": "12-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 12/1/2012",
+      "Date": "12-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 12/1/2012",
+      "Date": "12-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Laguna Nimes, Calafate",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "1-1997",
-      "Location_Date": "Laguna Nimes, Calafate, Santa Cruz - 1/1997",
+      "Date": "01-1997",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Playa La Mina, San Julian",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "1-2001",
-      "Location_Date": "Playa La Mina, San Julian, Santa Cruz - 1/2001",
+      "Date": "01-2001",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -547,8 +516,7 @@
       "Location": "Slimbridge Wetland Centre, Gloucestershire",
       "Province": "England",
       "Country": null,
-      "Date": "8-1981",
-      "Location_Date": "Slimbridge Wetland Centre, Gloucestershire, England - 8/1981",
+      "Date": "08-1981",
       "Threat_Status": "Near-threatened"
     }
   ]

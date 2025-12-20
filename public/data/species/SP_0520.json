@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "17-04-2014",
-      "Location_Date": "Estancia Virocay, Corrientes - 17-04-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "17-04-2014",
-      "Location_Date": "Estancia Virocay, Corrientes - 17-04-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Panama City",
       "Country": "PANAMA",
       "Date": "22-05-2017",
-      "Location_Date": "Parque Natural Metropolitano, Panama City, PANAMA - 22-05-2017",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Eastancia San Juan de Poriahu",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-2000",
-      "Location_Date": "Eastancia San Juan de Poriahu, Corrientes - 4/2000",
+      "Date": "04-2000",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Ea. \"El Bagual\", Formosa - 11/2004",
       "Threat_Status": null
     }
   ]

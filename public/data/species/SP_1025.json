@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "13-09-2012",
-      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 13-09-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "13-09-2012",
-      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 13-09-2012",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2014",
-      "Location_Date": "Huacalera, Jujuy - 12-10-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "19-09-2016",
-      "Location_Date": "Huachupampa, Valle del Santa Eulalia, Lima, PERU - 19-09-2016",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "09-10-2017",
-      "Location_Date": "Purmamarca, Jujuy- 09-10-2017",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "P. Norte, Península Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2002",
-      "Location_Date": "P. Norte, Península Valdés, Chubut - 2/2002",
+      "Date": "02-2002",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "P. Norte, Península Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2002",
-      "Location_Date": "P. Norte, Península Valdés, Chubut - 2/2002",
+      "Date": "02-2002",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "4-11-2009",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 4/11/2009",
+      "Date": "04-11-2009",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "4-11-2009",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 4/11/2009",
+      "Date": "04-11-2009",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "La Herradura, Plotier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "3-9-2010",
-      "Location_Date": "La Herradura, Plotier, Neuquén - 3/9/2010",
+      "Date": "03-09-2010",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "La Herradura, Plotier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "3-9-2010",
-      "Location_Date": "La Herradura, Plotier, Neuquén - 3/9/2010",
+      "Date": "03-09-2010",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "La Herradura, Plotier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "3-9-2010",
-      "Location_Date": "La Herradura, Plotier, Neuquén - 3/9/2010",
+      "Date": "03-09-2010",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Las Chapas",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-4-2011",
-      "Location_Date": "Las Chapas, Chubut - 30/4/2011",
+      "Date": "30-04-2011",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Las Chapas",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-4-2011",
-      "Location_Date": "Las Chapas, Chubut - 30/4/2011",
+      "Date": "30-04-2011",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-10-2011",
-      "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 30/10/2011",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-10-2011",
-      "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 30/10/2011",
       "Threat_Status": null
     }
   ]

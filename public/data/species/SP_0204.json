@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "19-04-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19-04-2008",
       "Threat_Status": "VU"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 12-10-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 12-10-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 12-10-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-11-2013",
-      "Location_Date": "Punta Rasa, Buenos Aires - 16-11-2013",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "27-01-2014",
-      "Location_Date": "Laguna de los Patos, Río Grande, Tierra del Fuego - 27-01-2014",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-09-2014",
-      "Location_Date": "Punta Rasa, Buenos Aires - 20-09-2014",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "3-200 8",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 3/2008",
+      "Date": "03-2008",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "San Blas",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2004",
-      "Location_Date": "San Blas, Buenos Aires - 2/2004",
+      "Date": "02-2004",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "San Blas",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2004",
-      "Location_Date": "San Blas, Buenos Aires - 2/2004",
+      "Date": "02-2004",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "4-11-2009",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 4/11/2009",
+      "Date": "04-11-2009",
       "Threat_Status": null
     },
     {
@@ -548,7 +517,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18/11/2010",
       "Threat_Status": null
     },
     {
@@ -565,7 +533,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18/11/2010",
       "Threat_Status": null
     },
     {
@@ -582,7 +549,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18/11/2010",
       "Threat_Status": null
     },
     {
@@ -599,7 +565,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18/11/2010",
       "Threat_Status": null
     },
     {
@@ -616,7 +581,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18/11/2010",
       "Threat_Status": null
     },
     {
@@ -632,8 +596,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -649,8 +612,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
+      "Date": "13-01-2012",
       "Threat_Status": null
     },
     {
@@ -666,8 +628,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 14/1/2012",
+      "Date": "14-01-2012",
       "Threat_Status": null
     },
     {
@@ -683,8 +644,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 14/1/2012",
+      "Date": "14-01-2012",
       "Threat_Status": null
     },
     {
@@ -700,8 +660,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 14/1/2012",
+      "Date": "14-01-2012",
       "Threat_Status": null
     }
   ]

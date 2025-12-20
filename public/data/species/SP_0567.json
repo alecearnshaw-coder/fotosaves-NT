@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17-12-2009",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Cachagua",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, CHILE - 17/12/2009",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17-12-2009",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "17-12-2009",
-      "Location_Date": "Cachagua, Valparaiso, CHILE - 17-12-2009",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Tunuyán",
       "Country": "Mendoza",
       "Date": "30-10-2011",
-      "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 30/10/2011",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-10-2011",
-      "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 30/10/2011",
       "Threat_Status": null
     }
   ]

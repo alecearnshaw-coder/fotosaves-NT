@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "25-03-2012",
-      "Location_Date": "Camba Trapo, Esteros del Iberá, Corrientes - 25-03-2012",
       "Threat_Status": "Endangered"
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Costanera Sur, CABA - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": "Endangered"
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ea. Rincón del Socorro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-3-2012",
-      "Location_Date": "Ea. Rincón del Socorro, Corrientes - 24/3/2012",
+      "Date": "24-03-2012",
       "Threat_Status": "Endangered"
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ea. Rincón del Socorro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-3-2012",
-      "Location_Date": "Ea. Rincón del Socorro, Corrientes - 24/3/2012",
+      "Date": "24-03-2012",
       "Threat_Status": "Endangered"
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Ea. Rincón del Socorro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-3-2012",
-      "Location_Date": "Ea. Rincón del Socorro, Corrientes - 24/3/2012",
+      "Date": "24-03-2012",
       "Threat_Status": "Endangered"
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": "Endangered"
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": "Endangered"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": "Endangered"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": "Endangered"
     }
   ]

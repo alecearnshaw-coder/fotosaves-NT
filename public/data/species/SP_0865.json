@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "20-04-2014",
-      "Location_Date": "Campos del Aguapey, Corrientes - 20-04-2014",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "R. N. de Pilar, Pilar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-08-2021",
-      "Location_Date": "R. N. de Pilar, Pilar, Buenos Aires - 1-08-2021",
+      "Date": "01-08-2021",
       "Threat_Status": null
     }
   ]

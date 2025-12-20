@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "15-09-2018",
-      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "15-09-2018",
-      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018",
       "Threat_Status": "Near-threatened"
     }
   ]

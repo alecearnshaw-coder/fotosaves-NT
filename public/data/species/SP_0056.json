@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-12-2023",
-      "Location_Date": "Reserva Natural del Puerto, Mar del Plata, Buenos Aires - 9-12-2023",
+      "Date": "09-12-2023",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-12-2023",
-      "Location_Date": "Reserva Natural del Puerto, Mar del Plata, Buenos Aires - 9-12-2023",
+      "Date": "09-12-2023",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18-11-2010",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-12-2023",
-      "Location_Date": "Reserva Natural del Puerto, Mar del Plata, Buenos Aires - 9-12-2023",
+      "Date": "09-12-2023",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-12-2023",
-      "Location_Date": "Reserva Natural del Puerto, Mar del Plata, Buenos Aires - 9-12-2023",
+      "Date": "09-12-2023",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Reserva Natural del Puerto, Mar del Plata, Buenos Aires - 9-12-2023",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "[en cautiverio] [in captivity] Slimbridge Wetland Centre",
       "Province": "Gloucestershire",
       "Country": "England",
-      "Date": "8-1981",
-      "Location_Date": "[en cautiverio] [in captivity] Slimbridge Wetland Centre, Gloucestershire, England - 8/1981",
+      "Date": "08-1981",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Issla Pavón, (L. Piedrabuena), Santa Cruz - 1/1997",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Bío Bío",
       "Country": "CHILE",
       "Date": "10-2008",
-      "Location_Date": "Concepción, Bío Bío, CHILE - 10/2008",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Brown Bay, Ea. Harberton, Tierra del Fuego - 3/2008",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Brown Bay, Ea. Harberton, Tierra del Fuego - 3/2008",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Brown Bay, Ea. Harberton, Tierra del Fuego - 3/2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 18/11/2010",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "18-11-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 18/11/2010",
       "Threat_Status": null
     }
   ]

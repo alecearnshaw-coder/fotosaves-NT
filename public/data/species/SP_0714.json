@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "12-02-2006",
-      "Location_Date": "Camarones, Chubut - 12-02-2006",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "San Luis",
       "Country": null,
       "Date": "24-10-2011",
-      "Location_Date": "Salar del Bebedero, San Luis - 24/10/2011",
       "Threat_Status": null
     }
   ]

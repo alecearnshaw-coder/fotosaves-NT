@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "28-05-2022",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 28-05-2022",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "25-03-2012",
-      "Location_Date": "Esteros del Iberá, Carlos Pellegrini, Corrientes - 25-03-2012",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "21-01-2018",
-      "Location_Date": "Reserva Costanera Sur, CABA - 21-01-2018",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "21-01-2018",
-      "Location_Date": "Reserva Costanera Sur, CABA - 21-01-2018",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-11-2019",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 9-11-2019",
+      "Date": "09-11-2019",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016",
-      "Location_Date": "Pucusana, Lima, PERU - 17-09-2016",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Punta Medanosa",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "1-1999",
-      "Location_Date": "Punta Medanosa, Santa Cruz - 1/1999",
+      "Date": "01-1999",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Punta Medanosa",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "1-1999",
-      "Location_Date": "Punta Medanosa, Santa Cruz - 1/1999",
+      "Date": "01-1999",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2002",
-      "Location_Date": "Reserva Costanera Sur, CABA - 3/2002",
+      "Date": "03-2002",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2002",
-      "Location_Date": "Ceibas, Entre Ríos - 10/2002",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2002",
-      "Location_Date": "Perdices, Entre Ríos - 10/2002",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Viña del Mar",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "3-2006",
-      "Location_Date": "Viña del Mar, Valparaiso, CHILE - 3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "12-2006",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 12/2006",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-10-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/10/2007",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-12-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 6/12/2007",
+      "Date": "06-12-2007",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-12-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 6/12/2007",
+      "Date": "06-12-2007",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-12-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 6/12/2007",
+      "Date": "06-12-2007",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-2-2008",
-      "Location_Date": "Reserva Vicente López - Buenos Aires - 23/2/2008",
+      "Date": "23-02-2008",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-2-2008",
-      "Location_Date": "Reserva Vicente López - Buenos Aires - 23/2/2008",
+      "Date": "23-02-2008",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-2-2008",
-      "Location_Date": "Reserva Vicente López - Buenos Aires - 23/2/2008",
+      "Date": "23-02-2008",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Lago de Palermo, CABA - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Lago de Palermo, CABA - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Lago de Palermo, CABA - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Lago de Palermo, CABA - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Lago de Palermo, CABA - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "La Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-8-2008",
-      "Location_Date": "La Plata, Buenos Aires - 20/8/2008",
+      "Date": "20-08-2008",
       "Threat_Status": null
     },
     {
@@ -496,8 +468,7 @@
       "Location": "La Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-8-2008",
-      "Location_Date": "La Plata, Buenos Aires - 20/8/2008",
+      "Date": "20-08-2008",
       "Threat_Status": null
     },
     {
@@ -514,7 +485,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-10-2009",
-      "Location_Date": "Reserva de Vicente López, Buenos Aires - 18/10/2009",
       "Threat_Status": null
     },
     {
@@ -531,7 +501,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-10-2009",
-      "Location_Date": "Reserva de Vicente López, Buenos Aires - 18/10/2009",
       "Threat_Status": null
     },
     {
@@ -548,7 +517,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "18-12-2009",
-      "Location_Date": "Reñaca, Valparaiso, CHILE - 18/12/2009",
       "Threat_Status": null
     },
     {
@@ -565,7 +533,6 @@
       "Province": "Valparaiso",
       "Country": "CHILE",
       "Date": "18-12-2009",
-      "Location_Date": "Reñaca, Valparaiso, CHILE - 18/12/2009",
       "Threat_Status": null
     },
     {
@@ -581,8 +548,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-3-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
+      "Date": "25-03-2012",
       "Threat_Status": null
     }
   ]

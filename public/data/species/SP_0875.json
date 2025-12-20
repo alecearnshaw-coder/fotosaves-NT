@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "18-08-2014",
-      "Location_Date": "Finca El Garabatal, El Fuerte, Jujuy - 18-08-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "28-09-2023",
-      "Location_Date": "Sendero a la toma de agua, San Francisco, Sierras de Calilegua, Jujuy - 28-09-2023",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "15-10-2017",
-      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 15-10-2017",
       "Threat_Status": null
     }
   ]

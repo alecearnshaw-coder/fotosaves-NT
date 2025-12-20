@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "22-09-2013",
-      "Location_Date": "Olivos, Buenos Aires - 22-09-2013",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "22-09-2013",
-      "Location_Date": "Olivos, Buenos Aires - 22-09-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-09-2008",
-      "Location_Date": "Brazo Largo, Entre Ríos - 14-09-2008",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "2-08-2014",
-      "Location_Date": "Reserva Ecológica Costanera Sur, CABA - 2-08-2014",
+      "Date": "02-08-2014",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Otamendi, Buenos Aires - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-5-2007",
-      "Location_Date": "Vuelta de Obligado, Buenos Aires - 20/5/2007",
+      "Date": "20-05-2007",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Brazo Largo",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Brazo Largo, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Brazo Largo",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Brazo Largo, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Brazo Largo",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Brazo Largo, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-8-2008",
-      "Location_Date": "Costanera Sur, CABA - 18/8/2008",
+      "Date": "18-08-2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-7-2009",
-      "Location_Date": "Ibicuy, Entre Ríos - 26/7/2009",
+      "Date": "26-07-2009",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Pque. Enrique Berduc",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-12-2009",
-      "Location_Date": "Pque. Enrique Berduc, Entre Ríos - 3/12/2009",
+      "Date": "03-12-2009",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "03-03-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 03-03-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-06-2014",
-      "Location_Date": "Punta Piedras, Buenos Aires - 21-06-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-11-2014",
-      "Location_Date": "Perdices, Entre Ríos - 23-11-2014",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "03-03-2012",
-      "Location_Date": null,
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Perdices, Entre Ríos - 12/2006",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 7/2007",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 7/2007",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/7/2008",
+      "Date": "07-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-7-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/7/2008",
+      "Date": "09-07-2008",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": null,
       "Country": null,
       "Date": null,
-      "Location_Date": "Otamendi, Buenos Aires - 3/2008",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 2/2/2010",
+      "Date": "02-02-2010",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "01-2009",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-3-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 3/3/2012",
+      "Date": "03-03-2012",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2002",
-      "Location_Date": "Magdalena, Buenos Aires - 4/2002",
+      "Date": "04-2002",
       "Threat_Status": null
     }
   ]

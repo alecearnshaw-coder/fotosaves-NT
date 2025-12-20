@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "RP101",
       "Province": "Misiones",
       "Country": null,
-      "Date": "7-09-2018",
-      "Location_Date": "RP101, Misiones - 7-09-2018",
+      "Date": "07-09-2018",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "22-09-2015",
-      "Location_Date": "Parque Nacional Iguazú, Misiones - 22-09-2015",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "9-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 9-07-2016",
+      "Date": "09-07-2016",
       "Threat_Status": null
     }
   ]

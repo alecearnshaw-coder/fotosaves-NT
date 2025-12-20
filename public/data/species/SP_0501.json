@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Ciudad de Panamá",
       "Country": "PANAMA",
       "Date": "22-05-2017",
-      "Location_Date": "Parque Natural Metropolitano, Ciudad de Panamá, PANAMA - 22-05-2017",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Ciudad de Panamá",
       "Country": "PANAMA",
       "Date": "22-05-2017",
-      "Location_Date": "Parque Natural Metropolitano, Ciudad de Panamá, PANAMA - 22-05-2017",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Ciudad de Panamá",
       "Country": "PANAMA",
       "Date": "22-05-2017",
-      "Location_Date": "Parque Natural Metropolitano, Ciudad de Panamá, PANAMA - 22-05-2017",
       "Threat_Status": null
     }
   ]

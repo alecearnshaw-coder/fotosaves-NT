@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2014",
-      "Location_Date": "Azul Pampa, Jujuy - 12-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "18-09-2009",
-      "Location_Date": "Lomas de Asia, Lima, PERU - 18/09/2009",
       "Threat_Status": null
     }
   ]

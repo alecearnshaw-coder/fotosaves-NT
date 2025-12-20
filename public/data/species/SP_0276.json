@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-04-2019",
-      "Location_Date": "30 NM al E de Mar del Plata, Buenos Aires - 7-04-2019",
+      "Date": "07-04-2019",
       "Threat_Status": "Vulnerable"
     }
   ]

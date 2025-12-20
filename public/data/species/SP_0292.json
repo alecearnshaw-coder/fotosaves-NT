@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "19-10-2019",
-      "Location_Date": "RP2, Formosa - 19-10-2019",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "20-04-2014",
-      "Location_Date": "Campos del Aguapey, Corrientes - 20-04-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "04-01-2009",
-      "Location_Date": "Camba Trapo, Colonia Carlos Pellegrini, Corrientes - 04-01-2009",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "04-01-2009",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "04-01-2009",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "04-01-2009",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "04-01-2009",
       "Threat_Status": null
     }
   ]

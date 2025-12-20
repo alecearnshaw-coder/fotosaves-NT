@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "29-07-2006",
-      "Location_Date": "Reserva Costanera Sur, CABA - 29-07-2006",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "19-08-2014",
-      "Location_Date": "Laguna La Quinta, al este de Palma Sola 30 km, Jujuy - 19-08-2014",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "P. N. Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "7-2000",
-      "Location_Date": "P. N. Calilegua, Jujuy - 7/2000",
+      "Date": "07-2000",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-01-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 26-01-2013",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 24-11-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "19-08-2013",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 19-08-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "23-09-2013",
-      "Location_Date": "Olivos, Buenos Aires - 23-09-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-01-2024",
-      "Location_Date": "Ceibas, Entre Ríos - 13-01-2024",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "19-07-2014",
-      "Location_Date": "Vieytes, Buenos Aires - 19-07-2014",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-10-2016",
-      "Location_Date": "Ceibas, Entre Ríos - 29-10-2016",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-10-2014",
-      "Location_Date": "Ceibas, Entre Ríos - 26-10-2014",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-5-2015",
-      "Location_Date": "Ceibas, Entre Ríos - 9-5-2015",
+      "Date": "09-05-2015",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "15-09-2018",
-      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "23-09-2015",
-      "Location_Date": "Cataratas de Iguazú, Misiones -23-09-2015",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-11-2019",
-      "Location_Date": "Olivos, Buenos Aires - 1-11-2019",
+      "Date": "01-11-2019",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-9-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
+      "Date": "14-09-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2002",
-      "Location_Date": "Magdalena, Buenos Aires - 4/2002",
+      "Date": "04-2002",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Punta Indio",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2002",
-      "Location_Date": "Punta Indio, Buenos Aires - 4/2002",
+      "Date": "04-2002",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "4-2006",
-      "Location_Date": "Costanera Sur, CABA - 4/2006",
+      "Date": "04-2006",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -395,7 +373,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2001",
-      "Location_Date": "Reserva Otamendi, Buenos Aires - 7/2001",
+      "Date": "07-2001",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-9-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 22/9/2007",
+      "Date": "22-09-2007",
       "Threat_Status": null
     },
     {
@@ -497,7 +469,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Ea. \"El Bagual\", Formosa - 11/2004",
       "Threat_Status": null
     },
     {
@@ -514,7 +485,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2005",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2005",
       "Threat_Status": null
     },
     {
@@ -531,7 +501,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2005",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2005",
       "Threat_Status": null
     },
     {
@@ -547,8 +516,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -565,7 +533,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-06-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 24-06-2006",
       "Threat_Status": null
     },
     {
@@ -582,7 +549,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-06-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 24-06-2006",
       "Threat_Status": null
     },
     {
@@ -598,8 +564,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "7-10-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 7/10/2007",
+      "Date": "07-10-2007",
       "Threat_Status": null
     },
     {
@@ -616,7 +581,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-10-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/10/2007",
       "Threat_Status": null
     },
     {
@@ -632,8 +596,7 @@
       "Location": "Palermo",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "29-6-2008",
-      "Location_Date": "Palermo, Buenos Aires - 29/6/2008",
+      "Date": "29-06-2008",
       "Threat_Status": null
     },
     {
@@ -650,7 +613,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/11/2007",
       "Threat_Status": null
     },
     {
@@ -667,7 +629,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-11-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 14/11/2007",
       "Threat_Status": null
     },
     {
@@ -683,8 +644,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 20/9/2009",
+      "Date": "20-09-2009",
       "Threat_Status": null
     },
     {
@@ -700,8 +660,7 @@
       "Location": "Plaza del Centenario, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "27-4-2011",
-      "Location_Date": "Plaza del Centenario, Trelew, Chubut - 27/4/2011",
+      "Date": "27-04-2011",
       "Threat_Status": null
     },
     {
@@ -717,8 +676,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -734,8 +692,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -751,8 +708,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -768,8 +724,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -786,7 +741,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-11-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 27/11/2010",
       "Threat_Status": null
     },
     {
@@ -802,8 +756,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
+      "Date": "09-10-2010",
       "Threat_Status": null
     },
     {
@@ -819,8 +772,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
+      "Date": "09-10-2010",
       "Threat_Status": null
     },
     {
@@ -836,8 +788,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-2-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
+      "Date": "05-02-2011",
       "Threat_Status": null
     },
     {
@@ -853,8 +804,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-5-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 29/5/2011",
+      "Date": "29-05-2011",
       "Threat_Status": null
     },
     {
@@ -870,8 +820,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-3-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 3/3/2012",
+      "Date": "03-03-2012",
       "Threat_Status": null
     },
     {
@@ -887,8 +836,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-3-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 3/3/2012",
+      "Date": "03-03-2012",
       "Threat_Status": null
     },
     {
@@ -904,8 +852,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-3-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 3/3/2012",
+      "Date": "03-03-2012",
       "Threat_Status": null
     },
     {
@@ -922,7 +869,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-06-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 24-06-2006",
       "Threat_Status": null
     },
     {
@@ -938,8 +884,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-07-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 1-07-2006",
+      "Date": "01-07-2006",
       "Threat_Status": null
     },
     {
@@ -955,8 +900,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-07-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 23-07-2006",
+      "Date": "01-07-2006",
       "Threat_Status": null
     },
     {
@@ -972,8 +916,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-08-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 6-08-2006",
+      "Date": "06-08-2006",
       "Threat_Status": null
     },
     {
@@ -989,8 +932,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-08-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 6-08-2006",
+      "Date": "06-08-2006",
       "Threat_Status": null
     },
     {
@@ -1007,7 +949,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "19-08-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 19-08-2006",
       "Threat_Status": null
     },
     {
@@ -1023,8 +964,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-09-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 2-09-2006",
+      "Date": "02-09-2006",
       "Threat_Status": null
     },
     {
@@ -1041,7 +981,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-09-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 17-09-2006",
       "Threat_Status": null
     },
     {
@@ -1058,7 +997,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "15-10-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 15-10-2006",
       "Threat_Status": null
     },
     {
@@ -1075,7 +1013,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -1092,7 +1029,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -1109,7 +1045,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -1126,7 +1061,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-11-2008",
-      "Location_Date": "Ceibas , Entre Ríos - 22/11/2008",
       "Threat_Status": null
     },
     {
@@ -1143,7 +1077,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-11-2008",
-      "Location_Date": "Ceibas , Entre Ríos - 22/11/2008",
       "Threat_Status": null
     },
     {
@@ -1160,7 +1093,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-11-2008",
-      "Location_Date": "Ceibas , Entre Ríos - 22/11/2008",
       "Threat_Status": null
     },
     {
@@ -1177,7 +1109,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2006",
       "Threat_Status": null
     },
     {
@@ -1193,8 +1124,7 @@
       "Location": "Belgrano",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Belgrano, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -1210,8 +1140,7 @@
       "Location": "Belgrano",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Belgrano, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -1227,8 +1156,7 @@
       "Location": "Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-8-2007",
-      "Location_Date": "Paraná, Entre Ríos - 6/8/2007",
+      "Date": "06-08-2007",
       "Threat_Status": null
     },
     {
@@ -1244,8 +1172,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 9/2007",
+      "Date": "09-2007",
       "Threat_Status": null
     },
     {
@@ -1261,8 +1188,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-9-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 22-9-2007",
+      "Date": "22-09-2007",
       "Threat_Status": null
     },
     {
@@ -1278,8 +1204,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -1295,8 +1220,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -1312,8 +1236,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "3-1-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
+      "Date": "03-01-2009",
       "Threat_Status": null
     },
     {
@@ -1330,7 +1253,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-11-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 22/11/2010",
       "Threat_Status": null
     }
   ]

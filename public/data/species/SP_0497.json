@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Camino a Farellones, Santiago, CHILE - 16-12-2009",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Monte Ceballos",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "1-2000",
-      "Location_Date": "Monte Ceballos, Santa Cruz - 1/2000",
+      "Date": "01-2000",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Camino a Farellones, Santiago, CHILE - 16-12-2009",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Camino a Farellones, Santiago, CHILE - 16-12-2009",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Camino a Farellones, Santiago, CHILE - 16-12-2009",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "16-12-2009",
-      "Location_Date": "Camino a Farellones, Santiago, CHILE - 16-12-2009",
       "Threat_Status": null
     }
   ]

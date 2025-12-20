@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, 2º Sección del delta del Paraná/Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, 2º Sección del delta del Paraná/Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, 2º Sección del delta del Paraná/Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Isla Talavera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-03-2024",
-      "Location_Date": "Isla Talavera, Buenos Aires - 5-03-2024",
+      "Date": "05-03-2024",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, 2º Sección del delta del Paraná /Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, 2º Sección del delta del Paraná /Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "04-12-2006",
-      "Location_Date": "Reserva Municipal \"Ribera Norte\", Acassuso, Buenos Aires - 04-12-2006",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-01-2014",
-      "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 12-01-2014",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-2003",
-      "Location_Date": "Otamendi, Buenos Aires - 11/2003",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Reserva Natural Ribera Norte, Acassuso, Buenos Aires - 12/2006",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Reserva Otamendi, Campana",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Otamendi, Campana, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Sao Paulo",
       "Country": "BRAZIL",
       "Date": "11-2008",
-      "Location_Date": "Cantareira, Sao Paulo, BRAZIL - 11/2008",
       "Threat_Status": null
     }
   ]

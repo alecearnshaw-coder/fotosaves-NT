@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "1-02-2014",
-      "Location_Date": "Le Martial, Ushuaia, Tierra del Fuego - 1-02-2014",
+      "Date": "01-02-2014",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "1-02-2014",
-      "Location_Date": "Le Martial, Ushuaia, Tierra del Fuego - 1-02-2014",
+      "Date": "01-02-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "23-07-2022",
-      "Location_Date": "Reserva Ecológica Ciudad Universitaria Costanera Norte, CABA - 23-07-2022",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "20-06-2007",
-      "Location_Date": "Parque de los Niños, CABA - 20-06-2007",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "13-07-2014",
-      "Location_Date": "Parque de los Niños, CABA - 13-07-2014",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "14-02-2017",
-      "Location_Date": "Laguna Esmeralda, Ushuaia,Tierra del Fuego - 14-02-2017",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "14-02-2017",
-      "Location_Date": "Laguna Esmeralda, Ushuaia,Tierra del Fuego - 14-02-2017",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "14-02-2017",
-      "Location_Date": "Laguna Esmeralda, Ushuaia,Tierra del Fuego - 14-02-2017",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "14-02-2017",
-      "Location_Date": "Laguna Esmeralda, Ushuaia,Tierra del Fuego - 14-02-2017",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Parque de los Niños",
       "Province": "CABA",
       "Country": null,
-      "Date": "6-2007",
-      "Location_Date": "Parque de los Niños, CABA - 20/6/2007",
+      "Date": "06-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Parque de los Niños",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-6-2007",
-      "Location_Date": "Parque de los Niños, CABA - 20/6/2007",
+      "Date": "20-06-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Parque de los Niños",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-6-2007",
-      "Location_Date": "Parque de los Niños, CABA - 20/6/2007",
+      "Date": "20-06-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Parque de los Niños",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-6-2007",
-      "Location_Date": "Parque de los Niños, CABA - 20/6/2007",
+      "Date": "20-06-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Parque de los Niños",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-6-2007",
-      "Location_Date": "Parque de los Niños, CABA - 20/6/2007",
+      "Date": "20-06-2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Parque de los Niños",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-6-2007",
-      "Location_Date": "Parque de los Niños, CABA - 20/6/2007",
+      "Date": "20-06-2007",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Le Martial, Ushuaia, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Rawson",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-7-2009",
-      "Location_Date": "Rawson, Chubut - 30/7/2009",
+      "Date": "30-07-2009",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "Le Martial, Ushuaia, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     }
   ]

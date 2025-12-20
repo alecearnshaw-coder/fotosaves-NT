@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2014",
-      "Location_Date": "Azul Pampa, Jujuy - 12-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "09-10-2017",
-      "Location_Date": "Purmamarca, Jujuy- 09-10-2017",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "09-10-2017",
-      "Location_Date": "Cuesta de Lipán, Jujuy- 09-10-2017",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "09-10-2017",
-      "Location_Date": "Cuesta de Lipán, Jujuy- 09-10-2017",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó, Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó (Cerro Blanco), Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó (Cerro Blanco), Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó (Cerro Blanco), Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó (Cerro Blanco), Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó (Cerro Blanco), Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó (Cerro Blanco), Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó (Cerro Blanco), Atacama, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-3-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
+      "Date": "22-03-2012",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Gualeguaychú, Entre Ríos -12/2006",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-2008",
-      "Location_Date": "Punta Rasa, Buenos Aires - 19/4/2008",
+      "Date": "19-04-2008",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 2/2/2010",
+      "Date": "02-02-2010",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 2/2/2010",
+      "Date": "02-02-2010",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-11-2010",
-      "Location_Date": "Puerto Boca, Entre Ríos - 21/11/2010",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-3-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
+      "Date": "22-03-2012",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-3-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
+      "Date": "22-03-2012",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-3-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
+      "Date": "22-03-2012",
       "Threat_Status": null
     }
   ]

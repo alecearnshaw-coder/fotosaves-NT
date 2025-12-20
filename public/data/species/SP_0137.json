@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "11-10-2014",
-      "Location_Date": "Laguna Malka, Tilcara, Jujuy - 11-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2014",
-      "Location_Date": "Laguna Huancar, Abra Pampa, Jujuy - 12-10-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "15-12-2006",
-      "Location_Date": "Laguna \"La Maravilla\", Pantanos de Villa, Lima, PERU - 15-12-2006",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "Laguna Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "Laguna Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "Laguna Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "Laguna Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "Laguna Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "12-2006",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 12/2006",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "12-2006",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 12/2006",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "12-2006",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 12/2006",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "12-2006",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 12/2006",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "12-2006",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 12/2006",
       "Threat_Status": null
     }
   ]

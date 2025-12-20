@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "18-8-2014",
-      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 18-8-2014",
+      "Date": "18-08-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "29-08-2023",
-      "Location_Date": "Peña Alta, RP83 al N. de San Francisco, Jujuy - 29-08-2023",
       "Threat_Status": null
     }
   ]

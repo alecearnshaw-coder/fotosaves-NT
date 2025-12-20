@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "11-10-2014",
-      "Location_Date": "Parque Provincial Potrero de Yala, Jujuy - 11-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-04-2018",
-      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 13-04-2018",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "15-10-2017",
-      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 15-10-2017",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "08-10-2017",
-      "Location_Date": "Parque Provincial Potrero de Yala, Yala, Jujuy- 08-10-2017",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "29-08-2023",
-      "Location_Date": "San Francisco, Jujuy - 29-08-2023",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "7-2000",
-      "Location_Date": "Monolito, Parque Nacional Calilegua, Jujuy - 7/2000",
+      "Date": "07-2000",
       "Threat_Status": null
     }
   ]

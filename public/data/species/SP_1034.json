@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "04-01-2006",
-      "Location_Date": "Camba Trapo, Colonia Pellegrini, Corrientes - 04-01-2006",
       "Threat_Status": "Near-threatened"
     }
   ]

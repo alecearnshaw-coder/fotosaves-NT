@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "12-10-2017",
-      "Location_Date": "La Estrella, RP13 al N de Palma Sola, Jujuy - 12-10-2017",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-06-2023",
-      "Location_Date": "Reserva Natural de Vicente López, La Lucila, Buenos Aires - 25-06-2023",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "23-07-2017",
-      "Location_Date": "Reserva Natural de Vicente López, La Lucila, Buenos Aires - 23-07-2017",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-05-2021",
-      "Location_Date": "Olivos, Buenos Aires - 26-05-2021",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-05-2021",
-      "Location_Date": "Olivos, Buenos Aires - 26-05-2021",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "05-08-2017",
-      "Location_Date": "Olivos, Buenos Aires - 05-08-2017",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "05-07-2012",
-      "Location_Date": "Olivos, Buenos Aires - 05-07-2012",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Lago Regatas de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-12-2018",
-      "Location_Date": "Lago Regatas de Palermo, CABA - 8-12-2018",
+      "Date": "08-12-2018",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-01-2024",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 17-01-2024",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Lago Regatas de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-12-2018",
-      "Location_Date": "Lago Regatas de Palermo, CABA - 8-12-2018",
+      "Date": "08-12-2018",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "25-09-2018",
-      "Location_Date": "Reserva Ecológica Costanera Sur, CABA - 25-09-2018",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "R. N. Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-7-2007",
-      "Location_Date": "R. N. Otamendi, Buenos Aires - 28/7/2007",
+      "Date": "28-07-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "R. N. Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-7-2007",
-      "Location_Date": "R. N. Otamendi, Buenos Aires - 28/7/2007",
+      "Date": "28-07-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "R. N. Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-7-2007",
-      "Location_Date": "R. N. Otamendi, Buenos Aires - 28/7/2007",
+      "Date": "28-07-2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "5-2008",
-      "Location_Date": "Viñedos de Galleguillo, Copiapó, Desierto de Atacama, CHILE - 5/2008",
+      "Date": "05-2008",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "5-2008",
-      "Location_Date": "Viñedos de Galleguillo, Copiapó, Desierto de Atacama, CHILE - 5/2008",
+      "Date": "05-2008",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "5-2008",
-      "Location_Date": "Viñedos de Galleguillo, Copiapó, Desierto de Atacama, CHILE - 5/2008",
+      "Date": "05-2008",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "INTA Castelar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "INTA Castelar, Buenos Aires - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "31-8-2007",
-      "Location_Date": "Costanera Sur, CABA - 31/8/2007",
+      "Date": "31-08-2007",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "31-8-2007",
-      "Location_Date": "Costanera Sur, CABA - 31/8/2007",
+      "Date": "31-08-2007",
       "Threat_Status": null
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-7-2011",
-      "Location_Date": "Punta Lara, Buenos Aires - 17/7/2011",
+      "Date": "17-07-2011",
       "Threat_Status": null
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-7-2011",
-      "Location_Date": "Punta Lara, Buenos Aires - 17/7/2011",
+      "Date": "17-07-2011",
       "Threat_Status": null
     }
   ]

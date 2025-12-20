@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "14-10-2014",
-      "Location_Date": "Camino de Yavi a Abra Lezoite, Jujuy - 14-10-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "14-10-2014",
-      "Location_Date": "Camino entre Yavi y Abra Lezoite , Jujuy - 14-10-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "14-10-2014",
-      "Location_Date": "Camino entre Yavi y Abra Lezoite , Jujuy - 14-10-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "14-10-2014",
-      "Location_Date": "Camino entre Yavi y Abra Lezoite , Jujuy - 14-10-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "20-09-2016",
-      "Location_Date": "Chinchan, Lima, PERU - 20-09-2016",
       "Threat_Status": null
     }
   ]

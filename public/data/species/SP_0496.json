@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "06-09-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 06-09-2009",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-12-2012",
-      "Location_Date": "Reserva \"Las Piedras\", Gualeguaychú, Entre Ríos - 29-12-2012",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "3-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 3-03-2014",
+      "Date": "03-03-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "26-07-2014",
-      "Location_Date": "Parque Sarmiento, CABA - 26-07-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "9-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 9-07-2016",
+      "Date": "09-07-2016",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "9-07-2016",
-      "Location_Date": "Costanera Sur, CABA, 7/2002",
+      "Date": "09-07-2016",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-7-200 7",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/200 7",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-7-200 7",
-      "Location_Date": "Perdices, Entre Ríos, 9/2004",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Costanera Sur, CABA - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Costanera Sur, CABA - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Palermo, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Palermo, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
       "Threat_Status": null
     },
     {
@@ -378,7 +357,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-10-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 26/10/2008",
       "Threat_Status": null
     },
     {
@@ -395,7 +373,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-10-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 26/10/2008",
       "Threat_Status": null
     },
     {
@@ -412,7 +389,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-10-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 26/10/2008",
       "Threat_Status": null
     },
     {
@@ -429,7 +405,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-10-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 26/10/2008",
       "Threat_Status": null
     },
     {
@@ -446,7 +421,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 23/12/2007",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Parque Unzué, Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-2-2010",
-      "Location_Date": "Parque Unzué, Gualeguaychú, Entre Ríos - 27/2/2010",
+      "Date": "27-02-2010",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-2-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
+      "Date": "05-02-2011",
       "Threat_Status": null
     }
   ]

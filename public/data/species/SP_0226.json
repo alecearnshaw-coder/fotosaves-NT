@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 17-09-2016",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva natural \"Los Robles\", Moreno",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-2009",
-      "Location_Date": "Reserva natural \"Los Robles\", Moreno, Buenos Aires - 5/2009",
+      "Date": "05-2009",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Laguna \"Las Barrancas\", Lezama",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-4-2014",
-      "Location_Date": "Laguna \"Las Barrancas\", Lezama, Buenos Aires - 2/4/2014",
+      "Date": "02-04-2014",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "San Miguel del Monte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-08-2014",
-      "Location_Date": "San Miguel del Monte, Buenos Aires - 3-08-2014",
+      "Date": "03-08-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016",
-      "Location_Date": "Pantanos de Villa, Lima, PERU - 17-09-2016",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-2006",
-      "Location_Date": "Vuelta de Obligado, Buenos Aires - 5/2006",
+      "Date": "05-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-2009",
-      "Location_Date": "Los Robles, Buenos Aires - 5/2009",
+      "Date": "05-2009",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "4-2-2010",
-      "Location_Date": "Ibicuy, Entre Ríos - 4/2/2010",
+      "Date": "04-02-2010",
       "Threat_Status": null
     }
   ]

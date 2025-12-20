@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-04-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 1-04-2018",
+      "Date": "01-04-2018",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Lago Regatas de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-12-2018",
-      "Location_Date": "Lago Regatas de Palermo, CABA - 8-12-2018",
+      "Date": "08-12-2018",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "9-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 9-07-2016",
+      "Date": "09-07-2016",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-04-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 1-04-2018",
+      "Date": "01-04-2018",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "20-04-2014",
-      "Location_Date": "Laguna Galarza, Corrientes - 20-04-2014",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "19-10-2019",
-      "Location_Date": "Camino a Payaguá, Formosa - 19-10-2019",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "08-02-2008",
-      "Location_Date": "Canal de Beagle, Harberton, Tierra del Fuego - 08-02-2008",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Seoul",
       "Country": "SOUTH KOREA",
       "Date": "17-11-2017",
-      "Location_Date": "Jeondong, Seoul, SOUTH KOREA - 17-11-2017",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "7-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
+      "Date": "07-2006",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-9-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/9/2007",
+      "Date": "08-09-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-7-2010",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/7/2010",
+      "Date": "03-07-2010",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-7-2010",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/7/2010",
+      "Date": "03-07-2010",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-7-2010",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/7/2010",
+      "Date": "03-07-2010",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-9-2010",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 25/9/2010",
+      "Date": "25-09-2010",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Lago Regatas",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Lago Regatas, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Lago Regatas",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Lago Regatas, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Lago Regatas",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Lago Regatas, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2008",
+      "Date": "24-01-2008",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-2-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 22/2/2008",
+      "Date": "22-02-2008",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "31-1-2009",
-      "Location_Date": "Reserva de Vicente López, La Lucila, Buenos Aires -31/1/2009",
+      "Date": "31-01-2009",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-3-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 15/3/2008",
+      "Date": "15-03-2008",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-3-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 15/3/2008",
+      "Date": "15-03-2008",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-6-2010",
-      "Location_Date": "Ibicuy, Entre Ríos - 21/6/2010",
+      "Date": "21-06-2010",
       "Threat_Status": null
     },
     {
@@ -446,7 +421,6 @@
       "Province": "CA",
       "Country": "USA",
       "Date": "30-11-2008",
-      "Location_Date": "Bolsa Chica, Huntington Beach, CA, USA - 30/11/2008",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Canal de Beagle, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Canal de Beagle, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -496,8 +468,7 @@
       "Location": "Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Canal de Beagle, Tierra del Fuego - 2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Ensenada",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "Ensenada, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Ensenada",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "Ensenada, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     }
   ]

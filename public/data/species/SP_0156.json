@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "15-01-2012",
-      "Location_Date": "Camino a Río Chico, Comodoro Rivadavia, Chubut - 15-01-2012",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-4-2000",
-      "Location_Date": "Ceibas, Entre Ríos - 20/4/2000",
+      "Date": "20-04-2000",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-4-2000",
-      "Location_Date": "Ceibas, Entre Ríos - 20/4/2000",
+      "Date": "20-04-2000",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-1-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 15/1/2012",
+      "Date": "15-01-2012",
       "Threat_Status": null
     }
   ]

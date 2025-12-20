@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "San Luis",
       "Country": null,
       "Date": "24-10-2011",
-      "Location_Date": "Dique Paso de las Carretas, San Luis - 24-10-2011",
       "Threat_Status": null
     }
   ]

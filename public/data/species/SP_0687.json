@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Atacama",
       "Country": "CHILE",
       "Date": "23-05-2008",
-      "Location_Date": "Copiapó, Atacama, CHILE - 23-05-2008",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "10 km al sur de Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "10 km al sur de Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "10 km al sur de Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "10 km al sur de Cortaderas, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Copiapó",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó, Santiago, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Copiapó",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó, Santiago, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Copiapó",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó, Santiago, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Copiapó",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "23-5-2008",
-      "Location_Date": "Copiapó, Santiago, CHILE - 23/5/2008",
+      "Date": "23-05-2008",
       "Threat_Status": null
     }
   ]

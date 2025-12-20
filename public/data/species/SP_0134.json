@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "11-01-2014",
-      "Location_Date": "Reserva Ecológica Costenera Sur, CABA - 11-01-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "23-02-2008",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 23-02-2008",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "4-2006",
-      "Location_Date": "Costanera Sur, CABA - 4/2006",
+      "Date": "04-2006",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "4-2006",
-      "Location_Date": "Costanera Sur, CABA - 4/2006",
+      "Date": "04-2006",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Costanera Sur, CABA - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2008",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 23/2/2008",
+      "Date": "02-2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-2-2008",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 23/2/2008",
+      "Date": "23-02-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-2-2008",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 23/2/2008",
+      "Date": "23-02-2008",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-2-2008",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 23/2/2008",
+      "Date": "23-02-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "6-2008",
-      "Location_Date": "Palermo, CABA - 29/6/2008",
+      "Date": "06-2008",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Bío Bío",
       "Country": "CHILE",
       "Date": "10-2008",
-      "Location_Date": "Concepción, Bío Bío, CHILE - 10/2008",
       "Threat_Status": null
     },
     {
@@ -327,7 +309,6 @@
       "Province": "CHILE",
       "Country": null,
       "Date": "10-2008",
-      "Location_Date": "Concepción, Bío Bío, CHILE - 10/2008",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "CHILE",
       "Country": null,
       "Date": "10-2008",
-      "Location_Date": "Concepción, Bío Bío, CHILE - 10/2008",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Lago Pellegrini",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "26-3-2009",
-      "Location_Date": "Lago Pellegrini, Río Negro - 26/3/2009",
+      "Date": "26-03-2009",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Lago Pellegrini",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "26-3-2009",
-      "Location_Date": "Lago Pellegrini, Río Negro - 26/3/2009",
+      "Date": "26-03-2009",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Lago Pellegrini",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "26-3-2009",
-      "Location_Date": "Lago Pellegrini, Río Negro - 26/3/2009",
+      "Date": "26-03-2009",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Lago Pellegrini",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "26-3-2009",
-      "Location_Date": "Lago Pellegrini, Río Negro - 26/3/2009",
+      "Date": "26-03-2009",
       "Threat_Status": null
     }
   ]

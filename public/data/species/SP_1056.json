@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2017",
-      "Location_Date": "Perdices, Entre Ríos - 27-02-2017",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2017",
-      "Location_Date": "Perdices, Entre Ríos - 27-02-2017",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-08-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28-08-2010",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2019",
-      "Location_Date": "Reserva Natural Punta Rasa, Buenos Aires - 24-03-2019",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-01-2014",
-      "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 12-01-2014",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Isla Talavera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-03-2024",
-      "Location_Date": "Isla Talavera, Buenos Aires - 5-03-2024",
+      "Date": "05-03-2024",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Perdices, Entre Ríos - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-5-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
+      "Date": "26-05-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-5-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
+      "Date": "26-05-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-5-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
+      "Date": "26-05-2007",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 30/12/2007",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 30/12/2007",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 30/12/2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Perdices, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Perdices, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-3-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 30/3/2008",
+      "Date": "30-03-2008",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-1-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 12/1/2009",
+      "Date": "12-01-2009",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 20/9/2009",
+      "Date": "20-09-2009",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 20/9/2009",
+      "Date": "20-09-2009",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     },
     {
@@ -412,7 +389,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "c. 1999",
-      "Location_Date": "Ceibas, Entre Ríos - c. 1999",
       "Threat_Status": null
     }
   ]

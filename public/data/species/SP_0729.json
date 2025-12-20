@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "16-09-2018",
-      "Location_Date": "600 Hectáreas, Puerto Iguazú, Misiones - 16-09-2018",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "16-09-2018",
-      "Location_Date": "600 Hectáreas, Puerto Iguazú, Misiones - 16-09-2018",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "25-11-2019",
-      "Location_Date": "Establecimiento Los Picazos, Tres Marías, Formosa - 25-11-2019",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "25-11-2019",
-      "Location_Date": "Establecimiento Los Picazos, Tres Marías, Formosa - 25-11-2019",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2017",
-      "Location_Date": "Perdices, Entre Ríos - 27-02-2017",
       "Threat_Status": "Endangered"
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-12-2021",
-      "Location_Date": "Ceibas, Entre Ríos - 5-12-2021",
+      "Date": "05-12-2021",
       "Threat_Status": "Endangered"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 21-12-2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2017",
-      "Location_Date": "Perdices, Entre Ríos - 27-02-2017",
       "Threat_Status": "Endangered"
     },
     {
@@ -105,8 +100,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-1-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/1/2007",
+      "Date": "20-01-2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-1-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/1/2007",
+      "Date": "20-01-2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Entre Ríos - 21/12/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
+      "Date": "04-01-2009",
       "Threat_Status": "Endangered"
     }
   ]

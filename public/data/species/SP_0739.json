@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,10 +37,9 @@
       "Province": "Maule",
       "Country": "CHILE",
       "Date": "18-12-2009",
-      "Location_Date": "Vilches, Maule, CHILE - 18/12/2009",
       "Threat_Status": null
     },
-    { 
+    {
       "Species_ID": "SP_0739",
       "Slug": "HuehuetCastano",
       "Subspecies_ID": null,
@@ -55,7 +53,6 @@
       "Province": "Biobío",
       "Country": "CHILE",
       "Date": "10-2008",
-      "Location_Date": "Concepción, Biobío, CHILE - 10/2008",
       "Threat_Status": null
     }
   ]

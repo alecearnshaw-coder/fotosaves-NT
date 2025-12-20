@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "04-12-2020",
-      "Location_Date": "Plaza Teran, CABA - 04-12-2020",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "04-12-2020",
-      "Location_Date": "Plaza Teran, CABA - 04-12-2020",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "J. Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "4-2007",
-      "Location_Date": "J. Botánico, Bogotá, Cundinamarca, COLOMBIA - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     }
   ]

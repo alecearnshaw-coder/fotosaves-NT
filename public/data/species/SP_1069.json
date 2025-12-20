@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Catamarca",
       "Country": null,
       "Date": "23-02-2025",
-      "Location_Date": "Termas de Fiambalá, Catamarca - 23-02-2025",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 12-10-2013",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "8-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 8-07-2016",
+      "Date": "08-07-2016",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-12-2012",
-      "Location_Date": "Ceibas, Entre Ríos - 01-12-2012",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "09-10-2017",
-      "Location_Date": "Purmamarca, Jujuy- 09-10-2017",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "01-07-2006",
-      "Location_Date": "Reserva Natural Municipal de Vicente López, Buenos Aires - 01-07-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "9-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 9-07-2016",
+      "Date": "09-07-2016",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "09-10-2017",
-      "Location_Date": "Purmamarca, Jujuy- 09-10-2017",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Reserva Mun. de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-7-2006",
-      "Location_Date": "Reserva Mun. de Vicente López, La Lucila, Buenos Aires - 1/7/2006",
+      "Date": "01-07-2006",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Reserva Mun. de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-7-2006",
-      "Location_Date": "Reserva Mun. de Vicente López, La Lucila, Buenos Aires - 6/2006",
+      "Date": "01-07-2006",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Costanera Sur, CABA - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-2-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/2/2008",
+      "Date": "17-02-2008",
       "Threat_Status": null
     }
   ]

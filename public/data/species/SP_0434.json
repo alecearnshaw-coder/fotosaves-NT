@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Ancón",
       "Country": "PANAMA",
       "Date": "05-2005",
-      "Location_Date": "Recinto del Águila Harpía, Parque Municipal Summit, Ancón, PANAMA - 05-2005",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Ancón",
       "Country": "PANAMA",
       "Date": "05-2005",
-      "Location_Date": "Recinto del Águila Harpía, Parque Municipal Summit, Ancón, PANAMA - 05-2005",
       "Threat_Status": "Vulnerable"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Ancón",
       "Country": "PANAMA",
       "Date": "05-2005",
-      "Location_Date": "Recinto del Águila Harpía, Parque Municipal Summit, Ancón, PANAMA - 05-2005",
       "Threat_Status": "Vulnerable"
     }
   ]

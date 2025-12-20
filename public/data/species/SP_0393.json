@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "24-10-2019",
-      "Location_Date": "Herradura, Formosa - 24-10-2019",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "24-10-2019",
-      "Location_Date": "Herradura, Formosa - 24-10-2019",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "02-09-2012",
-      "Location_Date": "Reserva \"Ribera Norte\", Acassuso, Buenos Aires - 02-09-2012",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "13-09-2018",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 13-09-2018",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-9-2009",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 12/9/2009",
+      "Date": "12-09-2009",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-9-2009",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 12/9/2009",
+      "Date": "12-09-2009",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-9-2009",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 12/9/2009",
+      "Date": "12-09-2009",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2001",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 12/2001",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
       "Threat_Status": null
     },
     {
@@ -327,7 +309,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 15/10/2007",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-12-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 8/12/2007",
+      "Date": "08-12-2007",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -479,8 +452,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-3-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008",
+      "Date": "24-03-2008",
       "Threat_Status": null
     },
     {
@@ -497,7 +469,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-8-200 8",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 20/8/200 8",
       "Threat_Status": null
     },
     {
@@ -513,8 +484,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-1-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/1/2009",
+      "Date": "17-01-2009",
       "Threat_Status": null
     },
     {
@@ -530,8 +500,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-1-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/1/2009",
+      "Date": "17-01-2009",
       "Threat_Status": null
     },
     {
@@ -547,8 +516,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-1-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/1/2009",
+      "Date": "17-01-2009",
       "Threat_Status": null
     },
     {
@@ -564,8 +532,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-1-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/1/2009",
+      "Date": "17-01-2009",
       "Threat_Status": null
     },
     {
@@ -581,8 +548,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-1-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/1/2009",
+      "Date": "17-01-2009",
       "Threat_Status": null
     },
     {
@@ -599,7 +565,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-10-2009",
-      "Location_Date": "Otamendi, Buenos Aires - 12/10/2009",
       "Threat_Status": null
     },
     {
@@ -616,7 +581,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 12/10/2009",
       "Threat_Status": null
     },
     {
@@ -632,8 +596,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-2-2012",
-      "Location_Date": "Olivos, Buenos Aires - 21/2/2012",
+      "Date": "21-02-2012",
       "Threat_Status": null
     },
     {
@@ -649,8 +612,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2012",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 18/2/2012",
+      "Date": "02-2012",
       "Threat_Status": null
     }
   ]

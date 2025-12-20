@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Illinois",
       "Country": "USA",
       "Date": "14-05-2017",
-      "Location_Date": "Ryerson Forest Preserve, Lake County, Illinois, USA - 14-05-2017",
       "Threat_Status": null
     }
   ]

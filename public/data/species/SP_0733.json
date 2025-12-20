@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "5-07-2016",
-      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 5-07-2016",
+      "Date": "05-07-2016",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "5-07-2016",
-      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 5-07-2016",
+      "Date": "05-07-2016",
       "Threat_Status": null
     }
   ]

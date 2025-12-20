@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "San Miguel del Monte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-08-2014",
-      "Location_Date": "San Miguel del Monte, Buenos Aires - 3-08-2014",
+      "Date": "03-08-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "15-09-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 15-09-2006",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "5-04-2015",
-      "Location_Date": "Reserva Ecológica Costanera Sur, AMBA - 5-04-2015",
+      "Date": "05-04-2015",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "AMBA",
       "Country": null,
       "Date": "18-11-2015",
-      "Location_Date": "Reserva Ecológica Costanera Sur, AMBA - 18-11-2015",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "24-5-2009",
-      "Location_Date": "Ribera Norte, Acassuso - 24/5/2009",
+      "Date": "24-05-2009",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "24-5-2009",
-      "Location_Date": "Ribera Norte, Acassuso - 24/5/2009",
+      "Date": "24-05-2009",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "24-5-2009",
-      "Location_Date": "Ribera Norte, Acassuso - 24/5/2009",
+      "Date": "24-05-2009",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "30-8-2008",
-      "Location_Date": "Ribera Norte, Acassuso - 30/8/2008",
+      "Date": "30-08-2008",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1-2009",
-      "Location_Date": "Reserva de Vicente López, La Lucila, Buenos Aires- 31/1/2009",
+      "Date": "01-2009",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-6-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 30/6/2007",
+      "Date": "30-06-2007",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-6-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 30/6/2007",
+      "Date": "30-06-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Reserva de Vicente López, La Lucila, Buenos Aires- 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Pringles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-2002",
-      "Location_Date": "Pringles, Buenos Aires - 2/2002",
+      "Date": "02-2002",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "anteriores / old stock Reserva Vicente Lopez",
       "Province": "La Lucila",
       "Country": null,
-      "Date": "7-2002",
-      "Location_Date": "Reserva Vicente Lopez, La Lucila - 7/2002",
+      "Date": "07-2002",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "9-2002",
-      "Location_Date": "Reserva Costanera Sur, AMBA - 9/2002",
+      "Date": "09-2002",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-8-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
+      "Date": "28-08-2010",
       "Threat_Status": null
     }
   ]

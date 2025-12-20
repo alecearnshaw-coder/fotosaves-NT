@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-12-2007",
-      "Location_Date": "Entre Ríos - 3-12-2007",
+      "Date": "03-12-2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Entre Ríos - 24-11-2013",
       "Threat_Status": "Endangered"
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2016",
-      "Location_Date": "Reserva El Potrero, Gualeguaychú, Entre Ríos - 30-12-2016",
       "Threat_Status": "Endangered"
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Entre Ríos - 24-11-2013",
       "Threat_Status": "Endangered"
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Entre Ríos - 24-11-2013",
       "Threat_Status": "Endangered"
     },
     {
@@ -122,8 +116,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "3-12-2007",
-      "Location_Date": "Entre Ríos - 3-12-2007",
+      "Date": "03-12-2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Entre Ríos - 24-11-2013",
       "Threat_Status": "Endangered"
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "18-04-2014",
-      "Location_Date": "Ea. Virocay, Virasoro, Corrientes - 18-04-2014",
       "Threat_Status": "Endangered"
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2006",
+      "Date": "01-2006",
       "Threat_Status": "Endangered"
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Entre Ríos - 11/2006",
       "Threat_Status": "Endangered"
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-12-2007",
-      "Location_Date": "Entre Ríos - 23/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-12-2007",
-      "Location_Date": "Entre Ríos - 23/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-12-2007",
-      "Location_Date": "Entre Ríos - 23/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -327,7 +309,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-11-2008",
-      "Location_Date": "Entre Ríos - 13/11/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -378,7 +357,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-11-2008",
-      "Location_Date": "Entre Ríos - 13/11/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -395,7 +373,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-11-2008",
-      "Location_Date": "Entre Ríos - 13/11/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -412,7 +389,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-11-2008",
-      "Location_Date": "Entre Ríos - 13/11/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -429,7 +405,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-11-2008",
-      "Location_Date": "Entre Ríos - 13/11/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -446,7 +421,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-11-2008",
-      "Location_Date": "Entre Ríos - 13/11/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -462,8 +436,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-7-2009",
-      "Location_Date": "Entre Ríos - 26/7/2009",
+      "Date": "26-07-2009",
       "Threat_Status": "Endangered"
     },
     {
@@ -479,8 +452,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-7-2009",
-      "Location_Date": "Entre Ríos - 26/7/2009",
+      "Date": "26-07-2009",
       "Threat_Status": "Endangered"
     },
     {
@@ -496,8 +468,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-7-2009",
-      "Location_Date": "Entre Ríos - 26/7/2009",
+      "Date": "26-07-2009",
       "Threat_Status": "Endangered"
     },
     {
@@ -514,7 +485,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-11-2008",
-      "Location_Date": "Entre Ríos - 22/11/2008",
       "Threat_Status": "Endangered"
     },
     {
@@ -531,7 +501,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -548,7 +517,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2007",
-      "Location_Date": "Entre Ríos - 30/12/2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -564,8 +532,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": "Endangered"
     },
     {
@@ -582,7 +549,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Entre Ríos - 11/2006",
       "Threat_Status": "Endangered"
     },
     {
@@ -599,7 +565,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Entre Ríos - 11/2006",
       "Threat_Status": "Endangered"
     },
     {
@@ -616,7 +581,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Entre Ríos - 11/2006",
       "Threat_Status": "Endangered"
     },
     {
@@ -633,7 +597,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "25-10-2009",
-      "Location_Date": "Entre Ríos - 25/10/2009",
       "Threat_Status": "Endangered"
     },
     {
@@ -650,7 +613,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "25-10-2009",
-      "Location_Date": "Entre Ríos - 25/10/2009",
       "Threat_Status": "Endangered"
     },
     {
@@ -666,8 +628,7 @@
       "Location": null,
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-6-2010",
-      "Location_Date": "Entre Ríos - 21/6/2010",
+      "Date": "21-06-2010",
       "Threat_Status": "Endangered"
     },
     {
@@ -684,7 +645,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2004",
-      "Location_Date": "Entre Ríos - 11/2004",
       "Threat_Status": "Endangered"
     }
   ]

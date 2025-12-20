@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13-12-2009",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13-12-2009",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13-12-2009",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13-12-2009",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13-12-2009",
       "Threat_Status": null
     }
   ]

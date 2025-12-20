@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Santiago de Chile",
       "Country": "CHILE",
       "Date": "06-07-2011",
-      "Location_Date": "Sierra San Cristóbal, Santiago de Chile, CHILE - 06-07-2011",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Santiago de Chile",
       "Country": "CHILE",
       "Date": "06-07-2011",
-      "Location_Date": "Sierra San Cristóbal, Santiago de Chile, CHILE - 06-07-2011",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Quinta Vergara",
       "Province": "Viña del Mar",
       "Country": "CHILE",
-      "Date": "3-2006",
-      "Location_Date": "Quinta Vergara, Viña del Mar, CHILE - 3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Quinta Vergara",
       "Province": "Viña del Mar",
       "Country": "CHILE",
-      "Date": "3-2006",
-      "Location_Date": "Quinta Vergara, Viña del Mar, CHILE - 3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Quinta Vergara",
       "Province": "Viña del Mar",
       "Country": "CHILE",
-      "Date": "3-2006",
-      "Location_Date": "Quinta Vergara, Viña del Mar, CHILE - 3/2006",
+      "Date": "03-2006",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Maule",
       "Country": "CHILE",
       "Date": "18-12-2009",
-      "Location_Date": "Vilches, Maule, CHILE - 18/12/2009",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Maule",
       "Country": "CHILE",
       "Date": "18-12-2009",
-      "Location_Date": "Vilches, Maule, CHILE - 18/12/2009",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "6-07-2011",
-      "Location_Date": "Sierra San Cristóbal, Santiago, CHILE - 6/07/2011",
+      "Date": "06-07-2011",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "6-07-2011",
-      "Location_Date": "Sierra San Cristóbal, Santiago, CHILE - 6/07/2011",
+      "Date": "06-07-2011",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "6-07-2011",
-      "Location_Date": "Sierra San Cristóbal, Santiago, CHILE - 6/07/2011",
+      "Date": "06-07-2011",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "07-2011",
-      "Location_Date": "Sierra San Cristóbal, Santiago, CHILE - 07/2011",
       "Threat_Status": null
     }
   ]

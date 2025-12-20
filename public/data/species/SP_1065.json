@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "13-09-2018",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 13-09-2018",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Jardín de los Picaflores, Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "2-05-2014",
-      "Location_Date": "Jardín de los Picaflores, Iguazú, Misiones - 2-05-2014",
+      "Date": "02-05-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "13-09-2018",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 13-09-2018",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Basterre",
       "Province": "St. Kitts",
       "Country": "EAST CARIBBEAN",
-      "Date": "2-2001",
-      "Location_Date": "Basterre, St. Kitts, EAST CARIBBEAN - 2/2001",
+      "Date": "02-2001",
       "Threat_Status": null
     }
   ]

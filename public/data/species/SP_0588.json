@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Puertos, Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-09-2019",
-      "Location_Date": "Reserva Puertos, Escobar, Buenos Aires - 8-09-2019",
+      "Date": "08-09-2019",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "30-03-2008",
-      "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 30-03-2008",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "30-12-2017",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 30-12-2017",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-06-2017",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 25-06-2017",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-04-2014",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 27-04-2014",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "16-08-2014",
-      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 16-08-2014",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Reserva Natural Municipal Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-08-2014",
-      "Location_Date": "Reserva Natural Municipal Ribera Norte, Acassuso, Buenos Aires - 9-08-2014",
+      "Date": "09-08-2014",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-03-2015",
-      "Location_Date": "Rio de las Aves, Ceibas, Entre Ríos - 28-03-2015",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "3-07-2016",
-      "Location_Date": "BioReserva Karadyá, Andresito, Misiones - 3-07-2016",
+      "Date": "03-07-2016",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2002",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires- 3/2002",
+      "Date": "03-2002",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-2006",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires- 8/2006",
+      "Date": "08-2006",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-3-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 30/3/2008",
+      "Date": "30-03-2008",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-3-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 30/3/2008",
+      "Date": "30-03-2008",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-3-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 30/3/2008",
+      "Date": "30-03-2008",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-3-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 30/3/2008",
+      "Date": "30-03-2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Ribera Norte, Buenos Aires - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Ribera Norte, Buenos Aires - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-2007",
-      "Location_Date": "Ribera Norte, Buenos Aires - 4/2007",
+      "Date": "05-2007",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-2007",
-      "Location_Date": "Ribera Norte, Buenos Aires - 4/2007",
+      "Date": "04-2007",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2007",
-      "Location_Date": "Ribera Norte, Buenos Aires - 3/2007",
+      "Date": "06-2007",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2007",
-      "Location_Date": "Ribera Norte, Buenos Aires - 3/2007",
+      "Date": "03-2007",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-9-2007",
-      "Location_Date": "Ribera Norte, Buenos Aires - 8/9/2007",
+      "Date": "08-09-2007",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "8-9-2007",
-      "Location_Date": "Ribera Norte, Buenos Aires - 8/9/2007",
+      "Date": "08-09-2007",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 2/12/2007",
+      "Date": "02-12-2007",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Parque Nacional \"El Palmar\", Colón",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "7-2001",
-      "Location_Date": "Parque Nacional \"El Palmar\", Colón, Entre Ríos - 7/2001",
+      "Date": "07-2001",
       "Threat_Status": null
     }
   ]

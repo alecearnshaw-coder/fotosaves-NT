@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Municipal de Vicente Lopez, La Lucilia",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-09-2017",
-      "Location_Date": "Reserva Municipal de Vicente Lopez, La Lucilia, Buenos Aires - 2-09-2017",
+      "Date": "02-09-2017",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-09-2011",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 3-09-2011",
+      "Date": "03-09-2011",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-04-2015",
-      "Location_Date": "Reserva Natural Ribera Norte, Buenos Aires - 25-04-2015",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Parque Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-8-2007",
-      "Location_Date": "Parque Enrique Berduc, Paraná, Entre Ríos - 6/8/2007",
+      "Date": "06-08-2007",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe",
       "Province": "Santa Fe",
       "Country": null,
-      "Date": "2-12-2009",
-      "Location_Date": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe, Santa Fe - 2/12/2009",
+      "Date": "02-12-2009",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe",
       "Province": "Santa Fe",
       "Country": null,
-      "Date": "2-12-2009",
-      "Location_Date": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe, Santa Fe - 2/12/2009",
+      "Date": "02-12-2009",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe",
       "Province": "Santa Fe",
       "Country": null,
-      "Date": "2-12-2009",
-      "Location_Date": "Rserva Ecológica \"El Pozo\", Ciudad Universitaria UNL, Ciudad de Santa Fe, Santa Fe - 2/12/2009",
+      "Date": "02-12-2009",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-5-2010",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/5/2010",
+      "Date": "02-05-2010",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-5-2010",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/5/2010",
+      "Date": "02-05-2010",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-9-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/9/2011",
+      "Date": "03-09-2011",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-9-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/9/2011",
+      "Date": "03-09-2011",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-09-2012",
-      "Location_Date": "Reserva \"Las Piedras\", Gualeguaychú, Entre Ríos - 23-09-2012",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-12-2012",
-      "Location_Date": "Reserva \"Las Piedras\", Gualeguaychú, Entre Ríos - 29-12-2012",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-12-2012",
-      "Location_Date": "Reserva \"Las Piedras\", Gualeguaychú, Entre Ríos - 29-12-2012",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "London",
       "Country": "ENGLAND",
       "Date": "2000",
-      "Location_Date": "London Zoo, London, ENGLAND - 2000",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "London",
       "Country": "ENGLAND",
       "Date": "2000",
-      "Location_Date": "London Zoo, London, ENGLAND - 2000",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-6-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 25/6/2011",
+      "Date": "25-06-2011",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-6-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 25/6/2011",
+      "Date": "25-06-2011",
       "Threat_Status": null
     }
   ]

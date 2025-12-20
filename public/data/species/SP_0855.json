@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Camba Trapo, Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "4-01-2009",
-      "Location_Date": "Camba Trapo, Iberá, Corrientes - 4-01-2009",
+      "Date": "04-01-2009",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-01-2014",
-      "Location_Date": "Reserva Natural Otamendi, Otamendi, Campana, Buenos Aires - 12-01-2014",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2011",
+      "Date": "24-01-2011",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 24/1/2011",
+      "Date": "24-01-2011",
       "Threat_Status": null
     }
   ]

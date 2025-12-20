@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2010",
-      "Location_Date": "Magdalena, Buenos Aires - 27-10-2010",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "06-10-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 06-10-2018",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "13-01-2024",
-      "Location_Date": "Ceibas, Entre Ríos - 13-01-2024",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Laguna \"Las Barrancas\", Lezama",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-4-2014",
-      "Location_Date": "Laguna \"Las Barrancas\", Lezama, Buenos Aires - 2/4/2014",
+      "Date": "02-04-2014",
       "Threat_Status": null
     },
     {
@@ -105,8 +100,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "1-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 1-03-2014",
+      "Date": "01-03-2014",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Perdices, Entre Ríos - 10/2006",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Perdices, Entre Ríos - 11/2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-2007",
-      "Location_Date": "Perdices, Entre Ríos - 1/2007",
+      "Date": "01-2007",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "17-11-2007",
-      "Location_Date": "Perdices, Entre Ríos - 17/11/2007",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-12-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 16/12/2007",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "26-10-2008",
-      "Location_Date": "Perdices, Entre Ríos - 26/10/2008",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-7-2009",
-      "Location_Date": "Magdalena, Buenos Aires - 10/7/2009",
+      "Date": "10-07-2009",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-7-2009",
-      "Location_Date": "Reta, Buenos Aires - 18/7/2009",
+      "Date": "18-07-2009",
       "Threat_Status": null
     },
     {
@@ -327,7 +309,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2010",
-      "Location_Date": "Magdalena, Buenos Aires - 27/10/2010",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2010",
-      "Location_Date": "Magdalena, Buenos Aires - 27/10/2010",
       "Threat_Status": null
     }
   ]

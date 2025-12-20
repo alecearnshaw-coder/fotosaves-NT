@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-09-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 6-09-2009",
+      "Date": "06-09-2009",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 5-10-2013",
+      "Date": "05-10-2013",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "5-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 5-10-2013",
+      "Date": "05-10-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "22-02-2020",
-      "Location_Date": "Reserva Nacional Quebrada del Condorito, Córdoba - 22-02-2020",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "31-10-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 31/10/2009",
       "Threat_Status": null
     }
   ]

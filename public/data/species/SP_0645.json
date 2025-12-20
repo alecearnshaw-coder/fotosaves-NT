@@ -54,8 +54,8 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "8-12-2012",
-      "Location_Date": "Lago de Palermo, CABA - 8-12-2012",
+      "Date": "08-12-2012",
+      "Location_Date": "Lago de Palermo, CABA - 08-12-2012",
       "Threat_Status": null
     },
     {
@@ -122,7 +122,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-2004",
+      "Date": "03-2004",
       "Location_Date": "Reserva Vicente López, Buenos Aires - 3/2004",
       "Threat_Status": null
     },
@@ -139,7 +139,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
+      "Date": "15-07-2007",
       "Location_Date": "Ceibas, Entre Rios - 15/7/2007",
       "Threat_Status": null
     },
@@ -156,7 +156,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-7-2007",
+      "Date": "15-07-2007",
       "Location_Date": "Ceibas, Entre Rios - 15/7/2007",
       "Threat_Status": null
     },
@@ -173,7 +173,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "7-10-2007",
+      "Date": "07-10-2007",
       "Location_Date": "Ceibas, Entre Rios - 7/10/2007",
       "Threat_Status": null
     },
@@ -241,7 +241,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "8-10-2009",
+      "Date": "08-10-2009",
       "Location_Date": "Ceibas, Entre Ríos - 8/10/2009",
       "Threat_Status": null
     },
@@ -258,7 +258,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-6-2010",
+      "Date": "20-06-2010",
       "Location_Date": "Costanera Sur, CABA - 20/6/2010",
       "Threat_Status": null
     },
@@ -275,7 +275,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-4-2009",
+      "Date": "10-04-2009",
       "Location_Date": "Ceibas, Entre Ríos - 10/4/2009",
       "Threat_Status": null
     }

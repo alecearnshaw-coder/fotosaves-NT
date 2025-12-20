@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "25-09-2015",
-      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 25-09-2015",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "4-05-2014",
-      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 4-05-2014",
+      "Date": "04-05-2014",
       "Threat_Status": null
     }
   ]

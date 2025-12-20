@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando, Buenos Aires - 3-03-2016",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2016",
-      "Location_Date": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando, Buenos Aires - 21-02-2016",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "3-03-2016",
-      "Location_Date": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando, Buenos Aires - 3-03-2016",
+      "Date": "03-03-2016",
       "Threat_Status": null
     }
   ]

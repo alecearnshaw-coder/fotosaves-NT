@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-06-2008",
-      "Location_Date": "Reserva Municipal \"Ribera Norte\", Acassuso, Buenos Aires - 21-06-2008",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "8-03-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 8-03-2013",
+      "Date": "08-03-2013",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "11-01-2014",
-      "Location_Date": "Reserva Ecológica Costanera Sur, CABA - 11-01-2014",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "01-12-2015",
-      "Location_Date": "Reserva Ecológica Costanera Sur, CABA - 01-12-2015",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-01-2024",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 18-01-2024",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "15-05-2022",
-      "Location_Date": "Villa Celina, Buenos Aires - 15-05-2022",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 6/2006",
+      "Date": "06-2006",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 12/2006",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
+      "Date": "02-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-6-2007",
-      "Location_Date": "Costanera Sur, CABA - 16/6/2007",
+      "Date": "16-06-2007",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-2-2008",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 23/2/2008",
+      "Date": "23-02-2008",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-6-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/6/2008",
+      "Date": "21-06-2008",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-6-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/6/2008",
+      "Date": "21-06-2008",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-8-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/8/2008",
+      "Date": "14-08-2008",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "2-5-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 2/5/2009",
+      "Date": "02-05-2009",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-9-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 20/9/2009",
+      "Date": "20-09-2009",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "8-10-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 8/10/2009",
+      "Date": "08-10-2009",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-5-2010",
-      "Location_Date": "Acassuso, Buenos Aires - 2/5/2010",
+      "Date": "02-05-2010",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-5-2010",
-      "Location_Date": "Acassuso, Buenos Aires - 2/5/2010",
+      "Date": "02-05-2010",
       "Threat_Status": null
     },
     {
@@ -445,8 +420,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-5-2010",
-      "Location_Date": "Acassuso, Buenos Aires - 2/5/2010",
+      "Date": "02-05-2010",
       "Threat_Status": null
     },
     {
@@ -462,8 +436,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "2-5-2010",
-      "Location_Date": "Acassuso, Buenos Aires - 2/5/2010",
+      "Date": "02-05-2010",
       "Threat_Status": null
     }
   ]

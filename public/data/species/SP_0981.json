@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "7-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 7-07-2016",
+      "Date": "07-07-2016",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "1 -05-2014",
-      "Location_Date": "RP101, Misiones - 1 -05-2014",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "BioRreserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "6-07-2016",
-      "Location_Date": "BioRreserva Karadyá, Andresito, Misiones - 6-07-2016",
+      "Date": "06-07-2016",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "7-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 7-07-2016",
+      "Date": "07-07-2016",
       "Threat_Status": null
     }
   ]

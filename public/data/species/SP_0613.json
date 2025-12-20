@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "CABA",
       "Country": null,
       "Date": "23-11-2021",
-      "Location_Date": "Reserva Ecológica Costanera Sur (RECS), CABA - 23-11-2021",
       "Threat_Status": "Vulnerable"
     }
   ]

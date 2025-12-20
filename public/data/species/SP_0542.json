@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "19-08-2014",
-      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 19-08-2014",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Estación de Recría \"Guira Oga\", Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "7-1999",
-      "Location_Date": "Estación de Recría \"Guira Oga\", Iguazú, Misiones - 7/1999",
+      "Date": "07-1999",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2001",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 10/2001",
       "Threat_Status": null
     }
   ]

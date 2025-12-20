@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "30-11-2011",
-      "Location_Date": "Manzano Histórico, Tupungato, Mendoza - 30-11-2011",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "30-11-2011",
-      "Location_Date": "Manzano Histórico, Tupungato, Mendoza - 30-11-2011",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-11-2011",
-      "Location_Date": "Manzano Histórico, Tupungato, Mendoza - 30-11-2011",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-11-2011",
-      "Location_Date": "Manzano Histórico, Tupungato, Mendoza - 30-11-2011",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Mendoza",
       "Country": null,
       "Date": "30-11-2011",
-      "Location_Date": "Manzano Histórico, Tupungato, Mendoza - 30-11-2011",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Puerto Madryn, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "2-2006",
-      "Location_Date": "Puerto Madryn, Chubut - 2/2006",
+      "Date": "02-2006",
       "Threat_Status": null
     }
   ]

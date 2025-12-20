@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "21-03-2013",
-      "Location_Date": "Quilino, Córdoba - 21-03-2013",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "1-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 1-03-2014",
+      "Date": "01-03-2014",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "21-03-2013",
-      "Location_Date": "Quilino, Córdoba - 21-03-2013",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "21-03-2013",
-      "Location_Date": "Quilino, Córdoba - 21-03-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "23-03-2013",
-      "Location_Date": "Charbonier, Córdoba - 23-03-2013",
       "Threat_Status": null
     }
   ]

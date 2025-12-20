@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "3-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 3-03-2014",
+      "Date": "03-03-2014",
       "Threat_Status": null
     }
   ]

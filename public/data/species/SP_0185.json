@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10-01-2011",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "27-02-2025",
-      "Location_Date": "Laguna Brava, La Rioja - 27-02-2025",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "19-10-2019",
-      "Location_Date": "Costanera, Formosa - 19-10-2019",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "6-10-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 6-10-2013",
+      "Date": "06-10-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Abra Pampa, Jujuy - 13-10-2014",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "13-10-2014",
-      "Location_Date": "Laguna Runtuyoc, Abra Pampa, Jujuy - 13-10-2014",
       "Threat_Status": null
     },
     {
@@ -139,8 +132,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Costanera Sur, CABA - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -156,8 +148,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Costanera Sur, CABA - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -173,8 +164,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "3-11-2009",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 3/11/2009",
+      "Date": "03-11-2009",
       "Threat_Status": null
     },
     {
@@ -190,8 +180,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "3-11-2009",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 3/11/2009",
+      "Date": "03-11-2009",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-1-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
+      "Date": "10-01-2011",
       "Threat_Status": null
     }
   ]

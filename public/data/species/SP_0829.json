@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-04-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 1-04-2018",
+      "Date": "01-04-2018",
       "Threat_Status": null
     },
     {
@@ -54,8 +52,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-04-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 1-04-2018",
+      "Date": "01-04-2018",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "1-04-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 1-04-2018",
+      "Date": "01-04-2018",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "19-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 19-03-2013",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "18-03-2013",
-      "Location_Date": "Capilla del Monte, Córdoba - 18-03-2013",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "22-03-2013",
-      "Location_Date": "El 44, Capilla del Monte, Córdoba - 22-03-2013",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "09-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 09-10-2010",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "24-02-2020",
-      "Location_Date": "Camino \"Los Relinchos\", Cruz Grande, Córdoba - 24-02-2020",
       "Threat_Status": null
     },
     {
@@ -207,8 +196,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -224,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -241,8 +228,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -258,8 +244,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -275,8 +260,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -292,8 +276,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -309,8 +292,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-8-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
+      "Date": "20-08-2007",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -360,8 +340,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 9/2006",
+      "Date": "09-2006",
       "Threat_Status": null
     },
     {
@@ -377,8 +356,7 @@
       "Location": "Parque Unzué, Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-2-2010",
-      "Location_Date": "Parque Unzué, Gualeguaychú, Entre Ríos - 27/2/2010",
+      "Date": "27-02-2010",
       "Threat_Status": null
     },
     {
@@ -394,8 +372,7 @@
       "Location": "Parque Unzué, Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-2-2010",
-      "Location_Date": "Parque Unzué, Gualeguaychú, Entre Ríos - 27/2/2010",
+      "Date": "27-02-2010",
       "Threat_Status": null
     },
     {
@@ -411,8 +388,7 @@
       "Location": "Parque Unzué, Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-2-2010",
-      "Location_Date": "Parque Unzué, Gualeguaychú, Entre Ríos - 27/2/2010",
+      "Date": "27-02-2010",
       "Threat_Status": null
     },
     {
@@ -428,8 +404,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "9-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
+      "Date": "09-10-2010",
       "Threat_Status": null
     }
   ]

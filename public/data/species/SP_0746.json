@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "14-02-2017",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 14-02-2017",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "14-02-2017",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 14-02-2017",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13-12-2009",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "1-02-2014",
-      "Location_Date": "PN Tierra del Fuego, Ushuaia, Tierra del Fuego - 1-02-2014",
+      "Date": "01-02-2014",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "09-02-2008",
-      "Location_Date": "Parque Nacional Tierra del Fuego, Ushuaia, Tierra del Fuego - 09-02-2008",
       "Threat_Status": null
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "09-02-2008",
-      "Location_Date": "P. N Tierra del Fuego, Ushuaia, Tierra del Fuego - 09-02-2008",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "09-02-2008",
-      "Location_Date": "P. N Tierra del Fuego, Ushuaia, Tierra del Fuego - 09-02-2008",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "09-02-2008",
-      "Location_Date": "P. N Tierra del Fuego, Ushuaia, Tierra del Fuego - 09-02-2008",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "09-02-2008",
-      "Location_Date": "P. N Tierra del Fuego, Ushuaia, Tierra del Fuego - 09-02-2008",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "09-02-2008",
-      "Location_Date": "P. N Tierra del Fuego, Ushuaia, Tierra del Fuego - 09-02-2008",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13/12/2009",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13/12/2009",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13/12/2009",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13/12/2009",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13/12/2009",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13/12/2009",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Santiago",
       "Country": "CHILE",
       "Date": "13-12-2009",
-      "Location_Date": "El Yeso, Santiago, CHILE - 13/12/2009",
       "Threat_Status": null
     },
     {
@@ -326,8 +308,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "P. N. Tierra del Fuego, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     },
     {
@@ -343,8 +324,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-3-2011",
-      "Location_Date": "P. N. Tierra del Fuego, Tierra del Fuego - 13/3/2011",
+      "Date": "13-03-2011",
       "Threat_Status": null
     }
   ]

@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -38,7 +37,6 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "16-09-2018",
-      "Location_Date": "600 Hectáreas, Puerto Iguazú, Misiones - 16-09-2018",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "22-10-2019",
-      "Location_Date": "Reserva Guaycolec, Formosa - 22-10-2019",
       "Threat_Status": null
     },
     {
@@ -72,7 +69,6 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "22-10-2019",
-      "Location_Date": "Reserva Guaycolec, Formosa - 22-10-2019",
       "Threat_Status": null
     },
     {
@@ -88,8 +84,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "6-05-2014",
-      "Location_Date": "Surucuá Reserva y Ecolodge, Andresito, Misiones - 6-05-2014",
+      "Date": "06-05-2014",
       "Threat_Status": null
     }
   ]

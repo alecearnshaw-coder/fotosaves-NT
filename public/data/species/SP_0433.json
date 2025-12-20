@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "RP83 y Loma Chata, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "2-09-2023",
-      "Location_Date": "RP83 y Loma Chata, Sierras de Calilegua, Jujuy - 2-09-2023",
+      "Date": "02-09-2023",
       "Threat_Status": "Endangered"
     },
     {
@@ -54,8 +52,7 @@
       "Location": "RP83 y Loma Chata, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "2-09-2023",
-      "Location_Date": "RP83 y Loma Chata, Sierras de Calilegua, Jujuy - 2-09-2023",
+      "Date": "02-09-2023",
       "Threat_Status": "Endangered"
     },
     {
@@ -71,8 +68,7 @@
       "Location": "RP83 y Loma Chata, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "2-09-2023",
-      "Location_Date": "RP83 y Loma Chata, Sierras de Calilegua, Jujuy - 2-09-2023",
+      "Date": "02-09-2023",
       "Threat_Status": "Endangered"
     },
     {
@@ -88,8 +84,7 @@
       "Location": "RP83 y Loma Chata, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "2-09-2023",
-      "Location_Date": "RP83 y Loma Chata, Sierras de Calilegua, Jujuy - 2-09-2023",
+      "Date": "02-09-2023",
       "Threat_Status": "Endangered"
     },
     {
@@ -105,8 +100,7 @@
       "Location": "RP83 y Loma Chata, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "2-09-2023",
-      "Location_Date": "RP83 y Loma Chata, Sierras de Calilegua, Jujuy - 2-09-2023",
+      "Date": "02-09-2023",
       "Threat_Status": "Endangered"
     },
     {
@@ -123,7 +117,6 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "16-10-2017",
-      "Location_Date": "RP83 y Abra Colorada, Sierras de Calilegua, Jujuy - 16-10-2017",
       "Threat_Status": "Endangered"
     }
   ]

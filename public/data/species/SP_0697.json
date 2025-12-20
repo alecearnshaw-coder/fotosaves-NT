@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "3-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 3-03-2014",
+      "Date": "03-03-2014",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Córdoba",
       "Country": null,
       "Date": "27-03-2020",
-      "Location_Date": "Charbonier, Córdoba - 27-03-2020",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "2-03-2014",
-      "Location_Date": "Reserva Provincial Chancaní, Córdoba - 2-03-2014",
+      "Date": "02-03-2014",
       "Threat_Status": null
     }
   ]

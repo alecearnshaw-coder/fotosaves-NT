@@ -18,7 +18,6 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,8 +36,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "1-03-2025",
-      "Location_Date": "Pampa de la Viuda Agustina, La Rioja - 1-03-2025",
+      "Date": "01-03-2025",
       "Threat_Status": null
     },
     {
@@ -55,7 +53,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "28-11-2016",
-      "Location_Date": "Reserva Natural de Pilar, Buenos Aires - 28-11-2016",
       "Threat_Status": null
     },
     {
@@ -71,8 +68,7 @@
       "Location": "Reserva Natural Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "5-11-2016",
-      "Location_Date": "Reserva Natural Ribera Norte, Acassuso, Buenos Aires - 5-11-2016",
+      "Date": "05-11-2016",
       "Threat_Status": null
     },
     {
@@ -89,7 +85,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 10-10-2011",
       "Threat_Status": null
     },
     {
@@ -106,7 +101,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-01-2014",
-      "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 12-01-2014",
       "Threat_Status": null
     },
     {
@@ -122,8 +116,7 @@
       "Location": "Reserva Natural Otamendi, Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-1-2016",
-      "Location_Date": "Reserva Natural Otamendi, Otamendi, Buenos Aires - 09-1-2016",
+      "Date": "09-01-2016",
       "Threat_Status": null
     },
     {
@@ -140,7 +133,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2005",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 12/2005",
       "Threat_Status": null
     },
     {
@@ -157,7 +149,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2005",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 12/2005",
       "Threat_Status": null
     },
     {
@@ -174,7 +165,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2004",
-      "Location_Date": "Ceibas, Entre Ríos - 12/2004",
       "Threat_Status": null
     },
     {
@@ -191,7 +181,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Otamendi, Buenos Aires - 10/2006",
       "Threat_Status": null
     },
     {
@@ -208,7 +197,6 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-200 6",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2006",
       "Threat_Status": null
     },
     {
@@ -225,7 +213,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-11-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 18/11/2007",
       "Threat_Status": null
     },
     {
@@ -242,7 +229,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-11-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 18/11/2007",
       "Threat_Status": null
     },
     {
@@ -259,7 +245,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-11-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 18/11/2007",
       "Threat_Status": null
     },
     {
@@ -276,7 +261,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/03/2008",
       "Threat_Status": null
     },
     {
@@ -293,7 +277,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/03/2008",
       "Threat_Status": null
     },
     {
@@ -310,7 +293,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -327,7 +309,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -344,7 +325,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -361,7 +341,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -378,7 +357,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -395,7 +373,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -412,7 +389,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -429,7 +405,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -446,7 +421,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -463,7 +437,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     },
     {
@@ -480,7 +453,6 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
       "Threat_Status": null
     }
   ]
