@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/lightbox/css/lightbox.css">
     <link rel="stylesheet" href="/styles/Species_Builder_styles.css" type="text/css">
     <script src="/scripts/shared/genderMap.js"></script>
+    <script src="/scripts/shared/locationDate.js"></script>
     <style>
       /* Breadcrumb box styling aligned with Group_Builder green/brown scheme */
       .subHeadingBox {
@@ -562,6 +563,9 @@
         const large = '/images/Aves/' + (Path || '') + (item.Large_Filename || '');
         const hasLarge = !!item.Large_Filename && item.Large_Filename !== item.Thumbnail_Filename;
 
+        // Build location/date string for lightbox title and info display
+        const locationDateStr = buildLocationDateString(item);
+
         const img = document.createElement('img');
         img.loading = 'lazy';
         img.src = thumb;
@@ -571,7 +575,7 @@
           const a = document.createElement('a');
           a.href = large;
           a.setAttribute('rel', 'lightbox[' + (species_ID || 'set') + ']');
-          a.setAttribute('title', item.Location_Date || '');
+          a.setAttribute('title', locationDateStr);
           a.appendChild(img);
           frame.appendChild(a);
         } else {
@@ -600,15 +604,9 @@
         cam.textContent = item.Equipment || '';
         group.appendChild(cam);
 
-        let Date = item.Date.slice(0, 10);  
-        let Location = item.Location;
-        let Province = item.Province;
-        let Country = ""
-        if ((item.Country !== null) && (item.Country.trim() !== "")) Country = ', ' + item.Country.toUpperCase();
-        let Location_Date = Location + ', ' + Province + Country + ' - ' + Date;  
         const loc = document.createElement('div');
         loc.className = 'info-section location-info';
-        loc.textContent = Location_Date || '';
+        loc.textContent = locationDateStr;
         group.appendChild(loc);
 
         container.appendChild(group);
@@ -650,6 +648,11 @@
         const large = '/images/Aves/' + (Path || '') + (item.Large_Filename || '');
         const hasLarge = !!item.Large_Filename && item.Large_Filename !== item.Thumbnail_Filename;
 
+        // Build location/date string for lightbox title
+        const slideTitleStr = buildLocationDateString(item);
+        const slideCountry = (item.Country && item.Country.trim() && item.Country !== 'Argentina') ? ', ' + item.Country.toUpperCase() : '';
+        const slideLocText = [item.Location, item.Province].filter(Boolean).join(', ') + (slideCountry || '');
+
         const img = document.createElement('img');
         img.loading = 'lazy';
         img.src = thumb;
@@ -659,7 +662,7 @@
           const a = document.createElement('a');
           a.href = large;
           a.setAttribute('rel', 'lightbox[' + (species_ID || 'slides') + ']');
-          a.setAttribute('title', item.Location_Date || '');
+          a.setAttribute('title', slideTitleStr);
           a.appendChild(img);
           frame.appendChild(a);
         } else {
@@ -673,9 +676,7 @@
 
         const locEl = document.createElement('div');
         locEl.className = 'slide-location';
-        const country = (item.Country && item.Country.trim() && item.Country !== 'Argentina') ? ', ' + item.Country.toUpperCase() : '';
-        const locText = [item.Location, item.Province].filter(Boolean).join(', ') + (country || '');
-        locEl.textContent = locText.trim();
+        locEl.textContent = slideLocText.trim();
 
         const dateEl = document.createElement('div');
         dateEl.className = 'slide-date';

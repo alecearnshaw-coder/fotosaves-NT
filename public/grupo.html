@@ -308,6 +308,7 @@ h2 {
         </div>
     </div>
     <script src="/scripts/shared/genderMap.js"></script>
+    <script src="/scripts/shared/locationDate.js"></script>
 
      <!-- 2. Navigation links are shown inside the heading container -->
 
@@ -1019,10 +1020,13 @@ h2 {
             img.height = 400;  // Typical aspect ratio for thumbnails
         //    img.alt = speciesNameSp || '';
 
+            // Build location/date string for lightbox title
+            const locationDateStr = buildLocationDateString(item);
+
             if (hasLarge) {
                 link.href = large;
                 link.setAttribute('rel', 'lightbox[' + (item.Species_ID || 'set') + ']');
-                link.setAttribute('title', item.Location_Date || '');
+                link.setAttribute('title', locationDateStr);
             } else {
                 link.replaceWith(img);
             }
@@ -1044,10 +1048,7 @@ h2 {
 
             // Info
             node.querySelector('[data-el="camera"]').textContent = item.Equipment || '';
-            const date = (item.Date || '').slice(0, 10);
-            const country = (item.Country && item.Country.trim() && item.Country !== 'Argentina') ? ', ' + item.Country.toUpperCase() : '';
-            node.querySelector('[data-el="location"]').textContent =
-                `${item.Location || ''}, ${item.Province || ''}${country} - ${date}`;
+            node.querySelector('[data-el="location"]').textContent = locationDateStr;
 
             return node;
 
