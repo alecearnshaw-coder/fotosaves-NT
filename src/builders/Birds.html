@@ -243,36 +243,47 @@
         }
 
         function createOrderElement(container, order, familiesArray, speciesArray) {
-            const imageFolderPath = '/' + order.Order_Name_Sci + '/';
+            // Use explicit Order_Path from taxonomy data
+            const imageFolderPath = order.Order_Path ? '/' + order.Order_Path : null;
             const groupType = 'order';
             const groupId = order.Order_Name_Sci;
-            const url = new URL('/grupo', window.location.href);
-            url.searchParams.set('path', imageFolderPath);
-            url.searchParams.set('groupType', groupType);
-            url.searchParams.set('groupId', groupId);
+            const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;
+            if (url) {
+                url.searchParams.set('path', imageFolderPath);
+                url.searchParams.set('groupType', groupType);
+                url.searchParams.set('groupId', groupId);
+            }
             const orderRow = document.createElement('div');
             orderRow.className = 'order-row';
             const orderImage = document.createElement('div');
             orderImage.className = 'order-image';
-            const Link = document.createElement('a');
-            Link.href = url.toString();
-            Link.style.textDecoration = 'none';
             const img = document.createElement('img');
             img.src = '/images/thumbnails/' + order.Order_Image || 'images/placeholder.jpg';
             img.alt = order.Order_Name_Sci;
             img.onerror = function() { this.src = 'images/placeholder.jpg'; };
-            Link.appendChild(img);
-            orderImage.appendChild(Link);
+            if (url) {
+                const Link = document.createElement('a');
+                Link.href = url.toString();
+                Link.style.textDecoration = 'none';
+                Link.appendChild(img);
+                orderImage.appendChild(Link);
+            } else {
+                orderImage.appendChild(img);
+            }
             const orderContent = document.createElement('div');
             orderContent.className = 'order-content';
             const orderTitle = document.createElement('div');
             orderTitle.className = 'order-title';
-            const Title_Link = document.createElement('a');
-            Title_Link.href = url.toString();
-            Title_Link.style.textDecoration = 'none';
-            Title_Link.style.color = 'inherit';
-            Title_Link.innerHTML = `Order <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_En})</span>`;
-            orderTitle.appendChild(Title_Link);
+            if (url) {
+                const Title_Link = document.createElement('a');
+                Title_Link.href = url.toString();
+                Title_Link.style.textDecoration = 'none';
+                Title_Link.style.color = 'inherit';
+                Title_Link.innerHTML = `Order <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_En})</span>`;
+                orderTitle.appendChild(Title_Link);
+            } else {
+                orderTitle.innerHTML = `Order <span class="order-scientific">${order.Order_Name_Sci}</span> <span class="order-spanish">(${order.Order_Name_En})</span>`;
+            }
             const orderSpecies = document.createElement('div');
             orderSpecies.className = 'species-count';
             orderContent.appendChild(orderTitle);
@@ -293,36 +304,47 @@
         }
 
         function createSuborderElement(order, suborder, familiesArray, subfamiliesArray, speciesArray) {
-            const imageFolderPath = '/' + order.Order_Name_Sci + '/';
+            // Use explicit SO_Path from taxonomy data
+            const imageFolderPath = suborder.SO_Path ? '/' + suborder.SO_Path : null;
             const groupType = 'suborder';
             const groupId = suborder.SO_Name_Sci;
-            const url = new URL('/grupo', window.location.href);
-            url.searchParams.set('path', imageFolderPath);
-            url.searchParams.set('groupType', groupType);
-            url.searchParams.set('groupId', groupId);
+            const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;
+            if (url) {
+                url.searchParams.set('path', imageFolderPath);
+                url.searchParams.set('groupType', groupType);
+                url.searchParams.set('groupId', groupId);
+            }
             const subgroupRow = document.createElement('div');
             subgroupRow.className = 'subgroup-row';
             const subgroupImage = document.createElement('div');
             subgroupImage.className = 'subgroup-image';
-            const Link = document.createElement('a');
-            Link.href = url.toString() || '#';
-            Link.style.textDecoration = 'none';
             const img = document.createElement('img');
             img.src = '/images/thumbnails/' + suborder.SO_Image || 'images/placeholder.jpg';
             img.alt = suborder.SO_Name_Sci;
             img.onerror = function() { this.src = 'images/placeholder.jpg'; };
-            Link.appendChild(img);
-            subgroupImage.appendChild(Link);
+            if (url) {
+                const Link = document.createElement('a');
+                Link.href = url.toString();
+                Link.style.textDecoration = 'none';
+                Link.appendChild(img);
+                subgroupImage.appendChild(Link);
+            } else {
+                subgroupImage.appendChild(img);
+            }
             const subgroupContent = document.createElement('div');
             subgroupContent.className = 'subgroup-content';
             const subgroupTitle = document.createElement('div');
             subgroupTitle.className = 'order-title';
-            const Title_Link = document.createElement('a');
-            Title_Link.href = url.toString() || '#';
-            Title_Link.style.textDecoration = 'none';
-            Title_Link.style.color = 'inherit';
-            Title_Link.innerHTML = `Suborder <span class="order-scientific">${suborder.SO_Name_Sci}</span> <span class="order-spanish">(${suborder.SO_Name_En})</span>`;
-            subgroupTitle.appendChild(Title_Link);
+            if (url) {
+                const Title_Link = document.createElement('a');
+                Title_Link.href = url.toString();
+                Title_Link.style.textDecoration = 'none';
+                Title_Link.style.color = 'inherit';
+                Title_Link.innerHTML = `Suborder <span class="order-scientific">${suborder.SO_Name_Sci}</span> <span class="order-spanish">(${suborder.SO_Name_En})</span>`;
+                subgroupTitle.appendChild(Title_Link);
+            } else {
+                subgroupTitle.innerHTML = `Suborder <span class="order-scientific">${suborder.SO_Name_Sci}</span> <span class="order-spanish">(${suborder.SO_Name_En})</span>`;
+            }
             const subgroupSpecies = document.createElement('div');
             subgroupSpecies.className = 'species-count';
             subgroupSpecies.textContent = `SPECIES: ${suborder.Species_Cnt} of ${suborder.Known_Species_Cnt} present in Argentina`;
@@ -345,18 +367,16 @@
         function createFamilyElement(family, familiesArray, subfamiliesArray, speciesArray, Family_Type) {
             if (!familiesArray || !Array.isArray(familiesArray)) return '';
             if (!speciesArray || !Array.isArray(speciesArray)) return '';
-            let imageFolderPath = '';
-            if (Family_Type === 'O') {
-                imageFolderPath = '/' + family.Family_Path;
-            } else {
-                imageFolderPath = '/Passeriformes/' + family.Family_Name_Sci + '/';
-            }
+            // Use explicit Family_Path from taxonomy data (null means no direct page - check SubFamilies)
+            const imageFolderPath = family.Family_Path ? '/' + family.Family_Path : null;
             const groupType = 'family';
             const groupId = family.Family_Name_Sci;
-            const url = new URL('/grupo', window.location.href);
-            url.searchParams.set('path', imageFolderPath);
-            url.searchParams.set('groupType', groupType);
-            url.searchParams.set('groupId', groupId);
+            const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;
+            if (url) {
+                url.searchParams.set('path', imageFolderPath);
+                url.searchParams.set('groupType', groupType);
+                url.searchParams.set('groupId', groupId);
+            }
             const subgroupRow = document.createElement('div');
             subgroupRow.className = 'subgroup-row';
             const isPasseriformesFamily = family.Parent_Order_ID === 'OR_029';
@@ -367,11 +387,12 @@
             img.src = '/images/thumbnails/' + family.Family_Image || 'images/placeholder.jpg';
             img.alt = family.Family_Name_Sci;
             img.onerror = function() { this.src = 'images/placeholder.jpg'; };
-            if (hasSubfamilies) {
+            if (hasSubfamilies || !url) {
+                // No link at family level when subfamilies exist or no Family_Path
                 subgroupImage.appendChild(img);
             } else {
                 const Link = document.createElement('a');
-                Link.href = url.toString() || '#';
+                Link.href = url.toString();
                 Link.style.textDecoration = 'none';
                 Link.appendChild(img);
                 subgroupImage.appendChild(Link);
@@ -380,11 +401,12 @@
             subgroupContent.className = isPasseriformesFamily ? 'order-content' : 'subgroup-content';
             const subgroupTitle = document.createElement('div');
             subgroupTitle.className = 'order-title';
-            if (hasSubfamilies) {
+            if (hasSubfamilies || !url) {
+                // Plain text title when subfamilies exist or no Family_Path (no link)
                 subgroupTitle.innerHTML = `Family <span class="order-scientific">${family.Family_Name_Sci}</span> <span class="order-spanish">(${family.Family_Name_En})</span>`;
             } else {
                 const Title_Link = document.createElement('a');
-                Title_Link.href = url.toString() || '#';
+                Title_Link.href = url.toString();
                 Title_Link.style.textDecoration = 'none';
                 Title_Link.style.color = 'inherit';
                 Title_Link.innerHTML = `Family <span class="order-scientific">${family.Family_Name_Sci}</span> <span class="order-spanish">(${family.Family_Name_En})</span>`;
@@ -424,36 +446,47 @@
         }
 
         function createSubfamilyElement(subfamily, parentFamily, speciesArray) {
-            const imageFolderPath = subfamily.SF_Path;
+            // Use explicit SF_Path from taxonomy data
+            const imageFolderPath = subfamily.SF_Path ? '/' + subfamily.SF_Path : null;
             const groupType = 'subfamily';
             const groupId = subfamily.Subfamily_Sci;
-            const url = new URL('/grupo', window.location.href);
-            url.searchParams.set('path', imageFolderPath);
-            url.searchParams.set('groupType', groupType);
-            url.searchParams.set('groupId', groupId);
+            const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;
+            if (url) {
+                url.searchParams.set('path', imageFolderPath);
+                url.searchParams.set('groupType', groupType);
+                url.searchParams.set('groupId', groupId);
+            }
             const subgroupRow = document.createElement('div');
             subgroupRow.className = 'subgroup-row';
             const subgroupImage = document.createElement('div');
             subgroupImage.className = 'subgroup-image';
-            const Link = document.createElement('a');
-            Link.href = url.toString() || '#';
-            Link.style.textDecoration = 'none';
             const img = document.createElement('img');
             img.src = '/images/thumbnails/' + subfamily.Subfamily_Image || 'images/placeholder.jpg';
             img.alt = subfamily.Subfamily_Sci;
             img.onerror = function() { this.src = 'images/placeholder.jpg'; };
-            Link.appendChild(img);
-            subgroupImage.appendChild(Link);
+            if (url) {
+                const Link = document.createElement('a');
+                Link.href = url.toString();
+                Link.style.textDecoration = 'none';
+                Link.appendChild(img);
+                subgroupImage.appendChild(Link);
+            } else {
+                subgroupImage.appendChild(img);
+            }
             const subgroupContent = document.createElement('div');
             subgroupContent.className = 'subgroup-content';
             const subgroupTitle = document.createElement('div');
             subgroupTitle.className = 'order-title';
-            const Title_Link = document.createElement('a');
-            Title_Link.href = url.toString() || '#';
-            Title_Link.style.textDecoration = 'none';
-            Title_Link.style.color = 'inherit';
-            Title_Link.innerHTML = `Subfamily <span class="order-scientific">${subfamily.Subfamily_Sci}</span> <span class="order-spanish">(${subfamily.Subfamily_En})</span>`;
-            subgroupTitle.appendChild(Title_Link);
+            if (url) {
+                const Title_Link = document.createElement('a');
+                Title_Link.href = url.toString();
+                Title_Link.style.textDecoration = 'none';
+                Title_Link.style.color = 'inherit';
+                Title_Link.innerHTML = `Subfamily <span class="order-scientific">${subfamily.Subfamily_Sci}</span> <span class="order-spanish">(${subfamily.Subfamily_En})</span>`;
+                subgroupTitle.appendChild(Title_Link);
+            } else {
+                subgroupTitle.innerHTML = `Subfamily <span class="order-scientific">${subfamily.Subfamily_Sci}</span> <span class="order-spanish">(${subfamily.Subfamily_En})</span>`;
+            }
             const subgroupSpecies = document.createElement('div');
             subgroupSpecies.className = 'species-count';
             subgroupSpecies.textContent = `SPECIES: ${subfamily.Species_Cnt} of ${subfamily.Known_Species_Cnt} present in Argentina`;

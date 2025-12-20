@@ -977,8 +977,10 @@ h2 {
                 <div><span class="Sp_Text">Subfamilias</span> – <span class="En_Text">Subfamilies</span></div>
                 <div>
                     ${subfams.map(sf => {
-                        const url = new URL('Group_Builder.html', window.location.href);
-                        url.searchParams.set('path', sf.SF_Path || path || '');
+                        // Use explicit SF_Path from taxonomy data
+                        const sfPath = sf.SF_Path ? '/' + sf.SF_Path : (path || '');
+                        const url = new URL('/grupo', window.location.href);
+                        url.searchParams.set('path', sfPath);
                         url.searchParams.set('groupType', 'subfamily');
                         url.searchParams.set('groupId', sf.Subfamily_Sci);
                         return `<a href="${url.toString()}">${sf.Subfamily_Sci}</a>`;
