@@ -27,7 +27,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 12px 12px 6px 12px;
+    padding: 8px 12px 4px 12px;
     border-radius: 15px;
 }
 
@@ -171,7 +171,7 @@ h2 {
 /* Breadcrumb navigation bar styles */
 #breadcrumbs {
     max-width: 820px;
-    margin: 8px auto;
+    margin: 6px auto 12px auto;
 }
 
 .breadcrumb-table {
@@ -203,9 +203,9 @@ h2 {
     line-height: 1.3;
 }
 
-/* Bilingual cells (Home/Inicio, Birds/Aves) */
-.breadcrumb-cell .bc-es { color: #494242; }
-.breadcrumb-cell .bc-en { color: #036118; }
+/* Bilingual cells (Home/Inicio, Birds/Aves) - Spanish first (green), English below (brown) */
+.breadcrumb-cell .bc-es { color: #036118; text-decoration: underline; }
+.breadcrumb-cell .bc-en { color: #494242; text-decoration: underline; }
 
 /* Scientific name cells - linkable vs non-linkable */
 .breadcrumb-cell .bc-link {
@@ -351,18 +351,6 @@ h2 {
             </div>
             <div class="site-header-band site-header-band-dark">
                 <div class="headline">photos <span style="color:#FF9966">of wild animals</span> <span class="subheadline">of ARGENTINA</span></div>
-            </div>
-        </div>
-        <div class="quick-links">
-            <div class="links-left">
-                <span class="label-es">Enlaces:</span>
-                <a class="quick-link" href="/Aves.html" title="Selección de órdenes y familias de aves">Aves</a>
-                <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
-            </div>
-            <div class="links-right">
-                <span class="label-en">Links:</span>
-                <a class="quick-link" href="/Birds.html" title="Select bird orders and families">Birds</a>
-                <a class="quick-link" href="/index_english.html" title="Site home (English)">Site home</a>
             </div>
         </div>
     </div>
@@ -526,22 +514,21 @@ h2 {
             // Each cell: { topEs, topEn, bottom, href (optional), isScientific }
             const cells = [];
             
-            // 1. Home / Inicio cell (always present)
+            // 1. Inicio / Home cell (always present) - Spanish first
             cells.push({
-                topEs: 'Home',
-                topEn: 'Inicio',
-                href: null, // Will link to both index pages
+                labelEs: 'Inicio',
+                labelEn: 'Home',
                 hrefEs: '/index_sp.html',
                 hrefEn: '/index_english.html',
                 isBilingual: true
             });
             
-            // 2. Birds / Aves cell (always present)
+            // 2. Aves / Birds cell (always present) - Spanish first
             cells.push({
-                topEs: 'Birds',
-                topEn: 'Aves',
-                hrefEs: '/Birds.html',
-                hrefEn: '/Aves.html',
+                labelEs: 'Aves',
+                labelEn: 'Birds',
+                hrefEs: '/Aves.html',
+                hrefEn: '/Birds.html',
                 isBilingual: true
             });
             
@@ -641,10 +628,10 @@ h2 {
                 html += '<td class="breadcrumb-cell">';
                 
                 if (cell.isBilingual) {
-                    // Bilingual cell (Home/Inicio, Birds/Aves)
+                    // Bilingual cell (Inicio/Home, Aves/Birds) - Spanish first (green), English below (brown)
                     html += `<div class="bc-bottom">`;
-                    html += `<a href="${cell.hrefEs}"><span class="bc-es">${cell.topEs}</span></a><br>`;
-                    html += `<a href="${cell.hrefEn}"><span class="bc-en">${cell.topEn}</span></a>`;
+                    html += `<a href="${cell.hrefEs}"><span class="bc-es">${cell.labelEs}</span></a><br>`;
+                    html += `<a href="${cell.hrefEn}"><span class="bc-en">${cell.labelEn}</span></a>`;
                     html += `</div>`;
                 } else if (cell.isScientific) {
                     // Scientific name cell with label
@@ -1060,10 +1047,13 @@ h2 {
             }
 
             // Default: iterate per family and render Family-only subheading
+            // Skip subheading if pageLevel is 'family' (would duplicate the main heading)
             for (const familySci of familyList) {
                 const anySp = filtered.find(sp => sp.Family_Sci === familySci);
                 const orderSci = anySp ? anySp.Order_Sci : '';
-                buildSubHeadingBox(pageLevel, orderSci, familySci, familiesArray, subfamiliesArray);
+                if (pageLevel !== 'family') {
+                    buildSubHeadingBox(pageLevel, orderSci, familySci, familiesArray, subfamiliesArray);
+                }
                 const speciesInFamily = filtered.filter(sp => sp.Family_Sci === familySci && Number(sp.Image_Cnt || 0) > 0);
                 for (let i = 0; i < speciesInFamily.length; i++) {
                     const sp = speciesInFamily[i];
