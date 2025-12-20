@@ -28,7 +28,7 @@
       "Known_Species_Cnt": 20,
       "Species_Cnt": 18,
       "Image_Cnt": 240,
-      "SO_Path": "Aves/Charadriiformes/"
+      "SO_Path": "Charadriiformes/"
     },
     {
       "SO_ID": "SO_002",
@@ -40,7 +40,7 @@
       "Known_Species_Cnt": 34,
       "Species_Cnt": 30,
       "Image_Cnt": 409,
-      "SO_Path": "Aves/Charadriiformes/"
+      "SO_Path": "Charadriiformes/"
     },
     {
       "SO_ID": "SO_003",
@@ -52,7 +52,7 @@
       "Known_Species_Cnt": 30,
       "Species_Cnt": 20,
       "Image_Cnt": 284,
-      "SO_Path": "Aves/Charadriiformes/"
+      "SO_Path": "Charadriiformes/"
     }
   ]
 }
