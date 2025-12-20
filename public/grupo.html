@@ -946,12 +946,8 @@ h2 {
             // STEP 2: Build Images section with headings depends on page type
             const container = document.getElementById("images");
 
-            // Subfamily page: single header for subfamily
+            // Subfamily page: no subheading needed (already shown in main heading)
             if (pageLevel === 'subfamily') {
-                const anySp = filtered[0];
-                const orderSci = anySp ? anySp.Order_Sci : '';
-                const familySci = anySp ? anySp.Family_Sci : '';
-                buildSubHeadingBox('subfamily', orderSci, familySci, familiesArray, subfamiliesArray, groupID);
                 const speciesInSubfamily = filtered.filter(sp => Number(sp.Image_Cnt || 0) > 0);
                 for (const sp of speciesInSubfamily) {
                     try {
