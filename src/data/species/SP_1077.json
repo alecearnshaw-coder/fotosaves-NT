@@ -18,6 +18,7 @@
       "Province",
       "Country",
       "Date",
+      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,6 +38,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "15-11-2015",
+      "Location_Date": "Reserva Costanera Sur, CABA - 15-11-2015",
       "Threat_Status": null
     },
     {
@@ -53,6 +55,7 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
+      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -69,6 +72,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "18-11-2015",
+      "Location_Date": "Reserva Costanera Sur, CABA - 18-11-2015",
       "Threat_Status": null
     },
     {
@@ -85,6 +89,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "17-11-2012",
+      "Location_Date": "Ceibas, Entre Ríos - 17-11-2012",
       "Threat_Status": null
     },
     {
@@ -101,6 +106,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "03-2006",
+      "Location_Date": "Ceibas, Entre Ríos - 3/2006",
       "Threat_Status": null
     },
     {
@@ -117,6 +123,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "04-2004",
+      "Location_Date": "Ceibas, Entre Ríos - 4/2004",
       "Threat_Status": null
     },
     {
@@ -133,6 +140,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "01-2006",
+      "Location_Date": "Costanera Sur, Buenos Aires - 1/2006",
       "Threat_Status": null
     },
     {
@@ -149,6 +157,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "02-2007",
+      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
       "Threat_Status": null
     },
     {
@@ -165,6 +174,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "02-2007",
+      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
       "Threat_Status": null
     },
     {
@@ -181,6 +191,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "02-2007",
+      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
       "Threat_Status": null
     },
     {
@@ -197,6 +208,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "02-2007",
+      "Location_Date": "Ceibas, Entre Ríos - 3/2007",
       "Threat_Status": null
     },
     {
@@ -213,6 +225,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "03-2006",
+      "Location_Date": "Ceibas, Entre Ríos - 3/2006",
       "Threat_Status": null
     },
     {
@@ -229,6 +242,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "18-08-2008",
+      "Location_Date": "Costanera Sur, CABA - 18/8/2008",
       "Threat_Status": null
     },
     {
@@ -244,7 +258,8 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
+      "Date": "3-1--2009",
+      "Location_Date": "Iberá, Corrientes - 3/1//2009",
       "Threat_Status": null
     },
     {
@@ -261,6 +276,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-02-2010",
+      "Location_Date": "Ceibas, Entre Ríos - 28/2/2010",
       "Threat_Status": null
     },
     {
@@ -277,6 +293,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-02-2010",
+      "Location_Date": "Ceibas, Entre Ríos - 28/2/2010",
       "Threat_Status": null
     },
     {
@@ -293,6 +310,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "09-10-2010",
+      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
       "Threat_Status": null
     },
     {
@@ -309,6 +327,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "25-03-2012",
+      "Location_Date": "Colonia Pellegrini, Corrientes - 25/3/2012",
       "Threat_Status": null
     },
     {
@@ -325,6 +344,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-2012",
+      "Location_Date": "Colonia Pellegrini, Corrientes - 26/3/2012",
       "Threat_Status": null
     }
   ]

@@ -18,6 +18,7 @@
       "Province",
       "Country",
       "Date",
+      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,6 +38,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "25-03-2012",
+      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 25-03-2012",
       "Threat_Status": null
     },
     {
@@ -53,6 +55,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "06-12-2015",
+      "Location_Date": "P. N. El Palmar, Colon, Entre Ríos - 06-12-2015",
       "Threat_Status": null
     },
     {
@@ -69,6 +72,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "05-2007",
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 5/2007",
       "Threat_Status": null
     },
     {
@@ -85,6 +89,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "05-2007",
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 5/2007",
       "Threat_Status": null
     },
     {
@@ -101,6 +106,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "05-2007",
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 5/2007",
       "Threat_Status": null
     },
     {
@@ -117,6 +123,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "03-2006",
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/2006",
       "Threat_Status": null
     },
     {
@@ -133,6 +140,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-05-2007",
+      "Location_Date": "Vuelta de Obligado, Buenos Aires - 25/5/2007",
       "Threat_Status": null
     },
     {
@@ -149,6 +157,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "03-12-2007",
+      "Location_Date": "Perdices, Entre Rios - 3/12/2007",
       "Threat_Status": null
     },
     {
@@ -165,6 +174,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "03-12-2007",
+      "Location_Date": "Perdices, Entre Rios - 3/12/2007",
       "Threat_Status": null
     },
     {
@@ -181,6 +191,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2009",
+      "Location_Date": "Ceibas, Entre Rios - 12/10/2009",
       "Threat_Status": null
     },
     {
@@ -197,6 +208,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2009",
+      "Location_Date": "Ceibas, Entre Rios - 12/10/2009",
       "Threat_Status": null
     },
     {
@@ -213,6 +225,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "05-06-2010",
+      "Location_Date": "Los Robles, Moreno, Buenos Aires - 5/6/2010",
       "Threat_Status": null
     }
   ]

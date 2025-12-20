@@ -18,6 +18,7 @@
       "Province",
       "Country",
       "Date",
+      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,6 +38,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
+      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
       "Threat_Status": null
     },
     {
@@ -53,6 +55,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "08-12-2012",
+      "Location_Date": "Lago de Palermo, CABA - 08-12-2012",
       "Threat_Status": null
     },
     {
@@ -69,6 +72,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "15-02-2014",
+      "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 15-02-2014",
       "Threat_Status": null
     },
     {
@@ -85,6 +89,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "11-2001",
+      "Location_Date": "Costanera Sur, CABA - 11/2001",
       "Threat_Status": null
     },
     {
@@ -101,6 +106,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "11-2001",
+      "Location_Date": "Costanera Sur, CABA - 11/2001",
       "Threat_Status": null
     },
     {
@@ -117,6 +123,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "03-2004",
+      "Location_Date": "Reserva Vicente López, Buenos Aires - 3/2004",
       "Threat_Status": null
     },
     {
@@ -133,6 +140,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
+      "Location_Date": "Ceibas, Entre Rios - 15/7/2007",
       "Threat_Status": null
     },
     {
@@ -149,6 +157,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
+      "Location_Date": "Ceibas, Entre Rios - 15/7/2007",
       "Threat_Status": null
     },
     {
@@ -165,6 +174,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "07-10-2007",
+      "Location_Date": "Ceibas, Entre Rios - 7/10/2007",
       "Threat_Status": null
     },
     {
@@ -181,6 +191,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "16-06-2007",
+      "Location_Date": "Costanera Sur, CABA - 16/06/2007",
       "Threat_Status": null
     },
     {
@@ -197,6 +208,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "16-06-2007",
+      "Location_Date": "Costanera Sur, CABA - 16/06/2007",
       "Threat_Status": null
     },
     {
@@ -213,6 +225,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "18-08-2008",
+      "Location_Date": "Costanera Sur, CABA - 18/08/2008",
       "Threat_Status": null
     },
     {
@@ -229,6 +242,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "08-10-2009",
+      "Location_Date": "Ceibas, Entre Ríos - 8/10/2009",
       "Threat_Status": null
     },
     {
@@ -245,6 +259,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "20-06-2010",
+      "Location_Date": "Costanera Sur, CABA - 20/6/2010",
       "Threat_Status": null
     },
     {
@@ -261,6 +276,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-04-2009",
+      "Location_Date": "Ceibas, Entre Ríos - 10/4/2009",
       "Threat_Status": null
     }
   ]

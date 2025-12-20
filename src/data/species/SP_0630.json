@@ -18,6 +18,7 @@
       "Province",
       "Country",
       "Date",
+      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -37,6 +38,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "02-12-2012",
+      "Location_Date": "Perdices, Entre Ríos - 02-12-2012",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -53,6 +55,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2017",
+      "Location_Date": "Perdices, Entre Ríos - 27-02-2017",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -69,6 +72,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2017",
+      "Location_Date": "Perdices, Entre Ríos - 27-02-2017",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -85,6 +89,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-03-2024",
+      "Location_Date": "Perdices, Entre Ríos - 05-03-2024",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -101,6 +106,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2006",
+      "Location_Date": "Ceibas, Entre Ríos - 1/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -117,6 +123,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2006",
+      "Location_Date": "Ceibas, Entre Ríos - 1/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -133,6 +140,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2006",
+      "Location_Date": "Ceibas, Entre Ríos - 1/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -149,6 +157,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
+      "Location_Date": "Perdices, Entre Rios - 11/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -165,6 +174,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
+      "Location_Date": "Perdices, Entre Rios - 11/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -181,6 +191,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
+      "Location_Date": "Perdices, Entre Rios - 11/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -197,6 +208,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
+      "Location_Date": "Perdices, Entre Rios - 11/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -213,6 +225,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
+      "Location_Date": "Perdices, Entre Rios - 11/2006",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -229,6 +242,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
+      "Location_Date": "Perdices, Entre Rios - 1/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -245,6 +259,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
+      "Location_Date": "Perdices, Entre Rios - 1/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -261,6 +276,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
+      "Location_Date": "Perdices, Entre Rios - 1/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -277,6 +293,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
+      "Location_Date": "Perdices, Entre Rios - 1/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -293,6 +310,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
+      "Location_Date": "Perdices, Entre Rios - 1/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -309,6 +327,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "17-11-2007",
+      "Location_Date": "Perdices, Entre Rios - 17/11/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -325,6 +344,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "07-12-2007",
+      "Location_Date": "Perdices, Entre Rios - 7/12/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -341,6 +361,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-12-2007",
+      "Location_Date": "Perdices, Entre Rios - 23/12/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -357,6 +378,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-12-2007",
+      "Location_Date": "Perdices, Entre Rios - 23/12/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -373,6 +395,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-12-2007",
+      "Location_Date": "Perdices, Entre Rios - 23/12/2007",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -389,6 +412,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
+      "Location_Date": "Perdices, Entre Rios - 10/1/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -405,6 +429,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
+      "Location_Date": "Perdices, Entre Rios - 10/1/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -421,6 +446,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
+      "Location_Date": "Perdices, Entre Rios - 10/1/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -437,6 +463,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
+      "Location_Date": "Perdices, Entre Rios - 10/1/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -453,6 +480,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
+      "Location_Date": "Perdices, Entre Rios - 10/1/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -469,6 +497,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
+      "Location_Date": "Perdices, Entre Rios - 10/1/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -485,6 +514,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
+      "Location_Date": "Perdices, Entre Rios - 10/1/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -501,6 +531,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2010",
+      "Location_Date": "Buñirigo, Magdalena, Buenos Aires - 27/10/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -517,6 +548,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2010",
+      "Location_Date": "Buñirigo, Magdalena, Buenos Aires - 27/10/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -533,6 +565,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2010",
+      "Location_Date": "Buñirigo, Magdalena, Buenos Aires - 27/10/2010",
       "Threat_Status": "Near-threatened"
     },
     {
@@ -549,6 +582,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-10-2010",
+      "Location_Date": "Buñirigo, Magdalena, Buenos Aires - 27/10/2010",
       "Threat_Status": "Near-threatened"
     }
   ]

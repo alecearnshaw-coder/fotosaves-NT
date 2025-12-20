@@ -18,6 +18,7 @@
       "Province",
       "Country",
       "Date",
+      "Location_Date",
       "Threat_Status"
     ],
     "column_range": "B-P"
@@ -36,7 +37,8 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
+      "Date": "5-02-2011",
+      "Location_Date": "Ceibas, Entre Ríos - 5-02-2011",
       "Threat_Status": null
     },
     {
@@ -53,6 +55,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "23-07-2022",
+      "Location_Date": "Reserva Ecológica Ciudad Universitaria Costanera Norte (RECUCN), CABA - 23-07-2022",
       "Threat_Status": null
     },
     {
@@ -69,6 +72,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
+      "Location_Date": "Perdices, Entre Ríos - 24-11-2013",
       "Threat_Status": null
     },
     {
@@ -85,6 +89,7 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
+      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
       "Threat_Status": null
     },
     {
@@ -100,7 +105,8 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-10-2010",
+      "Date": "9-10-2010",
+      "Location_Date": "Ceibas, Entre Ríos - 9-10-2010",
       "Threat_Status": null
     },
     {
@@ -117,6 +123,7 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "11-07-2016",
+      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 11-07-2016",
       "Threat_Status": null
     },
     {
@@ -132,7 +139,8 @@
       "Location": "Jardín de los Picaflores, Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "02-05-2014",
+      "Date": "2-05-2014",
+      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 2-05-2014",
       "Threat_Status": null
     },
     {
@@ -149,6 +157,7 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "15-09-2018",
+      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018",
       "Threat_Status": null
     },
     {
@@ -161,10 +170,11 @@
       "Large_Filename": "JilgueroCom1_RN_25May09.jpg",
       "Equipment": null,
       "Sex_Age": null,
-      "Location": "Ribera Norte, Acassuso",
+      "Location": "Ribear Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-05-2009",
+      "Date": "25-5-2009",
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
       "Threat_Status": null
     },
     {
@@ -177,10 +187,11 @@
       "Large_Filename": "JilgueroCom2_RN_25May09.jpg",
       "Equipment": null,
       "Sex_Age": null,
-      "Location": "Ribera Norte, Acassuso",
+      "Location": "Ribear Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-05-2009",
+      "Date": "25-5-2009",
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
       "Threat_Status": null
     },
     {
@@ -193,10 +204,11 @@
       "Large_Filename": "JilgueroCom3_RN_25May09.jpg",
       "Equipment": null,
       "Sex_Age": null,
-      "Location": "Ribera Norte, Acassuso",
+      "Location": "Ribear Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-05-2009",
+      "Date": "25-5-2009",
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
       "Threat_Status": null
     },
     {
@@ -209,10 +221,11 @@
       "Large_Filename": "JilgueroCom4_RN_25May09.jpg",
       "Equipment": null,
       "Sex_Age": null,
-      "Location": "Ribera Norte, Acassuso",
+      "Location": "Ribear Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-05-2009",
+      "Date": "25-5-2009",
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
       "Threat_Status": null
     },
     {
@@ -228,7 +241,8 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
+      "Date": "5-2006",
+      "Location_Date": "Costanera Sur, CABA - 5/2006",
       "Threat_Status": null
     },
     {
@@ -244,7 +258,8 @@
       "Location": "Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2003",
+      "Date": "1-2003",
+      "Location_Date": "Escobar, Buenos Aires - 1/2003",
       "Threat_Status": null
     },
     {
@@ -260,7 +275,8 @@
       "Location": "Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2003",
+      "Date": "1-2003",
+      "Location_Date": "Escobar, Buenos Aires - 1/2003",
       "Threat_Status": null
     },
     {
@@ -276,7 +292,8 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
+      "Date": "8-2006",
+      "Location_Date": "Costanera Sur, CABA - 8/2006",
       "Threat_Status": null
     },
     {
@@ -292,7 +309,8 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
+      "Date": "8-2006",
+      "Location_Date": "Costanera Sur, CABA - 8/2006",
       "Threat_Status": null
     },
     {
@@ -308,7 +326,8 @@
       "Location": "Reserva de Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
+      "Date": "9-2006",
+      "Location_Date": "Reserva de Vicente López, Buenos Aires - 9/2006",
       "Threat_Status": null
     },
     {
@@ -324,7 +343,8 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2007",
+      "Date": "5-2007",
+      "Location_Date": "Vuelta de Obligado, Buenos Aires - 5/2007",
       "Threat_Status": null
     },
     {
@@ -340,7 +360,8 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
+      "Date": "18-8-2008",
+      "Location_Date": "Costanera Sur, CABA - 18/8/2008",
       "Threat_Status": null
     },
     {
@@ -357,6 +378,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2002",
+      "Location_Date": "Ceibas, Entre Ríos - 11/2002",
       "Threat_Status": null
     },
     {
@@ -373,6 +395,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2002",
+      "Location_Date": "Ceibas, Entre Ríos - 11/2006",
       "Threat_Status": null
     },
     {
@@ -389,6 +412,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-11-2008",
+      "Location_Date": "Ceibas, Entre Ríos - 22/11/2008",
       "Threat_Status": null
     },
     {
@@ -404,7 +428,8 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
+      "Date": "22-2-2008",
+      "Location_Date": "Ceibas, Entre Ríos - 22/2/2008",
       "Threat_Status": null
     },
     {
@@ -420,7 +445,8 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
+      "Date": "4-1-2009",
+      "Location_Date": "Iberá, Corrientes - 4/1/2009",
       "Threat_Status": null
     },
     {
@@ -436,7 +462,8 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
+      "Date": "4-1-2009",
+      "Location_Date": "Iberá, Corrientes - 4/1/2009",
       "Threat_Status": null
     },
     {
@@ -452,7 +479,8 @@
       "Location": null,
       "Province": "Neuquén",
       "Country": null,
-      "Date": "01-09-2010",
+      "Date": "1-9-2010",
+      "Location_Date": "Neuquén - 1/9/2010",
       "Threat_Status": null
     },
     {
@@ -468,7 +496,8 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
+      "Date": "5-2-2011",
+      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
       "Threat_Status": null
     },
     {
@@ -484,7 +513,8 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
+      "Date": "5-2-2011",
+      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
       "Threat_Status": null
     }
   ]
