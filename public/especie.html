@@ -462,51 +462,50 @@
         parts = [order, family].filter(Boolean);
       }
 
-      // Decide best return target (subfamily > passerine family > suborder > family > order)
+      // Decide best return target using explicit path fields from taxonomy data
+      // Priority: subfamily > family (if has path) > suborder > order
       let returnName = '';
       let groupType = '';
       let path = '';
+      
+      // 1. Check subfamily first (always has SF_Path if exists)
       if (subfamily) {
         const sfRow = (subfamiliesArray || []).find(sf => sf.Subfamily_Sci === subfamily);
-        if (sfRow) {
+        if (sfRow && sfRow.SF_Path) {
           returnName = subfamily;
           groupType = 'subfamily';
-          path = sfRow.SF_Path || '';
+          path = sfRow.SF_Path;
         }
       }
+      
+      // 2. Check family (only if Family_Path exists - i.e., family has its own page)
       if (!returnName && family) {
         const famRow = (familiesArray || []).find(f => f.Family_Name_Sci === family);
-        if (famRow && (order === 'Passeriformes')) {
-          // Passeriformes: always link to family (or subfamily if present above)
+        if (famRow && famRow.Family_Path) {
           returnName = family;
           groupType = 'family';
-          path = `/Passeriformes/${famRow.Family_Name_Sci}/`;
+          path = famRow.Family_Path;
         }
       }
+      
+      // 3. Check suborder (only if SO_Path exists)
       if (!returnName && suborder) {
         const soRow = (subordersArray || []).find(so => so.SO_Name_Sci === suborder);
-        if (soRow) {
+        if (soRow && soRow.SO_Path) {
           returnName = suborder;
           groupType = 'suborder';
-          path = `/${order}/`;
+          path = soRow.SO_Path;
         }
       }
-      // For non-passerine orders without suborders, choose family only when the order is marked to subdivide by families (FA); otherwise link to the order
-      if (!returnName) {
-        const orderRow = (ordersArray || []).find(o => o.Order_Name_Sci === order);
-        if (orderRow && orderRow.Subdivide === 'FA' && family) {
-          const famRow = (familiesArray || []).find(f => f.Family_Name_Sci === family);
-          if (famRow) {
-            returnName = family;
-            groupType = 'family';
-            path = `/${famRow.Family_Path || ''}`;
-          }
-        }
-      }
+      
+      // 4. Finally check order (only if Order_Path exists)
       if (!returnName && order) {
-        returnName = order;
-        groupType = 'order';
-        path = `/${order}/`;
+        const orderRow = (ordersArray || []).find(o => o.Order_Name_Sci === order);
+        if (orderRow && orderRow.Order_Path) {
+          returnName = order;
+          groupType = 'order';
+          path = orderRow.Order_Path;
+        }
       }
 
       // Build optional link URL

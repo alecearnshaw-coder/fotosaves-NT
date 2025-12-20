@@ -474,7 +474,7 @@
         if (sfRow && sfRow.SF_Path) {
           returnName = subfamily;
           groupType = 'subfamily';
-          path = '/' + sfRow.SF_Path;
+          path = sfRow.SF_Path;
         }
       }
       
@@ -484,7 +484,7 @@
         if (famRow && famRow.Family_Path) {
           returnName = family;
           groupType = 'family';
-          path = '/' + famRow.Family_Path;
+          path = famRow.Family_Path;
         }
       }
       
@@ -494,7 +494,7 @@
         if (soRow && soRow.SO_Path) {
           returnName = suborder;
           groupType = 'suborder';
-          path = '/' + soRow.SO_Path;
+          path = soRow.SO_Path;
         }
       }
       
@@ -504,7 +504,7 @@
         if (orderRow && orderRow.Order_Path) {
           returnName = order;
           groupType = 'order';
-          path = '/' + orderRow.Order_Path;
+          path = orderRow.Order_Path;
         }
       }
 

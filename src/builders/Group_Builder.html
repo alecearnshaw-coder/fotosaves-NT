@@ -978,7 +978,7 @@ h2 {
                 <div>
                     ${subfams.map(sf => {
                         // Use explicit SF_Path from taxonomy data
-                        const sfPath = sf.SF_Path ? '/' + sf.SF_Path : (path || '');
+                        const sfPath = sf.SF_Path || path || '';
                         const url = new URL('/grupo', window.location.href);
                         url.searchParams.set('path', sfPath);
                         url.searchParams.set('groupType', 'subfamily');

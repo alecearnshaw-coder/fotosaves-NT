@@ -244,7 +244,7 @@
 
         function createOrderElement(container, order, familiesArray, speciesArray) {
             // Use explicit Order_Path from taxonomy data
-            const imageFolderPath = order.Order_Path ? '/' + order.Order_Path : null;
+            const imageFolderPath = order.Order_Path || null;
             const groupType = 'order';
             const groupId = order.Order_Name_Sci;
             const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;
@@ -305,7 +305,7 @@
 
         function createSuborderElement(order, suborder, familiesArray, subfamiliesArray, speciesArray) {
             // Use explicit SO_Path from taxonomy data
-            const imageFolderPath = suborder.SO_Path ? '/' + suborder.SO_Path : null;
+            const imageFolderPath = suborder.SO_Path || null;
             const groupType = 'suborder';
             const groupId = suborder.SO_Name_Sci;
             const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;
@@ -368,7 +368,7 @@
             if (!familiesArray || !Array.isArray(familiesArray)) return '';
             if (!speciesArray || !Array.isArray(speciesArray)) return '';
             // Use explicit Family_Path from taxonomy data (null means no direct page - check SubFamilies)
-            const imageFolderPath = family.Family_Path ? '/' + family.Family_Path : null;
+            const imageFolderPath = family.Family_Path || null;
             const groupType = 'family';
             const groupId = family.Family_Name_Sci;
             const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;
@@ -447,7 +447,7 @@
 
         function createSubfamilyElement(subfamily, parentFamily, speciesArray) {
             // Use explicit SF_Path from taxonomy data
-            const imageFolderPath = subfamily.SF_Path ? '/' + subfamily.SF_Path : null;
+            const imageFolderPath = subfamily.SF_Path || null;
             const groupType = 'subfamily';
             const groupId = subfamily.Subfamily_Sci;
             const url = imageFolderPath ? new URL('/grupo', window.location.href) : null;

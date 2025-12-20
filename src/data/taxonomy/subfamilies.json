@@ -28,7 +28,7 @@
       "Known_Species_Cnt": 7,
       "Species_Cnt": 6,
       "Image_Cnt": 45,
-      "SF_Path": "Passeriformes/Furnariidae/Sclerurinae/"
+      "SF_Path": "Passeriformes/Furnariidae-1Scleru/"
     },
     {
       "Subfamily_ID": "SF_0002",
@@ -40,7 +40,7 @@
       "Known_Species_Cnt": 12,
       "Species_Cnt": 11,
       "Image_Cnt": 84,
-      "SF_Path": "Passeriformes/Furnariidae/Dendrocolaptinae/"
+      "SF_Path": "Passeriformes/Furnariidae-Dendro/"
     },
     {
       "Subfamily_ID": "SF_0003",
@@ -52,7 +52,7 @@
       "Known_Species_Cnt": 15,
       "Species_Cnt": 9,
       "Image_Cnt": 73,
-      "SF_Path": "Passeriformes/Furnariidae/Philydorinae/"
+      "SF_Path": "Passeriformes/Furnariidae-Phil/"
     },
     {
       "Subfamily_ID": "SF_0004",
@@ -64,7 +64,7 @@
       "Known_Species_Cnt": 19,
       "Species_Cnt": 15,
       "Image_Cnt": 274,
-      "SF_Path": "Passeriformes/Furnariidae/Furnariinae/"
+      "SF_Path": "Passeriformes/Furnariidae-Furn/"
     },
     {
       "Subfamily_ID": "SF_0005",
@@ -76,7 +76,7 @@
       "Known_Species_Cnt": 42,
       "Species_Cnt": 38,
       "Image_Cnt": 582,
-      "SF_Path": "Passeriformes/Furnariidae/Synallaxinae/"
+      "SF_Path": "Passeriformes/Furnariidae-Sina/"
     },
     {
       "Subfamily_ID": "SF_0006",
@@ -88,7 +88,7 @@
       "Known_Species_Cnt": 8,
       "Species_Cnt": 6,
       "Image_Cnt": 42,
-      "SF_Path": "Passeriformes/Fringillidae/Fringillinae/"
+      "SF_Path": "Passeriformes/Fringillidae-Frin/"
     },
     {
       "Subfamily_ID": "SF_0007",
@@ -100,7 +100,7 @@
       "Known_Species_Cnt": 6,
       "Species_Cnt": 5,
       "Image_Cnt": 28,
-      "SF_Path": "Passeriformes/Fringillidae/Euphoniinae/"
+      "SF_Path": "Passeriformes/Fringillidae-Euph/"
     }
   ]
 }
