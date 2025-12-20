@@ -1,0 +1,47 @@
+How to Run It Yourself
+Option 1: From Cursor's terminal (press `` Ctrl+ to open) ``powershell
+.\scripts\sync-data.ps1
+.\scripts\sync-data.ps1
+package.json
++2
+-1
+    "start": "next start",    "lint": "eslint"  },
+    "lint": "eslint"    "start": "next start",    "lint": "eslint",    "sync": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-data.ps1"  },
+
+
+
+
+
+Your Site: Hybrid Architecture
+You're right - it's not a simple static site. It's a dynamic site with client-side rendering:
+800+ species pages generated dynamically from JSON data
+Group pages (orders, families, subfamilies) built on-the-fly
+Currently rendered in the browser (CSR)
+Current Workflow (Until SSG Migration)
+┌─────────────────┐      sync       ┌──────────────────┐      fetch      ┌─────────────┐
+│  src/data/      │ ──────────────► │  public/data/    │ ◄─────────────  │  Browser    │
+│  (edit here)    │   (run script)  │  (served to web) │                 │  (renders)  │
+└─────────────────┘                 └──────────────────┘                 └─────────────┘
+After editing JSON files in src/data/, run:
+.\scripts\sync-data.ps1
+Then commit and push both src/ and public/ changes.
+
+
+Future: SSG/ISR with Next.js
+When you migrate, the flow becomes:
+┌─────────────────┐      import     ┌──────────────────┐      serve      ┌─────────────┐
+│  src/data/      │ ──────────────► │  Next.js Build   │ ──────────────► │  Browser    │
+│  (source)       │   (at build)    │  (pre-renders)   │   (HTML ready)  │  (instant)  │
+└─────────────────┘                 └──────────────────┘                 └─────────────┘
+Benefits of SSG/ISR:
+800 species pages pre-built as static HTML
+Instant page loads (no JS rendering wait)
+SEO-friendly (Google sees full content)
+ISR: Rebuild individual pages when data changes, without full rebuild
+Summary
+Folder	Purpose	Edit?
+src/data/	Source of truth for JSON data	✅ Yes
+public/data/	Synced copy for current CSR	No (auto-synced)
+src/builders/	Builder logic (reference for migration)	✅ Yes
+public/*.html	Currently served HTML files	✅ Yes (for now)
+
