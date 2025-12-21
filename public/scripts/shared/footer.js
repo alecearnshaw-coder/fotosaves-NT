@@ -24,9 +24,9 @@
         breadcrumbsClone.id = 'footer-breadcrumbs';
         breadcrumbsClone.className = 'footer-breadcrumbs';
 
-        // Build footer HTML
+        // Build footer HTML with visible divider
         footer.innerHTML = `
-            <div class="footer-divider"></div>
+            <hr class="footer-divider">
             <div class="footer-nav-title">
                 <span class="footer-title-es">Navegación</span> / <span class="footer-title-en">Navigation</span>
             </div>
@@ -35,17 +35,21 @@
         // Add cloned breadcrumbs
         footer.appendChild(breadcrumbsClone);
 
-        // Add footer links row
+        // Add footer links row (all on one line, using | as language separator)
         const linksRow = document.createElement('div');
         linksRow.className = 'footer-links';
         linksRow.innerHTML = `
             <a href="/index_sp.html" class="footer-link"><span class="es">Inicio</span></a>
-            <span class="footer-sep">|</span>
+            <span class="footer-sep-lang">|</span>
             <a href="/index_english.html" class="footer-link"><span class="en">Home</span></a>
-            <span class="footer-sep">•</span>
+            <span class="footer-sep-dot">•</span>
             <a href="/Aves.html" class="footer-link"><span class="es">Aves</span></a>
-            <span class="footer-sep">|</span>
+            <span class="footer-sep-lang">|</span>
             <a href="/Birds.html" class="footer-link"><span class="en">Birds</span></a>
+            <span class="footer-sep-dot">•</span>
+            <a href="#top" class="footer-link footer-back-to-top"><span class="es">Volver arriba</span></a>
+            <span class="footer-sep-lang">|</span>
+            <a href="#top" class="footer-link footer-back-to-top"><span class="en">Back to top</span></a>
         `;
         footer.appendChild(linksRow);
 
@@ -59,4 +63,3 @@
         container.parentNode.insertBefore(footer, container.nextSibling);
     }
 })();
-
