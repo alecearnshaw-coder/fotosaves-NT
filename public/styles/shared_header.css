@@ -110,7 +110,14 @@
   transform: translateY(-50%);
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 1000;
+}
+
+/* Ensure parent containers don't clip the dropdown */
+.site-header-band-light,
+.site-header-banded,
+.heading-container {
+  overflow: visible !important;
 }
 
 #species-search-btn {
@@ -163,7 +170,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   margin-top: 4px;
-  z-index: 200;
+  z-index: 2000;
 }
 
 .search-result {

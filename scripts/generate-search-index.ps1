@@ -41,10 +41,11 @@ $output = [PSCustomObject]@{
     data = $searchIndex
 }
 
-# Write to both src and public
+# Write to both src and public with UTF-8 without BOM
 $json = $output | ConvertTo-Json -Depth 10
-$json | Out-File -FilePath $outputPath -Encoding utf8
-$json | Out-File -FilePath $publicOutputPath -Encoding utf8
+$utf8NoBom = New-Object System.Text.UTF8Encoding $false
+[System.IO.File]::WriteAllText($outputPath, $json, $utf8NoBom)
+[System.IO.File]::WriteAllText($publicOutputPath, $json, $utf8NoBom)
 
 Write-Host "  Generated $($searchIndex.Count) searchable species" -ForegroundColor Green
 Write-Host "  Output: $outputPath" -ForegroundColor Gray
