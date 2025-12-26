@@ -11,6 +11,8 @@
     <script src="/scripts/shared/locationDate.js"></script>
     <script src="/scripts/shared/copyright.js"></script>
     <script src="/scripts/shared/speciesSearch.js"></script>
+    <script src="/scripts/shared/footer.js"></script>
+    <script src="/scripts/shared/backToTop.js"></script>
     <style>
       /* Breadcrumb box styling aligned with Group_Builder green/brown scheme */
       .subHeadingBox {
@@ -96,9 +98,10 @@
       /* Header container uses shared_header.css */
       #headingBox {
         border: 2px solid #6a9678;
-        padding: 0px 20px;
+        padding: 0px 12px;
         background: #b0dbaa;
-        width: 800px;
+        max-width: 800px;
+        box-sizing: border-box;
         margin: 10px auto;
         text-align: center;
         border-radius: 15px;
@@ -106,8 +109,10 @@
 
       /* Breadcrumb navigation bar styles */
       #breadcrumbs {
-        max-width: 820px;
-        margin: 6px auto 28px auto;
+        max-width: 800px;
+        margin: 6px auto 20px auto;
+        padding: 0;
+        box-sizing: border-box;
       }
 
       .breadcrumb-table {
