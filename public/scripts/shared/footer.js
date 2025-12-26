@@ -1,14 +1,26 @@
 // Shared footer component - replicates breadcrumbs at page bottom
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
-        // Wait a bit for breadcrumbs to be built first
-        setTimeout(buildFooter, 100);
+        // Poll until breadcrumbs have content (max 5 seconds)
+        let attempts = 0;
+        const maxAttempts = 50;
+        const checkInterval = setInterval(function() {
+            attempts++;
+            const breadcrumbs = document.getElementById('breadcrumbs');
+            if (breadcrumbs && breadcrumbs.innerHTML.trim() !== '') {
+                clearInterval(checkInterval);
+                buildFooter();
+            } else if (attempts >= maxAttempts) {
+                clearInterval(checkInterval);
+                console.warn('Footer: breadcrumbs not populated after 5s');
+            }
+        }, 100);
     });
 
     function buildFooter() {
         // Get the original breadcrumbs content
         const topBreadcrumbs = document.getElementById('breadcrumbs');
-        if (!topBreadcrumbs) return;
+        if (!topBreadcrumbs || !topBreadcrumbs.innerHTML.trim()) return;
 
         // Find the container element (where to append footer)
         const container = document.querySelector('.container');
