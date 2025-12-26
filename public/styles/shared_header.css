@@ -223,3 +223,139 @@
   text-align: center;
 }
 
+/* ========================================
+   FOOTER STYLES
+   ======================================== */
+
+.site-footer {
+  max-width: 820px;
+  margin: 40px auto 20px auto;
+  padding: 0 10px;
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-divider {
+  border: none;
+  height: 3px;
+  background-color: #6a9678;
+  margin: 0 auto 15px auto;
+  max-width: 700px;
+}
+
+.footer-nav-title {
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.footer-title-es {
+  color: #494242;
+  font-weight: bold;
+}
+
+.footer-title-en {
+  color: #036118;
+  font-weight: bold;
+}
+
+.footer-breadcrumbs {
+  max-width: 820px;
+  margin: 0 auto 15px auto;
+}
+
+.footer-links {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.95em;
+  line-height: 1.8;
+}
+
+.footer-link {
+  text-decoration: none;
+  padding: 3px 6px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.footer-link:hover {
+  background: rgba(106, 150, 120, 0.25);
+  text-decoration: underline;
+}
+
+/* Spanish text - brown color */
+.footer-link .es {
+  color: #494242;
+}
+
+/* English text - green color */
+.footer-link .en {
+  color: #036118;
+}
+
+/* Language separator (|) */
+.footer-sep-lang {
+  color: #888;
+  margin: 0 2px;
+}
+
+/* Section separator (•) */
+.footer-sep-dot {
+  color: #6a9678;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 0.8em;
+  color: #666;
+  padding: 12px 0;
+  margin-top: 8px;
+  border-top: 1px solid rgba(106, 150, 120, 0.3);
+}
+
+/* ========================================
+   FLOATING BACK TO TOP BUTTON
+   ======================================== */
+
+.floating-back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #6a9678, #4a7658);
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.floating-back-to-top:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+/* Responsive adjustments for floating button */
+@media (max-width: 768px) {
+  .floating-back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+  }
+}
+

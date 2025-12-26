@@ -46,10 +46,6 @@
             <a href="/Aves.html" class="footer-link"><span class="es">Aves</span></a>
             <span class="footer-sep-lang">|</span>
             <a href="/Birds.html" class="footer-link"><span class="en">Birds</span></a>
-            <span class="footer-sep-dot">•</span>
-            <a href="#top" class="footer-link footer-back-to-top"><span class="es">Volver arriba</span></a>
-            <span class="footer-sep-lang">|</span>
-            <a href="#top" class="footer-link footer-back-to-top"><span class="en">Back to top</span></a>
         `;
         footer.appendChild(linksRow);
 

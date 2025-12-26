@@ -1003,7 +1003,10 @@ h2 {
             if (pageLevel === 'family') {
                 const subfamilySet = new Set(filtered.map(sp => sp.Subfamily_Sci).filter(Boolean));
                 if (subfamilySet.size > 0) {
-                    for (const subfamilySci of subfamilySet) {
+                    const subfamilyList = Array.from(subfamilySet);
+                    for (let sfIndex = 0; sfIndex < subfamilyList.length; sfIndex++) {
+                        const subfamilySci = subfamilyList[sfIndex];
+                        const isLastSubfamily = (sfIndex === subfamilyList.length - 1);
                         const anySp = filtered.find(sp => sp.Subfamily_Sci === subfamilySci);
                         const orderSci = anySp ? anySp.Order_Sci : '';
                         const familySci = anySp ? anySp.Family_Sci : '';
@@ -1045,10 +1048,12 @@ h2 {
                                 console.error(`Failed to load ${sp.Species_ID}.json`, err);
                             }
                         }
-                        // Spacer after each subfamily block
-                        const spacer = document.createElement('div');
-                        spacer.style.height = '30px';
-                        container.appendChild(spacer);
+                        // Spacer after each subfamily block (except the last one)
+                        if (!isLastSubfamily) {
+                            const spacer = document.createElement('div');
+                            spacer.style.height = '30px';
+                            container.appendChild(spacer);
+                        }
                     }
                     return;
                 }
@@ -1056,7 +1061,9 @@ h2 {
 
             // Default: iterate per family and render Family-only subheading
             // Skip subheading if pageLevel is 'family' or 'subfamily' (would duplicate the main heading)
-            for (const familySci of familyList) {
+            for (let famIndex = 0; famIndex < familyList.length; famIndex++) {
+                const familySci = familyList[famIndex];
+                const isLastFamily = (famIndex === familyList.length - 1);
                 const anySp = filtered.find(sp => sp.Family_Sci === familySci);
                 const orderSci = anySp ? anySp.Order_Sci : '';
                 if (pageLevel !== 'family' && pageLevel !== 'subfamily') {
@@ -1099,10 +1106,12 @@ h2 {
                         console.error(`Failed to load ${sp.Species_ID}.json`, err);
                     }
                 }
-                // Spacer after last species of this family
-                const spacer = document.createElement('div');
-                spacer.style.height = '30px';
-                container.appendChild(spacer);
+                // Spacer between families (not after the last one)
+                if (!isLastFamily) {
+                    const spacer = document.createElement('div');
+                    spacer.style.height = '30px';
+                    container.appendChild(spacer);
+                }
             }
         }
 
