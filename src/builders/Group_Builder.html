@@ -23,12 +23,12 @@ body {
     border-radius: 15px;
 } */
 
+/* Container for header - just width constraint, no visual styling */
 .heading-container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 8px 12px 4px 12px;
-    border-radius: 15px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -58,7 +58,7 @@ body {
 
 #headingBox {
   border: 2px solid #6a9678;
-  padding: 0px 20px;
+  padding: 0px 12px;
   background: #b0dbaa;
   max-width: 800px;
   box-sizing: border-box;
@@ -171,9 +171,9 @@ h2 {
 
 /* Breadcrumb navigation bar styles */
 #breadcrumbs {
-    max-width: 800px;
+    max-width: 776px;
     margin: 6px auto 20px auto;
-    padding: 0 12px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -295,9 +295,13 @@ h2 {
         /* Quick links styles are provided by shared_header.css */
         
         /* Extra spacing around the Table of Contents container */
-        .toc-container { margin: 10px auto; }
-        /* Tighten TOC title area */
-        .heading-container.toc-container { padding-top: 7px; }
+        /* TOC container gets the visual styling */
+        .toc-container {
+            margin: 10px auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 7px 12px 4px 12px;
+            border-radius: 15px;
+        }
         .heading-container.toc-container > div:first-child { margin: 0; }
 
         /* Style the species "more photos" link */

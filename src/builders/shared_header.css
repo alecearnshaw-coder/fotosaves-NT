@@ -1,16 +1,17 @@
+/* Container for header - just width constraint, no visual styling */
 .heading-container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 8px 12px 4px 12px;
-  border-radius: 15px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* The actual header visual container */
 .site-header-banded {
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
-  margin: 4px auto 0 auto; /* no extra gap below header */
+  margin: 0;
   padding: 0;
   background-color: transparent;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
