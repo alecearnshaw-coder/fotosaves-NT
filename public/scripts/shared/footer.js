@@ -36,6 +36,12 @@
         breadcrumbsClone.id = 'footer-breadcrumbs';
         breadcrumbsClone.className = 'footer-breadcrumbs';
 
+        // Remove the last breadcrumb cell (current page - not a link)
+        const breadcrumbRow = breadcrumbsClone.querySelector('tr');
+        if (breadcrumbRow && breadcrumbRow.lastElementChild) {
+            breadcrumbRow.removeChild(breadcrumbRow.lastElementChild);
+        }
+
         // Build footer HTML with visible divider
         footer.innerHTML = `
             <hr class="footer-divider">
@@ -44,22 +50,8 @@
             </div>
         `;
         
-        // Add cloned breadcrumbs
+        // Add cloned breadcrumbs (without the last cell)
         footer.appendChild(breadcrumbsClone);
-
-        // Add footer links row (all on one line, using | as language separator)
-        const linksRow = document.createElement('div');
-        linksRow.className = 'footer-links';
-        linksRow.innerHTML = `
-            <a href="/index_sp.html" class="footer-link"><span class="es">Inicio</span></a>
-            <span class="footer-sep-lang">|</span>
-            <a href="/index_english.html" class="footer-link"><span class="en">Home</span></a>
-            <span class="footer-sep-dot">•</span>
-            <a href="/Aves.html" class="footer-link"><span class="es">Aves</span></a>
-            <span class="footer-sep-lang">|</span>
-            <a href="/Birds.html" class="footer-link"><span class="en">Birds</span></a>
-        `;
-        footer.appendChild(linksRow);
 
         // Add copyright row
         const copyrightRow = document.createElement('div');

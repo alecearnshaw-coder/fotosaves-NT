@@ -65,7 +65,7 @@ html { scroll-behavior: smooth; }
     max-width: 800px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 12px;
+    padding: 12px 12px 4px 12px;
     border-radius: 15px;
 }
 
