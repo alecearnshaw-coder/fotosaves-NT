@@ -16,7 +16,7 @@
         btn.href = '#top';
         btn.className = 'floating-back-to-top';
         btn.setAttribute('aria-label', 'Back to top');
-        btn.innerHTML = '⬆';
+        btn.innerHTML = '▲';
         btn.title = 'Volver arriba / Back to top';
 
         // Add to body

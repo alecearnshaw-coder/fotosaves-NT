@@ -241,6 +241,7 @@ h2 {
 
         /* Spacing overrides: tighten after species block, enlarge before new family heading */
         .container .species-section { margin-bottom: 36px; }
+        .container .species-section:last-child { margin-bottom: 8px; }
         .subHeadingBox { margin-top: 2px; }
 
         /* Spacing between two photos of the same species */
@@ -1004,14 +1005,18 @@ h2 {
                 const subfamilySet = new Set(filtered.map(sp => sp.Subfamily_Sci).filter(Boolean));
                 if (subfamilySet.size > 0) {
                     const subfamilyList = Array.from(subfamilySet);
-                    for (let sfIndex = 0; sfIndex < subfamilyList.length; sfIndex++) {
-                        const subfamilySci = subfamilyList[sfIndex];
-                        const isLastSubfamily = (sfIndex === subfamilyList.length - 1);
+                    // Pre-filter to only subfamilies that have species with images
+                    const subfamiliesWithImages = subfamilyList.filter(sf =>
+                        filtered.some(sp => sp.Subfamily_Sci === sf && Number(sp.Image_Cnt || 0) > 0)
+                    );
+                    for (let sfIndex = 0; sfIndex < subfamiliesWithImages.length; sfIndex++) {
+                        const subfamilySci = subfamiliesWithImages[sfIndex];
+                        const isLastSubfamily = (sfIndex === subfamiliesWithImages.length - 1);
                         const anySp = filtered.find(sp => sp.Subfamily_Sci === subfamilySci);
                         const orderSci = anySp ? anySp.Order_Sci : '';
                         const familySci = anySp ? anySp.Family_Sci : '';
-                        buildSubHeadingBox('subfamily', orderSci, familySci, familiesArray, subfamiliesArray, subfamilySci);
                         const speciesInSubfamily = filtered.filter(sp => sp.Subfamily_Sci === subfamilySci && Number(sp.Image_Cnt || 0) > 0);
+                        buildSubHeadingBox('subfamily', orderSci, familySci, familiesArray, subfamiliesArray, subfamilySci);
                         for (let i = 0; i < speciesInSubfamily.length; i++) {
                             const sp = speciesInSubfamily[i];
                             try {
@@ -1061,15 +1066,19 @@ h2 {
 
             // Default: iterate per family and render Family-only subheading
             // Skip subheading if pageLevel is 'family' or 'subfamily' (would duplicate the main heading)
-            for (let famIndex = 0; famIndex < familyList.length; famIndex++) {
-                const familySci = familyList[famIndex];
-                const isLastFamily = (famIndex === familyList.length - 1);
+            // Pre-filter to only families that have species with images
+            const familiesWithImages = familyList.filter(fam => 
+                filtered.some(sp => sp.Family_Sci === fam && Number(sp.Image_Cnt || 0) > 0)
+            );
+            for (let famIndex = 0; famIndex < familiesWithImages.length; famIndex++) {
+                const familySci = familiesWithImages[famIndex];
+                const isLastFamily = (famIndex === familiesWithImages.length - 1);
                 const anySp = filtered.find(sp => sp.Family_Sci === familySci);
                 const orderSci = anySp ? anySp.Order_Sci : '';
+                const speciesInFamily = filtered.filter(sp => sp.Family_Sci === familySci && Number(sp.Image_Cnt || 0) > 0);
                 if (pageLevel !== 'family' && pageLevel !== 'subfamily') {
                     buildSubHeadingBox(pageLevel, orderSci, familySci, familiesArray, subfamiliesArray);
                 }
-                const speciesInFamily = filtered.filter(sp => sp.Family_Sci === familySci && Number(sp.Image_Cnt || 0) > 0);
                 for (let i = 0; i < speciesInFamily.length; i++) {
                     const sp = speciesInFamily[i];
                     try {
