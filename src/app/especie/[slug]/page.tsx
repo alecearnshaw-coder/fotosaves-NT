@@ -1,9 +1,10 @@
 import { notFound } from 'next/navigation';
-import fs from 'fs';
-import path from 'path';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
+
+// Force dynamic rendering - data is fetched at runtime, not bundled
+export const dynamic = 'force-dynamic';
 
 // Types for taxonomy data
 interface Species {
@@ -37,7 +38,7 @@ interface Suborder {
 interface Family {
   Family_ID: string;
   Family_Name_Sci: string;
-  Family_Path: string | null;  // Used for image paths, especially for Passeriformes families
+  Family_Path: string | null;
 }
 
 interface Subfamily {
@@ -85,12 +86,26 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Helper to load JSON data
-function loadJsonData<T>(filePath: string): { data: T[] } | null {
+// Base URL for fetching data - use environment variable or default
+const getBaseUrl = () => {
+  // In production on Vercel, use the deployment URL
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  // In development, use localhost
+  return 'http://localhost:3000';
+};
+
+// Helper to fetch JSON data from public folder
+async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
-    const fullPath = path.join(process.cwd(), filePath);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    return JSON.parse(fileContents);
+    const baseUrl = getBaseUrl();
+    const response = await fetch(`${baseUrl}${path}`, { 
+      cache: 'force-cache',  // Cache the response
+      next: { revalidate: 3600 }  // Revalidate every hour
+    });
+    if (!response.ok) return null;
+    return await response.json();
   } catch {
     return null;
   }
@@ -103,13 +118,10 @@ function getImagePath(
   families: Family[],
   subfamilies: Subfamily[]
 ): string {
-  // Ensure arrays are valid
   const safeSubfamilies = subfamilies || [];
   const safeFamilies = families || [];
   const safeOrders = orders || [];
   
-  // 1. First, check if the species has a subfamily with its own path
-  //    (e.g., Furnariidae subfamilies: Sclerurinae → "Passeriformes/Furnariidae-1Scleru/")
   if (species.Subfamily_Sci) {
     const subfamily = safeSubfamilies.find(sf => sf.Subfamily_Sci === species.Subfamily_Sci);
     if (subfamily?.SF_Path) {
@@ -117,13 +129,11 @@ function getImagePath(
     }
   }
   
-  // 2. Next, check if the family has its own path (like most Passeriformes families)
   const family = safeFamilies.find(f => f.Family_Name_Sci === species.Family_Sci);
   if (family?.Family_Path) {
     return family.Family_Path;
   }
   
-  // 3. Fall back to order path
   const order = safeOrders.find(o => o.Order_Name_Sci === species.Order_Sci);
   return order?.Order_Path || '';
 }
@@ -175,15 +185,6 @@ function normalizeThreat(value: string | null): string {
   return ['NT', 'VU', 'EN', 'CR'].includes(key) ? key : '';
 }
 
-// Use dynamic rendering with ISR (Incremental Static Regeneration)
-// Pages are generated on first request and cached for 1 hour
-// This avoids the massive build-time bundle issue with large JSON files
-export const dynamic = 'force-dynamic';
-export const revalidate = 3600; // Cache for 1 hour
-
-// Note: generateStaticParams removed to avoid bundling entire species.json
-// into every page at build time (was causing 2.5GB bundle per page)
-
 // Generate metadata for SEO
 export async function generateMetadata({ 
   params 
@@ -191,7 +192,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const speciesData = loadJsonData<Species>('src/data/taxonomy/species.json');
+  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -204,9 +205,8 @@ export async function generateMetadata({
   };
 }
 
-// Inline styles for this page (matching Species_Builder.html)
+// Inline styles for this page
 const pageStyles = `
-  /* Breadcrumb navigation bar styles */
   #breadcrumbs {
     max-width: 800px;
     margin: 6px auto 20px auto;
@@ -260,19 +260,16 @@ const pageStyles = `
     text-decoration: none;
   }
 
-  /* Photo group spacing - override the 3px default */
   .photo-group {
     margin-bottom: 24px !important;
   }
 
-  /* Ensure image frame centers its content properly */
   .image-frame {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
   }
 
-  /* Slide container styles */
   .slide-container {
     margin: 30px 0;
     padding: 8px;
@@ -378,7 +375,6 @@ const pageStyles = `
     margin-top: 2px;
   }
 
-  /* Footer styles */
   .site-footer {
     max-width: 800px;
     margin: 20px auto;
@@ -399,12 +395,14 @@ export default async function SpeciesPage({
 }) {
   const { slug } = await params;
   
-  // Load all taxonomy data
-  const speciesData = loadJsonData<Species>('src/data/taxonomy/species.json');
-  const ordersData = loadJsonData<Order>('src/data/taxonomy/orders.json');
-  const subordersData = loadJsonData<Suborder>('src/data/taxonomy/suborders.json');
-  const familiesData = loadJsonData<Family>('src/data/taxonomy/families.json');
-  const subfamiliesData = loadJsonData<Subfamily>('src/data/taxonomy/subfamilies.json');
+  // Fetch all taxonomy data from public folder
+  const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
+    fetchJsonData<Species>('/data/taxonomy/species.json'),
+    fetchJsonData<Order>('/data/taxonomy/orders.json'),
+    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
+    fetchJsonData<Family>('/data/taxonomy/families.json'),
+    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
+  ]);
   
   if (!speciesData) {
     notFound();
@@ -417,10 +415,10 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = loadJsonData<ImageData>(`src/data/species/${species.Species_ID}.json`);
+  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
-  // Get image path - uses SF_Path for subfamilies, Family_Path for families, else Order_Path
+  // Get image path
   const imagePath = getImagePath(
     species, 
     ordersData?.data || [], 
@@ -489,7 +487,6 @@ export default async function SpeciesPage({
         <table className="breadcrumb-table">
           <tbody>
             <tr>
-              {/* Home */}
               <td className="breadcrumb-cell">
                 <div className="bc-bottom">
                   <a href="/index_sp.html"><span className="bc-es">Inicio</span></a><br />
@@ -497,7 +494,6 @@ export default async function SpeciesPage({
                 </div>
               </td>
               
-              {/* Birds */}
               <td className="breadcrumb-cell">
                 <div className="bc-bottom">
                   <a href="/Aves.html"><span className="bc-es">Aves</span></a><br />
@@ -505,7 +501,6 @@ export default async function SpeciesPage({
                 </div>
               </td>
               
-              {/* Order */}
               {orderRow && (
                 <td className="breadcrumb-cell">
                   <div className="bc-top">Order / Orden</div>
@@ -521,7 +516,6 @@ export default async function SpeciesPage({
                 </td>
               )}
               
-              {/* Suborder */}
               {suborderRow && (
                 <td className="breadcrumb-cell">
                   <div className="bc-top">Suborder / Suborden</div>
@@ -537,7 +531,6 @@ export default async function SpeciesPage({
                 </td>
               )}
               
-              {/* Family */}
               {familyRow && (
                 <td className="breadcrumb-cell">
                   <div className="bc-top">Family / Familia</div>
@@ -553,7 +546,6 @@ export default async function SpeciesPage({
                 </td>
               )}
               
-              {/* Subfamily */}
               {subfamilyRow && (
                 <td className="breadcrumb-cell">
                   <div className="bc-top">Subfamily / Subfamilia</div>
@@ -631,7 +623,6 @@ export default async function SpeciesPage({
 
             return (
               <div key={index} className="photo-group">
-                {/* Gender/Age box */}
                 {(genderInfo || (item.Sex_Age && item.Sex_Age.trim())) && (
                   <div 
                     className="gender-box"
@@ -642,7 +633,6 @@ export default async function SpeciesPage({
                   />
                 )}
 
-                {/* Image frame */}
                 <div className="image-frame">
                   {hasLarge ? (
                     <a 
@@ -657,7 +647,6 @@ export default async function SpeciesPage({
                   )}
                 </div>
 
-                {/* Info sections */}
                 <div className="info-section camera-info">{item.Equipment || ''}</div>
                 <div className="info-section location-info">{locationDateStr}</div>
               </div>
@@ -724,10 +713,7 @@ export default async function SpeciesPage({
         </p>
       </div>
 
-      {/* Floating back to top button (client component - appears after 300px scroll) */}
       <BackToTop />
-
-      {/* Lightbox scripts (client component) */}
       <LightboxScripts />
     </>
   );
