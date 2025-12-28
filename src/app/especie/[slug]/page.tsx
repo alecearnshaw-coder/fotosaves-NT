@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation';
-import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
@@ -87,23 +86,18 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Get base URL from request headers (works on Vercel)
-async function getOrigin(): Promise<string> {
-  const headersList = await headers();
-  const host = headersList.get('host');
-  const proto = headersList.get('x-forwarded-proto') || 'https';
-  if (host) {
-    return `${proto}://${host}`;
+// Get origin URL - use VERCEL_URL on Vercel, localhost for dev
+function getOrigin(): string {
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
   }
-  // Fallback
-  return process.env.VERCEL_URL 
-    ? `https://${process.env.VERCEL_URL}` 
-    : 'http://localhost:3000';
+  return 'http://localhost:3000';
 }
 
 // Helper to fetch JSON data from public folder
-async function fetchJsonData<T>(path: string, origin: string): Promise<{ data: T[] } | null> {
+async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
+    const origin = getOrigin();
     const url = `${origin}${path}`;
     const response = await fetch(url, { cache: 'no-store' });
     if (!response.ok) {
@@ -198,8 +192,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const origin = await getOrigin();
-  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json', origin);
+  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -401,15 +394,14 @@ export default async function SpeciesPage({
   params: Promise<{ slug: string }> 
 }) {
   const { slug } = await params;
-  const origin = await getOrigin();
   
   // Fetch all taxonomy data from public folder via HTTP
   const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
-    fetchJsonData<Species>('/data/taxonomy/species.json', origin),
-    fetchJsonData<Order>('/data/taxonomy/orders.json', origin),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json', origin),
-    fetchJsonData<Family>('/data/taxonomy/families.json', origin),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json', origin),
+    fetchJsonData<Species>('/data/taxonomy/species.json'),
+    fetchJsonData<Order>('/data/taxonomy/orders.json'),
+    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
+    fetchJsonData<Family>('/data/taxonomy/families.json'),
+    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
   ]);
   
   if (!speciesData) {
@@ -423,7 +415,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`, origin);
+  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
   // Get image path
