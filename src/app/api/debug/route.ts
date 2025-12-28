@@ -1,63 +1,55 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { readFileSync, existsSync, readdirSync } from 'fs';
+import { join } from 'path';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   const debug: Record<string, unknown> = {};
   
-  // Check environment variables
+  // Check environment
   debug.VERCEL_URL = process.env.VERCEL_URL || 'not set';
   debug.NODE_ENV = process.env.NODE_ENV || 'not set';
   debug.cwd = process.cwd();
   
   // Check what directories exist
   const checkPaths = [
-    'public',
-    'public/data',
-    'public/data/taxonomy',
-    '.next',
-    '.next/server',
+    'src/data',
+    'src/data/taxonomy',
+    'src/data/species',
   ];
   
   debug.pathsExist = {};
   for (const p of checkPaths) {
-    const fullPath = path.join(process.cwd(), p);
+    const fullPath = join(process.cwd(), p);
     try {
-      const exists = fs.existsSync(fullPath);
+      const exists = existsSync(fullPath);
       (debug.pathsExist as Record<string, boolean>)[p] = exists;
-      if (exists && fs.statSync(fullPath).isDirectory()) {
-        const files = fs.readdirSync(fullPath).slice(0, 10);
-        (debug.pathsExist as Record<string, unknown>)[p + '_files'] = files;
+      if (exists) {
+        const files = readdirSync(fullPath).slice(0, 5);
+        (debug.pathsExist as Record<string, unknown>)[p + '_sample'] = files;
       }
     } catch (e) {
       (debug.pathsExist as Record<string, string>)[p] = `error: ${e}`;
     }
   }
   
-  // Try to fetch species.json
-  const baseUrl = process.env.VERCEL_URL 
-    ? `https://${process.env.VERCEL_URL}` 
-    : 'http://localhost:3000';
-  
-  debug.baseUrl = baseUrl;
-  
+  // Try to read species.json directly
   try {
-    const response = await fetch(`${baseUrl}/data/taxonomy/species.json`, {
-      cache: 'no-store'
-    });
-    debug.fetchStatus = response.status;
-    debug.fetchOk = response.ok;
-    if (response.ok) {
-      const data = await response.json();
+    const speciesPath = join(process.cwd(), 'src/data/taxonomy/species.json');
+    if (existsSync(speciesPath)) {
+      const content = readFileSync(speciesPath, 'utf8');
+      const data = JSON.parse(content);
+      debug.speciesFileExists = true;
       debug.speciesCount = data.data?.length || 0;
       debug.firstSlug = data.data?.[0]?.Slug || 'none';
+      debug.sampleSlugs = data.data?.slice(0, 3).map((s: { Slug: string }) => s.Slug);
+    } else {
+      debug.speciesFileExists = false;
     }
   } catch (e) {
-    debug.fetchError = String(e);
+    debug.speciesReadError = String(e);
   }
   
   return NextResponse.json(debug, { status: 200 });
 }
-

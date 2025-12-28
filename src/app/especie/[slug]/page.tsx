@@ -1,9 +1,11 @@
 import { notFound } from 'next/navigation';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
 
-// Force dynamic rendering - data is fetched at runtime
+// Force dynamic rendering - data is read at runtime, not bundled at build time
 export const dynamic = 'force-dynamic';
 
 // Types for taxonomy data
@@ -86,38 +88,15 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Get base URL for fetching data
-function getBaseUrl(): string {
-  // On Vercel, use the deployment URL
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  // For production domain
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL;
-  }
-  // Fallback for local development
-  return 'http://localhost:3000';
-}
-
-// Helper to fetch JSON data from the public folder via HTTP
-async function fetchJsonData<T>(relativePath: string): Promise<{ data: T[] } | null> {
+// Helper to load JSON data from src/data folder
+// With dynamic = 'force-dynamic', this reads at request time, not build time
+function loadJsonData<T>(relativePath: string): { data: T[] } | null {
   try {
-    const baseUrl = getBaseUrl();
-    const url = `${baseUrl}${relativePath}`;
-    const response = await fetch(url, { 
-      cache: 'no-store',
-      headers: {
-        'Accept': 'application/json',
-      }
-    });
-    if (!response.ok) {
-      console.error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
-      return null;
-    }
-    return await response.json();
+    const fullPath = join(process.cwd(), 'src/data', relativePath);
+    const fileContents = readFileSync(fullPath, 'utf8');
+    return JSON.parse(fileContents);
   } catch (error) {
-    console.error(`Error fetching ${relativePath}:`, error);
+    console.error(`Error loading ${relativePath}:`, error);
     return null;
   }
 }
@@ -203,7 +182,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json');
+  const speciesData = loadJsonData<Species>('taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -406,14 +385,12 @@ export default async function SpeciesPage({
 }) {
   const { slug } = await params;
   
-  // Fetch all taxonomy data from public folder via HTTP
-  const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
-    fetchJsonData<Species>('/data/taxonomy/species.json'),
-    fetchJsonData<Order>('/data/taxonomy/orders.json'),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
-    fetchJsonData<Family>('/data/taxonomy/families.json'),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
-  ]);
+  // Load all taxonomy data from src/data folder (reads at runtime with force-dynamic)
+  const speciesData = loadJsonData<Species>('taxonomy/species.json');
+  const ordersData = loadJsonData<Order>('taxonomy/orders.json');
+  const subordersData = loadJsonData<Suborder>('taxonomy/suborders.json');
+  const familiesData = loadJsonData<Family>('taxonomy/families.json');
+  const subfamiliesData = loadJsonData<Subfamily>('taxonomy/subfamilies.json');
   
   if (!speciesData) {
     notFound();
@@ -426,7 +403,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
+  const imagesData = loadJsonData<ImageData>(`species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
   // Get image path
