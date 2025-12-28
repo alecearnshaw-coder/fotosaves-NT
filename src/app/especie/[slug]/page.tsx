@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation';
-import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
@@ -87,13 +86,33 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
+// Get base URL for fetching data
+function getBaseUrl(): string {
+  // On Vercel, use the deployment URL
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  // For production domain
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL;
+  }
+  // Fallback for local development
+  return 'http://localhost:3000';
+}
+
 // Helper to fetch JSON data from the public folder via HTTP
-async function fetchJsonData<T>(relativePath: string, baseUrl: string): Promise<{ data: T[] } | null> {
+async function fetchJsonData<T>(relativePath: string): Promise<{ data: T[] } | null> {
   try {
+    const baseUrl = getBaseUrl();
     const url = `${baseUrl}${relativePath}`;
-    const response = await fetch(url, { cache: 'no-store' });
+    const response = await fetch(url, { 
+      cache: 'no-store',
+      headers: {
+        'Accept': 'application/json',
+      }
+    });
     if (!response.ok) {
-      console.error(`Failed to fetch ${url}: ${response.status}`);
+      console.error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
       return null;
     }
     return await response.json();
@@ -101,14 +120,6 @@ async function fetchJsonData<T>(relativePath: string, baseUrl: string): Promise<
     console.error(`Error fetching ${relativePath}:`, error);
     return null;
   }
-}
-
-// Get base URL from request headers
-async function getBaseUrl(): Promise<string> {
-  const headersList = await headers();
-  const host = headersList.get('host') || 'localhost:3000';
-  const protocol = headersList.get('x-forwarded-proto') || 'http';
-  return `${protocol}://${host}`;
 }
 
 // Get image path - check Subfamily first, then Family, then Order
@@ -192,8 +203,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const baseUrl = await getBaseUrl();
-  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json', baseUrl);
+  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -395,15 +405,14 @@ export default async function SpeciesPage({
   params: Promise<{ slug: string }> 
 }) {
   const { slug } = await params;
-  const baseUrl = await getBaseUrl();
   
   // Fetch all taxonomy data from public folder via HTTP
   const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
-    fetchJsonData<Species>('/data/taxonomy/species.json', baseUrl),
-    fetchJsonData<Order>('/data/taxonomy/orders.json', baseUrl),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json', baseUrl),
-    fetchJsonData<Family>('/data/taxonomy/families.json', baseUrl),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json', baseUrl),
+    fetchJsonData<Species>('/data/taxonomy/species.json'),
+    fetchJsonData<Order>('/data/taxonomy/orders.json'),
+    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
+    fetchJsonData<Family>('/data/taxonomy/families.json'),
+    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
   ]);
   
   if (!speciesData) {
@@ -417,7 +426,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`, baseUrl);
+  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
   // Get image path
