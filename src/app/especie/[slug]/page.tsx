@@ -175,17 +175,14 @@ function normalizeThreat(value: string | null): string {
   return ['NT', 'VU', 'EN', 'CR'].includes(key) ? key : '';
 }
 
-// Generate static params for all species with slugs
-export async function generateStaticParams() {
-  const speciesData = loadJsonData<Species>('src/data/taxonomy/species.json');
-  if (!speciesData) return [];
-  
-  return speciesData.data
-    .filter(sp => sp.Slug && sp.Image_Cnt > 0)
-    .map(sp => ({
-      slug: sp.Slug!,
-    }));
-}
+// Use dynamic rendering with ISR (Incremental Static Regeneration)
+// Pages are generated on first request and cached for 1 hour
+// This avoids the massive build-time bundle issue with large JSON files
+export const dynamic = 'force-dynamic';
+export const revalidate = 3600; // Cache for 1 hour
+
+// Note: generateStaticParams removed to avoid bundling entire species.json
+// into every page at build time (was causing 2.5GB bundle per page)
 
 // Generate metadata for SEO
 export async function generateMetadata({ 
