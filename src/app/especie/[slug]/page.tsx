@@ -1,9 +1,11 @@
 import { notFound } from 'next/navigation';
+import fs from 'fs';
+import path from 'path';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
 
-// Force dynamic rendering - data is fetched at runtime, not bundled
+// Force dynamic rendering - data is read at runtime, not bundled at build time
 export const dynamic = 'force-dynamic';
 
 // Types for taxonomy data
@@ -86,26 +88,14 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Base URL for fetching data - use environment variable or default
-const getBaseUrl = () => {
-  // In production on Vercel, use the deployment URL
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  // In development, use localhost
-  return 'http://localhost:3000';
-};
-
-// Helper to fetch JSON data from public folder
-async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
+// Helper to load JSON data from public folder at runtime
+// With dynamic = 'force-dynamic', this reads at request time, not build time
+function loadJsonData<T>(relativePath: string): { data: T[] } | null {
   try {
-    const baseUrl = getBaseUrl();
-    const response = await fetch(`${baseUrl}${path}`, { 
-      cache: 'force-cache',  // Cache the response
-      next: { revalidate: 3600 }  // Revalidate every hour
-    });
-    if (!response.ok) return null;
-    return await response.json();
+    // Read from the public folder - this is available at runtime
+    const fullPath = path.join(process.cwd(), 'public', relativePath);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    return JSON.parse(fileContents);
   } catch {
     return null;
   }
@@ -192,7 +182,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json');
+  const speciesData = loadJsonData<Species>('data/taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -395,14 +385,12 @@ export default async function SpeciesPage({
 }) {
   const { slug } = await params;
   
-  // Fetch all taxonomy data from public folder
-  const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
-    fetchJsonData<Species>('/data/taxonomy/species.json'),
-    fetchJsonData<Order>('/data/taxonomy/orders.json'),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
-    fetchJsonData<Family>('/data/taxonomy/families.json'),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
-  ]);
+  // Load all taxonomy data from public folder (synchronous reads at runtime)
+  const speciesData = loadJsonData<Species>('data/taxonomy/species.json');
+  const ordersData = loadJsonData<Order>('data/taxonomy/orders.json');
+  const subordersData = loadJsonData<Suborder>('data/taxonomy/suborders.json');
+  const familiesData = loadJsonData<Family>('data/taxonomy/families.json');
+  const subfamiliesData = loadJsonData<Subfamily>('data/taxonomy/subfamilies.json');
   
   if (!speciesData) {
     notFound();
@@ -415,7 +403,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
+  const imagesData = loadJsonData<ImageData>(`data/species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
   // Get image path
