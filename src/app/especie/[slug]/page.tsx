@@ -1,11 +1,9 @@
 import { notFound } from 'next/navigation';
-import fs from 'fs';
-import path from 'path';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
 
-// Force dynamic rendering - data is read at runtime
+// Force dynamic rendering - data is fetched at runtime
 export const dynamic = 'force-dynamic';
 
 // Types for taxonomy data
@@ -88,41 +86,40 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Helper to load JSON data - tries multiple paths for Vercel compatibility
-function loadJsonData<T>(relativePath: string): { data: T[] } | null {
-  // Possible base paths where files might be located
-  const basePaths = [
-    process.cwd(),                           // /var/task on Vercel
-    path.join(process.cwd(), '.next/server'),
-    path.join(process.cwd(), '.next/standalone'),
-  ];
-  
-  // The relativePath comes in as '/data/taxonomy/species.json' or 'data/taxonomy/species.json'
-  // Normalize it
-  const normalizedPath = relativePath.startsWith('/') ? relativePath.slice(1) : relativePath;
-  
-  // For public folder files, try with and without 'public' prefix
-  const pathVariants = [
-    normalizedPath,                          // data/taxonomy/species.json
-    `public/${normalizedPath}`,              // public/data/taxonomy/species.json
-  ];
-  
-  for (const basePath of basePaths) {
-    for (const variant of pathVariants) {
-      const fullPath = path.join(basePath, variant);
-      try {
-        if (fs.existsSync(fullPath)) {
-          const fileContents = fs.readFileSync(fullPath, 'utf8');
-          return JSON.parse(fileContents);
-        }
-      } catch {
-        // Continue to next path
-      }
-    }
+// Get base URL for fetching data
+function getBaseUrl(): string {
+  // On Vercel, use the deployment URL
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
   }
-  
-  console.error(`Could not find JSON file: ${relativePath}`);
-  return null;
+  // For production domain
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL;
+  }
+  // Fallback for local development
+  return 'http://localhost:3000';
+}
+
+// Helper to fetch JSON data from the public folder via HTTP
+async function fetchJsonData<T>(relativePath: string): Promise<{ data: T[] } | null> {
+  try {
+    const baseUrl = getBaseUrl();
+    const url = `${baseUrl}${relativePath}`;
+    const response = await fetch(url, { 
+      cache: 'no-store',
+      headers: {
+        'Accept': 'application/json',
+      }
+    });
+    if (!response.ok) {
+      console.error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+      return null;
+    }
+    return await response.json();
+  } catch (error) {
+    console.error(`Error fetching ${relativePath}:`, error);
+    return null;
+  }
 }
 
 // Get image path - check Subfamily first, then Family, then Order
@@ -206,7 +203,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const speciesData = loadJsonData<Species>('/data/taxonomy/species.json');
+  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -409,12 +406,14 @@ export default async function SpeciesPage({
 }) {
   const { slug } = await params;
   
-  // Load all taxonomy data from filesystem
-  const speciesData = loadJsonData<Species>('/data/taxonomy/species.json');
-  const ordersData = loadJsonData<Order>('/data/taxonomy/orders.json');
-  const subordersData = loadJsonData<Suborder>('/data/taxonomy/suborders.json');
-  const familiesData = loadJsonData<Family>('/data/taxonomy/families.json');
-  const subfamiliesData = loadJsonData<Subfamily>('/data/taxonomy/subfamilies.json');
+  // Fetch all taxonomy data from public folder via HTTP
+  const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
+    fetchJsonData<Species>('/data/taxonomy/species.json'),
+    fetchJsonData<Order>('/data/taxonomy/orders.json'),
+    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
+    fetchJsonData<Family>('/data/taxonomy/families.json'),
+    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
+  ]);
   
   if (!speciesData) {
     notFound();
@@ -427,7 +426,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = loadJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
+  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
   // Get image path
