@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Include data files in serverless function bundle
+  outputFileTracingIncludes: {
+    '/especie/[slug]': ['./public/data/**/*'],
+  },
+  
   async rewrites() {
     return [
       // Group pages still use CSR for now

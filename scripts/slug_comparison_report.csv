@@ -1,0 +1,714 @@
+status,match_type,old_url,old_slug,species_id,spanish_name,current_slug,suggested_slug,order,family
+NO_MATCH,,Anseriformes/Fotos_Pato.html,Pato,,,,Pato,Anseriformes,
+NO_MATCH,,Anseriformes/Fotos_PatoDeTorrente.html,PatoDeTorrente,,,,PatoDeTorrente,Anseriformes,
+NO_MATCH,,Charadriiformes/FotosPlayerasC_EscuaComun.html,EscuaComun,,,,EscuaComun,Charadriiformes,
+NO_MATCH,,Charadriiformes/FotosPlayerasB_PlayeroPectoral.html,PlayeroPectoral,,,,PlayeroPectoral,Charadriiformes,
+NO_MATCH,,Charadriiformes/FotosPlayerasB_PlayeroZancudo.html,PlayeroZancudo,,,,PlayeroZancudo,Charadriiformes,
+NO_MATCH,,Columbiformes/Fotos_PalomaAlaBlanca.html,PalomaAlaBlanca,,,,PalomaAlaBlanca,Columbiformes,
+NO_MATCH,,Columbiformes/Fotos_PalomaAlaManchada.html,PalomaAlaManchada,,,,PalomaAlaManchada,Columbiformes,
+NO_MATCH,,Columbiformes/Fotos_PalomaMoteada.html,PalomaMoteada,,,,PalomaMoteada,Columbiformes,
+NO_MATCH,,Galliformes/Fotos_CodornizDeCalifornia.html,CodornizDeCalifornia,,,,CodornizDeCalifornia,Galliformes,
+NO_MATCH,,Gruiformes/FotosGruiformes-GallaretaERojo.html,GallaretaERojo,,,,GallaretaERojo,Gruiformes,
+NO_MATCH,,Gruiformes/FotosGruiformes-GallaretaLRojas.html,GallaretaLRojas,,,,GallaretaLRojas,Gruiformes,
+NO_MATCH,,Passeriformes/Furnariidae-Furn/Fotos_BanduritaAndina.html,BanduritaAndina,,,,BanduritaAndina,Passeriformes,Furnariidae-Furn
+NO_MATCH,,Passeriformes/Furnariidae-Furn/Fotos_BanduritaComun.html,BanduritaComun,,,,BanduritaComun,Passeriformes,Furnariidae-Furn
+NO_MATCH,,Passeriformes/Vireonidae/FotosChivies.html,Chivies,,,,Chivies,Passeriformes,Vireonidae
+NO_MATCH,,Passeriformes/Furnariidae-Sina/Fotos_ColuditoQuebradeno.html,ColuditoQuebradeno,,,,ColuditoQuebradeno,Passeriformes,Furnariidae-Sina
+NO_MATCH,,Passeriformes/Thraupidae/Fotos_DiucaAlaBlanca.html,DiucaAlaBlanca,,,,DiucaAlaBlanca,Passeriformes,Thraupidae
+NO_MATCH,,Passeriformes/Tyrannidae/Fotos_FiofioSibon.html,FiofioSibon,,,,FiofioSibon,Passeriformes,Tyrannidae
+NO_MATCH,,Passeriformes/IncertaeSedis/FotosInsertisSedis.html,InsertisSedis,,,,InsertisSedis,Passeriformes,IncertaeSedis
+NO_MATCH,,Passeriformes/Tyrannidae/Fotos_MosquetaX.html,MosquetaX,,,,MosquetaX,Passeriformes,Tyrannidae
+NO_MATCH,,Passeriformes/Furnariidae-Sina/Fotos_PijuCoronaRojiza.html,PijuCoronaRojiza,,,,PijuCoronaRojiza,Passeriformes,Furnariidae-Sina
+NO_MATCH,,Passeriformes/Polioptilidae/Fotos_TacuartitaAzul.html,TacuartitaAzul,,,,TacuartitaAzul,Passeriformes,Polioptilidae
+NO_MATCH,,Passeriformes/Thraupidae/Fotos_Thr.html,Thr,,,,Thr,Passeriformes,Thraupidae
+NO_MATCH,,Passeriformes/Icteridae/Fotos_TordoDeMatorral.html,TordoDeMatorral,,,,TordoDeMatorral,Passeriformes,Icteridae
+NO_MATCH,,Piciformes/Fotos_CarpinteritoArcoiris.html,CarpinteritoArcoiris,,,,CarpinteritoArcoiris,Piciformes,
+NO_MATCH,,Piciformes/Fotos_CarpinteroOlivaYungeno.html,CarpinteroOlivaYungeno,,,,CarpinteroOlivaYungeno,Piciformes,
+NO_MATCH,,Psittaciformes/Fotos_MaracanaCDorado.html,MaracanaCDorado,,,,MaracanaCDorado,Psittaciformes,
+NO_MATCH,,Sphenisciformes/FotosPinguinos_Magallanes.html,PinguinoMagallanes,,,,PinguinoMagallanes,Sphenisciformes,
+NO_MATCH,,Sphenisciformes/FotosPinguinos_Vincha.html,PinguinoVincha,,,,PinguinoVincha,Sphenisciformes,
+NO_MATCH,,Strigiformes/Fotos_AlilicucoComun.html,AlilicucoComun,,,,AlilicucoComun,Strigiformes,
+NO_MATCH,,Strigiformes/Fotos_AlilicucoYungueno.html,AlilicucoYungueno,,,,AlilicucoYungueno,Strigiformes,
+NO_MATCH,,Strigiformes/Fotos_LechuzonDeCampo.html,LechuzonDeCampo,,,,LechuzonDeCampo,Strigiformes,
+NO_MATCH,,Suliformes/FotosCormoranReal.html,CormoranReal,,,,CormoranReal,Suliformes,
+NO_MATCH,,Trochiliformes/Fotos_PicaflorGrande.html,PicaflorGrande,,,,PicaflorGrande,Trochiliformes,
+NO_MATCH,,Trochiliformes/Fotos_PicaflorTijera.html,PicaflorTijera,,,,PicaflorTijera,Trochiliformes,
+NO_MATCH,,Trochiliformes/Fotos_PicaflorYunguenio.html,PicaflorYunguenio,,,,PicaflorYunguenio,Trochiliformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_AgachonaChica.html,AgachonaChica,SP_0170,Agachona Chica,,AgachonaChica,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_AgachonaDeCollar.html,AgachonaDeCollar,SP_0169,Agachona de Collar,,AgachonaDeCollar,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_AgachonaPatagonica.html,AgachonaPatagonica,SP_0167,Agachona Patagónica,,AgachonaPatagonica,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_Aguatero.html,Aguatero,SP_0171,Aguatero,,Aguatero,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_Ati.html,Ati,SP_0214,Atí,,Ati,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_Batitu.html,Batitu,SP_0173,Batitú,,Batitu,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_BecasaDeMar.html,BecasaDeMar,SP_0176,Becasa de Mar,,BecasaDeMar,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_BecasaGris.html,BecasaGris,SP_0177,Becasa Gris,,BecasaGris,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_BecasinaAndina.html,BecasinaAndina,SP_0180,Becasina Andina,,BecasinaAndina,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_BecasinaComun.html,BecasinaComun,SP_0181,Becasina Común,,BecasinaComun,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorlitoCeniciento.html,ChorlitoCeniciento,SP_0147,Chorlito Ceniciento,,ChorlitoCeniciento,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorlitoDeCollar.html,ChorlitoDeCollar,SP_0164,Chorlito de Collar,,ChorlitoDeCollar,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorlitoDeVincha.html,ChorlitoDeVincha,SP_0158,Chorlito de Vincha,,ChorlitoDeVincha,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorlitoDobleCollar.html,ChorlitoDobleCollar,SP_0165,Chorlito Doble Collar,,ChorlitoDobleCollar,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorlitoPalmado.html,ChorlitoPalmado,SP_0160,Chorlito Palmado,,ChorlitoPalmado,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorlitoPechoCanela.html,ChorlitoPechoCanela,SP_0159,Chorlito Pecho Canela,,ChorlitoPechoCanela,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorloArtico.html,ChorloArtico,SP_0154,Chorlo Ártico,,ChorloArtico,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorloCabezon.html,ChorloCabezon,SP_0156,Chorlo Cabezón,,ChorloCabezon,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_ChorloPampa.html,ChorloPampa,SP_0155,Chorlo Pampa,,ChorloPampa,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_FaloropoComun.html,FaloropoComun,SP_0185,Faloropo Común,,FaloropoComun,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaAndina.html,GaviotaAndina,SP_0228,Gaviota Andina,,GaviotaAndina,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaCangrejera.html,GaviotaCangrejera,SP_0233,Gaviota Cangrejera,,GaviotaCangrejera,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaCapuchoCafe.html,GaviotaCapuchoCafe,SP_0227,Gaviota Capucho Café,,GaviotaCapuchoCafe,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaCapuchoGris.html,GaviotaCapuchoGris,SP_0226,Gaviota Capucho Gris,,GaviotaCapuchoGris,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaChica.html,GaviotaChica,SP_0232,Gaviota Chica,,GaviotaChica,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaCocinera.html,GaviotaCocinera,SP_0234,Gaviota Cocinera,,GaviotaCocinera,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaGaruma.html,GaviotaGaruma,SP_0230,Gaviota Garuma,,GaviotaGaruma,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotaGris.html,GaviotaGris,SP_0229,Gaviota Gris,,GaviotaGris,Charadriiformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Charadriiformes/FotosPlayerasC_GaviotinChico.html,GaviotinChico,SP_0212,Gaviotín Chico Fluvial,,GaviotinChico,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotinGolondrina.html,GaviotinGolondrina,SP_0224,Gaviotín Golondrina,Golondrina,GaviotinGolondrina,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotinLagunero.html,GaviotinLagunero,SP_0220,Gaviotín Lagunero,,GaviotinLagunero,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotinPicoAmarillo.html,GaviotinPicoAmarillo,SP_0218,Gaviotín Pico Amarillo,,GaviotinPicoAmarillo,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotinPicoGrueso.html,GaviotinPicoGrueso,SP_0215,Gaviotín Pico Grueso,,GaviotinPicoGrueso,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotinReal.html,GaviotinReal,SP_0219,Gaviotín Real,,GaviotinReal,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_GaviotinSudamericano.html,GaviotinSudamericano,SP_0222,Gaviotín Sudamericano,,GaviotinSudamericano,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_Jacana.html,Jacana,SP_0172,Jacana,,Jacana,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_OstreroAustral.html,OstreroAustral,SP_0151,Ostrero Austral,,OstreroAustral,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_OstreroComun.html,OstreroComun,SP_0153,Ostrero Común,,OstreroComun,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_OstreroNegro.html,OstreroNegro,SP_0152,Ostrero Negro,,OstreroNegro,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_PalomaAntartica.html,PalomaAntartica,SP_0148,Paloma Antártica,,PalomaAntartica,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PitotoyChico.html,PitotoyChico,SP_0189,Pitotoy Chico,,PitotoyChico,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PitotoyGrande.html,PitotoyGrande,SP_0191,Pitotoy Grande,,PitotoyGrande,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PitotoySolitario.html,PitotoySolitario,SP_0188,Pitotoy Solitario,,PitotoySolitario,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeritoBlanco.html,PlayeritoBlanco,SP_0198,Playerito Blanco,,PlayeritoBlanco,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeritoCanela.html,PlayeritoCanela,SP_0197,Playerito Canela,,PlayeritoCanela,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeritoEnano.html,PlayeritoEnano,SP_0202,Playerito Enano,,PlayeritoEnano,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeritoManchado.html,PlayeritoManchado,SP_0184,Playerito Manchado,,PlayeritoManchado,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeritoRabadillaBlanca.html,PlayeritoRabadillaBlanca,SP_0204,Playerito Rabadilla Blanca,,PlayeritoRabadillaBlanca,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeritoUnicolor.html,PlayeritoUnicolor,SP_0200,Playerito Unicolor,,PlayeritoUnicolor,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeroAlaBlanca.html,PlayeroAlaBlanca,SP_0190,Playero Ala Blanca,,PlayeroAlaBlanca,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeroRojizo.html,PlayeroRojizo,SP_0193,Playero Rojizo,,PlayeroRojizo,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayeroTrinador.html,PlayeroTrinador,SP_0175,Playero Trinador,,PlayeroTrinador,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_PlayerodeRompiente.html,PlayerodeRompiente,SP_0194,Playero de Rompiente,,PlayerodeRompiente,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasC_Rayador.html,Rayador,SP_0211,Rayador,,Rayador,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_TeroComun.html,TeroComun,SP_0161,Tero Común,,TeroComun,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasA_TeroReal.html,TeroReal,SP_0150,Tero Real,,TeroReal,Charadriiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Charadriiformes/FotosPlayerasB_Vuelvepiedras.html,Vuelvepiedras,SP_0192,Vuelvepiedras,,Vuelvepiedras,Charadriiformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Coraciiformes/Fotos_MartinPescador.html,MartinPescador,SP_0472,Martín Pescador Grande,MartinPescadorGrande,MartinPescador,Coraciiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-BurritoColorado.html,BurritoColorado,SP_0141,Burrito Colorado,,BurritoColorado,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-BurritoComun.html,BurritoComun,SP_0144,Burrito Común,,BurritoComun,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-BurritoEnano.html,BurritoEnano,SP_0142,Burrito Enano,,BurritoEnano,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-Carau.html,Carau,SP_0119,Carau,,Carau,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-Chiricote.html,Chiricote,SP_0127,Chiricote,,Chiricote,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-GallaretaAndina.html,GallaretaAndina,SP_0137,Gallareta Andina,,GallaretaAndina,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-GallaretaChica.html,GallaretaChica,SP_0136,Gallareta Chica,,GallaretaChica,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-GallinetaComun.html,GallinetaComun,SP_0123,Gallineta Común,,GallinetaComun,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-GallinetaOvera.html,GallinetaOvera,SP_0121,Gallineta Overa,,GallinetaOvera,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-Ipacaa.html,Ipacaa,SP_0126,Ipacaá,,Ipacaa,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-PollonaAzul.html,PollonaAzul,SP_0138,Pollona Azul,,PollonaAzul,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-PollonaNegra.html,PollonaNegra,SP_0131,Pollona Negra,,PollonaNegra,Gruiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Gruiformes/FotosGruiformes-PollonaPintada.html,PollonaPintada,SP_0130,Pollona Pintada,,PollonaPintada,Gruiformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Parulidae/Fotos_Araner.html,Araner,SP_0957,Arañero Cara Negra,AraneroCaraNegra,Araner,Passeriformes,Parulidae
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Motacillidae/Fotos_Cachirla.html,Cachirla,SP_0901,Cachirla Chica,CachirlaChica,Cachirla,Passeriformes,Motacillidae
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Mimidae/Fotos_Calandria.html,Calandria,SP_0877,Calandria Mora,CalandriaMora,Calandria,Passeriformes,Mimidae
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Emberizidae/Fotos_CerqueroDeCollar.html,CerqueroDeCollar,SP_0928,Cerquero de Collar Yungueño,CerqueroDeCollarYungueno,CerqueroDeCollar,Passeriformes,Emberizidae
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Passeriformes/Icteridae/Fotos_Matico.html,Matico,SP_0942,Matico,MaticoVenezolano,Matico,Passeriformes,Icteridae
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/IncertaeSedis/Fotos_Pepitero.html,Pepitero,SP_1015,Pepitero Chico,PepiteroChico,Pepitero,Passeriformes,IncertaeSedis
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Passeriformes/Furnariidae-Sina/Fotos_PijuiCejaCanela.html,PijuiCejaCanela,SP_0845,Pijuí Ceja Canela,PijuiCejaCanelaV,PijuiCejaCanela,Passeriformes,Furnariidae-Sina
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Troglodytidae/Fotos_Ratona.html,Ratona,SP_0871,Ratona Grande,RatonaGrande,Ratona,Passeriformes,Troglodytidae
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Cardinalidae/Fotos_Reinamor.html,Reinamor,SP_0970,Reinamora Chica,ReinamoraChica,Reinamor,Passeriformes,Cardinalidae
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Furnariidae-Furn/Fotos_Remolinera.html,Remolinera,SP_0795,Remolinera Común,RemolineraComun,Remolinera,Passeriformes,Furnariidae-Furn
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Icteridae/Fotos_Tordo.html,Tordo,SP_0943,Tordo Pico Corto,TordoPicoCorto,Tordo,Passeriformes,Icteridae
+NEEDS_UPDATE,PARTIAL_MATCH,Passeriformes/Turdidae/Fotos_Zorzal.html,Zorzal,SP_0884,Zorzalito Overo,ZorzalitoOvero,Zorzal,Passeriformes,Turdidae
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Podicipediformes/FotosMacaComun.html,MacaComun,SP_0074,Macá Común,,MacaComun,Podicipediformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Podicipediformes/FotosMacaGrande.html,MacaGrande,SP_0077,Macá Grande,,MacaGrande,Podicipediformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Podicipediformes/FotosMacaGris.html,MacaGris,SP_0075,Macá Gris,,MacaGris,Podicipediformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Podicipediformes/FotosMacaPicoGrueso.html,MacaPicoGrueso,SP_0076,Macá Pico Grueso,,MacaPicoGrueso,Podicipediformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Podicipediformes/FotosMacaPlateado.html,MacaPlateado,SP_0078,Macá Plateado,,MacaPlateado,Podicipediformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosAlbatrosCejaNegra.html,AlbatrosCejaNegra,SP_0255,Albatros Ceja Negra,,AlbatrosCejaNegra,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosAlbatrosPicoFino.html,AlbatrosPicoFino,SP_0253,Albatros Pico Fino,,AlbatrosPicoFino,Procellariiformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Procellariiformes/FotosAlbatrosReal.html,AlbatrosReal,SP_0248,Albatros Real Menor,,AlbatrosReal,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosPainoComun.html,PainoComun,SP_0257,Paíño Común,,PainoComun,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosPardelaCabezaNegra.html,PardelaCabezaNegra,SP_0274,Pardela Cabeza Negra,,PardelaCabezaNegra,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosPardelaOscura.html,PardelaOscura,SP_0273,Pardela Oscura,,PardelaOscura,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosPetrelBarbaBlanca.html,PetrelBarbaBlanca,SP_0269,Petrel Barba Blanca,,PetrelBarbaBlanca,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosPetrelDamero.html,PetrelDamero,SP_0263,Petrel Damero,,PetrelDamero,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Procellariiformes/FotosPetrelGiganteComun.html,PetrelGiganteComun,SP_0264,Petrel Gigante Común,,PetrelGiganteComun,Procellariiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Sphenisciformes/FotosPinguinoRey.html,PinguinoRey,SP_0235,Pingüino Rey,,PinguinoRey,Sphenisciformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Suliformes/FotosAninga.html,Aninga,SP_0297,Aninga,,Aninga,Suliformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Suliformes/FotosAveFragata.html,AveFragata,SP_0294,Ave Fragata,,AveFragata,Suliformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Suliformes/FotosBigua.html,Bigua,SP_0299,Biguá,,Bigua,Suliformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Suliformes/FotosCormoranCuelloNegro.html,CormoranCuelloNegro,SP_0300,Cormorán Cuello Negro,,CormoranCuelloNegro,Suliformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Suliformes/FotosCormoranGris.html,CormoranGris,SP_0298,Cormorán Gris,,CormoranGris,Suliformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Suliformes/FotosCormoranGuanay.html,CormoranGuanay,SP_0301,Guanay,,CormoranGuanay,Suliformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Tinamiformes/FotosPerdices_Colorada.html,Colorada,SP_0011,Colorada,,Colorada,Tinamiformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Tinamiformes/FotosPerdices_InambuCom.html,InambuCom,SP_0009,Inambú Común,,InambuCom,Tinamiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Tinamiformes/FotosPerdices_InambuSerrano.html,InambuSerrano,SP_0012,Inambú Serrano,,InambuSerrano,Tinamiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Tinamiformes/FotosPerdices_InambuSilbon.html,InambuSilbon,SP_0014,Inambú Silbón,,InambuSilbon,Tinamiformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Tinamiformes/FotosPerdices_MartinetaCom.html,MartinetaCom,SP_0006,Martineta Común,,MartinetaCom,Tinamiformes,
+NEEDS_UPDATE,DERIVED_FROM_SPANISH,Tinamiformes/FotosPerdices_TataupaComun.html,TataupaComun,SP_0019,Tataupá Común,,TataupaComun,Tinamiformes,
+NEEDS_UPDATE,PARTIAL_MATCH,Trochiliformes/Fotos_Picaflor.html,Picaflor,SP_0360,Picaflor Negro,PicaflorNegro,Picaflor,Trochiliformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguilaHarpia.html,AguilaHarpia,SP_0434,Águila Harpía,AguilaHarpia,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguilaMora.html,AguilaMora,SP_0459,Águila Mora,AguilaMora,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguilaNegra.html,AguilaNegra,SP_0450,Águila Negra,AguilaNegra,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguilaPescadora.html,AguilaPescadora,SP_0424,Águila Pescadora,AguilaPescadora,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguilaPoma.html,AguilaPoma,SP_0433,Águila Poma,AguilaPoma,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguiluchoAlasLargas.html,AguiluchoAlasLargas,SP_0457,Aguilucho Alas Largas,AguiluchoAlasLargas,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguiluchoColorado.html,AguiluchoColorado,SP_0449,Aguilucho Colorado,AguiluchoColorado,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguiluchoComun.html,AguiluchoComun,SP_0458,Aguilucho Común,AguiluchoComun,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguiluchoLangostero.html,AguiluchoLangostero,SP_0465,Aguilucho Langostero,AguiluchoLangostero,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_AguiluchoPampa.html,AguiluchoPampa,SP_0447,Aguilucho Pampa,AguiluchoPampa,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_Caracolero.html,Caracolero,SP_0448,Caracolero,Caracolero,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_EsparveroComun.html,EsparveroComun,SP_0437,Esparvero Común,EsparveroComun,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_EsparveroPatagonico.html,EsparveroPatagonico,SP_0438,Esparvero Patagónico,EsparveroPatagonico,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_EsparveroVariado.html,EsparveroVariado,SP_0439,Esparvero Variado,EsparveroVariado,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_GavilanCeniciento.html,GavilanCeniciento,SP_0440,Gavilán Ceniciento,GavilanCeniciento,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_GavilanMixto.html,GavilanMixto,SP_0455,Gavilán Mixto,GavilanMixto,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_GavilanPlaneador.html,GavilanPlaneador,SP_0441,Gavilán Planeador,GavilanPlaneador,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_MilanoBlanco.html,MilanoBlanco,SP_0426,Milano Blanco,MilanoBlanco,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_MilanoPlomizo.html,MilanoPlomizo,SP_0444,Milano Plomizo,MilanoPlomizo,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_MilanoTijereta.html,MilanoTijereta,SP_0429,Milano Tijereta,MilanoTijereta,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_Taguato.html,Taguato,SP_0453,Taguató Común,Taguato,,Accipitriformes,
+OK,EXACT_SLUG,Accipitriformes/Fotos_TaguatoNegro.html,TaguatoNegro,SP_0454,Taguató Negro,TaguatoNegro,,Accipitriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_Caranca.html,Caranca,SP_0036,Caranca,Caranca,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_CauquenColorado.html,CauquenColorado,SP_0038,Cauquén Colorado,CauquenColorado,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_CauquenComun.html,CauquenComun,SP_0035,Cauquén Común,CauquenComun,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_CauquenReal.html,CauquenReal,SP_0037,Cauquén Real,CauquenReal,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_Chaja.html,Chaja,SP_0020,Chajá,Chaja,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_CisneCuelloNegro.html,CisneCuelloNegro,SP_0029,Cisne Cuello Negro,CisneCuelloNegro,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_Coscoroba.html,Coscoroba,SP_0028,Coscoroba,Coscoroba,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_Guayata.html,Guayata,SP_0034,Guayata,Guayata,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoBarcino.html,PatoBarcino,SP_0059,Pato Barcino,PatoBarcino,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoCabezaNegra.html,PatoCabezaNegra,SP_0024,Pato Cabeza Negra,PatoCabezaNegra,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoCapuchino.html,PatoCapuchino,SP_0051,Pato Capuchino,PatoCapuchino,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoColorado.html,PatoColorado,SP_0054,Pato Colorado,PatoColorado,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoCreston.html,PatoCreston,SP_0043,Pato Crestón,PatoCreston,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoCuchara.html,PatoCuchara,SP_0052,Pato Cuchara,PatoCuchara,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoCutiri.html,PatoCutiri,SP_0045,Pato Cutirí,PatoCutiri,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoDeAnteojos.html,PatoDeAnteojos,SP_0044,Pato de Anteojos,PatoDeAnteojos,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoDeCollar.html,PatoDeCollar,SP_0031,Pato de Collar,PatoDeCollar,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoFierro.html,PatoFierro,SP_0025,Pato Fierro,PatoFierro,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoGargantilla.html,PatoGargantilla,SP_0057,Pato Gargantilla,PatoGargantilla,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoMaicero.html,PatoMaicero,SP_0058,Pato Maicero,PatoMaicero,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoOvero.html,PatoOvero,SP_0056,Pato Overo,PatoOvero,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoPicazo.html,PatoPicazo,SP_0042,Pato Picazo,PatoPicazo,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoPuneno.html,PatoPuneno,SP_0050,Pato Puneño,PatoPuneno,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoReal.html,PatoReal,SP_0032,Pato Real,PatoReal,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoZambullidorChico.html,PatoZambullidorChico,SP_0026,Pato Zambullidor Chico,PatoZambullidorChico,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_PatoZambullidorGrande.html,PatoZambullidorGrande,SP_0027,Pato Zambullidor Grande,PatoZambullidorGrande,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_QuetroAustral.html,QuetroAustral,SP_0047,Quetro Austral,QuetroAustral,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_QuetroCabezaBlanca.html,QuetroCabezaBlanca,SP_0049,Quetro Cabeza Blanca,QuetroCabezaBlanca,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_QuetroVolador.html,QuetroVolador,SP_0046,Quetro Volador,QuetroVolador,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_SiririColorado.html,SiririColorado,SP_0023,Sirirí Colorado,SiririColorado,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_SiririPampa.html,SiririPampa,SP_0021,Sirirí Pampa,SiririPampa,,Anseriformes,
+OK,EXACT_SLUG,Anseriformes/Fotos_SiririVientreNegro.html,SiririVientreNegro,SP_0022,Sirirí Vientre Negro,SiririVientreNegro,,Anseriformes,
+OK,EXACT_SLUG,Apodiformes/Fotos_VencejoBlanco.html,VencejoBlanco,SP_0358,Vencejo Blanco,VencejoBlanco,,Apodiformes,
+OK,EXACT_SLUG,Apodiformes/Fotos_VencejoDeCascada.html,VencejoDeCascada,SP_0354,Vencejo de Cascada,VencejoDeCascada,,Apodiformes,
+OK,EXACT_SLUG,Apodiformes/Fotos_VencejoDeCollar.html,VencejoDeCollar,SP_0350,Vencejo de Collar,VencejoDeCollar,,Apodiformes,
+OK,EXACT_SLUG,Caprimulgiformes/Fotos_AtajacaminosChico.html,AtajacaminosChico,SP_0333,Atajacaminos Chico,AtajacaminosChico,,Caprimulgiformes,
+OK,EXACT_SLUG,Caprimulgiformes/Fotos_AtajacaminosNanarca.html,AtajacaminosNanarca,SP_0334,Atajacaminos Ñañarca,AtajacaminosNanarca,,Caprimulgiformes,
+OK,EXACT_SLUG,Caprimulgiformes/Fotos_AtajacaminosOcelado.html,AtajacaminosOcelado,SP_0340,Atajacaminos Ocelado,AtajacaminosOcelado,,Caprimulgiformes,
+OK,EXACT_SLUG,Caprimulgiformes/Fotos_AtajacaminosTijera.html,AtajacaminosTijera,SP_0338,Atajacaminos Tijera,AtajacaminosTijera,,Caprimulgiformes,
+OK,EXACT_SLUG,Caprimulgiformes/Fotos_Curiango.html,Curiango,SP_0331,Curiango,Curiango,,Caprimulgiformes,
+OK,EXACT_SLUG,Caprimulgiformes/Fotos_Nacunda.html,Nacunda,SP_0343,Ñacundá,Nacunda,,Caprimulgiformes,
+OK,EXACT_SLUG,Caprimulgiformes/Fotos_Urutau.html,Urutau,SP_0348,Urutaú Coludo,Urutau,,Caprimulgiformes,
+OK,EXACT_SLUG,Cathartiformes/Fotos_CondorAndino.html,CondorAndino,SP_0419,Cóndor Andino,CondorAndino,,Cathartiformes,
+OK,EXACT_SLUG,Cathartiformes/Fotos_JoteCabezaAmarilla.html,JoteCabezaAmarilla,SP_0422,Jote Cabeza Amarilla,JoteCabezaAmarilla,,Cathartiformes,
+OK,EXACT_SLUG,Cathartiformes/Fotos_JoteCabezaColorada.html,JoteCabezaColorada,SP_0421,Jote Cabeza Colorada,JoteCabezaColorada,,Cathartiformes,
+OK,EXACT_SLUG,Cathartiformes/Fotos_JoteCabezaNegra.html,JoteCabezaNegra,SP_0420,Jote Cabeza Negra,JoteCabezaNegra,,Cathartiformes,
+OK,EXACT_SLUG,Cathartiformes/Fotos_JoteReal.html,JoteReal,SP_0418,Jote Real,JoteReal,,Cathartiformes,
+OK,EXACT_SLUG,Ciconiiformes/Fotos_CiguenaAmericana.html,CiguenaAmericana,SP_0293,Cigüeña Americana,CiguenaAmericana,,Ciconiiformes,
+OK,EXACT_SLUG,Ciconiiformes/Fotos_Tuyuyu.html,Tuyuyu,SP_0291,Tuyuyú,Tuyuyu,,Ciconiiformes,
+OK,EXACT_SLUG,Ciconiiformes/Fotos_Yabiru.html,Yabiru,SP_0292,Yabirú,Yabiru,,Ciconiiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_PalomaColorada.html,PalomaColorada,SP_0111,Paloma Colorada,PalomaColorada,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_PalomaDomestica.html,PalomaDomestica,SP_0118,Paloma Doméstica,PalomaDomestica,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_PalomaPicazuro.html,PalomaPicazuro,SP_0113,Paloma Picazuró,PalomaPicazuro,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_PalomitaCordillerana.html,PalomitaCordillerana,SP_0097,Palomita Cordillerana,PalomitaCordillerana,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_PalomitaMoteada.html,PalomitaMoteada,SP_0095,Palomita Moteada,PalomitaMoteada,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_TorcacitaColorada.html,TorcacitaColorada,SP_0100,Torcacita Colorada,TorcacitaColorada,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_TorcacitaComun.html,TorcacitaComun,SP_0102,Torcacita Común,TorcacitaComun,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_TorcacitaEscamada.html,TorcacitaEscamada,SP_0101,Torcacita Escamada,TorcacitaEscamada,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_TorcazaAlaBlanca.html,TorcazaAlaBlanca,SP_0108,Torcaza Ala Blanca,TorcazaAlaBlanca,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_TorcazaComun.html,TorcazaComun,SP_0109,Torcaza Común,TorcazaComun,,Columbiformes,
+OK,EXACT_SLUG,Columbiformes/Fotos_YerutiComun.html,YerutiComun,SP_0105,Yerutí Común,YerutiComun,,Columbiformes,
+OK,EXACT_SLUG,Coraciiformes/Fotos_Burgo.html,Burgo,SP_0471,Burgo,Burgo,,Coraciiformes,
+OK,EXACT_SLUG,Coraciiformes/Fotos_MartinPescadorChico.html,MartinPescadorChico,SP_0475,Martín Pescador Chico,MartinPescadorChico,,Coraciiformes,
+OK,EXACT_SLUG,Coraciiformes/Fotos_MartinPescadorGrande.html,MartinPescadorGrande,SP_0472,Martín Pescador Grande,MartinPescadorGrande,,Coraciiformes,
+OK,EXACT_SLUG,Coraciiformes/Fotos_MartinPescadorMediano.html,MartinPescadorMediano,SP_0473,Martín Pescador Mediano,MartinPescadorMediano,,Coraciiformes,
+OK,EXACT_SLUG,Coraciiformes/Fotos_Yeruva.html,Yeruva,SP_0470,Yeruvá,Yeruva,,Coraciiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_AnoChico.html,AnoChico,SP_0082,Anó Chico,AnoChico,,Cuculiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_AnoPicoSurcado.html,AnoPicoSurcado,SP_0083,Anó Pico Surcado,AnoPicoSurcado,,Cuculiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_Crespin.html,Crespin,SP_0084,Crespín,Crespin,,Cuculiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_CuclilloCanela.html,CuclilloCanela,SP_0089,Cuclillo Canela,CuclilloCanela,,Cuculiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_CuclilloChico.html,CuclilloChico,SP_0087,Cuclillo Chico,CuclilloChico,,Cuculiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_Pirincho.html,Pirincho,SP_0080,Pirincho,Pirincho,,Cuculiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_Tingazu.html,Tingazu,SP_0088,Tingazú,Tingazu,,Cuculiformes,
+OK,EXACT_SLUG,Cuculiformes/Fotos_YasiyatereGrande.html,YasiyatereGrande,SP_0085,Yasiyateré Grande,YasiyatereGrande,,Cuculiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_Carancho.html,Carancho,SP_0519,Carancho,Carancho,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_Chimachima.html,Chimachima,SP_0520,Chimachima,Chimachima,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_Chimango.html,Chimango,SP_0521,Chimango,Chimango,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_HalconNegroChico.html,HalconNegroChico,SP_0527,Halcón Negro Chico,HalconNegroChico,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_HalconPlomizo.html,HalconPlomizo,SP_0528,Halcón Plomizo,HalconPlomizo,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_HalconcitoColorado.html,HalconcitoColorado,SP_0525,Halconcito Colorado,HalconcitoColorado,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_HalconcitoGris.html,HalconcitoGris,SP_0518,Halconcito Gris,HalconcitoGris,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_MatamicoAndino.html,MatamicoAndino,SP_0522,Matamico Andino,MatamicoAndino,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_MatamicoBlanco.html,MatamicoBlanco,SP_0523,Matamico Blanco,MatamicoBlanco,,Falconiformes,
+OK,EXACT_SLUG,Falconiformes/Fotos_MilanoBlanco.html,MilanoBlanco,SP_0426,Milano Blanco,MilanoBlanco,,Falconiformes,
+OK,EXACT_SLUG,Galbuliformes/Fotos_ChacuruCaraNegra.html,ChacuruCaraNegra,SP_0476,Chacurú Cara Negra,ChacuruCaraNegra,,Galbuliformes,
+OK,EXACT_SLUG,Galbuliformes/Fotos_ChacuruGrande.html,ChacuruGrande,SP_0479,Chacurú Grande,ChacuruGrande,,Galbuliformes,
+OK,EXACT_SLUG,Galbuliformes/Fotos_Durmili.html,Durmili,SP_0477,Durmilí,Durmili,,Galbuliformes,
+OK,EXACT_SLUG,Galliformes/Fotos_Charata.html,Charata,SP_0067,Charata,Charata,,Galliformes,
+OK,EXACT_SLUG,Galliformes/Fotos_PavaDeMonteAlisera.html,PavaDeMonteAlisera,SP_0063,Pava de Monte Alisera,PavaDeMonteAlisera,,Galliformes,
+OK,EXACT_SLUG,Galliformes/Fotos_PavaDeMonteComun.html,PavaDeMonteComun,SP_0064,Pava de Monte Común,PavaDeMonteComun,,Galliformes,
+OK,EXACT_SLUG,Galliformes/Fotos_PavaDeMonteYunguena.html,PavaDeMonteYunguena,SP_0065,Pava de Monte Yungueña,PavaDeMonteYunguena,,Galliformes,
+OK,EXACT_SLUG,Galliformes/Fotos_Yacupoi.html,Yacupoi,SP_0062,Yacupoí,Yacupoi,,Galliformes,
+OK,EXACT_SLUG,Galliformes/Fotos_Yacutinga.html,Yacutinga,SP_0060,Yacutinga,Yacutinga,,Galliformes,
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_AnambeCastano.html,AnambeCastano,SP_0576,Anambé Castaño,AnambeCastano,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_AnambeComun.html,AnambeComun,SP_0577,Anambé Común,AnambeComun,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_AnambeGrande.html,AnambeGrande,SP_0578,Anambé Grande,AnambeGrande,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_AnambeVerdoso.html,AnambeVerdoso,SP_0575,Anambé Verdoso,AnambeVerdoso,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_AraneroCaraNegra.html,AraneroCaraNegra,SP_0957,Arañero Cara Negra,AraneroCaraNegra,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_AraneroCoronaRojiza.html,AraneroCoronaRojiza,SP_0968,Arañero Corona Rojiza,AraneroCoronaRojiza,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_AraneroCoronadoChico.html,AraneroCoronadoChico,SP_0966,Arañero Coronado Chico,AraneroCoronadoChico,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_AraneroCoronadoGrande.html,AraneroCoronadoGrande,SP_0965,Arañero Coronado Grande,AraneroCoronadoGrande,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_AraneroEstriado.html,AraneroEstriado,SP_0960,Arañero Estriado,AraneroEstriado,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_AraneroRibereno.html,AraneroRibereno,SP_0964,Arañero Ribereño,AraneroRibereno,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_AraneroSilbon.html,AraneroSilbon,SP_0962,Arañero Silbón,AraneroSilbon,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_Arapasu.html,Arapasu,SP_0759,Arapasú,Arapasu,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_BailarinOlivaceo.html,BailarinOlivaceo,SP_0570,Bailarín Oliváceo,BailarinOlivaceo,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_BailarinVerde.html,BailarinVerde,SP_0580,Bailarín Verde,BailarinVerde,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_BandurritaChaquena.html,BandurritaChaquena,SP_0786,Bandurrita Chaqueña,BandurritaChaquena,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_BandurritaColaCastana.html,BandurritaColaCastana,SP_0773,Bandurrita Cola Castaña,BandurritaColaCastana,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_BandurritaPatagonica.html,BandurritaPatagonica,SP_0775,Bandurrita Patagónica,BandurritaPatagonica,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_BandurritaPicoRecto.html,BandurritaPicoRecto,SP_0774,Bandurrita Pico Recto,BandurritaPicoRecto,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Barullero.html,Barullero,SP_0600,Barullero,Barullero,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_BataraCopeton.html,BataraCopeton,SP_0723,Batará Copetón,BataraCopeton,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_BataraEstriado.html,BataraEstriado,SP_0718,Batará Estriado,BataraEstriado,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_BataraGoteado.html,BataraGoteado,SP_0721,Batará Goteado,BataraGoteado,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_BataraNegro.html,BataraNegro,SP_0734,Batará Negro,BataraNegro,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BenteveoChico.html,BenteveoChico,SP_0653,Benteveo Chico,BenteveoChico,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BenteveoComun.html,BenteveoComun,SP_0647,Benteveo Común,BenteveoComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BenteveoMediano.html,BenteveoMediano,SP_0649,Benteveo Mediano,BenteveoMediano,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BenteveoRayado.html,BenteveoRayado,SP_0651,Benteveo Rayado,BenteveoRayado,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BirroChico.html,BirroChico,SP_0598,Birro Chico,BirroChico,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BirroComun.html,BirroComun,SP_0597,Birro Común,BirroComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_Boyerito.html,Boyerito,SP_0941,Boyerito,Boyerito,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_BoyeroAlaAmarilla.html,BoyeroAlaAmarilla,SP_0939,Boyero Ala Amarilla,BoyeroAlaAmarilla,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_BoyeroCacique.html,BoyeroCacique,SP_0940,Boyero Cacique,BoyeroCacique,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_BoyeroNegro.html,BoyeroNegro,SP_0938,Boyero Negro,BoyeroNegro,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_BrasitaDeFuego.html,BrasitaDeFuego,SP_0982,Brasita de Fuego,BrasitaDeFuego,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BurlistoCastano.html,BurlistoCastano,SP_0638,Burlisto Castaño,BurlistoCastano,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BurlistoColaCastana.html,BurlistoColaCastana,SP_0642,Burlisto Cola Castaña,BurlistoColaCastana,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BurlistoCopeton.html,BurlistoCopeton,SP_0679,Burlisto Copetón,BurlistoCopeton,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BurlistoCoronaNegra.html,BurlistoCoronaNegra,SP_0639,Burlisto Corona Negra,BurlistoCoronaNegra,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BurlistoPicoCanela.html,BurlistoPicoCanela,SP_0640,Burlisto Pico Canela,BurlistoPicoCanela,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_BurlistoPicoNegro.html,BurlistoPicoNegro,SP_0641,Burlisto Pico Negro,BurlistoPicoNegro,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_CabecitanegraAndino.html,CabecitanegraAndino,SP_0921,Cabecitanegra Andino,CabecitanegraAndino,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_CabecitanegraAustral.html,CabecitanegraAustral,SP_0922,Cabecitanegra Austral,CabecitanegraAustral,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_CabecitanegraComun.html,CabecitanegraComun,SP_0919,Cabecitanegra Común,CabecitanegraComun,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CachiloCanela.html,CachiloCanela,SP_1056,Cachilo Canela,CachiloCanela,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_CachiloCejaAmarilla.html,CachiloCejaAmarilla,SP_0924,Cachilo Ceja Amarilla,CachiloCejaAmarilla,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_CachiloCoronaCastana.html,CachiloCoronaCastana,SP_0926,Cachilo Corona Castaña,CachiloCoronaCastana,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Motacillidae/Fotos_CachirlaChica.html,CachirlaChica,SP_0901,Cachirla Chica,CachirlaChica,,Passeriformes,Motacillidae
+OK,EXACT_SLUG,Passeriformes/Motacillidae/Fotos_CachirlaComun.html,CachirlaComun,SP_0909,Cachirla Común,CachirlaComun,,Passeriformes,Motacillidae
+OK,EXACT_SLUG,Passeriformes/Motacillidae/Fotos_CachirlaPalida.html,CachirlaPalida,SP_0905,Cachirla Pálida,CachirlaPalida,,Passeriformes,Motacillidae
+OK,EXACT_SLUG,Passeriformes/Motacillidae/Fotos_CachirlaPunena.html,CachirlaPunena,SP_0903,Cachirla Puneña,CachirlaPunena,,Passeriformes,Motacillidae
+OK,EXACT_SLUG,Passeriformes/Motacillidae/Fotos_CachirlaUnaCorta.html,CachirlaUnaCorta,SP_0902,Cachirla Uña Corta,CachirlaUnaCorta,,Passeriformes,Motacillidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CacholoteCastano.html,CacholoteCastano,SP_0829,Cacholote Castaño,CacholoteCastano,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CacholotePardo.html,CacholotePardo,SP_0830,Cacholote Pardo,CacholotePardo,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_CachuditoPicoAmarillo.html,CachuditoPicoAmarillo,SP_0634,Cachudito Pico Amarillo,CachuditoPicoAmarillo,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_CachuditoPicoNegro.html,CachuditoPicoNegro,SP_0635,Cachudito Pico Negro,CachuditoPicoNegro,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Mimidae/Fotos_CalandriaCastana.html,CalandriaCastana,SP_0880,Calandria Castaña,CalandriaCastana,,Passeriformes,Mimidae
+OK,EXACT_SLUG,Passeriformes/Mimidae/Fotos_CalandriaGrande.html,CalandriaGrande,SP_0878,Calandria Grande,CalandriaGrande,,Passeriformes,Mimidae
+OK,EXACT_SLUG,Passeriformes/Mimidae/Fotos_CalandriaMora.html,CalandriaMora,SP_0877,Calandria Mora,CalandriaMora,,Passeriformes,Mimidae
+OK,EXACT_SLUG,Passeriformes/Mimidae/Fotos_CalandriaReal.html,CalandriaReal,SP_0879,Calandria Real,CalandriaReal,,Passeriformes,Mimidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Calandrita.html,Calandrita,SP_0599,Calandrita,Calandrita,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-1Scleru/Fotos_CamineraColorada.html,CamineraColorada,SP_0755,Caminera Colorada,CamineraColorada,,Passeriformes,Furnariidae-1Scleru
+OK,EXACT_SLUG,Passeriformes/Furnariidae-1Scleru/Fotos_CamineraComun.html,CamineraComun,SP_0753,Caminera Común,CamineraComun,,Passeriformes,Furnariidae-1Scleru
+OK,EXACT_SLUG,Passeriformes/Furnariidae-1Scleru/Fotos_CamineraGrande.html,CamineraGrande,SP_0757,Caminera Grande,CamineraGrande,,Passeriformes,Furnariidae-1Scleru
+OK,EXACT_SLUG,Passeriformes/Furnariidae-1Scleru/Fotos_CamineraPatagonica.html,CamineraPatagonica,SP_0756,Caminera Patagónica,CamineraPatagonica,,Passeriformes,Furnariidae-1Scleru
+OK,EXACT_SLUG,Passeriformes/Furnariidae-1Scleru/Fotos_CamineraPunena.html,CamineraPunena,SP_0754,Caminera Puneña,CamineraPunena,,Passeriformes,Furnariidae-1Scleru
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CanasteroCastano.html,CanasteroCastano,SP_0836,Canastero Castaño,CanasteroCastano,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CanasteroChaqueno.html,CanasteroChaqueno,SP_0820,Canastero Chaqueño,CanasteroChaqueno,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CanasteroColudo.html,CanasteroColudo,SP_0826,Canastero Coludo,CanasteroColudo,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CanasteroPalido.html,CanasteroPalido,SP_0825,Canastero Pálido,CanasteroPalido,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CanasteroPatagonico.html,CanasteroPatagonico,SP_0835,Canastero Patagónico,CanasteroPatagonico,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CanasteroRojizo.html,CanasteroRojizo,SP_0819,Canastero Rojizo,CanasteroRojizo,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CapuchinoCanela.html,CapuchinoCanela,SP_1032,Capuchino Canela,CapuchinoCanela,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CapuchinoCastano.html,CapuchinoCastano,SP_1036,Capuchino Castaño,CapuchinoCastano,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CapuchinoCoronaGris.html,CapuchinoCoronaGris,SP_1037,Capuchino Corona Gris,CapuchinoCoronaGris,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CapuchinoGargantaCafe.html,CapuchinoGargantaCafe,SP_1033,Capuchino Garganta Café,CapuchinoGargantaCafe,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CapuchinoPechoBlanco.html,CapuchinoPechoBlanco,SP_1035,Capuchino Pecho Blanco,CapuchinoPechoBlanco,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CardenalAmarillo.html,CardenalAmarillo,SP_1073,Cardenal Amarillo,CardenalAmarillo,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CardenalComun.html,CardenalComun,SP_1077,Cardenal Común,CardenalComun,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Cardenilla.html,Cardenilla,SP_1078,Cardenilla,Cardenilla,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Celestino.html,Celestino,SP_1081,Celestino Común,Celestino,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CelestinoOlivaceo.html,CelestinoOlivaceo,SP_1082,Celestino Oliváceo,CelestinoOlivaceo,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_CerqueroAmarillo.html,CerqueroAmarillo,SP_0932,Cerquero Amarillo,CerqueroAmarillo,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_CerqueroCabezaCastana.html,CerqueroCabezaCastana,SP_0931,Cerquero Cabeza Castaña,CerqueroCabezaCastana,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_CerqueroDeCollarLitoraleno.html,CerqueroDeCollarLitoraleno,SP_0929,Cerquero de Collar Litoraleño,CerqueroDeCollarLitoraleno,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_CerqueroDeCollarYungueno.html,CerqueroDeCollarYungueno,SP_0928,Cerquero de Collar Yungueño,CerqueroDeCollarYungueno,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_CerqueroVientreBlanco.html,CerqueroVientreBlanco,SP_0927,Cerquero Vientre Blanco,CerqueroVientreBlanco,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_Charlatan.html,Charlatan,SP_0933,Charlatán,Charlatan,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_ChincheroChico.html,ChincheroChico,SP_0768,Chinchero Chico,ChincheroChico,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_ChincheroEnano.html,ChincheroEnano,SP_0764,Chinchero Enano,ChincheroEnano,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_ChincheroGrande.html,ChincheroGrande,SP_0767,Chinchero Grande,ChincheroGrande,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_Chingolo.html,Chingolo,SP_0930,Chingolo,Chingolo,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Vireonidae/Fotos_ChiviComun.html,ChiviComun,SP_0848,Chiví Común,ChiviComun,,Passeriformes,Vireonidae
+OK,EXACT_SLUG,Passeriformes/Vireonidae/Fotos_ChiviCoronado.html,ChiviCoronado,SP_0847,Chiví Coronado,ChiviCoronado,,Passeriformes,Vireonidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_ChocaAmarilla.html,ChocaAmarilla,SP_0726,Choca Amarilla,ChocaAmarilla,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_ChocaComun.html,ChocaComun,SP_0731,Choca Común,ChocaComun,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_ChocaCoronaRojiza.html,ChocaCoronaRojiza,SP_0730,Choca Corona Rojiza,ChocaCoronaRojiza,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_ChocaListada.html,ChocaListada,SP_0729,Choca Listada,ChocaListada,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_Chopi.html,Chopi,SP_0948,Chopí,Chopi,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_Chororo.html,Chororo,SP_0720,Chororó,Chororo,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_Chotoy.html,Chotoy,SP_0837,Chotoy,Chotoy,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Rhinocryptidae/Fotos_Chucao.html,Chucao,SP_0738,Chucao,Chucao,,Passeriformes,Rhinocryptidae
+OK,EXACT_SLUG,Passeriformes/Rhinocryptidae/Fotos_ChurrinAndino.html,ChurrinAndino,SP_0746,Churrín Andino,ChurrinAndino,,Passeriformes,Rhinocryptidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Churrinche.html,Churrinche,SP_0668,Churrinche,Churrinche,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_Colilarga.html,Colilarga,SP_0805,Colilarga,Colilarga,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_ColuditoColaNegra.html,ColuditoColaNegra,SP_0809,Coludito Cola Negra,ColuditoColaNegra,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_ColuditoCopeton.html,ColuditoCopeton,SP_0808,Coludito Copetón,ColuditoCopeton,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_ColudoChico.html,ColudoChico,SP_1024,Coludo Chico,ColudoChico,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_ColudoGrande.html,ColudoGrande,SP_1023,Coludo Grande,ColudoGrande,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_ComeseboAndino.html,ComeseboAndino,SP_0991,Comesebo Andino,ComeseboAndino,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_ComeseboCabezaNegra.html,ComeseboCabezaNegra,SP_0990,Comesebo Cabeza Negra,ComeseboCabezaNegra,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_ComeseboPatagonico.html,ComeseboPatagonico,SP_0992,Comesebo Patagónico,ComeseboPatagonico,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CorbatitaBlanco.html,CorbatitaBlanco,SP_1029,Corbatita Blanco,CorbatitaBlanco,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CorbatitaComun.html,CorbatitaComun,SP_1041,Corbatita Común,CorbatitaComun,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CorbatitaDomino.html,CorbatitaDomino,SP_1045,Corbatita Dominó,CorbatitaDomino,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_CorbatitaOvero.html,CorbatitaOvero,SP_1028,Corbatita Overo,CorbatitaOvero,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Cotingidae/Fotos_Cortarramas.html,Cortarramas,SP_0566,Cortarramas,Cortarramas,,Passeriformes,Cotingidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_Crestudo.html,Crestudo,SP_0812,Crestudo,Crestudo,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Curio.html,Curio,SP_1038,Curió,Curio,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CurutieBlanco.html,CurutieBlanco,SP_0833,Curutié Blanco,CurutieBlanco,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CurutieColorado.html,CurutieColorado,SP_0838,Curutié Colorado,CurutieColorado,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_CurutieOcraceo.html,CurutieOcraceo,SP_0832,Curutié Ocráceo,CurutieOcraceo,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_DiucaComun.html,DiucaComun,SP_1074,Diuca Común,DiucaComun,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Diucon.html,Diucon,SP_0703,Diucón,Diucon,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DoraditoComun.html,DoraditoComun,SP_0628,Doradito Común,DoraditoComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DoraditoCopeton.html,DoraditoCopeton,SP_0625,Doradito Copetón,DoraditoCopeton,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DoraditoLimon.html,DoraditoLimon,SP_0629,Doradito Limón,DoraditoLimon,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaCanela.html,DormilonaCanela,SP_0690,Dormilona Canela,DormilonaCanela,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaCaraNegra.html,DormilonaCaraNegra,SP_0688,Dormilona Cara Negra,DormilonaCaraNegra,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaCejaBlanca.html,DormilonaCejaBlanca,SP_0689,Dormilona Ceja Blanca,DormilonaCejaBlanca,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaCenicienta.html,DormilonaCenicienta,SP_0685,Dormilona Cenicienta,DormilonaCenicienta,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaChica.html,DormilonaChica,SP_0683,Dormilona Chica,DormilonaChica,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaFraile.html,DormilonaFraile,SP_0686,Dormilona Fraile,DormilonaFraile,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaFrenteNegra.html,DormilonaFrenteNegra,SP_0691,Dormilona Frente Negra,DormilonaFrenteNegra,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_DormilonaGris.html,DormilonaGris,SP_0687,Dormilona Gris,DormilonaGris,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspartilleroAustral.html,EspartilleroAustral,SP_0822,Espartillero Austral,EspartilleroAustral,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspartilleroEnano.html,EspartilleroEnano,SP_0828,Espartillero Enano,EspartilleroEnano,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspartilleroPampeano.html,EspartilleroPampeano,SP_0821,Espartillero Pampeano,EspartilleroPampeano,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_EspigueroNegro.html,EspigueroNegro,SP_1066,Espiguero Negro,EspigueroNegro,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspineroAndino.html,EspineroAndino,SP_0814,Espinero Andino,EspineroAndino,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspineroChico.html,EspineroChico,SP_0815,Espinero Chico,EspineroChico,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspineroFrenteRojiza.html,EspineroFrenteRojiza,SP_0813,Espinero Frente Rojiza,EspineroFrenteRojiza,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspineroGrande.html,EspineroGrande,SP_0818,Espinero Grande,EspineroGrande,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspineroPechoManchado.html,EspineroPechoManchado,SP_0817,Espinero Pecho Manchado,EspineroPechoManchado,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_EspineroSerrano.html,EspineroSerrano,SP_0816,Espinero Serrano,EspineroSerrano,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Sturnidae/Fotos_EstorninoCrestado.html,EstorninoCrestado,SP_0882,Estornino Crestado,EstorninoCrestado,,Passeriformes,Sturnidae
+OK,EXACT_SLUG,Passeriformes/Sturnidae/Fotos_EstorninoPinto.html,EstorninoPinto,SP_0881,Estornino Pinto,EstorninoPinto,,Passeriformes,Sturnidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_Federal.html,Federal,SP_0946,Federal,Federal,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_FiofioCoronaDorada.html,FiofioCoronaDorada,SP_0606,Fiofío Corona Dorada,FiofioCoronaDorada,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_FiofioOscuro.html,FiofioOscuro,SP_0609,Fiofío Oscuro,FiofioOscuro,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_FiofioPicoCorto.html,FiofioPicoCorto,SP_0611,Fiofío Pico Corto,FiofioPicoCorto,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_FiofioPlomizo.html,FiofioPlomizo,SP_0607,Fiofío Plomizo,FiofioPlomizo,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_FruteroAzul.html,FruteroAzul,SP_1075,Frutero Azul,FruteroAzul,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_FruteroCoronaAmarilla.html,FruteroCoronaAmarilla,SP_0981,Frutero Corona Amarilla,FruteroCoronaAmarilla,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_FruteroCoronado.html,FruteroCoronado,SP_0983,Frutero Coronado,FruteroCoronado,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_FruteroNegro.html,FruteroNegro,SP_0984,Frutero Negro,FruteroNegro,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_FruteroOvero.html,FruteroOvero,SP_1076,Frutero Overo,FruteroOvero,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Emberizidae/Fotos_FruteroYungueno.html,FruteroYungueno,SP_0923,Frutero Yungueño,FruteroYungueno,,Passeriformes,Emberizidae
+OK,EXACT_SLUG,Passeriformes/Cardinalidae/Fotos_FuegueroComun.html,FuegueroComun,SP_0974,Fueguero Común,FuegueroComun,,Passeriformes,Cardinalidae
+OK,EXACT_SLUG,Passeriformes/Rhinocryptidae/Fotos_GallitoArena.html,GallitoArena,SP_0742,Gallito Arena,GallitoArena,,Passeriformes,Rhinocryptidae
+OK,EXACT_SLUG,Passeriformes/Rhinocryptidae/Fotos_GallitoCopeton.html,GallitoCopeton,SP_0743,Gallito Copetón,GallitoCopeton,,Passeriformes,Rhinocryptidae
+OK,EXACT_SLUG,Passeriformes/Melanopareiidae/Fotos_GallitoDeCollar.html,GallitoDeCollar,SP_0716,Gallito de Collar,GallitoDeCollar,,Passeriformes,Melanopareiidae
+OK,EXACT_SLUG,Passeriformes/Rhinocryptidae/Fotos_GallitoOvero.html,GallitoOvero,SP_0741,Gallito Overo,GallitoOvero,,Passeriformes,Rhinocryptidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_GauchoChico.html,GauchoChico,SP_0714,Gaucho Chico,GauchoChico,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_GauchoComun.html,GauchoComun,SP_0713,Gaucho Común,GauchoComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_GauchoGrande.html,GauchoGrande,SP_0712,Gaucho Grande,GauchoGrande,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_GauchoSerrano.html,GauchoSerrano,SP_0710,Gaucho Serrano,GauchoSerrano,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_Golondrina.html,Golondrina,SP_0224,Gaviotín Golondrina,Golondrina,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaAlaBlanca.html,GolondrinaAlaBlanca,SP_0856,Golondrina Ala Blanca,GolondrinaAlaBlanca,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaBarranquera.html,GolondrinaBarranquera,SP_0864,Golondrina Barranquera,GolondrinaBarranquera,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaCabezaRojiza.html,GolondrinaCabezaRojiza,SP_0865,Golondrina Cabeza Rojiza,GolondrinaCabezaRojiza,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaCejaBlanca.html,GolondrinaCejaBlanca,SP_0857,Golondrina Ceja Blanca,GolondrinaCejaBlanca,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaDomestica.html,GolondrinaDomestica,SP_0859,Golondrina Doméstica,GolondrinaDomestica,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaNegra.html,GolondrinaNegra,SP_0860,Golondrina Negra,GolondrinaNegra,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaParda.html,GolondrinaParda,SP_0861,Golondrina Parda,GolondrinaParda,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaPatagonica.html,GolondrinaPatagonica,SP_0858,Golondrina Patagónica,GolondrinaPatagonica,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaRabadillaCanela.html,GolondrinaRabadillaCanela,SP_0868,Golondrina Rabadilla Canela,GolondrinaRabadillaCanela,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaRiberena.html,GolondrinaRiberena,SP_0862,Golondrina Ribereña,GolondrinaRiberena,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaTijerita.html,GolondrinaTijerita,SP_0867,Golondrina Tijerita,GolondrinaTijerita,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Hirundinidae/Fotos_GolondrinaZapadora.html,GolondrinaZapadora,SP_0855,Golondrina Zapadora,GolondrinaZapadora,,Passeriformes,Hirundinidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_HorneritoCopeton.html,HorneritoCopeton,SP_0791,Hornerito Copetón,HorneritoCopeton,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_HorneroComun.html,HorneroComun,SP_0790,Hornero,HorneroComun,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_JilgueroAustral.html,JilgueroAustral,SP_1002,Jilguero Austral,JilgueroAustral,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_JilgueroCaraGris.html,JilgueroCaraGris,SP_0997,Jilguero Cara Gris,JilgueroCaraGris,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_JilgueroDorado.html,JilgueroDorado,SP_1003,Jilguero Dorado,JilgueroDorado,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_JilgueroGrande.html,JilgueroGrande,SP_0999,Jilguero Grande,JilgueroGrande,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_JilgueroOlivaceo.html,JilgueroOlivaceo,SP_1000,Jilguero Oliváceo,JilgueroOlivaceo,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Vireonidae/Fotos_JuanChiviro.html,JuanChiviro,SP_0846,Juan Chiviro,JuanChiviro,,Passeriformes,Vireonidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_Junquero.html,Junquero,SP_0789,Junquero,Junquero,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Lavandera.html,Lavandera,SP_0665,Lavandera,Lavandera,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_Lenatero.html,Lenatero,SP_0811,Leñatero,Lenatero,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_LoicaComun.html,LoicaComun,SP_0936,Loica Común,LoicaComun,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_Macuquito.html,Macuquito,SP_0787,Macuquito,Macuquito,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_MaticoVenezolano.html,MaticoVenezolano,SP_0942,Matico,MaticoVenezolano,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Mielero.html,Mielero,SP_1065,Mielero,Mielero,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Misto.html,Misto,SP_1005,Misto,Misto,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MonjitaBlanca.html,MonjitaBlanca,SP_0702,Monjita Blanca,MonjitaBlanca,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MonjitaCastana.html,MonjitaCastana,SP_0707,Monjita Castaña,MonjitaCastana,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MonjitaChocolate.html,MonjitaChocolate,SP_0708,Monjita Chocolate,MonjitaChocolate,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MonjitaCoronada.html,MonjitaCoronada,SP_0705,Monjita Coronada,MonjitaCoronada,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MonjitaDominicana.html,MonjitaDominicana,SP_0671,Monjita Dominica,MonjitaDominicana,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MonjitaGris.html,MonjitaGris,SP_0704,Monjita Gris,MonjitaGris,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_MonteritaCabezaNegra.html,MonteritaCabezaNegra,SP_1060,Monterita Cabeza Negra,MonteritaCabezaNegra,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_MonteritaCanela.html,MonteritaCanela,SP_1051,Monterita Canela,MonteritaCanela,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_MonteritaCejaRojiza.html,MonteritaCejaRojiza,SP_1057,Monterita Ceja Rojiza,MonteritaCejaRojiza,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_MonteritaDeCollar.html,MonteritaDeCollar,SP_1059,Monterita de Collar,MonteritaDeCollar,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_MonteritaLitoral.html,MonteritaLitoral,SP_1058,Monterita Litoraleña,MonteritaLitoral,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaCabezaCanela.html,MosquetaCabezaCanela,SP_0592,Mosqueta Cabeza Canela,MosquetaCabezaCanela,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaCejaAmarilla.html,MosquetaCejaAmarilla,SP_0617,Mosqueta Ceja Amarilla,MosquetaCejaAmarilla,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaCejaBlanca.html,MosquetaCejaBlanca,SP_0674,Mosqueta Ceja Blanca,MosquetaCejaBlanca,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaComun.html,MosquetaComun,SP_0588,Mosqueta Común,MosquetaComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaCoronaGris.html,MosquetaCoronaGris,SP_0619,Mosqueta Corona Gris,MosquetaCoronaGris,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaCoronaOliva.html,MosquetaCoronaOliva,SP_0618,Mosqueta Corona Oliva,MosquetaCoronaOliva,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaCoronaParda.html,MosquetaCoronaParda,SP_0585,Mosqueta Corona Parda,MosquetaCoronaParda,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaEnana.html,MosquetaEnana,SP_0596,Mosqueta Enana,MosquetaEnana,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaEstriada.html,MosquetaEstriada,SP_0659,Mosqueta Estriada,MosquetaEstriada,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaMediaLuna.html,MosquetaMediaLuna,SP_0587,Mosqueta Media Luna,MosquetaMediaLuna,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaOjoDorado.html,MosquetaOjoDorado,SP_0595,Mosqueta Ojo Dorado,MosquetaOjoDorado,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaParda.html,MosquetaParda,SP_0675,Mosqueta Parda,MosquetaParda,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaPicoCurvo.html,MosquetaPicoCurvo,SP_0602,Mosqueta Pico Curvo,MosquetaPicoCurvo,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_MosquetaPicoPala.html,MosquetaPicoPala,SP_0591,Mosqueta Pico Pala,MosquetaPicoPala,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Mosquitero.html,Mosquitero,SP_0584,Mosquitero,Mosquitero,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Naranjero.html,Naranjero,SP_1069,Naranjero,Naranjero,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_Negrillo.html,Negrillo,SP_0920,Negrillo,Negrillo,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_PajonaleraPicoCurvo.html,PajonaleraPicoCurvo,SP_0788,Pajonalera Pico Curvo,PajonaleraPicoCurvo,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_PajonaleraPicoRecto.html,PajonaleraPicoRecto,SP_0831,Pajonalera Pico Recto,PajonaleraPicoRecto,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Payador.html,Payador,SP_1013,Payador Negro,Payador,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_PechoAmarilloComun.html,PechoAmarilloComun,SP_0954,Pecho Amarillo Común,PechoAmarilloComun,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_PechoAmarilloGrande.html,PechoAmarilloGrande,SP_0955,Pecho Amarillo Grande,PechoAmarilloGrande,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_PechoColorado.html,PechoColorado,SP_0934,Pecho Colorado,PechoColorado,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/IncertaeSedis/Fotos_PepiteroChico.html,PepiteroChico,SP_1015,Pepitero Chico,PepiteroChico,,Passeriformes,IncertaeSedis
+OK,EXACT_SLUG,Passeriformes/IncertaeSedis/Fotos_PepiteroDeCollar.html,PepiteroDeCollar,SP_1019,Pepitero de Collar,PepiteroDeCollar,,Passeriformes,IncertaeSedis
+OK,EXACT_SLUG,Passeriformes/IncertaeSedis/Fotos_PepiteroGris.html,PepiteroGris,SP_1016,Pepitero Gris,PepiteroGris,,Passeriformes,IncertaeSedis
+OK,EXACT_SLUG,Passeriformes/IncertaeSedis/Fotos_PepiteroVerdoso.html,PepiteroVerdoso,SP_1017,Pepitero Verdoso,PepiteroVerdoso,,Passeriformes,IncertaeSedis
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Peutren.html,Peutren,SP_0660,Peutrén,Peutren,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Picabuey.html,Picabuey,SP_0645,Picabuey,Picabuey,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_PicapaloOscuro.html,PicapaloOscuro,SP_0766,Picapalo Oscuro,PicapaloOscuro,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PicoDePlata.html,PicoDePlata,SP_0694,Pico de Plata,PicoDePlata,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PicochatoCabezon.html,PicochatoCabezon,SP_0636,Picochato Cabezón,PicochatoCabezon,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PicochatoGrande.html,PicochatoGrande,SP_0590,Picochato Grande,PicochatoGrande,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_PicoleznaPatagonico.html,PicoleznaPatagonico,SP_0772,Picolezna Patagónico,PicoleznaPatagonico,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_PicoleznaRojizo.html,PicoleznaRojizo,SP_0771,Picolezna Rojizo,PicoleznaRojizo,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_PijuiCanela.html,PijuiCanela,SP_0839,Pijuí Canela,PijuiCanela,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_PijuiCejaCanelaV.html,PijuiCejaCanelaV,SP_0845,Pijuí Ceja Canela,PijuiCejaCanelaV,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_PijuiColaParda.html,PijuiColaParda,SP_0843,Pijuí Cola Parda,PijuiColaParda,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_PijuiCoronaRojiza.html,PijuiCoronaRojiza,SP_0841,Pijuí Corona Rojiza,PijuiCoronaRojiza,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_PijuiFrenteGris.html,PijuiFrenteGris,SP_0844,Pijuí Frente Gris,PijuiFrenteGris,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_PijuiPlomizo.html,PijuiPlomizo,SP_0842,Pijuí Plomizo,PijuiPlomizo,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PiojitoComun.html,PiojitoComun,SP_0632,Piojito Común,PiojitoComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PiojitoGargantilla.html,PiojitoGargantilla,SP_0623,Piojito Gargantilla,PiojitoGargantilla,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PiojitoGris.html,PiojitoGris,SP_0631,Piojito Gris,PiojitoGris,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PiojitoSilbon.html,PiojitoSilbon,SP_0604,Piojito Silbón,PiojitoSilbon,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PiojitoTrinador.html,PiojitoTrinador,SP_0633,Piojito Trinador,PiojitoTrinador,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_PiquitodeoroComun.html,PiquitodeoroComun,SP_1011,Piquitodeoro Común,PiquitodeoroComun,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_PiquitodeoroGrande.html,PiquitodeoroGrande,SP_1012,Piquitodeoro Grande,PiquitodeoroGrande,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_PitajoGris.html,PitajoGris,SP_0662,Pitajo Gris,PitajoGris,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Pitangua.html,Pitangua,SP_0652,Pitanguá,Pitangua,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Parulidae/Fotos_Pitiayumi.html,Pitiayumi,SP_0959,Pitiayumí,Pitiayumi,,Passeriformes,Parulidae
+OK,EXACT_SLUG,Passeriformes/Cotingidae/Fotos_Rara.html,Rara,SP_0567,Rara,Rara,,Passeriformes,Cotingidae
+OK,EXACT_SLUG,Passeriformes/Troglodytidae/Fotos_RatonaAperdizada.html,RatonaAperdizada,SP_0872,Ratona Aperdizada,RatonaAperdizada,,Passeriformes,Troglodytidae
+OK,EXACT_SLUG,Passeriformes/Troglodytidae/Fotos_RatonaCejaBlanca.html,RatonaCejaBlanca,SP_0875,Ratona Ceja Blanca,RatonaCejaBlanca,,Passeriformes,Troglodytidae
+OK,EXACT_SLUG,Passeriformes/Troglodytidae/Fotos_RatonaComun.html,RatonaComun,SP_0873,Ratona Común,RatonaComun,,Passeriformes,Troglodytidae
+OK,EXACT_SLUG,Passeriformes/Troglodytidae/Fotos_RatonaGrande.html,RatonaGrande,SP_0871,Ratona Grande,RatonaGrande,,Passeriformes,Troglodytidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Sina/Fotos_Rayadito.html,Rayadito,SP_0804,Rayadito,Rayadito,,Passeriformes,Furnariidae-Sina
+OK,EXACT_SLUG,Passeriformes/Cardinalidae/Fotos_ReinamoraChica.html,ReinamoraChica,SP_0970,Reinamora Chica,ReinamoraChica,,Passeriformes,Cardinalidae
+OK,EXACT_SLUG,Passeriformes/Cardinalidae/Fotos_ReinamoraGrande.html,ReinamoraGrande,SP_0971,Reinamora Grande,ReinamoraGrande,,Passeriformes,Cardinalidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_RemolineraAndina.html,RemolineraAndina,SP_0800,Remolinera Andina,RemolineraAndina,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_RemolineraAraucana.html,RemolineraAraucana,SP_0803,Remolinera Araucana,RemolineraAraucana,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_RemolineraCastana.html,RemolineraCastana,SP_0802,Remolinera Castaña,RemolineraCastana,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_RemolineraChica.html,RemolineraChica,SP_0801,Remolinera Chica,RemolineraChica,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_RemolineraChocolate.html,RemolineraChocolate,SP_0799,Remolinera Chocolate,RemolineraChocolate,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Furn/Fotos_RemolineraComun.html,RemolineraComun,SP_0795,Remolinera Común,RemolineraComun,,Passeriformes,Furnariidae-Furn
+OK,EXACT_SLUG,Passeriformes/Cardinalidae/Fotos_ReyDelBosque.html,ReyDelBosque,SP_0969,Rey del Bosque,ReyDelBosque,,Passeriformes,Cardinalidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SaiAzul.html,SaiAzul,SP_0978,Saí Azul,SaiAzul,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SaiComunl.html,SaiComunl,SP_0988,Saí Común,SaiComunl,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SairaArcoiris.html,SairaArcoiris,SP_1079,Saíra Arcoiris,SairaArcoiris,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SairaDeAntifaz.html,SairaDeAntifaz,SP_1068,Saíra de Antifaz,SairaDeAntifaz,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SairaDorada.html,SairaDorada,SP_0979,Saíra Dorada,SairaDorada,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SietevestidosComun.html,SietevestidosComun,SP_1053,Sietevestidos Común,SietevestidosComun,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SietevestidosSerrano.html,SietevestidosSerrano,SP_1052,Sietevestidos Serrano,SietevestidosSerrano,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SobrepuestoComun.html,SobrepuestoComun,SP_0692,Sobrepuesto Común,SobrepuestoComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SobrepuestoPuneno.html,SobrepuestoPuneno,SP_0693,Sobrepuesto Puneño,SobrepuestoPuneno,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_SoldaditoComun.html,SoldaditoComun,SP_1072,Soldadito Común,SoldaditoComun,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SuiririAmarillo.html,SuiririAmarillo,SP_0682,Suirirí Amarillo,SuiririAmarillo,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SuiririBoreal.html,SuiririBoreal,SP_0658,Suirirí Boreal,SuiririBoreal,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SuiririComun.html,SuiririComun,SP_0616,Suirirí Común,SuiririComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SuiririPicoCorto.html,SuiririPicoCorto,SP_0663,Suirirí Pico Corto,SuiririPicoCorto,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SuiririReal.html,SuiririReal,SP_0657,Suirirí Real,SuiririReal,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_SuiririSilbon.html,SuiririSilbon,SP_0637,Suirirí Silbón,SuiririSilbon,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_TachuriCanela.html,TachuriCanela,SP_0630,Tachurí Canela,TachuriCanela,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_TachuriSietecolores.html,TachuriSietecolores,SP_0583,Tachurí Sietecolores,TachuriSietecolores,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_TangaraAlcalde.html,TangaraAlcalde,SP_0915,Tangará Alcalde,TangaraAlcalde,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_TangaraAmarillo.html,TangaraAmarillo,SP_0914,Tangará Amarillo,TangaraAmarillo,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_TangaraBonito.html,TangaraBonito,SP_0911,Tangará Bonito,TangaraBonito,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_TangaraCabezaCeleste.html,TangaraCabezaCeleste,SP_0910,Tangará Cabeza Celeste,TangaraCabezaCeleste,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Fringillidae/Fotos_TangaraComun.html,TangaraComun,SP_0912,Tangará Común,TangaraComun,,Passeriformes,Fringillidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_TangaraGris.html,TangaraGris,SP_1061,Tangará Gris,TangaraGris,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_Tarefero.html,Tarefero,SP_0758,Tarefero,Tarefero,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Mimidae/Fotos_Tenca.html,Tenca,SP_0876,Tenca,Tenca,,Passeriformes,Mimidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Tersina.html,Tersina,SP_0977,Tersina,Tersina,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_Ticotico.html,Ticotico,SP_0776,Ticotico Goteado,Ticotico,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_TicoticoCabezaNegra.html,TicoticoCabezaNegra,SP_0778,Ticotico Cabeza Negra,TicoticoCabezaNegra,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_TicoticoComun.html,TicoticoComun,SP_0781,Ticotico Común,TicoticoComun,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_TicoticoGrande.html,TicoticoGrande,SP_0782,Ticotico Grande,TicoticoGrande,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Phyl/Fotos_TicoticoOjoBlanco.html,TicoticoOjoBlanco,SP_0784,Ticotico Ojo Blanco,TicoticoOjoBlanco,,Passeriformes,Furnariidae-Phyl
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_Tijereta.html,Tijereta,SP_0656,Tijereta,Tijereta,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_Tijerilla.html,Tijerilla,SP_0574,Tijerilla,Tijerilla,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_TiluchiColorado.html,TiluchiColorado,SP_0732,Tiluchi Colorado,TiluchiColorado,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_TiluchiEnano.html,TiluchiEnano,SP_0719,Tiluchi Enano,TiluchiEnano,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Thamnophilidae/Fotos_TiluchiEstriado.html,TiluchiEstriado,SP_0733,Tiluchi Estriado,TiluchiEstriado,,Passeriformes,Thamnophilidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_TordoAmarillo.html,TordoAmarillo,SP_0953,Tordo Amarillo,TordoAmarillo,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_TordoGigante.html,TordoGigante,SP_0945,Tordo Gigante,TordoGigante,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_TordoMusico.html,TordoMusico,SP_0951,Tordo Músico,TordoMusico,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_TordoPatagonico.html,TordoPatagonico,SP_0947,Tordo Patagónico,TordoPatagonico,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_TordoPicoCorto.html,TordoPicoCorto,SP_0943,Tordo Pico Corto,TordoPicoCorto,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_TordoRenegrido.html,TordoRenegrido,SP_0944,Tordo Renegrido,TordoRenegrido,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_TrepadorColorado.html,TrepadorColorado,SP_0760,Trepador Colorado,TrepadorColorado,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_TrepadorGigante.html,TrepadorGigante,SP_0763,Trepador Gigante,TrepadorGigante,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Furnariidae-Dendro/Fotos_TrepadorOscuro.html,TrepadorOscuro,SP_0761,Trepador Oscuro,TrepadorOscuro,,Passeriformes,Furnariidae-Dendro
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_TuereChico.html,TuereChico,SP_0572,Tueré Chico,TuereChico,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_TuereEnmascarado.html,TuereEnmascarado,SP_0573,Tueré Enmascarado,TuereEnmascarado,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Tityridae/Fotos_TuereGrande.html,TuereGrande,SP_0571,Tueré Grande,TuereGrande,,Passeriformes,Tityridae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_TuquitoChico.html,TuquitoChico,SP_0643,Tuquito Chico,TuquitoChico,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_TuquitoGris.html,TuquitoGris,SP_0655,Tuquito Gris,TuquitoGris,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Corvidae/Fotos_UrracaComun.html,UrracaComun,SP_0852,Urraca Común,UrracaComun,,Passeriformes,Corvidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_VarilleroAlaAmarilla.html,VarilleroAlaAmarilla,SP_0950,Varillero Ala Amarilla,VarilleroAlaAmarilla,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_VarilleroCongo.html,VarilleroCongo,SP_0952,Varillero Congo,VarilleroCongo,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_VarilleroNegro.html,VarilleroNegro,SP_0949,Varillero Negro,VarilleroNegro,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Verdon.html,Verdon,SP_1022,Verdón,Verdon,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_ViuditaBlanca.html,ViuditaBlanca,SP_0666,Viudita Blanca,ViuditaBlanca,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_ViuditaChaquena.html,ViuditaChaquena,SP_0697,Viudita Chaqueña,ViuditaChaquena,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_ViuditaComun.html,ViuditaComun,SP_0698,Viudita Común,ViuditaComun,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_ViuditaDeRio.html,ViuditaDeRio,SP_0676,Viudita de Río,ViuditaDeRio,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_ViuditaEnmascarada.html,ViuditaEnmascarada,SP_0667,Viudita Enmascarada,ViuditaEnmascarada,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_ViuditaPicoCeleste.html,ViuditaPicoCeleste,SP_0696,Viudita Pico Celeste,ViuditaPicoCeleste,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_ViuditaPlomiza.html,ViuditaPlomiza,SP_0695,Viudita Plomiza,ViuditaPlomiza,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_Volatinero.html,Volatinero,SP_0980,Volatinero,Volatinero,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_YalAndino.html,YalAndino,SP_0994,Yal Andino,YalAndino,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_YalCarbonero.html,YalCarbonero,SP_1027,Yal Carbonero,YalCarbonero,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_YalChico.html,YalChico,SP_1008,Yal Chico,YalChico,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_YalNegro.html,YalNegro,SP_1025,Yal Negro,YalNegro,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_YalPlatero.html,YalPlatero,SP_1026,Yal Platero,YalPlatero,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Thraupidae/Fotos_YalPlomizo.html,YalPlomizo,SP_1009,Yal Plomizo,YalPlomizo,,Passeriformes,Thraupidae
+OK,EXACT_SLUG,Passeriformes/Icteridae/Fotos_Yapu.html,Yapu,SP_0937,Yapú,Yapu,,Passeriformes,Icteridae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_YetapaDeCollar.html,YetapaDeCollar,SP_0673,Yetapá de Collar,YetapaDeCollar,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_YetapaGrande.html,YetapaGrande,SP_0670,Yetapá Grande,YetapaGrande,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Tyrannidae/Fotos_YetapaNegro.html,YetapaNegro,SP_0664,Yetapá Negro,YetapaNegro,,Passeriformes,Tyrannidae
+OK,EXACT_SLUG,Passeriformes/Fotos_ZorzalCabezaNegra.html,ZorzalCabezaNegra,SP_0887,Zorzal Cabeza Negra,ZorzalCabezaNegra,,Passeriformes,
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalCabezaNegra.html,ZorzalCabezaNegra,SP_0887,Zorzal Cabeza Negra,ZorzalCabezaNegra,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalChalchalero.html,ZorzalChalchalero,SP_0892,Zorzal Chalchalero,ZorzalChalchalero,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalChiguanco.html,ZorzalChiguanco,SP_0888,Zorzal Chiguanco,ZorzalChiguanco,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalColorado.html,ZorzalColorado,SP_0897,Zorzal Colorado,ZorzalColorado,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalPatagonico.html,ZorzalPatagonico,SP_0891,Zorzal Patagónico,ZorzalPatagonico,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalSabia.html,ZorzalSabia,SP_0895,Zorzal Sabiá,ZorzalSabia,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalitoBoreal.html,ZorzalitoBoreal,SP_0885,Zorzalito Boreal,ZorzalitoBoreal,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Passeriformes/Fotos_ZorzalitoOvero.html,ZorzalitoOvero,SP_0884,Zorzalito Overo,ZorzalitoOvero,,Passeriformes,
+OK,EXACT_SLUG,Passeriformes/Turdidae/Fotos_ZorzalitoOvero.html,ZorzalitoOvero,SP_0884,Zorzalito Overo,ZorzalitoOvero,,Passeriformes,Turdidae
+OK,EXACT_SLUG,Pelecaniformes/Fotos_BandurriaAustral.html,BandurriaAustral,SP_0307,Bandurria Austral,BandurriaAustral,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_BandurriaBoreal.html,BandurriaBoreal,SP_0306,Bandurria Boreal,BandurriaBoreal,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_BandurriaMora.html,BandurriaMora,SP_0305,Bandurria Mora,BandurriaMora,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_Chiflon.html,Chiflon,SP_0322,Chiflón,Chiflon,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_CuervilloCaraPelada.html,CuervilloCaraPelada,SP_0310,Cuervillo Cara Pelada,CuervilloCaraPelada,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_CuervilloDeCanada.html,CuervilloDeCanada,SP_0311,Cuervillo de Cañada,CuervilloDeCanada,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_CuervilloPuneno.html,CuervilloPuneno,SP_0312,Cuervillo Puneño,CuervilloPuneno,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_EspatulaRosada.html,EspatulaRosada,SP_0313,Espátula Rosada,EspatulaRosada,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_GarcitaAzulada.html,GarcitaAzulada,SP_0326,Garcita Azulada,GarcitaAzulada,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_GarcitaBlanca.html,GarcitaBlanca,SP_0324,Garcita Blanca,GarcitaBlanca,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_GarcitaBueyera.html,GarcitaBueyera,SP_0328,Garcita Bueyera,GarcitaBueyera,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_GarzaAzul.html,GarzaAzul,SP_0323,Garza Azul,GarzaAzul,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_GarzaBlanca.html,GarzaBlanca,SP_0327,Garza Blanca,GarzaBlanca,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_GarzaBruja.html,GarzaBruja,SP_0325,Garza Bruja,GarzaBruja,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_GarzaMora.html,GarzaMora,SP_0329,Garza Mora,GarzaMora,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_HocoColorado.html,HocoColorado,SP_0315,Hocó Colorado,HocoColorado,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_MirasolComun.html,MirasolComun,SP_0318,Mirasol Común,MirasolComun,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_MirasolGrande.html,MirasolGrande,SP_0320,Mirasol Grande,MirasolGrande,,Pelecaniformes,
+OK,EXACT_SLUG,Pelecaniformes/Fotos_Tijerilla.html,Tijerilla,SP_0574,Tijerilla,Tijerilla,,Pelecaniformes,
+OK,EXACT_SLUG,Phoenicopteriformes/Fotos_FlamencoAustral.html,FlamencoAustral,SP_0073,Flamenco Austral,FlamencoAustral,,Phoenicopteriformes,
+OK,EXACT_SLUG,Phoenicopteriformes/Fotos_ParinaChica.html,ParinaChica,SP_0072,Parina Chica,ParinaChica,,Phoenicopteriformes,
+OK,EXACT_SLUG,Phoenicopteriformes/Fotos_ParinaGrande.html,ParinaGrande,SP_0071,Parina Grande,ParinaGrande,,Phoenicopteriformes,
+OK,EXACT_SLUG,Piciformes/Fotos_ArasariBanana.html,ArasariBanana,SP_0482,Arasarí Banana,ArasariBanana,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_ArasariFajado.html,ArasariFajado,SP_0483,Arasarí Fajado,ArasariFajado,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteritoComun.html,CarpinteritoComun,SP_0485,Carpinterito Común,CarpinteritoComun,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteritoCuelloCanela.html,CarpinteritoCuelloCanela,SP_0486,Carpinterito Cuello Canela,CarpinteritoCuelloCanela,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_Carpintero.html,Carpintero,SP_0488,Carpintero Negro,Carpintero,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroAndino.html,CarpinteroAndino,SP_0498,Carpintero Andino,CarpinteroAndino,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroBatarazChico.html,CarpinteroBatarazChico,SP_0509,Carpintero Bataraz Chico,CarpinteroBatarazChico,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroBatarazGrande.html,CarpinteroBatarazGrande,SP_0510,Carpintero Bataraz Grande,CarpinteroBatarazGrande,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroBlanco.html,CarpinteroBlanco,SP_0504,Carpintero Blanco,CarpinteroBlanco,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroCampestre.html,CarpinteroCampestre,SP_0499,Carpintero Campestre,CarpinteroCampestre,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroCopeteAmarillo.html,CarpinteroCopeteAmarillo,SP_0492,Carpintero Copete Amarillo,CarpinteroCopeteAmarillo,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroCopetePajizo.html,CarpinteroCopetePajizo,SP_0491,Carpintero Copete Pajizo,CarpinteroCopetePajizo,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroDelCardon.html,CarpinteroDelCardon,SP_0506,Carpintero del Cardón,CarpinteroDelCardon,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroDoradoComun.html,CarpinteroDoradoComun,SP_0493,Carpintero Dorado Común,CarpinteroDoradoComun,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroGargantaEstriada.html,CarpinteroGargantaEstriada,SP_0489,Carpintero Garganta Estriada,CarpinteroGargantaEstriada,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroGargantaNegra.html,CarpinteroGargantaNegra,SP_0501,Carpintero Garganta Negra,CarpinteroGargantaNegra,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroGigante.html,CarpinteroGigante,SP_0503,Carpintero Gigante,CarpinteroGigante,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroGrande.html,CarpinteroGrande,SP_0500,Carpintero Grande,CarpinteroGrande,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroLomoBlanco.html,CarpinteroLomoBlanco,SP_0502,Carpintero Lomo Blanco,CarpinteroLomoBlanco,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroOlivaOscuro.html,CarpinteroOlivaOscuro,SP_0507,Carpintero Oliva Oscuro,CarpinteroOlivaOscuro,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroPitio.html,CarpinteroPitio,SP_0497,Carpintero Pitío,CarpinteroPitio,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_CarpinteroRealComun.html,CarpinteroRealComun,SP_0496,Carpintero Real Común,CarpinteroRealComun,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_DoradoGris.html,DoradoGris,SP_0495,Carpintero Dorado Gris,DoradoGris,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_TucanGrande.html,TucanGrande,SP_0480,Tucán Grande,TucanGrande,,Piciformes,
+OK,EXACT_SLUG,Piciformes/Fotos_TucanPicoVerde.html,TucanPicoVerde,SP_0481,Tucán Pico Verde,TucanPicoVerde,,Piciformes,
+OK,EXACT_SLUG,Procellariiformes/Fotos_ZorzalCabezaNegra.html,ZorzalCabezaNegra,SP_0887,Zorzal Cabeza Negra,ZorzalCabezaNegra,,Procellariiformes,
+OK,EXACT_SLUG,Procellariiformes/Fotos_ZorzalitoOvero.html,ZorzalitoOvero,SP_0884,Zorzalito Overo,ZorzalitoOvero,,Procellariiformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_Cachana.html,Cachana,SP_0547,Cachaña,Cachana,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_CalancateAlaRoja.html,CalancateAlaRoja,SP_0557,Calancate Ala Roja,CalancateAlaRoja,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_CalancateComun.html,CalancateComun,SP_0556,Calancate Común,CalancateComun,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_CalancateFrenteDorada.html,CalancateFrenteDorada,SP_0555,Calancate Frente Dorada,CalancateFrenteDorada,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_CatitaChiriri.html,CatitaChiriri,SP_0535,Catita Chirirí,CatitaChiriri,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_CatitaSerranaChica.html,CatitaSerranaChica,SP_0531,Catita Serrana Chica,CatitaSerranaChica,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_CatitaSerranaGrande.html,CatitaSerranaGrande,SP_0530,Catita Serrana Grande,CatitaSerranaGrande,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_ChiripepeCabezaParda.html,ChiripepeCabezaParda,SP_0545,Chiripepé Cabeza Parda,ChiripepeCabezaParda,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_ChiripepeCabezaVerde.html,ChiripepeCabezaVerde,SP_0544,Chiripepé Cabeza Verde,ChiripepeCabezaVerde,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_CotorraComun.html,CotorraComun,SP_0534,Cotorra,CotorraComun,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_LoroAlisero.html,LoroAlisero,SP_0540,Loro Alisero,LoroAlisero,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_LoroBarranquero.html,LoroBarranquero,SP_0548,Loro Barranquero,LoroBarranquero,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_LoroHablador.html,LoroHablador,SP_0542,Loro Hablador,LoroHablador,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_LoroMaitaca.html,LoroMaitaca,SP_0538,Loro Maitaca,LoroMaitaca,,Psittaciformes,
+OK,EXACT_SLUG,Psittaciformes/Fotos_Nanday.html,Nanday,SP_0550,Ñanday,Nanday,,Psittaciformes,
+OK,EXACT_SLUG,Rheiformes/FotosRheas_Choique.html,Choique,SP_0001,Choique,Choique,,Rheiformes,
+OK,EXACT_SLUG,Rheiformes/FotosRheas_Nandu.html,Nandu,SP_0002,Ñandú,Nandu,,Rheiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_CabureChico.html,CabureChico,SP_0400,Caburé Chico,CabureChico,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_CabureGrande.html,CabureGrande,SP_0401,Caburé Grande,CabureGrande,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_LechucitaVizcachera.html,LechucitaVizcachera,SP_0398,Lechucita Vizcachera,LechucitaVizcachera,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_LechuzaDeCampanario.html,LechuzaDeCampanario,SP_0396,Lechuza de Campanario,LechuzaDeCampanario,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_LechuzonMochoChico.html,LechuzonMochoChico,SP_0412,Lechuzón Mocho Chico,LechuzonMochoChico,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_LechuzonMochoGrande.html,LechuzonMochoGrande,SP_0411,Lechuzón Mocho Grande,LechuzonMochoGrande,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_LechuzonOrejudo.html,LechuzonOrejudo,SP_0404,Lechuzón Orejudo,LechuzonOrejudo,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_Nacurutu.html,Nacurutu,SP_0406,Ñacurutú,Nacurutu,,Strigiformes,
+OK,EXACT_SLUG,Strigiformes/Fotos_Tucuquere.html,Tucuquere,SP_0405,Tucúquere,Tucuquere,,Strigiformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_ColibriNucaBlanca.html,ColibriNucaBlanca,SP_0361,Colibrí Nuca Blanca,ColibriNucaBlanca,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_Cometa.html,Cometa,SP_0373,Picaflor Cometa,Cometa,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_ErmitanoCanela.html,ErmitanoCanela,SP_0362,Ermitaño Canela,ErmitanoCanela,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorAndino.html,PicaflorAndino,SP_0375,Picaflor Andino,PicaflorAndino,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorBronceado.html,PicaflorBronceado,SP_0393,Picaflor Bronceado,PicaflorBronceado,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorComun.html,PicaflorComun,SP_0383,Picaflor Común,PicaflorComun,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorCopeton.html,PicaflorCopeton,SP_0384,Picaflor Copetón,PicaflorCopeton,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorCoronaViolacea.html,PicaflorCoronaViolacea,SP_0385,Picaflor Corona Violácea,PicaflorCoronaViolacea,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorDeBarbijo.html,PicaflorDeBarbijo,SP_0380,Picaflor de Barbijo,PicaflorDeBarbijo,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorEsmeralda.html,PicaflorEsmeralda,SP_0389,Picaflor Esmeralda,PicaflorEsmeralda,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorFrenteAzul.html,PicaflorFrenteAzul,SP_0369,Picaflor Frente Azul,PicaflorFrenteAzul,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorGargantaBlanca.html,PicaflorGargantaBlanca,SP_0391,Picaflor Garganta Blanca,PicaflorGargantaBlanca,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorGigante.html,PicaflorGigante,SP_0377,Picaflor Gigante,PicaflorGigante,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorNegro.html,PicaflorNegro,SP_0360,Picaflor Negro,PicaflorNegro,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorPuneno.html,PicaflorPuneno,SP_0374,Picaflor Puneño,PicaflorPuneno,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorRubi.html,PicaflorRubi,SP_0370,Picaflor Rubí,PicaflorRubi,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorVientreBlanco.html,PicaflorVientreBlanco,SP_0394,Picaflor Vientre Blanco,PicaflorVientreBlanco,,Trochiliformes,
+OK,EXACT_SLUG,Trochiliformes/Fotos_PicaflorVientreNegro.html,PicaflorVientreNegro,SP_0368,Picaflor Vientre Negro,PicaflorVientreNegro,,Trochiliformes,
+OK,EXACT_SLUG,Trogoniformes/Fotos_SurucuaAmarillo.html,SurucuaAmarillo,SP_0469,Surucuá Amarillo,SurucuaAmarillo,,Trogoniformes,
+OK,EXACT_SLUG,Trogoniformes/Fotos_SurucuaAurora.html,SurucuaAurora,SP_0467,Surucuá Aurora,SurucuaAurora,,Trogoniformes,
+OK,EXACT_SLUG,Trogoniformes/Fotos_SurucuaComun.html,SurucuaComun,SP_0468,Surucuá Común,SurucuaComun,,Trogoniformes,
