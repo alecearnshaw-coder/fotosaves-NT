@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-import { readFileSync, existsSync, readdirSync } from 'fs';
-import { join } from 'path';
+import { headers } from 'next/headers';
 
 export const dynamic = 'force-dynamic';
 
@@ -10,45 +9,35 @@ export async function GET() {
   // Check environment
   debug.VERCEL_URL = process.env.VERCEL_URL || 'not set';
   debug.NODE_ENV = process.env.NODE_ENV || 'not set';
-  debug.cwd = process.cwd();
   
-  // Check what directories exist
-  const checkPaths = [
-    'src/data',
-    'src/data/taxonomy',
-    'src/data/species',
-  ];
+  // Get origin from headers
+  const headersList = await headers();
+  const host = headersList.get('host');
+  const proto = headersList.get('x-forwarded-proto') || 'https';
+  const origin = host ? `${proto}://${host}` : 'unknown';
   
-  debug.pathsExist = {};
-  for (const p of checkPaths) {
-    const fullPath = join(process.cwd(), p);
-    try {
-      const exists = existsSync(fullPath);
-      (debug.pathsExist as Record<string, boolean>)[p] = exists;
-      if (exists) {
-        const files = readdirSync(fullPath).slice(0, 5);
-        (debug.pathsExist as Record<string, unknown>)[p + '_sample'] = files;
-      }
-    } catch (e) {
-      (debug.pathsExist as Record<string, string>)[p] = `error: ${e}`;
-    }
-  }
+  debug.host = host;
+  debug.proto = proto;
+  debug.origin = origin;
   
-  // Try to read species.json directly
+  // Try to fetch species.json from public folder
   try {
-    const speciesPath = join(process.cwd(), 'src/data/taxonomy/species.json');
-    if (existsSync(speciesPath)) {
-      const content = readFileSync(speciesPath, 'utf8');
-      const data = JSON.parse(content);
-      debug.speciesFileExists = true;
+    const url = `${origin}/data/taxonomy/species.json`;
+    debug.fetchUrl = url;
+    
+    const response = await fetch(url, { cache: 'no-store' });
+    debug.fetchStatus = response.status;
+    debug.fetchOk = response.ok;
+    
+    if (response.ok) {
+      const data = await response.json();
       debug.speciesCount = data.data?.length || 0;
-      debug.firstSlug = data.data?.[0]?.Slug || 'none';
       debug.sampleSlugs = data.data?.slice(0, 3).map((s: { Slug: string }) => s.Slug);
     } else {
-      debug.speciesFileExists = false;
+      debug.fetchError = await response.text();
     }
   } catch (e) {
-    debug.speciesReadError = String(e);
+    debug.fetchException = String(e);
   }
   
   return NextResponse.json(debug, { status: 200 });
