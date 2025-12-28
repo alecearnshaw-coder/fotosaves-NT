@@ -1,0 +1,6 @@
+@echo off
+echo Updating image counts...
+python update_taxonomy_counts.py
+echo.
+echo Update completed. Press any key to close...
+pause
