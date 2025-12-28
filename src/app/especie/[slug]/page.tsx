@@ -1,11 +1,10 @@
 import { notFound } from 'next/navigation';
-import fs from 'fs';
-import path from 'path';
+import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
 
-// Force dynamic rendering - data is read at runtime, not bundled at build time
+// Force dynamic rendering - data is fetched at runtime
 export const dynamic = 'force-dynamic';
 
 // Types for taxonomy data
@@ -88,17 +87,28 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Helper to load JSON data from public folder at runtime
-// With dynamic = 'force-dynamic', this reads at request time, not build time
-function loadJsonData<T>(relativePath: string): { data: T[] } | null {
+// Helper to fetch JSON data from the public folder via HTTP
+async function fetchJsonData<T>(relativePath: string, baseUrl: string): Promise<{ data: T[] } | null> {
   try {
-    // Read from the public folder - this is available at runtime
-    const fullPath = path.join(process.cwd(), 'public', relativePath);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    return JSON.parse(fileContents);
-  } catch {
+    const url = `${baseUrl}${relativePath}`;
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) {
+      console.error(`Failed to fetch ${url}: ${response.status}`);
+      return null;
+    }
+    return await response.json();
+  } catch (error) {
+    console.error(`Error fetching ${relativePath}:`, error);
     return null;
   }
+}
+
+// Get base URL from request headers
+async function getBaseUrl(): Promise<string> {
+  const headersList = await headers();
+  const host = headersList.get('host') || 'localhost:3000';
+  const protocol = headersList.get('x-forwarded-proto') || 'http';
+  return `${protocol}://${host}`;
 }
 
 // Get image path - check Subfamily first, then Family, then Order
@@ -182,7 +192,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const speciesData = loadJsonData<Species>('data/taxonomy/species.json');
+  const baseUrl = await getBaseUrl();
+  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json', baseUrl);
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -384,13 +395,16 @@ export default async function SpeciesPage({
   params: Promise<{ slug: string }> 
 }) {
   const { slug } = await params;
+  const baseUrl = await getBaseUrl();
   
-  // Load all taxonomy data from public folder (synchronous reads at runtime)
-  const speciesData = loadJsonData<Species>('data/taxonomy/species.json');
-  const ordersData = loadJsonData<Order>('data/taxonomy/orders.json');
-  const subordersData = loadJsonData<Suborder>('data/taxonomy/suborders.json');
-  const familiesData = loadJsonData<Family>('data/taxonomy/families.json');
-  const subfamiliesData = loadJsonData<Subfamily>('data/taxonomy/subfamilies.json');
+  // Fetch all taxonomy data from public folder via HTTP
+  const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
+    fetchJsonData<Species>('/data/taxonomy/species.json', baseUrl),
+    fetchJsonData<Order>('/data/taxonomy/orders.json', baseUrl),
+    fetchJsonData<Suborder>('/data/taxonomy/suborders.json', baseUrl),
+    fetchJsonData<Family>('/data/taxonomy/families.json', baseUrl),
+    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json', baseUrl),
+  ]);
   
   if (!speciesData) {
     notFound();
@@ -403,7 +417,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = loadJsonData<ImageData>(`data/species/${species.Species_ID}.json`);
+  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`, baseUrl);
   const images = imagesData?.data || [];
   
   // Get image path
