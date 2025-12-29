@@ -112,17 +112,20 @@ async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   }
 }
 
-// Get image path - check Subfamily first, then Family, then Order
+// Get image path - check Subfamily, then Family, then Suborder, then Order
 function getImagePath(
   species: Species, 
   orders: Order[], 
+  suborders: Suborder[],
   families: Family[],
   subfamilies: Subfamily[]
 ): string {
   const safeSubfamilies = subfamilies || [];
   const safeFamilies = families || [];
+  const safeSuborders = suborders || [];
   const safeOrders = orders || [];
   
+  // 1. Check Subfamily path first
   if (species.Subfamily_Sci) {
     const subfamily = safeSubfamilies.find(sf => sf.Subfamily_Sci === species.Subfamily_Sci);
     if (subfamily?.SF_Path) {
@@ -130,11 +133,21 @@ function getImagePath(
     }
   }
   
+  // 2. Check Family path
   const family = safeFamilies.find(f => f.Family_Name_Sci === species.Family_Sci);
   if (family?.Family_Path) {
     return family.Family_Path;
   }
   
+  // 3. Check Suborder path (for orders like Charadriiformes that are subdivided)
+  if (species.Suborder_Sci) {
+    const suborder = safeSuborders.find(so => so.SO_Name_Sci === species.Suborder_Sci);
+    if (suborder?.SO_Path) {
+      return suborder.SO_Path;
+    }
+  }
+  
+  // 4. Fall back to Order path
   const order = safeOrders.find(o => o.Order_Name_Sci === species.Order_Sci);
   return order?.Order_Path || '';
 }
@@ -423,6 +436,7 @@ export default async function SpeciesPage({
   const imagePath = getImagePath(
     species, 
     ordersData?.data || [], 
+    subordersData?.data || [],
     familiesData?.data || [],
     subfamiliesData?.data || []
   );
