@@ -86,10 +86,11 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Get origin URL - use VERCEL_URL on Vercel, localhost for dev
+// Get origin URL - use production domain on Vercel to avoid preview auth issues
 function getOrigin(): string {
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
+  // Use production domain to bypass preview deployment protection
+  if (process.env.VERCEL) {
+    return 'https://fotosaves-nt.vercel.app';
   }
   return 'http://localhost:3000';
 }

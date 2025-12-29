@@ -7,11 +7,17 @@ export async function GET(request: Request) {
   const url = new URL(request.url);
   debug.requestUrl = request.url;
   debug.host = url.host;
-  debug.origin = url.origin;
+  
+  // Use production domain instead of preview URL
+  const origin = process.env.VERCEL 
+    ? 'https://fotosaves-nt.vercel.app' 
+    : 'http://localhost:3000';
+  debug.origin = origin;
+  debug.VERCEL = process.env.VERCEL || 'not set';
   debug.VERCEL_URL = process.env.VERCEL_URL || 'not set';
   
-  // Try to fetch species.json using the request's origin
-  const fetchUrl = `${url.origin}/data/taxonomy/species.json`;
+  // Try to fetch species.json using production domain
+  const fetchUrl = `${origin}/data/taxonomy/species.json`;
   debug.fetchUrl = fetchUrl;
   
   try {
@@ -24,7 +30,8 @@ export async function GET(request: Request) {
       debug.speciesCount = data.data?.length || 0;
       debug.firstSlug = data.data?.[0]?.Slug || 'none';
     } else {
-      debug.fetchErrorText = await response.text().catch(() => 'could not read');
+      const text = await response.text();
+      debug.fetchErrorText = text.substring(0, 200) + '...';
     }
   } catch (e) {
     debug.fetchException = String(e);
