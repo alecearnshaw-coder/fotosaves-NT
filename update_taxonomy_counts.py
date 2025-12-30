@@ -48,15 +48,12 @@ def update_taxonomy_counts():
 
     print("Loading taxonomy data...")
 
-    # Base path for data files (src/data is the source of truth)
-    DATA_BASE = 'src/data'
-
     # Load all taxonomy files
-    species_data = load_json_file(f'{DATA_BASE}/taxonomy/species.json', report_missing=True)
-    families_data = load_json_file(f'{DATA_BASE}/taxonomy/families.json')
-    orders_data = load_json_file(f'{DATA_BASE}/taxonomy/orders.json')
-    subfamilies_data = load_json_file(f'{DATA_BASE}/taxonomy/subfamilies.json')
-    suborders_data = load_json_file(f'{DATA_BASE}/taxonomy/suborders.json')
+    species_data = load_json_file('Data/taxonomy/species.json', report_missing=True)
+    families_data = load_json_file('Data/taxonomy/families.json')
+    orders_data = load_json_file('Data/taxonomy/orders.json')
+    subfamilies_data = load_json_file('Data/taxonomy/subfamilies.json')
+    suborders_data = load_json_file('Data/taxonomy/suborders.json')
 
     if not species_data:
         print("Error: Could not load species taxonomy file")
@@ -69,7 +66,7 @@ def update_taxonomy_counts():
     # Scan SP_*.json to populate Image_Cnt in species.json
     print("Scanning species files for image counts...")
     species_counts = {}
-    sp_files = glob.glob(f'{DATA_BASE}/species/SP_*.json')
+    sp_files = glob.glob('Data/species/SP_*.json')
     for sp_path in sp_files:
         sp_json = load_json_file(sp_path)
         if not sp_json:
@@ -93,7 +90,7 @@ def update_taxonomy_counts():
             record['Image_Cnt'] = species_counts[sid]
             updated_species_records += 1
     print(f"Updated Image_Cnt for {updated_species_records} species from SP files")
-    save_json_file(f'{DATA_BASE}/taxonomy/species.json', species_data)
+    save_json_file('Data/taxonomy/species.json', species_data)
 
     # Initialize counters
     subfamily_counts = defaultdict(lambda: {'species': 0, 'images': 0})
@@ -160,7 +157,7 @@ def update_taxonomy_counts():
                 subfamily['Species_Cnt'] = subfamily_counts[sf_name]['species']
                 subfamily['Image_Cnt'] = subfamily_counts[sf_name]['images']
 
-        save_json_file(f'{DATA_BASE}/taxonomy/subfamilies.json', subfamilies_data)
+        save_json_file('Data/taxonomy/subfamilies.json', subfamilies_data)
     else:
         print("Warning: subfamilies_data is None")
 
@@ -174,7 +171,7 @@ def update_taxonomy_counts():
                 family['Species_Cnt'] = family_counts[f_name]['species']
                 family['Image_Cnt'] = family_counts[f_name]['images']
 
-        save_json_file(f'{DATA_BASE}/taxonomy/families.json', families_data)
+        save_json_file('Data/taxonomy/families.json', families_data)
     else:
         print("Warning: families_data is None")
 
@@ -188,7 +185,7 @@ def update_taxonomy_counts():
                 suborder['Species_Cnt'] = suborder_counts[so_name]['species']
                 suborder['Image_Cnt'] = suborder_counts[so_name]['images']
 
-        save_json_file(f'{DATA_BASE}/taxonomy/suborders.json', suborders_data)
+        save_json_file('Data/taxonomy/suborders.json', suborders_data)
     else:
         print("Warning: suborders_data is None")
 
@@ -201,7 +198,7 @@ def update_taxonomy_counts():
                 order['Species_Cnt'] = order_counts[o_name]['species']
                 order['Image_Cnt'] = order_counts[o_name]['images']
 
-        save_json_file(f'{DATA_BASE}/taxonomy/orders.json', orders_data)
+        save_json_file('Data/taxonomy/orders.json', orders_data)
 
     # Create SiteStats.json with totals
     print("Creating SiteStats.json...")
@@ -215,7 +212,7 @@ def update_taxonomy_counts():
         "description": "Total species and image counts from actual image files (top level sum only)"
     }
 
-    save_json_file(f'{DATA_BASE}/taxonomy/SiteStats.json', site_stats)
+    save_json_file('Data/taxonomy/SiteStats.json', site_stats)
 
     # Print summary
     print("\n=== TAXONOMY COUNT SUMMARY ===")
