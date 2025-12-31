@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
 
-// Force dynamic rendering
-export const dynamic = 'force-dynamic';
+// Incremental Static Regeneration - rebuild every 24 hours
+export const revalidate = 86400; // 24 hours in seconds
 
 // Types for taxonomy data
 interface Species {
