@@ -365,7 +365,7 @@ const pageStyles = `
 
   /* Fix anchor scrolling to account for fixed header */
   .species-section {
-    scroll-margin-top: 80px; /* Adjust based on header height */
+    scroll-margin-top: 40px; /* Adjust based on header height */
   }
 
   /* Smooth scrolling for anchor navigation */
