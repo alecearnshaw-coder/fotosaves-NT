@@ -646,24 +646,24 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     case 'suborder':
       suborderRow = suborders.find(so => so.SO_Name_Sci === groupID);
       if (suborderRow) {
-        orderRow = orders.find(o => o.Order_ID === suborderRow.Parent_ID);
+        orderRow = orders.find(o => o.Order_ID === suborderRow!.Parent_Order_ID);
       }
       break;
     case 'family':
       familyRow = families.find(f => f.Family_Name_Sci === groupID);
       if (familyRow) {
-        if (familyRow.Suborder_ID) {
-          suborderRow = suborders.find(so => so.SO_ID === familyRow.Suborder_ID);
+        if (familyRow!.Suborder_ID) {
+          suborderRow = suborders.find(so => so.SO_ID === familyRow!.Suborder_ID);
         }
-        orderRow = orders.find(o => o.Order_ID === familyRow.Parent_Order_ID);
+        orderRow = orders.find(o => o.Order_ID === familyRow!.Parent_Order_ID);
       }
       break;
     case 'subfamily':
       subfamilyRow = subfamilies.find(sf => sf.Subfamily_Sci === groupID);
       if (subfamilyRow) {
-        familyRow = families.find(f => f.Family_ID === subfamilyRow.Family_ID);
+        familyRow = families.find(f => f.Family_ID === subfamilyRow!.Family_ID);
         if (familyRow) {
-          orderRow = orders.find(o => o.Order_ID === familyRow.Parent_Order_ID);
+          orderRow = orders.find(o => o.Order_ID === familyRow!.Parent_Order_ID);
         }
       }
       break;
