@@ -1,3 +1,4 @@
+import React from 'react';
 import type { Metadata } from 'next';
 import LightboxScripts from '@/components/LightboxScripts';
 import BackToTop from '@/components/BackToTop';
@@ -156,31 +157,43 @@ function renderOrderElement(order: Order, families: Family[], species: Species[]
   );
 }
 
-function displaySpeciesForOrder(orderId: string, families: Family[], species: Species[]): string {
+function displaySpeciesForOrder(orderId: string, families: Family[], species: Species[]): React.ReactElement | null {
   const orderFamilies = families.filter(family => family.Parent_Order_ID === orderId);
 
-  if (orderFamilies.length === 0) return '';
+  if (orderFamilies.length === 0) return null;
 
-  let output = "";
+  const familyElements: React.ReactElement[] = [];
 
-  orderFamilies.forEach(family => {
+  orderFamilies.forEach((family, index) => {
     const speciesList = species.filter(species =>
       species.Family_Sci === family.Family_Name_Sci && species.Image_Cnt > 0
     );
 
     if (speciesList.length > 0) {
-      const speciesHTML = speciesList.map(species =>
-        `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
-      ).join(', ');
+      if (index > 0) {
+        familyElements.push(<span key={`separator-${index}`}> - </span>);
+      }
 
-      const familyHTML = `<span class="family-name">${family.Family_Name_Sci.toUpperCase()} (${speciesList.length})</span>`;
+      familyElements.push(
+        <span key={`family-${family.Family_ID}`} className="family-name">
+          {family.Family_Name_Sci.toUpperCase()} ({speciesList.length})
+        </span>
+      );
 
-      if (output !== "") output += " - ";
-      output += `${familyHTML}: ${speciesHTML}`;
+      familyElements.push(<span key={`colon-${family.Family_ID}`}>:</span>);
+
+      const speciesElements = speciesList.map((species, speciesIndex) => (
+        <React.Fragment key={`species-${species.Species_ID}`}>
+          <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+          {speciesIndex < speciesList.length - 1 && <span>, </span>}
+        </React.Fragment>
+      ));
+
+      familyElements.push(...speciesElements);
     }
   });
 
-  return output;
+  return <>{familyElements}</>;
 }
 
 function renderOrderWithSuborders(order: Order, suborders: Suborder[], families: Family[], subfamilies: Subfamily[], species: Species[]) {
@@ -260,31 +273,43 @@ function renderSuborderElement(order: Order, suborder: Suborder, families: Famil
   );
 }
 
-function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], species: Species[]): string {
+function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], species: Species[]): React.ReactElement | null {
   const suborderFamilyList = families.filter(family => family.Suborder_ID === suborder.SO_ID);
 
-  if (suborderFamilyList.length === 0) return '';
+  if (suborderFamilyList.length === 0) return null;
 
-  let output = "";
+  const familyElements: React.ReactElement[] = [];
 
-  suborderFamilyList.forEach(family => {
+  suborderFamilyList.forEach((family, index) => {
     const speciesList = species.filter(species =>
       species.Family_Sci === family.Family_Name_Sci && species.Image_Cnt > 0
     );
 
     if (speciesList.length > 0) {
-      const speciesHTML = speciesList.map(species =>
-        `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
-      ).join(', ');
+      if (index > 0) {
+        familyElements.push(<span key={`separator-${index}`}> - </span>);
+      }
 
-      const familyHTML = `<span class="family-name">${family.Family_Name_Sci.toUpperCase()} (${speciesList.length})</span>`;
+      familyElements.push(
+        <span key={`family-${family.Family_ID}`} className="family-name">
+          {family.Family_Name_Sci.toUpperCase()} ({speciesList.length})
+        </span>
+      );
 
-      if (output !== "") output += " - ";
-      output += `${familyHTML}: ${speciesHTML}`;
+      familyElements.push(<span key={`colon-${family.Family_ID}`}>:</span>);
+
+      const speciesElements = speciesList.map((species, speciesIndex) => (
+        <React.Fragment key={`species-${species.Species_ID}`}>
+          <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+          {speciesIndex < speciesList.length - 1 && <span>, </span>}
+        </React.Fragment>
+      ));
+
+      familyElements.push(...speciesElements);
     }
   });
 
-  return output;
+  return <>{familyElements}</>;
 }
 
 function renderOrderWithFamilies(order: Order, families: Family[], subfamilies: Subfamily[], species: Species[]) {
@@ -467,8 +492,6 @@ function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[]
 }
 
 export default async function AvesPage() {
-  console.error('🐦 SSR Aves Page starting...');
-
   // Load all taxonomy data
   const [ordersData, subordersData, familiesData, subfamiliesData, speciesData] = await Promise.all([
     fetchJsonData<Order>('/data/taxonomy/orders.json'),
@@ -484,30 +507,6 @@ export default async function AvesPage() {
   const subfamilies = subfamiliesData?.data || [];
   const species = speciesData?.data || [];
 
-  console.error(`📊 Data loaded - Orders: ${orders.length}, Families: ${families.length}, Species: ${species.length}`);
-
-  // If no data loaded, show debug info
-  if (orders.length === 0) {
-    console.error('❌ No orders data loaded!');
-    return (
-      <div>
-        <style dangerouslySetInnerHTML={{ __html: `body { background-color: #999973; color: #663300; margin: 0; padding: 20px; font-family: Arial, sans-serif; }` }} />
-        <SharedHeader showQuickLinks={true} />
-        <div style={{background: '#ffeb3b', padding: '20px', margin: '20px 0', border: '2px solid #000', textAlign: 'center', fontWeight: 'bold'}}>
-          🚨 DEBUG: No taxonomy data loaded! Check Vercel logs for fetch errors.
-        </div>
-        <div style={{background: '#fff', padding: '20px', border: '1px solid #000'}}>
-          <h2>Debug Info:</h2>
-          <p>Vercel URL: {process.env.VERCEL_URL || 'Not set'}</p>
-          <p>Orders: {orders.length}</p>
-          <p>Families: {families.length}</p>
-          <p>Species: {species.length}</p>
-        </div>
-        <LightboxScripts />
-        <BackToTop />
-      </div>
-    );
-  }
 
   // Process orders (excluding Passeriformes)
   const nonPasseriformesOrders = orders.filter(order => order.Order_ID !== 'OR_029');
@@ -532,8 +531,6 @@ export default async function AvesPage() {
   });
 
   const passeriformesSection = renderPasseriformesSection(families, subfamilies, species);
-
-  console.error(`📦 Rendering - orderElements: ${orderElements.length}, passeriformesSection: ${passeriformesSection ? 'exists' : 'null'}`);
 
   const pageStyles = `
     body {
@@ -691,20 +688,9 @@ export default async function AvesPage() {
         <a className="quick-link" href="/Birds.html" title="Go to English version">Go to English version</a>
       </div>
       <div className="container">
-        <div style={{background: '#ffeb3b', padding: '10px', margin: '10px 0', border: '2px solid #000', textAlign: 'center', fontWeight: 'bold'}}>
-          🚀 SSR VERSION DEPLOYED - UNIFIED HEADERS - WIDE SEARCH BOX (376px) 🚀
-        </div>
         <div id="orders-container">
-          {orderElements.length > 0 ? orderElements : (
-            <div style={{padding: '20px', background: '#fff', border: '1px solid #000', margin: '10px 0'}}>
-              🚨 DEBUG: orderElements is empty! orderElements.length = {orderElements.length}
-            </div>
-          )}
-          {passeriformesSection || (
-            <div style={{padding: '20px', background: '#fff', border: '1px solid #000', margin: '10px 0'}}>
-              🚨 DEBUG: passeriformesSection is null/empty!
-            </div>
-          )}
+          {orderElements}
+          {passeriformesSection}
         </div>
       </div>
       <LightboxScripts />
