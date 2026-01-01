@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
+import SharedHeader from '@/components/SharedHeader';
 
 // Incremental Static Regeneration - rebuild every 24 hours
 export const revalidate = 86400; // 24 hours in seconds
@@ -470,32 +471,7 @@ export default async function SpeciesPage({
       <a id="top"></a>
       
       {/* Site Header */}
-      <div className="heading-container">
-        <div className="site-header-banded">
-          <div className="site-header-band site-header-band-dark">
-            <div className="headline">
-              fotos <span style={{ color: '#FF9966' }}>de animales silvestres</span>{' '}
-              <span className="subheadline">de ARGENTINA</span>
-            </div>
-          </div>
-          <div className="site-header-band site-header-band-light">
-            <div className="site-title-row">
-              <div className="site-title">
-                www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a>
-              </div>
-              <div className="copyright">
-                © {new Date().getFullYear()} Alec Earnshaw
-              </div>
-            </div>
-          </div>
-          <div className="site-header-band site-header-band-dark">
-            <div className="headline">
-              photos <span style={{ color: '#FF9966' }}>of wild animals</span>{' '}
-              <span className="subheadline">of ARGENTINA</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <SharedHeader showSearch={true} showQuickLinks={false} />
 
       {/* Breadcrumbs */}
       <div id="breadcrumbs">
