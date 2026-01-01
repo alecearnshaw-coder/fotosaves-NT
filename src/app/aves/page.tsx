@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 export const dynamic = 'force-dynamic';
 
 function getOrigin(): string {
+  // Use the same origin as the debug API - this is proven to work
   if (process.env.VERCEL) {
-    // Use the actual Vercel deployment URL for reliable fetching
-    return process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '';
+    return 'https://fotosaves-nt.vercel.app';
   }
   return 'http://localhost:3000';
 }
