@@ -5,8 +5,8 @@ import BackToTop from '@/components/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
 
 export const metadata: Metadata = {
-  title: 'Fotos de Aves - SSR VERSION DEPLOYED',
-  description: 'Taxonomía completa de aves de Argentina con fotos - SERVER SIDE RENDERED',
+  title: 'Bird Photos - Argentina Wildlife',
+  description: 'Complete taxonomy of birds in Argentina with photos - SERVER SIDE RENDERED',
 };
 
 // Force dynamic rendering to avoid prerendering large data
@@ -113,7 +113,7 @@ function renderOrderElement(order: Order, families: Family[], species: Species[]
   const groupId = order.Order_Name_Sci;
   const url = createGroupUrl(imageFolderPath, groupType, groupId);
 
-  const speciesData = displaySpeciesForOrder(order.Order_ID, families, species);
+  const speciesData = displaySpeciesForOrder(order.Order_ID, families, species, 'en');
 
   return (
     <div key={order.Order_ID} className="order-row">
@@ -136,19 +136,19 @@ function renderOrderElement(order: Order, families: Family[], species: Species[]
         <div className="order-title">
           {url ? (
             <a href={url} style={{textDecoration: 'none', color: 'inherit'}}>
-              Orden <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_Sp})</span>
+              Order <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_En})</span>
             </a>
           ) : (
-            <>Orden <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_Sp})</span></>
+            <>Order <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_En})</span></>
           )}
         </div>
         {order.Species_Cnt > 0 && (
           <>
             <div className="species-count">
-              ESPECIES: {order.Species_Cnt} de las {order.Known_Species_Cnt} presentes en Argentina
+              SPECIES: {order.Species_Cnt} of the {order.Known_Species_Cnt} species present in Argentina
             </div>
             <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
-              {order.Image_Cnt} fotos: {speciesData}
+              {order.Image_Cnt} photos: {speciesData}
             </div>
           </>
         )}
@@ -157,7 +157,7 @@ function renderOrderElement(order: Order, families: Family[], species: Species[]
   );
 }
 
-function displaySpeciesForOrder(orderId: string, families: Family[], species: Species[]): React.ReactElement | null {
+function displaySpeciesForOrder(orderId: string, families: Family[], species: Species[], lang: 'es' | 'en' = 'es'): React.ReactElement | null {
   const orderFamilies = families.filter(family => family.Parent_Order_ID === orderId);
 
   if (orderFamilies.length === 0) return null;
@@ -184,7 +184,7 @@ function displaySpeciesForOrder(orderId: string, families: Family[], species: Sp
 
       const speciesElements = speciesList.map((species, speciesIndex) => (
         <React.Fragment key={`species-${species.Species_ID}`}>
-          <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+          <span className="family-list">{lang === 'en' ? species.Species_Name_En : species.Species_Name_Sp} ({species.Image_Cnt})</span>
           {speciesIndex < speciesList.length - 1 && <span>, </span>}
         </React.Fragment>
       ));
@@ -196,7 +196,7 @@ function displaySpeciesForOrder(orderId: string, families: Family[], species: Sp
   return <>{familyElements}</>;
 }
 
-function renderOrderWithSuborders(order: Order, suborders: Suborder[], families: Family[], subfamilies: Subfamily[], species: Species[]) {
+function renderOrderWithSuborders(order: Order, suborders: Suborder[], families: Family[], subfamilies: Subfamily[], species: Species[], lang: 'es' | 'en' = 'es') {
   const orderRow = (
     <div key={order.Order_ID} className="order-row">
       <div className="order-image">
@@ -207,15 +207,15 @@ function renderOrderWithSuborders(order: Order, suborders: Suborder[], families:
       </div>
       <div className="order-content">
         <div className="order-title">
-          Orden <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_Sp})</span>
+          Order <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({lang === 'en' ? order.Order_Name_En : order.Order_Name_Sp})</span>
         </div>
         <div className="species-count">
-          ESPECIES: {order.Species_Cnt} de las {order.Known_Species_Cnt} presentes en Argentina
+          {lang === 'en' ? `SPECIES: ${order.Species_Cnt} of the ${order.Known_Species_Cnt} species present in Argentina` : `ESPECIES: ${order.Species_Cnt} de las ${order.Known_Species_Cnt} presentes en Argentina`}
         </div>
         <div className="subgroup">
           {suborders
             .filter(so => so.Parent_ID === order.Order_ID)
-            .map(suborder => renderSuborderElement(order, suborder, families, species))
+            .map(suborder => renderSuborderElement(order, suborder, families, species, lang))
           }
         </div>
       </div>
@@ -231,7 +231,7 @@ function renderSuborderElement(order: Order, suborder: Suborder, families: Famil
   const groupId = suborder.SO_Name_Sci;
   const url = createGroupUrl(imageFolderPath, groupType, groupId);
 
-  const breakdownText = generateSuborderPhotoBreakdown(suborder, families, species);
+  const breakdownText = generateSuborderPhotoBreakdown(suborder, families, species, 'en');
 
   return (
     <div key={suborder.SO_ID} className="subgroup-row">
@@ -254,18 +254,18 @@ function renderSuborderElement(order: Order, suborder: Suborder, families: Famil
         <div className="order-title">
           {url ? (
             <a href={url} style={{textDecoration: 'none', color: 'inherit'}}>
-              Suborden <span className="order-scientific">{suborder.SO_Name_Sci}</span> <span className="order-spanish">({suborder.SO_Name_Sp})</span>
+              Suborder <span className="order-scientific">{suborder.SO_Name_Sci}</span> <span className="order-spanish">({suborder.SO_Name_En})</span>
             </a>
           ) : (
-            <>Suborden <span className="order-scientific">{suborder.SO_Name_Sci}</span> <span className="order-spanish">({suborder.SO_Name_Sp})</span></>
+            <>Suborder <span className="order-scientific">{suborder.SO_Name_Sci}</span> <span className="order-spanish">({suborder.SO_Name_En})</span></>
           )}
         </div>
         <div className="species-count">
-          ESPECIES: {suborder.Species_Cnt} de las {suborder.Known_Species_Cnt} presentes en Argentina
+          SPECIES: {suborder.Species_Cnt} of the {suborder.Known_Species_Cnt} species present in Argentina
         </div>
         {breakdownText && (
           <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
-            {suborder.Image_Cnt} fotos: {breakdownText}
+            {suborder.Image_Cnt} photos: {breakdownText}
           </div>
         )}
       </div>
@@ -273,7 +273,7 @@ function renderSuborderElement(order: Order, suborder: Suborder, families: Famil
   );
 }
 
-function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], species: Species[]): React.ReactElement | null {
+function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], species: Species[], lang: 'es' | 'en' = 'es'): React.ReactElement | null {
   const suborderFamilyList = families.filter(family => family.Suborder_ID === suborder.SO_ID);
 
   if (suborderFamilyList.length === 0) return null;
@@ -300,7 +300,7 @@ function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], 
 
       const speciesElements = speciesList.map((species, speciesIndex) => (
         <React.Fragment key={`species-${species.Species_ID}`}>
-          <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+          <span className="family-list">{lang === 'en' ? species.Species_Name_En : species.Species_Name_Sp} ({species.Image_Cnt})</span>
           {speciesIndex < speciesList.length - 1 && <span>, </span>}
         </React.Fragment>
       ));
@@ -520,11 +520,11 @@ export default async function AvesPage() {
   const orderElements = nonPasseriformesOrders.map(order => {
     try {
       if (order.Subdivide === 'SO') {
-        return renderOrderWithSuborders(order, suborders, families, subfamilies, species);
+        return renderOrderWithSuborders(order, suborders, families, subfamilies, species, 'en');
       } else if (order.Subdivide === 'FA') {
-        return renderOrderWithFamilies(order, families, subfamilies, species);
+        return renderOrderWithFamilies(order, families, subfamilies, species, 'en');
       } else {
-        return renderOrderElement(order, families, species);
+        return renderOrderElement(order, families, species, 'en');
       }
     } catch (error) {
       console.error(`Error rendering order ${order.Order_ID}:`, error);
@@ -700,9 +700,9 @@ export default async function AvesPage() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: pageStyles }} />
-      <SharedHeader showQuickLinks={true} language="es" />
+      <SharedHeader showQuickLinks={true} language="en" />
       <div style={{textAlign:'center', margin: '6px 0 8px 0'}}>
-        <a className="quick-link" href="/birds" title="Go to English version">Go to English version</a>
+        <a className="quick-link" href="/aves" title="Ir a versión en español">Ir a versión en español</a>
       </div>
       <div className="container">
         <div id="orders-container">

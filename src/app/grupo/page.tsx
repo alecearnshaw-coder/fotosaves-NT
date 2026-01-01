@@ -628,8 +628,8 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
   cells.push({
     labelEs: 'Aves',
     labelEn: 'Birds',
-    hrefEs: '/Aves.html',
-    hrefEn: '/Birds.html',
+    hrefEs: '/aves',
+    hrefEn: '/birds',
     isBilingual: true
   });
 

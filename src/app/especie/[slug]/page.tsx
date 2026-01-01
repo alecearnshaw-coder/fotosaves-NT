@@ -471,7 +471,7 @@ export default async function SpeciesPage({
       <a id="top"></a>
       
       {/* Site Header */}
-      <SharedHeader showSearch={true} showQuickLinks={false} />
+      <SharedHeader showSearch={true} showQuickLinks={false} language="es" />
 
       {/* Breadcrumbs */}
       <div id="breadcrumbs">
