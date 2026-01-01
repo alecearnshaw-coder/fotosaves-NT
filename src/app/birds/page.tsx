@@ -333,7 +333,7 @@ function renderOrderWithFamilies(order: Order, families: Family[], subfamilies: 
           {lang === 'en' ? 'Order' : 'Orden'} <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({lang === 'en' ? order.Order_Name_En : order.Order_Name_Sp})</span>
         </div>
         <div className="subgroup">
-          {orderFamilies.map(family => renderFamilyElement(family, families, subfamilies, species, 'O'))}
+          {orderFamilies.map(family => renderFamilyElement(family, families, subfamilies, species, 'O', lang))}
         </div>
       </div>
     </div>
@@ -391,7 +391,7 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
           <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
             {family.Image_Cnt} {lang === 'en' ? 'photos' : 'fotos'}: {familySpeciesList.map((species, index) => (
               <React.Fragment key={`species-${species.Species_ID}`}>
-                <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+                <span className="family-list">{lang === 'en' ? species.Species_Name_En : species.Species_Name_Sp} ({species.Image_Cnt})</span>
                 {index < familySpeciesList.length - 1 && <span>, </span>}
               </React.Fragment>
             ))}
