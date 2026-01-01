@@ -533,6 +533,8 @@ export default async function AvesPage() {
 
   const passeriformesSection = renderPasseriformesSection(families, subfamilies, species);
 
+  console.error(`📦 Rendering - orderElements: ${orderElements.length}, passeriformesSection: ${passeriformesSection ? 'exists' : 'null'}`);
+
   const pageStyles = `
     body {
         font-family: Arial, Helvetica, sans-serif;
@@ -693,8 +695,16 @@ export default async function AvesPage() {
           🚀 SSR VERSION DEPLOYED - UNIFIED HEADERS - WIDE SEARCH BOX (376px) 🚀
         </div>
         <div id="orders-container">
-          {orderElements}
-          {passeriformesSection}
+          {orderElements.length > 0 ? orderElements : (
+            <div style={{padding: '20px', background: '#fff', border: '1px solid #000', margin: '10px 0'}}>
+              🚨 DEBUG: orderElements is empty! orderElements.length = {orderElements.length}
+            </div>
+          )}
+          {passeriformesSection || (
+            <div style={{padding: '20px', background: '#fff', border: '1px solid #000', margin: '10px 0'}}>
+              🚨 DEBUG: passeriformesSection is null/empty!
+            </div>
+          )}
         </div>
       </div>
       <LightboxScripts />
