@@ -27,7 +27,7 @@ export default function SharedHeader({
                 </div>
               )}
               <div className="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
-              <div className="copyright">© <span id="copyright-year"></span><br />Alec Earnshaw</div>
+              <div className="copyright">© {new Date().getFullYear()} Alec Earnshaw</div>
             </div>
           </div>
           <div className="site-header-band site-header-band-dark">
