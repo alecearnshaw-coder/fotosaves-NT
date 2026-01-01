@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { promises as fs } from 'fs';
+import path from 'path';
 import LightboxScripts from '@/components/LightboxScripts';
 import BackToTop from '@/components/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
@@ -10,29 +12,17 @@ export const metadata: Metadata = {
 
 export const revalidate = 86400; // Revalidate every 24 hours
 
-function getOrigin(): string {
-  if (process.env.VERCEL) {
-    // Use relative URLs in production - files are served from same domain
-    return '';
-  }
-  return 'http://localhost:3000';
-}
-
-async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
+async function loadJsonData<T>(filename: string): Promise<{ data: T[] } | null> {
   try {
-    const origin = getOrigin();
-    const url = `${origin}${path}`;
-    const response = await fetch(url, { cache: 'no-store' });
-
-    if (!response.ok) {
-      console.error(`Failed to fetch ${path}: ${response.status} ${response.statusText}`);
-      return null;
-    }
-
-    return await response.json();
+    // For server-side rendering, read files directly from filesystem
+    const filePath = path.join(process.cwd(), 'public', filename);
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    const jsonData = JSON.parse(fileContents);
+    console.log(`✅ Loaded ${filename}:`, jsonData);
+    return jsonData;
   } catch (error) {
-    console.error(`Error fetching ${path}:`, error);
-    return null;
+    console.error(`❌ Error loading ${filename}:`, error);
+    return { data: [] }; // Return empty array instead of null
   }
 }
 
@@ -121,14 +111,12 @@ function renderOrderElement(order: Order, families: Family[], species: Species[]
             <img
               src={`/images/thumbnails/${order.Order_Image || 'placeholder.jpg'}`}
               alt={order.Order_Name_Sci}
-              onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
             />
           </a>
         ) : (
           <img
             src={`/images/thumbnails/${order.Order_Image || 'placeholder.jpg'}`}
             alt={order.Order_Name_Sci}
-            onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
           />
         )}
       </div>
@@ -191,7 +179,6 @@ function renderOrderWithSuborders(order: Order, suborders: Suborder[], families:
         <img
           src={`/images/thumbnails/${order.Order_Image || 'placeholder.jpg'}`}
           alt={order.Order_Name_Sci}
-          onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
         />
       </div>
       <div className="order-content">
@@ -230,14 +217,12 @@ function renderSuborderElement(order: Order, suborder: Suborder, families: Famil
             <img
               src={`/images/thumbnails/${suborder.SO_Image || 'placeholder.jpg'}`}
               alt={suborder.SO_Name_Sci}
-              onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
             />
           </a>
         ) : (
           <img
             src={`/images/thumbnails/${suborder.SO_Image || 'placeholder.jpg'}`}
             alt={suborder.SO_Name_Sci}
-            onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
           />
         )}
       </div>
@@ -300,7 +285,6 @@ function renderOrderWithFamilies(order: Order, families: Family[], subfamilies: 
         <img
           src={`/images/thumbnails/${order.Order_Image || 'placeholder.jpg'}`}
           alt={order.Order_Name_Sci}
-          onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
         />
       </div>
       <div className="order-content">
@@ -335,14 +319,12 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
           <img
             src={`/images/thumbnails/${family.Family_Image || 'placeholder.jpg'}`}
             alt={family.Family_Name_Sci}
-            onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
           />
         ) : (
           <a href={url} style={{textDecoration: 'none'}}>
             <img
               src={`/images/thumbnails/${family.Family_Image || 'placeholder.jpg'}`}
               alt={family.Family_Name_Sci}
-              onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
             />
           </a>
         )}
@@ -400,14 +382,12 @@ function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, spec
             <img
               src={`/images/thumbnails/${subfamily.Subfamily_Image || 'placeholder.jpg'}`}
               alt={subfamily.Subfamily_Sci}
-              onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
             />
           </a>
         ) : (
           <img
             src={`/images/thumbnails/${subfamily.Subfamily_Image || 'placeholder.jpg'}`}
             alt={subfamily.Subfamily_Sci}
-            onError={(e) => { e.currentTarget.src = 'images/placeholder.jpg'; }}
           />
         )}
       </div>
@@ -478,11 +458,11 @@ function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[]
 export default async function AvesPage() {
   // Load all taxonomy data
   const [ordersData, subordersData, familiesData, subfamiliesData, speciesData] = await Promise.all([
-    fetchJsonData<Order>('/data/taxonomy/orders.json'),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
-    fetchJsonData<Family>('/data/taxonomy/families.json'),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
-    fetchJsonData<Species>('/data/taxonomy/species.json'),
+    loadJsonData<Order>('data/taxonomy/orders.json'),
+    loadJsonData<Suborder>('data/taxonomy/suborders.json'),
+    loadJsonData<Family>('data/taxonomy/families.json'),
+    loadJsonData<Subfamily>('data/taxonomy/subfamilies.json'),
+    loadJsonData<Species>('data/taxonomy/species.json'),
   ]);
 
   const orders = ordersData?.data || [];
@@ -491,29 +471,49 @@ export default async function AvesPage() {
   const subfamilies = subfamiliesData?.data || [];
   const species = speciesData?.data || [];
 
+  console.log('SSR Aves Page Debug:');
+  console.log('Orders loaded:', orders.length);
+  console.log('Suborders loaded:', suborders.length);
+  console.log('Families loaded:', families.length);
+  console.log('Subfamilies loaded:', subfamilies.length);
+  console.log('Species loaded:', species.length);
+
   // Process orders (excluding Passeriformes)
   const nonPasseriformesOrders = orders.filter(order => order.Order_ID !== 'OR_029');
+  console.log('Non-Passeriformes orders:', nonPasseriformesOrders.length);
 
-  const orderElements = nonPasseriformesOrders.map(order => {
-    try {
-      if (order.Subdivide === 'SO') {
-        return renderOrderWithSuborders(order, suborders, families, subfamilies, species);
-      } else if (order.Subdivide === 'FA') {
-        return renderOrderWithFamilies(order, families, subfamilies, species);
-      } else {
-        return renderOrderElement(order, families, species);
+  let orderElements: React.ReactElement[] = [];
+  try {
+    orderElements = nonPasseriformesOrders.map(order => {
+      try {
+        if (order.Subdivide === 'SO') {
+          return renderOrderWithSuborders(order, suborders, families, subfamilies, species);
+        } else if (order.Subdivide === 'FA') {
+          return renderOrderWithFamilies(order, families, subfamilies, species);
+        } else {
+          return renderOrderElement(order, families, species);
+        }
+      } catch (error) {
+        console.error(`Error rendering order ${order.Order_ID}:`, error);
+        return (
+          <div key={order.Order_ID} className="order-row">
+            <div>Error rendering order: {order.Order_Name_Sci}</div>
+          </div>
+        );
       }
-    } catch (error) {
-      console.error(`Error rendering order ${order.Order_ID}:`, error);
-      return (
-        <div key={order.Order_ID} className="order-row">
-          <div>Error rendering order: {order.Order_Name_Sci}</div>
-        </div>
-      );
-    }
-  });
+    });
+    console.log('Order elements created:', orderElements.length);
+  } catch (error) {
+    console.error('Error creating order elements:', error);
+  }
 
-  const passeriformesSection = renderPasseriformesSection(families, subfamilies, species);
+  let passeriformesSection: React.ReactElement | null = null;
+  try {
+    passeriformesSection = renderPasseriformesSection(families, subfamilies, species);
+    console.log('Passeriformes section created:', passeriformesSection ? 'yes' : 'no');
+  } catch (error) {
+    console.error('Error creating passeriformes section:', error);
+  }
 
   const pageStyles = `
     body {
