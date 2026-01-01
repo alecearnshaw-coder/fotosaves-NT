@@ -66,8 +66,10 @@ export default function SharedHeader({
           <div className="quick-links">
             {quickLinksContent || (
               <div className="links-left">
-                <span className="label-es">Enlaces:</span>
-                <a className="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
+                <span className={language === 'en' ? 'label-en' : 'label-es'}>{language === 'en' ? 'Links:' : 'Enlaces:'}</span>
+                <a className="quick-link" href={language === 'en' ? '/index_english.html' : '/index_sp.html'} title={language === 'en' ? 'Site home page (English)' : 'Inicio del sitio (Español)'}>
+                  {language === 'en' ? 'Home page' : 'Cabecera del sitio'}
+                </a>
               </div>
             )}
           </div>

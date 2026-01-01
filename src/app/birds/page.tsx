@@ -373,20 +373,23 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
       <div className={isPasseriformesFamily ? 'order-content' : 'subgroup-content'}>
         <div className="order-title">
           {hasSubfamilies || !url ? (
-            <>Familia <span className="order-scientific">{family.Family_Name_Sci}</span> <span className="order-spanish">({family.Family_Name_Sp})</span></>
+            <>{lang === 'en' ? 'Family' : 'Familia'} <span className="order-scientific">{family.Family_Name_Sci}</span> <span className="order-spanish">({lang === 'en' ? family.Family_Name_En : family.Family_Name_Sp})</span></>
           ) : (
             <a href={url} style={{textDecoration: 'none', color: 'inherit'}}>
-              Familia <span className="order-scientific">{family.Family_Name_Sci}</span> <span className="order-spanish">({family.Family_Name_Sp})</span>
+              {lang === 'en' ? 'Family' : 'Familia'} <span className="order-scientific">{family.Family_Name_Sci}</span> <span className="order-spanish">({lang === 'en' ? family.Family_Name_En : family.Family_Name_Sp})</span>
             </a>
           )}
         </div>
         <div className="species-count">
-          ESPECIES: {family.Species_Cnt} de las {family.Known_Species_Cnt} presentes en Argentina
+          {lang === 'en'
+            ? `SPECIES: ${family.Species_Cnt} of the ${family.Known_Species_Cnt} species present in Argentina`
+            : `ESPECIES: ${family.Species_Cnt} de las ${family.Known_Species_Cnt} presentes en Argentina`
+          }
         </div>
 
         {family.SubFamilies !== 'Y' && familySpeciesList.length > 0 && (
           <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
-            {family.Image_Cnt} fotos: {familySpeciesList.map((species, index) => (
+            {family.Image_Cnt} {lang === 'en' ? 'photos' : 'fotos'}: {familySpeciesList.map((species, index) => (
               <React.Fragment key={`species-${species.Species_ID}`}>
                 <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
                 {index < familySpeciesList.length - 1 && <span>, </span>}
@@ -399,7 +402,7 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
           <div className="subgroup">
             {subfamilies
               .filter(sf => sf.Family_ID === family.Family_ID)
-              .map(subfamily => renderSubfamilyElement(subfamily, family, species))
+              .map(subfamily => renderSubfamilyElement(subfamily, family, species, lang))
             }
           </div>
         )}
@@ -408,7 +411,7 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
   );
 }
 
-function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, species: Species[]) {
+function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, species: Species[], lang: 'es' | 'en' = 'es') {
   const imageFolderPath = subfamily.SF_Path || null;
   const groupType = 'subfamily';
   const groupId = subfamily.Subfamily_Sci;
@@ -439,19 +442,22 @@ function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, spec
         <div className="order-title">
           {url ? (
             <a href={url} style={{textDecoration: 'none', color: 'inherit'}}>
-              Subfam. <span className="order-scientific">{subfamily.Subfamily_Sci}</span> <span className="order-spanish">({subfamily.Subfamily_Sp})</span>
+              Subfam. <span className="order-scientific">{subfamily.Subfamily_Sci}</span> <span className="order-spanish">({lang === 'en' ? subfamily.Subfamily_En : subfamily.Subfamily_Sp})</span>
             </a>
           ) : (
-            <>Subfam. <span className="order-scientific">{subfamily.Subfamily_Sci}</span> <span className="order-spanish">({subfamily.Subfamily_Sp})</span></>
+            <>Subfam. <span className="order-scientific">{subfamily.Subfamily_Sci}</span> <span className="order-spanish">({lang === 'en' ? subfamily.Subfamily_En : subfamily.Subfamily_Sp})</span></>
           )}
         </div>
         <div className="species-count">
-          ESPECIES: {subfamily.Species_Cnt} de las {subfamily.Known_Species_Cnt} presentes en Argentina
+          {lang === 'en'
+            ? `SPECIES: ${subfamily.Species_Cnt} of the ${subfamily.Known_Species_Cnt} species present in Argentina`
+            : `ESPECIES: ${subfamily.Species_Cnt} de las ${subfamily.Known_Species_Cnt} presentes en Argentina`
+          }
         </div>
         <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
-          {subfamily.Image_Cnt} fotos: {subfamilySpeciesList.map((species, index) => (
+          {subfamily.Image_Cnt} {lang === 'en' ? 'photos' : 'fotos'}: {subfamilySpeciesList.map((species, index) => (
             <React.Fragment key={`species-${species.Species_ID}`}>
-              <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+              <span className="family-list">{lang === 'en' ? species.Species_Name_En : species.Species_Name_Sp} ({species.Image_Cnt})</span>
               {index < subfamilySpeciesList.length - 1 && <span>, </span>}
             </React.Fragment>
           ))}
@@ -461,7 +467,7 @@ function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, spec
   );
 }
 
-function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[], species: Species[]) {
+function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[], species: Species[], lang: 'es' | 'en' = 'es') {
   const passeriformesFamilies = families.filter(family =>
     family.Parent_Order_ID === 'OR_029' && family.Image_Cnt > 0
   );
@@ -486,18 +492,18 @@ function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[]
             textAlign: 'center'
           }}>
             <div className="order-title" style={{textAlign: 'center', marginBottom: '10px'}}>
-              Orden <span className="order-scientific">Passeriformes</span> <span className="order-spanish">(Pájaros)</span>
+              Order <span className="order-scientific">Passeriformes</span> <span className="order-spanish">(Birds)</span>
             </div>
             <div className="placeholder" style={{textAlign: 'left', marginTop: '10px'}}>
-              De aquí en adelante se muestran las aves del orden de los Passeriformes. Este grupo generalmente representa aproximadamente el 50% de las especies de aves en la mayoría de las regiones del mundo. Esto es particularmente cierto en Argentina.<br />
-              Por lo tanto, este gran orden se divide por familias, y en algunos casos -cuando tiene sentido- también por subfamilias.
+              From here on, the birds of the Passeriformes order are shown. This group generally represents approximately 50% of bird species in most regions of the world. This is particularly true in Argentina.<br />
+              Therefore, this large order is divided by families, and in some cases -when it makes sense- also by subfamilies.
             </div>
           </div>
         </div>
       </div>
 
       {/* Passeriformes families */}
-      {passeriformesFamilies.map(family => renderFamilyElement(family, families, subfamilies, species, 'P'))}
+      {passeriformesFamilies.map(family => renderFamilyElement(family, families, subfamilies, species, 'P', lang))}
     </>
   );
 }
@@ -541,7 +547,7 @@ export default async function AvesPage() {
     }
   });
 
-  const passeriformesSection = renderPasseriformesSection(families, subfamilies, species);
+  const passeriformesSection = renderPasseriformesSection(families, subfamilies, species, 'en');
 
   const pageStyles = `
     body {
