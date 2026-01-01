@@ -18,7 +18,6 @@ async function loadJsonData<T>(filename: string): Promise<{ data: T[] } | null> 
     const filePath = path.join(process.cwd(), 'public', filename);
     const fileContents = await fs.readFile(filePath, 'utf8');
     const jsonData = JSON.parse(fileContents);
-    console.log(`✅ Loaded ${filename}:`, jsonData);
     return jsonData;
   } catch (error) {
     console.error(`❌ Error loading ${filename}:`, error);
@@ -471,49 +470,30 @@ export default async function AvesPage() {
   const subfamilies = subfamiliesData?.data || [];
   const species = speciesData?.data || [];
 
-  console.log('SSR Aves Page Debug:');
-  console.log('Orders loaded:', orders.length);
-  console.log('Suborders loaded:', suborders.length);
-  console.log('Families loaded:', families.length);
-  console.log('Subfamilies loaded:', subfamilies.length);
-  console.log('Species loaded:', species.length);
 
   // Process orders (excluding Passeriformes)
   const nonPasseriformesOrders = orders.filter(order => order.Order_ID !== 'OR_029');
-  console.log('Non-Passeriformes orders:', nonPasseriformesOrders.length);
 
-  let orderElements: React.ReactElement[] = [];
-  try {
-    orderElements = nonPasseriformesOrders.map(order => {
-      try {
-        if (order.Subdivide === 'SO') {
-          return renderOrderWithSuborders(order, suborders, families, subfamilies, species);
-        } else if (order.Subdivide === 'FA') {
-          return renderOrderWithFamilies(order, families, subfamilies, species);
-        } else {
-          return renderOrderElement(order, families, species);
-        }
-      } catch (error) {
-        console.error(`Error rendering order ${order.Order_ID}:`, error);
-        return (
-          <div key={order.Order_ID} className="order-row">
-            <div>Error rendering order: {order.Order_Name_Sci}</div>
-          </div>
-        );
+  const orderElements = nonPasseriformesOrders.map(order => {
+    try {
+      if (order.Subdivide === 'SO') {
+        return renderOrderWithSuborders(order, suborders, families, subfamilies, species);
+      } else if (order.Subdivide === 'FA') {
+        return renderOrderWithFamilies(order, families, subfamilies, species);
+      } else {
+        return renderOrderElement(order, families, species);
       }
-    });
-    console.log('Order elements created:', orderElements.length);
-  } catch (error) {
-    console.error('Error creating order elements:', error);
-  }
+    } catch (error) {
+      console.error(`Error rendering order ${order.Order_ID}:`, error);
+      return (
+        <div key={order.Order_ID} className="order-row">
+          <div>Error rendering order: {order.Order_Name_Sci}</div>
+        </div>
+      );
+    }
+  });
 
-  let passeriformesSection: React.ReactElement | null = null;
-  try {
-    passeriformesSection = renderPasseriformesSection(families, subfamilies, species);
-    console.log('Passeriformes section created:', passeriformesSection ? 'yes' : 'no');
-  } catch (error) {
-    console.error('Error creating passeriformes section:', error);
-  }
+  const passeriformesSection = renderPasseriformesSection(families, subfamilies, species);
 
   const pageStyles = `
     body {
