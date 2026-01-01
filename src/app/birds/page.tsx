@@ -42,6 +42,7 @@ interface Order {
   Order_ID: string;
   Order_Name_Sci: string;
   Order_Name_Sp: string;
+  Order_Name_En: string;
   Order_Image: string;
   Order_Path: string;
   Species_Cnt: number;
@@ -54,6 +55,7 @@ interface Suborder {
   SO_ID: string;
   SO_Name_Sci: string;
   SO_Name_Sp: string;
+  SO_Name_En: string;
   SO_Image: string;
   SO_Path: string;
   Species_Cnt: number;
@@ -66,6 +68,7 @@ interface Family {
   Family_ID: string;
   Family_Name_Sci: string;
   Family_Name_Sp: string;
+  Family_Name_En: string;
   Family_Image: string;
   Family_Path: string;
   Species_Cnt: number;
@@ -80,6 +83,7 @@ interface Subfamily {
   SF_ID: string;
   Subfamily_Sci: string;
   Subfamily_Sp: string;
+  Subfamily_En: string;
   Subfamily_Image: string;
   SF_Path: string;
   Species_Cnt: number;
@@ -92,6 +96,7 @@ interface Species {
   Species_ID: string;
   Species_Name_Sci: string;
   Species_Name_Sp: string;
+  Species_Name_En: string;
   Family_Sci: string;
   Subfamily_Sci?: string;
   Image_Cnt: number;
@@ -107,7 +112,7 @@ function createGroupUrl(imageFolderPath: string | null, groupType: string, group
   return `/grupo?${params.toString()}`;
 }
 
-function renderOrderElement(order: Order, families: Family[], species: Species[]) {
+function renderOrderElement(order: Order, families: Family[], species: Species[], lang: 'es' | 'en' = 'es') {
   const imageFolderPath = order.Order_Path || null;
   const groupType = 'order';
   const groupId = order.Order_Name_Sci;
@@ -225,7 +230,7 @@ function renderOrderWithSuborders(order: Order, suborders: Suborder[], families:
   return orderRow;
 }
 
-function renderSuborderElement(order: Order, suborder: Suborder, families: Family[], species: Species[]) {
+function renderSuborderElement(order: Order, suborder: Suborder, families: Family[], species: Species[], lang: 'es' | 'en' = 'es') {
   const imageFolderPath = suborder.SO_Path || null;
   const groupType = 'suborder';
   const groupId = suborder.SO_Name_Sci;
@@ -312,7 +317,7 @@ function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], 
   return <>{familyElements}</>;
 }
 
-function renderOrderWithFamilies(order: Order, families: Family[], subfamilies: Subfamily[], species: Species[]) {
+function renderOrderWithFamilies(order: Order, families: Family[], subfamilies: Subfamily[], species: Species[], lang: 'es' | 'en' = 'es') {
   const orderFamilies = families.filter(family => family.Parent_Order_ID === order.Order_ID);
 
   return (
@@ -325,7 +330,7 @@ function renderOrderWithFamilies(order: Order, families: Family[], subfamilies: 
       </div>
       <div className="order-content">
         <div className="order-title">
-          Orden <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_Sp})</span>
+          {lang === 'en' ? 'Order' : 'Orden'} <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({lang === 'en' ? order.Order_Name_En : order.Order_Name_Sp})</span>
         </div>
         <div className="subgroup">
           {orderFamilies.map(family => renderFamilyElement(family, families, subfamilies, species, 'O'))}
@@ -335,7 +340,7 @@ function renderOrderWithFamilies(order: Order, families: Family[], subfamilies: 
   );
 }
 
-function renderFamilyElement(family: Family, families: Family[], subfamilies: Subfamily[], species: Species[], Family_Type: string) {
+function renderFamilyElement(family: Family, families: Family[], subfamilies: Subfamily[], species: Species[], Family_Type: string, lang: 'es' | 'en' = 'es') {
   const imageFolderPath = family.Family_Path || null;
   const groupType = 'family';
   const groupId = family.Family_Name_Sci;
@@ -524,7 +529,7 @@ export default async function AvesPage() {
       } else if (order.Subdivide === 'FA') {
         return renderOrderWithFamilies(order, families, subfamilies, species, 'en');
       } else {
-        return renderOrderElement(order, families, species, 'en');
+        return renderOrderElement(order, families, species);
       }
     } catch (error) {
       console.error(`Error rendering order ${order.Order_ID}:`, error);
