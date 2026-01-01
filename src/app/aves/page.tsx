@@ -12,7 +12,8 @@ export const revalidate = 86400; // Revalidate every 24 hours
 
 function getOrigin(): string {
   if (process.env.VERCEL) {
-    return 'https://fotosaves-nt.vercel.app';
+    // Use relative URLs in production - files are served from same domain
+    return '';
   }
   return 'http://localhost:3000';
 }
