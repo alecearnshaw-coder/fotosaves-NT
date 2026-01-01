@@ -381,9 +381,12 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
 
         {family.SubFamilies !== 'Y' && familySpeciesList.length > 0 && (
           <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
-            {family.Image_Cnt} fotos: {familySpeciesList.map(species =>
-              `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
-            ).join(', ')}
+            {family.Image_Cnt} fotos: {familySpeciesList.map((species, index) => (
+              <React.Fragment key={`species-${species.Species_ID}`}>
+                <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+                {index < familySpeciesList.length - 1 && <span>, </span>}
+              </React.Fragment>
+            ))}
           </div>
         )}
 
@@ -441,9 +444,12 @@ function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, spec
           ESPECIES: {subfamily.Species_Cnt} de las {subfamily.Known_Species_Cnt} presentes en Argentina
         </div>
         <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
-          {subfamily.Image_Cnt} fotos: {subfamilySpeciesList.map(species =>
-            `<span class="family-list">${species.Species_Name_Sp} (${species.Image_Cnt})</span>`
-          ).join(', ')}
+          {subfamily.Image_Cnt} fotos: {subfamilySpeciesList.map((species, index) => (
+            <React.Fragment key={`species-${species.Species_ID}`}>
+              <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
+              {index < subfamilySpeciesList.length - 1 && <span>, </span>}
+            </React.Fragment>
+          ))}
         </div>
       </div>
     </div>
