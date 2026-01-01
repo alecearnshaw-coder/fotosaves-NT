@@ -13,8 +13,8 @@ export const dynamic = 'force-dynamic';
 
 function getOrigin(): string {
   if (process.env.VERCEL) {
-    // Use relative URLs in production - Vercel serves static files from the same domain
-    return '';
+    // Use the actual Vercel deployment URL for reliable fetching
+    return process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '';
   }
   return 'http://localhost:3000';
 }
@@ -467,6 +467,8 @@ function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[]
 }
 
 export default async function AvesPage() {
+  console.error('🐦 SSR Aves Page starting...');
+
   // Load all taxonomy data
   const [ordersData, subordersData, familiesData, subfamiliesData, speciesData] = await Promise.all([
     fetchJsonData<Order>('/data/taxonomy/orders.json'),
@@ -482,6 +484,30 @@ export default async function AvesPage() {
   const subfamilies = subfamiliesData?.data || [];
   const species = speciesData?.data || [];
 
+  console.error(`📊 Data loaded - Orders: ${orders.length}, Families: ${families.length}, Species: ${species.length}`);
+
+  // If no data loaded, show debug info
+  if (orders.length === 0) {
+    console.error('❌ No orders data loaded!');
+    return (
+      <div>
+        <style dangerouslySetInnerHTML={{ __html: `body { background-color: #999973; color: #663300; margin: 0; padding: 20px; font-family: Arial, sans-serif; }` }} />
+        <SharedHeader showQuickLinks={true} />
+        <div style={{background: '#ffeb3b', padding: '20px', margin: '20px 0', border: '2px solid #000', textAlign: 'center', fontWeight: 'bold'}}>
+          🚨 DEBUG: No taxonomy data loaded! Check Vercel logs for fetch errors.
+        </div>
+        <div style={{background: '#fff', padding: '20px', border: '1px solid #000'}}>
+          <h2>Debug Info:</h2>
+          <p>Vercel URL: {process.env.VERCEL_URL || 'Not set'}</p>
+          <p>Orders: {orders.length}</p>
+          <p>Families: {families.length}</p>
+          <p>Species: {species.length}</p>
+        </div>
+        <LightboxScripts />
+        <BackToTop />
+      </div>
+    );
+  }
 
   // Process orders (excluding Passeriformes)
   const nonPasseriformesOrders = orders.filter(order => order.Order_ID !== 'OR_029');
