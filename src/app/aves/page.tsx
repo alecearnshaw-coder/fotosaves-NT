@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import { LightboxScripts } from '@/components/LightboxScripts';
-import { BackToTop } from '@/components/BackToTop';
+import LightboxScripts from '@/components/LightboxScripts';
+import BackToTop from '@/components/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
 
 export const metadata: Metadata = {
