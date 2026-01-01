@@ -1,6 +1,4 @@
 import type { Metadata } from 'next';
-import { promises as fs } from 'fs';
-import path from 'path';
 import LightboxScripts from '@/components/LightboxScripts';
 import BackToTop from '@/components/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
@@ -10,18 +8,32 @@ export const metadata: Metadata = {
   description: 'Taxonomía completa de aves de Argentina con fotos - SERVER SIDE RENDERED',
 };
 
-export const revalidate = 86400; // Revalidate every 24 hours
+// Force dynamic rendering to avoid prerendering large data
+export const dynamic = 'force-dynamic';
 
-async function loadJsonData<T>(filename: string): Promise<{ data: T[] } | null> {
+function getOrigin(): string {
+  if (process.env.VERCEL) {
+    // Use relative URLs in production - Vercel serves static files from the same domain
+    return '';
+  }
+  return 'http://localhost:3000';
+}
+
+async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
-    // For server-side rendering, read files directly from filesystem
-    const filePath = path.join(process.cwd(), 'public', filename);
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    const jsonData = JSON.parse(fileContents);
-    return jsonData;
+    const origin = getOrigin();
+    const url = `${origin}${path}`;
+    const response = await fetch(url, { cache: 'no-store' });
+
+    if (!response.ok) {
+      console.error(`Failed to fetch ${path}: ${response.status} ${response.statusText}`);
+      return null;
+    }
+
+    return await response.json();
   } catch (error) {
-    console.error(`❌ Error loading ${filename}:`, error);
-    return { data: [] }; // Return empty array instead of null
+    console.error(`Error fetching ${path}:`, error);
+    return null;
   }
 }
 
@@ -457,11 +469,11 @@ function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[]
 export default async function AvesPage() {
   // Load all taxonomy data
   const [ordersData, subordersData, familiesData, subfamiliesData, speciesData] = await Promise.all([
-    loadJsonData<Order>('data/taxonomy/orders.json'),
-    loadJsonData<Suborder>('data/taxonomy/suborders.json'),
-    loadJsonData<Family>('data/taxonomy/families.json'),
-    loadJsonData<Subfamily>('data/taxonomy/subfamilies.json'),
-    loadJsonData<Species>('data/taxonomy/species.json'),
+    fetchJsonData<Order>('/data/taxonomy/orders.json'),
+    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
+    fetchJsonData<Family>('/data/taxonomy/families.json'),
+    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
+    fetchJsonData<Species>('/data/taxonomy/species.json'),
   ]);
 
   const orders = ordersData?.data || [];
