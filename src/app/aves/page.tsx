@@ -678,6 +678,17 @@ export default async function AvesPage() {
         color: #333333;
         font-style: italic;
     }
+
+    .site-footer {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 15px;
+        background: rgba(0,0,0,0.1);
+        border-radius: 10px;
+        text-align: center;
+        font-size: 0.9em;
+        color: #333;
+    }
   `;
 
   return (
@@ -693,6 +704,19 @@ export default async function AvesPage() {
           {passeriformesSection}
         </div>
       </div>
+
+      {/* Footer */}
+      <div className="site-footer">
+        <p>
+          <span style={{ color: '#494242' }}>Todas las fotos © {new Date().getFullYear()} Alec Earnshaw</span>
+          {' | '}
+          <span style={{ color: '#036118' }}>All photos © {new Date().getFullYear()} Alec Earnshaw</span>
+        </p>
+        <p>
+          <a href="mailto:aearnshaw@sinectis.com.ar">aearnshaw@sinectis.com.ar</a>
+        </p>
+      </div>
+
       <LightboxScripts />
       <BackToTop />
     </>
