@@ -15,6 +15,8 @@ export default function GrupoLayout({
       <link rel="stylesheet" href="/lightbox/css/lightbox.css" />
       <link rel="stylesheet" href="/styles/Species_Builder_styles.css" />
       <link rel="stylesheet" href="/styles/shared_header.css" />
+      <script src="/scripts/shared/copyright.js"></script>
+      <script src="/scripts/shared/speciesSearch.js"></script>
 
       {/* Wrap content in grupo-page class for styling */}
       <div className="grupo-page">

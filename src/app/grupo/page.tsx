@@ -366,7 +366,7 @@ const pageStyles = `
 
   /* Fix anchor scrolling to account for fixed header and dynamic content */
   .species-section {
-    scroll-margin-top: 40px; /* Increased to account for layout shifts */
+    scroll-margin-top: 15px; /* Reduced for better positioning */
   }
 
   /* Smooth scrolling for anchor navigation */
