@@ -363,9 +363,9 @@ const pageStyles = `
     font-size: 0.85em;
   }
 
-  /* Fix anchor scrolling to account for fixed header */
+  /* Fix anchor scrolling to account for fixed header and dynamic content */
   .species-section {
-    scroll-margin-top: 20px; /* Adjust based on header height */
+    scroll-margin-top: 40px; /* Increased to account for layout shifts */
   }
 
   /* Smooth scrolling for anchor navigation */
@@ -606,6 +606,51 @@ export default async function GrupoPage({
 
       <BackToTop />
       <LightboxScripts />
+
+      {/* Enhanced anchor scrolling for dynamic content */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            document.addEventListener('DOMContentLoaded', function() {
+              // Handle anchor links with delayed scrolling for dynamic content
+              document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                  const targetId = this.getAttribute('href').substring(1);
+                  const targetElement = document.getElementById(targetId);
+
+                  if (targetElement) {
+                    e.preventDefault();
+
+                    // Small delay to ensure dynamic content has loaded
+                    setTimeout(function() {
+                      targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                      });
+                    }, 100);
+                  }
+                });
+              });
+
+              // Also handle direct URL anchor navigation (when page loads with #hash)
+              if (window.location.hash) {
+                const targetId = window.location.hash.substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                  // Delay to ensure all content has loaded
+                  setTimeout(function() {
+                    targetElement.scrollIntoView({
+                      behavior: 'smooth',
+                      block: 'start'
+                    });
+                  }, 500); // Longer delay for initial page load
+                }
+              }
+            });
+          `,
+        }}
+      />
     </>
   );
 }
@@ -826,7 +871,7 @@ function renderSubfamilyQuickRow(pageLevel: string, groupID: string, families: F
   return (
     <div style={{ maxWidth: '800px', margin: '4px auto 0 auto', textAlign: 'center' }}>
       <div><span className="Sp_Text">Subfamilias</span> – <span className="En_Text">Subfamilies</span></div>
-      <div>
+    <div>
         {subfams.map((sf, index) => (
           <span key={sf.Subfamily_Sci}>
             <a href={`/grupo?path=${sf.SF_Path || path || ''}&groupType=subfamily&groupId=${sf.Subfamily_Sci}`}>
@@ -1106,7 +1151,7 @@ function renderSpeciesSection(species: Species, path: string, speciesImageMap: M
                 <div
                   className="gender-box"
                   style={genderInfo?.color ? { backgroundColor: genderInfo.color } : undefined}
-                  dangerouslySetInnerHTML={{
+        dangerouslySetInnerHTML={{
                     __html: genderInfo ? genderInfo.label : (item.Sex_Age || '')
                   }}
                 />
