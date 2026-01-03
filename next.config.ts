@@ -6,28 +6,44 @@ const nextConfig = {
         source: '/grupo/:path*',
         destination: '/grupo.html',
       },
-      // OLD TAXONOMY URL FORMATS - redirect to taxonomy API
+      // OLD TAXONOMY URL FORMATS - complex directory structure
+      // Orders: /{OrderName}/Fotos{OrderName}.html
       {
-        source: '/Fotos:taxonomyName.html',
-        destination: '/api/taxonomy-redirect/:taxonomyName',
+        source: '/:orderName/Fotos:orderName\\.html',
+        destination: '/api/taxonomy-redirect/order/:orderName',
+      },
+      // Charadriiformes suborders: /Charadriiformes/FotosCharadriiformes{A,B,C}.html
+      {
+        source: '/Charadriiformes/FotosCharadriiformesA.html',
+        destination: '/api/taxonomy-redirect/suborder/Charadrii',
+      },
+      {
+        source: '/Charadriiformes/FotosCharadriiformesB.html',
+        destination: '/api/taxonomy-redirect/suborder/Scolopaci',
+      },
+      {
+        source: '/Charadriiformes/FotosCharadriiformesC.html',
+        destination: '/api/taxonomy-redirect/suborder/Lari',
+      },
+      // Passeriformes families: /Passeriformes/{FamilyName}/Fotos{FamilyName}.html
+      {
+        source: '/Passeriformes/:familyName/Fotos:familyName\\.html',
+        destination: '/api/taxonomy-redirect/family/:familyName',
+      },
+      // Subfamilies: /Passeriformes/{FamilyName}/Fotos{SubfamilyName}.html
+      {
+        source: '/Passeriformes/:familyName/Fotos:subfamilyName\\.html',
+        destination: '/api/taxonomy-redirect/subfamily/:subfamilyName',
+      },
+      // Non-Passeriformes families: /{OrderName}/{FamilyName}/Fotos{FamilyName}.html
+      {
+        source: '/:orderName/:familyName/Fotos:familyName\\.html',
+        destination: '/api/taxonomy-redirect/family/:familyName',
       },
       // Root-level species pages (old format) - redirect by slug
       {
         source: '/:slug.html',
         destination: '/api/species-redirect-by-slug?slug=:slug',
-      },
-      // Special cases for Charadriiformes suborders
-      {
-        source: '/FotosCharadriiformesA.html',
-        destination: '/api/taxonomy-redirect/CharadriiformesA',
-      },
-      {
-        source: '/FotosCharadriiformesB.html',
-        destination: '/api/taxonomy-redirect/CharadriiformesB',
-      },
-      {
-        source: '/FotosCharadriiformesC.html',
-        destination: '/api/taxonomy-redirect/CharadriiformesC',
       },
       // Main pages
       {
@@ -82,4 +98,5 @@ const nextConfig = {
   },
 };
 
+export default nextConfig;
 export default nextConfig;

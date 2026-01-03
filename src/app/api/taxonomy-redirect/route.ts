@@ -25,14 +25,13 @@ interface Subfamily {
 export async function GET(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Extract the taxonomy name from the URL
-  // Expected format: /Fotos{TaxonomyName}.html
-  const match = pathname.match(/^\/Fotos(.+)\.html$/);
+  // Parse the new URL structure: /api/taxonomy-redirect/{type}/{name}
+  const match = pathname.match(/^\/api\/taxonomy-redirect\/([^\/]+)\/(.+)$/);
   if (!match) {
     return NextResponse.redirect(new URL('/aves', request.url));
   }
 
-  const taxonomyName = match[1];
+  const [, type, name] = match;
 
   try {
     // Load taxonomy data
@@ -53,39 +52,35 @@ export async function GET(request: NextRequest) {
     const families: { data: Family[] } = JSON.parse(familiesData);
     const subfamilies: { data: Subfamily[] } = JSON.parse(subfamiliesData);
 
-    // Special cases for Charadriiformes suborders
-    if (taxonomyName === 'CharadriiformesA') {
-      return NextResponse.redirect(new URL('/grupo?groupType=suborder&groupId=Charadrii', request.url));
-    }
-    if (taxonomyName === 'CharadriiformesB') {
-      return NextResponse.redirect(new URL('/grupo?groupType=suborder&groupId=Scolopaci', request.url));
-    }
-    if (taxonomyName === 'CharadriiformesC') {
-      return NextResponse.redirect(new URL('/grupo?groupType=suborder&groupId=Lari', request.url));
-    }
+    // Handle different types
+    switch (type) {
+      case 'order':
+        const order = orders.data.find(o => o.Order_Name_Sci === name);
+        if (order) {
+          return NextResponse.redirect(new URL(`/grupo?groupType=order&groupId=${order.Order_Name_Sci}`, request.url));
+        }
+        break;
 
-    // Check orders first
-    const order = orders.data.find(o => o.Order_Name_Sci === taxonomyName);
-    if (order) {
-      return NextResponse.redirect(new URL(`/grupo?groupType=order&groupId=${order.Order_Name_Sci}`, request.url));
-    }
+      case 'family':
+        const family = families.data.find(f => f.Family_Name_Sci === name);
+        if (family) {
+          return NextResponse.redirect(new URL(`/grupo?groupType=family&groupId=${family.Family_Name_Sci}`, request.url));
+        }
+        break;
 
-    // Check families
-    const family = families.data.find(f => f.Family_Name_Sci === taxonomyName);
-    if (family) {
-      return NextResponse.redirect(new URL(`/grupo?groupType=family&groupId=${family.Family_Name_Sci}`, request.url));
-    }
+      case 'subfamily':
+        const subfamily = subfamilies.data.find(sf => sf.Subfamily_Sci === name);
+        if (subfamily) {
+          return NextResponse.redirect(new URL(`/grupo?groupType=subfamily&groupId=${subfamily.Subfamily_Sci}`, request.url));
+        }
+        break;
 
-    // Check subfamilies
-    const subfamily = subfamilies.data.find(sf => sf.Subfamily_Sci === taxonomyName);
-    if (subfamily) {
-      return NextResponse.redirect(new URL(`/grupo?groupType=subfamily&groupId=${subfamily.Subfamily_Sci}`, request.url));
-    }
-
-    // Check suborders (for any remaining cases)
-    const suborder = suborders.data.find(so => so.SO_Name_Sci === taxonomyName);
-    if (suborder) {
-      return NextResponse.redirect(new URL(`/grupo?groupType=suborder&groupId=${suborder.SO_Name_Sci}`, request.url));
+      case 'suborder':
+        const suborder = suborders.data.find(so => so.SO_Name_Sci === name);
+        if (suborder) {
+          return NextResponse.redirect(new URL(`/grupo?groupType=suborder&groupId=${suborder.SO_Name_Sci}`, request.url));
+        }
+        break;
     }
 
     // Not found - redirect to main aves page
