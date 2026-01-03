@@ -9,7 +9,7 @@ const nextConfig = {
       // OLD TAXONOMY URL FORMATS - complex directory structure
       // Orders: /{OrderName}/Fotos{OrderName}.html
       {
-        source: '/:orderName/Fotos:orderName\\.html',
+        source: '/:orderName/Fotos:orderName.html',
         destination: '/api/taxonomy-redirect/order/:orderName',
       },
       // Charadriiformes suborders: /Charadriiformes/FotosCharadriiformes{A,B,C}.html
@@ -27,17 +27,17 @@ const nextConfig = {
       },
       // Passeriformes families: /Passeriformes/{FamilyName}/Fotos{FamilyName}.html
       {
-        source: '/Passeriformes/:familyName/Fotos:familyName\\.html',
+        source: '/Passeriformes/:familyName/Fotos:familyName.html',
         destination: '/api/taxonomy-redirect/family/:familyName',
       },
       // Subfamilies: /Passeriformes/{FamilyName}/Fotos{SubfamilyName}.html
       {
-        source: '/Passeriformes/:familyName/Fotos:subfamilyName\\.html',
+        source: '/Passeriformes/:familyName/Fotos:subfamilyName.html',
         destination: '/api/taxonomy-redirect/subfamily/:subfamilyName',
       },
       // Non-Passeriformes families: /{OrderName}/{FamilyName}/Fotos{FamilyName}.html
       {
-        source: '/:orderName/:familyName/Fotos:familyName\\.html',
+        source: '/:orderName/:familyName/Fotos:familyName.html',
         destination: '/api/taxonomy-redirect/family/:familyName',
       },
       // Root-level species pages (old format) - redirect by slug
