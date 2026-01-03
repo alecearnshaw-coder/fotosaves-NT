@@ -140,7 +140,9 @@ function renderOrderElement(order: Order, families: Family[], species: Species[]
               Orden <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_Sp})</span>
             </a>
           ) : (
-            <React.Fragment key={`species-${species.Species_ID}`}>Orden <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_Sp})</span></>
+            <React.Fragment key={`species-${species.Species_ID}`}>
+              Orden <span className="order-scientific">{order.Order_Name_Sci}</span> <span className="order-spanish">({order.Order_Name_Sp})</span>
+            </React.Fragment>
           )}
         </div>
         {order.Species_Cnt > 0 && (
@@ -151,7 +153,7 @@ function renderOrderElement(order: Order, families: Family[], species: Species[]
             <div className="family-list" style={{marginTop: '2px', lineHeight: '1.2'}}>
               {order.Image_Cnt} fotos: {speciesData}
             </div>
-          </>
+          </React.Fragment>
         )}
       </div>
     </div>
@@ -187,7 +189,7 @@ function displaySpeciesForOrder(orderId: string, families: Family[], species: Sp
         <React.Fragment key={`species-${species.Species_ID}`}>
           <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
           {speciesIndex < speciesList.length - 1 && <span>, </span>}
-        </>
+        </React.Fragment>
       ));
 
       familyElements.push(...speciesElements);
@@ -258,7 +260,9 @@ function renderSuborderElement(order: Order, suborder: Suborder, families: Famil
               Suborden <span className="order-scientific">{suborder.SO_Name_Sci}</span> <span className="order-spanish">({suborder.SO_Name_Sp})</span>
             </a>
           ) : (
-            <React.Fragment key={`species-${species.Species_ID}`}>Suborden <span className="order-scientific">{suborder.SO_Name_Sci}</span> <span className="order-spanish">({suborder.SO_Name_Sp})</span></>
+            <React.Fragment key={`species-${species.Species_ID}`}>
+              Suborden <span className="order-scientific">{suborder.SO_Name_Sci}</span> <span className="order-spanish">({suborder.SO_Name_Sp})</span>
+            </React.Fragment>
           )}
         </div>
         <div className="species-count">
@@ -303,7 +307,7 @@ function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], 
         <React.Fragment key={`species-${species.Species_ID}`}>
           <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
           {speciesIndex < speciesList.length - 1 && <span>, </span>}
-        </>
+        </React.Fragment>
       ));
 
       familyElements.push(...speciesElements);
@@ -369,7 +373,9 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
       <div className={isPasseriformesFamily ? 'order-content' : 'subgroup-content'}>
         <div className="order-title">
           {hasSubfamilies || !url ? (
-            <React.Fragment key={`species-${species.Species_ID}`}>Familia <span className="order-scientific">{family.Family_Name_Sci}</span> <span className="order-spanish">({family.Family_Name_Sp})</span></>
+            <React.Fragment key={`species-${species.Species_ID}`}>
+              Familia <span className="order-scientific">{family.Family_Name_Sci}</span> <span className="order-spanish">({family.Family_Name_Sp})</span>
+            </React.Fragment>
           ) : (
             <a href={url} style={{textDecoration: 'none', color: 'inherit'}}>
               Familia <span className="order-scientific">{family.Family_Name_Sci}</span> <span className="order-spanish">({family.Family_Name_Sp})</span>
@@ -386,7 +392,7 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
               <React.Fragment key={`species-${species.Species_ID}`}>
                 <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
                 {index < familySpeciesList.length - 1 && <span>, </span>}
-              </>
+              </React.Fragment>
             ))}
           </div>
         )}
@@ -438,7 +444,9 @@ function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, spec
               Subfam. <span className="order-scientific">{subfamily.Subfamily_Sci}</span> <span className="order-spanish">({subfamily.Subfamily_Sp})</span>
             </a>
           ) : (
-            <React.Fragment key={`species-${species.Species_ID}`}>Subfam. <span className="order-scientific">{subfamily.Subfamily_Sci}</span> <span className="order-spanish">({subfamily.Subfamily_Sp})</span></>
+            <React.Fragment key={`species-${species.Species_ID}`}>
+              Subfam. <span className="order-scientific">{subfamily.Subfamily_Sci}</span> <span className="order-spanish">({subfamily.Subfamily_Sp})</span>
+            </React.Fragment>
           )}
         </div>
         <div className="species-count">
@@ -449,7 +457,7 @@ function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, spec
             <React.Fragment key={`species-${species.Species_ID}`}>
               <span className="family-list">{species.Species_Name_Sp} ({species.Image_Cnt})</span>
               {index < subfamilySpeciesList.length - 1 && <span>, </span>}
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
