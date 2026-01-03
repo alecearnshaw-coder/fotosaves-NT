@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title - Fotos de Animales Silvestres</title>
+    <meta name="description" content="Description of this page">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/styles/shared_header.css">
+    <link rel="stylesheet" href="/lightbox/css/lightbox.css">
+
+    <!-- Page-specific styles -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #999973;
+            color: #663300;
+            margin: 0;
+            padding: 10px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #DCDBB8;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #CC6600;
+        }
+
+        .page-header h1 {
+            font-size: 200%;
+            color: #666666;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+
+        .page-header .subtitle {
+            font-size: 120%;
+            color: #008080;
+            font-style: italic;
+            margin: 0;
+        }
+
+        .content-section {
+            margin-bottom: 30px;
+        }
+
+        .content-section h2 {
+            font-size: 160%;
+            color: #7A2900;
+            border-bottom: 1px solid #CC6600;
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .content-section h3 {
+            font-size: 130%;
+            color: #D55A00;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        .content-section p {
+            margin-bottom: 5px;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background-color: #F5F5DC;
+            border: 2px solid #CC6600;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .highlight-box .title {
+            font-weight: bold;
+            color: #7A2900;
+            margin-bottom: 10px;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .gallery-item {
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            max-width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border: 1px solid #663300;
+            border-radius: 8px;
+        }
+
+        .gallery-item .caption {
+            margin-top: 8px;
+            font-size: 90%;
+            color: #443322;
+        }
+
+        .contact-info {
+            background-color: #E6F7BC;
+            border: 1px solid #6a9678;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .contact-info .title {
+            font-weight: bold;
+            color: #013b01;
+            margin-bottom: 10px;
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 90%;
+            color: #666666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #CC6600;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .page-header h1 {
+                font-size: 160%;
+            }
+
+            .image-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="/scripts/shared/copyright.js"></script>
+</head>
+<body>
+    <!-- Site Header -->
+    <div class="heading-container">
+        <div class="site-header-banded">
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">fotos <span style="color:#FF9966">de animales silvestres</span> <span class="subheadline">de ARGENTINA</span></div>
+            </div>
+            <div class="site-header-band site-header-band-light">
+                <div class="site-title-row">
+                    <div class="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+                    <div class="copyright">© <span id="copyright-year"></span><br />Alec Earnshaw</div>
+                </div>
+            </div>
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">photos <span style="color:#FF9966">of wild animals</span> <span class="subheadline">of ARGENTINA</span></div>
+            </div>
+        </div>
+        <div class="quick-links" style="margin-bottom: 30px;">
+            <div class="links-left">
+                <span class="label-es">Enlaces:</span>
+                <a class="quick-link" href="/aves" title="Volver a Aves">Aves</a>
+                <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Inicio</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1>Consejos de Navegación</h1>
+            <p class="subtitle">¡Descubre cómo navegar el sitio y aprovechar al máximo tu visita!</p>
+        </div>
+
+        <!-- Introduction Section -->
+        <div class="content-section">
+            <h2>Estructura básica de las páginas de aves:</h2>
+
+          La sección de aves está organizada en <strong>3 niveles</strong>:
+            <ul>
+              <li><strong>Página principal de aves</strong>: Muestra todo el árbol familiar de las aves argentinas, en inglés
+                <ul>
+          <li><strong>Página de grupo</strong>: Muestra especies pertenecientes al mismo <strong>orden</strong>, <strong>suborden</strong>, <strong>familia</strong> o <strong>subfamilia</strong> (bilingüe inglés-español)
+            <ul>
+              <li><strong>Página de especie</strong>: Muestra 1 o más fotos de una <strong>sola especie</strong> (bilingüe inglés-español)            </li>
+              </ul>
+          </li>
+          </ul>
+              </li>
+            </ul>
+            <p>Actualmente el sitio cubre aproximadamente el 80% de las aves normalmente registradas en Argentina, por lo que puede que encuentres que el ave que buscas no esté presente.<br>
+              Pero antes de rendirte, intenta buscar con nombres alternativos, o explora la familia para ver si está allí. Si no, puedes estar seguro de que lamento tanto como tú, y más, no tener fotos de cada ave posible. ¡Trabajando en ello...</p></div>
+
+        <!-- Main Content Sections -->
+        <div class="content-section">
+            <h2>Características de navegación comunes a todas las páginas</h2>
+
+            <table width="981" border="1">
+              <tr>
+                <td width="172" height="148" scope="col"><img src="images/NavigationTips/Search_Sp.jpg" width="225" height="145"></td>
+                <td width="793" align="left" valign="top" scope="col" style="padding-left:12px;"><h3>Botón de búsqueda de especies</h3>
+Búsqueda multilingüe (inglés / español / científico) de especies representadas en el sitio. <strong><br>
+Te lleva instantáneamente a la página de la especie</strong>. Ingresa 2 o más letras para comenzar a obtener resultados. Mostrará como máximo 12 resultados coincidentes. Luego haz clic en la fila para saltar a la especie que deseas.<br>
+                </p></td>
+              </tr>
+              <tr>
+                <td height="130" align="center"><img src="images/NavigationTips/BackToTop.jpg" width="95" height="97"></td>
+                <td align="left" valign="top" style="padding-left:12px;"><h3>Botón volver arriba</h3>
+                  Este botón aparecerá en la esquina inferior derecha una vez que hayas desplazado hacia abajo cierta distancia.<br>
+                  Haz clic en él para volver arriba de la página.</td>
+              </tr>
+             
+            </table>
+            <h3>Migas de pan</h3>
+            <img src="images/NavigationTips/Breadcrumbs.jpg" width="815" height="65"><br>
+            
+<p>Todas las páginas muestran las &quot;migas de pan&quot; justo debajo del encabezado. Piensa en ello como un &quot;rastro&quot; que te muestra dónde estás en el árbol familiar. <br>
+
+  Si estás en una página de especie, un <strong><span style="color:#007BA7; text-decoration:underline;">enlace azul</span></strong> te llevará al grupo &quot;padre&quot; contenedor, que puede ser un orden, suborden, familia o subfamilia.<br>
+  Haz clic en el enlace <strong><span style="color:#444444; text-decoration:underline;">Aves</span></strong> para volver a la página principal de aves, o en <strong><span style="color:#444444; text-decoration:underline;">Inicio</span></strong> para explorar otras partes del sitio.</p>
+</div>
+      
+<div class="content-section">
+            <h2>Características de navegación de la página principal de Aves</h2>
+
+    <p>El primer nivel de clasificación de aves es por <strong>Órdenes</strong>. Pero algunos órdenes son tan grandes, que a veces es mejor dividirlos:<br>
+      - En <strong>Subórdenes</strong> (como es el caso de las aves playeras - <em>Charadriiformes</em>)<br>
+      - En <strong>Familias</strong> (para dar mejor visualización de grupos icónicos, como vencejos, colibríes, tucanes y carpinteros<br>
+    - El orden muy grande de los <strong>Passeriformes</strong> muestra todas las familias y a veces incluso <strong>Subfamilias</strong> (notablemente para los <em>Furnariidae</em>).</p>
+    <p>Así que dependiendo del caso, puedes navegar &quot;profundizando&quot; hasta el <strong>nivel de grupo</strong>. Haz clic en la imagen o el nombre del grupo, como se marca en rojo en la imagen de abajo. Esta ilustración también muestra cómo interpretar la información detallada proporcionada para cada grupo. </p>
+    <img src="images/NavigationTips/OrderInfo_Sp.jpg" width="812" height="132">
+</div>
+
+<div class="content-section">
+            <h2>Características de navegación a nivel de Grupo</h2>
+
+    <h3>Tabla de Contenido</h3>
+      La página comienza con una tabla que muestra todas las especies contenidas en el grupo (en nombres inglés, español y científico).<br>
+      Si el grupo es un orden o suborden, la tabla mostrará las divisiones familiares.
+      <br>
+Haz clic en la especie que deseas ver, y la página se desplazará hacia abajo hasta ella.
+</p>
+    <img src="images/NavigationTips/TOC.jpg" width="605" height="135">
+    <br>
+    Las páginas de grupo normalmente muestran <strong>solo una foto de cada especie de ave</strong> en el grupo. Sin embargo, en especies con <strong>dimorfismo sexual</strong> (cuando el macho y la hembra son diferentes), <strong>generalmente habrá 2 fotos</strong> (siempre asumiendo que hay material fotográfico disponible). <br>
+      <h3>Agrandar la imagen</h3>
+    Haz clic en la foto para <strong>agrandar la imagen</strong>. Luego haz clic en el marco negro, o la &quot;<strong>X</strong>&quot; en la esquina inferior derecha, para hacerla pequeña de nuevo.
+     <h3>Acceder a la Página de Especie</h3>
+    Cuando esté disponible, puedes ir a la <strong>página de especie</strong> para ver más fotos de ese ave. Haz clic en el botón <strong><span style="color:#005500;">Más fotos...</span></strong> debajo de la última imagen.
+    <img src="images/NavigationTips/MorePhotos.jpg" width="430" height="135"><br>
+</div>
+
+<div class="content-section">
+    <h2>Características de navegación a nivel de Especie</h2>
+
+    <h3>Agrandar la imagen y navegar por todas ellas</h3>
+    <p>Como antes, puedes hacer clic en la imagen para agrandar la foto. Pero ahora también puedes hacer clic en el símbolo &quot;<strong>&gt;</strong>&quot; en el borde derecho de la foto (encerrado en rojo abajo), o &quot;<strong>&lt;</strong>&quot; en el borde izquierdo, (o usar las flechas izquierda y derecha del teclado) para navegar por el resto de las imágenes, viéndolas todas en tamaño agrandado. Ten en cuenta que para que aparezcan las flechas izquierda o derecha, el mouse debe estar flotando sobre la imagen, en el lado izquierdo o derecho, respectivamente. <br>
+      Al ver las imágenes de esta manera, la información de ubicación y fecha de cada foto será visible a la izquierda, debajo de la imagen.<br>
+      Debajo de eso hay un contador que muestra cuántas imágenes quedan, o si has llegado al final.
+      <br>
+      </p>
+    <p><img src="images/NavigationTips/Enlarge.jpg" width="808" height="540"><br>
+      <br>
+      Continuando, si al final de la página encuentras fotos más pequeñas &quot;como diapositivas&quot;, estas suelen ser existencias antiguas, pero también pueden contener algunas imágenes bastante buenas.
+    Puedes navegar por ellas de manera similar, agrandando y explorando, pero funcionarán con un contador separado.</p>
+    <p>Vuelve al inicio de la página haciendo clic en el botón redondo &quot;volver arriba&quot;, y luego usa los enlaces de migas de pan para continuar explorando el sitio.<br>
+    </p>
+    <br>
+    <em><strong>¡Ahora, visita el sitio, mira algunas aves, y disfruta la experiencia!</strong></em><br>
+</div>
+
+
+
+
+        <!-- Image Gallery (Optional) --><!-- Contact/Additional Info --><!-- Footer Note -->
+      <div class="footer-note">
+            <p>
+                All content © <span id="copyright-year-footer"></span> Alec Earnshaw.
+                Photos and information provided for educational and conservation purposes.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+

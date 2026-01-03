@@ -708,6 +708,7 @@ export default async function AvesPage() {
           <div className="links-left">
             <span className="label-es">Enlaces:</span>
             <a className="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Cabecera del sitio</a>
+            <a className="quick-link" href="/Navigation_Sp.html" title="Consejos de navegación">Navegación</a>
             <a className="quick-link" href="/About_Sp.html" title="Acerca de FotosAves">Acerca de</a>
           </div>
         }
