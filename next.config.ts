@@ -11,6 +11,11 @@ const nextConfig = {
         source: '/Fotos:taxonomyName.html',
         destination: '/api/taxonomy-redirect/:taxonomyName',
       },
+      // Root-level species pages (old format) - redirect by slug
+      {
+        source: '/:slug.html',
+        destination: '/api/species-redirect-by-slug?slug=:slug',
+      },
       // Special cases for Charadriiformes suborders
       {
         source: '/FotosCharadriiformesA.html',
