@@ -213,8 +213,37 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   }
 
   return {
-    title: `${groupId} - ${groupType} | Fotosaves`,
-    description: `Bird species in ${groupType} ${groupId}`,
+    title: `${groupId} - ${groupType} | FotosAves.com.ar`,
+    description: `Fotografías de especies de aves en ${groupType} ${groupId}. Imágenes originales tomadas en Argentina.`,
+    keywords: [
+      'Aves', 'Birds', 'Argentina', 'Birds of Argentina', 'Aves de Argentina', 'Birdwatching', 'Bird watching',
+      'fotografías de aves', 'fotos de aves', 'fotografías de aves de Argentina', 'fotos de aves de Argentina',
+      'Bird photos of Argentina', 'Bird photography of Argentina', 'photos of Argentinian birds', 'photos of Argentine birds',
+      'Argentina wildlife', 'Argentine birds', 'Wildlife photography', 'Ornithology',
+      groupType, groupId
+    ],
+    openGraph: {
+      title: `${groupId} - ${groupType}`,
+      description: `Fotografías de especies de aves en ${groupType} ${groupId}. Imágenes originales tomadas en Argentina.`,
+      url: `https://fotosaves.com.ar/grupo?groupType=${groupType}&groupId=${encodeURIComponent(groupId)}`,
+      siteName: 'FotosAves.com.ar',
+      images: [
+        {
+          url: '/images/thumbnails/SBRH3.jpg',
+          width: 1200,
+          height: 630,
+          alt: `Fotografía de aves - ${groupType} ${groupId}`,
+        },
+      ],
+      locale: 'es_AR',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${groupId} - ${groupType}`,
+      description: `Fotografías de especies de aves en ${groupType} ${groupId}.`,
+      images: ['/images/thumbnails/SBRH3.jpg'],
+    },
   };
 }
 

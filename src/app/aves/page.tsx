@@ -6,8 +6,36 @@ import SharedHeader from '@/components/SharedHeader';
 import ContactLink from '@/components/ContactLink';
 
 export const metadata: Metadata = {
-  title: 'Fotos de Aves - SSR VERSION DEPLOYED',
-  description: 'Taxonomía completa de aves de Argentina con fotos - SERVER SIDE RENDERED',
+  title: 'Fotos de Aves de Argentina - Fotografías de Aves Argentinas',
+  description: 'Taxonomía completa de aves de Argentina con fotografías originales. Más de 800 especies de aves argentinas con imágenes de alta calidad tomadas en el campo.',
+  keywords: [
+    'Aves', 'Birds', 'Argentina', 'Birds of Argentina', 'Aves de Argentina', 'Birdwatching', 'Bird watching',
+    'fotografías de aves', 'fotos de aves', 'fotografías de aves de Argentina', 'fotos de aves de Argentina',
+    'Bird photos of Argentina', 'Bird photography of Argentina', 'photos of Argentinian birds', 'photos of Argentine birds',
+    'Argentina wildlife', 'Argentine birds', 'Wildlife photography', 'Ornithology'
+  ],
+  openGraph: {
+    title: 'Fotos de Aves de Argentina',
+    description: 'Descubre más de 800 especies de aves argentinas con fotografías originales tomadas en el campo.',
+    url: 'https://fotosaves.com.ar/aves',
+    siteName: 'FotosAves.com.ar',
+    images: [
+      {
+        url: '/images/thumbnails/SBRH3.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Fotografía de aves de Argentina',
+      },
+    ],
+    locale: 'es_AR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Fotos de Aves de Argentina',
+    description: 'Descubre más de 800 especies de aves argentinas con fotografías originales.',
+    images: ['/images/thumbnails/SBRH3.jpg'],
+  },
 };
 
 // Force dynamic rendering to avoid prerendering large data

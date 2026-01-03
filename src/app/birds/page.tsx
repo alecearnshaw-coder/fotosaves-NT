@@ -6,8 +6,36 @@ import SharedHeader from '@/components/SharedHeader';
 import ContactLink from '@/components/ContactLink';
 
 export const metadata: Metadata = {
-  title: 'Bird Photos - Argentina Wildlife',
-  description: 'Complete taxonomy of birds in Argentina with photos - SERVER SIDE RENDERED',
+  title: 'Bird Photos of Argentina - Argentine Bird Photography',
+  description: 'Complete taxonomy of Argentine birds with original field photography. Over 800 species of birds in Argentina with high-quality images taken in the wild.',
+  keywords: [
+    'Aves', 'Birds', 'Argentina', 'Birds of Argentina', 'Aves de Argentina', 'Birdwatching', 'Bird watching',
+    'fotografías de aves', 'fotos de aves', 'fotografías de aves de Argentina', 'fotos de aves de Argentina',
+    'Bird photos of Argentina', 'Bird photography of Argentina', 'photos of Argentinian birds', 'photos of Argentine birds',
+    'Argentina wildlife', 'Argentine birds', 'Wildlife photography', 'Ornithology'
+  ],
+  openGraph: {
+    title: 'Bird Photos of Argentina',
+    description: 'Discover over 800 species of Argentine birds with original field photography taken in the wild.',
+    url: 'https://fotosaves.com.ar/birds',
+    siteName: 'FotosAves.com.ar',
+    images: [
+      {
+        url: '/images/thumbnails/SBRH3.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Bird photography of Argentina',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bird Photos of Argentina',
+    description: 'Discover over 800 species of Argentine birds with original field photography.',
+    images: ['/images/thumbnails/SBRH3.jpg'],
+  },
 };
 
 // Force dynamic rendering to avoid prerendering large data

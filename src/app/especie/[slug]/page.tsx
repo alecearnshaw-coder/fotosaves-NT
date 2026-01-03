@@ -216,9 +216,49 @@ export async function generateMetadata({
     return { title: 'Species Not Found - Fotosaves' };
   }
   
+  // Build comprehensive keywords including species names, family, and order
+  const keywords = [
+    'Aves', 'Birds', 'Argentina', 'Birds of Argentina', 'Aves de Argentina', 'Birdwatching', 'Bird watching',
+    'fotografías de aves', 'fotos de aves', 'fotografías de aves de Argentina', 'fotos de aves de Argentina',
+    'Bird photos of Argentina', 'Bird photography of Argentina', 'photos of Argentinian birds', 'photos of Argentine birds',
+    'Argentina wildlife', 'Argentine birds', 'Wildlife photography', 'Ornithology',
+    // Species names
+    species.Species_Name_Sp, species.Species_Name_En, species.Species_Name_Sci,
+    // Family and Order
+    species.Family_Sci, species.Order_Sci
+  ];
+
+  // Add suborder for Charadriiformes if it exists
+  if (species.Suborder_Sci && species.Order_Sci === 'Charadriiformes') {
+    keywords.push(species.Suborder_Sci);
+  }
+
   return {
-    title: `${species.Species_Name_En} - ${species.Species_Name_Sp} | Fotosaves`,
-    description: `Photos of ${species.Species_Name_En} (${species.Species_Name_Sci}) - Fotos de ${species.Species_Name_Sp}`,
+    title: `${species.Species_Name_Sp} / ${species.Species_Name_En} - FotosAves.com.ar`,
+    description: `Fotografías de ${species.Species_Name_Sp} (${species.Species_Name_Sci}) - ${species.Species_Name_En}. Imágenes originales tomadas en Argentina.`,
+    keywords: keywords,
+    openGraph: {
+      title: `${species.Species_Name_Sp} / ${species.Species_Name_En}`,
+      description: `Fotografías de ${species.Species_Name_Sp} (${species.Species_Name_Sci}) - ${species.Species_Name_En}. Imágenes originales tomadas en Argentina.`,
+      url: `https://fotosaves.com.ar/especie/${species.Slug}`,
+      siteName: 'FotosAves.com.ar',
+      images: [
+        {
+          url: '/images/thumbnails/SBRH3.jpg',
+          width: 1200,
+          height: 630,
+          alt: `Fotografía de ${species.Species_Name_Sp} - ${species.Species_Name_En}`,
+        },
+      ],
+      locale: 'es_AR',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${species.Species_Name_Sp} / ${species.Species_Name_En}`,
+      description: `Fotografías de ${species.Species_Name_Sp} (${species.Species_Name_Sci}) - ${species.Species_Name_En}.`,
+      images: ['/images/thumbnails/SBRH3.jpg'],
+    },
   };
 }
 
