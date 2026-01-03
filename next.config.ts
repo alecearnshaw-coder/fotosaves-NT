@@ -6,6 +6,33 @@ const nextConfig = {
         source: '/grupo/:path*',
         destination: '/grupo.html',
       },
+      // OLD TAXONOMY URL FORMATS - redirect to taxonomy API
+      {
+        source: '/Fotos:taxonomyName.html',
+        destination: '/api/taxonomy-redirect/:taxonomyName',
+      },
+      // Special cases for Charadriiformes suborders
+      {
+        source: '/FotosCharadriiformesA.html',
+        destination: '/api/taxonomy-redirect/CharadriiformesA',
+      },
+      {
+        source: '/FotosCharadriiformesB.html',
+        destination: '/api/taxonomy-redirect/CharadriiformesB',
+      },
+      {
+        source: '/FotosCharadriiformesC.html',
+        destination: '/api/taxonomy-redirect/CharadriiformesC',
+      },
+      // Main pages
+      {
+        source: '/Aves.html',
+        destination: '/aves',
+      },
+      {
+        source: '/Birds.html',
+        destination: '/birds',
+      },
       // OLD URL FORMATS - rewrite to new SSR species pages
       // Format: /{Order}/Fotos_{Slug}.html → /especie/{Slug}
       {
