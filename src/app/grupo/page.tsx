@@ -422,6 +422,15 @@ const pageStyles = `
     color: #333;
   }
 
+  /* Gender label styling */
+  .gender-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+
   #speciesIndex {
     width: 99%;
     margin: 10px auto;

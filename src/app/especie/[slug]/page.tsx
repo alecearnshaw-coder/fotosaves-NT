@@ -422,6 +422,15 @@ const pageStyles = `
     color: #006600;
   }
 
+  /* Gender label styling */
+  .gender-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+
   /* Info sections */
   .info-section {
     background-color: #BEC8B9;

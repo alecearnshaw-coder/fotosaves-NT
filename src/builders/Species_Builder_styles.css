@@ -253,6 +253,7 @@ html { scroll-behavior: smooth; }
     font-size: 0.9em;
     margin: 0;
     font-weight: bold;
+    color: #333;
 }
 
 /* Image frame */
