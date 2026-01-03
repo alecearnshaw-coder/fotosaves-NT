@@ -16,12 +16,17 @@ const nextConfig = {
       // Specific order redirects (examples)
       {
         source: '/Rheiformes/FotosRheiformes.html',
-        destination: '/grupo?groupType=order&groupId=Rheiformes',
+        destination: '/grupo?path=Rheiformes/&groupType=order&groupId=Rheiformes',
         permanent: true,
       },
       {
         source: '/Tinamiformes/FotosTinamiformes.html',
-        destination: '/grupo?groupType=order&groupId=Tinamiformes',
+        destination: '/grupo?path=Tinamiformes/&groupType=order&groupId=Tinamiformes',
+        permanent: true,
+      },
+      {
+        source: '/Anseriformes/FotosAnseriformes.html',
+        destination: '/grupo?path=Anseriformes/&groupType=order&groupId=Anseriformes',
         permanent: true,
       },
       // Charadriiformes suborders
@@ -43,12 +48,12 @@ const nextConfig = {
       // Specific family redirects (examples)
       {
         source: '/Passeriformes/Icteridae/FotosIcteridae.html',
-        destination: '/grupo?groupType=family&groupId=Icteridae',
+        destination: '/grupo?path=Passeriformes/Icteridae/&groupType=family&groupId=Icteridae',
         permanent: true,
       },
       {
         source: '/Charadriiformes/Scolopacidae/FotosScolopacidae.html',
-        destination: '/grupo?groupType=family&groupId=Scolopacidae',
+        destination: '/grupo?path=Charadriiformes/Scolopacidae/&groupType=family&groupId=Scolopacidae',
         permanent: true,
       },
       // Root-level species pages
