@@ -186,7 +186,7 @@ function displaySpeciesForOrder(orderId: string, families: Family[], species: Sp
         </span>
       );
 
-      familyElements.push(<span key={`colon-${family.Family_ID}`}>:</span>);
+      familyElements.push(<span key={`colon-${family.Family_ID}`}>: </span>);
 
       const speciesElements = speciesList.map((species, speciesIndex) => (
         <React.Fragment key={`species-${species.Species_ID}`}>
@@ -302,7 +302,7 @@ function generateSuborderPhotoBreakdown(suborder: Suborder, families: Family[], 
         </span>
       );
 
-      familyElements.push(<span key={`colon-${family.Family_ID}`}>:</span>);
+      familyElements.push(<span key={`colon-${family.Family_ID}`}>: </span>);
 
       const speciesElements = speciesList.map((species, speciesIndex) => (
         <React.Fragment key={`species-${species.Species_ID}`}>
