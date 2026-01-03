@@ -1,5 +1,5 @@
 export default function ContactLink() {
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement> | React.KeyboardEvent<HTMLAnchorElement>) => {
+  const handleClick = (e: MouseEvent | KeyboardEvent) => {
     e.preventDefault();
     window.location.href =
       'mailto:' +
@@ -9,7 +9,7 @@ export default function ContactLink() {
       '?subject=FotosAves%20feedback';
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLAnchorElement>) => {
+  const handleKeyDown = (e: KeyboardEvent) => {
     if (e.key === 'Enter') {
       handleClick(e);
     }
