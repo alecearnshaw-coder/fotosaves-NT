@@ -56,6 +56,11 @@ const nextConfig = {
         destination: '/grupo?path=Charadriiformes/Scolopacidae/&groupType=family&groupId=Scolopacidae',
         permanent: true,
       },
+      {
+        source: '/Passeriformes/Cotingidae/FotosCotingidae.html',
+        destination: '/grupo?path=Passeriformes/Cotingidae/&groupType=family&groupId=Cotingidae',
+        permanent: true,
+      },
       // Root-level species pages
       {
         source: '/:slug.html',
@@ -70,53 +75,45 @@ const nextConfig = {
         source: '/grupo/:path*',
         destination: '/grupo.html',
       },
-      // OLD TAXONOMY URL FORMATS - complex directory structure
-      // Orders: /{OrderName}/Fotos{OrderName}.html
+      // OLD URL FORMATS - rewrite to new SSR species pages
+      // Format: /{Order}/Fotos_{Slug}.html → /especie/{Slug}
       {
-        source: '/:orderName/Fotos:orderName.html',
-        destination: '/api/taxonomy-redirect/order/:orderName',
+        source: '/:order/Fotos_:slug.html',
+        destination: '/especie/:slug',
       },
-      // Charadriiformes suborders: /Charadriiformes/FotosCharadriiformes{A,B,C}.html
+      // Format: /{Order}/{Family}/Fotos_{Slug}.html → /especie/{Slug}
       {
-        source: '/Charadriiformes/FotosCharadriiformesA.html',
-        destination: '/api/taxonomy-redirect/suborder/Charadrii',
+        source: '/:order/:family/Fotos_:slug.html',
+        destination: '/especie/:slug',
       },
+      // Tinamiformes special format: FotosPerdices_{Slug}.html
       {
-        source: '/Charadriiformes/FotosCharadriiformesB.html',
-        destination: '/api/taxonomy-redirect/suborder/Scolopaci',
+        source: '/Tinamiformes/FotosPerdices_:slug.html',
+        destination: '/especie/:slug',
       },
+      // Sphenisciformes special format: FotosPinguinos_{Slug}.html
       {
-        source: '/Charadriiformes/FotosCharadriiformesC.html',
-        destination: '/api/taxonomy-redirect/suborder/Lari',
-      },
-      // Passeriformes families: /Passeriformes/{FamilyName}/Fotos{FamilyName}.html
-      {
-        source: '/Passeriformes/:familyName/Fotos:familyName.html',
-        destination: '/api/taxonomy-redirect/family/:familyName',
-      },
-      // Subfamilies: /Passeriformes/{FamilyName}/Fotos{SubfamilyName}.html
-      {
-        source: '/Passeriformes/:familyName/Fotos:subfamilyName.html',
-        destination: '/api/taxonomy-redirect/subfamily/:subfamilyName',
-      },
-      // Non-Passeriformes families: /{OrderName}/{FamilyName}/Fotos{FamilyName}.html
-      {
-        source: '/:orderName/:familyName/Fotos:familyName.html',
-        destination: '/api/taxonomy-redirect/family/:familyName',
-      },
-      // Root-level species pages (old format) - redirect by slug
-      {
-        source: '/:slug.html',
-        destination: '/api/species-redirect-by-slug?slug=:slug',
-      },
-      // Main pages
-      {
-        source: '/Aves.html',
-        destination: '/aves',
+        source: '/Sphenisciformes/FotosPinguinos_:slug.html',
+        destination: '/especie/:slug',
       },
       {
-        source: '/Birds.html',
-        destination: '/birds',
+        source: '/Sphenisciformes/FotosPinguino_:slug.html',
+        destination: '/especie/:slug',
+      },
+      // Gruiformes special format: FotosGruiformes-{Slug}.html
+      {
+        source: '/Gruiformes/FotosGruiformes-:slug.html',
+        destination: '/especie/:slug',
+      },
+      // Rheiformes special format: FotosRheas_{Slug}.html
+      {
+        source: '/Rheiformes/FotosRheas_:slug.html',
+        destination: '/especie/:slug',
+      },
+      // Charadriiformes special format: FotosPlayerasX_{Slug}.html
+      {
+        source: '/Charadriiformes/FotosPlayerasX_:slug.html',
+        destination: '/especie/:slug',
       },
       // OLD URL FORMATS - rewrite to new SSR species pages
       // Format: /{Order}/Fotos_{Slug}.html → /especie/{Slug}
