@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import LightboxScripts from '../especie/[slug]/LightboxScripts';
 import BackToTop from '../especie/[slug]/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
+import ContactLink from '@/components/ContactLink';
 
 // Incremental Static Regeneration - rebuild every 24 hours
 export const revalidate = 86400; // 24 hours in seconds
@@ -374,6 +375,53 @@ const pageStyles = `
     scroll-behavior: smooth;
   }
 
+  /* Species title styling */
+  .species-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .scientific-name {
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  .english-text {
+    color: #006600;
+  }
+
+  /* Info sections */
+  .info-section {
+    background-color: #BEC8B9;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 0;
+    border: 1px solid #999;
+    color: #333;
+  }
+
+  .info-section:last-child {
+    border-radius: 0 0 12px 12px;
+  }
+
+  .camera-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin: 0;
+    color: #333;
+  }
+
+  .location-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin: 0;
+    color: #333;
+  }
+
   #speciesIndex {
     width: 99%;
     margin: 10px auto;
@@ -474,6 +522,13 @@ const pageStyles = `
     text-align: center;
     font-size: 0.9em;
     color: #333;
+  }
+
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .species-title {
+      font-size: 0.9em;
+    }
   }
 `;
 
@@ -582,7 +637,7 @@ export default async function GrupoPage({
           <span style={{ color: '#036118' }}>All photos © {new Date().getFullYear()} Alec Earnshaw</span>
         </p>
         <p>
-          <a href="mailto:aearnshaw@sinectis.com.ar">aearnshaw@sinectis.com.ar</a>
+          <ContactLink />
         </p>
       </div>
 

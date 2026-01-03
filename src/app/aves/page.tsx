@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import LightboxScripts from '@/components/LightboxScripts';
 import BackToTop from '@/components/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
+import ContactLink from '@/components/ContactLink';
 
 export const metadata: Metadata = {
   title: 'Fotos de Aves - SSR VERSION DEPLOYED',
@@ -719,7 +720,7 @@ export default async function AvesPage() {
           <span style={{ color: '#036118' }}>All photos © {new Date().getFullYear()} Alec Earnshaw</span>
         </p>
         <p>
-          <a href="mailto:aearnshaw@sinectis.com.ar">aearnshaw@sinectis.com.ar</a>
+          <ContactLink />
         </p>
       </div>
 
