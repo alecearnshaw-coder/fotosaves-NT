@@ -480,6 +480,9 @@ const pageStyles = `
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+  }
+
+  .image-frame img {
     height: 400px !important; /* Fixed height to prevent layout shifts during image loading */
   }
 
