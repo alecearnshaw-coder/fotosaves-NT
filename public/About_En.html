@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title - Fotos de Animales Silvestres</title>
+    <meta name="description" content="Description of this page">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/styles/shared_header.css">
+    <link rel="stylesheet" href="/lightbox/css/lightbox.css">
+
+    <!-- Page-specific styles -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #999973;
+            color: #663300;
+            margin: 0;
+            padding: 10px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #DCDBB8;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .page-header {
+            background-color: #F5F5DC;
+            border: 2px solid #CC6600;
+			text-align: center;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            border-bottom: 2px solid #CC6600;
+        }
+
+        .page-header h1 {
+            font-size: 200%;
+            color: #7A2900;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+
+        .page-header .subtitle {
+            font-size: 120%;
+            color: #008080;
+            font-style: italic;
+            margin: 0;
+        }
+
+        .content-section {
+            margin-bottom: 30px;
+        }
+
+        .content-section h2 {
+            font-size: 160%;
+            color: #7A2900;
+            border-bottom: 1px solid #CC6600;
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .content-section h3 {
+            font-size: 130%;
+            color: #D55A00;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background-color: #F5F5DC;
+            border: 2px solid #CC6600;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .highlight-box .title {
+            font-weight: bold;
+            color: #7A2900;
+            margin-bottom: 10px;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .gallery-item {
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            max-width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border: 1px solid #663300;
+            border-radius: 8px;
+        }
+
+        .gallery-item .caption {
+            margin-top: 8px;
+            font-size: 90%;
+            color: #443322;
+        }
+
+        .contact-info {
+            background-color: #E6F7BC;
+            border: 1px solid #6a9678;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .contact-info .title {
+            font-weight: bold;
+            color: #013b01;
+            margin-bottom: 10px;
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 90%;
+            color: #666666;
+            margin-top: 30px;
+            padding-top: 0px;
+            border-top: 1px solid #CC6600;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .page-header h1 {
+                font-size: 160%;
+            }
+
+            .image-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="/scripts/shared/copyright.js"></script>
+</head>
+<body>
+    <!-- Site Header -->
+    <div class="heading-container">
+        <div class="site-header-banded">
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">photos <span style="color:#FF9966">of wild animals</span> <span class="subheadline">of ARGENTINA</span></div>
+            </div>
+            <div class="site-header-band site-header-band-light">
+                <div class="site-title-row">
+                    <div class="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+                    <div class="copyright">© <span id="copyright-year"></span><br />Alec Earnshaw</div>
+                </div>
+            </div>
+            <div class="site-header-band site-header-band-dark">
+                <div class="headline">fotos <span style="color:#FF9966">de animales silvestres</span> <span class="subheadline">de ARGENTINA</span></div>
+            </div>
+        </div>
+        <div class="quick-links">
+            <div class="links-left">
+                <span class="label-es">Enlaces:</span>
+                <a class="quick-link" href="/aves" title="Volver a Aves">Aves</a>
+                <a class="quick-link" href="/index_sp.html" title="Inicio del sitio (Español)">Inicio</a>
+            </div>
+            <div class="links-right">
+                <span class="label-en">Links:</span>
+                <a class="quick-link" href="/birds" title="Back to Birds">Birds</a>
+                <a class="quick-link" href="/index_english.html" title="Site home (English)">Home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1>About FotosAves.com.ar</h1>
+        </div>
+
+        <!-- Introduction Section -->
+        <div class="content-section">
+            <h2><strong><br>
+            What this site is</strong>?</h2>
+            <p>
+                Fotos Aves is a long-term  personal project dedicated to documenting the birds of Argentina through  original field photography. The site is intended as a visual reference for  identification, diversity, and distribution, showing species in natural  surroundings.</p>
+The Birds section  represents the most complete and structured part of the site, both in terms of  species coverage and photographic depth. The other animal groups in this site are not as  widely covered.
+
+            <div class="highlight-box">
+            <div class="title">
+              <h3><strong>Taxonomy and classification</strong></h3>
+          </div>
+                <p>Species names,  classification, and ordering follow the <strong>AviList Global Avian Checklist v2025   taxonomy</strong>, which reflects current  scientific consensus and ongoing research. As taxonomy evolves over time, the  site will be periodically updated to follow the latest updates. </p>
+Bird names are given in scientific, Spanish and English common names.</div>
+        </div>
+
+        <!-- Main Content Sections -->
+        <div class="content-section">
+          <h3><strong>About the author</strong></h3>
+          <p>This site is maintained by <strong>Alec  Earnshaw</strong>, an amateur wildlife photographer and former birding guide, with a  long-standing interest in Argentina’s birds. All photographs on the site were  taken in the field over many years, on visits to most of the provinces. A  handful of photos of Argentine birds were taken in other countries.</p>
+The project is driven  by continuity and observation rather than by short-term goals, and many species  are represented by multiple images taken across different dates, locations, and  conditions.
+<h3><strong>A renewed Birds section</strong></h3>
+<p>To celebrate 30 years of  the site, the Birds section has recently been rebuilt and relaunched using the latest  technology. The conversion project demanded six months of work, preserving its  essence, original structure and content, while improving consistency,  navigation, and long-term maintainability.<br>
+  Navigation has been refined  with breadcrumb trails and a species search box for quicker access, while some  visual elements have been subtly updated, such as rounded photo frames and  lighter page styling.<br>
+  In some large bird orders, families  are now shown more explicitly, making it easier to recognize well-known groups  (such as hummingbirds or toucans).<br>
+  From a technical  standpoint, the Birds section is now database-driven, which will make it easier  to incorporate the many new bird images that are waiting to be added.</p>
+<h3><strong>Conservation status</strong></h3>
+<p>Global  conservation status by the <strong>International Union for the Conservation of Nature</strong> (IUCN) is  displayed  for species currently considered at risk. This approach  of only highlighting species of concern avoids overwhelming the general  presentation.</p>
+<h3><strong>Copyright and usage</strong></h3>
+<p>All photographs on this site are the author's  original work and are protected by copyright. Images may not be reused without  permission. For educational or other non-commercial uses, please contact the author to discuss appropriate terms.</p>
+      </div>
+
+        <!-- Image Gallery (Optional) --><!-- Contact/Additional Info -->
+      <div class="content-section">
+            <h2>Contact & Information</h2>
+
+            <div class="contact-info">
+                <div class="title">Get in Touch</div>
+                <p>
+                    For questions, collaborations, or to request the use of photos,
+                    please <a href="#"
+   onclick="location.href='mailto:' + 'fotosaves.contact' + '@' + 'gmail.com'
+   + '?subject=Fotos%20Aves%20feedback'; return false;">
+  Contact me here</a>.
+               </p>
+            </div>
+        </div>
+
+        <!-- Footer Note -->
+        <div class="footer-note">
+            <p>
+                All content © <span id="copyright-year-footer"></span> Alec Earnshaw.
+                Photos and information provided for educational and conservation purposes.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -712,7 +712,17 @@ export default async function AvesPage() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: pageStyles }} />
-      <SharedHeader showQuickLinks={true} language="en" />
+      <SharedHeader
+        showQuickLinks={true}
+        language="en"
+        quickLinksContent={
+          <div className="links-right">
+            <span className="label-en">Links:</span>
+            <a className="quick-link" href="/index_english.html" title="Site home page (English)">Home page</a>
+            <a className="quick-link" href="/About_En.html" title="About FotosAves">About</a>
+          </div>
+        }
+      />
       <div style={{textAlign:'center', margin: '6px 0 8px 0'}}>
         <a className="quick-link" href="/aves" title="Ir a versión en español">Ir a versión en español</a>
       </div>
