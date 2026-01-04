@@ -102,23 +102,19 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   }
 
   // If not a species URL, check for group URLs (orders, families, etc.)
-  let suborders: { data: Suborder[] } = { data: [] };
   let families: { data: Family[] } = { data: [] };
   let subfamilies: { data: Subfamily[] } = { data: [] };
 
   try {
-    // Load taxonomy data (orders already loaded above)
-    const subordersPath = path.join(process.cwd(), 'src/data/taxonomy/suborders.json');
+    // Load taxonomy data (orders and suborders already loaded above)
     const familiesPath = path.join(process.cwd(), 'src/data/taxonomy/families.json');
     const subfamiliesPath = path.join(process.cwd(), 'src/data/taxonomy/subfamilies.json');
 
-    const [subordersData, familiesData, subfamiliesData] = await Promise.all([
-      fs.promises.readFile(subordersPath, 'utf8'),
+    const [familiesData, subfamiliesData] = await Promise.all([
       fs.promises.readFile(familiesPath, 'utf8'),
       fs.promises.readFile(subfamiliesPath, 'utf8')
     ]);
 
-    suborders = JSON.parse(subordersData);
     families = JSON.parse(familiesData);
     subfamilies = JSON.parse(subfamiliesData);
   } catch (error) {
