@@ -2,7 +2,7 @@
 const nextConfig = {
   async redirects() {
     return [
-      // Main pages
+      // Main pages (highest priority)
       {
         source: '/Aves.html',
         destination: '/aves',

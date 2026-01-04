@@ -5,33 +5,54 @@ import path from 'path';
 interface Order {
   Order_ID: string;
   Order_Name_Sci: string;
+  Order_Path: string | null;
 }
 
 interface Suborder {
   SO_ID: string;
   SO_Name_Sci: string;
+  SO_Path: string | null;
 }
 
 interface Family {
   Family_ID: string;
   Family_Name_Sci: string;
+  Family_Path: string | null;
 }
 
 interface Subfamily {
   SF_ID: string;
   Subfamily_Sci: string;
+  SF_Path: string | null;
 }
 
 export async function GET(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Parse the new URL structure: /api/taxonomy-redirect/{type}/{name}
-  const match = pathname.match(/^\/api\/taxonomy-redirect\/([^\/]+)\/(.+)$/);
-  if (!match) {
-    return NextResponse.redirect(new URL('/aves', request.url));
-  }
+  // Remove the /api/taxonomy-redirect prefix to get the original URL
+  const originalPath = pathname.replace('/api/taxonomy-redirect', '');
 
-  const [, type, name] = match;
+  // If URL contains underscore, it's likely a species URL - redirect to species handler
+  if (originalPath.includes('_')) {
+    // Extract slug from species URL patterns
+    let slug = '';
+
+    // Pattern: /Order/Fotos_Slug.html
+    const speciesPattern1 = originalPath.match(/^\/([^\/]+)\/Fotos_(.+)\.html$/);
+    if (speciesPattern1) {
+      slug = speciesPattern1[2];
+    }
+
+    // Pattern: /Order/Family/Fotos_Slug.html
+    const speciesPattern2 = originalPath.match(/^\/([^\/]+)\/([^\/]+)\/Fotos_(.+)\.html$/);
+    if (speciesPattern2) {
+      slug = speciesPattern2[3];
+    }
+
+    if (slug) {
+      return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+    }
+  }
 
   try {
     // Load taxonomy data
@@ -52,35 +73,52 @@ export async function GET(request: NextRequest) {
     const families: { data: Family[] } = JSON.parse(familiesData);
     const subfamilies: { data: Subfamily[] } = JSON.parse(subfamiliesData);
 
-    // Handle different types
-    switch (type) {
-      case 'order':
-        const order = orders.data.find(o => o.Order_Name_Sci === name);
-        if (order) {
-          return NextResponse.redirect(new URL(`/grupo?groupType=order&groupId=${order.Order_Name_Sci}`, request.url));
-        }
-        break;
+    // Handle group URLs (orders, families, subfamilies)
 
-      case 'family':
-        const family = families.data.find(f => f.Family_Name_Sci === name);
-        if (family) {
-          return NextResponse.redirect(new URL(`/grupo?groupType=family&groupId=${family.Family_Name_Sci}`, request.url));
-        }
-        break;
+    // 1. Orders: /{OrderName}/Fotos{OrderName}.html
+    for (const order of orders.data) {
+      if (originalPath === `/${order.Order_Name_Sci}/Fotos${order.Order_Name_Sci}.html`) {
+        return NextResponse.redirect(new URL(`/grupo?path=${order.Order_Path}&groupType=order&groupId=${order.Order_Name_Sci}`, request.url));
+      }
+    }
 
-      case 'subfamily':
-        const subfamily = subfamilies.data.find(sf => sf.Subfamily_Sci === name);
-        if (subfamily) {
-          return NextResponse.redirect(new URL(`/grupo?groupType=subfamily&groupId=${subfamily.Subfamily_Sci}`, request.url));
-        }
-        break;
+    // 2. Charadriiformes suborders: /Charadriiformes/FotosCharadriiformes{A,B,C}.html
+    if (originalPath === '/Charadriiformes/FotosCharadriiformesA.html') {
+      return NextResponse.redirect(new URL('/grupo?path=Charadriiformes/&groupType=suborder&groupId=Charadrii', request.url));
+    }
+    if (originalPath === '/Charadriiformes/FotosCharadriiformesB.html') {
+      return NextResponse.redirect(new URL('/grupo?path=Charadriiformes/&groupType=suborder&groupId=Scolopaci', request.url));
+    }
+    if (originalPath === '/Charadriiformes/FotosCharadriiformesC.html') {
+      return NextResponse.redirect(new URL('/grupo?path=Charadriiformes/&groupType=suborder&groupId=Lari', request.url));
+    }
 
-      case 'suborder':
-        const suborder = suborders.data.find(so => so.SO_Name_Sci === name);
-        if (suborder) {
-          return NextResponse.redirect(new URL(`/grupo?groupType=suborder&groupId=${suborder.SO_Name_Sci}`, request.url));
+    // 3. All families: /{OrderName}/{FamilyName}/Fotos{FamilyName}.html or /Passeriformes/{FamilyName}/Fotos{FamilyName}.html
+    for (const family of families.data) {
+      if (family.Family_Path) {
+        // Extract order and family from path
+        const pathParts = family.Family_Path.split('/');
+        if (pathParts.length >= 2) {
+          const orderName = pathParts[0];
+          const familyName = pathParts[1];
+          if (originalPath === `/${orderName}/${familyName}/Fotos${family.Family_Name_Sci}.html`) {
+            return NextResponse.redirect(new URL(`/grupo?path=${family.Family_Path}&groupType=family&groupId=${family.Family_Name_Sci}`, request.url));
+          }
         }
-        break;
+      }
+    }
+
+    // 4. Subfamilies: /Passeriformes/{FamilyName}/Fotos{SubfamilyName}.html
+    for (const subfamily of subfamilies.data) {
+      if (subfamily.SF_Path?.startsWith('Passeriformes/')) {
+        const pathParts = subfamily.SF_Path.split('/');
+        if (pathParts.length >= 2) {
+          const familyName = pathParts[1];
+          if (originalPath === `/Passeriformes/${familyName}/Fotos${subfamily.Subfamily_Sci}.html`) {
+            return NextResponse.redirect(new URL(`/grupo?path=${subfamily.SF_Path}&groupType=subfamily&groupId=${subfamily.Subfamily_Sci}`, request.url));
+          }
+        }
+      }
     }
 
     // Not found - redirect to main aves page
