@@ -46,6 +46,26 @@ const nextConfig = {
       },
       // Additional common taxonomy redirects
       {
+        source: '/Podicipediformes/FotosPodicipediformes.html',
+        destination: '/grupo?path=Podicipediformes/&groupType=order&groupId=Podicipediformes',
+        permanent: true,
+      },
+      {
+        source: '/Phoenicopteriformes/FotosPhoenicopteriformes.html',
+        destination: '/grupo?path=Phoenicopteriformes/&groupType=order&groupId=Phoenicopteriformes',
+        permanent: true,
+      },
+      {
+        source: '/Pelecaniformes/FotosPelecaniformes.html',
+        destination: '/grupo?path=Pelecaniformes/&groupType=order&groupId=Pelecaniformes',
+        permanent: true,
+      },
+      {
+        source: '/Cathartiformes/FotosCathartiformes.html',
+        destination: '/grupo?path=Cathartiformes/&groupType=order&groupId=Cathartiformes',
+        permanent: true,
+      },
+      {
         source: '/Falconiformes/FotosFalconiformes.html',
         destination: '/grupo?path=Falconiformes/&groupType=order&groupId=Falconiformes',
         permanent: true,
