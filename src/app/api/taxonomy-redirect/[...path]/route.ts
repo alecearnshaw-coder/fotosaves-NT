@@ -61,6 +61,14 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
   }
 
+  // Taxonomic change 3: Trochiliformes species -> Apodiformes/Trochilidae species
+  const trochiliformesPattern = /^\/Trochiliformes\/Fotos_(.+)\.html$/;
+  const trochiliformesMatch = originalPath.match(trochiliformesPattern);
+  if (trochiliformesMatch) {
+    const slug = trochiliformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
   // Species name changes
   if (originalPath === '/Procellariiformes/FotosAlbatrosReal.html') {
     return NextResponse.redirect(new URL('/especie/AlbatrosRealMayor', request.url));
@@ -160,7 +168,7 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
 
   // 2c. Fringillidae subfamily redirects
   if (originalPath === '/Passeriformes/Fringillidae/FotosFringillidae.html') {
-    return NextResponse.redirect(new URL('/Passeriformes/Fringillidae/FotosFringillinae.html', request.url));
+    return NextResponse.redirect(new URL('/grupo?path=Passeriformes/Fringillidae-Frin/&groupType=subfamily&groupId=Fringillinae', request.url));
   }
   // Note: /Passeriformes/Fringillidae/FotosEuphoniinae.html should work as-is
 
