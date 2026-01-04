@@ -13,6 +13,7 @@ interface Suborder {
   SO_ID: string;
   SO_Name_Sci: string;
   SO_Path: string | null;
+  Species_URL_Pattern?: string;
 }
 
 interface Family {
@@ -31,20 +32,22 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   // Reconstruct the original path from the catch-all parameters
   const resolvedParams = await params;
   const originalPath = '/' + resolvedParams.path.join('/');
-  console.log('Params:', resolvedParams);
-  console.log('Original path:', originalPath);
 
   // Load taxonomy data to check for species URL patterns
   const ordersPath = path.join(process.cwd(), 'src/data/taxonomy/orders.json');
-  const ordersData = await fs.promises.readFile(ordersPath, 'utf8');
+  const subordersPath = path.join(process.cwd(), 'src/data/taxonomy/suborders.json');
+  const [ordersData, subordersData] = await Promise.all([
+    fs.promises.readFile(ordersPath, 'utf8'),
+    fs.promises.readFile(subordersPath, 'utf8')
+  ]);
   const orders: { data: Order[] } = JSON.parse(ordersData);
+  const suborders: { data: Suborder[] } = JSON.parse(subordersData);
 
 
   // Special taxonomic changes for species URLs - handle before regular pattern matching
   // Taxonomic change 1: Passeriformes/IncerteaSedis species -> Passeriformes/Thraupidae species
   const incerteaSedisPattern = /^\/Passeriformes\/IncerteaSedis\/Fotos_(.+)\.html$/;
   const incerteaMatch = originalPath.match(incerteaSedisPattern);
-  console.log('IncerteaSedis pattern match:', incerteaMatch);
   if (incerteaMatch) {
     const slug = incerteaMatch[1];
     return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
@@ -53,21 +56,22 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   // Taxonomic change 2: Passeriformes/Emberizidae species -> Passeriformes/Passerellidae species
   const emberizidaePattern = /^\/Passeriformes\/Emberizidae\/Fotos_(.+)\.html$/;
   const emberizidaeMatch = originalPath.match(emberizidaePattern);
-  console.log('Emberizidae pattern match:', emberizidaeMatch);
   if (emberizidaeMatch) {
     const slug = emberizidaeMatch[1];
     return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
   }
 
+  // Species name changes
+  if (originalPath === '/Procellariiformes/FotosAlbatrosReal.html') {
+    return NextResponse.redirect(new URL('/especie/AlbatrosRealMayor', request.url));
+  }
+
   // Check if URL matches any species URL pattern
   for (const order of orders.data) {
     const pattern = order.Species_URL_Pattern;
-    console.log(`Checking order: ${order.Order_Name_Sci}, pattern: "${pattern}"`);
-
     // Pattern: /OrderName/PatternSlug.html
     const speciesPattern1 = new RegExp(`^/${order.Order_Name_Sci}/${pattern}(.+)\.html$`);
     const match1 = originalPath.match(speciesPattern1);
-    console.log(`Pattern1 "${speciesPattern1}":`, match1);
     if (match1) {
       const slug = match1[1];
       return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
@@ -76,10 +80,24 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     // Pattern: /OrderName/FamilyName/PatternSlug.html
     const speciesPattern2 = new RegExp(`^/${order.Order_Name_Sci}/([^/]+)/${pattern}(.+)\.html$`);
     const match2 = originalPath.match(speciesPattern2);
-    console.log(`Pattern2 "${speciesPattern2}":`, match2);
     if (match2) {
       const slug = match2[2];
       return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+    }
+  }
+
+  // Check suborder species patterns (for Charadriiformes)
+  for (const suborder of suborders.data) {
+    if (suborder.Species_URL_Pattern) {
+      const pattern = suborder.Species_URL_Pattern;
+
+      // Pattern: /Charadriiformes/PatternSlug.html (suborder species)
+      const suborderPattern = new RegExp(`^/Charadriiformes/${pattern}(.+)\.html$`);
+      const match = originalPath.match(suborderPattern);
+      if (match) {
+        const slug = match[1];
+        return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+      }
     }
   }
 
@@ -139,11 +157,16 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     return NextResponse.redirect(new URL('/Passeriformes/Passerellidae/FotosPasserellidae.html', request.url));
   }
 
+  // 2c. Taxonomic change 3: Trochiliformes -> Apodiformes/Trochilidae
+  if (originalPath === '/Trochiliformes/FotosTrochiliformes.html') {
+    return NextResponse.redirect(new URL('/Apodiformes/Trochilidae/FotosTrochilidae.html', request.url));
+  }
+
   // 2c. Fringillidae subfamily redirects
   if (originalPath === '/Passeriformes/Fringillidae/FotosFringillidae.html') {
     return NextResponse.redirect(new URL('/Passeriformes/Fringillidae/FotosFringillinae.html', request.url));
   }
-  // Note: /Passeriformes/Fringillidae/FotosEuphoniinae.html stays the same, so no redirect needed
+  // Note: /Passeriformes/Fringillidae/FotosEuphoniinae.html should work as-is
 
   // 3. All families: /{OrderName}/{FamilyName}/Fotos{FamilyName}.html or /Passeriformes/{FamilyName}/Fotos{FamilyName}.html
   for (const family of families.data) {

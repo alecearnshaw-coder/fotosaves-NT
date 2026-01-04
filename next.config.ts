@@ -56,6 +56,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/Procellariiformes/FotosProcellariiformes.html',
+        destination: '/grupo?path=Procellariiformes/&groupType=order&groupId=Procellariiformes',
+        permanent: true,
+      },
+      {
+        source: '/Suliformes/FotosSuliformes.html',
+        destination: '/grupo?path=Suliformes/&groupType=order&groupId=Suliformes',
+        permanent: true,
+      },
+      {
         source: '/Pelecaniformes/FotosPelecaniformes.html',
         destination: '/grupo?path=Pelecaniformes/&groupType=order&groupId=Pelecaniformes',
         permanent: true,
