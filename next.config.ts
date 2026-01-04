@@ -61,12 +61,6 @@ const nextConfig = {
         destination: '/grupo?path=Passeriformes/Cotingidae/&groupType=family&groupId=Cotingidae',
         permanent: true,
       },
-      // Root-level species pages
-      {
-        source: '/:slug.html',
-        destination: '/api/species-redirect-by-slug?slug=:slug',
-        permanent: true,
-      },
     ];
   },
   async rewrites() {
