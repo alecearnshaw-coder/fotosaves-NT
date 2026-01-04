@@ -13,10 +13,15 @@ const nextConfig = {
         destination: '/birds',
         permanent: true,
       },
-      // Catch-all taxonomy redirects - send all .html files to API for processing
+      // Catch-all taxonomy redirects - send taxonomy HTML files to API for processing
       {
-        source: '/:path*',
-        destination: '/api/taxonomy-redirect/:path*',
+        source: '/:segment/:filename.html',
+        destination: '/api/taxonomy-redirect/:segment/:filename.html',
+        permanent: true,
+      },
+      {
+        source: '/:segment/:subsegment/:filename.html',
+        destination: '/api/taxonomy-redirect/:segment/:subsegment/:filename.html',
         permanent: true,
       }
     ];
