@@ -44,15 +44,15 @@ const nextConfig = {
         destination: '/grupo?path=Passeriformes/Cotingidae/&groupType=family&groupId=Cotingidae',
         permanent: true,
       },
-      // Catch-all taxonomy redirects - send remaining taxonomy HTML files to API for processing
+      // Additional common taxonomy redirects
       {
-        source: '/:segment/:filename.html',
-        destination: '/api/taxonomy-redirect/:segment/:filename.html',
+        source: '/Falconiformes/FotosFalconiformes.html',
+        destination: '/grupo?path=Falconiformes/&groupType=order&groupId=Falconiformes',
         permanent: true,
       },
       {
-        source: '/:segment/:subsegment/:filename.html',
-        destination: '/api/taxonomy-redirect/:segment/:subsegment/:filename.html',
+        source: '/Charadriiformes/Scolopacidae/FotosScolopacidae.html',
+        destination: '/grupo?path=Charadriiformes/Scolopacidae/&groupType=family&groupId=Scolopacidae',
         permanent: true,
       }
     ];
