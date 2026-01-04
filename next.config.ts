@@ -61,6 +61,78 @@ const nextConfig = {
         destination: '/grupo?path=Passeriformes/Cotingidae/&groupType=family&groupId=Cotingidae',
         permanent: true,
       },
+      // Orders that need redirects
+      {
+        source: '/Galliformes/FotosGalliformes.html',
+        destination: '/grupo?path=Galliformes/&groupType=order&groupId=Galliformes',
+        permanent: true,
+      },
+      {
+        source: '/Sphenisciformes/FotosSphenisciformes.html',
+        destination: '/grupo?path=Sphenisciformes/&groupType=order&groupId=Sphenisciformes',
+        permanent: true,
+      },
+      {
+        source: '/Phoenicopteriformes/FotosPhoenicopteriformes.html',
+        destination: '/grupo?path=Phoenicopteriformes/&groupType=order&groupId=Phoenicopteriformes',
+        permanent: true,
+      },
+      {
+        source: '/Pelecaniformes/FotosPelecaniformes.html',
+        destination: '/grupo?path=Pelecaniformes/&groupType=order&groupId=Pelecaniformes',
+        permanent: true,
+      },
+      {
+        source: '/Cathartiformes/FotosCathartiformes.html',
+        destination: '/grupo?path=Cathartiformes/&groupType=order&groupId=Cathartiformes',
+        permanent: true,
+      },
+      {
+        source: '/Procellariiformes/FotosProcellariiformes.html',
+        destination: '/grupo?path=Procellariiformes/&groupType=order&groupId=Procellariiformes',
+        permanent: true,
+      },
+      {
+        source: '/Accipitriformes/FotosAccipitriformes.html',
+        destination: '/grupo?path=Accipitriformes/&groupType=order&groupId=Accipitriformes',
+        permanent: true,
+      },
+      {
+        source: '/Columbiformes/FotosColumbiformes.html',
+        destination: '/grupo?path=Columbiformes/&groupType=order&groupId=Columbiformes',
+        permanent: true,
+      },
+      {
+        source: '/Cariamiformes/FotosCariamiformes.html',
+        destination: '/grupo?path=Cariamiformes/&groupType=order&groupId=Cariamiformes',
+        permanent: true,
+      },
+      // Major Passerine families
+      {
+        source: '/Passeriformes/Tyrannidae/FotosTyrannidae.html',
+        destination: '/grupo?path=Passeriformes/Tyrannidae/&groupType=family&groupId=Tyrannidae',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Thamnophilidae/FotosThamnophilidae.html',
+        destination: '/grupo?path=Passeriformes/Thamnophilidae/&groupType=family&groupId=Thamnophilidae',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Turdidae/FotosTurdidae.html',
+        destination: '/grupo?path=Passeriformes/Turdidae/&groupType=family&groupId=Turdidae',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Emberizidae/FotosEmberizidae.html',
+        destination: '/grupo?path=Passeriformes/Emberizidae/&groupType=family&groupId=Emberizidae',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Fringillidae/FotosFringillidae.html',
+        destination: '/grupo?path=Passeriformes/Fringillidae/&groupType=family&groupId=Fringillidae',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
