@@ -84,6 +84,17 @@ const nextConfig = {
         source: '/Charadriiformes/Scolopacidae/FotosScolopacidae.html',
         destination: '/grupo?path=Charadriiformes/Scolopacidae/&groupType=family&groupId=Scolopacidae',
         permanent: true,
+      },
+      // Catch-all for taxonomy HTML files - redirect to API for dynamic handling
+      {
+        source: '/:segment/:filename.html',
+        destination: '/api/taxonomy-redirect/:segment/:filename.html',
+        permanent: true,
+      },
+      {
+        source: '/:segment/:subsegment/:filename.html',
+        destination: '/api/taxonomy-redirect/:segment/:subsegment/:filename.html',
+        permanent: true,
       }
     ];
   },

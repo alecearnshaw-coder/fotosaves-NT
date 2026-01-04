@@ -27,18 +27,18 @@ interface Subfamily {
   SF_Path: string | null;
 }
 
-export async function GET(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-
-  // Remove the /api/taxonomy-redirect prefix to get the original URL
-  const originalPath = pathname.replace('/api/taxonomy-redirect', '');
+export async function GET(request: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
+  // Reconstruct the original path from the catch-all parameters
+  const resolvedParams = await params;
+  const originalPath = '/' + resolvedParams.path.join('/');
+  console.log('Params:', resolvedParams);
+  console.log('Original path:', originalPath);
 
   // Load taxonomy data to check for species URL patterns
   const ordersPath = path.join(process.cwd(), 'src/data/taxonomy/orders.json');
   const ordersData = await fs.promises.readFile(ordersPath, 'utf8');
   const orders: { data: Order[] } = JSON.parse(ordersData);
 
-  console.log('Processing URL:', originalPath);
 
   // Special taxonomic changes for species URLs - handle before regular pattern matching
   // Taxonomic change 1: Passeriformes/IncerteaSedis species -> Passeriformes/Thraupidae species
