@@ -74,6 +74,22 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     return NextResponse.redirect(new URL('/especie/AlbatrosRealMayor', request.url));
   }
 
+  // Sphenisciformes penguin redirects (special naming)
+  if (originalPath === '/Sphenisciformes/FotosPinguinos_Magallanes.html') {
+    return NextResponse.redirect(new URL('/especie/PinguinoPatagonico', request.url));
+  }
+  if (originalPath === '/Sphenisciformes/FotosPinguinos_Vincha.html') {
+    return NextResponse.redirect(new URL('/especie/PinguinoDeVincha', request.url));
+  }
+  if (originalPath === '/Sphenisciformes/FotosPinguinoRey.html') {
+    return NextResponse.redirect(new URL('/especie/PinguinoRey', request.url));
+  }
+
+  // Charadriiformes species name change
+  if (originalPath === '/Charadriiformes/FotosPlayerasC_GaviotinChico.html') {
+    return NextResponse.redirect(new URL('/especie/GaviotinChicoFluvial', request.url));
+  }
+
   // Check if URL matches any species URL pattern
   for (const order of orders.data) {
     const pattern = order.Species_URL_Pattern;
@@ -170,7 +186,9 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   if (originalPath === '/Passeriformes/Fringillidae/FotosFringillidae.html') {
     return NextResponse.redirect(new URL('/grupo?path=Passeriformes/Fringillidae-Frin/&groupType=subfamily&groupId=Fringillinae', request.url));
   }
-  // Note: /Passeriformes/Fringillidae/FotosEuphoniinae.html should work as-is
+  if (originalPath === '/Passeriformes/Fringillidae/FotosEuphoniinae.html') {
+    return NextResponse.redirect(new URL('/grupo?path=Passeriformes/Fringillidae-Euph/&groupType=subfamily&groupId=Euphoniinae', request.url));
+  }
 
   // 3. All families: /{OrderName}/{FamilyName}/Fotos{FamilyName}.html or /Passeriformes/{FamilyName}/Fotos{FamilyName}.html
   for (const family of families.data) {

@@ -170,8 +170,7 @@
       "Species_Cnt": 3,
       "Image_Cnt": 45,
       "Subdivide": null,
-      "Order_Path": "Sphenisciformes/",
-      "Species_URL_Pattern": "FotosPinguinos_"
+      "Order_Path": "Sphenisciformes/"
     },
     {
       "Order_ID": "OR_012",
