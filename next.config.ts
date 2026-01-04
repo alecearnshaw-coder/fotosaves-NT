@@ -13,7 +13,38 @@ const nextConfig = {
         destination: '/birds',
         permanent: true,
       },
-      // Catch-all taxonomy redirects - send taxonomy HTML files to API for processing
+      // Specific working redirects (fallback for reliability)
+      {
+        source: '/Rheiformes/FotosRheiformes.html',
+        destination: '/grupo?path=Rheiformes/&groupType=order&groupId=Rheiformes',
+        permanent: true,
+      },
+      {
+        source: '/Anseriformes/FotosAnseriformes.html',
+        destination: '/grupo?path=Anseriformes/&groupType=order&groupId=Anseriformes',
+        permanent: true,
+      },
+      {
+        source: '/Galliformes/FotosGalliformes.html',
+        destination: '/grupo?path=Galliformes/&groupType=order&groupId=Galliformes',
+        permanent: true,
+      },
+      {
+        source: '/Sphenisciformes/FotosSphenisciformes.html',
+        destination: '/grupo?path=Sphenisciformes/&groupType=order&groupId=Sphenisciformes',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Icteridae/FotosIcteridae.html',
+        destination: '/grupo?path=Passeriformes/Icteridae/&groupType=family&groupId=Icteridae',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Cotingidae/FotosCotingidae.html',
+        destination: '/grupo?path=Passeriformes/Cotingidae/&groupType=family&groupId=Cotingidae',
+        permanent: true,
+      },
+      // Catch-all taxonomy redirects - send remaining taxonomy HTML files to API for processing
       {
         source: '/:segment/:filename.html',
         destination: '/api/taxonomy-redirect/:segment/:filename.html',
