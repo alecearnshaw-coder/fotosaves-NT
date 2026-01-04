@@ -13,54 +13,16 @@ const nextConfig = {
         destination: '/birds',
         permanent: true,
       },
-      // Specific order redirects (examples)
+      // Catch-all taxonomy redirects - send all .html files to API for processing
       {
-        source: '/Rheiformes/FotosRheiformes.html',
-        destination: '/grupo?path=Rheiformes/&groupType=order&groupId=Rheiformes',
+        source: '/:path*',
+        destination: '/api/taxonomy-redirect/:path*',
         permanent: true,
-      },
-      {
-        source: '/Tinamiformes/FotosTinamiformes.html',
-        destination: '/grupo?path=Tinamiformes/&groupType=order&groupId=Tinamiformes',
-        permanent: true,
-      },
-      {
-        source: '/Anseriformes/FotosAnseriformes.html',
-        destination: '/grupo?path=Anseriformes/&groupType=order&groupId=Anseriformes',
-        permanent: true,
-      },
-      // Charadriiformes suborders
-      {
-        source: '/Charadriiformes/FotosCharadriiformesA.html',
-        destination: '/grupo?groupType=suborder&groupId=Charadrii',
-        permanent: true,
-      },
-      {
-        source: '/Charadriiformes/FotosCharadriiformesB.html',
-        destination: '/grupo?groupType=suborder&groupId=Scolopaci',
-        permanent: true,
-      },
-      {
-        source: '/Charadriiformes/FotosCharadriiformesC.html',
-        destination: '/grupo?groupType=suborder&groupId=Lari',
-        permanent: true,
-      },
-      {
-        source: '/Charadriiformes/Scolopacidae/FotosScolopacidae.html',
-        destination: '/grupo?path=Charadriiformes/Scolopacidae/&groupType=family&groupId=Scolopacidae',
-        permanent: true,
-      },
-      {
-        source: '/Passeriformes/Cotingidae/FotosCotingidae.html',
-        destination: '/grupo?path=Passeriformes/Cotingidae/&groupType=family&groupId=Cotingidae',
-        permanent: true,
-      },
-      // Orders that need redirects
-      {
-        source: '/Galliformes/FotosGalliformes.html',
-        destination: '/grupo?path=Galliformes/&groupType=order&groupId=Galliformes',
-        permanent: true,
-      },
+      }
+    ];
+  },
+  async rewrites() {
+    return [
       {
         source: '/Sphenisciformes/FotosSphenisciformes.html',
         destination: '/grupo?path=Sphenisciformes/&groupType=order&groupId=Sphenisciformes',
@@ -186,27 +148,6 @@ const nextConfig = {
       {
         source: '/Passeriformes/Fringillidae/FotosFringillidae.html',
         destination: '/grupo?path=Passeriformes/Fringillidae/&groupType=family&groupId=Fringillidae',
-        permanent: true,
-      },
-      // Additional major Passerine families
-      {
-        source: '/Passeriformes/Troglodytidae/FotosTroglodytidae.html',
-        destination: '/grupo?path=Passeriformes/Troglodytidae/&groupType=family&groupId=Troglodytidae',
-        permanent: true,
-      },
-      {
-        source: '/Passeriformes/Hirundinidae/FotosHirundinidae.html',
-        destination: '/grupo?path=Passeriformes/Hirundinidae/&groupType=family&groupId=Hirundinidae',
-        permanent: true,
-      },
-      {
-        source: '/Passeriformes/Muscicapidae/FotosMuscicapidae.html',
-        destination: '/grupo?path=Passeriformes/Muscicapidae/&groupType=family&groupId=Muscicapidae',
-        permanent: true,
-      },
-      {
-        source: '/Passeriformes/Parulidae/FotosParulidae.html',
-        destination: '/grupo?path=Passeriformes/Parulidae/&groupType=family&groupId=Parulidae',
         permanent: true,
       },
       {
