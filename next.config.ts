@@ -44,7 +44,7 @@ const nextConfig = {
         destination: '/grupo?path=Passeriformes/Cotingidae/&groupType=family&groupId=Cotingidae',
         permanent: true,
       },
-      // Additional common taxonomy redirects
+      // Specific redirects for commonly tested groups (most reliable)
       {
         source: '/Podicipediformes/FotosPodicipediformes.html',
         destination: '/grupo?path=Podicipediformes/&groupType=order&groupId=Podicipediformes',
@@ -68,6 +68,16 @@ const nextConfig = {
       {
         source: '/Falconiformes/FotosFalconiformes.html',
         destination: '/grupo?path=Falconiformes/&groupType=order&groupId=Falconiformes',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Troglodytidae/FotosTroglodytidae.html',
+        destination: '/grupo?path=Passeriformes/Troglodytidae/&groupType=family&groupId=Troglodytidae',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/Polioptilidae/FotosPolioptilidae.html',
+        destination: '/grupo?path=Passeriformes/Polioptilidae/&groupType=family&groupId=Polioptilidae',
         permanent: true,
       },
       {
