@@ -30,7 +30,7 @@ export default function SharedHeader({
                       <div id="species-search-results"></div>
                     </div>
                   )}
-                  <div className="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+                  <div className="site-title">www.fotosaves.com.ar - <a href="mailto:fotosaves.contact@gmail.com">by Alec Earnshaw</a></div>
                   <div className="copyright">© {new Date().getFullYear()} Alec Earnshaw</div>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export default function SharedHeader({
                       <div id="species-search-results"></div>
                     </div>
                   )}
-                  <div className="site-title">www.fotosaves.com.ar - <a href="mailto:aearnshaw@sinectis.com.ar">by Alec Earnshaw</a></div>
+                  <div className="site-title">www.fotosaves.com.ar - <a href="mailto:fotosaves.contact@gmail.com">by Alec Earnshaw</a></div>
                   <div className="copyright">© {new Date().getFullYear()} Alec Earnshaw</div>
                 </div>
               </div>

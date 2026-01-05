@@ -282,6 +282,8 @@ const pageStyles = `
   }
 
   .breadcrumb-cell .bc-top {
+    font-weight: bold;
+    color: #494242;
     font-size: 0.75em;
     color: #666;
     line-height: 1.2;
@@ -293,8 +295,8 @@ const pageStyles = `
     line-height: 1.3;
   }
 
-  .breadcrumb-cell .bc-es { color: #036118; text-decoration: underline; }
-  .breadcrumb-cell .bc-en { color: #494242; text-decoration: underline; }
+  .breadcrumb-cell .bc-es { color: #494242; text-decoration: underline; }
+  .breadcrumb-cell .bc-en { color: #036118; text-decoration: underline; }
 
   .breadcrumb-cell .bc-link {
     color: #0066cc;
@@ -513,6 +515,23 @@ const pageStyles = `
 
   .image-frame img {
     height: 400px !important; /* Fixed height to prevent layout shifts during image loading */
+    object-fit: contain !important; /* Maintain aspect ratio and fit within container */
+    border: 1px solid #663300;
+    border-radius: 8px;
+  }
+
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .image-frame img {
+      height: auto !important; /* Allow natural height on mobile */
+      max-height: 300px !important; /* Limit maximum height */
+      width: 100% !important; /* Full width on mobile */
+      object-fit: contain !important;
+    }
+
+    .image-frame {
+      border: none !important; /* Remove border on mobile for cleaner look */
+    }
   }
 
   .species-more-link {
@@ -797,7 +816,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!orderRow.Order_Path;
     const href = hasLink ? `/grupo?path=${orderRow.Order_Path}&groupType=order&groupId=${orderRow.Order_Name_Sci}` : null;
     cells.push({
-      label: 'Order / Orden',
+      label: 'Order - Orden',
       name: orderRow.Order_Name_Sci,
       href: href,
       isScientific: true,
@@ -810,7 +829,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!suborderRow.SO_Path;
     const href = hasLink ? `/grupo?path=${suborderRow.SO_Path}&groupType=suborder&groupId=${suborderRow.SO_Name_Sci}` : null;
     cells.push({
-      label: 'Suborder / Suborden',
+      label: 'Suborder - Suborden',
       name: suborderRow.SO_Name_Sci,
       href: href,
       isScientific: true,
@@ -823,7 +842,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!familyRow.Family_Path;
     const href = hasLink ? `/grupo?path=${familyRow.Family_Path}&groupType=family&groupId=${familyRow.Family_Name_Sci}` : null;
     cells.push({
-      label: 'Family / Familia',
+      label: 'Family - Familia',
       name: familyRow.Family_Name_Sci,
       href: href,
       isScientific: true,
@@ -836,7 +855,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!subfamilyRow.SF_Path;
     const href = hasLink ? `/grupo?path=${subfamilyRow.SF_Path}&groupType=subfamily&groupId=${subfamilyRow.Subfamily_Sci}` : null;
     cells.push({
-      label: 'Subfamily / Subfamilia',
+      label: 'Subfamily - Subfamilia',
       name: subfamilyRow.Subfamily_Sci,
       href: href,
       isScientific: true,
