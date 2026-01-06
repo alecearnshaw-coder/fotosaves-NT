@@ -291,6 +291,7 @@ const pageStyles = `
   .breadcrumb-cell .bc-top {
     font-weight: bold;
     color: #494242;
+    font-size: 0.85em;
   }
 
   .breadcrumb-cell .bc-tax-es {
@@ -326,11 +327,14 @@ const pageStyles = `
   .breadcrumb-cell .bc-link {
     color: #0066cc;
     text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
   }
 
   .breadcrumb-cell .bc-nolink {
     color: #494242;
     font-style: italic;
+    font-weight: bold;
   }
 
   .breadcrumb-cell a {

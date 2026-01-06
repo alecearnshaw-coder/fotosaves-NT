@@ -895,7 +895,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
                   </div>
                 ) : cell.isScientific ? (
                   <>
-                    <div className="bc-top">{cell.label}</div>
+                    <div className="bc-top" dangerouslySetInnerHTML={{ __html: cell.label }} />
                     <div className="bc-bottom">
                       {cell.href && !cell.isCurrent ? (
                         <a href={cell.href}><span className="bc-link">{cell.name}</span></a>
