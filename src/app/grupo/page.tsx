@@ -107,18 +107,18 @@ interface SpeciesImageData {
 
 // Gender/Age mapping
 const genderMap: Record<string, { label: string; color: string }> = {
-  'M': { label: '<span class="es">Macho</span><br><span class="en">Male</span>', color: '#a8d4f0' },
-  'F': { label: '<span class="es">Hembra</span><br><span class="en">Female</span>', color: '#f0c8d8' },
-  'J': { label: '<span class="es">Juvenil</span><br><span class="en">Juvenile</span>', color: '#d4f0a8' },
-  'I': { label: '<span class="es">Inmaduro</span><br><span class="en">Immature</span>', color: '#f0e8a8' },
-  'MJ': { label: '<span class="es">Macho Juvenil</span><br><span class="en">Juvenile Male</span>', color: '#a8d4c0' },
-  'FJ': { label: '<span class="es">Hembra Juvenil</span><br><span class="en">Juvenile Female</span>', color: '#e8c0d0' },
-  'MI': { label: '<span class="es">Macho Inmaduro</span><br><span class="en">Immature Male</span>', color: '#c0d4f0' },
-  'FI': { label: '<span class="es">Hembra Inmadura</span><br><span class="en">Immature Female</span>', color: '#f0d0e0' },
-  'MR': { label: '<span class="es">Macho Reproductivo</span><br><span class="en">Breeding Male</span>', color: '#80c0f0' },
-  'FR': { label: '<span class="es">Hembra Reproductiva</span><br><span class="en">Breeding Female</span>', color: '#f0a0c0' },
-  'MN': { label: '<span class="es">Macho No Reproductivo</span><br><span class="en">Non-breeding Male</span>', color: '#b0d8f0' },
-  'FN': { label: '<span class="es">Hembra No Reproductiva</span><br><span class="en">Non-breeding Female</span>', color: '#f0d0e8' },
+  'M': { label: '<span class="es">Macho</span><span class="en">Male</span>', color: '#a8d4f0' },
+  'F': { label: '<span class="es">Hembra</span><span class="en">Female</span>', color: '#f0c8d8' },
+  'J': { label: '<span class="es">Juvenil</span><span class="en">Juvenile</span>', color: '#d4f0a8' },
+  'I': { label: '<span class="es">Inmaduro</span><span class="en">Immature</span>', color: '#f0e8a8' },
+  'MJ': { label: '<span class="es">Macho Juvenil</span><span class="en">Juvenile Male</span>', color: '#a8d4c0' },
+  'FJ': { label: '<span class="es">Hembra Juvenil</span><span class="en">Juvenile Female</span>', color: '#e8c0d0' },
+  'MI': { label: '<span class="es">Macho Inmaduro</span><span class="en">Immature Male</span>', color: '#c0d4f0' },
+  'FI': { label: '<span class="es">Hembra Inmadura</span><span class="en">Immature Female</span>', color: '#f0d0e0' },
+  'MR': { label: '<span class="es">Macho Reproductivo</span><span class="en">Breeding Male</span>', color: '#80c0f0' },
+  'FR': { label: '<span class="es">Hembra Reproductiva</span><span class="en">Breeding Female</span>', color: '#f0a0c0' },
+  'MN': { label: '<span class="es">Macho No Reproductivo</span><span class="en">Non-breeding Male</span>', color: '#b0d8f0' },
+  'FN': { label: '<span class="es">Hembra No Reproductiva</span><span class="en">Non-breeding Female</span>', color: '#f0d0e8' },
 };
 
 // Conservation status items
@@ -554,6 +554,40 @@ const pageStyles = `
     .image-frame {
       border: none !important; /* Remove border on mobile for cleaner look */
     }
+  }
+
+  /* Gender box styling */
+  .gender-box {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-size: 0.85em !important;
+    line-height: 1.2 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Gender text spans - single line format */
+  .gender-box .es {
+    color: #494242 !important;
+    font-weight: bold !important;
+    display: inline !important;
+    white-space: nowrap !important;
+  }
+
+  .gender-box .es::after {
+    content: " - ";
+    color: #494242;
+    font-weight: normal;
+  }
+
+  .gender-box .en {
+    color: #036118 !important;
+    font-weight: bold !important;
+    display: inline !important;
+    white-space: nowrap !important;
   }
 
   .species-more-link {

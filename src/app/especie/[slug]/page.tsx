@@ -497,12 +497,15 @@ const pageStyles = `
 
   /* Gender box styling */
   .gender-box {
-    display: inline-block !important;
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
     white-space: nowrap !important;
     padding: 2px 6px !important;
     border-radius: 4px !important;
     font-size: 0.85em !important;
     line-height: 1.2 !important;
+    box-sizing: border-box !important;
   }
 
   /* Gender text spans - single line format */
@@ -522,6 +525,7 @@ const pageStyles = `
 
   .gender-box .en {
     color: #036118 !important;
+    font-weight: bold !important;
     display: inline !important;
     white-space: nowrap !important;
   }
