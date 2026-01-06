@@ -67,18 +67,18 @@ interface ImageData {
 
 // Gender/Age mapping
 const genderMap: Record<string, { label: string; color: string }> = {
-  'M': { label: '<span class="es" style="color:#494242;font-weight:bold;">Macho</span> - <span class="en" style="color:#036118;">Male</span>', color: '#a8d4f0' },
-  'F': { label: '<span class="es" style="color:#494242;font-weight:bold;">Hembra</span> - <span class="en" style="color:#036118;">Female</span>', color: '#f0c8d8' },
-  'J': { label: '<span class="es" style="color:#494242;font-weight:bold;">Juvenil</span> - <span class="en" style="color:#036118;">Juvenile</span>', color: '#d4f0a8' },
-  'I': { label: '<span class="es" style="color:#494242;font-weight:bold;">Inmaduro</span> - <span class="en" style="color:#036118;">Immature</span>', color: '#f0e8a8' },
-  'MJ': { label: '<span class="es" style="color:#494242;font-weight:bold;">Macho Juvenil</span> - <span class="en" style="color:#036118;">Juvenile Male</span>', color: '#a8d4c0' },
-  'FJ': { label: '<span class="es" style="color:#494242;font-weight:bold;">Hembra Juvenil</span> - <span class="en" style="color:#036118;">Juvenile Female</span>', color: '#e8c0d0' },
-  'MI': { label: '<span class="es" style="color:#494242;font-weight:bold;">Macho Inmaduro</span> - <span class="en" style="color:#036118;">Immature Male</span>', color: '#c0d4f0' },
-  'FI': { label: '<span class="es" style="color:#494242;font-weight:bold;">Hembra Inmadura</span> - <span class="en" style="color:#036118;">Immature Female</span>', color: '#f0d0e0' },
-  'MR': { label: '<span class="es" style="color:#494242;font-weight:bold;">Macho Reproductivo</span> - <span class="en" style="color:#036118;">Breeding Male</span>', color: '#80c0f0' },
-  'FR': { label: '<span class="es" style="color:#494242;font-weight:bold;">Hembra Reproductiva</span> - <span class="en" style="color:#036118;">Breeding Female</span>', color: '#f0a0c0' },
-  'MN': { label: '<span class="es" style="color:#494242;font-weight:bold;">Macho No Reproductivo</span> - <span class="en" style="color:#036118;">Non-breeding Male</span>', color: '#b0d8f0' },
-  'FN': { label: '<span class="es" style="color:#494242;font-weight:bold;">Hembra No Reproductiva</span> - <span class="en" style="color:#036118;">Non-breeding Female</span>', color: '#f0d0e8' },
+  'M': { label: '<span class="es">Macho</span><span class="en">Male</span>', color: '#a8d4f0' },
+  'F': { label: '<span class="es">Hembra</span><span class="en">Female</span>', color: '#f0c8d8' },
+  'J': { label: '<span class="es">Juvenil</span><span class="en">Juvenile</span>', color: '#d4f0a8' },
+  'I': { label: '<span class="es">Inmaduro</span><span class="en">Immature</span>', color: '#f0e8a8' },
+  'MJ': { label: '<span class="es">Macho Juvenil</span><span class="en">Juvenile Male</span>', color: '#a8d4c0' },
+  'FJ': { label: '<span class="es">Hembra Juvenil</span><span class="en">Juvenile Female</span>', color: '#e8c0d0' },
+  'MI': { label: '<span class="es">Macho Inmaduro</span><span class="en">Immature Male</span>', color: '#c0d4f0' },
+  'FI': { label: '<span class="es">Hembra Inmadura</span><span class="en">Immature Female</span>', color: '#f0d0e0' },
+  'MR': { label: '<span class="es">Macho Reproductivo</span><span class="en">Breeding Male</span>', color: '#80c0f0' },
+  'FR': { label: '<span class="es">Hembra Reproductiva</span><span class="en">Breeding Female</span>', color: '#f0a0c0' },
+  'MN': { label: '<span class="es">Macho No Reproductivo</span><span class="en">Non-breeding Male</span>', color: '#b0d8f0' },
+  'FN': { label: '<span class="es">Hembra No Reproductiva</span><span class="en">Non-breeding Female</span>', color: '#f0d0e8' },
 };
 
 // Conservation status items
@@ -291,6 +291,24 @@ const pageStyles = `
   .breadcrumb-cell .bc-top {
     font-weight: bold;
     color: #494242;
+  }
+
+  .breadcrumb-cell .bc-tax-es {
+    color: #494242;
+    display: inline;
+    white-space: nowrap;
+  }
+
+  .breadcrumb-cell .bc-tax-es::after {
+    content: " - ";
+    color: #494242;
+  }
+
+  .breadcrumb-cell .bc-tax-en {
+    color: #036118;
+    display: inline;
+    white-space: nowrap;
+  }
     font-size: 0.75em;
     color: #666;
     line-height: 1.2;
@@ -473,6 +491,26 @@ const pageStyles = `
     color: #333;
   }
 
+  /* Gender text spans - single line format */
+  .gender-box .es {
+    color: #494242 !important;
+    font-weight: bold !important;
+    display: inline !important;
+    white-space: nowrap !important;
+  }
+
+  .gender-box .es::after {
+    content: " - ";
+    color: #494242;
+    font-weight: normal;
+  }
+
+  .gender-box .en {
+    color: #036118 !important;
+    display: inline !important;
+    white-space: nowrap !important;
+  }
+
   /* Info sections */
   .info-section {
     background-color: #BEC8B9;
@@ -601,7 +639,7 @@ export default async function SpeciesPage({
               
               {orderRow && (
                 <td className="breadcrumb-cell">
-                  <div className="bc-top">Order - Orden</div>
+                  <div className="bc-top"><span className="bc-tax-es">Orden</span><span className="bc-tax-en">Order</span></div>
                   <div className="bc-bottom">
                     {orderRow.Order_Path ? (
                       <a href={`/grupo?path=${orderRow.Order_Path}&groupType=order&groupId=${species.Order_Sci}`}>
@@ -616,7 +654,7 @@ export default async function SpeciesPage({
               
               {suborderRow && (
                 <td className="breadcrumb-cell">
-                  <div className="bc-top">Suborder - Suborden</div>
+                  <div className="bc-top"><span className="bc-tax-es">Suborden</span><span className="bc-tax-en">Suborder</span></div>
                   <div className="bc-bottom">
                     {suborderRow.SO_Path ? (
                       <a href={`/grupo?path=${suborderRow.SO_Path}&groupType=suborder&groupId=${species.Suborder_Sci}`}>
@@ -631,7 +669,7 @@ export default async function SpeciesPage({
               
               {familyRow && (
                 <td className="breadcrumb-cell">
-                  <div className="bc-top">Family - Familia</div>
+                  <div className="bc-top"><span className="bc-tax-es">Familia</span><span className="bc-tax-en">Family</span></div>
                   <div className="bc-bottom">
                     {familyRow.Family_Path ? (
                       <a href={`/grupo?path=${familyRow.Family_Path}&groupType=family&groupId=${species.Family_Sci}`}>
@@ -646,7 +684,7 @@ export default async function SpeciesPage({
               
               {subfamilyRow && (
                 <td className="breadcrumb-cell">
-                  <div className="bc-top">Subfamily - Subfamilia</div>
+                  <div className="bc-top"><span className="bc-tax-es">Subfamilia</span><span className="bc-tax-en">Subfamily</span></div>
                   <div className="bc-bottom">
                     {subfamilyRow.SF_Path ? (
                       <a href={`/grupo?path=${subfamilyRow.SF_Path}&groupType=subfamily&groupId=${species.Subfamily_Sci}`}>

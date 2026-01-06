@@ -284,6 +284,24 @@ const pageStyles = `
   .breadcrumb-cell .bc-top {
     font-weight: bold;
     color: #494242;
+  }
+
+  .breadcrumb-cell .bc-tax-es {
+    color: #494242;
+    display: inline;
+    white-space: nowrap;
+  }
+
+  .breadcrumb-cell .bc-tax-es::after {
+    content: " - ";
+    color: #494242;
+  }
+
+  .breadcrumb-cell .bc-tax-en {
+    color: #036118;
+    display: inline;
+    white-space: nowrap;
+  }
     font-size: 0.75em;
     color: #666;
     line-height: 1.2;
@@ -816,7 +834,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!orderRow.Order_Path;
     const href = hasLink ? `/grupo?path=${orderRow.Order_Path}&groupType=order&groupId=${orderRow.Order_Name_Sci}` : null;
     cells.push({
-      label: 'Order - Orden',
+      label: '<span class="bc-tax-es">Orden</span><span class="bc-tax-en">Order</span>',
       name: orderRow.Order_Name_Sci,
       href: href,
       isScientific: true,
@@ -829,7 +847,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!suborderRow.SO_Path;
     const href = hasLink ? `/grupo?path=${suborderRow.SO_Path}&groupType=suborder&groupId=${suborderRow.SO_Name_Sci}` : null;
     cells.push({
-      label: 'Suborder - Suborden',
+      label: '<span class="bc-tax-es">Suborden</span><span class="bc-tax-en">Suborder</span>',
       name: suborderRow.SO_Name_Sci,
       href: href,
       isScientific: true,
@@ -842,7 +860,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!familyRow.Family_Path;
     const href = hasLink ? `/grupo?path=${familyRow.Family_Path}&groupType=family&groupId=${familyRow.Family_Name_Sci}` : null;
     cells.push({
-      label: 'Family - Familia',
+      label: '<span class="bc-tax-es">Familia</span><span class="bc-tax-en">Family</span>',
       name: familyRow.Family_Name_Sci,
       href: href,
       isScientific: true,
@@ -855,7 +873,7 @@ function renderBreadcrumbs(pageLevel: string, groupID: string, orders: Order[], 
     const hasLink = !!subfamilyRow.SF_Path;
     const href = hasLink ? `/grupo?path=${subfamilyRow.SF_Path}&groupType=subfamily&groupId=${subfamilyRow.Subfamily_Sci}` : null;
     cells.push({
-      label: 'Subfamily - Subfamilia',
+      label: '<span class="bc-tax-es">Subfamilia</span><span class="bc-tax-en">Subfamily</span>',
       name: subfamilyRow.Subfamily_Sci,
       href: href,
       isScientific: true,
