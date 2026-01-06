@@ -49,10 +49,12 @@
         // Update all copyright date spans
         const copyrightElements = document.querySelectorAll('.copyright-year');
         copyrightElements.forEach(element => {
-            element.textContent = year;
+            if (element.textContent === '2025') {
+                element.textContent = year;
+            }
         });
 
-        // Also update any text that contains "1992-2025" pattern
+        // Also update any text that contains "1992-2025" pattern (but avoid double replacement)
         const allTextNodes = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
         let node;
         while (node = allTextNodes.nextNode()) {

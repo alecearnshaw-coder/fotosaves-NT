@@ -495,6 +495,16 @@ const pageStyles = `
     color: #333;
   }
 
+  /* Gender box styling */
+  .gender-box {
+    display: inline-block !important;
+    white-space: nowrap !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-size: 0.85em !important;
+    line-height: 1.2 !important;
+  }
+
   /* Gender text spans - single line format */
   .gender-box .es {
     color: #494242 !important;
