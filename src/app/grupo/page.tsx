@@ -363,6 +363,17 @@ const pageStyles = `
     border-radius: 15px;
   }
 
+  .familyHeadingBox {
+    border: 2px solid #6a9678;
+    padding: 0px 12px;
+    background: #e6f7bc;
+    max-width: 800px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 15px;
+  }
+
   h1 {
     font-weight: bold;
     font-style: italic;
@@ -1200,10 +1211,10 @@ function renderImagesSection(
     const orderSci = anySp ? anySp.Order_Sci : '';
     const speciesInFamily = filtered.filter(sp => sp.Family_Sci === familySci && Number(sp.Image_Cnt || 0) > 0);
 
-    // Add family heading (skip for order/suborder pages)
-    if (pageLevel !== 'order' && pageLevel !== 'suborder') {
+    // Add family heading (show for order/suborder pages)
+    if (pageLevel === 'order' || pageLevel === 'suborder') {
       sections.push(
-        <div key={`heading-${familySci}`} className="subHeadingBox">
+        <div key={`heading-${familySci}`} className="familyHeadingBox">
           <table style={{ width: '100%', margin: 'auto' }}>
             <tbody>
               <tr className="data-row">
