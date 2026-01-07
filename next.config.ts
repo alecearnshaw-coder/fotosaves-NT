@@ -120,6 +120,11 @@ const nextConfig = {
         source: '/FotosMamiferos.html',
         destination: '/FotosMamiferos/FotosMamiferos.html',
       },
+      // Allow direct access to HTML files within FotosMamiferos directory
+      {
+        source: '/FotosMamiferos/:filename.html',
+        destination: '/api/fotosmamiferos/:filename',
+      },
       {
         source: '/FotosReptiles.html',
         destination: '/FotosReptiles/FotosReptiles.html',
