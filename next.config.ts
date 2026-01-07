@@ -115,6 +115,51 @@ const nextConfig = {
   },
   async rewrites() {
     return [
+      // Ensure static HTML files are served directly
+      {
+        source: '/FotosMamiferos.html',
+        destination: '/FotosMamiferos/FotosMamiferos.html',
+      },
+      {
+        source: '/FotosReptiles.html',
+        destination: '/FotosReptiles/FotosReptiles.html',
+      },
+      {
+        source: '/FotosInsectos.html',
+        destination: '/FotosInsectos/Index_Insecta_En.html',
+      },
+      {
+        source: '/FotosAranias.html',
+        destination: '/FotosAranias/FotosAranias.html',
+      },
+      {
+        source: '/FotosLibelulas.html',
+        destination: '/FotosLibelulas/FotosLibelulas.html',
+      },
+      {
+        source: '/FotosMariposas.html',
+        destination: '/FotosMariposas/FotosMariposas.html',
+      },
+      {
+        source: '/FotosOtrosInvertebrados.html',
+        destination: '/FotosOtrosInvertebrados/FotosOtrosInvertebrados.html',
+      },
+      {
+        source: '/Relatos.html',
+        destination: '/Relatos/Relatos.html',
+      },
+      {
+        source: '/TripReports.html',
+        destination: '/Relatos/TripReports.html',
+      },
+      {
+        source: '/Videos.html',
+        destination: '/Videos/Videos.html',
+      },
+      {
+        source: '/Paintings.html',
+        destination: '/MyPaintings/Paintings.html',
+      },
       {
         source: '/grupo/:path*',
         destination: '/grupo.html',
