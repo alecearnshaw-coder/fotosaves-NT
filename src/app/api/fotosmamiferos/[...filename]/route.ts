@@ -4,11 +4,12 @@ import { join } from 'path';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { filename: string[] } }
+  { params }: { params: Promise<{ filename: string[] }> }
 ) {
   try {
-    const filename = params.filename.join('/');
-    const filePath = join(process.cwd(), 'public', 'FotosMamiferos', `${filename}.html`);
+    const { filename } = await params;
+    const filenameJoined = filename.join('/');
+    const filePath = join(process.cwd(), 'public', 'FotosMamiferos', `${filenameJoined}.html`);
 
     // Read the HTML file
     const htmlContent = readFileSync(filePath, 'utf8');
