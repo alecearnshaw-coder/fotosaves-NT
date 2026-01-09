@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import LightboxScripts from '@/components/LightboxScripts';
 import BackToTop from '@/components/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
 import ContactLink from '@/components/ContactLink';
@@ -431,7 +430,7 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
           <div className="subgroup">
             {subfamilies
               .filter(sf => sf.Family_ID === family.Family_ID)
-              .map(subfamily => renderSubfamilyElement(subfamily, family, species, lang))
+              .map((subfamily, index) => renderSubfamilyElement(subfamily, family, species, lang, index))
             }
           </div>
         )}
@@ -440,7 +439,7 @@ function renderFamilyElement(family: Family, families: Family[], subfamilies: Su
   );
 }
 
-function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, species: Species[], lang: 'es' | 'en' = 'es') {
+function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, species: Species[], lang: 'es' | 'en' = 'es', index?: number) {
   const imageFolderPath = subfamily.SF_Path || null;
   const groupType = 'subfamily';
   const groupId = subfamily.Subfamily_Sci;
@@ -450,8 +449,10 @@ function renderSubfamilyElement(subfamily: Subfamily, parentFamily: Family, spec
     species.Subfamily_Sci === subfamily.Subfamily_Sci && species.Image_Cnt > 0
   );
 
+  const safeKey = `${parentFamily.Family_ID}-${subfamily.SF_ID || subfamily.Subfamily_Sci || index || 'sf-unknown'}`;
+
   return (
-    <div key={subfamily.SF_ID} className="subgroup-row">
+    <div key={safeKey} className="subgroup-row">
       <div className="subgroup-image">
         {url ? (
           <a href={url} style={{textDecoration: 'none'}}>
@@ -774,7 +775,6 @@ export default async function AvesPage() {
         </p>
       </div>
 
-      <LightboxScripts />
       <BackToTop />
     </>
   );

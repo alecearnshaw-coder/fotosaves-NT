@@ -13,6 +13,57 @@ const nextConfig = {
         destination: '/birds',
         permanent: true,
       },
+      // Legacy static entry points (redirect so relative assets resolve from subfolders)
+      {
+        source: '/FotosReptiles.html',
+        destination: '/FotosReptiles/FotosReptiles.html',
+        permanent: true,
+      },
+      {
+        source: '/FotosInsectos.html',
+        destination: '/FotosInsectos/Index_Insecta_En.html',
+        permanent: true,
+      },
+      {
+        source: '/FotosAranias.html',
+        destination: '/FotosAranias/FotosAranias.html',
+        permanent: true,
+      },
+      {
+        source: '/FotosLibelulas.html',
+        destination: '/FotosLibelulas/FotosLibelulas.html',
+        permanent: true,
+      },
+      {
+        source: '/FotosMariposas.html',
+        destination: '/FotosMariposas/FotosMariposas.html',
+        permanent: true,
+      },
+      {
+        source: '/FotosOtrosInvertebrados.html',
+        destination: '/FotosOtrosInvertebrados/FotosOtrosInvertebrados.html',
+        permanent: true,
+      },
+      {
+        source: '/Relatos.html',
+        destination: '/Relatos/Relatos.html',
+        permanent: true,
+      },
+      {
+        source: '/TripReports.html',
+        destination: '/Relatos/TripReports.html',
+        permanent: true,
+      },
+      {
+        source: '/Videos.html',
+        destination: '/Videos/Videos.html',
+        permanent: true,
+      },
+      {
+        source: '/Paintings.html',
+        destination: '/MyPaintings/Paintings.html',
+        permanent: true,
+      },
       // Specific working redirects (fallback for reliability)
       {
         source: '/Rheiformes/FotosRheiformes.html',
@@ -100,71 +151,41 @@ const nextConfig = {
         destination: '/grupo?path=Charadriiformes/Scolopacidae/&groupType=family&groupId=Scolopacidae',
         permanent: true,
       },
-      // Catch-all for taxonomy HTML files - redirect to API for dynamic handling
+      // Specific taxonomy redirects (only for bird orders/families)
       {
-        source: '/:segment/:filename.html',
-        destination: '/api/taxonomy-redirect/:segment/:filename.html',
+        source: '/Anseriformes/:filename.html',
+        destination: '/api/taxonomy-redirect/Anseriformes/:filename.html',
         permanent: true,
       },
       {
-        source: '/:segment/:subsegment/:filename.html',
-        destination: '/api/taxonomy-redirect/:segment/:subsegment/:filename.html',
+        source: '/Apodiformes/:filename.html',
+        destination: '/api/taxonomy-redirect/Apodiformes/:filename.html',
+        permanent: true,
+      },
+      {
+        source: '/Cathartiformes/:filename.html',
+        destination: '/api/taxonomy-redirect/Cathartiformes/:filename.html',
+        permanent: true,
+      },
+      {
+        source: '/Falconiformes/:filename.html',
+        destination: '/api/taxonomy-redirect/Falconiformes/:filename.html',
+        permanent: true,
+      },
+      {
+        source: '/Passeriformes/:segment/:filename.html',
+        destination: '/api/taxonomy-redirect/Passeriformes/:segment/:filename.html',
+        permanent: true,
+      },
+      {
+        source: '/Charadriiformes/:segment/:filename.html',
+        destination: '/api/taxonomy-redirect/Charadriiformes/:segment/:filename.html',
         permanent: true,
       }
     ];
   },
   async rewrites() {
     return [
-      // Ensure static HTML files are served directly
-      {
-        source: '/FotosMamiferos.html',
-        destination: '/FotosMamiferos/FotosMamiferos.html',
-      },
-      // Allow direct access to HTML files within FotosMamiferos directory
-      {
-        source: '/FotosMamiferos/:filename.html',
-        destination: '/api/fotosmamiferos/:filename',
-      },
-      {
-        source: '/FotosReptiles.html',
-        destination: '/FotosReptiles/FotosReptiles.html',
-      },
-      {
-        source: '/FotosInsectos.html',
-        destination: '/FotosInsectos/Index_Insecta_En.html',
-      },
-      {
-        source: '/FotosAranias.html',
-        destination: '/FotosAranias/FotosAranias.html',
-      },
-      {
-        source: '/FotosLibelulas.html',
-        destination: '/FotosLibelulas/FotosLibelulas.html',
-      },
-      {
-        source: '/FotosMariposas.html',
-        destination: '/FotosMariposas/FotosMariposas.html',
-      },
-      {
-        source: '/FotosOtrosInvertebrados.html',
-        destination: '/FotosOtrosInvertebrados/FotosOtrosInvertebrados.html',
-      },
-      {
-        source: '/Relatos.html',
-        destination: '/Relatos/Relatos.html',
-      },
-      {
-        source: '/TripReports.html',
-        destination: '/Relatos/TripReports.html',
-      },
-      {
-        source: '/Videos.html',
-        destination: '/Videos/Videos.html',
-      },
-      {
-        source: '/Paintings.html',
-        destination: '/MyPaintings/Paintings.html',
-      },
       {
         source: '/grupo/:path*',
         destination: '/grupo.html',

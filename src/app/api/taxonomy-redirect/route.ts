@@ -33,6 +33,13 @@ export async function GET(request: NextRequest) {
   // Remove the /api/taxonomy-redirect prefix to get the original URL
   const originalPath = pathname.replace('/api/taxonomy-redirect', '');
 
+  // Skip static sections that should be served directly
+  const staticSections = ['FotosMamiferos', 'FotosReptiles', 'FotosInsectos', 'FotosAranias', 'Videos', 'Pinturas', 'Viajes'];
+  if (staticSections.some(section => originalPath.includes(section))) {
+    // This is a static section; send the browser to the original path so the Next.js static server handles it
+    return NextResponse.redirect(new URL(originalPath, request.url), 307);
+  }
+
   // Load taxonomy data to check for species URL patterns
   const ordersPath = path.join(process.cwd(), 'src/data/taxonomy/orders.json');
   const ordersData = await fs.promises.readFile(ordersPath, 'utf8');

@@ -26,7 +26,7 @@ export default function LightboxScripts() {
     <>
       <Script 
         src="/lightbox/js/jquery-1.7.2.min.js" 
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         onLoad={() => {
           console.log('jQuery loaded');
         }}
