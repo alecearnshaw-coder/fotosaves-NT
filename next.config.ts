@@ -230,6 +230,25 @@ const nextConfig = {
         source: '/Charadriiformes/FotosPlayerasX_:slug.html',
         destination: '/especie/:slug',
       },
+      // Charadriiformes special format: FotosPlayerasA_{Slug}.html
+      {
+        source: '/Charadriiformes/FotosPlayerasA_:slug.html',
+        destination: '/especie/:slug',
+      },
+      // Rheiformes special format: FotosRhea_{Slug}.html
+      {
+        source: '/Rheiformes/FotosRhea_:slug.html',
+        destination: '/especie/:slug',
+      },
+      // Order/family directory fallbacks to grupo page
+      {
+        source: '/:order(Falconiformes|Accipitriformes|Anseriformes|Charadriiformes|Passeriformes|Piciformes|Tinamiformes|Rheiformes|Phoenicopteriformes|Procellariiformes|Suliformes|Pelecaniformes|Cathartiformes)/:family',
+        destination: '/grupo?path=:order/:family/&groupType=family&groupId=:family',
+      },
+      {
+        source: '/:order(Falconiformes|Accipitriformes|Anseriformes|Charadriiformes|Passeriformes|Piciformes|Tinamiformes|Rheiformes|Phoenicopteriformes|Procellariiformes|Suliformes|Pelecaniformes|Cathartiformes)',
+        destination: '/grupo?path=:order/&groupType=order&groupId=:order',
+      },
     ];
   },
 };

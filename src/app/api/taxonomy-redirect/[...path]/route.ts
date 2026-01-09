@@ -76,6 +76,63 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
   }
 
+  // Legacy species URL exceptions by order
+  const rheiformesPattern = /^\/Rheiformes\/FotosRheas_(.+)\.html$/;
+  const rheiformesMatch = originalPath.match(rheiformesPattern);
+  if (rheiformesMatch) {
+    const slug = rheiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const tinamiformesPattern = /^\/Tinamiformes\/FotosPerdices_(.+)\.html$/;
+  const tinamiformesMatch = originalPath.match(tinamiformesPattern);
+  if (tinamiformesMatch) {
+    const slug = tinamiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const podicipediformesPattern = /^\/Podicipediformes\/Fotos(.+)\.html$/;
+  const podicipediformesMatch = originalPath.match(podicipediformesPattern);
+  if (podicipediformesMatch) {
+    const slug = podicipediformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const procellariiformesPattern = /^\/Procellariiformes\/Fotos(.+)\.html$/;
+  const procellariiformesMatch = originalPath.match(procellariiformesPattern);
+  if (procellariiformesMatch) {
+    const slug = procellariiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const suliformesPattern = /^\/Suliformes\/Fotos(.+)\.html$/;
+  const suliformesMatch = originalPath.match(suliformesPattern);
+  if (suliformesMatch) {
+    const slug = suliformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const sphenisciformesPattern = /^\/Sphenisciformes\/Fotos(.+)\.html$/;
+  const sphenisciformesMatch = originalPath.match(sphenisciformesPattern);
+  if (sphenisciformesMatch) {
+    const slug = sphenisciformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const spheniciformesPattern = /^\/Spheniciformes\/Fotos(.+)\.html$/;
+  const spheniciformesMatch = originalPath.match(spheniciformesPattern);
+  if (spheniciformesMatch) {
+    const slug = spheniciformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const gruiformesPattern = /^\/Gruiformes\/FotosGruiformes-(.+)\.html$/;
+  const gruiformesMatch = originalPath.match(gruiformesPattern);
+  if (gruiformesMatch) {
+    const slug = gruiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
   // Species name changes
   if (originalPath === '/Procellariiformes/FotosAlbatrosReal.html') {
     return NextResponse.redirect(new URL('/especie/AlbatrosRealMayor', request.url));
@@ -177,6 +234,14 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   // 2a. Taxonomic change 1: Passeriformes/IncerteaSedis -> Passeriformes/Thraupidae
   if (originalPath === '/Passeriformes/IncerteaSedis/FotosInsertisSedis.html') {
     return NextResponse.redirect(new URL('/Passeriformes/Thraupidae/FotosThraupidae.html', request.url));
+  }
+
+  // 2a species in IncerteaSedis -> Thraupidae
+  const incertaSpeciesPattern = /^\/Passeriformes\/IncerteaSedis\/Fotos_(.+)\.html$/;
+  const incertaSpeciesMatch = originalPath.match(incertaSpeciesPattern);
+  if (incertaSpeciesMatch) {
+    const slug = incertaSpeciesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
   }
 
   // 2b. Taxonomic change 2: Passeriformes/Emberizidae -> Passeriformes/Passerellidae

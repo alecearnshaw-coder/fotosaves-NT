@@ -66,6 +66,71 @@ export async function GET(request: NextRequest) {
     return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
   }
 
+  // Legacy species URL exceptions by order
+  const rheiformesPattern = /^\/Rheiformes\/FotosRheas_(.+)\.html$/;
+  const rheiformesMatch = originalPath.match(rheiformesPattern);
+  console.log('Rheiformes pattern match:', rheiformesMatch);
+  if (rheiformesMatch) {
+    const slug = rheiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const tinamiformesPattern = /^\/Tinamiformes\/FotosPerdices_(.+)\.html$/;
+  const tinamiformesMatch = originalPath.match(tinamiformesPattern);
+  console.log('Tinamiformes pattern match:', tinamiformesMatch);
+  if (tinamiformesMatch) {
+    const slug = tinamiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const podicipediformesPattern = /^\/Podicipediformes\/Fotos(.+)\.html$/;
+  const podicipediformesMatch = originalPath.match(podicipediformesPattern);
+  console.log('Podicipediformes pattern match:', podicipediformesMatch);
+  if (podicipediformesMatch) {
+    const slug = podicipediformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const procellariiformesPattern = /^\/Procellariiformes\/Fotos(.+)\.html$/;
+  const procellariiformesMatch = originalPath.match(procellariiformesPattern);
+  console.log('Procellariiformes pattern match:', procellariiformesMatch);
+  if (procellariiformesMatch) {
+    const slug = procellariiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const suliformesPattern = /^\/Suliformes\/Fotos(.+)\.html$/;
+  const suliformesMatch = originalPath.match(suliformesPattern);
+  console.log('Suliformes pattern match:', suliformesMatch);
+  if (suliformesMatch) {
+    const slug = suliformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const sphenisciformesPattern = /^\/Sphenisciformes\/Fotos(.+)\.html$/;
+  const sphenisciformesMatch = originalPath.match(sphenisciformesPattern);
+  console.log('Sphenisciformes pattern match:', sphenisciformesMatch);
+  if (sphenisciformesMatch) {
+    const slug = sphenisciformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const spheniciformesPattern = /^\/Spheniciformes\/Fotos(.+)\.html$/;
+  const spheniciformesMatch = originalPath.match(spheniciformesPattern);
+  console.log('Spheniciformes pattern match:', spheniciformesMatch);
+  if (spheniciformesMatch) {
+    const slug = spheniciformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
+  const gruiformesPattern = /^\/Gruiformes\/FotosGruiformes-(.+)\.html$/;
+  const gruiformesMatch = originalPath.match(gruiformesPattern);
+  console.log('Gruiformes pattern match:', gruiformesMatch);
+  if (gruiformesMatch) {
+    const slug = gruiformesMatch[1];
+    return NextResponse.redirect(new URL(`/api/species-redirect-by-slug?slug=${encodeURIComponent(slug)}`, request.url));
+  }
+
   // Check if URL matches any species URL pattern
   for (const order of orders.data) {
     const pattern = order.Species_URL_Pattern;
