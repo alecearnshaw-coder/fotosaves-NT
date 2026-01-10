@@ -124,7 +124,7 @@ const nextConfig = {
            'Podicipediformes|Cuculiformes|Columbiformes|Gruiformes|Charadriiformes|' +
            'Sphenisciformes|Procellariiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
            'Caprimulgiformes|Nyctibiiformes|Strigiformes|Cathartiformes|Accipitriformes|' +
-           'Trogoniformes|Coraciformes|Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes/Fotos:order.html',
+           'Trogoniformes|Coraciformes|Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos:order.html',
         destination: '/grupo?path=:order/&groupType=order&groupId=:order',
         permanent: true,
       },
@@ -288,7 +288,7 @@ const nextConfig = {
            'Cuculiformes|Columbiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
            'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|Trochiliformes|' +
            'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciformes|' +
-           'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes/Fotos_:slug.html',
+           'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos_:slug.html',
         destination: '/especie/:slug',
         permanent: true,
       },     
