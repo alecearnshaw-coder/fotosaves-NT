@@ -48,15 +48,13 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  const [segment, ...rest] = decoded.split('/');
+  const [segment] = decoded.split('/');
 
   let resolvedPath: string;
 
   if (BIRD_ORDERS.has(segment)) {
-    // Bird images
     resolvedPath = `/images/Aves/${decoded}`;
   } else {
-    // Legacy static images
     resolvedPath = `/${decoded}`;
   }
 
@@ -65,3 +63,7 @@ export function middleware(request: NextRequest) {
     301
   );
 }
+
+export const config = {
+  matcher: ['/'],
+};
