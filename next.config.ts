@@ -168,7 +168,7 @@ const nextConfig = {
 
       ////   GENERAL RULE FOR PASSERIFORMES   ////
       {
-        source: '/Passeriformes/:segment/Fotos_:slug.html',
+        source: '/Passeriformes/:family/Fotos_:slug([A-Za-z]+).html',
         destination: '/especie/:slug',
         permanent: true,
       },
@@ -281,12 +281,12 @@ const nextConfig = {
       /// FRINGILIDAE SUBFAMILIES
       {
         source: '/Passeriformes/Fringillidae/FotosFringillidae.html',
-        destination: '/grupo?path=Passeriformes/Fringillidae_Frin/&groupType=subfamily&groupId=Fringillinae',
+        destination: '/grupo?path=Passeriformes/Fringillidae-Frin/&groupType=subfamily&groupId=Fringillinae',
         permanent: true,
       },
       {
         source: '/Passeriformes/Fringillidae/FotosEuphoniinae.html',
-        destination: '/grupo?path=Passeriformes/Fringillidae_Frin/&groupType=subfamily&groupId=Fringillinae',
+        destination: '/grupo?path=Passeriformes/Fringillidae-Euph/&groupType=subfamily&groupId=Euphoniinae',
         permanent: true,
       },
 
@@ -295,7 +295,7 @@ const nextConfig = {
        // The code ([^_]) is a regular expression to match any character except an underscore
        // Therefore it prohibits to process the file Fotos:segment_XXX.html
       {
-        source: '/Passeriformes/:segment([^_]+)/Fotos:segment.html',
+        source: '/Passeriformes/:segment([^_]+)/Fotos:segment([A-Za-z]+).html',
         destination: '/grupo?path=Passeriformes/:segment/&groupType=family&groupId=:segment',
         permanent: true,
       }
