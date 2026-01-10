@@ -43,8 +43,8 @@ export function middleware(request: NextRequest) {
 
   const decoded = decodeURIComponent(nxtPstatic);
 
-  // Safety: must look like a file
-  if (!decoded.includes('/')) {
+  // ONLY handle image files
+  if (!/\.(jpg|jpeg|png|webp)$/i.test(decoded)) {
     return NextResponse.next();
   }
 
