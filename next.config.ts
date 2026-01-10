@@ -65,6 +65,113 @@ const nextConfig = {
         permanent: true,
       },
 
+      //////////    BIRDS     SPECIES    LEVEL  //////////
+ // Now redirect the SPECIES .html files
+      // First catch all the exceptions to the general rule
+      
+      // Rheiformes special format: FotosRheas_{Slug}.html
+      {
+        source: '/Rheiformes/FotosRheas_:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+      // Tinamiformes special format: FotosPerdices_{Slug}.html
+      {
+        source: '/Tinamiformes/FotosPerdices_:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+      // Podicipediformes special format: Fotos{Slug}.html
+      {
+        source: '/Podicipediformes/Fotos:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+       // Gruiformes special format: FotosGruiformes-{Slug}.html
+       {
+        source: '/Gruiformes/FotosGruiformes-:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+      // Procellariiformes special format: Fotos{Slug}.html
+      {
+        source: '/Procellariiformes/Fotos:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+      // Suliformes special format: Fotos{Slug}.html
+      {
+        source: '/Suliformes/Fotos:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+      // Gaviotin Chico to Gaviotin Chico Fluvial 
+      {
+        source: '/Charadriiformes/FotosPlayerasC_GaviotinChico.html',
+        destination: '/especie/GaviotinChicoFluvial',
+        permanent: true,
+      },
+      // GENERICS FOR Charadriiformes species
+      {
+        source: '/Charadriiformes/FotosPlayerasA_:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+      {
+        source: '/Charadriiformes/FotosPlayerasB_:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+      {
+        source: '/Charadriiformes/FotosPlayerasC_:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
+
+      // Sphenisciformes special cases for each species
+      {
+        source: '/Sphenisciformes/FotosPinguinoRey.html',
+        destination: '/especie/PinguinoRey',
+        permanent: true,
+      },
+      {
+        source: '/Sphenisciformes/FotosPinguinos_Vincha.html',
+        destination: '/especie/PinguinoDeVincha',
+        permanent: true,
+      },
+      {
+        source: '/Sphenisciformes/FotosPinguinos_Magallanes.html',
+        destination: '/especie/PinguinoPatagonico',
+        permanent: true,
+      },
+      
+      // Albatros Real to Albatros Real Mayor
+      {
+        source: '/Procellariiformes/FotosAlbatrosReal.html',
+        destination: '/especie/AlbatrosRealMayor',
+        permanent: true,
+      },
+      
+      // GENERIC CASES FOR SPECIES LEVEL - ORDER LEVEL SPECIES
+      {
+        source: 
+        '/:order(' +
+           'Anseriformes|Galliformes|Phoenicopteriformes|Charadriiformes|' +
+           'Cuculiformes|Columbiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
+           'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|Trochiliformes|' +
+           'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciformes|' +
+           'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos_:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },     
+      
+
+      ////   GENERAL RULE FOR PASSERIFORMES   ////
+      {
+        source: '/Passeriformes/:segment/Fotos_:slug.html',
+        destination: '/especie/:slug',
+        permanent: true,
+      },
 
 
   
@@ -189,117 +296,10 @@ const nextConfig = {
         source: '/Passeriformes/:segment/Fotos:segment.html',
         destination: '/grupo?path=Passeriformes/:segment/&groupType=family&groupId=:segment',
         permanent: true,
-      },
+      }
       ///////        END OF GROUP LEVEL       ///////
 
 
-      //////////    BIRDS     SPECIES    LEVEL  //////////
- // Now redirect the SPECIES .html files
-      // First catch all the exceptions to the general rule
-      
-      // Rheiformes special format: FotosRheas_{Slug}.html
-      {
-        source: '/Rheiformes/FotosRheas_:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-      // Tinamiformes special format: FotosPerdices_{Slug}.html
-      {
-        source: '/Tinamiformes/FotosPerdices_:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-      // Podicipediformes special format: Fotos{Slug}.html
-      {
-        source: '/Podicipediformes/Fotos:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-       // Gruiformes special format: FotosGruiformes-{Slug}.html
-       {
-        source: '/Gruiformes/FotosGruiformes-:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-      // Procellariiformes special format: Fotos{Slug}.html
-      {
-        source: '/Procellariiformes/Fotos:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-      // Suliformes special format: Fotos{Slug}.html
-      {
-        source: '/Suliformes/Fotos:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-      // Gaviotin Chico to Gaviotin Chico Fluvial 
-      {
-        source: '/Charadriiformes/FotosPlayerasC_GaviotinChico.html',
-        destination: '/especie/GaviotinChicoFluvial',
-        permanent: true,
-      },
-      // GENERICS FOR Charadriiformes species
-      {
-        source: '/Charadriiformes/FotosPlayerasA_:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-      {
-        source: '/Charadriiformes/FotosPlayerasB_:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-      {
-        source: '/Charadriiformes/FotosPlayerasC_:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
-
-      // Sphenisciformes special cases for each species
-      {
-        source: '/Sphenisciformes/FotosPinguinoRey.html',
-        destination: '/especie/PinguinoRey',
-        permanent: true,
-      },
-      {
-        source: '/Sphenisciformes/FotosPinguinos_Vincha.html',
-        destination: '/especie/PinguinoDeVincha',
-        permanent: true,
-      },
-      {
-        source: '/Sphenisciformes/FotosPinguinos_Magallanes.html',
-        destination: '/especie/PinguinoPatagonico',
-        permanent: true,
-      },
-      
-      // Albatros Real to Albatros Real Mayor
-      {
-        source: '/Procellariiformes/FotosAlbatrosReal.html',
-        destination: '/especie/AlbatrosRealMayor',
-        permanent: true,
-      },
-      
-      // GENERIC CASES FOR SPECIES LEVEL - ORDER LEVEL SPECIES
-      {
-        source: 
-        '/:order(' +
-           'Anseriformes|Galliformes|Phoenicopteriformes|Charadriiformes|' +
-           'Cuculiformes|Columbiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
-           'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|Trochiliformes|' +
-           'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciformes|' +
-           'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos_:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },     
-      
-
-      ////   GENERAL RULE FOR PASSERIFORMES   ////
-      {
-        source: '/Passeriformes/:segment/Fotos_:slug.html',
-        destination: '/especie/:slug',
-        permanent: true,
-      },
 
       ///////        END OF SPECIES LEVEL       ///////
 
