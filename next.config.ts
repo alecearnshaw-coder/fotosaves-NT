@@ -292,8 +292,10 @@ const nextConfig = {
 
       
       ////   GENERAL RULE FOR PASSERIFORMES   ////
+       // The code ([^_]) is a regular expression to match any character except an underscore
+       // Therefore it prohibits to process the file Fotos:segment_XXX.html
       {
-        source: '/Passeriformes/:segment/Fotos:segment.html',
+        source: '/Passeriformes/:segment([^_]+)/Fotos:segment.html',
         destination: '/grupo?path=Passeriformes/:segment/&groupType=family&groupId=:segment',
         permanent: true,
       }
