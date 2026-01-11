@@ -5,6 +5,8 @@ import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
 import SharedHeader from '@/components/SharedHeader';
 import ContactLink from '@/components/ContactLink';
+import { headers } from 'next/headers';
+
 
 // Incremental Static Regeneration - rebuild every 24 hours
 export const revalidate = 86400; // 24 hours in seconds
@@ -100,6 +102,7 @@ function getOrigin(): string {
 }
 
 // Helper to fetch JSON data from public folder
+/*
 async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
     const response = await fetch(path, { cache: 'no-store' });
@@ -113,7 +116,32 @@ async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
     console.error(`Fetch error for ${path}:`, error);
     return null;
   }
-}
+} */
+  async function fetchJson(path: string) {
+    try {
+      const h = headers();
+      const host = h.get('host');
+      if (!host) return null;
+  
+      const protocol =
+        process.env.NODE_ENV === 'development' ? 'http' : 'https';
+  
+      const url = `${protocol}://${host}${path}`;
+  
+      const response = await fetch(url, { cache: 'no-store' });
+  
+      if (!response.ok) {
+        console.error(`Fetch failed: ${url} → ${response.status}`);
+        return null;
+      }
+  
+      return await response.json();
+    } catch (err) {
+      console.error(`Fetch error for ${path}:`, err);
+      return null;
+    }
+  }
+  
 
 // Get image path - check Subfamily, then Family, then Suborder, then Order
 function getImagePath(

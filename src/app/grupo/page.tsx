@@ -1348,7 +1348,8 @@ function renderSpeciesSection(species: Species, path: string, speciesImageMap: M
         <div className="species-more-link">
           <a
             className="more-link"
-            href={`/especie?speciesId=${species.Species_ID}&imagesPath=${path || ''}`}
+            // href={`/especie?speciesId=${species.Species_ID}&imagesPath=${path || ''}`}
+            href={`/especie/${species.Slug}`}
           >
             <span className="more-text-es">Más fotos...</span>
             <span className="more-icon" aria-hidden="true">📷</span>
