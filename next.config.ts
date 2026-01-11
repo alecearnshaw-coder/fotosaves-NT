@@ -9,6 +9,12 @@ const BIRD_ORDERS =
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+
+  // This is to prevent the images from being optimized by Next.js
+  images: {
+    unoptimized: true,
+  },
+
   async redirects() {
     return [
       // Main pages (highest priority)
