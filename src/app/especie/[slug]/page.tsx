@@ -102,8 +102,34 @@ function getOrigin(): string {
 }
 
 // Helper to fetch JSON data from public folder
-/*
 async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
+  try {
+    // Determine the base URL for server-side fetch
+    let base: string;
+    if (process.env.VERCEL_URL) {
+      base = `https://${process.env.VERCEL_URL}`;
+    } else {
+      base = 'http://localhost:3000';
+    }
+
+    const url = new URL(path, base).toString();
+
+    const response = await fetch(url, { cache: 'no-store' });
+
+    if (!response.ok) {
+      console.error(`Fetch failed: ${url} → ${response.status}`);
+      return null;
+    }
+
+    return await response.json();
+  } catch (err) {
+    console.error(`Fetch error for ${path}:`, err);
+    return null;
+  }
+}
+
+
+/* async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
     const response = await fetch(path, { cache: 'no-store' });
     if (!response.ok) {
@@ -117,6 +143,7 @@ async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
     return null;
   }
 } */
+/*
   async function fetchJson(path: string) {
     try {
       const h = await headers();
@@ -141,6 +168,7 @@ async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
       return null;
     }
   }
+  */
   
 
 // Get image path - check Subfamily, then Family, then Suborder, then Order
