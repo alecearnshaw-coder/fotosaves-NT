@@ -102,9 +102,7 @@ function getOrigin(): string {
 // Helper to fetch JSON data from public folder
 async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
-    const origin = getOrigin();
-    const url = `${origin}${path}`;
-    const response = await fetch(url, { cache: 'no-store' });
+    const response = await fetch(path, { cache: 'no-store' });
     if (!response.ok) {
       console.error(`Fetch failed: ${url} → ${response.status}`);
       return null;
