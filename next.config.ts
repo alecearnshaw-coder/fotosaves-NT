@@ -10,10 +10,10 @@ const BIRD_ORDERS =
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 
-  // This is to prevent the images from being optimized by Next.js
+  /* // This is to prevent the images from being optimized by Next.js
   images: {
     unoptimized: true,
-  },
+  }, */
 
   async redirects() {
     return [
@@ -28,7 +28,11 @@ const nextConfig = {
         destination: '/birds',
         permanent: true,
       },
-
+      {
+        source: '/FotosInsectos/FotosInsectos.html',
+        destination: '/FotosInsectos/Index_Insecta_Sp.html',
+        permanent: true,
+      },
       
       //////////    BIRDS     SPECIES    LEVEL  //////////
  // Now redirect the SPECIES .html files
