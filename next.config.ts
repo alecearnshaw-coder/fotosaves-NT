@@ -1,3 +1,36 @@
+const BIRD_ORDERS = [       // List of all bird orders used for catching IMAGE REWRITES. See below, in rewrites section.
+  'Rheiformes',
+  'Tinamiformes',
+  'Anseriformes',
+  'Galliformes',
+  'Phoenicopteriformes',
+  'Podicipediformes',
+  'Cuculiformes',
+  'Columbiformes',
+  'Gruiformes',
+  'Charadriiformes',
+  'Sphenisciformes',
+  'Procellariiformes',
+  'Ciconiformes',
+  'Suliformes',
+  'Pelecaniformes',
+  'Caprimulgiformes',
+  'Nyctibiiformes',
+  'Strigiformes',
+  'Apodiformes',
+  'Trochiliformes',
+  'Piciformes',
+  'Cathartiformes',
+  'Accipitriformes',
+  'Trogoniformes',
+  'Coraciformes',
+  'Galbuliformes',
+  'Cariamiformes',
+  'Falconiformes',
+  'Psittaciformes',
+  'Passeriformes',
+].join('|');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
@@ -14,59 +47,7 @@ const nextConfig = {
         permanent: true,
       },
 
-      /*
-      // Legacy static entry points (redirect so relative assets resolve from subfolders)
-      {
-        source: '/FotosReptiles.html',
-        destination: '/FotosReptiles/FotosReptiles.html',
-        permanent: true,
-      },
-      {
-        source: '/FotosInsectos.html',
-        destination: '/FotosInsectos/Index_Insecta_En.html',
-        permanent: true,
-      },
-      {
-        source: '/FotosAranias.html',
-        destination: '/FotosAranias/FotosAranias.html',
-        permanent: true,
-      },
-      {
-        source: '/FotosLibelulas.html',
-        destination: '/FotosLibelulas/FotosLibelulas.html',
-        permanent: true,
-      },
-      {
-        source: '/FotosMariposas.html',
-        destination: '/FotosMariposas/FotosMariposas.html',
-        permanent: true,
-      },
-      {
-        source: '/FotosOtrosInvertebrados.html',
-        destination: '/FotosOtrosInvertebrados/FotosOtrosInvertebrados.html',
-        permanent: true,
-      },
-      {
-        source: '/Relatos.html',
-        destination: '/Relatos/Relatos.html',
-        permanent: true,
-      },
-      {
-        source: '/TripReports.html',
-        destination: '/Relatos/TripReports.html',
-        permanent: true,
-      },
-      {
-        source: '/Videos.html',
-        destination: '/Videos/Videos.html',
-        permanent: true,
-      },
-      {
-        source: '/Paintings.html',
-        destination: '/MyPaintings/Paintings.html',
-        permanent: true,
-      },     */
-
+      
       //////////    BIRDS     SPECIES    LEVEL  //////////
  // Now redirect the SPECIES .html files
       // First catch all the exceptions to the general rule
@@ -321,20 +302,32 @@ const nextConfig = {
         permanent: true,
       }
       ///////        END OF GROUP LEVEL       ///////
-
-
-
-      ///////        END OF SPECIES LEVEL       ///////
-
-
-      /////         PHOTO LEVEL REDIRECTS       /////
-
       
     ];
   },
+
+
+
+   /////         PHOTO LEVEL REWRITES       /////    
+   // This is the section that catches incoming requests for photo files and rewrites them to the new format.
+   // It is a module.exports because it is used in the next.config.ts file.
+      
   async rewrites() {
-    return []
+    return {
+      beforeFiles: [
+        // 1️⃣ Bird images (ORDER is first segment)
+        {
+          source: `/:order(${BIRD_ORDERS})/:path*(\\.(jpg|jpeg|png|webp))`,
+          destination: '/image/Aves/:order/:path*',
+        },
+
+        // 2️⃣ All other legacy images (static content)
+        {
+          source: '/:path*(\\.(jpg|jpeg|png|webp))',
+          destination: '/:path*',
+        },
+      ],
+    };
   },
 };
-
-export default nextConfig;
+module.exports = nextConfig; // Export the config for use in the next.config.ts file.
