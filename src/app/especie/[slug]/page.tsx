@@ -104,7 +104,8 @@ async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
     const response = await fetch(path, { cache: 'no-store' });
     if (!response.ok) {
-      console.error(`Fetch failed: ${url} → ${response.status}`);
+      console.error(`Fetch failed (${response.status}) for ${path}`);
+
       return null;
     }
     return await response.json();
