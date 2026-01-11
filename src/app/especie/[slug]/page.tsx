@@ -119,7 +119,7 @@ async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
 } */
   async function fetchJson(path: string) {
     try {
-      const h = headers();
+      const h = await headers();
       const host = h.get('host');
       if (!host) return null;
   
