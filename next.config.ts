@@ -1,35 +1,11 @@
-const BIRD_ORDERS = [       // List of all bird orders used for catching IMAGE REWRITES. See below, in rewrites section.
-  'Rheiformes',
-  'Tinamiformes',
-  'Anseriformes',
-  'Galliformes',
-  'Phoenicopteriformes',
-  'Podicipediformes',
-  'Cuculiformes',
-  'Columbiformes',
-  'Gruiformes',
-  'Charadriiformes',
-  'Sphenisciformes',
-  'Procellariiformes',
-  'Ciconiformes',
-  'Suliformes',
-  'Pelecaniformes',
-  'Caprimulgiformes',
-  'Nyctibiiformes',
-  'Strigiformes',
-  'Apodiformes',
-  'Trochiliformes',
-  'Piciformes',
-  'Cathartiformes',
-  'Accipitriformes',
-  'Trogoniformes',
-  'Coraciformes',
-  'Galbuliformes',
-  'Cariamiformes',
-  'Falconiformes',
-  'Psittaciformes',
-  'Passeriformes',
-].join('|');
+// List of all bird orders used for catching IMAGE REWRITES. See below, in rewrites section.
+const BIRD_ORDERS =
+  'Rheiformes|Tinamiformes|Anseriformes|Galliformes|Phoenicopteriformes|' +
+  'Podicipediformes|Cuculiformes|Columbiformes|Gruiformes|Charadriiformes|' +
+  'Sphenisciformes|Procellariiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
+  'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|Trochiliformes|' +
+  'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciformes|' +
+  'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes|Passeriformes';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -317,14 +293,14 @@ const nextConfig = {
       beforeFiles: [
         // 1️⃣ Bird images (ORDER is first segment)
         {
-          source: `/:order(${BIRD_ORDERS})/:path*(\\.(jpg|jpeg|png|webp))`,
-          destination: '/image/Aves/:order/:path*',
+          source: `/:order(${BIRD_ORDERS})/:path*.:ext((?:jpg|jpeg|png|webp))`,
+          destination: '/image/Aves/:order/:path*.:ext',
         },
 
         // 2️⃣ All other legacy images (static content)
         {
-          source: '/:path*(\\.(jpg|jpeg|png|webp))',
-          destination: '/:path*',
+          source: '/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/:path*.:ext',
         },
       ],
     };
