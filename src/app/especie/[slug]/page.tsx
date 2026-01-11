@@ -8,6 +8,7 @@ import ContactLink from '@/components/ContactLink';
 import { headers } from 'next/headers';
 
 
+
 // Incremental Static Regeneration - rebuild every 24 hours
 export const revalidate = 86400; // 24 hours in seconds
 
@@ -104,14 +105,11 @@ function getOrigin(): string {
 // Helper to fetch JSON data from public folder
 async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
-    // Determine the base URL for server-side fetch
-    let base: string;
-    if (process.env.VERCEL_URL) {
-      base = `https://${process.env.VERCEL_URL}`;
-    } else {
-      base = 'http://localhost:3000';
-    }
-
+    // Build absolute URL based on incoming host to avoid ERR_INVALID_URL in SSR
+    const headersList = await headers();
+    const host = headersList.get('host');
+    const protocol = host?.startsWith('localhost') ? 'http' : 'https';
+    const base = host ? `${protocol}://${host}` : 'http://localhost:3000';
     const url = new URL(path, base).toString();
 
     const response = await fetch(url, { cache: 'no-store' });
