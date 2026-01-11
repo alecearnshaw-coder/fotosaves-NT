@@ -108,8 +108,12 @@ async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
     // Build absolute URL based on incoming host to avoid ERR_INVALID_URL in SSR
     const headersList = await headers();
     const host = headersList.get('host');
+    // Prefer public domain to avoid preview auth/401; fall back to incoming host/local
+    const publicBase = 'https://www.fotosaves.com.ar';
     const protocol = host?.startsWith('localhost') ? 'http' : 'https';
-    const base = host ? `${protocol}://${host}` : 'http://localhost:3000';
+    const base = host?.startsWith('localhost')
+      ? `${protocol}://${host}`
+      : publicBase;
     const url = new URL(path, base).toString();
 
     const response = await fetch(url, { cache: 'no-store' });
