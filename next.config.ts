@@ -245,6 +245,7 @@ const nextConfig = {
          // single order model: source: '/Phoenicopteriformes/FotosPhenicopteriformes.html',
          // multi-order statement has 'order' accept any of the orders in the list.   
          // Note 3 orders are excluded: Podicipediformes, Procellariiformes, Suliformes because they have special rules (see above)
+      {
         source: 
            '/:order(' +
            'Rheiformes|Tinamiformes|Anseriformes|Galliformes|Phoenicopteriformes|' +
