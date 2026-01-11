@@ -709,8 +709,8 @@ export default async function SpeciesPage({
               
               <td className="breadcrumb-cell">
                 <div className="bc-bottom">
-                  <a href="/Aves.html"><span className="bc-es">Aves</span></a><br />
-                  <a href="/Birds.html"><span className="bc-en">Birds</span></a>
+                  <a href="/aves"><span className="bc-es">Aves</span></a><br />
+                  <a href="/birds"><span className="bc-en">Birds</span></a>
                 </div>
               </td>
               

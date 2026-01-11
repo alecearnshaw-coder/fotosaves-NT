@@ -13,6 +13,8 @@ const nextConfig = {
         destination: '/birds',
         permanent: true,
       },
+
+      /*
       // Legacy static entry points (redirect so relative assets resolve from subfolders)
       {
         source: '/FotosReptiles.html',
@@ -63,7 +65,7 @@ const nextConfig = {
         source: '/Paintings.html',
         destination: '/MyPaintings/Paintings.html',
         permanent: true,
-      },
+      },     */
 
       //////////    BIRDS     SPECIES    LEVEL  //////////
  // Now redirect the SPECIES .html files
@@ -81,7 +83,13 @@ const nextConfig = {
         destination: '/especie/:slug',
         permanent: true,
       },
-      // Podicipediformes special format: Fotos{Slug}.html
+      // Podicipediformes special format: Fotos{Slug}.html 
+      // BUT because of the rule (no UNDERSCORE in the Species naming, we have to first process the GROUP lavel)
+      {
+        source: '/Podicipediformes/FotosPodicipediformes.html',
+        destination: '/grupo?path=Podicipediformes/&groupType=order&groupId=Podicipediformes',
+        permanent: true,
+      },
       {
         source: '/Podicipediformes/Fotos:slug.html',
         destination: '/especie/:slug',
@@ -94,12 +102,24 @@ const nextConfig = {
         permanent: true,
       },
       // Procellariiformes special format: Fotos{Slug}.html
+      // BUT because of the rule (no UNDERSCORE in the Species naming, we have to first process the GROUP lavel)
+      {
+        source: '/Procellariiformes/FotosProcellariiformes.html',
+        destination: '/grupo?path=Procellariiformes/&groupType=order&groupId=Procellariiformes',
+        permanent: true,
+      },
       {
         source: '/Procellariiformes/Fotos:slug.html',
         destination: '/especie/:slug',
         permanent: true,
       },
       // Suliformes special format: Fotos{Slug}.html
+      // BUT because of the rule (no UNDERSCORE in the Species naming, we have to first process the GROUP lavel)
+      {
+        source: '/Suliformes/FotosSuliformes.html',
+        destination: '/grupo?path=Suliformes/&groupType=order&groupId=Suliformes',
+        permanent: true,
+      },
       {
         source: '/Suliformes/Fotos:slug.html',
         destination: '/especie/:slug',
@@ -157,7 +177,7 @@ const nextConfig = {
         source: 
         '/:order(' +
            'Anseriformes|Galliformes|Phoenicopteriformes|Charadriiformes|' +
-           'Cuculiformes|Columbiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
+           'Cuculiformes|Columbiformes|Ciconiiformes|Suliformes|Pelecaniformes|' +
            'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|Trochiliformes|' +
            'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciformes|' +
            'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos_:slug.html',
@@ -223,13 +243,13 @@ const nextConfig = {
       
       // Next catch the orders that are "vanilla", ie, follow the general rule
          // single order model: source: '/Phoenicopteriformes/FotosPhenicopteriformes.html',
-         // multi-order statement has 'order' accept any of the orders in the list.
-      { 
+         // multi-order statement has 'order' accept any of the orders in the list.   
+         // Note 3 orders are excluded: Podicipediformes, Procellariiformes, Suliformes because they have special rules (see above)
         source: 
            '/:order(' +
-           'Rheiformes|Tinamiformes|Anseriformes|Phoenicopteriformes|Galliformes|' +
-           'Podicipediformes|Cuculiformes|Columbiformes|Gruiformes|Charadriiformes|' +
-           'Sphenisciformes|Procellariiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
+           'Rheiformes|Tinamiformes|Anseriformes|Galliformes|Phoenicopteriformes|' +
+           'Cuculiformes|Columbiformes|Gruiformes|Charadriiformes|' +
+           'Sphenisciformes|Ciconiiformes|Pelecaniformes|' +
            'Caprimulgiformes|Nyctibiiformes|Strigiformes|Cathartiformes|Accipitriformes|' +
            'Trogoniformes|Coraciformes|Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos:order.html',
         destination: '/grupo?path=:order/&groupType=order&groupId=:order',
