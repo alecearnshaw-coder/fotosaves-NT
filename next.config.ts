@@ -176,17 +176,17 @@ const nextConfig = {
       // Handle Charadriiformes from A, B  C into 3 suborders
       {
         source: '/Charadriiformes/FotosCharadriiformesA.html',
-        destination: '/grupo?path=Charadriiformes&groupType=suborder&groupId=Charadrii',
+        destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Charadrii',
         permanent: true,
       },
       {
         source: '/Charadriiformes/FotosCharadriiformesB.html',
-        destination: '/grupo?path=Charadriiformes&groupType=suborder&groupId=Scolopaci',
+        destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Scolopaci',
         permanent: true,
       },
       {
         source: '/Charadriiformes/FotosCharadriiformesC.html',
-        destination: '/grupo?path=Charadriiformes&groupType=suborder&groupId=Lari',
+        destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Lari',
         permanent: true,
       },
       // Handle Swift now bwing sheon in Apodidae family within Apodiformes order
