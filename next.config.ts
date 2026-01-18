@@ -73,7 +73,7 @@ const nextConfig = {
       // BUT because of the rule (no UNDERSCORE in the Species naming, we have to first process the GROUP lavel)
       {
         source: '/Procellariiformes/FotosProcellariiformes.html',
-        destination: '/grupo?path=Procellariiformes/&groupType=order&groupId=Procellariiformes',
+        destination: '/grupo/Procellariiformes',
         permanent: true,
       },
       {
@@ -85,7 +85,7 @@ const nextConfig = {
       // BUT because of the rule (no UNDERSCORE in the Species naming, we have to first process the GROUP lavel)
       {
         source: '/Suliformes/FotosSuliformes.html',
-        destination: '/grupo?path=Suliformes/&groupType=order&groupId=Suliformes',
+        destination: '/grupo/Suliformes',
         permanent: true,
       },
       {
@@ -170,42 +170,49 @@ const nextConfig = {
           // Flamingos: FotosPhenicopteriformes is a missspelling (missing an 'o')
       {
         source: '/Phoenicopteriformes/FotosPhenicopteriformes.html',
-        destination: '/grupo?path=Phoenicopteriformes/&groupType=order&groupId=Phoenicopteriformes',
+        destination: '/grupo/Phoenicopteriformes',
+        // destination: '/grupo?path=Phoenicopteriformes/&groupType=order&groupId=Phoenicopteriformes',
         permanent: true,
       },
 
       // Handle Charadriiformes from A, B  C into 3 suborders
       {
         source: '/Charadriiformes/FotosCharadriiformesA.html',
-        destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Charadrii',
+        // destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Charadrii',
+        destination: '/grupo/Charadrii',
         permanent: true,
       },
       {
         source: '/Charadriiformes/FotosCharadriiformesB.html',
-        destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Scolopaci',
+        // destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Scolopaci',
+        destination: '/grupo/Scolopaci',
         permanent: true,
       },
       {
         source: '/Charadriiformes/FotosCharadriiformesC.html',
-        destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Lari',
+        // destination: '/grupo?path=Charadriiformes/&groupType=suborder&groupId=Lari',
+        destination: '/grupo/Lari',
         permanent: true,
       },
       // Handle Swift now bwing sheon in Apodidae family within Apodiformes order
       {
         source: '/Apodiformes/FotosApodiformes.html',
-        destination: '/grupo?path=Apodiformes/Apodidae/&groupType=family&groupId=Apodidae',
+        // destination: '/grupo?path=Apodiformes/Apodidae/&groupType=family&groupId=Apodidae',
+        destination: '/grupo/Apodidae',
         permanent: true,
       },
       // Handle taxonomic change of Trochiliformes order demoted to Trochilidae family within Apodiformes order
       {
         source: '/Trochiliformes/FotosTrochiliformes.html',
-        destination: '/grupo?path=Apodiformes/Trochilidae/&groupType=family&groupId=Trochilidae',
+        // destination: '/grupo?path=Apodiformes/Trochilidae/&groupType=family&groupId=Trochilidae',
+        destination: '/grupo/Trochilidae',
         permanent: true,
       },
       // Partial handling of Piciformes will now be redirected to picidae family within Piciformes order
       {
         source: '/Piciformes/FotosPiciformes.html',
-        destination: '/grupo?path=Piciformes/Picidae/&groupType=family&groupId=Picidae',
+        // destination: '/grupo?path=Piciformes/Picidae/&groupType=family&groupId=Picidae',
+        destination: '/grupo/Picidae',
         permanent: true,
       },
       
@@ -221,7 +228,8 @@ const nextConfig = {
            'Sphenisciformes|Ciconiiformes|Pelecaniformes|' +
            'Caprimulgiformes|Nyctibiiformes|Strigiformes|Cathartiformes|Accipitriformes|' +
            'Trogoniformes|Coraciformes|Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos:order.html',
-        destination: '/grupo?path=:order/&groupType=order&groupId=:order',
+        // destination: '/grupo?path=:order/&groupType=order&groupId=:order',
+        destination: '/grupo/:order',
         permanent: true,
       },
 
@@ -230,52 +238,61 @@ const nextConfig = {
       // Exception for InsertisSedis now remit to Thraupidae family within Passeriformes order
       {
         source: '/Passeriformes/IncertaeSedis/FotosInsertisSedis.html',
-        destination: '/grupo?path=Passeriformes/Thraupidae/&groupType=family&groupId=Thraupidae',
+        // destination: '/grupo?path=Passeriformes/Thraupidae/&groupType=family&groupId=Thraupidae',
+        destination: '/grupo/Thraupidae',
         permanent: true,
       },
       // Exception for Emberizidae now remit to Passerellidae family within Passeriformes order
       {
         source: '/Passeriformes/Emberizidae/FotosEmberizidae.html',
-        destination: '/grupo?path=Passeriformes/Passerellidae/&groupType=family&groupId=Passerellidae',
+        // destination: '/grupo?path=Passeriformes/Passerellidae/&groupType=family&groupId=Passerellidae',
+        destination: '/grupo/Passerellidae',
         permanent: true,
       },
 
       // FURNARIIDAE SUBFAMILIES
       {
         source: '/Passeriformes/Furnariidae-1Scleru/FotosSclerurinae.html',
-        destination: '/grupo?path=Passeriformes/Furnariidae-1Scleru/&groupType=subfamily&groupId=Sclerurinae',
+        // destination: '/grupo?path=Passeriformes/Furnariidae-1Scleru/&groupType=subfamily&groupId=Sclerurinae',
+        destination: '/grupo/Sclerurinae',
         permanent: true,
       },
       {
         source: '/Passeriformes/Furnariidae-Dendro/FotosDendrocolaptinae.html',
-        destination: '/grupo?path=Passeriformes/Furnariidae-Dendro/&groupType=subfamily&groupId=Dendrocolaptinae',
+        // destination: '/grupo?path=Passeriformes/Furnariidae-Dendro/&groupType=subfamily&groupId=Dendrocolaptinae',
+        destination: '/grupo/Dendrocolaptinae',
         permanent: true,  
       },
       {
         source: '/Passeriformes/Furnariidae-Phyl/FotosPhilydorinae.html',
-        destination: '/grupo?path=Passeriformes/Furnariidae-Phyl/&groupType=subfamily&groupId=Philydorinae',
+        // destination: '/grupo?path=Passeriformes/Furnariidae-Phyl/&groupType=subfamily&groupId=Philydorinae',
+        destination: '/grupo/Philydorinae',
         permanent: true,
       },
       {
         source: '/Passeriformes/Furnariidae-Furn/FotosFurnariinae.html',
-        destination: '/grupo?path=Passeriformes/Furnariidae-Furn/&groupType=subfamily&groupId=Furnariinae',
+        // destination: '/grupo?path=Passeriformes/Furnariidae-Furn/&groupType=subfamily&groupId=Furnariinae',
+        destination: '/grupo/Furnariinae',
         permanent: true,
       },
       {
         source: '/Passeriformes/Furnariidae-Sina/FotosSinallaxinae.html',
-        destination: '/grupo?path=Passeriformes/Furnariidae-Sina/&groupType=subfamily&groupId=Sinallaxinae',
+        // destination: '/grupo?path=Passeriformes/Furnariidae-Sina/&groupType=subfamily&groupId=Sinallaxinae',
+        destination: '/grupo/Sinallaxinae',
         permanent: true,
       },
 
       /// FRINGILIDAE SUBFAMILIES
       {
         source: '/Passeriformes/Fringillidae/FotosFringillidae.html',
-        destination: '/grupo?path=Passeriformes/Fringillidae-Frin/&groupType=subfamily&groupId=Fringillinae',
+        // destination: '/grupo?path=Passeriformes/Fringillidae-Frin/&groupType=subfamily&groupId=Fringillinae',
+        destination: '/grupo/Fringillinae',
         permanent: true,
       },
       {
         source: '/Passeriformes/Fringillidae/FotosEuphoniinae.html',
-        destination: '/grupo?path=Passeriformes/Fringillidae-Euph/&groupType=subfamily&groupId=Euphoniinae',
+        // destination: '/grupo?path=Passeriformes/Fringillidae-Euph/&groupType=subfamily&groupId=Euphoniinae',
+        destination: '/grupo/Euphoniinae',
         permanent: true,
       },
 
@@ -285,7 +302,8 @@ const nextConfig = {
        // Therefore it prohibits to process the file Fotos:segment_XXX.html
       {
         source: '/Passeriformes/:segment([^_]+)/Fotos:segment([A-Za-z]+).html',
-        destination: '/grupo?path=Passeriformes/:segment/&groupType=family&groupId=:segment',
+        // destination: '/grupo?path=Passeriformes/:segment/&groupType=family&groupId=:segment',
+        destination: '/grupo/:segment',
         permanent: true,
       }
       ///////        END OF GROUP LEVEL       ///////
@@ -305,7 +323,7 @@ const nextConfig = {
         // 1️⃣ Bird images (ORDER is first segment)
         {
           source: `/:order(${BIRD_ORDERS})/:path*.:ext((?:jpg|jpeg|png|webp))`,
-          destination: '/image/Aves/:order/:path*.:ext',
+          destination: '/images/Aves/:order/:path*.:ext',
         },
 
         // 2️⃣ All other legacy images (static content)
