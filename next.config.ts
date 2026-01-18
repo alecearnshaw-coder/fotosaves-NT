@@ -54,7 +54,8 @@ const nextConfig = {
       // BUT because of the rule (no UNDERSCORE in the Species naming, we have to first process the GROUP lavel)
       {
         source: '/Podicipediformes/FotosPodicipediformes.html',
-        destination: '/grupo?path=Podicipediformes/&groupType=order&groupId=Podicipediformes',
+        destination: '/grupo/Podicipediformes',
+        // destination: '/grupo?path=Podicipediformes/&groupType=order&groupId=Podicipediformes',
         permanent: true,
       },
       {
