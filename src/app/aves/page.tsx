@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     description: 'Descubre más de 800 especies de aves argentinas con fotografías originales.',
     images: ['/images/thumbnails/SBRH3.jpg'],
   },
+  alternates: {
+    canonical: 'https://www.fotosaves.com.ar/aves',
+  },
 };
 
 // Force dynamic rendering to avoid prerendering large data
@@ -128,11 +131,8 @@ interface Species {
 function createGroupUrl(imageFolderPath: string | null, groupType: string, groupId: string): string | null {
   if (!imageFolderPath) return null;
 
-  const params = new URLSearchParams();
-  params.set('path', imageFolderPath);
-  params.set('groupType', groupType);
-  params.set('groupId', groupId);
-  return `/grupo?${params.toString()}`;
+  // Use clean URL format: /grupo/[ScientificName]
+  return `/grupo/${groupId}`;
 }
 
 function renderOrderElement(order: Order, families: Family[], species: Species[]) {

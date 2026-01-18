@@ -216,6 +216,9 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   return {
     title: `${groupId} - ${groupType} | FotosAves.com.ar`,
     description: `Fotografías de especies de aves en ${groupType} ${groupId}. Imágenes originales tomadas en Argentina.`,
+    alternates: {
+      canonical: `https://www.fotosaves.com.ar/grupo/${groupId}`,
+    },
     keywords: [
       'Aves', 'Birds', 'Argentina', 'Birds of Argentina', 'Aves de Argentina', 'Birdwatching', 'Bird watching',
       'fotografías de aves', 'fotos de aves', 'fotografías de aves de Argentina', 'fotos de aves de Argentina',
@@ -671,6 +674,7 @@ export default async function GrupoPage({
   const pageLevel = params.groupType as string;
   const groupID = params.groupId as string;
 
+
   if (!pageLevel || !groupID) {
     notFound();
   }
@@ -705,6 +709,7 @@ export default async function GrupoPage({
   } else if (pageLevel === "subfamily") {
     speciesToLoad = species.filter(sp => sp.Subfamily_Sci === groupID && Number(sp.Image_Cnt || 0) > 0);
   }
+
 
   // Load all species image data in parallel
   const speciesImagePromises = speciesToLoad.map(async (sp) => {
@@ -1064,6 +1069,7 @@ function renderTableOfContents(species: Species[], pageLevel: string, groupID: s
 
   // Only include species with images
   filtered = filtered.filter(sp => Number(sp.Image_Cnt || 0) > 0);
+
 
   let lastGroup = "";
   const rows = [];

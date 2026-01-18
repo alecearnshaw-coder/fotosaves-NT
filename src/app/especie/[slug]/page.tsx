@@ -102,6 +102,7 @@ function getOrigin(): string {
   return 'http://localhost:3000';
 }
 
+
 // Helper to fetch JSON data from public folder
 async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
   try {
@@ -294,6 +295,9 @@ export async function generateMetadata({
   return {
     title: `${species.Species_Name_Sp} / ${species.Species_Name_En} - FotosAves.com.ar`,
     description: `Fotografías de ${species.Species_Name_Sp} (${species.Species_Name_Sci}) - ${species.Species_Name_En}. Imágenes originales tomadas en Argentina.`,
+    alternates: {
+      canonical: `https://www.fotosaves.com.ar/especie/${species.Slug}`,
+    },
     keywords: keywords,
     openGraph: {
       title: `${species.Species_Name_Sp} / ${species.Species_Name_En}`,
@@ -719,7 +723,7 @@ export default async function SpeciesPage({
                   <div className="bc-top"><span className="bc-tax-es">Orden</span><span className="bc-tax-en">Order</span></div>
                   <div className="bc-bottom">
                     {orderRow.Order_Path ? (
-                      <a href={`/grupo?path=${orderRow.Order_Path}&groupType=order&groupId=${species.Order_Sci}`}>
+                      <a href={`/grupo/${species.Order_Sci}`}>
                         <span className="bc-link">{species.Order_Sci}</span>
                       </a>
                     ) : (
@@ -734,7 +738,7 @@ export default async function SpeciesPage({
                   <div className="bc-top"><span className="bc-tax-es">Suborden</span><span className="bc-tax-en">Suborder</span></div>
                   <div className="bc-bottom">
                     {suborderRow.SO_Path ? (
-                      <a href={`/grupo?path=${suborderRow.SO_Path}&groupType=suborder&groupId=${species.Suborder_Sci}`}>
+                      <a href={`/grupo/${species.Suborder_Sci}`}>
                         <span className="bc-link">{species.Suborder_Sci}</span>
                       </a>
                     ) : (
@@ -749,7 +753,7 @@ export default async function SpeciesPage({
                   <div className="bc-top"><span className="bc-tax-es">Familia</span><span className="bc-tax-en">Family</span></div>
                   <div className="bc-bottom">
                     {familyRow.Family_Path ? (
-                      <a href={`/grupo?path=${familyRow.Family_Path}&groupType=family&groupId=${species.Family_Sci}`}>
+                      <a href={`/grupo/${species.Family_Sci}`}>
                         <span className="bc-link">{species.Family_Sci}</span>
                       </a>
                     ) : (
@@ -764,7 +768,7 @@ export default async function SpeciesPage({
                   <div className="bc-top"><span className="bc-tax-es">Subfamilia</span><span className="bc-tax-en">Subfamily</span></div>
                   <div className="bc-bottom">
                     {subfamilyRow.SF_Path ? (
-                      <a href={`/grupo?path=${subfamilyRow.SF_Path}&groupType=subfamily&groupId=${species.Subfamily_Sci}`}>
+                      <a href={`/grupo/${species.Subfamily_Sci}`}>
                         <span className="bc-link">{species.Subfamily_Sci}</span>
                       </a>
                     ) : (
