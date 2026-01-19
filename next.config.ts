@@ -224,10 +224,10 @@ const nextConfig = {
         source: 
            '/:order(' +
            'Rheiformes|Tinamiformes|Anseriformes|Galliformes|Phoenicopteriformes|' +
-           'Cuculiformes|Columbiformes|Gruiformes|Charadriiformes|' +
+           'Cuculiformes|Columbiformes|Gruiformes|' +
            'Sphenisciformes|Ciconiiformes|Pelecaniformes|' +
            'Caprimulgiformes|Nyctibiiformes|Strigiformes|Cathartiformes|Accipitriformes|' +
-           'Trogoniformes|Coraciformes|Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos:order.html',
+           'Trogoniformes|Coraciiformes|Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos:order.html',
         // destination: '/grupo?path=:order/&groupType=order&groupId=:order',
         destination: '/grupo/:order',
         permanent: true,
@@ -276,9 +276,9 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/Passeriformes/Furnariidae-Sina/FotosSinallaxinae.html',
+        source: '/Passeriformes/Furnariidae-Sina/FotosSynallaxinae.html',
         // destination: '/grupo?path=Passeriformes/Furnariidae-Sina/&groupType=subfamily&groupId=Sinallaxinae',
-        destination: '/grupo/Sinallaxinae',
+        destination: '/grupo/Synallaxinae',
         permanent: true,
       },
 
