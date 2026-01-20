@@ -627,11 +627,12 @@ const pageStyles = `
     }
 
     /* Make default gender box text darker on mobile for better readability */
-    .gender-box {
-      color: #333 !important; /* dark gray for default case text */
-    }
-    .gender-box *:not(.es):not(.en):not(.sep):not(.english-text) {
-      color: #333 !important; /* ensure all child elements without specific styling are dark */
+    .gender-box,
+    .gender-box *,
+    .gender-box * *,
+    .gender-box * * *,
+    .gender-box * * * * {
+      color: #000 !important; /* black for maximum contrast and readability */
     }
   }
 `;
