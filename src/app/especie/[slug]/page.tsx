@@ -625,6 +625,11 @@ const pageStyles = `
     .species-title {
       font-size: 0.9em;
     }
+
+    /* Make default gender box text darker on mobile for better readability */
+    .gender-box {
+      color: #333 !important; /* dark gray for default case text */
+    }
   }
 `;
 

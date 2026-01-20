@@ -1,12 +1,11 @@
-Rheiformes/FotosRheiformes.html
+Rheiformes/FotosRheiformes.html       Redirectgs to OLD site! But now shows images!!!!
 Tinamiformes/FotosTinamiformes.html
-Anseriformes/FotosAnseriformes.html
+Anseriformes/FotosAnseriformes.html 
 Galliformes/FotosGalliformes.html
 Phoenicopteriformes/FotosPhoenicopteriformes.html
 Cuculiformes/FotosCuculiformes.html
 Columbiformes/FotosColumbiformes.html
 Gruiformes/FotosGruiformes.html
-Charadriiformes/FotosCharadriiformes.html
 Sphenisciformes/FotosSphenisciformes.html
 Ciconiiformes/FotosCiconiiformes.html
 Pelecaniformes/FotosPelecaniformes.html
@@ -16,7 +15,7 @@ Strigiformes/FotosStrigiformes.html
 Cathartiformes/FotosCathartiformes.html
 Accipitriformes/FotosAccipitriformes.html
 Trogoniformes/FotosTrogoniformes.html
-Coraciformes/FotosCoraciformes.html
+Coraciiformes/FotosCoraciiformes.html
 Galbuliformes/FotosGalbuliformes.html
 Cariamiformes/FotosCariamiformes.html
 Falconiformes/FotosFalconiformes.html
