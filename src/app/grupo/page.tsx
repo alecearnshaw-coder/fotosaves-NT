@@ -665,6 +665,9 @@ const pageStyles = `
     .gender-box {
       color: #333 !important; /* dark gray for default case text */
     }
+    .gender-box *:not(.es):not(.en):not(.sep):not(.english-text) {
+      color: #333 !important; /* ensure all child elements without specific styling are dark */
+    }
   }
 `;
 
