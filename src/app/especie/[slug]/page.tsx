@@ -627,13 +627,18 @@ const pageStyles = `
     }
 
     /* Make default gender box text darker on mobile for better readability */
-    .gender-box,
-    .gender-box *,
-    .gender-box * *,
-    .gender-box * * *,
-    .gender-box * * * * {
+    .gender-box-default,
+    .gender-box-default *,
+    .gender-box-default * *,
+    .gender-box-default * * *,
+    .gender-box-default * * * * {
       color: #000 !important; /* black for maximum contrast and readability */
     }
+  }
+
+  /* Lightbox overlay styling to prevent white flash during transitions */
+  #lightboxOverlay {
+    background: #000 !important;
   }
 `;
 
@@ -840,8 +845,11 @@ export default async function SpeciesPage({
         {/* Photo Groups */}
         <div id="images">
           {mainImages.map((item, index) => {
-            const code = (item.Sex_Age_Code || item.Sex_Age || '').toString().trim().toUpperCase();
+            const sexAgeValue = (item.Sex_Age || '').toString().trim();
+            const code = (item.Sex_Age_Code || sexAgeValue || '').toString().trim().toUpperCase();
             const genderInfo = genderMap[code];
+            // Default case: Sex_Age field has more than 2 characters
+            const isDefaultCase = sexAgeValue.length > 2;
             const thumb = `/images/Aves/${imagePath}${item.Thumbnail_Filename}`;
             const large = `/images/Aves/${imagePath}${item.Large_Filename || ''}`;
             const hasLarge = !!item.Large_Filename && item.Large_Filename !== item.Thumbnail_Filename;
@@ -849,12 +857,12 @@ export default async function SpeciesPage({
 
             return (
               <div key={index} className="photo-group">
-                {(genderInfo || (item.Sex_Age && item.Sex_Age.trim())) && (
+                {(genderInfo || (sexAgeValue && sexAgeValue.length > 0)) && (
                   <div
-                    className="gender-box"
+                    className={`gender-box ${isDefaultCase ? 'gender-box-default' : ''}`}
                     style={{ backgroundColor: genderInfo?.color || '#FFFFCC' }}
                     dangerouslySetInnerHTML={{
-                      __html: genderInfo ? genderInfo.label : (item.Sex_Age || '')
+                      __html: genderInfo ? genderInfo.label : sexAgeValue
                     }}
                   />
                 )}
