@@ -640,6 +640,9 @@ const pageStyles = `
   #lightboxOverlay {
     background: #000 !important;
   }
+  .lb-outerContainer {
+    background-color: #000 !important;
+  }
 `;
 
 // Main page component
