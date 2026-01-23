@@ -345,6 +345,11 @@ const nextConfig = {
         destination: '/Relatos/Viajes/:path*.htm',
         permanent: true,
       },
+      {
+        source: '/Viajes/:path*.html',
+        destination: '/Relatos/Viajes/:path*.html',
+        permanent: true,
+      },
       ///////        END OF TRIP REPORTS       ///////
     ];
   },
@@ -358,6 +363,30 @@ const nextConfig = {
   async rewrites() {
     return {
       beforeFiles: [
+
+        // Point to the correct folder for Trochiliformes and Apodiformes images
+        {
+          source: '/Trochiliformes/:path*.jpg',
+          destination: '/Apodiformes/Trochilidae/:path*.jpg', // Point to the correct folder for Trochiliformes
+        },
+        {
+          source: '/Apodiformes/:path*.jpg',
+          destination: '/Apodiformes/Apodidae/:path*.jpg',   // Point to the correct folder for Apodiformes
+        },
+
+        // Point to the correct folder for Piciformes and Ramphastidae images
+        {
+          source: '/Piciformes/:path*(A_Tucan|Tucan|A_Arasari):rest*.jpg',
+          destination: '/Piciformes/Ramphastidae/:path*$1:rest*.jpg',
+        },
+
+        {
+          source: '/Piciformes/:path*(A_Carpin|A_Crimson|Car|Magellanic):rest*.jpg',
+          destination: '/Piciformes/Picidae/:path*$1:rest*.jpg',
+        }
+
+
+
         // 1️⃣ Bird images (ORDER is first segment)
         {
           source: `/:order(${BIRD_ORDERS})/:path*.:ext((?:jpg|jpeg|png|webp))`,
@@ -369,6 +398,7 @@ const nextConfig = {
           source: '/:path*.:ext((?:jpg|jpeg|png|webp))',
           destination: '/:path*.:ext',
         },
+      
       ],
     };
   },
