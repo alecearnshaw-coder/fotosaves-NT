@@ -305,9 +305,47 @@ const nextConfig = {
         // destination: '/grupo?path=Passeriformes/:segment/&groupType=family&groupId=:segment',
         destination: '/grupo/:segment',
         permanent: true,
-      }
+      },
       ///////        END OF GROUP LEVEL       ///////
       
+
+      //////        REDIRECTS FOR ALL TRIP REPORTS moving them into the Relatos folder      //////
+      {
+        source: '/Argentina/:path*.htm',
+        destination: '/Relatos/Argentina/:path*.htm',
+        permanent: true,
+      },
+      {
+        source: '/Asia/:path*.htm',
+        destination: '/Relatos/Asia/:path*.htm',
+        permanent: true,
+      },
+      {
+        source: '/Europe/:path*.htm',
+        destination: '/Relatos/Europe/:path*.htm',
+        permanent: true,
+      },
+      {
+        source: '/NorthAmerica/:path*.htm',
+        destination: '/Relatos/NorthAmerica/:path*.htm',
+        permanent: true,
+      },
+      {
+        source: '/SouthAmerica/:path*.htm',
+        destination: '/Relatos/SouthAmerica/:path*.htm',
+        permanent: true,
+      },
+      {
+        source: '/CentralAmerica/:path*.htm',
+        destination: '/Relatos/CentralAmerica/:path*.htm',
+        permanent: true,
+      },
+      {
+        source: '/Viajes/:path*.htm',
+        destination: '/Relatos/Viajes/:path*.htm',
+        permanent: true,
+      },
+      ///////        END OF TRIP REPORTS       ///////
     ];
   },
 
