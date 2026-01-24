@@ -383,8 +383,36 @@ const nextConfig = {
         {
           source: '/Piciformes/:path*(A_Carpin|A_Crimson|Car|Magellanic):rest*.jpg',
           destination: '/Piciformes/Picidae/:path*$1:rest*.jpg',
-        }
+        },
+        
+        // Point to the correct folder for Fringillidae images  (Euphoniinae) in the Fringillidae-Euph subfamily
+        {
+          source: '/Passeriformes/Fringillidae/:path*(A_Tangara|Tangara):rest*.jpg',
+          destination: '/Passeriformes/Fringillidae-Euph/:path*$1:rest*.jpg',
+        },
+        {
+          source: '/Passeriformes/Fringillidae/:path*(A_Cabecita|A_Goldfinch|A_Greenfinch|A_Negrillo|A_Picaflor|CabAustral|Cabecita|Yellow-rumped):rest*.jpg',
+          destination: '/Passeriformes/Fringillidae-Frin/:path*$1:rest*.jpg',
+        },
 
+        // Point to the correct folder for Emberizidae images in the Emberizidae subfamily
+        {
+          source: '/Passeriformes/Emberizidae/:path*.jpg',
+          destination: '/Passeriformes/Passerellidae/:path*.jpg',
+        },
+        
+        // Point to the correct folder for Emberizidae images in the Emberizidae subfamily
+        {
+          source: '/Passeriformes/IncertaeSedis/:path*.jpg',
+          destination: '/Passeriformes/Thraupidae/:path*.jpg',
+        },
+
+        // Potoo taxonomy change
+        {
+          source: '/Caprimulgiformes/(A_Urutau[^/]*)\\.jpg',
+          destination: '/Nyctibiiformes/$1.jpg',
+        },
+        
 
 
         // 1️⃣ Bird images (ORDER is first segment)
