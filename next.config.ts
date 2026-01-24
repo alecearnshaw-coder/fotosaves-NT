@@ -374,27 +374,36 @@ const nextConfig = {
           destination: '/Apodiformes/Apodidae/:path*.jpg',   // Point to the correct folder for Apodiformes
         },
 
-        // Point to the correct folder for Piciformes and Ramphastidae images
-        {
+        // Point to the correct folder for Piciformes - unfortunately not possible to split for Tucan and Arasari because of the wildcard in the source path
+        /* {
           source: '/Piciformes/:path*((?:[^/]*)(A_Tucan|Tucan|A_Arasari)[^/]*)\\.jpg',
           destination: '/Piciformes/Ramphastidae/$1.jpg',
         },
-
         {
           source: '/Piciformes/((?:[^/]*)(A_Carpin|A_Crimson|Car|Magellanic)[^/]*)\\.jpg',
           destination: '/Piciformes/Picidae/$1.jpg',
         },  
-        
-        
-        // Point to the correct folder for Fringillidae images  (Euphoniinae) in the Fringillidae-Euph subfamily
+        */
+       // Direct all Piciformes images to the Picidae folder, even if some will be for toucans. Tough luck
         {
+          source: '/Piciformes/:path*.jpg',
+          destination: '/Piciformes/Picidae/:path*.jpg',
+        },  
+
+
+        // Point to the correct folder for Fringillidae images  (Euphoniinae) in the Fringillidae-Euph subfamily
+        /* {
           source: '/Passeriformes/Fringillidae/:path*((?:[^/]*)(A_Tangara|Tangara)[^/]*)\\.jpg',
           destination: '/Passeriformes/Fringillidae-Euph/:path*$1:rest*.jpg',
         },
         {
           source: '/Passeriformes/Fringillidae/:path*((?:[^/]*)(A_Cabecita|A_Goldfinch|A_Greenfinch|A_Negrillo|A_Picaflor|CabAustral|Cabecita|Yellow-rumped)[^/]*)\\.jpg',
           destination: '/Passeriformes/Fringillidae-Frin/:path*$1:rest*.jpg',
-        },
+        }, */
+        {
+          source: '/Passeriformes/Fringillidae/:path*.jpg',
+          destination: '/Passeriformes/Fringillidae-Frin/:path*.jpg',
+        }, 
 
         // Point to the correct folder for Emberizidae images in the Emberizidae subfamily
         {
