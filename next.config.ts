@@ -2,8 +2,8 @@
 const BIRD_ORDERS =
   'Rheiformes|Tinamiformes|Anseriformes|Galliformes|Phoenicopteriformes|' +
   'Podicipediformes|Cuculiformes|Columbiformes|Gruiformes|Charadriiformes|' +
-  'Sphenisciformes|Procellariiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
-  'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|Trochiliformes|' +
+  'Sphenisciformes|Procellariiformes|Ciconiiformes|Suliformes|Pelecaniformes|' +
+  'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|' +                   // removed Trochiliformes as has special rule
   'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciiformes|' +
   'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes|Passeriformes';
 
