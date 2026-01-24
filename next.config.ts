@@ -4,7 +4,7 @@ const BIRD_ORDERS =
   'Podicipediformes|Cuculiformes|Columbiformes|Gruiformes|Charadriiformes|' +
   'Sphenisciformes|Procellariiformes|Ciconiformes|Suliformes|Pelecaniformes|' +
   'Caprimulgiformes|Nyctibiiformes|Strigiformes|Apodiformes|Trochiliformes|' +
-  'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciformes|' +
+  'Piciformes|Cathartiformes|Accipitriformes|Trogoniformes|Coraciiformes|' +
   'Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes|Passeriformes';
 
 /** @type {import('next').NextConfig} */
@@ -97,6 +97,12 @@ const nextConfig = {
       {
         source: '/Charadriiformes/FotosPlayerasC_GaviotinChico.html',
         destination: '/especie/GaviotinChicoFluvial',
+        permanent: true,
+      },
+       // Paloma Ala Manchada to Paloma Manchada 
+       {
+        source: '/Columbiformes/PalomaAlaManchada.html',
+        destination: '/especie/PalomaManchada',
         permanent: true,
       },
       // GENERICS FOR Charadriiformes species
