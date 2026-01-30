@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import BackToTop from '@/components/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
 import ContactLink from '@/components/ContactLink';
+import fs from 'fs';
+import path from 'path';
 
 export const metadata: Metadata = {
   title: 'Fotos de Aves de Argentina - Fotografías de Aves Argentinas',
@@ -40,31 +42,13 @@ export const metadata: Metadata = {
   },
 };
 
-// Force dynamic rendering to avoid prerendering large data
-export const dynamic = 'force-dynamic';
-
-function getOrigin(): string {
-  // Use the same origin as the debug API - this is proven to work
-  if (process.env.VERCEL) {
-    return 'https://fotosaves-nt.vercel.app';
-  }
-  return 'http://localhost:3000';
-}
-
-async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
+function readJsonFile<T>(filePath: string): { data: T[] } | null {
   try {
-    const origin = getOrigin();
-    const url = `${origin}${path}`;
-    const response = await fetch(url, { cache: 'no-store' });
-
-    if (!response.ok) {
-      console.error(`Failed to fetch ${path}: ${response.status} ${response.statusText}`);
-      return null;
-    }
-
-    return await response.json();
-  } catch (error) {
-    console.error(`Error fetching ${path}:`, error);
+    const fullPath = path.join(process.cwd(), filePath);
+    const contents = fs.readFileSync(fullPath, 'utf8');
+    return JSON.parse(contents);
+  } catch (e) {
+    console.error("Error reading JSON:", filePath, e);
     return null;
   }
 }
@@ -529,13 +513,11 @@ function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[]
 
 export default async function AvesPage() {
   // Load all taxonomy data
-  const [ordersData, subordersData, familiesData, subfamiliesData, speciesData] = await Promise.all([
-    fetchJsonData<Order>('/data/taxonomy/orders.json'),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
-    fetchJsonData<Family>('/data/taxonomy/families.json'),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
-    fetchJsonData<Species>('/data/taxonomy/species.json'),
-  ]);
+  const ordersData = readJsonFile<Order>('src/data/taxonomy/orders.json');
+  const subordersData = readJsonFile<Suborder>('src/data/taxonomy/suborders.json');
+  const familiesData = readJsonFile<Family>('src/data/taxonomy/families.json');
+  const subfamiliesData = readJsonFile<Subfamily>('src/data/taxonomy/subfamilies.json');
+  const speciesData = readJsonFile<Species>('src/data/taxonomy/species.json');
 
   const orders = ordersData?.data || [];
   const suborders = subordersData?.data || [];

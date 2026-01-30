@@ -5,12 +5,29 @@ import LightboxScripts from './LightboxScripts';
 import BackToTop from './BackToTop';
 import SharedHeader from '@/components/SharedHeader';
 import ContactLink from '@/components/ContactLink';
-import { headers } from 'next/headers';
+import fs from 'fs';
+import path from 'path';
 
 
 
 // Incremental Static Regeneration - rebuild every 24 hours
 export const revalidate = 86400; // 24 hours in seconds
+
+export async function generateStaticParams() {
+  const filePath = path.join(process.cwd(), 'src/data/taxonomy/species.json');
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  const speciesData = JSON.parse(fileContents);
+
+  return speciesData.data
+    .filter((sp: any) =>
+      sp?.Slug &&
+      sp?.Has_Sp_Link === "Y" &&
+      Number(sp?.Image_Cnt) > 0
+    )
+    .map((sp: any) => ({
+      slug: sp.Slug,
+    }));
+}
 
 // Types for taxonomy data
 interface Species {
@@ -93,86 +110,17 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Get origin URL - use production domain on Vercel to avoid preview auth issues
-function getOrigin(): string {
-  // Use production domain to bypass preview deployment protection
-  if (process.env.VERCEL) {
-    return 'https://fotosaves-nt.vercel.app';
-  }
-  return 'http://localhost:3000';
-}
-
-
-// Helper to fetch JSON data from public folder
-async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
+function readJsonFile<T>(filePath: string): { data: T[] } | null {
   try {
-    // Build absolute URL based on incoming host to avoid ERR_INVALID_URL in SSR
-    const headersList = await headers();
-    const host = headersList.get('host');
-    // Prefer public domain to avoid preview auth/401; fall back to incoming host/local
-    const publicBase = 'https://www.fotosaves.com.ar';
-    const protocol = host?.startsWith('localhost') ? 'http' : 'https';
-    const base = host?.startsWith('localhost')
-      ? `${protocol}://${host}`
-      : publicBase;
-    const url = new URL(path, base).toString();
-
-    const response = await fetch(url, { cache: 'no-store' });
-
-    if (!response.ok) {
-      console.error(`Fetch failed: ${url} → ${response.status}`);
-      return null;
-    }
-
-    return await response.json();
-  } catch (err) {
-    console.error(`Fetch error for ${path}:`, err);
+    const normalizedPath = filePath.replace(/^[\\/]+/, '');
+    const fullPath = path.join(process.cwd(), normalizedPath);
+    const contents = fs.readFileSync(fullPath, 'utf8');
+    return JSON.parse(contents);
+  } catch (e) {
+    console.error("Error reading JSON:", filePath, e);
     return null;
   }
 }
-
-
-/* async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
-  try {
-    const response = await fetch(path, { cache: 'no-store' });
-    if (!response.ok) {
-      console.error(`Fetch failed (${response.status}) for ${path}`);
-
-      return null;
-    }
-    return await response.json();
-  } catch (error) {
-    console.error(`Fetch error for ${path}:`, error);
-    return null;
-  }
-} */
-/*
-  async function fetchJson(path: string) {
-    try {
-      const h = await headers();
-      const host = h.get('host');
-      if (!host) return null;
-  
-      const protocol =
-        process.env.NODE_ENV === 'development' ? 'http' : 'https';
-  
-      const url = `${protocol}://${host}${path}`;
-  
-      const response = await fetch(url, { cache: 'no-store' });
-  
-      if (!response.ok) {
-        console.error(`Fetch failed: ${url} → ${response.status}`);
-        return null;
-      }
-  
-      return await response.json();
-    } catch (err) {
-      console.error(`Fetch error for ${path}:`, err);
-      return null;
-    }
-  }
-  */
-  
 
 // Get image path - check Subfamily, then Family, then Suborder, then Order
 function getImagePath(
@@ -268,7 +216,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const speciesData = await fetchJsonData<Species>('/data/taxonomy/species.json');
+  const speciesData = readJsonFile<Species>('src/data/taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -653,14 +601,12 @@ export default async function SpeciesPage({
 }) {
   const { slug } = await params;
   
-  // Fetch all taxonomy data from public folder via HTTP
-  const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
-    fetchJsonData<Species>('/data/taxonomy/species.json'),
-    fetchJsonData<Order>('/data/taxonomy/orders.json'),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
-    fetchJsonData<Family>('/data/taxonomy/families.json'),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
-  ]);
+  // Read all taxonomy data from local JSON files (build-time for SSG/ISR)
+  const speciesData = readJsonFile<Species>('src/data/taxonomy/species.json');
+  const ordersData = readJsonFile<Order>('src/data/taxonomy/orders.json');
+  const subordersData = readJsonFile<Suborder>('src/data/taxonomy/suborders.json');
+  const familiesData = readJsonFile<Family>('src/data/taxonomy/families.json');
+  const subfamiliesData = readJsonFile<Subfamily>('src/data/taxonomy/subfamilies.json');
   
   if (!speciesData) {
     notFound();
@@ -673,7 +619,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = await fetchJsonData<ImageData>(`/data/species/${species.Species_ID}.json`);
+  const imagesData = readJsonFile<ImageData>(`src/data/species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
   // Get image path

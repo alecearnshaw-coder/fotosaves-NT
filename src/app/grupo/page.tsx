@@ -4,9 +4,24 @@ import LightboxScripts from '../especie/[slug]/LightboxScripts';
 import BackToTop from '../especie/[slug]/BackToTop';
 import SharedHeader from '@/components/SharedHeader';
 import ContactLink from '@/components/ContactLink';
+import fs from 'fs';
+import path from 'path';
 
-// Incremental Static Regeneration - rebuild every 24 hours
-export const revalidate = 86400; // 24 hours in seconds
+export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: 'Fotosaves - Bird Groups',
+};
+
+function readJsonFile<T>(filePath: string): { data: T[] } | null {
+  try {
+    const fullPath = path.join(process.cwd(), filePath);
+    const contents = fs.readFileSync(fullPath, 'utf8');
+    return JSON.parse(contents);
+  } catch {
+    return null;
+  }
+}
 
 // Types for taxonomy data
 interface Species {
@@ -130,32 +145,6 @@ const STATUS_ITEMS = [
   { key: 'CR', className: 'cr', es: 'EN PELIGRO CRÍTICO', en: 'CRITICALLY ENDANGERED' },
 ];
 
-// Get origin URL - use production domain on Vercel to avoid preview auth issues
-function getOrigin(): string {
-  // Use production domain to bypass preview deployment protection
-  if (process.env.VERCEL) {
-    return 'https://fotosaves-nt.vercel.app';
-  }
-  return 'http://localhost:3000';
-}
-
-// Helper to fetch JSON data from public folder
-async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
-  try {
-    const origin = getOrigin();
-    const url = `${origin}${path}`;
-    const response = await fetch(url, { cache: 'no-store' });
-    if (!response.ok) {
-      console.error(`Fetch failed: ${url} → ${response.status}`);
-      return null;
-    }
-    return await response.json();
-  } catch (error) {
-    console.error(`Fetch error for ${path}:`, error);
-    return null;
-  }
-}
-
 // Build location string
 function buildLocation(item: ImageData): string {
   const parts = [
@@ -201,54 +190,6 @@ function normalizeThreat(value: string | null): string {
   if (!value) return '';
   const key = String(value).toUpperCase().trim();
   return ['NT', 'VU', 'EN', 'CR'].includes(key) ? key : '';
-}
-
-// Generate metadata for SEO
-export async function generateMetadata({ searchParams }: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }): Promise<Metadata> {
-  const params = await searchParams;
-  const groupType = params.groupType as string;
-  const groupId = params.groupId as string;
-
-  if (!groupType || !groupId) {
-    return { title: 'Group Not Found - Fotosaves' };
-  }
-
-  return {
-    title: `${groupId} - ${groupType} | FotosAves.com.ar`,
-    description: `Fotografías de especies de aves en ${groupType} ${groupId}. Imágenes originales tomadas en Argentina.`,
-    alternates: {
-      canonical: `https://www.fotosaves.com.ar/grupo/${groupId}`,
-    },
-    keywords: [
-      'Aves', 'Birds', 'Argentina', 'Birds of Argentina', 'Aves de Argentina', 'Birdwatching', 'Bird watching',
-      'fotografías de aves', 'fotos de aves', 'fotografías de aves de Argentina', 'fotos de aves de Argentina',
-      'Bird photos of Argentina', 'Bird photography of Argentina', 'photos of Argentinian birds', 'photos of Argentine birds',
-      'Argentina wildlife', 'Argentine birds', 'Wildlife photography', 'Ornithology',
-      groupType, groupId
-    ],
-    openGraph: {
-      title: `${groupId} - ${groupType}`,
-      description: `Fotografías de especies de aves en ${groupType} ${groupId}. Imágenes originales tomadas en Argentina.`,
-      url: `https://fotosaves.com.ar/grupo?groupType=${groupType}&groupId=${encodeURIComponent(groupId)}`,
-      siteName: 'FotosAves.com.ar',
-      images: [
-        {
-          url: '/images/thumbnails/SBRH3.jpg',
-          width: 1200,
-          height: 630,
-          alt: `Fotografía de aves - ${groupType} ${groupId}`,
-        },
-      ],
-      locale: 'es_AR',
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: `${groupId} - ${groupType}`,
-      description: `Fotografías de especies de aves en ${groupType} ${groupId}.`,
-      images: ['/images/thumbnails/SBRH3.jpg'],
-    },
-  };
 }
 
 // Inline styles for this page
@@ -680,30 +621,22 @@ const pageStyles = `
   }
 `;
 
-// Main page component
-export default async function GrupoPage({
-  searchParams,
+export async function GrupoContent({
+  pageLevel,
+  groupID,
+  path: imagesPath,
 }: {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+  pageLevel: string;
+  groupID: string;
+  path: string;
 }) {
-  const params = await searchParams;
-  const path = params.path as string;
-  const pageLevel = params.groupType as string;
-  const groupID = params.groupId as string;
+  if (!pageLevel || !groupID) notFound();
 
-
-  if (!pageLevel || !groupID) {
-    notFound();
-  }
-
-  // Load all taxonomy data from public folder via HTTP
-  const [speciesData, ordersData, subordersData, familiesData, subfamiliesData] = await Promise.all([
-    fetchJsonData<Species>('/data/taxonomy/species.json'),
-    fetchJsonData<Order>('/data/taxonomy/orders.json'),
-    fetchJsonData<Suborder>('/data/taxonomy/suborders.json'),
-    fetchJsonData<Family>('/data/taxonomy/families.json'),
-    fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json'),
-  ]);
+  const speciesData = readJsonFile<Species>('public/data/taxonomy/species.json');
+  const ordersData = readJsonFile<Order>('public/data/taxonomy/orders.json');
+  const subordersData = readJsonFile<Suborder>('public/data/taxonomy/suborders.json');
+  const familiesData = readJsonFile<Family>('public/data/taxonomy/families.json');
+  const subfamiliesData = readJsonFile<Subfamily>('public/data/taxonomy/subfamilies.json');
 
   if (!speciesData) {
     notFound();
@@ -729,23 +662,13 @@ export default async function GrupoPage({
 
 
   // Load all species image data in parallel
-  const speciesImagePromises = speciesToLoad.map(async (sp) => {
-    try {
-      const imageData = await fetchJsonData<ImageData>(`/data/species/${sp.Species_ID}.json`);
-      return {
-        species: sp,
-        images: imageData?.data || []
-      } as SpeciesImageData;
-    } catch (error) {
-      console.error(`Failed to load images for ${sp.Species_ID}:`, error);
-      return {
-        species: sp,
-        images: []
-      } as SpeciesImageData;
-    }
+  const speciesImageData = speciesToLoad.map((sp) => {
+    const imageData = readJsonFile<ImageData>(`public/data/species/${sp.Species_ID}.json`);
+    return {
+      species: sp,
+      images: imageData?.data || []
+    } as SpeciesImageData;
   });
-
-  const speciesImageData = await Promise.all(speciesImagePromises);
 
   // Create a map for quick lookup
   const speciesImageMap = new Map<string, ImageData[]>();
@@ -769,14 +692,14 @@ export default async function GrupoPage({
       {renderHeadingBox(pageLevel, groupID, orders, suborders, families, subfamilies)}
 
       {/* Subfamily Quick Row (if applicable) */}
-      {renderSubfamilyQuickRow(pageLevel, groupID, families, subfamilies, path)}
+      {renderSubfamilyQuickRow(pageLevel, groupID, families, subfamilies, imagesPath)}
 
       {/* Table of Contents */}
       {renderTableOfContents(species, pageLevel, groupID)}
 
       {/* Images Section */}
       <div className="container">
-        {renderImagesSection(pageLevel, groupID, species, orders, suborders, families, subfamilies, path, speciesImageMap)}
+        {renderImagesSection(pageLevel, groupID, species, orders, suborders, families, subfamilies, imagesPath, speciesImageMap)}
       </div>
 
       {/* Footer */}
@@ -838,6 +761,20 @@ export default async function GrupoPage({
           `,
         }}
       />
+    </>
+  );
+}
+
+// /grupo (no slug) - static landing page
+export default function GrupoIndexPage() {
+  return (
+    <>
+      <style dangerouslySetInnerHTML={{ __html: pageStyles }} />
+      <SharedHeader showSearch={true} showQuickLinks={false} language="es" />
+      <div className="container" style={{ maxWidth: '800px', margin: '20px auto', textAlign: 'center' }}>
+        <h1>Grupos de aves</h1>
+        <p>Use URLs del tipo <code>/grupo/&lt;NombreCientifico&gt;</code> (por ejemplo, <code>/grupo/Passeriformes</code>).</p>
+      </div>
     </>
   );
 }

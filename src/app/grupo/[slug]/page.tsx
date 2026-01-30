@@ -1,6 +1,9 @@
-import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import GrupoPage from '../page';
+import fs from 'fs';
+import path from 'path';
+import { GrupoContent } from '../page';
+
+export const dynamic = 'force-static';
 
 // Types for taxonomy data (copied from parent page for now)
 interface Order {
@@ -27,19 +30,12 @@ interface Subfamily {
   SF_Path: string | null;
 }
 
-// Helper to fetch JSON data from public folder
-async function fetchJsonData<T>(path: string): Promise<{ data: T[] } | null> {
+function readJsonFile<T>(filePath: string): { data: T[] } | null {
   try {
-    const origin = process.env.VERCEL ? 'https://fotosaves-nt.vercel.app' : 'http://localhost:3000';
-    const url = `${origin}${path}`;
-    const response = await fetch(url, { cache: 'no-store' });
-    if (!response.ok) {
-      console.error(`Fetch failed: ${url} → ${response.status}`);
-      return null;
-    }
-    return await response.json();
-  } catch (error) {
-    console.error(`Fetch error for ${path}:`, error);
+    const fullPath = path.join(process.cwd(), filePath);
+    const contents = fs.readFileSync(fullPath, 'utf8');
+    return JSON.parse(contents);
+  } catch {
     return null;
   }
 }
@@ -54,13 +50,11 @@ function inferGroupType(slug: string): string | null {
 }
 
 // Find group data and reconstruct parameters
-async function findGroupData(slug: string, groupType: string): Promise<{ groupId: string; path: string } | null> {
+function findGroupData(slug: string, groupType: string): { groupId: string; path: string } | null {
   switch (groupType) {
     case 'order': {
-      const ordersData = await fetchJsonData<Order>('/data/taxonomy/orders.json');
-      if (!ordersData) return null;
-
-      const order = ordersData.data.find(o => o.Order_Name_Sci === slug);
+      const ordersData = readJsonFile<Order>('public/data/taxonomy/orders.json');
+      const order = ordersData?.data.find(o => o.Order_Name_Sci === slug);
       if (!order) return null;
 
       return {
@@ -70,10 +64,8 @@ async function findGroupData(slug: string, groupType: string): Promise<{ groupId
     }
 
     case 'suborder': {
-      const subordersData = await fetchJsonData<Suborder>('/data/taxonomy/suborders.json');
-      if (!subordersData) return null;
-
-      const suborder = subordersData.data.find(so => so.SO_Name_Sci === slug);
+      const subordersData = readJsonFile<Suborder>('public/data/taxonomy/suborders.json');
+      const suborder = subordersData?.data.find(so => so.SO_Name_Sci === slug);
       if (!suborder) return null;
 
       return {
@@ -83,10 +75,8 @@ async function findGroupData(slug: string, groupType: string): Promise<{ groupId
     }
 
     case 'family': {
-      const familiesData = await fetchJsonData<Family>('/data/taxonomy/families.json');
-      if (!familiesData) return null;
-
-      const family = familiesData.data.find(f => f.Family_Name_Sci === slug);
+      const familiesData = readJsonFile<Family>('public/data/taxonomy/families.json');
+      const family = familiesData?.data.find(f => f.Family_Name_Sci === slug);
       if (!family) return null;
 
       return {
@@ -96,10 +86,8 @@ async function findGroupData(slug: string, groupType: string): Promise<{ groupId
     }
 
     case 'subfamily': {
-      const subfamiliesData = await fetchJsonData<Subfamily>('/data/taxonomy/subfamilies.json');
-      if (!subfamiliesData) return null;
-
-      const subfamily = subfamiliesData.data.find(sf => sf.Subfamily_Sci === slug);
+      const subfamiliesData = readJsonFile<Subfamily>('public/data/taxonomy/subfamilies.json');
+      const subfamily = subfamiliesData?.data.find(sf => sf.Subfamily_Sci === slug);
       if (!subfamily) return null;
 
       return {
@@ -111,6 +99,22 @@ async function findGroupData(slug: string, groupType: string): Promise<{ groupId
     default:
       return null;
   }
+}
+
+export async function generateStaticParams() {
+  const slugs = new Set<string>();
+
+  const orders = readJsonFile<Order>('public/data/taxonomy/orders.json')?.data || [];
+  const suborders = readJsonFile<Suborder>('public/data/taxonomy/suborders.json')?.data || [];
+  const families = readJsonFile<Family>('public/data/taxonomy/families.json')?.data || [];
+  const subfamilies = readJsonFile<Subfamily>('public/data/taxonomy/subfamilies.json')?.data || [];
+
+  orders.forEach(o => o?.Order_Name_Sci && slugs.add(o.Order_Name_Sci));
+  suborders.forEach(so => so?.SO_Name_Sci && slugs.add(so.SO_Name_Sci));
+  families.forEach(f => f?.Family_Name_Sci && slugs.add(f.Family_Name_Sci));
+  subfamilies.forEach(sf => sf?.Subfamily_Sci && slugs.add(sf.Subfamily_Sci));
+
+  return Array.from(slugs).map((slug) => ({ slug }));
 }
 
 // Generate metadata for SEO (simplified for now)
@@ -159,7 +163,7 @@ export default async function GrupoSlugPage({
   }
 
   // Find group data
-  const groupData = await findGroupData(slug, groupType);
+  const groupData = findGroupData(slug, groupType);
   if (!groupData) {
     return (
       <div style={{ padding: '20px', textAlign: 'center', backgroundColor: '#999973', minHeight: '100vh', color: '#333' }}>
@@ -169,14 +173,5 @@ export default async function GrupoSlugPage({
     );
   }
 
-  // Create a mock searchParams object that the existing component expects
-  // The existing component expects string values, not arrays
-  const mockSearchParams = Promise.resolve({
-    groupType: groupType,
-    groupId: groupData.groupId,
-    path: groupData.path
-  });
-
-  // Call the existing GrupoPage component with reconstructed parameters
-  return GrupoPage({ searchParams: mockSearchParams });
+  return await GrupoContent({ pageLevel: groupType, groupID: groupData.groupId, path: groupData.path });
 }
