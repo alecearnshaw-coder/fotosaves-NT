@@ -14,9 +14,12 @@ const nextConfig = {
   // from output file tracing. Images are served as static assets from /public.
   outputFileTracingExcludes: {
     // Apply globally to any server traces (cross-platform patterns)
-    '/*': [
-      'public/images/**/*',
-    ],
+    '/*': ['public/images/**/*'],
+
+    // App Router routes that should never need filesystem access to /public at runtime.
+    // They reference /public assets via URLs (served statically by Vercel/CDN), not via fs.
+    '/especie/**': ['public/**/*'],
+    '/grupo/**': ['public/**/*'],
   },
 
   // Some pages generate large static outputs; allow more time per page.
