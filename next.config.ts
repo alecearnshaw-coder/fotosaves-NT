@@ -18,6 +18,10 @@ const nextConfig = {
 
     // App Router routes that should never need filesystem access to /public at runtime.
     // They reference /public assets via URLs (served statically by Vercel/CDN), not via fs.
+    '/aves': ['public/**/*'],
+    '/aves/**': ['public/**/*'],
+    '/birds': ['public/**/*'],
+    '/birds/**': ['public/**/*'],
     '/especie/**': ['public/**/*'],
     '/grupo/**': ['public/**/*'],
   },
