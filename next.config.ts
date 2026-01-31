@@ -10,6 +10,18 @@ const BIRD_ORDERS =
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 
+  // Reduce server/prerender function size by excluding large static asset trees
+  // from output file tracing. Images are served as static assets from /public.
+  outputFileTracingExcludes: {
+    // Apply globally to any server traces (cross-platform patterns)
+    '/*': [
+      'public/images/**/*',
+    ],
+  },
+
+  // Some pages generate large static outputs; allow more time per page.
+  staticPageGenerationTimeout: 300,
+
   /* // This is to prevent the images from being optimized by Next.js
   images: {
     unoptimized: true,

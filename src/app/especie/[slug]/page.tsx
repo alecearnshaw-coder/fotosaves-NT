@@ -9,9 +9,8 @@ import fs from 'fs';
 import path from 'path';
 
 
+export const dynamic = 'force-static';
 
-// Incremental Static Regeneration - rebuild every 24 hours
-export const revalidate = 86400; // 24 hours in seconds
 
 export async function generateStaticParams() {
   const filePath = path.join(process.cwd(), 'src/data/taxonomy/species.json');
