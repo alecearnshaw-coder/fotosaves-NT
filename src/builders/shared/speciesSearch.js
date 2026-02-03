@@ -103,7 +103,12 @@
         
         let html = '';
         matches.forEach(sp => {
-            const url = `/especie?speciesId=${sp.id}&imagesPath=${encodeURIComponent(sp.path)}`;
+            const url =
+              (sp.hasLink === 'Y' && sp.slug)
+                ? `/especie/${encodeURIComponent(sp.slug)}`
+                : (sp.group && sp.id)
+                  ? `/grupo/${encodeURIComponent(sp.group)}#${encodeURIComponent(sp.id)}`
+                  : `/especie?speciesId=${encodeURIComponent(sp.id)}&imagesPath=${encodeURIComponent(sp.path)}`;
             html += `<a href="${url}" class="search-result">
                 <div class="search-result-sci">${highlight(sp.sci, query)}</div>
                 <div class="search-result-names">

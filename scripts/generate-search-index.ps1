@@ -1,5 +1,9 @@
 # Generate species search index from Species.json
-# Only includes species with Image_Cnt > 0
+# Include any species that has:
+#   - Slug exists
+#   - Image_Cnt > 0
+# If Has_Sp_Link === "Y" the UI will link to /especie/{slug}
+# Otherwise it will link to /grupo/{parentGroup}#{Species_ID}
 # Uses taxonomy _Path fields to determine correct image paths
 
 Write-Host "Generating species search index..." -ForegroundColor Cyan
@@ -88,11 +92,57 @@ function Get-SpeciesPath {
 $searchIndex = @()
 foreach ($sp in $speciesData.data) {
     $imgCnt = [int]$sp.Image_Cnt
-    if ($imgCnt -gt 0) {
+    if ($sp.Slug -and ($imgCnt -gt 0)) {
         $path = Get-SpeciesPath $sp
+
+        # Choose the best /grupo/<name> target that can actually build and resolve image paths.
+        # Rules:
+        # 1) If the order has Order_Path -> use the order (e.g. Rheiformes)
+        # 2) Else if the species has a suborder and it has SO_Path -> use the suborder (e.g. Charadrii)
+        # 3) Else use the most specific taxon that has a path (subfamily, then family)
+        # 4) Fallback to order name if nothing else is available
+        $group = $null
+
+        $orderRow = $null
+        if ($sp.Order_Sci -and $orders.ContainsKey($sp.Order_Sci)) {
+            $orderRow = $orders[$sp.Order_Sci]
+        }
+
+        if ($orderRow -and $orderRow.Order_Path) {
+            $group = $sp.Order_Sci
+        } else {
+            $suborderRow = $null
+            if ($sp.Suborder_Sci -and $suborders.ContainsKey($sp.Suborder_Sci)) {
+                $suborderRow = $suborders[$sp.Suborder_Sci]
+            }
+            if ($suborderRow -and $suborderRow.SO_Path) {
+                $group = $sp.Suborder_Sci
+            } else {
+                $subfamilyRow = $null
+                if ($sp.Subfamily_Sci -and $subfamilies.ContainsKey($sp.Subfamily_Sci)) {
+                    $subfamilyRow = $subfamilies[$sp.Subfamily_Sci]
+                }
+                if ($subfamilyRow -and $subfamilyRow.SF_Path) {
+                    $group = $sp.Subfamily_Sci
+                } else {
+                    $familyRow = $null
+                    if ($sp.Family_Sci -and $families.ContainsKey($sp.Family_Sci)) {
+                        $familyRow = $families[$sp.Family_Sci]
+                    }
+                    if ($familyRow -and $familyRow.Family_Path) {
+                        $group = $sp.Family_Sci
+                    } else {
+                        $group = $sp.Order_Sci
+                    }
+                }
+            }
+        }
         
         $entry = [PSCustomObject]@{
             id = $sp.Species_ID
+            slug = $sp.Slug
+            hasLink = $sp.Has_Sp_Link
+            group = $group
             sci = $sp.Species_Name_Sci
             sp = $sp.Species_Name_Sp
             en = $sp.Species_Name_En

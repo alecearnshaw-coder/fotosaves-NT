@@ -200,6 +200,12 @@ const nextConfig = {
         permanent: true,
       },
 
+      {
+        source: '/Gruiformes/FotosGruiformes_A.html',
+        destination: '/grupo/Gruiformes',
+        permanent: true,
+      },
+
       // Handle Charadriiformes from A, B  C into 3 suborders
       {
         source: '/Charadriiformes/FotosCharadriiformesA.html',
@@ -249,7 +255,7 @@ const nextConfig = {
         source: 
            '/:order(' +
            'Rheiformes|Tinamiformes|Anseriformes|Galliformes|Phoenicopteriformes|' +
-           'Cuculiformes|Columbiformes|Gruiformes|' +
+           'Cuculiformes|Columbiformes|' +
            'Sphenisciformes|Ciconiiformes|Pelecaniformes|' +
            'Caprimulgiformes|Nyctibiiformes|Strigiformes|Cathartiformes|Accipitriformes|' +
            'Trogoniformes|Coraciiformes|Galbuliformes|Cariamiformes|Falconiformes|Psittaciformes)/Fotos:order.html',
@@ -392,11 +398,11 @@ const nextConfig = {
         // Point to the correct folder for Trochiliformes and Apodiformes images
         {
           source: '/Trochiliformes/:path*.jpg',
-          destination: '/Apodiformes/Trochilidae/:path*.jpg', // Point to the correct folder for Trochiliformes
+          destination: '/images/Aves/Apodiformes/Trochilidae/:path*.jpg', // Point to the correct folder for Trochiliformes
         },
         {
           source: '/Apodiformes/:path*.jpg',
-          destination: '/Apodiformes/Apodidae/:path*.jpg',   // Point to the correct folder for Apodiformes
+          destination: '/images/Aves/Apodiformes/Apodidae/:path*.jpg',   // Point to the correct folder for Apodiformes
         },
 
         // Point to the correct folder for Piciformes - unfortunately not possible to split for Tucan and Arasari because of the wildcard in the source path
@@ -412,7 +418,7 @@ const nextConfig = {
        // Direct all Piciformes images to the Picidae folder, even if some will be for toucans. Tough luck
         {
           source: '/Piciformes/:path*.jpg',
-          destination: '/Piciformes/Picidae/:path*.jpg',
+          destination: '/images/Aves/Piciformes/Picidae/:path*.jpg',
         },  
 
 
@@ -427,25 +433,25 @@ const nextConfig = {
         }, */
         {
           source: '/Passeriformes/Fringillidae/:path*.jpg',
-          destination: '/Passeriformes/Fringillidae-Frin/:path*.jpg',
+          destination: '/images/Aves/Passeriformes/Fringillidae-Frin/:path*.jpg',
         }, 
 
         // Point to the correct folder for Emberizidae images in the Emberizidae subfamily
         {
           source: '/Passeriformes/Emberizidae/:path*.jpg',
-          destination: '/Passeriformes/Passerellidae/:path*.jpg',
+          destination: '/images/Aves/Passeriformes/Passerellidae/:path*.jpg',
         },
         
         // Point to the correct folder for Emberizidae images in the Emberizidae subfamily
         {
           source: '/Passeriformes/IncertaeSedis/:path*.jpg',
-          destination: '/Passeriformes/Thraupidae/:path*.jpg',
+          destination: '/images/Aves/Passeriformes/Thraupidae/:path*.jpg',
         },
 
         // Potoo taxonomy change
         {
           source: '/Caprimulgiformes/(A_Urutau[^/]*)\\.jpg',
-          destination: '/Nyctibiiformes/$1.jpg',
+          destination: '/images/Aves/Nyctibiiformes/$1.jpg',
         },
         
 
@@ -455,6 +461,37 @@ const nextConfig = {
           source: `/:order(${BIRD_ORDERS})/:path*.:ext((?:jpg|jpeg|png|webp))`,
           destination: '/images/Aves/:order/:path*.:ext',
         },
+
+        // TRIP REPORTS IMAGES:
+        {
+          source: '/Argentina/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/Relatos/Argentina/:path*.:ext',
+        },
+        {
+          source: '/Asia/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/Relatos/Asia/:path*.:ext',
+        },
+        {
+          source: '/Europe/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/Relatos/Europe/:path*.:ext',
+        },
+        {
+          source: '/NorthAmerica/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/Relatos/NorthAmerica/:path*.:ext',
+        },
+        {
+          source: '/SouthAmerica/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/Relatos/SouthAmerica/:path*.:ext',
+        },
+        {
+          source: '/CentralAmerica/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/Relatos/CentralAmerica/:path*.:ext',
+        },
+        {
+          source: '/Viajes/:path*.:ext((?:jpg|jpeg|png|webp))',
+          destination: '/Relatos/Viajes/:path*.:ext',
+        },
+        
 
         // 2️⃣ All other legacy images (static content)
         {
