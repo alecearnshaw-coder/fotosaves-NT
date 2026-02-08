@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.447887",
     "group_key": "SP_0839",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2017",
-      "Threat_Status": null
+      "Date": "11-10-2017"
     },
     {
       "Species_ID": "SP_0839",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2017",
-      "Threat_Status": null
+      "Date": "11-10-2017"
     }
   ]
 }

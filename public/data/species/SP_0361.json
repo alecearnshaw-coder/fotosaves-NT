@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Apodiformes/Trochilidae/Trochilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T20:48:34.270877",
     "group_key": "SP_0361",
     "total_rows": 6,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-02-2016",
-      "Threat_Status": null
+      "Date": "21-02-2016"
     },
     {
       "Species_ID": "SP_0361",
@@ -52,8 +47,7 @@
       "Location": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-02-2016",
-      "Threat_Status": null
+      "Date": "21-02-2016"
     },
     {
       "Species_ID": "SP_0361",
@@ -68,8 +62,7 @@
       "Location": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-02-2016",
-      "Threat_Status": null
+      "Date": "21-02-2016"
     },
     {
       "Species_ID": "SP_0361",
@@ -84,8 +77,7 @@
       "Location": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-02-2016",
-      "Threat_Status": null
+      "Date": "21-02-2016"
     },
     {
       "Species_ID": "SP_0361",
@@ -100,8 +92,7 @@
       "Location": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-02-2016",
-      "Threat_Status": null
+      "Date": "21-02-2016"
     },
     {
       "Species_ID": "SP_0361",
@@ -116,8 +107,7 @@
       "Location": "Hostería Los Pecanes, Delta del Paraná/Uruguay, San Fernando",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-03-2016",
-      "Threat_Status": null
+      "Date": "03-03-2016"
     }
   ]
 }

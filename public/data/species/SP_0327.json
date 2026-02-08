@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Pelecaniformes/Pelecaniformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-11T23:40:40.286600",
     "group_key": "SP_0327",
     "total_rows": 22,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0327",
@@ -52,8 +47,7 @@
       "Location": "Lago Regatas de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-12-2018",
-      "Threat_Status": null
+      "Date": "08-12-2018"
     },
     {
       "Species_ID": "SP_0327",
@@ -68,8 +62,7 @@
       "Location": "Reserva Municipal de San Isidro \"Ribera Norte\", Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-08-2016",
-      "Threat_Status": null
+      "Date": "13-08-2016"
     },
     {
       "Species_ID": "SP_0327",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-10-2013",
-      "Threat_Status": null
+      "Date": "12-10-2013"
     },
     {
       "Species_ID": "SP_0327",
@@ -100,8 +92,7 @@
       "Location": "Dongknock Stream, Ganghwa Island",
       "Province": "Incheon Province",
       "Country": "SOUTH KOREA",
-      "Date": "18-11-2017",
-      "Threat_Status": null
+      "Date": "18-11-2017"
     },
     {
       "Species_ID": "SP_0327",
@@ -116,8 +107,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_0327",
@@ -132,8 +122,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_0327",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2005",
-      "Threat_Status": null
+      "Date": "03-2005"
     },
     {
       "Species_ID": "SP_0327",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-2003",
-      "Threat_Status": null
+      "Date": "06-2003"
     },
     {
       "Species_ID": "SP_0327",
@@ -180,8 +167,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0327",
@@ -196,8 +182,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0327",
@@ -212,8 +197,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0327",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0327",
@@ -244,8 +227,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-09-2007",
-      "Threat_Status": null
+      "Date": "08-09-2007"
     },
     {
       "Species_ID": "SP_0327",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
-      "Threat_Status": null
+      "Date": "22-02-2008"
     },
     {
       "Species_ID": "SP_0327",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
-      "Threat_Status": null
+      "Date": "22-02-2008"
     },
     {
       "Species_ID": "SP_0327",
@@ -292,8 +272,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-04-2008",
-      "Threat_Status": null
+      "Date": "06-04-2008"
     },
     {
       "Species_ID": "SP_0327",
@@ -308,8 +287,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0327",
@@ -324,8 +302,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2002",
-      "Threat_Status": null
+      "Date": "07-2002"
     },
     {
       "Species_ID": "SP_0327",
@@ -340,8 +317,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2005",
-      "Threat_Status": null
+      "Date": "03-2005"
     },
     {
       "Species_ID": "SP_0327",
@@ -356,8 +332,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-02-2011",
-      "Threat_Status": null
+      "Date": "13-02-2011"
     },
     {
       "Species_ID": "SP_0327",
@@ -372,8 +347,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-02-2011",
-      "Threat_Status": null
+      "Date": "13-02-2011"
     }
   ]
 }

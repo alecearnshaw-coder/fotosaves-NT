@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Turdidae/Turdidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-09T01:40:04.421596",
     "group_key": "SP_0895",
     "total_rows": 6,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "23-09-2015",
-      "Threat_Status": null
+      "Date": "23-09-2015"
     },
     {
       "Species_ID": "SP_0895",
@@ -52,8 +47,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "09-09-2018",
-      "Threat_Status": null
+      "Date": "09-09-2018"
     },
     {
       "Species_ID": "SP_0895",
@@ -68,8 +62,7 @@
       "Location": "Ea. Virocay, Virasoro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "18-04-2014",
-      "Threat_Status": null
+      "Date": "18-04-2014"
     },
     {
       "Species_ID": "SP_0895",
@@ -84,8 +77,7 @@
       "Location": "Parque Burle Marx",
       "Province": "Sao Paulo",
       "Country": "BRAZIL",
-      "Date": "10-2008",
-      "Threat_Status": null
+      "Date": "10-2008"
     },
     {
       "Species_ID": "SP_0895",
@@ -100,8 +92,7 @@
       "Location": "Parque Burle Marx",
       "Province": "Sao Paulo",
       "Country": "BRAZIL",
-      "Date": "10-2008",
-      "Threat_Status": null
+      "Date": "10-2008"
     },
     {
       "Species_ID": "SP_0895",
@@ -116,8 +107,7 @@
       "Location": "Parque Burle Marx",
       "Province": "Sao Paulo",
       "Country": "BRAZIL",
-      "Date": "10-2008",
-      "Threat_Status": null
+      "Date": "10-2008"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.053679",
     "group_key": "SP_0175",
     "total_rows": 16,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0175",
@@ -52,8 +47,7 @@
       "Location": "Pucusana",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": null
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0175",
@@ -68,8 +62,7 @@
       "Location": "Desembocadura del Bio Bío, Concepción",
       "Province": "Bío Bío",
       "Country": "CHILE",
-      "Date": "14-10-2008",
-      "Threat_Status": null
+      "Date": "14-10-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -84,8 +77,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0175",
@@ -100,8 +92,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0175",
@@ -116,8 +107,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0175",
@@ -132,8 +122,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -148,8 +137,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -164,8 +152,7 @@
       "Location": "Desembocadura del Río Bio Bio, Concepción, Bío Bío",
       "Province": "CHILE",
       "Country": null,
-      "Date": "14-10-2008",
-      "Threat_Status": null
+      "Date": "14-10-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -180,8 +167,7 @@
       "Location": "Desembocadura del Río Bio Bio, Concepción, Bío Bío",
       "Province": "CHILE",
       "Country": null,
-      "Date": "14-10-2008",
-      "Threat_Status": null
+      "Date": "14-10-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -196,8 +182,7 @@
       "Location": "Desembocadura del Río Bio Bio, Concepción, Bío Bío",
       "Province": "CHILE",
       "Country": null,
-      "Date": "14-10-2008",
-      "Threat_Status": null
+      "Date": "14-10-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -212,8 +197,7 @@
       "Location": "Seal Beach golf course",
       "Province": "CA",
       "Country": "USA",
-      "Date": "12-2008",
-      "Threat_Status": null
+      "Date": "12-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -228,8 +212,7 @@
       "Location": "Seal Beach golf course",
       "Province": "CA",
       "Country": "USA",
-      "Date": "12-2008",
-      "Threat_Status": null
+      "Date": "12-2008"
     },
     {
       "Species_ID": "SP_0175",
@@ -244,8 +227,7 @@
       "Location": "Cachagua, Valparaiso",
       "Province": "CHILE",
       "Country": null,
-      "Date": "17-12-2009",
-      "Threat_Status": null
+      "Date": "17-12-2009"
     },
     {
       "Species_ID": "SP_0175",
@@ -260,8 +242,7 @@
       "Location": "Cachagua, Valparaiso",
       "Province": "CHILE",
       "Country": null,
-      "Date": "17-12-2009",
-      "Threat_Status": null
+      "Date": "17-12-2009"
     },
     {
       "Species_ID": "SP_0175",
@@ -276,8 +257,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     }
   ]
 }

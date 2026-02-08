@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tityridae/Tityridae_Image_Listing.xlsx",
-    "generated_at": "2025-09-24T21:11:21.554138",
     "group_key": "SP_0574",
     "total_rows": 19,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-10-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 22-10-2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 22-10-2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -55,8 +50,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "04-01-2014",
-      "Location_Date": "Ceibas, Entre Ríos - 04-01-2014",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 04-01-2014"
     },
     {
       "Species_ID": "SP_0574",
@@ -72,8 +66,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Rios - 10/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -89,8 +82,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Rios - 10/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -106,8 +98,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Rios - 10/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -123,8 +114,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Rios - 10/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -140,8 +130,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Rios - 10/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -157,8 +146,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Ceibas, Entre Rios - 11/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 11/2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -174,8 +162,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2006",
-      "Location_Date": "Ceibas, Entre Rios - 11/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 11/2006"
     },
     {
       "Species_ID": "SP_0574",
@@ -191,8 +178,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-10-2009",
-      "Location_Date": "Ceibas, Entre Rios - 12/10/2009",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 12/10/2009"
     },
     {
       "Species_ID": "SP_0574",
@@ -208,8 +194,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, Entre Rios - 10/1/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/1/2011"
     },
     {
       "Species_ID": "SP_0574",
@@ -225,8 +210,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, Entre Rios - 10/1/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/1/2011"
     },
     {
       "Species_ID": "SP_0574",
@@ -242,8 +226,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, Entre Rios - 10/1/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/1/2011"
     },
     {
       "Species_ID": "SP_0574",
@@ -259,8 +242,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-02-2008",
-      "Location_Date": "Ceibas, Entre Rios - 22/2/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 22/2/2008"
     },
     {
       "Species_ID": "SP_0574",
@@ -276,8 +258,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-02-2008",
-      "Location_Date": "Ceibas, Entre Rios - 22/2/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 22/2/2008"
     },
     {
       "Species_ID": "SP_0574",
@@ -293,8 +274,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-03-2008",
-      "Location_Date": "Ceibas, Entre Rios - 15/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 15/3/2008"
     },
     {
       "Species_ID": "SP_0574",
@@ -310,8 +290,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-03-2008",
-      "Location_Date": "Ceibas, Entre Rios - 15/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 15/3/2008"
     },
     {
       "Species_ID": "SP_0574",
@@ -327,8 +306,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2001",
-      "Location_Date": "Ceibas, Entre Rios - 10/2001",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2001"
     },
     {
       "Species_ID": "SP_0574",
@@ -344,8 +322,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2001",
-      "Location_Date": "Ceibas, Entre Rios - 10/2001",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2001"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T18:26:38.308833",
     "group_key": "SP_0437",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "15-10-2017",
-      "Threat_Status": null
+      "Date": "15-10-2017"
     },
     {
       "Species_ID": "SP_0437",
@@ -52,8 +47,7 @@
       "Location": "Niagra",
       "Province": "Ontario",
       "Country": "CANADA",
-      "Date": "06-11-2010",
-      "Threat_Status": null
+      "Date": "06-11-2010"
     },
     {
       "Species_ID": "SP_0437",
@@ -68,8 +62,7 @@
       "Location": "Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "19-08-2014",
-      "Threat_Status": null
+      "Date": "19-08-2014"
     },
     {
       "Species_ID": "SP_0437",
@@ -84,8 +77,7 @@
       "Location": "Va. Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-03-2012",
-      "Threat_Status": null
+      "Date": "29-03-2012"
     },
     {
       "Species_ID": "SP_0437",
@@ -100,8 +92,7 @@
       "Location": "Niagara Falls",
       "Province": "Ontario",
       "Country": "Canada",
-      "Date": "06-11-2010",
-      "Threat_Status": null
+      "Date": "06-11-2010"
     }
   ]
 }

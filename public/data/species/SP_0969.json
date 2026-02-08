@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Cardinalidae/Cardinalidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T18:04:31.584257",
     "group_key": "SP_0969",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Provincial Potrero de Yala, Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "08-10-2017",
-      "Threat_Status": null
+      "Date": "08-10-2017"
     },
     {
       "Species_ID": "SP_0969",
@@ -52,8 +47,7 @@
       "Location": "Entre Río Jordán y Monolito, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_0969",
@@ -68,8 +62,7 @@
       "Location": "Reserva Natural de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-01-2014",
-      "Threat_Status": null
+      "Date": "11-01-2014"
     },
     {
       "Species_ID": "SP_0969",
@@ -84,8 +77,7 @@
       "Location": "Parque Provincial Potrero de Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_0969",
@@ -100,8 +92,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-11-2008",
-      "Threat_Status": null
+      "Date": "08-11-2008"
     },
     {
       "Species_ID": "SP_0969",
@@ -116,8 +107,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-11-2008",
-      "Threat_Status": null
+      "Date": "08-11-2008"
     },
     {
       "Species_ID": "SP_0969",
@@ -132,8 +122,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-11-2008",
-      "Threat_Status": null
+      "Date": "08-11-2008"
     },
     {
       "Species_ID": "SP_0969",
@@ -148,8 +137,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-11-2008",
-      "Threat_Status": null
+      "Date": "08-11-2008"
     },
     {
       "Species_ID": "SP_0969",
@@ -164,8 +152,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-11-2008",
-      "Threat_Status": null
+      "Date": "08-11-2008"
     },
     {
       "Species_ID": "SP_0969",
@@ -180,8 +167,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-11-2008",
-      "Threat_Status": null
+      "Date": "08-11-2008"
     },
     {
       "Species_ID": "SP_0969",
@@ -196,8 +182,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "07-2000",
-      "Threat_Status": null
+      "Date": "07-2000"
     }
   ]
 }

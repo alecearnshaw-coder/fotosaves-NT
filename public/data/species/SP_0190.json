@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.034812",
     "group_key": "SP_0190",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntington",
       "Province": "California",
       "Country": "USA",
-      "Date": "30-09-2008",
-      "Threat_Status": null
+      "Date": "30-09-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -52,8 +47,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -68,8 +62,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -84,8 +77,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -100,8 +92,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -116,8 +107,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -132,8 +122,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -148,8 +137,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -164,8 +152,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -180,8 +167,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -196,8 +182,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0190",
@@ -212,8 +197,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     }
   ]
 }

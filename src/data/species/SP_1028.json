@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.333128",
     "group_key": "SP_1028",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Costanera de Formosa (ciudad)",
       "Province": "Formosa",
       "Country": null,
-      "Date": "20-10-2019",
-      "Threat_Status": null
+      "Date": "20-10-2019"
     },
     {
       "Species_ID": "SP_1028",
@@ -52,8 +47,7 @@
       "Location": "RP2",
       "Province": "Formosa",
       "Country": null,
-      "Date": "27-10-2019",
-      "Threat_Status": null
+      "Date": "27-10-2019"
     },
     {
       "Species_ID": "SP_1028",
@@ -68,8 +62,7 @@
       "Location": "Costanera de Formosa (ciudad)",
       "Province": "Formosa",
       "Country": null,
-      "Date": "20-10-2019",
-      "Threat_Status": null
+      "Date": "20-10-2019"
     }
   ]
 }

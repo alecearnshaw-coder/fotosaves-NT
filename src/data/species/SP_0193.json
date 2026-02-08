@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.048078",
     "group_key": "SP_0193",
     "total_rows": 23,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": "NT"
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -52,8 +47,7 @@
       "Location": "Tapera de López, Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-03-2019",
-      "Threat_Status": null
+      "Date": "23-03-2019"
     },
     {
       "Species_ID": "SP_0193",
@@ -68,8 +62,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-11-2013",
-      "Threat_Status": null
+      "Date": "17-11-2013"
     },
     {
       "Species_ID": "SP_0193",
@@ -84,8 +77,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0193",
@@ -100,8 +92,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0193",
@@ -116,8 +107,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0193",
@@ -132,8 +122,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0193",
@@ -148,8 +137,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-09-2014",
-      "Threat_Status": null
+      "Date": "21-09-2014"
     },
     {
       "Species_ID": "SP_0193",
@@ -164,8 +152,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-09-2014",
-      "Threat_Status": null
+      "Date": "21-09-2014"
     },
     {
       "Species_ID": "SP_0193",
@@ -180,8 +167,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -196,8 +182,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -212,8 +197,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -228,8 +212,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -244,8 +227,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -260,8 +242,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "4-200 8 Con plumaje nupcial (en formación) - Breeding plumage is starting to show",
-      "Threat_Status": null
+      "Date": "4-200 8 Con plumaje nupcial (en formación) - Breeding plumage is starting to show"
     },
     {
       "Species_ID": "SP_0193",
@@ -276,8 +257,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -292,8 +272,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -308,8 +287,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -324,8 +302,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -340,8 +317,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -356,8 +332,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -372,8 +347,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0193",
@@ -388,8 +362,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     }
   ]
 }

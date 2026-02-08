@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasA_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:25:36.199627",
     "group_key": "SP_0156",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Camino a Río Chico, Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-04-2000",
-      "Threat_Status": null
+      "Date": "20-04-2000"
     },
     {
       "Species_ID": "SP_0156",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-04-2000",
-      "Threat_Status": null
+      "Date": "20-04-2000"
     },
     {
       "Species_ID": "SP_0156",
@@ -84,8 +77,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -100,8 +92,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -116,8 +107,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -132,8 +122,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -148,8 +137,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -164,8 +152,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -180,8 +167,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -196,8 +182,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -212,8 +197,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0156",
@@ -228,8 +212,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     }
   ]
 }

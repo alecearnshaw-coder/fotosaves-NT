@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Icteridae/Icteridae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T13:53:08.995736",
     "group_key": "SP_0938",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0938",
@@ -52,8 +47,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "14-10-2013",
-      "Threat_Status": null
+      "Date": "14-10-2013"
     },
     {
       "Species_ID": "SP_0938",
@@ -68,8 +62,7 @@
       "Location": "Reserva Municipal de Vicente Lopez, La Lucilia",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-09-2017",
-      "Threat_Status": null
+      "Date": "02-09-2017"
     },
     {
       "Species_ID": "SP_0938",
@@ -84,8 +77,7 @@
       "Location": "Reserva Municipal de Vicente Lopez, La Lucilia",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-09-2017",
-      "Threat_Status": null
+      "Date": "02-09-2017"
     },
     {
       "Species_ID": "SP_0938",
@@ -100,8 +92,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "29-03-2014",
-      "Threat_Status": null
+      "Date": "29-03-2014"
     },
     {
       "Species_ID": "SP_0938",
@@ -116,8 +107,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0938",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0938",
@@ -148,8 +137,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-10-2008",
-      "Threat_Status": null
+      "Date": "11-10-2008"
     },
     {
       "Species_ID": "SP_0938",
@@ -164,8 +152,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-10-2008",
-      "Threat_Status": null
+      "Date": "11-10-2008"
     },
     {
       "Species_ID": "SP_0938",
@@ -180,8 +167,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-10-2008",
-      "Threat_Status": null
+      "Date": "11-10-2008"
     },
     {
       "Species_ID": "SP_0938",
@@ -196,8 +182,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-10-2008",
-      "Threat_Status": null
+      "Date": "11-10-2008"
     },
     {
       "Species_ID": "SP_0938",
@@ -212,8 +197,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-05-2010",
-      "Threat_Status": null
+      "Date": "02-05-2010"
     },
     {
       "Species_ID": "SP_0938",
@@ -228,8 +212,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-11-2011",
-      "Threat_Status": null
+      "Date": "03-11-2011"
     },
     {
       "Species_ID": "SP_0938",
@@ -244,8 +227,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-2012",
-      "Threat_Status": null
+      "Date": "03-2012"
     },
     {
       "Species_ID": "SP_0938",
@@ -260,8 +242,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2002",
-      "Threat_Status": null
+      "Date": "08-2002"
     }
   ]
 }

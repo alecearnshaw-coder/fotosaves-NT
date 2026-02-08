@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.119742",
     "group_key": "SP_0219",
     "total_rows": 17,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-2011",
-      "Threat_Status": null
+      "Date": "04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -52,8 +47,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": null
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0219",
@@ -68,8 +62,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0219",
@@ -84,8 +77,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-09-2014",
-      "Threat_Status": null
+      "Date": "20-09-2014"
     },
     {
       "Species_ID": "SP_0219",
@@ -100,8 +92,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-09-2014",
-      "Threat_Status": null
+      "Date": "20-09-2014"
     },
     {
       "Species_ID": "SP_0219",
@@ -116,8 +107,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -132,8 +122,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -148,8 +137,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -164,8 +152,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -180,8 +167,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -196,8 +182,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -212,8 +197,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -228,8 +212,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0219",
@@ -244,8 +227,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0219",
@@ -260,8 +242,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0219",
@@ -276,8 +257,7 @@
       "Location": "Puerto Melo",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-2000",
-      "Threat_Status": null
+      "Date": "01-2000"
     },
     {
       "Species_ID": "SP_0219",
@@ -292,8 +272,7 @@
       "Location": "Puerto Melo",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-2000",
-      "Threat_Status": null
+      "Date": "01-2000"
     }
   ]
 }

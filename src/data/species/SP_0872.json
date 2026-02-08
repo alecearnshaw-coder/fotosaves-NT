@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Troglodytidae/Troglodytidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-08T21:34:14.173933",
     "group_key": "SP_0872",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2014",
-      "Threat_Status": null
+      "Date": "21-06-2014"
     },
     {
       "Species_ID": "SP_0872",
@@ -52,8 +47,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-09-2014",
-      "Threat_Status": null
+      "Date": "21-09-2014"
     },
     {
       "Species_ID": "SP_0872",
@@ -68,8 +62,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": null
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0872",
@@ -84,8 +77,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "08-02-2008",
-      "Threat_Status": null
+      "Date": "08-02-2008"
     },
     {
       "Species_ID": "SP_0872",
@@ -100,8 +92,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "08-02-2008",
-      "Threat_Status": null
+      "Date": "08-02-2008"
     },
     {
       "Species_ID": "SP_0872",
@@ -116,8 +107,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "08-02-2008",
-      "Threat_Status": null
+      "Date": "08-02-2008"
     },
     {
       "Species_ID": "SP_0872",
@@ -132,8 +122,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "08-02-2008",
-      "Threat_Status": null
+      "Date": "08-02-2008"
     },
     {
       "Species_ID": "SP_0872",
@@ -148,8 +137,7 @@
       "Location": "Brown Bay, Ea. Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2011",
-      "Threat_Status": null
+      "Date": "03-2011"
     },
     {
       "Species_ID": "SP_0872",
@@ -164,8 +152,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0872",
@@ -180,8 +167,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0872",
@@ -196,8 +182,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0872",
@@ -212,8 +197,7 @@
       "Location": "Ea. Marahué, Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "Sept 2002",
-      "Threat_Status": null
+      "Date": "Sept 2002"
     },
     {
       "Species_ID": "SP_0872",
@@ -228,8 +212,7 @@
       "Location": "Ea. Marahué, Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "Sept 2002",
-      "Threat_Status": null
+      "Date": "Sept 2002"
     }
   ]
 }

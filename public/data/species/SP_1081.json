@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.286254",
     "group_key": "SP_1081",
     "total_rows": 26,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_1081",
@@ -52,8 +47,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-05-2021",
-      "Threat_Status": null
+      "Date": "26-05-2021"
     },
     {
       "Species_ID": "SP_1081",
@@ -68,8 +62,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-08-2017",
-      "Threat_Status": null
+      "Date": "07-08-2017"
     },
     {
       "Species_ID": "SP_1081",
@@ -84,8 +77,7 @@
       "Location": "Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "15-09-2018",
-      "Threat_Status": null
+      "Date": "15-09-2018"
     },
     {
       "Species_ID": "SP_1081",
@@ -100,8 +92,7 @@
       "Location": "Jardín de los Picaflores, Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "02-05-2014",
-      "Threat_Status": null
+      "Date": "02-05-2014"
     },
     {
       "Species_ID": "SP_1081",
@@ -116,8 +107,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "08-07-2016",
-      "Threat_Status": null
+      "Date": "08-07-2016"
     },
     {
       "Species_ID": "SP_1081",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_1081",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_1081",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_1081",
@@ -180,8 +167,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_1081",
@@ -196,8 +182,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_1081",
@@ -212,8 +197,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_1081",
@@ -228,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2008",
-      "Threat_Status": null
+      "Date": "21-06-2008"
     },
     {
       "Species_ID": "SP_1081",
@@ -244,8 +227,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2008",
-      "Threat_Status": null
+      "Date": "21-06-2008"
     },
     {
       "Species_ID": "SP_1081",
@@ -260,8 +242,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2008",
-      "Threat_Status": null
+      "Date": "21-06-2008"
     },
     {
       "Species_ID": "SP_1081",
@@ -276,8 +257,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2007",
-      "Threat_Status": null
+      "Date": "05-2007"
     },
     {
       "Species_ID": "SP_1081",
@@ -292,8 +272,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2008",
-      "Threat_Status": null
+      "Date": "06-2008"
     },
     {
       "Species_ID": "SP_1081",
@@ -308,8 +287,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-09-2008",
-      "Threat_Status": null
+      "Date": "18-09-2008"
     },
     {
       "Species_ID": "SP_1081",
@@ -324,8 +302,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2010",
-      "Threat_Status": null
+      "Date": "17-07-2010"
     },
     {
       "Species_ID": "SP_1081",
@@ -340,8 +317,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2010",
-      "Threat_Status": null
+      "Date": "17-07-2010"
     },
     {
       "Species_ID": "SP_1081",
@@ -356,8 +332,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2010",
-      "Threat_Status": null
+      "Date": "17-07-2010"
     },
     {
       "Species_ID": "SP_1081",
@@ -372,8 +347,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2010",
-      "Threat_Status": null
+      "Date": "17-07-2010"
     },
     {
       "Species_ID": "SP_1081",
@@ -388,8 +362,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2010",
-      "Threat_Status": null
+      "Date": "17-07-2010"
     },
     {
       "Species_ID": "SP_1081",
@@ -404,8 +377,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2010",
-      "Threat_Status": null
+      "Date": "17-07-2010"
     },
     {
       "Species_ID": "SP_1081",
@@ -420,8 +392,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-2012",
-      "Threat_Status": null
+      "Date": "03-2012"
     },
     {
       "Species_ID": "SP_1081",
@@ -436,8 +407,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     }
   ]
 }

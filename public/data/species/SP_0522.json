@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T11:56:38.868301",
     "group_key": "SP_0522",
     "total_rows": 8,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Tres Cruces",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": null
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_0522",
@@ -52,8 +47,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0522",
@@ -68,8 +62,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0522",
@@ -84,8 +77,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0522",
@@ -100,8 +92,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0522",
@@ -116,8 +107,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0522",
@@ -132,8 +122,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0522",
@@ -148,8 +137,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     }
   ]
 }

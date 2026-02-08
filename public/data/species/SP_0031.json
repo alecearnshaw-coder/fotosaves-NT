@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.866847",
     "group_key": "SP_0031",
     "total_rows": 26,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "12-09-2015",
-      "Threat_Status": null
+      "Date": "12-09-2015"
     },
     {
       "Species_ID": "SP_0031",
@@ -52,8 +47,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "12-09-2015",
-      "Threat_Status": null
+      "Date": "12-09-2015"
     },
     {
       "Species_ID": "SP_0031",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "12-09-2015",
-      "Threat_Status": null
+      "Date": "12-09-2015"
     },
     {
       "Species_ID": "SP_0031",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0031",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-11-2015",
-      "Threat_Status": null
+      "Date": "01-11-2015"
     },
     {
       "Species_ID": "SP_0031",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-11-2015",
-      "Threat_Status": null
+      "Date": "01-11-2015"
     },
     {
       "Species_ID": "SP_0031",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -148,8 +137,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0031",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0031",
@@ -180,8 +167,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2010",
-      "Threat_Status": null
+      "Date": "24-03-2010"
     },
     {
       "Species_ID": "SP_0031",
@@ -196,8 +182,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2010",
-      "Threat_Status": null
+      "Date": "24-03-2010"
     },
     {
       "Species_ID": "SP_0031",
@@ -212,8 +197,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2010",
-      "Threat_Status": null
+      "Date": "24-03-2010"
     },
     {
       "Species_ID": "SP_0031",
@@ -228,8 +212,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0031",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-09-2007",
-      "Threat_Status": null
+      "Date": "22-09-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -292,8 +272,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-09-2007",
-      "Threat_Status": null
+      "Date": "22-09-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -308,8 +287,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-10-2007",
-      "Threat_Status": null
+      "Date": "14-10-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-10-2007",
-      "Threat_Status": null
+      "Date": "14-10-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -340,8 +317,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-11-2007",
-      "Threat_Status": null
+      "Date": "14-11-2007"
     },
     {
       "Species_ID": "SP_0031",
@@ -356,8 +332,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2010",
-      "Threat_Status": null
+      "Date": "10-01-2010"
     },
     {
       "Species_ID": "SP_0031",
@@ -372,8 +347,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0031",
@@ -388,8 +362,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0031",
@@ -404,8 +377,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0031",
@@ -420,8 +392,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0031",
@@ -436,8 +407,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-2011",
-      "Threat_Status": null
+      "Date": "03-2011"
     }
   ]
 }

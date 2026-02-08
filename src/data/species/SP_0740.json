@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Rhinocryptidae/Rhinocryptidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T13:33:47.099974",
     "group_key": "SP_0740",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "P. N. Los Alerces",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0740",
@@ -52,8 +47,7 @@
       "Location": "P. N. Los Alerces",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     }
   ]
 }

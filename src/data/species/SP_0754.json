@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-1Scleru/Furnariidae-1Scleru_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T21:14:24.954782",
     "group_key": "SP_0754",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Laguna Runtuyoc",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_0754",
@@ -52,8 +47,7 @@
       "Location": "Laguna Runtuyoc",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_0754",
@@ -68,8 +62,7 @@
       "Location": "Embalse Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0754",
@@ -84,8 +77,7 @@
       "Location": "Embalse Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     }
   ]
 }

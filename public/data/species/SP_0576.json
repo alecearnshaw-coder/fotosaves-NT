@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tityridae/Tityridae_Image_Listing.xlsx",
-    "generated_at": "2025-09-24T21:11:21.527384",
     "group_key": "SP_0576",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "09-09-2018",
-      "Threat_Status": null
+      "Date": "09-09-2018"
     },
     {
       "Species_ID": "SP_0576",
@@ -52,8 +47,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "09-09-2018",
-      "Threat_Status": null
+      "Date": "09-09-2018"
     }
   ]
 }

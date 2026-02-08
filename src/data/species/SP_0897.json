@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Turdidae/Turdidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-09T01:40:04.405972",
     "group_key": "SP_0897",
     "total_rows": 24,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-07-2012",
-      "Threat_Status": null
+      "Date": "15-07-2012"
     },
     {
       "Species_ID": "SP_0897",
@@ -52,8 +47,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-09-2013",
-      "Threat_Status": null
+      "Date": "23-09-2013"
     },
     {
       "Species_ID": "SP_0897",
@@ -68,8 +62,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-06-2021",
-      "Threat_Status": null
+      "Date": "20-06-2021"
     },
     {
       "Species_ID": "SP_0897",
@@ -84,8 +77,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0897",
@@ -100,8 +92,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0897",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0897",
@@ -132,8 +122,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0897",
@@ -148,8 +137,7 @@
       "Location": "Av. Gral Paz",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0897",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-06-2007",
-      "Threat_Status": null
+      "Date": "03-06-2007"
     },
     {
       "Species_ID": "SP_0897",
@@ -180,8 +167,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0897",
@@ -196,8 +182,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0897",
@@ -212,8 +197,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-06-2007",
-      "Threat_Status": null
+      "Date": "16-06-2007"
     },
     {
       "Species_ID": "SP_0897",
@@ -228,8 +212,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-2007",
-      "Threat_Status": null
+      "Date": "11-2007"
     },
     {
       "Species_ID": "SP_0897",
@@ -244,8 +227,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-07-2008",
-      "Threat_Status": null
+      "Date": "09-07-2008"
     },
     {
       "Species_ID": "SP_0897",
@@ -260,8 +242,7 @@
       "Location": "Brazo Largo",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-09-2008",
-      "Threat_Status": null
+      "Date": "14-09-2008"
     },
     {
       "Species_ID": "SP_0897",
@@ -276,8 +257,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-11-2008",
-      "Threat_Status": null
+      "Date": "15-11-2008"
     },
     {
       "Species_ID": "SP_0897",
@@ -292,8 +272,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-05-2009",
-      "Threat_Status": null
+      "Date": "25-05-2009"
     },
     {
       "Species_ID": "SP_0897",
@@ -308,8 +287,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-05-2009",
-      "Threat_Status": null
+      "Date": "25-05-2009"
     },
     {
       "Species_ID": "SP_0897",
@@ -324,8 +302,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-06-2009",
-      "Threat_Status": null
+      "Date": "20-06-2009"
     },
     {
       "Species_ID": "SP_0897",
@@ -340,8 +317,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-09-2009",
-      "Threat_Status": null
+      "Date": "06-09-2009"
     },
     {
       "Species_ID": "SP_0897",
@@ -356,8 +332,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-10-2009",
-      "Threat_Status": null
+      "Date": "10-10-2009"
     },
     {
       "Species_ID": "SP_0897",
@@ -372,8 +347,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-10-2009",
-      "Threat_Status": null
+      "Date": "10-10-2009"
     },
     {
       "Species_ID": "SP_0897",
@@ -388,8 +362,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-10-2009",
-      "Threat_Status": null
+      "Date": "10-10-2009"
     },
     {
       "Species_ID": "SP_0897",
@@ -404,8 +377,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-10-2009",
-      "Threat_Status": null
+      "Date": "23-10-2009"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.373138",
     "group_key": "SP_0809",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-02-2006",
-      "Threat_Status": null
+      "Date": "12-02-2006"
     },
     {
       "Species_ID": "SP_0809",
@@ -52,8 +47,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-02-2006",
-      "Threat_Status": null
+      "Date": "12-02-2006"
     },
     {
       "Species_ID": "SP_0809",
@@ -68,8 +62,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0809",
@@ -84,8 +77,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0809",
@@ -100,8 +92,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0809",
@@ -116,8 +107,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0809",
@@ -132,8 +122,7 @@
       "Location": "Los Altares",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-04-2011",
-      "Threat_Status": null
+      "Date": "30-04-2011"
     },
     {
       "Species_ID": "SP_0809",
@@ -148,8 +137,7 @@
       "Location": "Manzano Histórico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_0809",
@@ -164,8 +152,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0809",
@@ -180,8 +167,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0809",
@@ -196,8 +182,7 @@
       "Location": "Yavi Chico",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2014",
-      "Threat_Status": null
+      "Date": "14-10-2014"
     },
     {
       "Species_ID": "SP_0809",
@@ -212,8 +197,7 @@
       "Location": "Yavi Chico",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2014",
-      "Threat_Status": null
+      "Date": "14-10-2014"
     },
     {
       "Species_ID": "SP_0809",
@@ -228,8 +212,7 @@
       "Location": "Cuesta de Lipan",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T18:26:38.266504",
     "group_key": "SP_0424",
     "total_rows": 6,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Laguna Oca",
       "Province": "Formosa",
       "Country": null,
-      "Date": "26-11-2019",
-      "Threat_Status": null
+      "Date": "26-11-2019"
     },
     {
       "Species_ID": "SP_0424",
@@ -52,8 +47,7 @@
       "Location": "Bolsa Chica, Huntington",
       "Province": "California",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0424",
@@ -68,8 +62,7 @@
       "Location": "Bolsa Chica, Huntington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "11-2008",
-      "Threat_Status": null
+      "Date": "11-2008"
     },
     {
       "Species_ID": "SP_0424",
@@ -84,8 +77,7 @@
       "Location": "Bolsa Chica, Huntington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "11-2008",
-      "Threat_Status": null
+      "Date": "11-2008"
     },
     {
       "Species_ID": "SP_0424",
@@ -100,8 +92,7 @@
       "Location": "Bolsa Chica, Huntington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "11-2008",
-      "Threat_Status": null
+      "Date": "11-2008"
     },
     {
       "Species_ID": "SP_0424",
@@ -116,8 +107,7 @@
       "Location": "Bolsa Chica, Huntington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "11-2008",
-      "Threat_Status": null
+      "Date": "11-2008"
     }
   ]
 }

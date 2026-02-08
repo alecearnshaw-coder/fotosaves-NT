@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.301452",
     "group_key": "SP_0592",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "04-07-2016",
-      "Threat_Status": null
+      "Date": "04-07-2016"
     },
     {
       "Species_ID": "SP_0592",
@@ -52,8 +47,7 @@
       "Location": "Bosque nativo en el cruce de RN38 y RN 66 (entre Perico y San Pedro)",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "15-04-2018",
-      "Threat_Status": null
+      "Date": "15-04-2018"
     },
     {
       "Species_ID": "SP_0592",
@@ -68,8 +62,7 @@
       "Location": "RP1 y Río San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0592",
@@ -84,8 +77,7 @@
       "Location": "RP1 y Río San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     }
   ]
 }

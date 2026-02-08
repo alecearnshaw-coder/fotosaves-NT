@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Caprimulgiformes/Caprimulgiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T01:47:12.478880",
     "group_key": "SP_0334",
     "total_rows": 8,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-07-2012",
-      "Threat_Status": null
+      "Date": "22-07-2012"
     },
     {
       "Species_ID": "SP_0334",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-05-2014",
-      "Threat_Status": null
+      "Date": "18-05-2014"
     },
     {
       "Species_ID": "SP_0334",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-05-2015",
-      "Threat_Status": null
+      "Date": "09-05-2015"
     },
     {
       "Species_ID": "SP_0334",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "16-08-2009",
-      "Threat_Status": null
+      "Date": "16-08-2009"
     },
     {
       "Species_ID": "SP_0334",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-09-2009",
-      "Threat_Status": null
+      "Date": "06-09-2009"
     },
     {
       "Species_ID": "SP_0334",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-09-2009",
-      "Threat_Status": null
+      "Date": "06-09-2009"
     },
     {
       "Species_ID": "SP_0334",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-09-2009",
-      "Threat_Status": null
+      "Date": "06-09-2009"
     },
     {
       "Species_ID": "SP_0334",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-09-2009",
-      "Threat_Status": null
+      "Date": "06-09-2009"
     }
   ]
 }

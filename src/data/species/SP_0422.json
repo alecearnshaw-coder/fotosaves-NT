@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cathartiformes/Cathartiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T11:17:23.899849",
     "group_key": "SP_0422",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Esteros del Iberá, Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "27-03-2012",
-      "Threat_Status": null
+      "Date": "27-03-2012"
     },
     {
       "Species_ID": "SP_0422",
@@ -52,8 +47,7 @@
       "Location": "Establecimiento Los Picazos, Tres Marías",
       "Province": "Formosa",
       "Country": null,
-      "Date": "25-11-2019",
-      "Threat_Status": null
+      "Date": "25-11-2019"
     },
     {
       "Species_ID": "SP_0422",
@@ -68,8 +62,7 @@
       "Location": "Costanera de Formosa (ciudad)",
       "Province": "Formosa",
       "Country": null,
-      "Date": "20-10-2019",
-      "Threat_Status": null
+      "Date": "20-10-2019"
     },
     {
       "Species_ID": "SP_0422",
@@ -84,8 +77,7 @@
       "Location": "Estancia Virocay",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "19-04-2014",
-      "Threat_Status": null
+      "Date": "19-04-2014"
     },
     {
       "Species_ID": "SP_0422",
@@ -100,8 +92,7 @@
       "Location": "Ea. \"El Bagual\"",
       "Province": "Formosa",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     },
     {
       "Species_ID": "SP_0422",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "27-03-2012",
-      "Threat_Status": null
+      "Date": "27-03-2012"
     },
     {
       "Species_ID": "SP_0422",
@@ -132,8 +122,7 @@
       "Location": "Ea. Rincón del Socorro, Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-03-2012",
-      "Threat_Status": null
+      "Date": "24-03-2012"
     }
   ]
 }

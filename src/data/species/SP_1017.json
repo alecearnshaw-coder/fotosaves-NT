@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.442525",
     "group_key": "SP_1017",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": null
+      "Date": "10-09-2018"
     },
     {
       "Species_ID": "SP_1017",
@@ -52,8 +47,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "14-05-2016",
-      "Threat_Status": null
+      "Date": "14-05-2016"
     },
     {
       "Species_ID": "SP_1017",
@@ -68,8 +62,7 @@
       "Location": "Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_1017",
@@ -84,8 +77,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "06-2004",
-      "Threat_Status": null
+      "Date": "06-2004"
     },
     {
       "Species_ID": "SP_1017",
@@ -100,8 +92,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "06-2004",
-      "Threat_Status": null
+      "Date": "06-2004"
     },
     {
       "Species_ID": "SP_1017",
@@ -116,8 +107,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-05-2007",
-      "Threat_Status": null
+      "Date": "20-05-2007"
     },
     {
       "Species_ID": "SP_1017",
@@ -132,8 +122,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-09-2011",
-      "Threat_Status": null
+      "Date": "03-09-2011"
     },
     {
       "Species_ID": "SP_1017",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-09-2011",
-      "Threat_Status": null
+      "Date": "03-09-2011"
     },
     {
       "Species_ID": "SP_1017",
@@ -164,8 +152,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_1017",
@@ -180,8 +167,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_1017",
@@ -196,8 +182,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_1017",
@@ -212,8 +197,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_1017",
@@ -228,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     }
   ]
 }

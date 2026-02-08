@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T23:30:46.161795",
     "group_key": "SP_0414",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "PR83 cerca de San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "02-09-2023",
-      "Threat_Status": null
+      "Date": "02-09-2023"
     }
   ]
 }

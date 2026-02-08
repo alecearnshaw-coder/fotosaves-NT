@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:09.979832",
     "group_key": "SP_0185",
     "total_rows": 17,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0185",
@@ -52,8 +47,7 @@
       "Location": "Laguna Brava",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_0185",
@@ -68,8 +62,7 @@
       "Location": "Costanera",
       "Province": "Formosa",
       "Country": null,
-      "Date": "19-10-2019",
-      "Threat_Status": null
+      "Date": "19-10-2019"
     },
     {
       "Species_ID": "SP_0185",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-10-2013",
-      "Threat_Status": null
+      "Date": "06-10-2013"
     },
     {
       "Species_ID": "SP_0185",
@@ -100,8 +92,7 @@
       "Location": "Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_0185",
@@ -116,8 +107,7 @@
       "Location": "Laguna Runtuyoc, Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_0185",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0185",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0185",
@@ -164,8 +152,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "03-11-2009",
-      "Threat_Status": null
+      "Date": "03-11-2009"
     },
     {
       "Species_ID": "SP_0185",
@@ -180,8 +167,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "03-11-2009",
-      "Threat_Status": null
+      "Date": "03-11-2009"
     },
     {
       "Species_ID": "SP_0185",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0185",
@@ -212,8 +197,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0185",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0185",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0185",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0185",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0185",
@@ -292,8 +272,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     }
   ]
 }

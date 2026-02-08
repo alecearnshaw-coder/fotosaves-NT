@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cuculiformes/Cuculiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:21.391574",
     "group_key": "SP_0089",
     "total_rows": 20,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural de Pilar, Pilar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-11-2016",
-      "Threat_Status": null
+      "Date": "28-11-2016"
     },
     {
       "Species_ID": "SP_0089",
@@ -52,8 +47,7 @@
       "Location": "Perdces",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_0089",
@@ -68,8 +62,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "03-03-2014",
-      "Threat_Status": null
+      "Date": "03-03-2014"
     },
     {
       "Species_ID": "SP_0089",
@@ -84,8 +77,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-2001",
-      "Threat_Status": null
+      "Date": "12-2001"
     },
     {
       "Species_ID": "SP_0089",
@@ -100,8 +92,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-2001",
-      "Threat_Status": null
+      "Date": "12-2001"
     },
     {
       "Species_ID": "SP_0089",
@@ -116,8 +107,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0089",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-11-2007",
-      "Threat_Status": null
+      "Date": "14-11-2007"
     },
     {
       "Species_ID": "SP_0089",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-11-2007",
-      "Threat_Status": null
+      "Date": "14-11-2007"
     },
     {
       "Species_ID": "SP_0089",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-11-2007",
-      "Threat_Status": null
+      "Date": "14-11-2007"
     },
     {
       "Species_ID": "SP_0089",
@@ -180,8 +167,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_0089",
@@ -196,8 +182,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_0089",
@@ -212,8 +197,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_0089",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
-      "Threat_Status": null
+      "Date": "22-02-2008"
     },
     {
       "Species_ID": "SP_0089",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
-      "Threat_Status": null
+      "Date": "22-02-2008"
     },
     {
       "Species_ID": "SP_0089",
@@ -260,8 +242,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-10-2008",
-      "Threat_Status": null
+      "Date": "09-10-2008"
     },
     {
       "Species_ID": "SP_0089",
@@ -276,8 +257,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-10-2008",
-      "Threat_Status": null
+      "Date": "09-10-2008"
     },
     {
       "Species_ID": "SP_0089",
@@ -292,8 +272,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-10-2008",
-      "Threat_Status": null
+      "Date": "09-10-2008"
     },
     {
       "Species_ID": "SP_0089",
@@ -308,8 +287,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-11-2009",
-      "Threat_Status": null
+      "Date": "15-11-2009"
     },
     {
       "Species_ID": "SP_0089",
@@ -324,8 +302,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2010",
-      "Threat_Status": null
+      "Date": "10-01-2010"
     },
     {
       "Species_ID": "SP_0089",
@@ -340,8 +317,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2010",
-      "Threat_Status": null
+      "Date": "10-01-2010"
     }
   ]
 }

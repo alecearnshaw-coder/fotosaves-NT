@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Furn/Furnariidae-Furn_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T11:31:08.458020",
     "group_key": "SP_0787",
     "total_rows": 10,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Provincial Urugua-ií",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": null
+      "Date": "10-09-2018"
     },
     {
       "Species_ID": "SP_0787",
@@ -52,8 +47,7 @@
       "Location": "RP101",
       "Province": "Misiones",
       "Country": null,
-      "Date": "02-05-2014",
-      "Threat_Status": null
+      "Date": "02-05-2014"
     },
     {
       "Species_ID": "SP_0787",
@@ -68,8 +62,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "04-07-2016",
-      "Threat_Status": null
+      "Date": "04-07-2016"
     },
     {
       "Species_ID": "SP_0787",
@@ -84,8 +77,7 @@
       "Location": "Parque Provincial Urugua-í",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": null
+      "Date": "10-09-2018"
     },
     {
       "Species_ID": "SP_0787",
@@ -100,8 +92,7 @@
       "Location": "Parque Provincial Urugua-í",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": null
+      "Date": "10-09-2018"
     },
     {
       "Species_ID": "SP_0787",
@@ -116,8 +107,7 @@
       "Location": "Río Jordan, San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-04-2018",
-      "Threat_Status": null
+      "Date": "14-04-2018"
     },
     {
       "Species_ID": "SP_0787",
@@ -132,8 +122,7 @@
       "Location": "Río Jordan, San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-04-2018",
-      "Threat_Status": null
+      "Date": "14-04-2018"
     },
     {
       "Species_ID": "SP_0787",
@@ -148,8 +137,7 @@
       "Location": "Río Jordan, San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-04-2018",
-      "Threat_Status": null
+      "Date": "14-04-2018"
     },
     {
       "Species_ID": "SP_0787",
@@ -164,8 +152,7 @@
       "Location": "Río Jordan, San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-04-2018",
-      "Threat_Status": null
+      "Date": "14-04-2018"
     },
     {
       "Species_ID": "SP_0787",
@@ -180,8 +167,7 @@
       "Location": "Sendero a la toma de agua, San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "02-09-2023",
-      "Threat_Status": null
+      "Date": "02-09-2023"
     }
   ]
 }

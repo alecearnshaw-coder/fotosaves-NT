@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tityridae/Tityridae_Image_Listing.xlsx",
-    "generated_at": "2025-09-24T21:11:21.576105",
     "group_key": "SP_0571",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "19-10-2019",
-      "Threat_Status": null
+      "Date": "19-10-2019"
     },
     {
       "Species_ID": "SP_0571",
@@ -52,8 +47,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "21-10-2019",
-      "Threat_Status": null
+      "Date": "21-10-2019"
     },
     {
       "Species_ID": "SP_0571",
@@ -68,8 +62,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "22-10-2019",
-      "Threat_Status": null
+      "Date": "22-10-2019"
     },
     {
       "Species_ID": "SP_0571",
@@ -84,8 +77,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "22-10-2019",
-      "Threat_Status": null
+      "Date": "22-10-2019"
     }
   ]
 }

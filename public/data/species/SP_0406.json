@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T23:30:46.220280",
     "group_key": "SP_0406",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva \"Las Piedras\", Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "23-09-2012",
-      "Threat_Status": null
+      "Date": "23-09-2012"
     },
     {
       "Species_ID": "SP_0406",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-01-2013",
-      "Threat_Status": null
+      "Date": "27-01-2013"
     },
     {
       "Species_ID": "SP_0406",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-11-2006",
-      "Threat_Status": null
+      "Date": "12-11-2006"
     },
     {
       "Species_ID": "SP_0406",
@@ -84,8 +77,7 @@
       "Location": "Zoo Buenos Aires",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2004",
-      "Threat_Status": null
+      "Date": "01-2004"
     },
     {
       "Species_ID": "SP_0406",
@@ -100,8 +92,7 @@
       "Location": "Rivera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0406",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0406",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0406",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0406",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0406",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0406",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     }
   ]
 }

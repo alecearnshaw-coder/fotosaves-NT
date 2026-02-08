@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Apodiformes/Trochilidae/Trochilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T20:48:34.333376",
     "group_key": "SP_0370",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago de Chile",
       "Country": "CHILE",
-      "Date": "06-07-2011",
-      "Threat_Status": null
+      "Date": "06-07-2011"
     },
     {
       "Species_ID": "SP_0370",
@@ -52,8 +47,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago de Chile",
       "Country": "CHILE",
-      "Date": "06-07-2011",
-      "Threat_Status": null
+      "Date": "06-07-2011"
     },
     {
       "Species_ID": "SP_0370",
@@ -68,8 +62,7 @@
       "Location": "Quinta Vergara",
       "Province": "Viña del Mar",
       "Country": "CHILE",
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0370",
@@ -84,8 +77,7 @@
       "Location": "Quinta Vergara",
       "Province": "Viña del Mar",
       "Country": "CHILE",
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0370",
@@ -100,8 +92,7 @@
       "Location": "Quinta Vergara",
       "Province": "Viña del Mar",
       "Country": "CHILE",
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0370",
@@ -116,8 +107,7 @@
       "Location": "Vilches",
       "Province": "Maule",
       "Country": "CHILE",
-      "Date": "18-12-2009",
-      "Threat_Status": null
+      "Date": "18-12-2009"
     },
     {
       "Species_ID": "SP_0370",
@@ -132,8 +122,7 @@
       "Location": "Vilches",
       "Province": "Maule",
       "Country": "CHILE",
-      "Date": "18-12-2009",
-      "Threat_Status": null
+      "Date": "18-12-2009"
     },
     {
       "Species_ID": "SP_0370",
@@ -148,8 +137,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "06-07-2011",
-      "Threat_Status": null
+      "Date": "06-07-2011"
     },
     {
       "Species_ID": "SP_0370",
@@ -164,8 +152,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "06-07-2011",
-      "Threat_Status": null
+      "Date": "06-07-2011"
     },
     {
       "Species_ID": "SP_0370",
@@ -180,8 +167,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "06-07-2011",
-      "Threat_Status": null
+      "Date": "06-07-2011"
     },
     {
       "Species_ID": "SP_0370",
@@ -196,8 +182,7 @@
       "Location": "Sierra San Cristóbal",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "07-2011",
-      "Threat_Status": null
+      "Date": "07-2011"
     }
   ]
 }

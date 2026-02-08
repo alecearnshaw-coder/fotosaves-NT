@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Pelecaniformes/Pelecaniformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-11T23:40:40.278608",
     "group_key": "SP_0328",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-01-2008",
-      "Threat_Status": null
+      "Date": "24-01-2008"
     },
     {
       "Species_ID": "SP_0328",
@@ -52,8 +47,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0328",
@@ -68,8 +62,7 @@
       "Location": "Pringles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0328",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0328",
@@ -100,8 +92,7 @@
       "Location": "Lago Regatas",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0328",
@@ -116,8 +107,7 @@
       "Location": "Lago Regatas",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0328",
@@ -132,8 +122,7 @@
       "Location": "Lago Regatas",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     }
   ]
 }

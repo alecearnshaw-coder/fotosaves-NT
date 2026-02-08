@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.317503",
     "group_key": "SP_1041",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-10-2014",
-      "Threat_Status": null
+      "Date": "26-10-2014"
     },
     {
       "Species_ID": "SP_1041",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-05-2017",
-      "Threat_Status": null
+      "Date": "01-05-2017"
     },
     {
       "Species_ID": "SP_1041",
@@ -68,8 +62,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2012",
-      "Threat_Status": null
+      "Date": "05-02-2012"
     },
     {
       "Species_ID": "SP_1041",
@@ -84,8 +77,7 @@
       "Location": "Costanera de Formosa (ciudad)",
       "Province": "Formosa",
       "Country": null,
-      "Date": "20-10-2019",
-      "Threat_Status": null
+      "Date": "20-10-2019"
     },
     {
       "Species_ID": "SP_1041",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-05-2017",
-      "Threat_Status": null
+      "Date": "01-05-2017"
     },
     {
       "Species_ID": "SP_1041",
@@ -116,8 +107,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "12-2004",
-      "Threat_Status": null
+      "Date": "12-2004"
     },
     {
       "Species_ID": "SP_1041",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_1041",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_1041",
@@ -164,8 +152,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_1041",
@@ -180,8 +167,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_1041",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-03-2011",
-      "Threat_Status": null
+      "Date": "07-03-2011"
     },
     {
       "Species_ID": "SP_1041",
@@ -212,8 +197,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_1041",
@@ -228,8 +212,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_1041",
@@ -244,8 +227,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     }
   ]
 }

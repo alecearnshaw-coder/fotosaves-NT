@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.051373",
     "group_key": "SP_0624",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural Provincial Rincón de Santa María, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "15-03-2019",
-      "Threat_Status": "Vulnerable"
+      "Date": "15-03-2019"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T11:56:38.821425",
     "group_key": "SP_0529",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Centro de Recría \"Guira Oga\", Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "07-1999",
-      "Threat_Status": "Near-threatened"
+      "Date": "07-1999"
     }
   ]
 }

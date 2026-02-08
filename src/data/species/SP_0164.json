@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasA_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:25:36.157879",
     "group_key": "SP_0164",
     "total_rows": 19,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-03-2012",
-      "Threat_Status": null
+      "Date": "22-03-2012"
     },
     {
       "Species_ID": "SP_0164",
@@ -52,8 +47,7 @@
       "Location": "Camino a Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-12-2014",
-      "Threat_Status": null
+      "Date": "27-12-2014"
     },
     {
       "Species_ID": "SP_0164",
@@ -68,8 +62,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0164",
@@ -84,8 +77,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0164",
@@ -100,8 +92,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0164",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0164",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0164",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0164",
@@ -164,8 +152,7 @@
       "Location": "Paso Córdoba, Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "28-03-2009",
-      "Threat_Status": null
+      "Date": "28-03-2009"
     },
     {
       "Species_ID": "SP_0164",
@@ -180,8 +167,7 @@
       "Location": "Paso Córdoba, Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "28-03-2009",
-      "Threat_Status": null
+      "Date": "28-03-2009"
     },
     {
       "Species_ID": "SP_0164",
@@ -196,8 +182,7 @@
       "Location": "Paso Córdoba, Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "28-03-2009",
-      "Threat_Status": null
+      "Date": "28-03-2009"
     },
     {
       "Species_ID": "SP_0164",
@@ -212,8 +197,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "31-10-2009",
-      "Threat_Status": null
+      "Date": "31-10-2009"
     },
     {
       "Species_ID": "SP_0164",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0164",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2011",
-      "Threat_Status": null
+      "Date": "27-02-2011"
     },
     {
       "Species_ID": "SP_0164",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2011",
-      "Threat_Status": null
+      "Date": "27-02-2011"
     },
     {
       "Species_ID": "SP_0164",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2011",
-      "Threat_Status": null
+      "Date": "27-02-2011"
     },
     {
       "Species_ID": "SP_0164",
@@ -292,8 +272,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2011",
-      "Threat_Status": null
+      "Date": "27-02-2011"
     },
     {
       "Species_ID": "SP_0164",
@@ -308,8 +287,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-03-2012",
-      "Threat_Status": null
+      "Date": "22-03-2012"
     },
     {
       "Species_ID": "SP_0164",
@@ -324,8 +302,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-03-2012",
-      "Threat_Status": null
+      "Date": "22-03-2012"
     }
   ]
 }

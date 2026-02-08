@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Suliformes/Suliformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-10T21:46:29.324097",
     "group_key": "SP_0302",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Comodoro RIvadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0302",
@@ -52,8 +47,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0302",
@@ -68,8 +62,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "1998",
-      "Threat_Status": null
+      "Date": "1998"
     },
     {
       "Species_ID": "SP_0302",
@@ -84,8 +77,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0302",
@@ -100,8 +92,7 @@
       "Location": "Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0302",
@@ -116,8 +107,7 @@
       "Location": "Cabo Dos Bahías",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2003",
-      "Threat_Status": null
+      "Date": "02-2003"
     },
     {
       "Species_ID": "SP_0302",
@@ -132,8 +122,7 @@
       "Location": "Cabo Dos Bahías",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2003",
-      "Threat_Status": null
+      "Date": "02-2003"
     },
     {
       "Species_ID": "SP_0302",
@@ -148,8 +137,7 @@
       "Location": "Cabo Raso",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0302",
@@ -164,8 +152,7 @@
       "Location": "Cabo Raso",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0302",
@@ -180,8 +167,7 @@
       "Location": "Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0302",
@@ -196,8 +182,7 @@
       "Location": "Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0302",
@@ -212,8 +197,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0302",
@@ -228,8 +212,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0302",
@@ -244,8 +227,7 @@
       "Location": "Cabo Blanco",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "01-1998",
-      "Threat_Status": null
+      "Date": "01-1998"
     },
     {
       "Species_ID": "SP_0302",
@@ -260,8 +242,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     }
   ]
 }

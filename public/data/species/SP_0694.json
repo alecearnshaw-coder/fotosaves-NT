@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.370809",
     "group_key": "SP_0694",
     "total_rows": 24,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-09-2007",
-      "Threat_Status": null
+      "Date": "01-09-2007"
     },
     {
       "Species_ID": "SP_0694",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": null
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0694",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-01-2014",
-      "Threat_Status": null
+      "Date": "05-01-2014"
     },
     {
       "Species_ID": "SP_0694",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-12-2012",
-      "Threat_Status": null
+      "Date": "01-12-2012"
     },
     {
       "Species_ID": "SP_0694",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0694",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0694",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2005",
-      "Threat_Status": null
+      "Date": "11-2005"
     },
     {
       "Species_ID": "SP_0694",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0694",
@@ -164,8 +152,7 @@
       "Location": "Refugio de Estancia Marahué, Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2002",
-      "Threat_Status": null
+      "Date": "09-2002"
     },
     {
       "Species_ID": "SP_0694",
@@ -180,8 +167,7 @@
       "Location": "Estancia San Isidro, Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1999",
-      "Threat_Status": null
+      "Date": "1999"
     },
     {
       "Species_ID": "SP_0694",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2002",
-      "Threat_Status": null
+      "Date": "11-2002"
     },
     {
       "Species_ID": "SP_0694",
@@ -212,8 +197,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0694",
@@ -228,8 +212,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0694",
@@ -244,8 +227,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-03-2007",
-      "Threat_Status": null
+      "Date": "01-03-2007"
     },
     {
       "Species_ID": "SP_0694",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-10-2010",
-      "Threat_Status": null
+      "Date": "09-10-2010"
     },
     {
       "Species_ID": "SP_0694",
@@ -276,8 +257,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0694",
@@ -292,8 +272,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0694",
@@ -308,8 +287,7 @@
       "Location": "Refugio de Estancia Marahué, Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2003",
-      "Threat_Status": null
+      "Date": "10-2003"
     },
     {
       "Species_ID": "SP_0694",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0694",
@@ -340,8 +317,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0694",
@@ -356,8 +332,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-05-2007",
-      "Threat_Status": null
+      "Date": "13-05-2007"
     },
     {
       "Species_ID": "SP_0694",
@@ -372,8 +347,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0694",
@@ -388,8 +362,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0694",
@@ -404,8 +377,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.270630",
     "group_key": "SP_1073",
     "total_rows": 9,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Camba Trapo, Esteros del Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_1073",
@@ -52,8 +47,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": "Endangered"
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_1073",
@@ -68,8 +62,7 @@
       "Location": "Ea. Rincón del Socorro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "24-03-2012"
     },
     {
       "Species_ID": "SP_1073",
@@ -84,8 +77,7 @@
       "Location": "Ea. Rincón del Socorro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "24-03-2012"
     },
     {
       "Species_ID": "SP_1073",
@@ -100,8 +92,7 @@
       "Location": "Ea. Rincón del Socorro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "24-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "24-03-2012"
     },
     {
       "Species_ID": "SP_1073",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_1073",
@@ -132,8 +122,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_1073",
@@ -148,8 +137,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_1073",
@@ -164,8 +152,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": "Endangered"
+      "Date": "25-03-2012"
     }
   ]
 }

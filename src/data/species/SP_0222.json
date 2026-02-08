@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.123740",
     "group_key": "SP_0222",
     "total_rows": 24,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Pasarela, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0222",
@@ -52,8 +47,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0222",
@@ -68,8 +62,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0222",
@@ -84,8 +77,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-02-2014",
-      "Threat_Status": null
+      "Date": "03-02-2014"
     },
     {
       "Species_ID": "SP_0222",
@@ -100,8 +92,7 @@
       "Location": "Pasarela, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0222",
@@ -116,8 +107,7 @@
       "Location": "Pasarela, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0222",
@@ -132,8 +122,7 @@
       "Location": "Pasarela, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0222",
@@ -148,8 +137,7 @@
       "Location": "Pasarela, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0222",
@@ -164,8 +152,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0222",
@@ -180,8 +167,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0222",
@@ -196,8 +182,7 @@
       "Location": "Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-06-2014",
-      "Threat_Status": null
+      "Date": "01-06-2014"
     },
     {
       "Species_ID": "SP_0222",
@@ -212,8 +197,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -228,8 +212,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -244,8 +227,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -260,8 +242,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -276,8 +257,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -292,8 +272,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -308,8 +287,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -324,8 +302,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -340,8 +317,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0222",
@@ -356,8 +332,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0222",
@@ -372,8 +347,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0222",
@@ -388,8 +362,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0222",
@@ -404,8 +377,7 @@
       "Location": "Punta Arenas",
       "Province": "Magallanes",
       "Country": "CHILE",
-      "Date": "01-2003",
-      "Threat_Status": null
+      "Date": "01-2003"
     }
   ]
 }

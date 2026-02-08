@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-17T23:31:27.275401",
     "group_key": "SP_0501",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Natural Metropolitano",
       "Province": "Ciudad de Panamá",
       "Country": "PANAMA",
-      "Date": "22-05-2017",
-      "Threat_Status": null
+      "Date": "22-05-2017"
     },
     {
       "Species_ID": "SP_0501",
@@ -52,8 +47,7 @@
       "Location": "Parque Natural Metropolitano",
       "Province": "Ciudad de Panamá",
       "Country": "PANAMA",
-      "Date": "22-05-2017",
-      "Threat_Status": null
+      "Date": "22-05-2017"
     },
     {
       "Species_ID": "SP_0501",
@@ -68,8 +62,7 @@
       "Location": "Parque Natural Metropolitano",
       "Province": "Ciudad de Panamá",
       "Country": "PANAMA",
-      "Date": "22-05-2017",
-      "Threat_Status": null
+      "Date": "22-05-2017"
     }
   ]
 }

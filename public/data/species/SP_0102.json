@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Columbiformes/Columbiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:39.504610",
     "group_key": "SP_0102",
     "total_rows": 16,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Capilla del Monte",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "18-03-2013",
-      "Threat_Status": null
+      "Date": "18-03-2013"
     },
     {
       "Species_ID": "SP_0102",
@@ -52,8 +47,7 @@
       "Location": "General Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "27-03-2009",
-      "Threat_Status": null
+      "Date": "27-03-2009"
     },
     {
       "Species_ID": "SP_0102",
@@ -68,8 +62,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "03-03-2014",
-      "Threat_Status": null
+      "Date": "03-03-2014"
     },
     {
       "Species_ID": "SP_0102",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2005",
-      "Threat_Status": null
+      "Date": "11-2005"
     },
     {
       "Species_ID": "SP_0102",
@@ -100,8 +92,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0102",
@@ -116,8 +107,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0102",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0102",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0102",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0102",
@@ -180,8 +167,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "21-05-2008",
-      "Threat_Status": null
+      "Date": "21-05-2008"
     },
     {
       "Species_ID": "SP_0102",
@@ -196,8 +182,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "21-05-2008",
-      "Threat_Status": null
+      "Date": "21-05-2008"
     },
     {
       "Species_ID": "SP_0102",
@@ -212,8 +197,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "21-05-2008",
-      "Threat_Status": null
+      "Date": "21-05-2008"
     },
     {
       "Species_ID": "SP_0102",
@@ -228,8 +212,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "17-02-2009",
-      "Threat_Status": null
+      "Date": "17-02-2009"
     },
     {
       "Species_ID": "SP_0102",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2011",
-      "Threat_Status": null
+      "Date": "02-2011"
     },
     {
       "Species_ID": "SP_0102",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2011",
-      "Threat_Status": null
+      "Date": "02-2011"
     },
     {
       "Species_ID": "SP_0102",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2011",
-      "Threat_Status": null
+      "Date": "02-2011"
     }
   ]
 }

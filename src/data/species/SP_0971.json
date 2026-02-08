@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Cardinalidae/Cardinalidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T18:04:31.568632",
     "group_key": "SP_0971",
     "total_rows": 19,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "1-05-2007",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 1-05-2007",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 1-05-2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -55,8 +50,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "19-04-2009",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 19-04-2009",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 19-04-2009"
     },
     {
       "Species_ID": "SP_0971",
@@ -72,8 +66,7 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "15-10-2017",
-      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 15-10-2017",
-      "Threat_Status": null
+      "Location_Date": "San Francisco, Sierras de Calilegua, Jujuy - 15-10-2017"
     },
     {
       "Species_ID": "SP_0971",
@@ -89,8 +82,7 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "16-09-2018",
-      "Location_Date": "600 Hectáreas, Puerto Iguazú, Misiones - 16-09-2018",
-      "Threat_Status": null
+      "Location_Date": "600 Hectáreas, Puerto Iguazú, Misiones - 16-09-2018"
     },
     {
       "Species_ID": "SP_0971",
@@ -106,8 +98,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "1-04-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 1-04-2018",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 1-04-2018"
     },
     {
       "Species_ID": "SP_0971",
@@ -123,8 +114,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "2-2007",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -140,8 +130,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "2-2007",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -157,8 +146,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "2-2007",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -174,8 +162,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "2-2007",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 2/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -191,8 +178,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "5-2007",
-      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -208,8 +194,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "5-2007",
-      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -225,8 +210,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "5-2007",
-      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -242,8 +226,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "5-2007",
-      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -259,8 +242,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "5-2007",
-      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribear Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -276,8 +258,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -293,8 +274,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -310,8 +290,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-10-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 21/10/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -327,8 +306,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "7-12-2007",
-      "Location_Date": "Perdices, Entre Ríos - 7/12/2007",
-      "Threat_Status": null
+      "Location_Date": "Perdices, Entre Ríos - 7/12/2007"
     },
     {
       "Species_ID": "SP_0971",
@@ -344,8 +322,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "19-4-2009",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 19/4/2009",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 19/4/2009"
     }
   ]
 }

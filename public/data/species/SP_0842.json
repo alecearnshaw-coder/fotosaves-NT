@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.468320",
     "group_key": "SP_0842",
     "total_rows": 22,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-03-2012",
-      "Location_Date": "Villa Paranacito, Entre Ríos - 29-03-2012",
-      "Threat_Status": null
+      "Location_Date": "Villa Paranacito, Entre Ríos - 29-03-2012"
     },
     {
       "Species_ID": "SP_0842",
@@ -55,8 +50,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "29-03-2014",
-      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 29-03-2014",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 29-03-2014"
     },
     {
       "Species_ID": "SP_0842",
@@ -72,8 +66,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-11-2009",
-      "Location_Date": "Villa Paranacito, Entre Rios - 1/11/2009",
-      "Threat_Status": null
+      "Location_Date": "Villa Paranacito, Entre Rios - 1/11/2009"
     },
     {
       "Species_ID": "SP_0842",
@@ -89,8 +82,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-11-2009",
-      "Location_Date": "Villa Paranacito, Entre Rios - 1/11/2009",
-      "Threat_Status": null
+      "Location_Date": "Villa Paranacito, Entre Rios - 1/11/2009"
     },
     {
       "Species_ID": "SP_0842",
@@ -106,8 +98,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-11-2009",
-      "Location_Date": "Villa Paranacito, Entre Rios - 1/11/2009",
-      "Threat_Status": null
+      "Location_Date": "Villa Paranacito, Entre Rios - 1/11/2009"
     },
     {
       "Species_ID": "SP_0842",
@@ -123,8 +114,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "04-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2006",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2006"
     },
     {
       "Species_ID": "SP_0842",
@@ -140,8 +130,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "04-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2006",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2006"
     },
     {
       "Species_ID": "SP_0842",
@@ -157,8 +146,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "04-2006",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2006",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 4/2006"
     },
     {
       "Species_ID": "SP_0842",
@@ -174,8 +162,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "09-2006",
-      "Location_Date": "Punta Lara, Buenos Aires - 9/2006",
-      "Threat_Status": null
+      "Location_Date": "Punta Lara, Buenos Aires - 9/2006"
     },
     {
       "Species_ID": "SP_0842",
@@ -191,8 +178,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Otamendi, Buenos Aires -12/2006",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires -12/2006"
     },
     {
       "Species_ID": "SP_0842",
@@ -208,8 +194,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-05-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007"
     },
     {
       "Species_ID": "SP_0842",
@@ -225,8 +210,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-05-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007"
     },
     {
       "Species_ID": "SP_0842",
@@ -242,8 +226,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-05-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007"
     },
     {
       "Species_ID": "SP_0842",
@@ -259,8 +242,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-05-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 26/5/2007"
     },
     {
       "Species_ID": "SP_0842",
@@ -276,8 +258,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "09-07-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/7/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 9/7/2008"
     },
     {
       "Species_ID": "SP_0842",
@@ -293,8 +274,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "14-09-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 14/9/2008"
     },
     {
       "Species_ID": "SP_0842",
@@ -310,8 +290,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "06-01-2009",
-      "Location_Date": "Villa Paranacito, Entre Ríos - 6/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Villa Paranacito, Entre Ríos - 6/1/2009"
     },
     {
       "Species_ID": "SP_0842",
@@ -327,8 +306,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "07-03-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 7/3/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 7/3/2011"
     },
     {
       "Species_ID": "SP_0842",
@@ -344,8 +322,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "07-03-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 7/3/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 7/3/2011"
     },
     {
       "Species_ID": "SP_0842",
@@ -361,8 +338,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011"
     },
     {
       "Species_ID": "SP_0842",
@@ -378,8 +354,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "10-10-2011",
-      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 10/10/2011"
     },
     {
       "Species_ID": "SP_0842",
@@ -395,8 +370,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-03-2012",
-      "Location_Date": "Villa Paranacito, Entre Ríos - 29/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Villa Paranacito, Entre Ríos - 29/3/2012"
     }
   ]
 }

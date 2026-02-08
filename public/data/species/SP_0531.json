@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.383203",
     "group_key": "SP_0531",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Azul Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": null
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_0531",
@@ -52,8 +47,7 @@
       "Location": "Lomas de Asia",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "18-09-2009",
-      "Threat_Status": null
+      "Date": "18-09-2009"
     }
   ]
 }

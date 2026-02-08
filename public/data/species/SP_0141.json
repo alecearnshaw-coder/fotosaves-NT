@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Gruiformes/Gruiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-04T03:21:11.485757",
     "group_key": "SP_0141",
     "total_rows": 10,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-10-2016",
-      "Threat_Status": null
+      "Date": "08-10-2016"
     },
     {
       "Species_ID": "SP_0141",
@@ -52,8 +47,7 @@
       "Location": "Reserva Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-10-2016",
-      "Threat_Status": null
+      "Date": "08-10-2016"
     },
     {
       "Species_ID": "SP_0141",
@@ -68,8 +62,7 @@
       "Location": "Reserva Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-10-2016",
-      "Threat_Status": null
+      "Date": "08-10-2016"
     },
     {
       "Species_ID": "SP_0141",
@@ -84,8 +77,7 @@
       "Location": "Reserva Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-10-2016",
-      "Threat_Status": null
+      "Date": "08-10-2016"
     },
     {
       "Species_ID": "SP_0141",
@@ -100,8 +92,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0141",
@@ -116,8 +107,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0141",
@@ -132,8 +122,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0141",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0141",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0141",
@@ -180,8 +167,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     }
   ]
 }

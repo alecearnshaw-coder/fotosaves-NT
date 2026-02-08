@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Passerellidae/Passerellidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T03:03:23.087626",
     "group_key": "SP_0924",
     "total_rows": 18,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "17-11-2007",
-      "Threat_Status": null
+      "Date": "17-11-2007"
     },
     {
       "Species_ID": "SP_0924",
@@ -52,8 +47,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2017",
-      "Threat_Status": null
+      "Date": "27-02-2017"
     },
     {
       "Species_ID": "SP_0924",
@@ -68,8 +62,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-11-2013",
-      "Threat_Status": null
+      "Date": "24-11-2013"
     },
     {
       "Species_ID": "SP_0924",
@@ -84,8 +77,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "01-03-2014",
-      "Threat_Status": null
+      "Date": "01-03-2014"
     },
     {
       "Species_ID": "SP_0924",
@@ -100,8 +92,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0924",
@@ -116,8 +107,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0924",
@@ -132,8 +122,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0924",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0924",
@@ -164,8 +152,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0924",
@@ -180,8 +167,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0924",
@@ -196,8 +182,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-10-2008",
-      "Threat_Status": null
+      "Date": "26-10-2008"
     },
     {
       "Species_ID": "SP_0924",
@@ -212,8 +197,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-10-2008",
-      "Threat_Status": null
+      "Date": "26-10-2008"
     },
     {
       "Species_ID": "SP_0924",
@@ -228,8 +212,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-10-2008",
-      "Threat_Status": null
+      "Date": "26-10-2008"
     },
     {
       "Species_ID": "SP_0924",
@@ -244,8 +227,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "17-11-2007",
-      "Threat_Status": null
+      "Date": "17-11-2007"
     },
     {
       "Species_ID": "SP_0924",
@@ -260,8 +242,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "23-12-2007",
-      "Threat_Status": null
+      "Date": "23-12-2007"
     },
     {
       "Species_ID": "SP_0924",
@@ -276,8 +257,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "23-12-2007",
-      "Threat_Status": null
+      "Date": "23-12-2007"
     },
     {
       "Species_ID": "SP_0924",
@@ -292,8 +272,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-11-2008",
-      "Threat_Status": null
+      "Date": "22-11-2008"
     },
     {
       "Species_ID": "SP_0924",
@@ -308,8 +287,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2010",
-      "Threat_Status": null
+      "Date": "27-02-2010"
     }
   ]
 }

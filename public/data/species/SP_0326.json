@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Pelecaniformes/Pelecaniformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-11T23:40:40.268619",
     "group_key": "SP_0326",
     "total_rows": 35,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Esteros del Iberá, Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -52,8 +47,7 @@
       "Location": "Reserva Natural Otamendi, Campana",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-01-2014",
-      "Threat_Status": null
+      "Date": "12-01-2014"
     },
     {
       "Species_ID": "SP_0326",
@@ -68,8 +62,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-12-2018",
-      "Threat_Status": null
+      "Date": "16-12-2018"
     },
     {
       "Species_ID": "SP_0326",
@@ -84,8 +77,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": null
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0326",
@@ -100,8 +92,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0326",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0326",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0326",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2002",
-      "Threat_Status": null
+      "Date": "10-2002"
     },
     {
       "Species_ID": "SP_0326",
@@ -164,8 +152,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0326",
@@ -180,8 +167,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0326",
@@ -196,8 +182,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -212,8 +197,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -228,8 +212,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -244,8 +227,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -260,8 +242,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -276,8 +257,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -292,8 +272,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -308,8 +287,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-12-2007",
-      "Threat_Status": null
+      "Date": "06-12-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-12-2007",
-      "Threat_Status": null
+      "Date": "06-12-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -340,8 +317,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-12-2007",
-      "Threat_Status": null
+      "Date": "06-12-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -356,8 +332,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-02-2008",
-      "Threat_Status": null
+      "Date": "23-02-2008"
     },
     {
       "Species_ID": "SP_0326",
@@ -372,8 +347,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-02-2008",
-      "Threat_Status": null
+      "Date": "23-02-2008"
     },
     {
       "Species_ID": "SP_0326",
@@ -388,8 +362,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-02-2008",
-      "Threat_Status": null
+      "Date": "23-02-2008"
     },
     {
       "Species_ID": "SP_0326",
@@ -404,8 +377,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-02-2008",
-      "Threat_Status": null
+      "Date": "23-02-2008"
     },
     {
       "Species_ID": "SP_0326",
@@ -420,8 +392,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-02-2008",
-      "Threat_Status": null
+      "Date": "23-02-2008"
     },
     {
       "Species_ID": "SP_0326",
@@ -436,8 +407,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-02-2008",
-      "Threat_Status": null
+      "Date": "23-02-2008"
     },
     {
       "Species_ID": "SP_0326",
@@ -452,8 +422,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-12-2007",
-      "Threat_Status": null
+      "Date": "06-12-2007"
     },
     {
       "Species_ID": "SP_0326",
@@ -468,8 +437,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -484,8 +452,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -500,8 +467,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -516,8 +482,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -532,8 +497,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -548,8 +512,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -564,8 +527,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0326",
@@ -580,8 +542,7 @@
       "Location": "Parque Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-12-2009",
-      "Threat_Status": null
+      "Date": "03-12-2009"
     }
   ]
 }

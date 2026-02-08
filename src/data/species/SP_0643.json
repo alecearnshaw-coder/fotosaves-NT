@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.460892",
     "group_key": "SP_0643",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Provincial Potrero de Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_0643",
@@ -52,8 +47,7 @@
       "Location": "Parque Provincial Urugua-í",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": null
+      "Date": "10-09-2018"
     }
   ]
 }

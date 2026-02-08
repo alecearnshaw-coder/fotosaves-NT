@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.346596",
     "group_key": "SP_0825",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Refugio del Peñón, Camino a Laguna Brava",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_0825",
@@ -52,8 +47,7 @@
       "Location": "Refugio del Peñón, Camino a Laguna Brava",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_0825",
@@ -68,8 +62,7 @@
       "Location": "Refugio del Peñón, Camino a Laguna Brava",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_0825",
@@ -84,8 +77,7 @@
       "Location": "Refugio del Peñón, Camino a Laguna Brava",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_0825",
@@ -100,8 +92,7 @@
       "Location": "La Intermedia",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_0825",
@@ -116,8 +107,7 @@
       "Location": "El Morado",
       "Province": "Región Metropolitana",
       "Country": "CHILE",
-      "Date": "14-12-2009",
-      "Threat_Status": null
+      "Date": "14-12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -132,8 +122,7 @@
       "Location": "El Morado",
       "Province": "Región Metropolitana",
       "Country": "CHILE",
-      "Date": "14-12-2009",
-      "Threat_Status": null
+      "Date": "14-12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -148,8 +137,7 @@
       "Location": "El Morado",
       "Province": "Región Metropolitana",
       "Country": "CHILE",
-      "Date": "14-12-2009",
-      "Threat_Status": null
+      "Date": "14-12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -164,8 +152,7 @@
       "Location": "El Morado",
       "Province": "Región Metropolitana",
       "Country": "CHILE",
-      "Date": "14-12-2009",
-      "Threat_Status": null
+      "Date": "14-12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -180,8 +167,7 @@
       "Location": "El Morado",
       "Province": "Región Metropolitana",
       "Country": "CHILE",
-      "Date": "14-12-2009",
-      "Threat_Status": null
+      "Date": "14-12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -196,8 +182,7 @@
       "Location": "El Morado",
       "Province": "Región Metropolitana",
       "Country": "CHILE",
-      "Date": "14-12-2009",
-      "Threat_Status": null
+      "Date": "14-12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -212,8 +197,7 @@
       "Location": "El Morado",
       "Province": "Región Metropolitana",
       "Country": "CHILE",
-      "Date": "14-12-2009",
-      "Threat_Status": null
+      "Date": "14-12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -228,8 +212,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "12-2009",
-      "Threat_Status": null
+      "Date": "12-2009"
     },
     {
       "Species_ID": "SP_0825",
@@ -244,8 +227,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "12-2009",
-      "Threat_Status": null
+      "Date": "12-2009"
     }
   ]
 }

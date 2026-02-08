@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.107412",
     "group_key": "SP_0220",
     "total_rows": 20,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Lago Pellegrini, Cinco Saltos",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "09-2012",
-      "Threat_Status": null
+      "Date": "09-2012"
     },
     {
       "Species_ID": "SP_0220",
@@ -52,8 +47,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0220",
@@ -68,8 +62,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0220",
@@ -84,8 +77,7 @@
       "Location": "Ruta 11 y Río Salado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-09-2014",
-      "Threat_Status": null
+      "Date": "21-09-2014"
     },
     {
       "Species_ID": "SP_0220",
@@ -100,8 +92,7 @@
       "Location": "Tapera de López, Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-03-2019",
-      "Threat_Status": null
+      "Date": "23-03-2019"
     },
     {
       "Species_ID": "SP_0220",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0220",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0220",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0220",
@@ -164,8 +152,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0220",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-10-2007",
-      "Threat_Status": null
+      "Date": "14-10-2007"
     },
     {
       "Species_ID": "SP_0220",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-10-2007",
-      "Threat_Status": null
+      "Date": "14-10-2007"
     },
     {
       "Species_ID": "SP_0220",
@@ -212,8 +197,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-10-2007",
-      "Threat_Status": null
+      "Date": "14-10-2007"
     },
     {
       "Species_ID": "SP_0220",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-10-2007",
-      "Threat_Status": null
+      "Date": "14-10-2007"
     },
     {
       "Species_ID": "SP_0220",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-10-2007",
-      "Threat_Status": null
+      "Date": "14-10-2007"
     },
     {
       "Species_ID": "SP_0220",
@@ -260,8 +242,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0220",
@@ -276,8 +257,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0220",
@@ -292,8 +272,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0220",
@@ -308,8 +287,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0220",
@@ -324,8 +302,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0220",
@@ -340,8 +317,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     }
   ]
 }

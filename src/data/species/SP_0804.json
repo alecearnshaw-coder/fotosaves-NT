@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.472316",
     "group_key": "SP_0804",
     "total_rows": 23,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "30-01-2008",
-      "Threat_Status": null
+      "Date": "30-01-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -52,8 +47,7 @@
       "Location": "Sendero Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0804",
@@ -68,8 +62,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-02-2014",
-      "Threat_Status": null
+      "Date": "02-02-2014"
     },
     {
       "Species_ID": "SP_0804",
@@ -84,8 +77,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-02-2014",
-      "Threat_Status": null
+      "Date": "01-02-2014"
     },
     {
       "Species_ID": "SP_0804",
@@ -100,8 +92,7 @@
       "Location": "Sendero Costero, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "15-02-2017",
-      "Threat_Status": null
+      "Date": "15-02-2017"
     },
     {
       "Species_ID": "SP_0804",
@@ -116,8 +107,7 @@
       "Location": "Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-02-2017",
-      "Threat_Status": null
+      "Date": "13-02-2017"
     },
     {
       "Species_ID": "SP_0804",
@@ -132,8 +122,7 @@
       "Location": "Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-02-2017",
-      "Threat_Status": null
+      "Date": "13-02-2017"
     },
     {
       "Species_ID": "SP_0804",
@@ -148,8 +137,7 @@
       "Location": "Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-02-2017",
-      "Threat_Status": null
+      "Date": "13-02-2017"
     },
     {
       "Species_ID": "SP_0804",
@@ -164,8 +152,7 @@
       "Location": "Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-02-2017",
-      "Threat_Status": null
+      "Date": "13-02-2017"
     },
     {
       "Species_ID": "SP_0804",
@@ -180,8 +167,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -196,8 +182,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -212,8 +197,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -228,8 +212,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -244,8 +227,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -260,8 +242,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -276,8 +257,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -292,8 +272,7 @@
       "Location": "Ushuaia & Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0804",
@@ -308,8 +287,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0804",
@@ -324,8 +302,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0804",
@@ -340,8 +317,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0804",
@@ -356,8 +332,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0804",
@@ -372,8 +347,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0804",
@@ -388,8 +362,7 @@
       "Location": "Monte Ceballos, Los Antiguos",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "01-2000",
-      "Threat_Status": null
+      "Date": "01-2000"
     }
   ]
 }

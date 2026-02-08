@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Columbiformes/Columbiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:39.504610",
     "group_key": "SP_0108",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": null
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0108",
@@ -52,8 +47,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "22-05-2008",
-      "Threat_Status": null
+      "Date": "22-05-2008"
     },
     {
       "Species_ID": "SP_0108",
@@ -68,8 +62,7 @@
       "Location": "Villa Union",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "26-02-2025",
-      "Threat_Status": null
+      "Date": "26-02-2025"
     },
     {
       "Species_ID": "SP_0108",
@@ -84,8 +77,7 @@
       "Location": "Villa Union",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "26-02-2025",
-      "Threat_Status": null
+      "Date": "26-02-2025"
     },
     {
       "Species_ID": "SP_0108",
@@ -100,8 +92,7 @@
       "Location": "Miraflores",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0108",
@@ -116,8 +107,7 @@
       "Location": "Miraflores",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0108",
@@ -132,8 +122,7 @@
       "Location": "Miraflores",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0108",
@@ -148,8 +137,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "22-05-2008",
-      "Threat_Status": null
+      "Date": "22-05-2008"
     },
     {
       "Species_ID": "SP_0108",
@@ -164,8 +152,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "22-05-2008",
-      "Threat_Status": null
+      "Date": "22-05-2008"
     },
     {
       "Species_ID": "SP_0108",
@@ -180,8 +167,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "22-05-2008",
-      "Threat_Status": null
+      "Date": "22-05-2008"
     },
     {
       "Species_ID": "SP_0108",
@@ -196,8 +182,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "22-05-2008",
-      "Threat_Status": null
+      "Date": "22-05-2008"
     },
     {
       "Species_ID": "SP_0108",
@@ -212,8 +197,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "22-05-2008",
-      "Threat_Status": null
+      "Date": "22-05-2008"
     },
     {
       "Species_ID": "SP_0108",
@@ -228,8 +212,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "22-05-2008",
-      "Threat_Status": null
+      "Date": "22-05-2008"
     }
   ]
 }

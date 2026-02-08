@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Procellariiformes/Procellariiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-10T19:42:52.323080",
     "group_key": "SP_0263",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -52,8 +47,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -68,8 +62,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -84,8 +77,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -100,8 +92,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -116,8 +107,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -132,8 +122,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -148,8 +137,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -164,8 +152,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -180,8 +167,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     },
     {
       "Species_ID": "SP_0263",
@@ -196,8 +182,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2009",
-      "Threat_Status": null
+      "Date": "17-07-2009"
     }
   ]
 }

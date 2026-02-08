@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Hirundinidae/Hirundinidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-04T13:34:36.198483",
     "group_key": "SP_0859",
     "total_rows": 10,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Puente Buñirigo, Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "27-10-2010",
-      "Threat_Status": null
+      "Date": "27-10-2010"
     },
     {
       "Species_ID": "SP_0859",
@@ -52,8 +47,7 @@
       "Location": "San Clemente del Tuyú",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-09-2014",
-      "Threat_Status": null
+      "Date": "21-09-2014"
     },
     {
       "Species_ID": "SP_0859",
@@ -68,8 +62,7 @@
       "Location": "Gerli",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-01-2024",
-      "Threat_Status": null
+      "Date": "26-01-2024"
     },
     {
       "Species_ID": "SP_0859",
@@ -84,8 +77,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-2005",
-      "Threat_Status": null
+      "Date": "12-2005"
     },
     {
       "Species_ID": "SP_0859",
@@ -100,8 +92,7 @@
       "Location": "Puerto de Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-10-2009",
-      "Threat_Status": null
+      "Date": "02-10-2009"
     },
     {
       "Species_ID": "SP_0859",
@@ -116,8 +107,7 @@
       "Location": "Puente Buñirigo, Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "27-10-2009",
-      "Threat_Status": null
+      "Date": "27-10-2009"
     },
     {
       "Species_ID": "SP_0859",
@@ -132,8 +122,7 @@
       "Location": "Puente Buñirigo, Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "27-10-2009",
-      "Threat_Status": null
+      "Date": "27-10-2009"
     },
     {
       "Species_ID": "SP_0859",
@@ -148,8 +137,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-12-2007",
-      "Threat_Status": null
+      "Date": "16-12-2007"
     },
     {
       "Species_ID": "SP_0859",
@@ -164,8 +152,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-12-2007",
-      "Threat_Status": null
+      "Date": "16-12-2007"
     },
     {
       "Species_ID": "SP_0859",
@@ -180,8 +167,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-12-2007",
-      "Threat_Status": null
+      "Date": "16-12-2007"
     }
   ]
 }

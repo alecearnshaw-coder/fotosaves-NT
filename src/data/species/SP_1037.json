@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.270630",
     "group_key": "SP_1037",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Camino a Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": "Vulnerable"
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_1037",
@@ -68,8 +62,7 @@
       "Location": "P. N. El Palmar, Ubajay",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-12-2015",
-      "Threat_Status": "Vulnerable"
+      "Date": "07-12-2015"
     },
     {
       "Species_ID": "SP_1037",
@@ -84,8 +77,7 @@
       "Location": "Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2004",
-      "Threat_Status": "Vulnerable"
+      "Date": "01-2004"
     },
     {
       "Species_ID": "SP_1037",
@@ -100,8 +92,7 @@
       "Location": "Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2004",
-      "Threat_Status": "Vulnerable"
+      "Date": "01-2004"
     },
     {
       "Species_ID": "SP_1037",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -132,8 +122,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -148,8 +137,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -164,8 +152,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -180,8 +167,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -196,8 +182,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -212,8 +197,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -228,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_1037",
@@ -244,8 +227,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "05-01-2009"
     }
   ]
 }

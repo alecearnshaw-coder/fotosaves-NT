@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Mimidae/Mimidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-08T22:07:03.320886",
     "group_key": "SP_0879",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-05-2011",
-      "Threat_Status": null
+      "Date": "29-05-2011"
     },
     {
       "Species_ID": "SP_0879",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-04-2018",
-      "Threat_Status": null
+      "Date": "01-04-2018"
     },
     {
       "Species_ID": "SP_0879",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-2012",
-      "Threat_Status": null
+      "Date": "03-2012"
     },
     {
       "Species_ID": "SP_0879",
@@ -84,8 +77,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-06-2014",
-      "Threat_Status": null
+      "Date": "08-06-2014"
     },
     {
       "Species_ID": "SP_0879",
@@ -100,8 +92,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0879",
@@ -116,8 +107,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0879",
@@ -132,8 +122,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0879",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-05-2011",
-      "Threat_Status": null
+      "Date": "29-05-2011"
     },
     {
       "Species_ID": "SP_0879",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-05-2011",
-      "Threat_Status": null
+      "Date": "29-05-2011"
     },
     {
       "Species_ID": "SP_0879",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-05-2011",
-      "Threat_Status": null
+      "Date": "29-05-2011"
     },
     {
       "Species_ID": "SP_0879",
@@ -196,8 +182,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2005",
-      "Threat_Status": null
+      "Date": "05-2005"
     },
     {
       "Species_ID": "SP_0879",
@@ -212,8 +197,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2005",
-      "Threat_Status": null
+      "Date": "05-2005"
     }
   ]
 }

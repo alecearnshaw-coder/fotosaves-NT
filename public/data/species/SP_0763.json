@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Dendro/Furnariidae-Dendro_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T23:39:16.737379",
     "group_key": "SP_0763",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-08-2014",
-      "Threat_Status": null
+      "Date": "16-08-2014"
     },
     {
       "Species_ID": "SP_0763",
@@ -52,8 +47,7 @@
       "Location": "Ecoportal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "18-10-2017",
-      "Threat_Status": null
+      "Date": "18-10-2017"
     },
     {
       "Species_ID": "SP_0763",
@@ -68,8 +62,7 @@
       "Location": "RP2",
       "Province": "Formosa",
       "Country": null,
-      "Date": "19-10-2019",
-      "Threat_Status": null
+      "Date": "19-10-2019"
     }
   ]
 }

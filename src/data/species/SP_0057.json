@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.882471",
     "group_key": "SP_0057",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural \"Los Robles\", Moreno",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2010",
-      "Threat_Status": null
+      "Date": "24-03-2010"
     },
     {
       "Species_ID": "SP_0057",
@@ -52,8 +47,7 @@
       "Location": "Planta de tratamiento de efluyentes, Chilecito",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "25-02-2025",
-      "Threat_Status": null
+      "Date": "25-02-2025"
     },
     {
       "Species_ID": "SP_0057",
@@ -68,8 +62,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0057",
@@ -84,8 +77,7 @@
       "Location": "Costanera Sur",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0057",
@@ -100,8 +92,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0057",
@@ -116,8 +107,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0057",
@@ -132,8 +122,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2010",
-      "Threat_Status": null
+      "Date": "24-03-2010"
     },
     {
       "Species_ID": "SP_0057",
@@ -148,8 +137,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2010",
-      "Threat_Status": null
+      "Date": "24-03-2010"
     },
     {
       "Species_ID": "SP_0057",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-01-2010",
-      "Threat_Status": null
+      "Date": "02-01-2010"
     },
     {
       "Species_ID": "SP_0057",
@@ -180,8 +167,7 @@
       "Location": "Los Robles, La Reja",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-11-2008",
-      "Threat_Status": null
+      "Date": "15-11-2008"
     },
     {
       "Species_ID": "SP_0057",
@@ -196,8 +182,7 @@
       "Location": "(En cuativerio) (In captivity) Slimbridge Wetland Centre, Gloucestershire",
       "Province": "England",
       "Country": null,
-      "Date": "08-1981",
-      "Threat_Status": null
+      "Date": "08-1981"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.329656",
     "group_key": "SP_0836",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Paso Córdoba, General Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "15-09-2012",
-      "Threat_Status": null
+      "Date": "15-09-2012"
     },
     {
       "Species_ID": "SP_0836",
@@ -52,8 +47,7 @@
       "Location": "Paso Córdoba, General Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "15-09-2012",
-      "Threat_Status": null
+      "Date": "15-09-2012"
     }
   ]
 }

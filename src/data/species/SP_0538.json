@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.414453",
     "group_key": "SP_0538",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2001",
-      "Threat_Status": null
+      "Date": "10-2001"
     },
     {
       "Species_ID": "SP_0538",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "22-09-2015",
-      "Threat_Status": null
+      "Date": "22-09-2015"
     },
     {
       "Species_ID": "SP_0538",
@@ -68,8 +62,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "03-05-2014",
-      "Threat_Status": null
+      "Date": "03-05-2014"
     }
   ]
 }

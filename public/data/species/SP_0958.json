@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Parulidae/Parulidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T14:35:49.514903",
     "group_key": "SP_0958",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Finky, Turdera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-08-2023",
-      "Threat_Status": null
+      "Date": "15-08-2023"
     }
   ]
 }

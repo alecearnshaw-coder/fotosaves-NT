@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-17T23:31:27.291026",
     "group_key": "SP_0507",
     "total_rows": 8,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-04-2018",
-      "Threat_Status": null
+      "Date": "13-04-2018"
     },
     {
       "Species_ID": "SP_0507",
@@ -52,8 +47,7 @@
       "Location": "San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-04-2018",
-      "Threat_Status": null
+      "Date": "13-04-2018"
     },
     {
       "Species_ID": "SP_0507",
@@ -68,8 +62,7 @@
       "Location": "Entre Río Jordán y Monolito, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_0507",
@@ -84,8 +77,7 @@
       "Location": "Entre Río Jordán y Monolito, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_0507",
@@ -100,8 +92,7 @@
       "Location": "Cerca de San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "15-10-2017",
-      "Threat_Status": null
+      "Date": "15-10-2017"
     },
     {
       "Species_ID": "SP_0507",
@@ -116,8 +107,7 @@
       "Location": "La Vega",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "14-04-2007",
-      "Threat_Status": null
+      "Date": "14-04-2007"
     },
     {
       "Species_ID": "SP_0507",
@@ -132,8 +122,7 @@
       "Location": "La Vega",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "14-04-2007",
-      "Threat_Status": null
+      "Date": "14-04-2007"
     },
     {
       "Species_ID": "SP_0507",
@@ -148,8 +137,7 @@
       "Location": "La Vega",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "14-04-2007",
-      "Threat_Status": null
+      "Date": "14-04-2007"
     }
   ]
 }

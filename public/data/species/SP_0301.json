@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Suliformes/Suliformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-10T21:46:29.321084",
     "group_key": "SP_0301",
     "total_rows": 6,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Pucusana",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0301",
@@ -52,8 +47,7 @@
       "Location": "Pucusana",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0301",
@@ -68,8 +62,7 @@
       "Location": "Pucusana",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0301",
@@ -84,8 +77,7 @@
       "Location": "Cachagua",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "17-12-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-12-2009"
     },
     {
       "Species_ID": "SP_0301",
@@ -100,8 +92,7 @@
       "Location": "Cachagua",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "17-12-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-12-2009"
     },
     {
       "Species_ID": "SP_0301",
@@ -116,8 +107,7 @@
       "Location": "Cachagua",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "17-12-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-12-2009"
     }
   ]
 }

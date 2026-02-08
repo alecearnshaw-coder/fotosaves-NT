@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Galliformes/Galliformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-01T11:26:39.829404",
     "group_key": "SP_0065",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "EcoPortal de Piedra, camino a El Fuerte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "18-08-2014",
-      "Threat_Status": null
+      "Date": "18-08-2014"
     },
     {
       "Species_ID": "SP_0065",
@@ -52,8 +47,7 @@
       "Location": "EcoPortal de Piedra, camino a El Fuerte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "18-08-2014",
-      "Threat_Status": null
+      "Date": "18-08-2014"
     }
   ]
 }

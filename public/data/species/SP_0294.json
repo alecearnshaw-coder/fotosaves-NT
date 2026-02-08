@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Suliformes/Suliformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-10T21:46:29.285193",
     "group_key": "SP_0294",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Represa Chongón",
       "Province": "Guayaquil",
       "Country": "ECUADOR",
-      "Date": "25-02-2006",
-      "Threat_Status": null
+      "Date": "25-02-2006"
     },
     {
       "Species_ID": "SP_0294",
@@ -52,8 +47,7 @@
       "Location": "Represa Chongón",
       "Province": "Guayaquil",
       "Country": "ECUADOR",
-      "Date": "25-02-2006",
-      "Threat_Status": null
+      "Date": "25-02-2006"
     }
   ]
 }

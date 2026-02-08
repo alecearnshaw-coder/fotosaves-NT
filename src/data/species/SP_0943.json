@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Icteridae/Icteridae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T13:53:09.042611",
     "group_key": "SP_0943",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Predio del INTA, Castelar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-03-2007",
-      "Threat_Status": null
+      "Date": "02-03-2007"
     },
     {
       "Species_ID": "SP_0943",
@@ -52,8 +47,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-08-2019",
-      "Threat_Status": null
+      "Date": "04-08-2019"
     },
     {
       "Species_ID": "SP_0943",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-01-2024",
-      "Threat_Status": null
+      "Date": "18-01-2024"
     },
     {
       "Species_ID": "SP_0943",
@@ -84,8 +77,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-04-2008",
-      "Threat_Status": null
+      "Date": "13-04-2008"
     },
     {
       "Species_ID": "SP_0943",
@@ -100,8 +92,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-04-2008",
-      "Threat_Status": null
+      "Date": "13-04-2008"
     },
     {
       "Species_ID": "SP_0943",
@@ -116,8 +107,7 @@
       "Location": "Reserva Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2002",
-      "Threat_Status": null
+      "Date": "09-2002"
     },
     {
       "Species_ID": "SP_0943",
@@ -132,8 +122,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0943",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0943",
@@ -164,8 +152,7 @@
       "Location": "Predio del INTA, Castelar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0943",
@@ -180,8 +167,7 @@
       "Location": "Carlos Pellegrini, Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "01-2009",
-      "Threat_Status": null
+      "Date": "01-2009"
     },
     {
       "Species_ID": "SP_0943",
@@ -196,8 +182,7 @@
       "Location": "Carlos Pellegrini, Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "01-2009",
-      "Threat_Status": null
+      "Date": "01-2009"
     },
     {
       "Species_ID": "SP_0943",
@@ -212,8 +197,7 @@
       "Location": "Los Robles, Moreno",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-06-2010",
-      "Threat_Status": null
+      "Date": "05-06-2010"
     },
     {
       "Species_ID": "SP_0943",
@@ -228,8 +212,7 @@
       "Location": "Los Robles, Moreno",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-06-2010",
-      "Threat_Status": null
+      "Date": "05-06-2010"
     },
     {
       "Species_ID": "SP_0943",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-10-2010",
-      "Threat_Status": null
+      "Date": "09-10-2010"
     }
   ]
 }

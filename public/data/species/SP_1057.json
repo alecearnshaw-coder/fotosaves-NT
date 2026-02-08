@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.411252",
     "group_key": "SP_1057",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Provincial Potrero de Yala, Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "08-10-2017",
-      "Threat_Status": null
+      "Date": "08-10-2017"
     },
     {
       "Species_ID": "SP_1057",
@@ -52,8 +47,7 @@
       "Location": "San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "29-08-2023",
-      "Threat_Status": null
+      "Date": "29-08-2023"
     },
     {
       "Species_ID": "SP_1057",
@@ -68,8 +62,7 @@
       "Location": "Finca El Garabatal, El Fuerte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "18-08-2014",
-      "Threat_Status": null
+      "Date": "18-08-2014"
     },
     {
       "Species_ID": "SP_1057",
@@ -84,8 +77,7 @@
       "Location": "Parque Provincial Potrero de Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_1057",
@@ -100,8 +92,7 @@
       "Location": "Parque Provincial Potrero de Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T18:26:38.250884",
     "group_key": "SP_0459",
     "total_rows": 23,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Arroyo Sunchales, RP83, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "01-09-2023",
-      "Threat_Status": null
+      "Date": "01-09-2023"
     },
     {
       "Species_ID": "SP_0459",
@@ -52,8 +47,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -68,8 +62,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_0459",
@@ -84,8 +77,7 @@
       "Location": "Camino E66, La Cumbre",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-03-2013",
-      "Threat_Status": null
+      "Date": "22-03-2013"
     },
     {
       "Species_ID": "SP_0459",
@@ -100,8 +92,7 @@
       "Location": "Lago Fagnano",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "30-01-2014",
-      "Threat_Status": null
+      "Date": "30-01-2014"
     },
     {
       "Species_ID": "SP_0459",
@@ -116,8 +107,7 @@
       "Location": "Lomas de Asia",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "18-09-2009",
-      "Threat_Status": null
+      "Date": "18-09-2009"
     },
     {
       "Species_ID": "SP_0459",
@@ -132,8 +122,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-03-2011",
-      "Threat_Status": null
+      "Date": "18-03-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -148,8 +137,7 @@
       "Location": "Lomas de Asia",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "18-09-2009",
-      "Threat_Status": null
+      "Date": "18-09-2009"
     },
     {
       "Species_ID": "SP_0459",
@@ -164,8 +152,7 @@
       "Location": "Lomas de Asia",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "18-09-2009",
-      "Threat_Status": null
+      "Date": "18-09-2009"
     },
     {
       "Species_ID": "SP_0459",
@@ -180,8 +167,7 @@
       "Location": "Centro de Recría \"Guira Oga\", Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "07-1999",
-      "Threat_Status": null
+      "Date": "07-1999"
     },
     {
       "Species_ID": "SP_0459",
@@ -196,8 +182,7 @@
       "Location": "Temaiken Zoo, Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2003",
-      "Threat_Status": null
+      "Date": "01-2003"
     },
     {
       "Species_ID": "SP_0459",
@@ -212,8 +197,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -228,8 +212,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -244,8 +227,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -260,8 +242,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -276,8 +257,7 @@
       "Location": "RN40, Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -292,8 +272,7 @@
       "Location": "RN40, Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -308,8 +287,7 @@
       "Location": "RN40, Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -324,8 +302,7 @@
       "Location": "RN40, Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -340,8 +317,7 @@
       "Location": "RN40, Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -356,8 +332,7 @@
       "Location": "RN40, Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -372,8 +347,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0459",
@@ -388,8 +362,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     }
   ]
 }

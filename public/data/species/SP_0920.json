@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Fringillidae-Frin/Fringillinae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T02:14:34.738270",
     "group_key": "SP_0920",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Refugio del Peñón, Camino a Laguna Brava",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_0920",
@@ -52,8 +47,7 @@
       "Location": "Chinchán",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "20-09-2016",
-      "Threat_Status": null
+      "Date": "20-09-2016"
     },
     {
       "Species_ID": "SP_0920",
@@ -68,8 +62,7 @@
       "Location": "Refugio del Peñón, Camino a Laguna Brava",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_0920",
@@ -84,8 +77,7 @@
       "Location": "Azul Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2014",
-      "Threat_Status": null
+      "Date": "14-10-2014"
     }
   ]
 }

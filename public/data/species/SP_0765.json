@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Dendro/Furnariidae-Dendro_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T23:39:16.706700",
     "group_key": "SP_0765",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Establecimiento Los Picazos, Tres Marías",
       "Province": "Formosa",
       "Country": null,
-      "Date": "25-10-2019",
-      "Threat_Status": null
+      "Date": "25-10-2019"
     }
   ]
 }

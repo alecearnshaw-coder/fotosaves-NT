@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:09.953381",
     "group_key": "SP_0171",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-04-2013",
-      "Threat_Status": "NT"
+      "Date": "06-04-2013"
     },
     {
       "Species_ID": "SP_0171",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-04-2013",
-      "Threat_Status": null
+      "Date": "06-04-2013"
     },
     {
       "Species_ID": "SP_0171",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-04-2013",
-      "Threat_Status": null
+      "Date": "06-04-2013"
     },
     {
       "Species_ID": "SP_0171",
@@ -84,8 +77,7 @@
       "Location": "Reserva Natural de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-01-2014",
-      "Threat_Status": null
+      "Date": "11-01-2014"
     },
     {
       "Species_ID": "SP_0171",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-12-2014",
-      "Threat_Status": null
+      "Date": "26-12-2014"
     },
     {
       "Species_ID": "SP_0171",
@@ -116,8 +107,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2004",
-      "Threat_Status": null
+      "Date": "10-2004"
     },
     {
       "Species_ID": "SP_0171",
@@ -132,8 +122,7 @@
       "Location": "Ceinas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "08-12-2010",
-      "Threat_Status": null
+      "Date": "08-12-2010"
     }
   ]
 }

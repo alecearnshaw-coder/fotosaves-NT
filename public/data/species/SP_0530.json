@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.383203",
     "group_key": "SP_0530",
     "total_rows": 9,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Manzano Histórico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_0530",
@@ -52,8 +47,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_0530",
@@ -68,8 +62,7 @@
       "Location": "Reserva Provincial Potrero de Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_0530",
@@ -84,8 +77,7 @@
       "Location": "Manzano Historico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_0530",
@@ -100,8 +92,7 @@
       "Location": "Manzano Historico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_0530",
@@ -116,8 +107,7 @@
       "Location": "Manzano Historico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_0530",
@@ -132,8 +122,7 @@
       "Location": "Manzano Historico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_0530",
@@ -148,8 +137,7 @@
       "Location": "Manzano Historico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_0530",
@@ -164,8 +152,7 @@
       "Location": "Manzano Historico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     }
   ]
 }

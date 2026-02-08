@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Rhinocryptidae/Rhinocryptidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T13:33:47.114467",
     "group_key": "SP_0746",
     "total_rows": 19,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "14-02-2017",
-      "Threat_Status": null
+      "Date": "14-02-2017"
     },
     {
       "Species_ID": "SP_0746",
@@ -52,8 +47,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "14-02-2017",
-      "Threat_Status": null
+      "Date": "14-02-2017"
     },
     {
       "Species_ID": "SP_0746",
@@ -68,8 +62,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -84,8 +77,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-02-2014",
-      "Threat_Status": null
+      "Date": "01-02-2014"
     },
     {
       "Species_ID": "SP_0746",
@@ -100,8 +92,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0746",
@@ -116,8 +107,7 @@
       "Location": "P. N Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0746",
@@ -132,8 +122,7 @@
       "Location": "P. N Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0746",
@@ -148,8 +137,7 @@
       "Location": "P. N Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0746",
@@ -164,8 +152,7 @@
       "Location": "P. N Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0746",
@@ -180,8 +167,7 @@
       "Location": "P. N Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0746",
@@ -196,8 +182,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -212,8 +197,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -228,8 +212,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -244,8 +227,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -260,8 +242,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -276,8 +257,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -292,8 +272,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0746",
@@ -308,8 +287,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0746",
@@ -324,8 +302,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cathartiformes/Cathartiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T11:17:23.884225",
     "group_key": "SP_0419",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Peña Alta, San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "29-08-2023",
-      "Threat_Status": "Vulnerable"
+      "Date": "29-08-2023"
     },
     {
       "Species_ID": "SP_0419",
@@ -52,8 +47,7 @@
       "Location": "El Rincón, Cruz Grande",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "24-02-2020",
-      "Threat_Status": "Vulnerable"
+      "Date": "24-02-2020"
     },
     {
       "Species_ID": "SP_0419",
@@ -68,8 +62,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": "Vulnerable"
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_0419",
@@ -84,8 +77,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": "Vulnerable"
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_0419",
@@ -100,8 +92,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0419",
@@ -116,8 +107,7 @@
       "Location": "Ea. Maria Behety, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "28-01-2014",
-      "Threat_Status": "Vulnerable"
+      "Date": "28-01-2014"
     },
     {
       "Species_ID": "SP_0419",
@@ -132,8 +122,7 @@
       "Location": "Quebrada de Batán, Altas Cumbres",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-02-2020",
-      "Threat_Status": "Vulnerable"
+      "Date": "22-02-2020"
     },
     {
       "Species_ID": "SP_0419",
@@ -148,8 +137,7 @@
       "Location": "Ea. Cabo San Pablo",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-2001",
-      "Threat_Status": "Vulnerable"
+      "Date": "01-2001"
     },
     {
       "Species_ID": "SP_0419",
@@ -164,8 +152,7 @@
       "Location": "Ea. Cabo San Pablo",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-2001",
-      "Threat_Status": "Vulnerable"
+      "Date": "01-2001"
     },
     {
       "Species_ID": "SP_0419",
@@ -180,8 +167,7 @@
       "Location": "Ea. San Joséْ, Ruta \"b\", Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": "Vulnerable"
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0419",
@@ -196,8 +182,7 @@
       "Location": "Ea. San Joséْ, Ruta \"b\", Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": "Vulnerable"
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0419",
@@ -212,8 +197,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0419",
@@ -228,8 +212,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0419",
@@ -244,8 +227,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": "Vulnerable"
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0419",
@@ -260,8 +242,7 @@
       "Location": "Manzano Histórico, Tunuyan",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": "Vulnerable"
+      "Date": "30-10-2011"
     }
   ]
 }

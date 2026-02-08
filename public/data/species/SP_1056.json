@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.255004",
     "group_key": "SP_1056",
     "total_rows": 23,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2017",
-      "Threat_Status": null
+      "Date": "27-02-2017"
     },
     {
       "Species_ID": "SP_1056",
@@ -52,8 +47,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2017",
-      "Threat_Status": null
+      "Date": "27-02-2017"
     },
     {
       "Species_ID": "SP_1056",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-08-2010",
-      "Threat_Status": null
+      "Date": "28-08-2010"
     },
     {
       "Species_ID": "SP_1056",
@@ -84,8 +77,7 @@
       "Location": "Reserva Natural Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2019",
-      "Threat_Status": null
+      "Date": "24-03-2019"
     },
     {
       "Species_ID": "SP_1056",
@@ -100,8 +92,7 @@
       "Location": "Reserva Natural Otamendi, Campana",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-01-2014",
-      "Threat_Status": null
+      "Date": "12-01-2014"
     },
     {
       "Species_ID": "SP_1056",
@@ -116,8 +107,7 @@
       "Location": "Isla Talavera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-03-2024",
-      "Threat_Status": null
+      "Date": "05-03-2024"
     },
     {
       "Species_ID": "SP_1056",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_1056",
@@ -148,8 +137,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_1056",
@@ -164,8 +152,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-05-2007",
-      "Threat_Status": null
+      "Date": "26-05-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -180,8 +167,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-05-2007",
-      "Threat_Status": null
+      "Date": "26-05-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -196,8 +182,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-05-2007",
-      "Threat_Status": null
+      "Date": "26-05-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -212,8 +197,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -228,8 +212,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -244,8 +227,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -260,8 +242,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -276,8 +257,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_1056",
@@ -292,8 +272,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-03-2008",
-      "Threat_Status": null
+      "Date": "30-03-2008"
     },
     {
       "Species_ID": "SP_1056",
@@ -308,8 +287,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-01-2009",
-      "Threat_Status": null
+      "Date": "12-01-2009"
     },
     {
       "Species_ID": "SP_1056",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-09-2009",
-      "Threat_Status": null
+      "Date": "20-09-2009"
     },
     {
       "Species_ID": "SP_1056",
@@ -340,8 +317,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-09-2009",
-      "Threat_Status": null
+      "Date": "20-09-2009"
     },
     {
       "Species_ID": "SP_1056",
@@ -356,8 +332,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-08-2010",
-      "Threat_Status": null
+      "Date": "28-08-2010"
     },
     {
       "Species_ID": "SP_1056",
@@ -372,8 +347,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "28-08-2010",
-      "Threat_Status": null
+      "Date": "28-08-2010"
     },
     {
       "Species_ID": "SP_1056",
@@ -388,8 +362,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "c. 1999",
-      "Threat_Status": null
+      "Date": "c. 1999"
     }
   ]
 }

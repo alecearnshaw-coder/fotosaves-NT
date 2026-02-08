@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.346596",
     "group_key": "SP_0835",
     "total_rows": 18,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Caleta Córdova, Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": null
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0835",
@@ -52,8 +47,7 @@
       "Location": "Reserva Natural Provincial \"Cabo Dos Bahías\", Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -68,8 +62,7 @@
       "Location": "Reserva Natural Provincial \"Cabo Dos Bahías\", Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -84,8 +77,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -100,8 +92,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -116,8 +107,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -132,8 +122,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -148,8 +137,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -164,8 +152,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0835",
@@ -180,8 +167,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "27-03-2009",
-      "Threat_Status": null
+      "Date": "27-03-2009"
     },
     {
       "Species_ID": "SP_0835",
@@ -196,8 +182,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "27-03-2009",
-      "Threat_Status": null
+      "Date": "27-03-2009"
     },
     {
       "Species_ID": "SP_0835",
@@ -212,8 +197,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "27-03-2009",
-      "Threat_Status": null
+      "Date": "27-03-2009"
     },
     {
       "Species_ID": "SP_0835",
@@ -228,8 +212,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": null
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0835",
@@ -244,8 +227,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": null
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0835",
@@ -260,8 +242,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": null
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0835",
@@ -276,8 +257,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": null
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0835",
@@ -292,8 +272,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": null
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0835",
@@ -308,8 +287,7 @@
       "Location": "R3 Km 1555",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2001",
-      "Threat_Status": null
+      "Date": "02-2001"
     }
   ]
 }

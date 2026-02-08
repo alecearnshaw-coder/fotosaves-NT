@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.333198",
     "group_key": "SP_0659",
     "total_rows": 30,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural Municipal de Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-10-2009",
-      "Threat_Status": null
+      "Date": "18-10-2009"
     },
     {
       "Species_ID": "SP_0659",
@@ -52,8 +47,7 @@
       "Location": "La Estrella, RP13 al N de Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0659",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-10-2014",
-      "Threat_Status": null
+      "Date": "26-10-2014"
     },
     {
       "Species_ID": "SP_0659",
@@ -84,8 +77,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0659",
@@ -100,8 +92,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0659",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0659",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0659",
@@ -148,8 +137,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0659",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-2005",
-      "Threat_Status": null
+      "Date": "12-2005"
     },
     {
       "Species_ID": "SP_0659",
@@ -180,8 +167,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0659",
@@ -196,8 +182,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-11-2007",
-      "Threat_Status": null
+      "Date": "03-11-2007"
     },
     {
       "Species_ID": "SP_0659",
@@ -212,8 +197,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-03-2008",
-      "Threat_Status": null
+      "Date": "08-03-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -228,8 +212,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-02-2008",
-      "Threat_Status": null
+      "Date": "17-02-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -244,8 +227,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-02-2008",
-      "Threat_Status": null
+      "Date": "17-02-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -260,8 +242,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-02-2008",
-      "Threat_Status": null
+      "Date": "17-02-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -276,8 +257,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-02-2008",
-      "Threat_Status": null
+      "Date": "17-02-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -292,8 +272,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-03-2008",
-      "Threat_Status": null
+      "Date": "08-03-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -308,8 +287,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-03-2008",
-      "Threat_Status": null
+      "Date": "08-03-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -324,8 +302,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-11-2008",
-      "Threat_Status": null
+      "Date": "22-11-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -340,8 +317,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-11-2008",
-      "Threat_Status": null
+      "Date": "22-11-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -356,8 +332,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-11-2008",
-      "Threat_Status": null
+      "Date": "22-11-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -372,8 +347,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-11-2008",
-      "Threat_Status": null
+      "Date": "22-11-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -388,8 +362,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-11-2008",
-      "Threat_Status": null
+      "Date": "22-11-2008"
     },
     {
       "Species_ID": "SP_0659",
@@ -404,8 +377,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": null
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_0659",
@@ -420,8 +392,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-02-2009",
-      "Threat_Status": null
+      "Date": "08-02-2009"
     },
     {
       "Species_ID": "SP_0659",
@@ -436,8 +407,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-10-2009",
-      "Threat_Status": null
+      "Date": "18-10-2009"
     },
     {
       "Species_ID": "SP_0659",
@@ -452,8 +422,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-10-2009",
-      "Threat_Status": null
+      "Date": "18-10-2009"
     },
     {
       "Species_ID": "SP_0659",
@@ -468,8 +437,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-10-2009",
-      "Threat_Status": null
+      "Date": "18-10-2009"
     },
     {
       "Species_ID": "SP_0659",
@@ -484,8 +452,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-10-2009",
-      "Threat_Status": null
+      "Date": "18-10-2009"
     },
     {
       "Species_ID": "SP_0659",
@@ -500,8 +467,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2010",
-      "Threat_Status": null
+      "Date": "10-01-2010"
     }
   ]
 }

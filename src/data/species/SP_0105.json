@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Columbiformes/Columbiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:39.512950",
     "group_key": "SP_0105",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Municipal \"Ribera Norte\", Acassuso, San Isidro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-02-2007",
-      "Threat_Status": null
+      "Date": "25-02-2007"
     },
     {
       "Species_ID": "SP_0105",
@@ -52,8 +47,7 @@
       "Location": "P. N. El Palmar, Ubajay",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "08-12-2015",
-      "Threat_Status": null
+      "Date": "08-12-2015"
     },
     {
       "Species_ID": "SP_0105",
@@ -68,8 +62,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": null
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0105",
@@ -84,8 +77,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0105",
@@ -100,8 +92,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0105",
@@ -116,8 +107,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0105",
@@ -132,8 +122,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0105",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-10-2008",
-      "Threat_Status": null
+      "Date": "05-10-2008"
     },
     {
       "Species_ID": "SP_0105",
@@ -164,8 +152,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "01-2009",
-      "Threat_Status": null
+      "Date": "01-2009"
     },
     {
       "Species_ID": "SP_0105",
@@ -180,8 +167,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "01-2009",
-      "Threat_Status": null
+      "Date": "01-2009"
     },
     {
       "Species_ID": "SP_0105",
@@ -196,8 +182,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "01-2009",
-      "Threat_Status": null
+      "Date": "01-2009"
     },
     {
       "Species_ID": "SP_0105",
@@ -212,8 +197,7 @@
       "Location": "Parque Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-12-2009",
-      "Threat_Status": null
+      "Date": "03-12-2009"
     },
     {
       "Species_ID": "SP_0105",
@@ -228,8 +212,7 @@
       "Location": "Los Robles, Moreno",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2010",
-      "Threat_Status": null
+      "Date": "05-2010"
     },
     {
       "Species_ID": "SP_0105",
@@ -244,8 +227,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Pelecaniformes/Pelecaniformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-11T23:40:40.220736",
     "group_key": "SP_0307",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Isla Martillo",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2013",
-      "Threat_Status": null
+      "Date": "31-01-2013"
     },
     {
       "Species_ID": "SP_0307",
@@ -52,8 +47,7 @@
       "Location": "Península Cormoranes, Lapataia, Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2008",
-      "Threat_Status": null
+      "Date": "31-01-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -68,8 +62,7 @@
       "Location": "Laguna de los Patos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0307",
@@ -84,8 +77,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -100,8 +92,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -116,8 +107,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -132,8 +122,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -148,8 +137,7 @@
       "Location": "P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -164,8 +152,7 @@
       "Location": "Lago Roca, P.N. Los Glaciares",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "1997",
-      "Threat_Status": null
+      "Date": "1997"
     },
     {
       "Species_ID": "SP_0307",
@@ -180,8 +167,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -196,8 +182,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -212,8 +197,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0307",
@@ -228,8 +212,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     }
   ]
 }

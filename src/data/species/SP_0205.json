@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.049836",
     "group_key": "SP_0205",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "20 a 30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-12-2023",
-      "Threat_Status": null
+      "Date": "09-12-2023"
     },
     {
       "Species_ID": "SP_0205",
@@ -52,8 +47,7 @@
       "Location": "20 a 30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-12-2023",
-      "Threat_Status": null
+      "Date": "09-12-2023"
     },
     {
       "Species_ID": "SP_0205",
@@ -68,8 +62,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     }
   ]
 }

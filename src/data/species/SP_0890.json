@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Turdidae/Turdidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-09T01:40:04.374722",
     "group_key": "SP_0890",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "09-09-2018",
-      "Threat_Status": null
+      "Date": "09-09-2018"
     }
   ]
 }

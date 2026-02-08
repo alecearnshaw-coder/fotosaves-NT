@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.505000",
     "group_key": "SP_1008",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Intermedia",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_1008",
@@ -52,8 +47,7 @@
       "Location": "Sepultura",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_1008",
@@ -68,8 +62,7 @@
       "Location": "Hornaditas",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": null
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_1008",
@@ -84,8 +77,7 @@
       "Location": "Laguna Mulas Muertas",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_1008",
@@ -100,8 +92,7 @@
       "Location": "Chinchán",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "20-09-2016",
-      "Threat_Status": null
+      "Date": "20-09-2016"
     }
   ]
 }

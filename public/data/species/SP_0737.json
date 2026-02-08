@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Grallariidae/Grallariidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T10:39:32.367093",
     "group_key": "SP_0737",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "El Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "30-08-2023",
-      "Threat_Status": null
+      "Date": "30-08-2023"
     }
   ]
 }

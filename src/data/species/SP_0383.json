@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Apodiformes/Trochilidae/Trochilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T20:48:34.286501",
     "group_key": "SP_0383",
     "total_rows": 51,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-02-2011",
-      "Location_Date": "Reserva \"Ribera Norte\", Acassuso, Buenos Aires - 13-02-2011",
-      "Threat_Status": null
+      "Location_Date": "Reserva \"Ribera Norte\", Acassuso, Buenos Aires - 13-02-2011"
     },
     {
       "Species_ID": "SP_0383",
@@ -55,8 +50,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-02-2014",
-      "Location_Date": "Barrio Santa Rita, San Isidro, Buenos Aires - 16/2/2014",
-      "Threat_Status": null
+      "Location_Date": "Barrio Santa Rita, San Isidro, Buenos Aires - 16/2/2014"
     },
     {
       "Species_ID": "SP_0383",
@@ -72,8 +66,7 @@
       "Province": "La Rioja",
       "Country": null,
       "Date": "18-02-2025",
-      "Location_Date": "Ciudad de La Rioja, La Rioja - 18-02-2025",
-      "Threat_Status": null
+      "Location_Date": "Ciudad de La Rioja, La Rioja - 18-02-2025"
     },
     {
       "Species_ID": "SP_0383",
@@ -89,8 +82,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-02-2014",
-      "Location_Date": "Barrio Santa Rita, San Isidro, Buenos Aires - 16/2/2014",
-      "Threat_Status": null
+      "Location_Date": "Barrio Santa Rita, San Isidro, Buenos Aires - 16/2/2014"
     },
     {
       "Species_ID": "SP_0383",
@@ -106,8 +98,7 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "17-08-2014",
-      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 17-08-2014",
-      "Threat_Status": null
+      "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 17-08-2014"
     },
     {
       "Species_ID": "SP_0383",
@@ -123,8 +114,7 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "24-10-2019",
-      "Location_Date": "Herradura, Formosa - 24-10-2019",
-      "Threat_Status": null
+      "Location_Date": "Herradura, Formosa - 24-10-2019"
     },
     {
       "Species_ID": "SP_0383",
@@ -140,8 +130,7 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "24-10-2019",
-      "Location_Date": "Herradura, Formosa - 24-10-2019",
-      "Threat_Status": null
+      "Location_Date": "Herradura, Formosa - 24-10-2019"
     },
     {
       "Species_ID": "SP_0383",
@@ -157,8 +146,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-12-2017",
-      "Location_Date": "Olivos, Buenos Aires - 13-12-2017",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 13-12-2017"
     },
     {
       "Species_ID": "SP_0383",
@@ -174,8 +162,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-01-2018",
-      "Location_Date": "Olivos, Buenos Aires - 18-01-2018",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 18-01-2018"
     },
     {
       "Species_ID": "SP_0383",
@@ -191,8 +178,7 @@
       "Province": "Jujuy",
       "Country": null,
       "Date": "15-04-2018",
-      "Location_Date": "Catamontaña, Jujuy - 15-04-2018",
-      "Threat_Status": null
+      "Location_Date": "Catamontaña, Jujuy - 15-04-2018"
     },
     {
       "Species_ID": "SP_0383",
@@ -208,8 +194,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 06-01-2013",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 06-01-2013"
     },
     {
       "Species_ID": "SP_0383",
@@ -225,8 +210,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 21-01-2013",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 21-01-2013"
     },
     {
       "Species_ID": "SP_0383",
@@ -242,8 +226,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-03-2014",
-      "Location_Date": "Punta Lara, Buenos Aires - 16-03-2014",
-      "Threat_Status": null
+      "Location_Date": "Punta Lara, Buenos Aires - 16-03-2014"
     },
     {
       "Species_ID": "SP_0383",
@@ -259,8 +242,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-12-2020",
-      "Location_Date": "Olivos, Buenos Aires - 07-12-2020",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 07-12-2020"
     },
     {
       "Species_ID": "SP_0383",
@@ -276,8 +258,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 6/1/2013"
     },
     {
       "Species_ID": "SP_0383",
@@ -293,8 +274,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 6/1/2013"
     },
     {
       "Species_ID": "SP_0383",
@@ -310,8 +290,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 6/1/2013"
     },
     {
       "Species_ID": "SP_0383",
@@ -327,8 +306,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 6/1/2013",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 6/1/2013"
     },
     {
       "Species_ID": "SP_0383",
@@ -344,8 +322,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "18-02-2012",
-      "Location_Date": "Reserva Vicente López, Buenos Aires - 18-02-2012",
-      "Threat_Status": null
+      "Location_Date": "Reserva Vicente López, Buenos Aires - 18-02-2012"
     },
     {
       "Species_ID": "SP_0383",
@@ -361,8 +338,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "22-01-2013",
-      "Location_Date": "Olivos, Buenos Aires - 22-01-2013",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 22-01-2013"
     },
     {
       "Species_ID": "SP_0383",
@@ -378,8 +354,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "03-2005",
-      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 3/2005",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ecológica de Vicente López, La Lucila, Buenos Aires - 3/2005"
     },
     {
       "Species_ID": "SP_0383",
@@ -395,8 +370,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "1999",
-      "Location_Date": "Reserva Ribera Norte, Buenos Aires -1999",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ribera Norte, Buenos Aires -1999"
     },
     {
       "Species_ID": "SP_0383",
@@ -412,8 +386,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -429,8 +402,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Perdices, Entre Ríos - 21/12/2008",
-      "Threat_Status": null
+      "Location_Date": "Perdices, Entre Ríos - 21/12/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -446,8 +418,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Perdices, Entre Ríos - 21/12/2008",
-      "Threat_Status": null
+      "Location_Date": "Perdices, Entre Ríos - 21/12/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -463,8 +434,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "21-12-2008",
-      "Location_Date": "Perdices, Entre Ríos - 21/12/2008",
-      "Threat_Status": null
+      "Location_Date": "Perdices, Entre Ríos - 21/12/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -480,8 +450,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-01-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -497,8 +466,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-01-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -514,8 +482,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-01-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 7/1/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -531,8 +498,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -548,8 +514,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -565,8 +530,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -582,8 +546,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -599,8 +562,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -616,8 +578,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -633,8 +594,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-2007",
-      "Location_Date": "Olivos, Buenos Aires - 6/2007",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 6/2007"
     },
     {
       "Species_ID": "SP_0383",
@@ -650,8 +610,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "06-2007",
-      "Location_Date": "Olivos, Buenos Aires - 6/2007",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 6/2007"
     },
     {
       "Species_ID": "SP_0383",
@@ -667,8 +626,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "08-11-2008",
-      "Location_Date": "Costanera Sur, CABA - 8/11/2008",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 8/11/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -684,8 +642,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -701,8 +658,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -718,8 +674,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -735,8 +690,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -752,8 +706,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-03-2008",
-      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 24/3/2008"
     },
     {
       "Species_ID": "SP_0383",
@@ -769,8 +722,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "8-10-200 9",
-      "Location_Date": "Ceibas, Entre Ríos - 8/10/200 9",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 8/10/200 9"
     },
     {
       "Species_ID": "SP_0383",
@@ -786,8 +738,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2010",
-      "Location_Date": "Perdices, Entre Ríos - 10/1/2010",
-      "Threat_Status": null
+      "Location_Date": "Perdices, Entre Ríos - 10/1/2010"
     },
     {
       "Species_ID": "SP_0383",
@@ -803,8 +754,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-02-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 13/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 13/2/2011"
     },
     {
       "Species_ID": "SP_0383",
@@ -820,8 +770,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-02-2011",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 13/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 13/2/2011"
     },
     {
       "Species_ID": "SP_0383",
@@ -837,8 +786,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2012",
-      "Location_Date": "Olivos, Buenos Aires - 21/2/2012",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 21/2/2012"
     },
     {
       "Species_ID": "SP_0383",
@@ -854,8 +802,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2012",
-      "Location_Date": "Olivos, Buenos Aires - 21/2/2012",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 21/2/2012"
     },
     {
       "Species_ID": "SP_0383",
@@ -871,8 +818,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-02-2012",
-      "Location_Date": "Olivos, Buenos Aires - 21/2/2012",
-      "Threat_Status": null
+      "Location_Date": "Olivos, Buenos Aires - 21/2/2012"
     },
     {
       "Species_ID": "SP_0383",
@@ -888,8 +834,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "25-03-2012",
-      "Location_Date": "Colonia Pellegrini, Corrientes - 25/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Colonia Pellegrini, Corrientes - 25/3/2012"
     }
   ]
 }

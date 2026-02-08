@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Turdidae/Turdidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-09T01:40:04.405972",
     "group_key": "SP_0891",
     "total_rows": 29,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-02-2008",
-      "Threat_Status": null
+      "Date": "03-02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -52,8 +47,7 @@
       "Location": "Ruta \"J\" km 39, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "29-01-2014",
-      "Threat_Status": null
+      "Date": "29-01-2014"
     },
     {
       "Species_ID": "SP_0891",
@@ -68,8 +62,7 @@
       "Location": "Lago Roca, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "14-02-2017",
-      "Threat_Status": null
+      "Date": "14-02-2017"
     },
     {
       "Species_ID": "SP_0891",
@@ -84,8 +77,7 @@
       "Location": "Parque Temático \"La Laguna\", Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0891",
@@ -100,8 +92,7 @@
       "Location": "Parque Temático \"La Laguna\", Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0891",
@@ -116,8 +107,7 @@
       "Location": "Parque Temático \"La Laguna\", Puerto Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0891",
@@ -132,8 +122,7 @@
       "Location": "Ushuaia, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -148,8 +137,7 @@
       "Location": "Ushuaia, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -164,8 +152,7 @@
       "Location": "Ushuaia, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -180,8 +167,7 @@
       "Location": "Ushuaia, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -196,8 +182,7 @@
       "Location": "Ushuaia, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -212,8 +197,7 @@
       "Location": "Ushuaia, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -228,8 +212,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -244,8 +227,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0891",
@@ -260,8 +242,7 @@
       "Location": "Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0891",
@@ -276,8 +257,7 @@
       "Location": "Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "27-03-2009",
-      "Threat_Status": null
+      "Date": "27-03-2009"
     },
     {
       "Species_ID": "SP_0891",
@@ -292,8 +272,7 @@
       "Location": "Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "31-03-2009",
-      "Threat_Status": null
+      "Date": "31-03-2009"
     },
     {
       "Species_ID": "SP_0891",
@@ -308,8 +287,7 @@
       "Location": "Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "31-03-2009",
-      "Threat_Status": null
+      "Date": "31-03-2009"
     },
     {
       "Species_ID": "SP_0891",
@@ -324,8 +302,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "27-03-2009",
-      "Threat_Status": null
+      "Date": "27-03-2009"
     },
     {
       "Species_ID": "SP_0891",
@@ -340,8 +317,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0891",
@@ -356,8 +332,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0891",
@@ -372,8 +347,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0891",
@@ -388,8 +362,7 @@
       "Location": null,
       "Province": "Neuquén",
       "Country": null,
-      "Date": "01-09-2010",
-      "Threat_Status": null
+      "Date": "01-09-2010"
     },
     {
       "Species_ID": "SP_0891",
@@ -404,8 +377,7 @@
       "Location": null,
       "Province": "Neuquén",
       "Country": null,
-      "Date": "01-09-2010",
-      "Threat_Status": null
+      "Date": "01-09-2010"
     },
     {
       "Species_ID": "SP_0891",
@@ -420,8 +392,7 @@
       "Location": null,
       "Province": "Neuquén",
       "Country": null,
-      "Date": "03-09-2010",
-      "Threat_Status": null
+      "Date": "03-09-2010"
     },
     {
       "Species_ID": "SP_0891",
@@ -436,8 +407,7 @@
       "Location": "Plaza del Centenario, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "27-04-2011",
-      "Threat_Status": null
+      "Date": "27-04-2011"
     },
     {
       "Species_ID": "SP_0891",
@@ -452,8 +422,7 @@
       "Location": "Plaza del Centenario, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "27-04-2011",
-      "Threat_Status": null
+      "Date": "27-04-2011"
     },
     {
       "Species_ID": "SP_0891",
@@ -468,8 +437,7 @@
       "Location": "Plaza del Centenario, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "27-04-2011",
-      "Threat_Status": null
+      "Date": "27-04-2011"
     },
     {
       "Species_ID": "SP_0891",
@@ -484,8 +452,7 @@
       "Location": "Plaza del Centenario, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "27-04-2011",
-      "Threat_Status": null
+      "Date": "27-04-2011"
     }
   ]
 }

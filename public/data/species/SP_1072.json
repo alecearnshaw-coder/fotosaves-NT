@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.489375",
     "group_key": "SP_1072",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural Takú, La Rioja",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "19-02-2025",
-      "Threat_Status": null
+      "Date": "19-02-2025"
     },
     {
       "Species_ID": "SP_1072",
@@ -52,8 +47,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "04-03-2014",
-      "Threat_Status": null
+      "Date": "04-03-2014"
     },
     {
       "Species_ID": "SP_1072",
@@ -68,8 +62,7 @@
       "Location": "Balde",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     }
   ]
 }

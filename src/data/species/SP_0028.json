@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.819972",
     "group_key": "SP_0028",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "25-05-2006",
-      "Threat_Status": null
+      "Date": "25-05-2006"
     },
     {
       "Species_ID": "SP_0028",
@@ -52,8 +47,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0028",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "12-09-2015",
-      "Threat_Status": null
+      "Date": "12-09-2015"
     },
     {
       "Species_ID": "SP_0028",
@@ -84,8 +77,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-04-2015",
-      "Threat_Status": null
+      "Date": "05-04-2015"
     },
     {
       "Species_ID": "SP_0028",
@@ -100,8 +92,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "10-2003",
-      "Threat_Status": null
+      "Date": "10-2003"
     },
     {
       "Species_ID": "SP_0028",
@@ -116,8 +107,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0028",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0028",
@@ -148,8 +137,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-05-2007",
-      "Threat_Status": null
+      "Date": "13-05-2007"
     },
     {
       "Species_ID": "SP_0028",
@@ -164,8 +152,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2007",
-      "Threat_Status": null
+      "Date": "28-07-2007"
     },
     {
       "Species_ID": "SP_0028",
@@ -180,8 +167,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0028",
@@ -196,8 +182,7 @@
       "Location": "Costa de Rawson",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-06-2009",
-      "Threat_Status": null
+      "Date": "30-06-2009"
     },
     {
       "Species_ID": "SP_0028",
@@ -212,8 +197,7 @@
       "Location": "Costa de Rawson",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-06-2009",
-      "Threat_Status": null
+      "Date": "30-06-2009"
     },
     {
       "Species_ID": "SP_0028",
@@ -228,8 +212,7 @@
       "Location": "Costa de Rawson",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-06-2009",
-      "Threat_Status": null
+      "Date": "30-06-2009"
     },
     {
       "Species_ID": "SP_0028",
@@ -244,8 +227,7 @@
       "Location": "Costa de Rawson",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-06-2009",
-      "Threat_Status": null
+      "Date": "30-06-2009"
     },
     {
       "Species_ID": "SP_0028",
@@ -260,8 +242,7 @@
       "Location": "Costa de Rawson",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-06-2009",
-      "Threat_Status": null
+      "Date": "30-06-2009"
     }
   ]
 }

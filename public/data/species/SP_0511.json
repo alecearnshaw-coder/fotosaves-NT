@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-17T23:31:27.218895",
     "group_key": "SP_0511",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -32,12 +28,11 @@
       "Thumbnail_Filename": "A_CarpinteroOlivaChicoM_Guaycolec_22Oct2019_600.jpg",
       "Large_Filename": "A_CarpinteroOlivaChicoM_Guaycolec_22Oct2019_1200.jpg",
       "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4x",
-      "Sex_Age": "Macho - Male",
+      "Sex_Age": "M",
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "22-10-2019",
-      "Threat_Status": "Near-threatened"
+      "Date": "22-10-2019"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Phyl/Furnariidae-Phyl_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T10:22:35.405435",
     "group_key": "SP_0784",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Sendero Macuco, Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "23-09-2015",
-      "Threat_Status": null
+      "Date": "23-09-2015"
     },
     {
       "Species_ID": "SP_0784",
@@ -52,8 +47,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "05-05-2014",
-      "Threat_Status": null
+      "Date": "05-05-2014"
     }
   ]
 }

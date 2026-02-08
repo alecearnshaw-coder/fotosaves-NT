@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.398829",
     "group_key": "SP_0534",
     "total_rows": 26,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Municipal \"Ribera Norte\", Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2008",
-      "Threat_Status": null
+      "Date": "21-06-2008"
     },
     {
       "Species_ID": "SP_0534",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "08-03-2013",
-      "Threat_Status": null
+      "Date": "08-03-2013"
     },
     {
       "Species_ID": "SP_0534",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "11-01-2014",
-      "Threat_Status": null
+      "Date": "11-01-2014"
     },
     {
       "Species_ID": "SP_0534",
@@ -84,8 +77,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "01-12-2015",
-      "Threat_Status": null
+      "Date": "01-12-2015"
     },
     {
       "Species_ID": "SP_0534",
@@ -100,8 +92,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-01-2024",
-      "Threat_Status": null
+      "Date": "18-01-2024"
     },
     {
       "Species_ID": "SP_0534",
@@ -116,8 +107,7 @@
       "Location": "Villa Celina",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-05-2022",
-      "Threat_Status": null
+      "Date": "15-05-2022"
     },
     {
       "Species_ID": "SP_0534",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0534",
@@ -148,8 +137,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0534",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0534",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0534",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0534",
@@ -212,8 +197,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0534",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0534",
@@ -244,8 +227,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-06-2007",
-      "Threat_Status": null
+      "Date": "16-06-2007"
     },
     {
       "Species_ID": "SP_0534",
@@ -260,8 +242,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "16-06-2007",
-      "Threat_Status": null
+      "Date": "16-06-2007"
     },
     {
       "Species_ID": "SP_0534",
@@ -276,8 +257,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-02-2008",
-      "Threat_Status": null
+      "Date": "23-02-2008"
     },
     {
       "Species_ID": "SP_0534",
@@ -292,8 +272,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2008",
-      "Threat_Status": null
+      "Date": "21-06-2008"
     },
     {
       "Species_ID": "SP_0534",
@@ -308,8 +287,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2008",
-      "Threat_Status": null
+      "Date": "21-06-2008"
     },
     {
       "Species_ID": "SP_0534",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-08-2008",
-      "Threat_Status": null
+      "Date": "14-08-2008"
     },
     {
       "Species_ID": "SP_0534",
@@ -340,8 +317,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-05-2009",
-      "Threat_Status": null
+      "Date": "02-05-2009"
     },
     {
       "Species_ID": "SP_0534",
@@ -356,8 +332,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-09-2009",
-      "Threat_Status": null
+      "Date": "20-09-2009"
     },
     {
       "Species_ID": "SP_0534",
@@ -372,8 +347,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "08-10-2009",
-      "Threat_Status": null
+      "Date": "08-10-2009"
     },
     {
       "Species_ID": "SP_0534",
@@ -388,8 +362,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-05-2010",
-      "Threat_Status": null
+      "Date": "02-05-2010"
     },
     {
       "Species_ID": "SP_0534",
@@ -404,8 +377,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-05-2010",
-      "Threat_Status": null
+      "Date": "02-05-2010"
     },
     {
       "Species_ID": "SP_0534",
@@ -420,8 +392,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-05-2010",
-      "Threat_Status": null
+      "Date": "02-05-2010"
     },
     {
       "Species_ID": "SP_0534",
@@ -436,8 +407,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-05-2010",
-      "Threat_Status": null
+      "Date": "02-05-2010"
     }
   ]
 }

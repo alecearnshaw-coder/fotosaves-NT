@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.355354",
     "group_key": "SP_0591",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "15-09-2018",
-      "Threat_Status": null
+      "Date": "15-09-2018"
     },
     {
       "Species_ID": "SP_0591",
@@ -52,8 +47,7 @@
       "Location": "Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "15-09-2018",
-      "Threat_Status": null
+      "Date": "15-09-2018"
     },
     {
       "Species_ID": "SP_0591",
@@ -68,8 +62,7 @@
       "Location": "Reserva Natural Municipal",
       "Province": "Panamá",
       "Country": "PANAMA",
-      "Date": "05-2005",
-      "Threat_Status": null
+      "Date": "05-2005"
     }
   ]
 }

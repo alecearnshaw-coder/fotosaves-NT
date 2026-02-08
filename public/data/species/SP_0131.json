@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Gruiformes/Gruiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-04T03:21:11.544702",
     "group_key": "SP_0131",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Ecológica Ciudad Universitaria Costanera Norte (RECUCN)",
       "Province": "CABA",
       "Country": null,
-      "Date": "23-07-2022",
-      "Threat_Status": null
+      "Date": "23-07-2022"
     },
     {
       "Species_ID": "SP_0131",
@@ -52,8 +47,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-08-2006",
-      "Threat_Status": null
+      "Date": "19-08-2006"
     },
     {
       "Species_ID": "SP_0131",
@@ -68,8 +62,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0131",
@@ -84,8 +77,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0131",
@@ -100,8 +92,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0131",
@@ -116,8 +107,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0131",
@@ -132,8 +122,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0131",
@@ -148,8 +137,7 @@
       "Location": "Reserva Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "12-2005",
-      "Threat_Status": null
+      "Date": "12-2005"
     },
     {
       "Species_ID": "SP_0131",
@@ -164,8 +152,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0131",
@@ -180,8 +167,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0131",
@@ -196,8 +182,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0131",
@@ -212,8 +197,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0131",
@@ -228,8 +212,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0131",
@@ -244,8 +227,7 @@
       "Location": "Reserva Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "31-1-2009 Digiscoped",
-      "Threat_Status": null
+      "Date": "31-1-2009 Digiscoped"
     }
   ]
 }

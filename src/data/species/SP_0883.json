@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Cinclidae/Cinclidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-08T23:28:42.710373",
     "group_key": "SP_0883",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Provincial Potrero de Yala, Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "08-10-2017",
-      "Threat_Status": null
+      "Date": "08-10-2017"
     },
     {
       "Species_ID": "SP_0883",
@@ -52,8 +47,7 @@
       "Location": "Parque Provincial Potrero de Yala, Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "08-10-2017",
-      "Threat_Status": null
+      "Date": "08-10-2017"
     },
     {
       "Species_ID": "SP_0883",
@@ -68,8 +62,7 @@
       "Location": "Parque Provincial Potrero de Yala, Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "10-10-2017",
-      "Threat_Status": null
+      "Date": "10-10-2017"
     }
   ]
 }

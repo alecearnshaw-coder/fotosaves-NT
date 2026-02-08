@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.489375",
     "group_key": "SP_0977",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "22-09-2015",
-      "Threat_Status": null
+      "Date": "22-09-2015"
     },
     {
       "Species_ID": "SP_0977",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "22-09-2015",
-      "Threat_Status": null
+      "Date": "22-09-2015"
     },
     {
       "Species_ID": "SP_0977",
@@ -68,8 +62,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "01-05-2014",
-      "Threat_Status": null
+      "Date": "01-05-2014"
     }
   ]
 }

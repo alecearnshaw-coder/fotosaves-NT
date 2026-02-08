@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Gruiformes/Gruiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-04T03:21:11.478290",
     "group_key": "SP_0122",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Corredor Biológico Uruguaí/Foerster, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "09-07-2016",
-      "Threat_Status": null
+      "Date": "09-07-2016"
     }
   ]
 }

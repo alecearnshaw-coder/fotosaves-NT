@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.367581",
     "group_key": "SP_0556",
     "total_rows": 10,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "RP13 al N de Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0556",
@@ -52,8 +47,7 @@
       "Location": "RP13 al N de Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0556",
@@ -68,8 +62,7 @@
       "Location": "RP13 al N de Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0556",
@@ -84,8 +77,7 @@
       "Location": "Capilla del Monte",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-03-2013",
-      "Threat_Status": null
+      "Date": "22-03-2013"
     },
     {
       "Species_ID": "SP_0556",
@@ -100,8 +92,7 @@
       "Location": "RP2",
       "Province": "Formosa",
       "Country": null,
-      "Date": "19-10-2019",
-      "Threat_Status": null
+      "Date": "19-10-2019"
     },
     {
       "Species_ID": "SP_0556",
@@ -116,8 +107,7 @@
       "Location": "Capilla del Monte",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-03-2013",
-      "Threat_Status": null
+      "Date": "22-03-2013"
     },
     {
       "Species_ID": "SP_0556",
@@ -132,8 +122,7 @@
       "Location": "Capilla del Monte",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "21-03-2013",
-      "Threat_Status": null
+      "Date": "21-03-2013"
     },
     {
       "Species_ID": "SP_0556",
@@ -148,8 +137,7 @@
       "Location": "Reserva Natural Takú, La Rioja",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "19-02-2025",
-      "Threat_Status": null
+      "Date": "19-02-2025"
     },
     {
       "Species_ID": "SP_0556",
@@ -164,8 +152,7 @@
       "Location": "Parque Provincial Chancaí",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "03-03-2014",
-      "Threat_Status": null
+      "Date": "03-03-2014"
     },
     {
       "Species_ID": "SP_0556",
@@ -180,8 +167,7 @@
       "Location": "Reserva \"El Bagual\"",
       "Province": "Formosa",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     }
   ]
 }

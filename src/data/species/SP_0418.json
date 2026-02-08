@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cathartiformes/Cathartiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T11:17:23.915482",
     "group_key": "SP_0418",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "11-07-2016",
-      "Threat_Status": null
+      "Date": "11-07-2016"
     },
     {
       "Species_ID": "SP_0418",
@@ -52,8 +47,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-08-2014",
-      "Threat_Status": null
+      "Date": "16-08-2014"
     },
     {
       "Species_ID": "SP_0418",
@@ -68,8 +62,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "04-05-2014",
-      "Threat_Status": null
+      "Date": "04-05-2014"
     },
     {
       "Species_ID": "SP_0418",
@@ -84,8 +77,7 @@
       "Location": null,
       "Province": "Frankfurt Zoo",
       "Country": "GERMANY",
-      "Date": "20-08-2010",
-      "Threat_Status": null
+      "Date": "20-08-2010"
     },
     {
       "Species_ID": "SP_0418",
@@ -100,8 +92,7 @@
       "Location": "P. N. Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "07-2000",
-      "Threat_Status": null
+      "Date": "07-2000"
     },
     {
       "Species_ID": "SP_0418",
@@ -116,8 +107,7 @@
       "Location": null,
       "Province": "Frankfurt Zoo",
       "Country": "GERMANY",
-      "Date": "20-08-2010",
-      "Threat_Status": null
+      "Date": "20-08-2010"
     },
     {
       "Species_ID": "SP_0418",
@@ -132,8 +122,7 @@
       "Location": null,
       "Province": "Frankfurt Zoo",
       "Country": "GERMANY",
-      "Date": "20-08-2010",
-      "Threat_Status": null
+      "Date": "20-08-2010"
     }
   ]
 }

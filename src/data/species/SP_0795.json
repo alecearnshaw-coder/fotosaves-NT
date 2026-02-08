@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Furn/Furnariidae-Furn_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T11:31:08.487993",
     "group_key": "SP_0795",
     "total_rows": 39,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2014",
-      "Threat_Status": null
+      "Date": "21-06-2014"
     },
     {
       "Species_ID": "SP_0795",
@@ -52,8 +47,7 @@
       "Location": "Ushuaua",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2009",
-      "Threat_Status": null
+      "Date": "09-02-2009"
     },
     {
       "Species_ID": "SP_0795",
@@ -68,8 +62,7 @@
       "Location": "San Miguel del Monte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-08-2014",
-      "Threat_Status": null
+      "Date": "03-08-2014"
     },
     {
       "Species_ID": "SP_0795",
@@ -84,8 +77,7 @@
       "Location": "Aeropuerto de Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "12-02-2017",
-      "Threat_Status": null
+      "Date": "12-02-2017"
     },
     {
       "Species_ID": "SP_0795",
@@ -100,8 +92,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": null
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0795",
@@ -116,8 +107,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "12-09-2015",
-      "Threat_Status": null
+      "Date": "12-09-2015"
     },
     {
       "Species_ID": "SP_0795",
@@ -132,8 +122,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-07-2009",
-      "Threat_Status": null
+      "Date": "26-07-2009"
     },
     {
       "Species_ID": "SP_0795",
@@ -148,8 +137,7 @@
       "Location": "Ensenada, Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -164,8 +152,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0795",
@@ -180,8 +167,7 @@
       "Location": "Vuelta de Obligado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0795",
@@ -196,8 +182,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0795",
@@ -212,8 +197,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -292,8 +272,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -308,8 +287,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -340,8 +317,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-08-2007",
-      "Threat_Status": null
+      "Date": "20-08-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -356,8 +332,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-08-2007",
-      "Threat_Status": null
+      "Date": "20-08-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -372,8 +347,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "20-08-2007",
-      "Threat_Status": null
+      "Date": "20-08-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -388,8 +362,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-09-2007",
-      "Threat_Status": null
+      "Date": "01-09-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -404,8 +377,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-09-2007",
-      "Threat_Status": null
+      "Date": "01-09-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -420,8 +392,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-09-2007",
-      "Threat_Status": null
+      "Date": "02-09-2007"
     },
     {
       "Species_ID": "SP_0795",
@@ -436,8 +407,7 @@
       "Location": "Le Martial",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -452,8 +422,7 @@
       "Location": "Le Martial",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -468,8 +437,7 @@
       "Location": "Brown Bay",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -484,8 +452,7 @@
       "Location": "Ensenada, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -500,8 +467,7 @@
       "Location": "Ensenada, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -516,8 +482,7 @@
       "Location": "Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-07-2009",
-      "Threat_Status": null
+      "Date": "10-07-2009"
     },
     {
       "Species_ID": "SP_0795",
@@ -532,8 +497,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-07-2009",
-      "Threat_Status": null
+      "Date": "26-07-2009"
     },
     {
       "Species_ID": "SP_0795",
@@ -548,8 +512,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "15-12-2009",
-      "Threat_Status": null
+      "Date": "15-12-2009"
     },
     {
       "Species_ID": "SP_0795",
@@ -564,8 +527,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -580,8 +542,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0795",
@@ -596,8 +557,7 @@
       "Location": "La Herradura, Plotier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "02-09-2010",
-      "Threat_Status": null
+      "Date": "02-09-2010"
     },
     {
       "Species_ID": "SP_0795",
@@ -612,8 +572,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0795",
@@ -628,8 +587,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0795",
@@ -644,8 +602,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     }
   ]
 }

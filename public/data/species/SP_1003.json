@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.380002",
     "group_key": "SP_1003",
     "total_rows": 29,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "5-02-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 5-02-2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 5-02-2011"
     },
     {
       "Species_ID": "SP_1003",
@@ -55,8 +50,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "23-07-2022",
-      "Location_Date": "Reserva Ecológica Ciudad Universitaria Costanera Norte (RECUCN), CABA - 23-07-2022",
-      "Threat_Status": null
+      "Location_Date": "Reserva Ecológica Ciudad Universitaria Costanera Norte (RECUCN), CABA - 23-07-2022"
     },
     {
       "Species_ID": "SP_1003",
@@ -72,8 +66,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Perdices, Entre Ríos - 24-11-2013",
-      "Threat_Status": null
+      "Location_Date": "Perdices, Entre Ríos - 24-11-2013"
     },
     {
       "Species_ID": "SP_1003",
@@ -89,8 +82,7 @@
       "Province": "Formosa",
       "Country": null,
       "Date": "20-10-2019",
-      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019",
-      "Threat_Status": null
+      "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019"
     },
     {
       "Species_ID": "SP_1003",
@@ -106,8 +98,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "9-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9-10-2010",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 9-10-2010"
     },
     {
       "Species_ID": "SP_1003",
@@ -123,8 +114,7 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "11-07-2016",
-      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 11-07-2016",
-      "Threat_Status": null
+      "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 11-07-2016"
     },
     {
       "Species_ID": "SP_1003",
@@ -140,8 +130,7 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "2-05-2014",
-      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 2-05-2014",
-      "Threat_Status": null
+      "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 2-05-2014"
     },
     {
       "Species_ID": "SP_1003",
@@ -157,8 +146,7 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "15-09-2018",
-      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018",
-      "Threat_Status": null
+      "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018"
     },
     {
       "Species_ID": "SP_1003",
@@ -174,8 +162,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-5-2009",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
       "Species_ID": "SP_1003",
@@ -191,8 +178,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-5-2009",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
       "Species_ID": "SP_1003",
@@ -208,8 +194,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-5-2009",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
       "Species_ID": "SP_1003",
@@ -225,8 +210,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-5-2009",
-      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009",
-      "Threat_Status": null
+      "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
       "Species_ID": "SP_1003",
@@ -242,8 +226,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "5-2006",
-      "Location_Date": "Costanera Sur, CABA - 5/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 5/2006"
     },
     {
       "Species_ID": "SP_1003",
@@ -259,8 +242,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "1-2003",
-      "Location_Date": "Escobar, Buenos Aires - 1/2003",
-      "Threat_Status": null
+      "Location_Date": "Escobar, Buenos Aires - 1/2003"
     },
     {
       "Species_ID": "SP_1003",
@@ -276,8 +258,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "1-2003",
-      "Location_Date": "Escobar, Buenos Aires - 1/2003",
-      "Threat_Status": null
+      "Location_Date": "Escobar, Buenos Aires - 1/2003"
     },
     {
       "Species_ID": "SP_1003",
@@ -293,8 +274,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "8-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
       "Species_ID": "SP_1003",
@@ -310,8 +290,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "8-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
       "Species_ID": "SP_1003",
@@ -327,8 +306,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "9-2006",
-      "Location_Date": "Reserva de Vicente López, Buenos Aires - 9/2006",
-      "Threat_Status": null
+      "Location_Date": "Reserva de Vicente López, Buenos Aires - 9/2006"
     },
     {
       "Species_ID": "SP_1003",
@@ -344,8 +322,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "5-2007",
-      "Location_Date": "Vuelta de Obligado, Buenos Aires - 5/2007",
-      "Threat_Status": null
+      "Location_Date": "Vuelta de Obligado, Buenos Aires - 5/2007"
     },
     {
       "Species_ID": "SP_1003",
@@ -361,8 +338,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "18-8-2008",
-      "Location_Date": "Costanera Sur, CABA - 18/8/2008",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 18/8/2008"
     },
     {
       "Species_ID": "SP_1003",
@@ -378,8 +354,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2002",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2002",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 11/2002"
     },
     {
       "Species_ID": "SP_1003",
@@ -395,8 +370,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "11-2002",
-      "Location_Date": "Ceibas, Entre Ríos - 11/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 11/2006"
     },
     {
       "Species_ID": "SP_1003",
@@ -412,8 +386,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-11-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 22/11/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 22/11/2008"
     },
     {
       "Species_ID": "SP_1003",
@@ -429,8 +402,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-2-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 22/2/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 22/2/2008"
     },
     {
       "Species_ID": "SP_1003",
@@ -446,8 +418,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 4/1/2009"
     },
     {
       "Species_ID": "SP_1003",
@@ -463,8 +434,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "4-1-2009",
-      "Location_Date": "Iberá, Corrientes - 4/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 4/1/2009"
     },
     {
       "Species_ID": "SP_1003",
@@ -480,8 +450,7 @@
       "Province": "Neuquén",
       "Country": null,
       "Date": "1-9-2010",
-      "Location_Date": "Neuquén - 1/9/2010",
-      "Threat_Status": null
+      "Location_Date": "Neuquén - 1/9/2010"
     },
     {
       "Species_ID": "SP_1003",
@@ -497,8 +466,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "5-2-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011"
     },
     {
       "Species_ID": "SP_1003",
@@ -514,8 +482,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "5-2-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.021308",
     "group_key": "SP_0203",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Des Plains river, Mt. Prospect",
       "Province": "Illinois",
       "Country": "USA",
-      "Date": "16-05-2017",
-      "Threat_Status": "NT"
+      "Date": "16-05-2017"
     }
   ]
 }

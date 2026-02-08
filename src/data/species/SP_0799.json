@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Furn/Furnariidae-Furn_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T11:31:08.483997",
     "group_key": "SP_0799",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Río de la Suela, Copina",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-02-2020",
-      "Threat_Status": null
+      "Date": "22-02-2020"
     },
     {
       "Species_ID": "SP_0799",
@@ -52,8 +47,7 @@
       "Location": "Río de la Suela, Copina",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-02-2020",
-      "Threat_Status": null
+      "Date": "22-02-2020"
     }
   ]
 }

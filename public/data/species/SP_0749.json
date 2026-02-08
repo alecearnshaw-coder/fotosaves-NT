@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Formicariidae/Formicariidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T10:39:45.871569",
     "group_key": "SP_0749",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "04-07-2016",
-      "Threat_Status": null
+      "Date": "04-07-2016"
     }
   ]
 }

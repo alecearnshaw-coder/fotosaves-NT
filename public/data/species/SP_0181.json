@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:09.975357",
     "group_key": "SP_0181",
     "total_rows": 19,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
-      "Threat_Status": null
+      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019"
     },
     {
       "Species_ID": "SP_0181",
@@ -55,8 +50,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "25-03-2012",
-      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 25-03-2012",
-      "Threat_Status": null
+      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 25-03-2012"
     },
     {
       "Species_ID": "SP_0181",
@@ -72,8 +66,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "21-06-2014",
-      "Location_Date": "Punta Piedras, Buenos Aires - 21-06-2014",
-      "Threat_Status": null
+      "Location_Date": "Punta Piedras, Buenos Aires - 21-06-2014"
     },
     {
       "Species_ID": "SP_0181",
@@ -89,8 +82,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-03-2015",
-      "Location_Date": "Ceibas, Entre Ríos - 28-03-2015",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 28-03-2015"
     },
     {
       "Species_ID": "SP_0181",
@@ -106,8 +98,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 12/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 12/2006"
     },
     {
       "Species_ID": "SP_0181",
@@ -123,8 +114,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 1/2007"
     },
     {
       "Species_ID": "SP_0181",
@@ -140,8 +130,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 1/2007"
     },
     {
       "Species_ID": "SP_0181",
@@ -157,8 +146,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 1/2007"
     },
     {
       "Species_ID": "SP_0181",
@@ -174,8 +162,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "02-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 2/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 2/2007"
     },
     {
       "Species_ID": "SP_0181",
@@ -191,8 +178,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "01-09-2007",
-      "Location_Date": "Ceibas, Entre Rios - 1/9/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 1/9/2007"
     },
     {
       "Species_ID": "SP_0181",
@@ -208,8 +194,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "06-12-2007",
-      "Location_Date": "Ceibas, Entre Rios - 6/12/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 6/12/2007"
     },
     {
       "Species_ID": "SP_0181",
@@ -225,8 +210,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-03-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 15/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/3/2008"
     },
     {
       "Species_ID": "SP_0181",
@@ -242,8 +226,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-03-2008",
-      "Location_Date": "Ceibas, Entre Ríos - 15/3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/3/2008"
     },
     {
       "Species_ID": "SP_0181",
@@ -259,8 +242,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "28-11-2009",
-      "Location_Date": "Ceibas, Entre Rios - 28/11/2009",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 28/11/2009"
     },
     {
       "Species_ID": "SP_0181",
@@ -276,8 +258,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "05-12-2009",
-      "Location_Date": "Ceibas, Entre Rios - 5/12/2009",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 5/12/2009"
     },
     {
       "Species_ID": "SP_0181",
@@ -293,8 +274,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "09-10-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 9/10/2010"
     },
     {
       "Species_ID": "SP_0181",
@@ -310,8 +290,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 10/1/2011"
     },
     {
       "Species_ID": "SP_0181",
@@ -327,8 +306,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-02-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011"
     },
     {
       "Species_ID": "SP_0181",
@@ -344,8 +322,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "25-03-2012",
-      "Location_Date": "Iberá, Corrientes - 25/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 25/3/2012"
     }
   ]
 }

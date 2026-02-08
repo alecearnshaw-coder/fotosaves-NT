@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Dendro/Furnariidae-Dendro_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T23:39:16.733382",
     "group_key": "SP_0760",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-04-2018",
-      "Threat_Status": null
+      "Date": "11-04-2018"
     },
     {
       "Species_ID": "SP_0760",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2017",
-      "Threat_Status": null
+      "Date": "11-10-2017"
     }
   ]
 }

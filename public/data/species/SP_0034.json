@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.819972",
     "group_key": "SP_0034",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": null
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_0034",
@@ -52,8 +47,7 @@
       "Location": "Laguna Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0034",
@@ -68,8 +62,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0034",
@@ -84,8 +77,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0034",
@@ -100,8 +92,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0034",
@@ -116,8 +107,7 @@
       "Location": "Ticlio",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "20-09-2016",
-      "Threat_Status": null
+      "Date": "20-09-2016"
     },
     {
       "Species_ID": "SP_0034",
@@ -132,8 +122,7 @@
       "Location": "Zoológico, Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0034",
@@ -148,8 +137,7 @@
       "Location": "Zoológico, Copiapá",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0034",
@@ -164,8 +152,7 @@
       "Location": "Zoológico, Copiapá",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0034",
@@ -180,8 +167,7 @@
       "Location": "Zoológico, Copiapá",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0034",
@@ -196,8 +182,7 @@
       "Location": "Zoológico, Copiapá",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0034",
@@ -212,8 +197,7 @@
       "Location": "Zoológico, Copiapá",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     },
     {
       "Species_ID": "SP_0034",
@@ -228,8 +212,7 @@
       "Location": "Zoológico, Copiapá",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "24-05-2008",
-      "Threat_Status": null
+      "Date": "24-05-2008"
     }
   ]
 }

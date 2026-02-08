@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.501912",
     "group_key": "SP_0670",
     "total_rows": 20,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Camba Trapo, Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -52,8 +47,7 @@
       "Location": "Camba Trapo, Colonia Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -68,8 +62,7 @@
       "Location": "Ea. Virocay, Virasoro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "18-04-2014",
-      "Threat_Status": null
+      "Date": "18-04-2014"
     },
     {
       "Species_ID": "SP_0670",
@@ -84,8 +77,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -100,8 +92,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -132,8 +122,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -148,8 +137,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -164,8 +152,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -180,8 +167,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -196,8 +182,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -212,8 +197,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0670",
@@ -228,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -244,8 +227,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -260,8 +242,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -276,8 +257,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -292,8 +272,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -308,8 +287,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -324,8 +302,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0670",
@@ -340,8 +317,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     }
   ]
 }

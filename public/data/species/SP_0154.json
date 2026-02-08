@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasA_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:25:36.194363",
     "group_key": "SP_0154",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Tapera de López, Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-03-2019",
-      "Threat_Status": "VU"
+      "Date": "23-03-2019"
     },
     {
       "Species_ID": "SP_0154",
@@ -52,8 +47,7 @@
       "Location": "Tapera de López, Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-03-2019",
-      "Threat_Status": null
+      "Date": "23-03-2019"
     },
     {
       "Species_ID": "SP_0154",
@@ -68,8 +62,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -84,8 +77,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -100,8 +92,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -116,8 +107,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -132,8 +122,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -148,8 +137,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -164,8 +152,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -180,8 +167,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     },
     {
       "Species_ID": "SP_0154",
@@ -196,8 +182,7 @@
       "Location": "Bolsa Chica Wildlife Reserve, Huntiington",
       "Province": "CA",
       "Country": "USA",
-      "Date": "30-11-2008",
-      "Threat_Status": null
+      "Date": "30-11-2008"
     }
   ]
 }

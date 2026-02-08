@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Motacillidae/Motacillidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-22T23:55:16.311285",
     "group_key": "SP_0905",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-09-2009",
-      "Threat_Status": null
+      "Date": "06-09-2009"
     },
     {
       "Species_ID": "SP_0905",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-10-2013",
-      "Threat_Status": null
+      "Date": "05-10-2013"
     },
     {
       "Species_ID": "SP_0905",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-10-2013",
-      "Threat_Status": null
+      "Date": "05-10-2013"
     },
     {
       "Species_ID": "SP_0905",
@@ -84,8 +77,7 @@
       "Location": "Reserva Nacional Quebrada del Condorito",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-02-2020",
-      "Threat_Status": null
+      "Date": "22-02-2020"
     },
     {
       "Species_ID": "SP_0905",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "31-10-2009",
-      "Threat_Status": null
+      "Date": "31-10-2009"
     }
   ]
 }

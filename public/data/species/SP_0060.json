@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Galliformes/Galliformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-01T11:26:39.837495",
     "group_key": "SP_0060",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Provincial Uruguaí",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": "Endangered"
+      "Date": "10-09-2018"
     },
     {
       "Species_ID": "SP_0060",
@@ -52,8 +47,7 @@
       "Location": "Parque Provincial Uruguaí",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": "Endangered"
+      "Date": "10-09-2018"
     },
     {
       "Species_ID": "SP_0060",
@@ -68,8 +62,7 @@
       "Location": "Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "22-09-2015",
-      "Threat_Status": "Endangered"
+      "Date": "22-09-2015"
     }
   ]
 }

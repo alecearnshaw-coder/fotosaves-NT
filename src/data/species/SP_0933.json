@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Icteridae/Icteridae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T13:53:08.995736",
     "group_key": "SP_0933",
     "total_rows": 9,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Middlefork Preserve, Lake County",
       "Province": "Illinois",
       "Country": "USA",
-      "Date": "14-05-2017",
-      "Threat_Status": null
+      "Date": "14-05-2017"
     },
     {
       "Species_ID": "SP_0933",
@@ -52,8 +47,7 @@
       "Location": "Middlefork Preserve, Lake County",
       "Province": "Illinois",
       "Country": "USA",
-      "Date": "14-05-2017",
-      "Threat_Status": null
+      "Date": "14-05-2017"
     },
     {
       "Species_ID": "SP_0933",
@@ -68,8 +62,7 @@
       "Location": "Middlefork Preserve, Lake County",
       "Province": "Illinois",
       "Country": "USA",
-      "Date": "14-05-2017",
-      "Threat_Status": null
+      "Date": "14-05-2017"
     },
     {
       "Species_ID": "SP_0933",
@@ -84,8 +77,7 @@
       "Location": "Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0933",
@@ -100,8 +92,7 @@
       "Location": "Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0933",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0933",
@@ -132,8 +122,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2009",
-      "Threat_Status": null
+      "Date": "04-01-2009"
     },
     {
       "Species_ID": "SP_0933",
@@ -148,8 +137,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0933",
@@ -164,8 +152,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     }
   ]
 }

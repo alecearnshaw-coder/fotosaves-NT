@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.426876",
     "group_key": "SP_1069",
     "total_rows": 20,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_1069",
@@ -52,8 +47,7 @@
       "Location": "Termas de Fiambalá",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_1069",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-10-2013",
-      "Threat_Status": null
+      "Date": "12-10-2013"
     },
     {
       "Species_ID": "SP_1069",
@@ -84,8 +77,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "08-07-2016",
-      "Threat_Status": null
+      "Date": "08-07-2016"
     },
     {
       "Species_ID": "SP_1069",
@@ -100,8 +92,7 @@
       "Location": "Capilla del Monte",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "19-03-2013",
-      "Threat_Status": null
+      "Date": "19-03-2013"
     },
     {
       "Species_ID": "SP_1069",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-12-2012",
-      "Threat_Status": null
+      "Date": "01-12-2012"
     },
     {
       "Species_ID": "SP_1069",
@@ -132,8 +122,7 @@
       "Location": "Purmamarca",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_1069",
@@ -148,8 +137,7 @@
       "Location": "Reserva Natural Municipal de Vicente López",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-07-2006",
-      "Threat_Status": null
+      "Date": "01-07-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -164,8 +152,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "09-07-2016",
-      "Threat_Status": null
+      "Date": "09-07-2016"
     },
     {
       "Species_ID": "SP_1069",
@@ -180,8 +167,7 @@
       "Location": "Purmamarca",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_1069",
@@ -196,8 +182,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -212,8 +197,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -228,8 +212,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -244,8 +227,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -260,8 +242,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -276,8 +257,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -292,8 +272,7 @@
       "Location": "Reserva Mun. de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-07-2006",
-      "Threat_Status": null
+      "Date": "01-07-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -308,8 +287,7 @@
       "Location": "Reserva Mun. de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-07-2006",
-      "Threat_Status": null
+      "Date": "01-07-2006"
     },
     {
       "Species_ID": "SP_1069",
@@ -324,8 +302,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_1069",
@@ -340,8 +317,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-02-2008",
-      "Threat_Status": null
+      "Date": "17-02-2008"
     }
   ]
 }

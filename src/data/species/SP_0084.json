@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cuculiformes/Cuculiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:21.391574",
     "group_key": "SP_0084",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-11-2012",
-      "Threat_Status": null
+      "Date": "03-11-2012"
     },
     {
       "Species_ID": "SP_0084",
@@ -52,8 +47,7 @@
       "Location": "Reserva Las Piedras, Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "23-11-2014",
-      "Threat_Status": null
+      "Date": "23-11-2014"
     },
     {
       "Species_ID": "SP_0084",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     },
     {
       "Species_ID": "SP_0084",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     },
     {
       "Species_ID": "SP_0084",
@@ -100,8 +92,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0084",
@@ -116,8 +107,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0084",
@@ -132,8 +122,7 @@
       "Location": "Parque Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-12-2009",
-      "Threat_Status": null
+      "Date": "03-12-2009"
     }
   ]
 }

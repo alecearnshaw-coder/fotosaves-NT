@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.882471",
     "group_key": "SP_0056",
     "total_rows": 16,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-12-2023",
-      "Threat_Status": null
+      "Date": "09-12-2023"
     },
     {
       "Species_ID": "SP_0056",
@@ -52,8 +47,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-12-2023",
-      "Threat_Status": null
+      "Date": "09-12-2023"
     },
     {
       "Species_ID": "SP_0056",
@@ -68,8 +62,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     },
     {
       "Species_ID": "SP_0056",
@@ -84,8 +77,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-12-2023",
-      "Threat_Status": null
+      "Date": "09-12-2023"
     },
     {
       "Species_ID": "SP_0056",
@@ -100,8 +92,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-12-2023",
-      "Threat_Status": null
+      "Date": "09-12-2023"
     },
     {
       "Species_ID": "SP_0056",
@@ -116,8 +107,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0056",
@@ -132,8 +122,7 @@
       "Location": "[en cautiverio] [in captivity] Slimbridge Wetland Centre",
       "Province": "Gloucestershire",
       "Country": "England",
-      "Date": "08-1981",
-      "Threat_Status": null
+      "Date": "08-1981"
     },
     {
       "Species_ID": "SP_0056",
@@ -148,8 +137,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0056",
@@ -164,8 +152,7 @@
       "Location": "Concepción",
       "Province": "Bío Bío",
       "Country": "CHILE",
-      "Date": "10-2008",
-      "Threat_Status": null
+      "Date": "10-2008"
     },
     {
       "Species_ID": "SP_0056",
@@ -180,8 +167,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0056",
@@ -196,8 +182,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0056",
@@ -212,8 +197,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     },
     {
       "Species_ID": "SP_0056",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-09-2008",
-      "Threat_Status": null
+      "Date": "14-09-2008"
     },
     {
       "Species_ID": "SP_0056",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "14-09-2008",
-      "Threat_Status": null
+      "Date": "14-09-2008"
     },
     {
       "Species_ID": "SP_0056",
@@ -260,8 +242,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     },
     {
       "Species_ID": "SP_0056",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     }
   ]
 }

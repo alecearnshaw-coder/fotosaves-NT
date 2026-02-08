@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T11:56:38.821425",
     "group_key": "SP_0519",
     "total_rows": 31,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-03-2012",
-      "Threat_Status": null
+      "Date": "03-03-2012"
     },
     {
       "Species_ID": "SP_0519",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-10-2013",
-      "Threat_Status": null
+      "Date": "05-10-2013"
     },
     {
       "Species_ID": "SP_0519",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "08-03-2013",
-      "Threat_Status": null
+      "Date": "08-03-2013"
     },
     {
       "Species_ID": "SP_0519",
@@ -84,8 +77,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-03-2014",
-      "Threat_Status": null
+      "Date": "16-03-2014"
     },
     {
       "Species_ID": "SP_0519",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-05-2014",
-      "Threat_Status": null
+      "Date": "18-05-2014"
     },
     {
       "Species_ID": "SP_0519",
@@ -116,8 +107,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "03-03-2014",
-      "Threat_Status": null
+      "Date": "03-03-2014"
     },
     {
       "Species_ID": "SP_0519",
@@ -132,8 +122,7 @@
       "Location": "Reserva Ecológica Costanera Sur (RECS)",
       "Province": "CABA",
       "Country": null,
-      "Date": "17-06-2007",
-      "Threat_Status": null
+      "Date": "17-06-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -148,8 +137,7 @@
       "Location": "Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-02-2017",
-      "Threat_Status": null
+      "Date": "13-02-2017"
     },
     {
       "Species_ID": "SP_0519",
@@ -164,8 +152,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-03-2024",
-      "Threat_Status": null
+      "Date": "30-03-2024"
     },
     {
       "Species_ID": "SP_0519",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -212,8 +197,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0519",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0519",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-2004",
-      "Threat_Status": null
+      "Date": "09-2004"
     },
     {
       "Species_ID": "SP_0519",
@@ -260,8 +242,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0519",
@@ -276,8 +257,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0519",
@@ -292,8 +272,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0519",
@@ -308,8 +287,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "17-05-2006",
-      "Threat_Status": null
+      "Date": "17-05-2006"
     },
     {
       "Species_ID": "SP_0519",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -340,8 +317,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-06-2007",
-      "Threat_Status": null
+      "Date": "30-06-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -356,8 +332,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2002",
-      "Threat_Status": null
+      "Date": "10-2002"
     },
     {
       "Species_ID": "SP_0519",
@@ -372,8 +347,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "17-06-2007",
-      "Threat_Status": null
+      "Date": "17-06-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -388,8 +362,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -404,8 +377,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-12-2007",
-      "Threat_Status": null
+      "Date": "03-12-2007"
     },
     {
       "Species_ID": "SP_0519",
@@ -420,8 +392,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0519",
@@ -436,8 +407,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2010",
-      "Threat_Status": null
+      "Date": "10-01-2010"
     },
     {
       "Species_ID": "SP_0519",
@@ -452,8 +422,7 @@
       "Location": "Ribera Norte",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-05-2010",
-      "Threat_Status": null
+      "Date": "02-05-2010"
     },
     {
       "Species_ID": "SP_0519",
@@ -468,8 +437,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_0519",
@@ -484,8 +452,7 @@
       "Location": "Ruta \"J\"",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0519",
@@ -500,8 +467,7 @@
       "Location": "Ruta \"J\"",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0519",
@@ -516,8 +482,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-03-2012",
-      "Threat_Status": null
+      "Date": "29-03-2012"
     }
   ]
 }

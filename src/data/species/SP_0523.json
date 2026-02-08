@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T11:56:38.868301",
     "group_key": "SP_0523",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "30-01-2014",
-      "Threat_Status": null
+      "Date": "30-01-2014"
     },
     {
       "Species_ID": "SP_0523",
@@ -52,8 +47,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0523",
@@ -68,8 +62,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0523",
@@ -84,8 +77,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0523",
@@ -100,8 +92,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0523",
@@ -116,8 +107,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0523",
@@ -132,8 +122,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0523",
@@ -148,8 +137,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0523",
@@ -164,8 +152,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0523",
@@ -180,8 +167,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0523",
@@ -196,8 +182,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0523",
@@ -212,8 +197,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     }
   ]
 }

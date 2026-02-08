@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thamnophilidae/Thamnophilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T11:27:12.774144",
     "group_key": "SP_0720",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Natural Municipal \"Las Piedras\", Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-12-2012",
-      "Threat_Status": null
+      "Date": "29-12-2012"
     },
     {
       "Species_ID": "SP_0720",
@@ -52,8 +47,7 @@
       "Location": "Parque Natural Enrique Berdúc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-08-2007",
-      "Threat_Status": null
+      "Date": "06-08-2007"
     },
     {
       "Species_ID": "SP_0720",
@@ -68,8 +62,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "21-10-2019",
-      "Threat_Status": null
+      "Date": "21-10-2019"
     },
     {
       "Species_ID": "SP_0720",
@@ -84,8 +77,7 @@
       "Location": "Parque Natural Municipal \"Las Piedras\", Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-12-2012",
-      "Threat_Status": null
+      "Date": "29-12-2012"
     },
     {
       "Species_ID": "SP_0720",
@@ -100,8 +92,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-03-2024",
-      "Threat_Status": null
+      "Date": "05-03-2024"
     },
     {
       "Species_ID": "SP_0720",
@@ -116,8 +107,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-08-2007",
-      "Threat_Status": null
+      "Date": "06-08-2007"
     },
     {
       "Species_ID": "SP_0720",
@@ -132,8 +122,7 @@
       "Location": "Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-08-2007",
-      "Threat_Status": null
+      "Date": "06-08-2007"
     },
     {
       "Species_ID": "SP_0720",
@@ -148,8 +137,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-02-2009",
-      "Threat_Status": null
+      "Date": "18-02-2009"
     },
     {
       "Species_ID": "SP_0720",
@@ -164,8 +152,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-02-2009",
-      "Threat_Status": null
+      "Date": "18-02-2009"
     },
     {
       "Species_ID": "SP_0720",
@@ -180,8 +167,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-02-2009",
-      "Threat_Status": null
+      "Date": "18-02-2009"
     },
     {
       "Species_ID": "SP_0720",
@@ -196,8 +182,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-12-2009",
-      "Threat_Status": null
+      "Date": "06-12-2009"
     },
     {
       "Species_ID": "SP_0720",
@@ -212,8 +197,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-12-2009",
-      "Threat_Status": null
+      "Date": "06-12-2009"
     },
     {
       "Species_ID": "SP_0720",
@@ -228,8 +212,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-12-2009",
-      "Threat_Status": null
+      "Date": "06-12-2009"
     },
     {
       "Species_ID": "SP_0720",
@@ -244,8 +227,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-12-2009",
-      "Threat_Status": null
+      "Date": "03-12-2009"
     },
     {
       "Species_ID": "SP_0720",
@@ -260,8 +242,7 @@
       "Location": "Pque. Natural Enrique Berduc, Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-12-2009",
-      "Threat_Status": null
+      "Date": "03-12-2009"
     }
   ]
 }

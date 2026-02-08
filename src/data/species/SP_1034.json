@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.239380",
     "group_key": "SP_1034",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Camba Trapo, Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-01-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "04-01-2006"
     }
   ]
 }

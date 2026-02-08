@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Parulidae/Parulidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T14:35:49.514903",
     "group_key": "SP_0963",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Mesada de las Colmenas, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_0963",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "07-2000",
-      "Threat_Status": null
+      "Date": "07-2000"
     },
     {
       "Species_ID": "SP_0963",
@@ -68,8 +62,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "07-2000",
-      "Threat_Status": null
+      "Date": "07-2000"
     },
     {
       "Species_ID": "SP_0963",
@@ -84,8 +77,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "07-2000",
-      "Threat_Status": null
+      "Date": "07-2000"
     }
   ]
 }

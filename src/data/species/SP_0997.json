@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.364377",
     "group_key": "SP_0997",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Yavi",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_0997",
@@ -52,8 +47,7 @@
       "Location": "Chinchan",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "20-09-2016",
-      "Threat_Status": null
+      "Date": "20-09-2016"
     },
     {
       "Species_ID": "SP_0997",
@@ -68,8 +62,7 @@
       "Location": "Chinchan",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "20-09-2016",
-      "Threat_Status": null
+      "Date": "20-09-2016"
     },
     {
       "Species_ID": "SP_0997",
@@ -84,8 +77,7 @@
       "Location": "Chinchan",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "20-09-2016",
-      "Threat_Status": null
+      "Date": "20-09-2016"
     }
   ]
 }

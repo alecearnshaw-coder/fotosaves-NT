@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.336328",
     "group_key": "SP_0554",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "P. N. Iberá, Portal Cambyretá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": "Vulnerable"
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0554",
@@ -52,8 +47,7 @@
       "Location": "P. N. Iberá, Portal Cambyretá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": "Vulnerable"
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0554",
@@ -68,8 +62,7 @@
       "Location": "En cautiverio / in captivity Estación de Recría \"Guira Oga\", Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "07-1999",
-      "Threat_Status": "Vulnerable"
+      "Date": "07-1999"
     }
   ]
 }

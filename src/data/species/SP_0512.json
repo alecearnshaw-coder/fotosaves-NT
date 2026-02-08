@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-17T23:31:27.306650",
     "group_key": "SP_0512",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Sendero \"La Junta\", Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "27-08-2023",
-      "Threat_Status": null
+      "Date": "27-08-2023"
     },
     {
       "Species_ID": "SP_0512",
@@ -52,8 +47,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-08-2014",
-      "Threat_Status": null
+      "Date": "16-08-2014"
     },
     {
       "Species_ID": "SP_0512",
@@ -68,8 +62,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "17-08-2014",
-      "Threat_Status": null
+      "Date": "17-08-2014"
     },
     {
       "Species_ID": "SP_0512",
@@ -84,8 +77,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "17-08-2014",
-      "Threat_Status": null
+      "Date": "17-08-2014"
     },
     {
       "Species_ID": "SP_0512",
@@ -100,8 +92,7 @@
       "Location": "Cerca de San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "15-10-2017",
-      "Threat_Status": null
+      "Date": "15-10-2017"
     }
   ]
 }

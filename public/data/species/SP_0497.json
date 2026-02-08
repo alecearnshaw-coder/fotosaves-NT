@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Piciformes/Picidae/Picidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-17T23:31:27.306650",
     "group_key": "SP_0497",
     "total_rows": 6,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Camino a Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0497",
@@ -52,8 +47,7 @@
       "Location": "Monte Ceballos",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "01-2000",
-      "Threat_Status": null
+      "Date": "01-2000"
     },
     {
       "Species_ID": "SP_0497",
@@ -68,8 +62,7 @@
       "Location": "Camino a Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0497",
@@ -84,8 +77,7 @@
       "Location": "Camino a Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0497",
@@ -100,8 +92,7 @@
       "Location": "Camino a Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_0497",
@@ -116,8 +107,7 @@
       "Location": "Camino a Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     }
   ]
 }

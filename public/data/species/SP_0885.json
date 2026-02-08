@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Turdidae/Turdidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-09T01:40:04.421596",
     "group_key": "SP_0885",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Plaza Teran",
       "Province": "CABA",
       "Country": null,
-      "Date": "04-12-2020",
-      "Threat_Status": null
+      "Date": "04-12-2020"
     },
     {
       "Species_ID": "SP_0885",
@@ -52,8 +47,7 @@
       "Location": "Plaza Teran",
       "Province": "CABA",
       "Country": null,
-      "Date": "04-12-2020",
-      "Threat_Status": null
+      "Date": "04-12-2020"
     },
     {
       "Species_ID": "SP_0885",
@@ -68,8 +62,7 @@
       "Location": "J. Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "04-2007",
-      "Threat_Status": null
+      "Date": "04-2007"
     }
   ]
 }

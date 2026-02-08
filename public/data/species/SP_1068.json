@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.473749",
     "group_key": "SP_1068",
     "total_rows": 17,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Municipal de Vicente Lopez, La Lucilia",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-09-2017",
-      "Threat_Status": null
+      "Date": "02-09-2017"
     },
     {
       "Species_ID": "SP_1068",
@@ -52,8 +47,7 @@
       "Location": "Reserva Municipal de Vicente Lopez, La Lucilia",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-09-2017",
-      "Threat_Status": null
+      "Date": "02-09-2017"
     },
     {
       "Species_ID": "SP_1068",
@@ -68,8 +62,7 @@
       "Location": "Reserva Municipal de Vicente Lopez, La Lucilia",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-09-2017",
-      "Threat_Status": null
+      "Date": "02-09-2017"
     },
     {
       "Species_ID": "SP_1068",
@@ -84,8 +77,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-07-2006",
-      "Threat_Status": null
+      "Date": "29-07-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -100,8 +92,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "03-07-2016",
-      "Threat_Status": null
+      "Date": "03-07-2016"
     },
     {
       "Species_ID": "SP_1068",
@@ -116,8 +107,7 @@
       "Location": "Parque Provincial Potrero de Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_1068",
@@ -132,8 +122,7 @@
       "Location": "Parque Provincial Potrero de Yala, Yala",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "08-10-2017",
-      "Threat_Status": null
+      "Date": "08-10-2017"
     },
     {
       "Species_ID": "SP_1068",
@@ -148,8 +137,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "07-07-2016",
-      "Threat_Status": null
+      "Date": "07-07-2016"
     },
     {
       "Species_ID": "SP_1068",
@@ -164,8 +152,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -180,8 +167,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -196,8 +182,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -212,8 +197,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -228,8 +212,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -244,8 +227,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -260,8 +242,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -276,8 +257,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1068",
@@ -292,8 +272,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     }
   ]
 }

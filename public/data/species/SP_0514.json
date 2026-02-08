@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cariamiformes/Cariamiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T10:40:12.578298",
     "group_key": "SP_0514",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "RP13 al N de Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0514",
@@ -52,8 +47,7 @@
       "Location": "Al norte de Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "19-08-2014",
-      "Threat_Status": null
+      "Date": "19-08-2014"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Cardinalidae/Cardinalidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T18:04:31.568632",
     "group_key": "SP_0974",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2012",
-      "Threat_Status": null
+      "Date": "15-07-2012"
     },
     {
       "Species_ID": "SP_0974",
@@ -52,8 +47,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-08-2019",
-      "Threat_Status": null
+      "Date": "21-08-2019"
     },
     {
       "Species_ID": "SP_0974",
@@ -68,8 +62,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-97-2018",
-      "Threat_Status": null
+      "Date": "08-97-2018"
     },
     {
       "Species_ID": "SP_0974",
@@ -84,8 +77,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "03-03-2014",
-      "Threat_Status": null
+      "Date": "03-03-2014"
     },
     {
       "Species_ID": "SP_0974",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0974",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0974",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0974",
@@ -148,8 +137,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0974",
@@ -164,8 +152,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0974",
@@ -180,8 +167,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0974",
@@ -196,8 +182,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-06-2008",
-      "Threat_Status": null
+      "Date": "28-06-2008"
     },
     {
       "Species_ID": "SP_0974",
@@ -212,8 +197,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0974",
@@ -228,8 +212,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0974",
@@ -244,8 +227,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Phoenicopteriformes/Phoenicopteriformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-01T23:37:25.288340",
     "group_key": "SP_0073",
     "total_rows": 31,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Tapera de López, San Clemente del Tuyú",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-12-2024",
-      "Threat_Status": "Near-threatened"
+      "Date": "21-12-2024"
     },
     {
       "Species_ID": "SP_0073",
@@ -52,8 +47,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -68,8 +62,7 @@
       "Location": "Laguna de los Patos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0073",
@@ -84,8 +77,7 @@
       "Location": "Lagunas de Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_0073",
@@ -100,8 +92,7 @@
       "Location": "Tapera de López, San Clemente del Tuyú",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-03-2019",
-      "Threat_Status": "Near-threatened"
+      "Date": "23-03-2019"
     },
     {
       "Species_ID": "SP_0073",
@@ -116,8 +107,7 @@
       "Location": "Laguna \"La Salada\", Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0073",
@@ -132,8 +122,7 @@
       "Location": "Laguna \"La Salada\", Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0073",
@@ -148,8 +137,7 @@
       "Location": "Laguna \"La Salada\", Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0073",
@@ -164,8 +152,7 @@
       "Location": "Laguna Negra, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "30-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -180,8 +167,7 @@
       "Location": "Laguna Negra, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "30-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -196,8 +182,7 @@
       "Location": "Laguna Negra, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "30-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -212,8 +197,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -228,8 +212,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -244,8 +227,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -260,8 +242,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -276,8 +257,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -292,8 +272,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -308,8 +287,7 @@
       "Location": "Reta",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0073",
@@ -324,8 +302,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "12-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -340,8 +317,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "12-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -356,8 +332,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "12-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "12-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -372,8 +347,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -388,8 +362,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -404,8 +377,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -420,8 +392,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -436,8 +407,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -452,8 +422,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -468,8 +437,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0073",
@@ -484,8 +452,7 @@
       "Location": "Laguna Nimes, Calafate",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "01-1997",
-      "Threat_Status": "Near-threatened"
+      "Date": "01-1997"
     },
     {
       "Species_ID": "SP_0073",
@@ -500,8 +467,7 @@
       "Location": "Playa La Mina, San Julian",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "01-2001",
-      "Threat_Status": "Near-threatened"
+      "Date": "01-2001"
     },
     {
       "Species_ID": "SP_0073",
@@ -516,8 +482,7 @@
       "Location": "Slimbridge Wetland Centre, Gloucestershire",
       "Province": "England",
       "Country": null,
-      "Date": "08-1981",
-      "Threat_Status": "Near-threatened"
+      "Date": "08-1981"
     }
   ]
 }

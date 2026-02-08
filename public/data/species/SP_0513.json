@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cariamiformes/Cariamiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T10:40:12.575298",
     "group_key": "SP_0513",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "El Fuerte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "19-10-2017",
-      "Threat_Status": null
+      "Date": "19-10-2017"
     },
     {
       "Species_ID": "SP_0513",
@@ -52,8 +47,7 @@
       "Location": "El Fuerte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "19-10-2017",
-      "Threat_Status": null
+      "Date": "19-10-2017"
     },
     {
       "Species_ID": "SP_0513",
@@ -68,8 +62,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "17-08-2014",
-      "Threat_Status": null
+      "Date": "17-08-2014"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.520624",
     "group_key": "SP_1026",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_1026",
@@ -52,8 +47,7 @@
       "Location": "Laguna Huancar, Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": null
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_1026",
@@ -68,8 +62,7 @@
       "Location": "Camino La Cumbre, Ascochinga",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-03-2013",
-      "Threat_Status": null
+      "Date": "22-03-2013"
     },
     {
       "Species_ID": "SP_1026",
@@ -84,8 +77,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1026",
@@ -100,8 +92,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1026",
@@ -116,8 +107,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1026",
@@ -132,8 +122,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1026",
@@ -148,8 +137,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_1026",
@@ -164,8 +152,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_1026",
@@ -180,8 +167,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_1026",
@@ -196,8 +182,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     },
     {
       "Species_ID": "SP_1026",
@@ -212,8 +197,7 @@
       "Location": "Farellones",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "16-12-2009",
-      "Threat_Status": null
+      "Date": "16-12-2009"
     }
   ]
 }

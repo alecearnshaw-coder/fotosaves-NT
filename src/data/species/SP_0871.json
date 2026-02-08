@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Troglodytidae/Troglodytidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-08T21:34:14.189558",
     "group_key": "SP_0871",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Establecimiento Los Picazos, Tres Marías",
       "Province": "Formosa",
       "Country": null,
-      "Date": "25-11-2019",
-      "Threat_Status": null
+      "Date": "25-11-2019"
     },
     {
       "Species_ID": "SP_0871",
@@ -52,8 +47,7 @@
       "Location": "Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "13-09-2018",
-      "Threat_Status": null
+      "Date": "13-09-2018"
     }
   ]
 }

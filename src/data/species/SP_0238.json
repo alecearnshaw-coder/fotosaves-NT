@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Sphenisciformes/Sphenisciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T20:20:14.879744",
     "group_key": "SP_0238",
     "total_rows": 8,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0238",
@@ -52,8 +47,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0238",
@@ -68,8 +62,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0238",
@@ -84,8 +77,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0238",
@@ -100,8 +92,7 @@
       "Location": "Isla Martillo, Harberton, Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0238",
@@ -116,8 +107,7 @@
       "Location": "Isla Martillo, Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0238",
@@ -132,8 +122,7 @@
       "Location": "Isla Martillo, Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     },
     {
       "Species_ID": "SP_0238",
@@ -148,8 +137,7 @@
       "Location": "Isla Martillo, Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "04-02-2008",
-      "Threat_Status": null
+      "Date": "04-02-2008"
     }
   ]
 }

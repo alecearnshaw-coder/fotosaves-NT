@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:00:57.742315",
     "group_key": "SP_0019",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "09-09-2018",
-      "Threat_Status": null
+      "Date": "09-09-2018"
     },
     {
       "Species_ID": "SP_0019",
@@ -52,8 +47,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "25-09-2015",
-      "Threat_Status": null
+      "Date": "25-09-2015"
     }
   ]
 }

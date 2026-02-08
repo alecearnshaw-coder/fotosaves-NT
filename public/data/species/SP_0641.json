@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.154581",
     "group_key": "SP_0641",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "05-05-2014",
-      "Threat_Status": null
+      "Date": "05-05-2014"
     },
     {
       "Species_ID": "SP_0641",
@@ -52,8 +47,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "19-10-2019",
-      "Threat_Status": null
+      "Date": "19-10-2019"
     },
     {
       "Species_ID": "SP_0641",
@@ -68,8 +62,7 @@
       "Location": "Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "22-09-2015",
-      "Threat_Status": null
+      "Date": "22-09-2015"
     },
     {
       "Species_ID": "SP_0641",
@@ -84,8 +77,7 @@
       "Location": "R. P. 101",
       "Province": "Misiones",
       "Country": null,
-      "Date": "12-09-2018",
-      "Threat_Status": null
+      "Date": "12-09-2018"
     },
     {
       "Species_ID": "SP_0641",
@@ -100,8 +92,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": null
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_0641",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": null
+      "Date": "05-01-2009"
     },
     {
       "Species_ID": "SP_0641",
@@ -132,8 +122,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": null
+      "Date": "05-01-2009"
     }
   ]
 }

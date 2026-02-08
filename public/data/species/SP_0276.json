@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Procellariiformes/Procellariiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-10T19:42:52.331075",
     "group_key": "SP_0276",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "30 NM al E de Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-04-2019",
-      "Threat_Status": "Vulnerable"
+      "Date": "07-04-2019"
     }
   ]
 }

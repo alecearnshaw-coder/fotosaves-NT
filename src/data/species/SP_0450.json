@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T18:26:38.250884",
     "group_key": "SP_0450",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "RP1 y Río San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0450",
@@ -52,8 +47,7 @@
       "Location": "Esteros del Iberá, Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -68,8 +62,7 @@
       "Location": "Campos del Aguapey",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "20-04-2014",
-      "Threat_Status": null
+      "Date": "20-04-2014"
     },
     {
       "Species_ID": "SP_0450",
@@ -84,8 +77,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -100,8 +92,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -132,8 +122,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -148,8 +137,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -164,8 +152,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -180,8 +167,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0450",
@@ -196,8 +182,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.913721",
     "group_key": "SP_0027",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Laguna Malka, Tilcara",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_0027",
@@ -52,8 +47,7 @@
       "Location": "Laguna Nimes, Calafate",
       "Province": "Santa Cruz",
       "Country": null,
-      "Date": "01-1997",
-      "Threat_Status": null
+      "Date": "01-1997"
     },
     {
       "Species_ID": "SP_0027",
@@ -68,8 +62,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     }
   ]
 }

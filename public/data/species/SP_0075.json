@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Podicipediformes/Podicipediformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T01:26:02.738273",
     "group_key": "SP_0075",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "15-11-2015",
-      "Threat_Status": null
+      "Date": "15-11-2015"
     },
     {
       "Species_ID": "SP_0075",
@@ -52,8 +47,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "05-04-2015",
-      "Threat_Status": null
+      "Date": "05-04-2015"
     },
     {
       "Species_ID": "SP_0075",
@@ -84,8 +77,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "05-04-2015",
-      "Threat_Status": null
+      "Date": "05-04-2015"
     },
     {
       "Species_ID": "SP_0075",
@@ -100,8 +92,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -116,8 +107,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -132,8 +122,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -148,8 +137,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -164,8 +152,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -180,8 +167,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -196,8 +182,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -212,8 +197,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -228,8 +212,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -244,8 +227,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0075",
@@ -260,8 +242,7 @@
       "Location": "Laguna Sirena, Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     }
   ]
 }

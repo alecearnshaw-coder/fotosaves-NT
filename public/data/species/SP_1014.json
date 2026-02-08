@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.426876",
     "group_key": "SP_1014",
     "total_rows": 18,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "RP83 (entre Loma Chata y Río Jordan), SIerras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "30-08-2023",
-      "Threat_Status": null
+      "Date": "30-08-2023"
     },
     {
       "Species_ID": "SP_1014",
@@ -52,8 +47,7 @@
       "Location": "RP83 (entre Loma Chata y Río Jordan), Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "30-08-2023",
-      "Threat_Status": null
+      "Date": "30-08-2023"
     },
     {
       "Species_ID": "SP_1014",
@@ -68,8 +62,7 @@
       "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     },
     {
       "Species_ID": "SP_1014",
@@ -84,8 +77,7 @@
       "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     },
     {
       "Species_ID": "SP_1014",
@@ -100,8 +92,7 @@
       "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_1014",
@@ -116,8 +107,7 @@
       "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_1014",
@@ -132,8 +122,7 @@
       "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_1014",
@@ -148,8 +137,7 @@
       "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_1014",
@@ -164,8 +152,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_1014",
@@ -180,8 +167,7 @@
       "Location": "Auquipampa / Huachupampa, Valle del Santa Eulalia",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "19-09-2016",
-      "Threat_Status": null
+      "Date": "19-09-2016"
     },
     {
       "Species_ID": "SP_1014",
@@ -196,8 +182,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     },
     {
       "Species_ID": "SP_1014",
@@ -212,8 +197,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     },
     {
       "Species_ID": "SP_1014",
@@ -228,8 +212,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     },
     {
       "Species_ID": "SP_1014",
@@ -244,8 +227,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     },
     {
       "Species_ID": "SP_1014",
@@ -260,8 +242,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     },
     {
       "Species_ID": "SP_1014",
@@ -276,8 +257,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     },
     {
       "Species_ID": "SP_1014",
@@ -292,8 +272,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     },
     {
       "Species_ID": "SP_1014",
@@ -308,8 +287,7 @@
       "Location": "Jardín Botánico, Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "12-04-2007",
-      "Threat_Status": null
+      "Date": "12-04-2007"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.408304",
     "group_key": "SP_0821",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "08-10-2006"
     },
     {
       "Species_ID": "SP_0821",
@@ -52,8 +47,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": "Near-threatened"
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0821",
@@ -68,8 +62,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": "Near-threatened"
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0821",
@@ -84,8 +77,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "21-06-2014"
     },
     {
       "Species_ID": "SP_0821",
@@ -100,8 +92,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0821",
@@ -116,8 +107,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0821",
@@ -132,8 +122,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0821",
@@ -148,8 +137,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0821",
@@ -164,8 +152,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0821",
@@ -180,8 +167,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0821",
@@ -196,8 +182,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-2005",
-      "Threat_Status": "Near-threatened"
+      "Date": "03-2005"
     }
   ]
 }

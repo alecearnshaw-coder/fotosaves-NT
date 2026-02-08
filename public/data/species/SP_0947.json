@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Icteridae/Icteridae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T13:53:09.042611",
     "group_key": "SP_0947",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Corazón de la Isla",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "30-01-2014",
-      "Threat_Status": null
+      "Date": "30-01-2014"
     },
     {
       "Species_ID": "SP_0947",
@@ -52,8 +47,7 @@
       "Location": "Corazón de la Isla",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "30-01-2014",
-      "Threat_Status": null
+      "Date": "30-01-2014"
     },
     {
       "Species_ID": "SP_0947",
@@ -68,8 +62,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-03-2011",
-      "Threat_Status": null
+      "Date": "18-03-2011"
     },
     {
       "Species_ID": "SP_0947",
@@ -84,8 +77,7 @@
       "Location": "Lapataia, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0947",
@@ -100,8 +92,7 @@
       "Location": "Ruta \"b\"",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0947",
@@ -116,8 +107,7 @@
       "Location": "Ruta \"b\"",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0947",
@@ -132,8 +122,7 @@
       "Location": "Ruta \"b\"",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0947",
@@ -148,8 +137,7 @@
       "Location": "Cachagua",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "17-12-2009",
-      "Threat_Status": null
+      "Date": "17-12-2009"
     },
     {
       "Species_ID": "SP_0947",
@@ -164,8 +152,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0947",
@@ -180,8 +167,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0947",
@@ -196,8 +182,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0947",
@@ -212,8 +197,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0947",
@@ -228,8 +212,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     }
   ]
 }

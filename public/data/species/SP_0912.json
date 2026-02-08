@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Fringillidae-Euph/Euphoniinae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T02:24:13.885935",
     "group_key": "SP_0912",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Jardín de los Picaflores, Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "13-09-2018",
-      "Threat_Status": null
+      "Date": "13-09-2018"
     },
     {
       "Species_ID": "SP_0912",
@@ -52,8 +47,7 @@
       "Location": "Colonia Carlos Pellegrini.",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -68,8 +62,7 @@
       "Location": "Mercedes",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "28-03-2012",
-      "Threat_Status": null
+      "Date": "28-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -84,8 +77,7 @@
       "Location": "Jardín de los Picaflores, Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "13-09-2018",
-      "Threat_Status": null
+      "Date": "13-09-2018"
     },
     {
       "Species_ID": "SP_0912",
@@ -100,8 +92,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-2012",
-      "Threat_Status": null
+      "Date": "03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -116,8 +107,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -132,8 +122,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -148,8 +137,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -164,8 +152,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -180,8 +167,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -196,8 +182,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -212,8 +197,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -228,8 +212,7 @@
       "Location": "Colonia Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0912",
@@ -244,8 +227,7 @@
       "Location": "Mercedes",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "28-03-2012",
-      "Threat_Status": null
+      "Date": "28-03-2012"
     }
   ]
 }

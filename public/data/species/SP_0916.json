@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Fringillidae-Frin/Fringillinae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T02:14:34.707029",
     "group_key": "SP_0916",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Rutland Water",
       "Province": "Rutland",
       "Country": "UK",
-      "Date": "22-08-2009",
-      "Threat_Status": null
+      "Date": "22-08-2009"
     }
   ]
 }

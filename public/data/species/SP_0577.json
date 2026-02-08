@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tityridae/Tityridae_Image_Listing.xlsx",
-    "generated_at": "2025-09-24T21:11:21.530384",
     "group_key": "SP_0577",
     "total_rows": 21,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 03-01-2009",
-      "Threat_Status": null
+      "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 03-01-2009"
     },
     {
       "Species_ID": "SP_0577",
@@ -55,8 +50,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-11-2018",
-      "Location_Date": "Reserva Natural Ribera Norte, Acassuso, Buenos Aires - 20-11-2018",
-      "Threat_Status": null
+      "Location_Date": "Reserva Natural Ribera Norte, Acassuso, Buenos Aires - 20-11-2018"
     },
     {
       "Species_ID": "SP_0577",
@@ -72,8 +66,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-01-2014",
-      "Location_Date": "Reserva de Vicente López, La Lucila, Buenos Aires - 11-01-2014",
-      "Threat_Status": null
+      "Location_Date": "Reserva de Vicente López, La Lucila, Buenos Aires - 11-01-2014"
     },
     {
       "Species_ID": "SP_0577",
@@ -89,8 +82,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "11-2002",
-      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 11-2002",
-      "Threat_Status": null
+      "Location_Date": "Reserva Municipal de Vicente López, La Lucila, Buenos Aires - 11-2002"
     },
     {
       "Species_ID": "SP_0577",
@@ -106,8 +98,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-03-2014",
-      "Location_Date": "Arroyo El Gato, La Plata, Buenos Aires - 16-03-2014",
-      "Threat_Status": null
+      "Location_Date": "Arroyo El Gato, La Plata, Buenos Aires - 16-03-2014"
     },
     {
       "Species_ID": "SP_0577",
@@ -123,8 +114,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-03-2024",
-      "Location_Date": "Bosques de Ezeiza, Buenos Aires- 17-03-2024",
-      "Threat_Status": null
+      "Location_Date": "Bosques de Ezeiza, Buenos Aires- 17-03-2024"
     },
     {
       "Species_ID": "SP_0577",
@@ -140,8 +130,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "29-12-2012",
-      "Location_Date": "Parque Natural Municipal \"Las Piedras\", Gualeguaychú, Entre Ríos - 29-12-2012",
-      "Threat_Status": null
+      "Location_Date": "Parque Natural Municipal \"Las Piedras\", Gualeguaychú, Entre Ríos - 29-12-2012"
     },
     {
       "Species_ID": "SP_0577",
@@ -157,8 +146,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "01-2006",
-      "Location_Date": "Otamendi, Buenos Aires - 1/2006",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 1/2006"
     },
     {
       "Species_ID": "SP_0577",
@@ -174,8 +162,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "02-2002",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2002",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2002"
     },
     {
       "Species_ID": "SP_0577",
@@ -191,8 +178,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 1/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 1/2007"
     },
     {
       "Species_ID": "SP_0577",
@@ -208,8 +194,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "02-2007",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2007",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 2/2007"
     },
     {
       "Species_ID": "SP_0577",
@@ -225,8 +210,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-02-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/2/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/2/2008"
     },
     {
       "Species_ID": "SP_0577",
@@ -242,8 +226,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-02-2008",
-      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/2/2008",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 17/2/2008"
     },
     {
       "Species_ID": "SP_0577",
@@ -259,8 +242,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 3/1/2009"
     },
     {
       "Species_ID": "SP_0577",
@@ -276,8 +258,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 3/1/2009"
     },
     {
       "Species_ID": "SP_0577",
@@ -293,8 +274,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 3/1/2009"
     },
     {
       "Species_ID": "SP_0577",
@@ -310,8 +290,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 3/1/2009"
     },
     {
       "Species_ID": "SP_0577",
@@ -327,8 +306,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "03-01-2009",
-      "Location_Date": "Iberá, Corrientes - 3/1/2009",
-      "Threat_Status": null
+      "Location_Date": "Iberá, Corrientes - 3/1/2009"
     },
     {
       "Species_ID": "SP_0577",
@@ -344,8 +322,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, Entre Rios - 10/1/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/1/2011"
     },
     {
       "Species_ID": "SP_0577",
@@ -361,8 +338,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, Entre Rios - 10/1/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/1/2011"
     },
     {
       "Species_ID": "SP_0577",
@@ -378,8 +354,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "27-02-2012",
-      "Location_Date": "Ribera Norte, Buenos Aires - 27/2/2012",
-      "Threat_Status": null
+      "Location_Date": "Ribera Norte, Buenos Aires - 27/2/2012"
     }
   ]
 }

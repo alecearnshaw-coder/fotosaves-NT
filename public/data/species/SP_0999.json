@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.380002",
     "group_key": "SP_0999",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0999",
@@ -52,8 +47,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0999",
@@ -68,8 +62,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0999",
@@ -84,8 +77,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0999",
@@ -100,8 +92,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0999",
@@ -116,8 +107,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_0999",
@@ -132,8 +122,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "15-12-2009",
-      "Threat_Status": null
+      "Date": "15-12-2009"
     }
   ]
 }

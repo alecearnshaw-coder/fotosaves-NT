@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Pelecaniformes/Pelecaniformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-11T23:40:40.282603",
     "group_key": "SP_0323",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Costa del Pacífico, Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "14-12-2006",
-      "Threat_Status": null
+      "Date": "14-12-2006"
     },
     {
       "Species_ID": "SP_0323",
@@ -52,8 +47,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": null
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0323",
@@ -68,8 +62,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": null
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0323",
@@ -84,8 +77,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0323",
@@ -100,8 +92,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0323",
@@ -116,8 +107,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0323",
@@ -132,8 +122,7 @@
       "Location": "Basseterre",
       "Province": "St. Kitts",
       "Country": "ST. KITTS & NEVIS",
-      "Date": "02-2001",
-      "Threat_Status": null
+      "Date": "02-2001"
     }
   ]
 }

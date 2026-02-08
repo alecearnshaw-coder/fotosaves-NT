@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Mimidae/Mimidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-08T22:07:03.320886",
     "group_key": "SP_0877",
     "total_rows": 18,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Paso Córdoba",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "13-09-2012",
-      "Threat_Status": null
+      "Date": "13-09-2012"
     },
     {
       "Species_ID": "SP_0877",
@@ -52,8 +47,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "11-02-2006",
-      "Threat_Status": null
+      "Date": "11-02-2006"
     },
     {
       "Species_ID": "SP_0877",
@@ -68,8 +62,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_0877",
@@ -84,8 +77,7 @@
       "Location": "Tilcara",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_0877",
@@ -100,8 +92,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0877",
@@ -116,8 +107,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0877",
@@ -132,8 +122,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0877",
@@ -148,8 +137,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0877",
@@ -164,8 +152,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0877",
@@ -180,8 +167,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0877",
@@ -196,8 +182,7 @@
       "Location": "Uzcudún",
       "Province": "Chubut",
       "Country": null,
-      "Date": "03-07-2009",
-      "Threat_Status": null
+      "Date": "03-07-2009"
     },
     {
       "Species_ID": "SP_0877",
@@ -212,8 +197,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0877",
@@ -228,8 +212,7 @@
       "Location": "Punta Cantor, Peninsula Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2002",
-      "Threat_Status": null
+      "Date": "02-2002"
     },
     {
       "Species_ID": "SP_0877",
@@ -244,8 +227,7 @@
       "Location": "La Herradura, Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "25-03-2009",
-      "Threat_Status": null
+      "Date": "25-03-2009"
     },
     {
       "Species_ID": "SP_0877",
@@ -260,8 +242,7 @@
       "Location": "La Herradura, Plottier",
       "Province": "Neuquén",
       "Country": null,
-      "Date": "25-03-2009",
-      "Threat_Status": null
+      "Date": "25-03-2009"
     },
     {
       "Species_ID": "SP_0877",
@@ -276,8 +257,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "27-03-2009",
-      "Threat_Status": null
+      "Date": "27-03-2009"
     },
     {
       "Species_ID": "SP_0877",
@@ -292,8 +272,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2003",
-      "Threat_Status": null
+      "Date": "02-2003"
     },
     {
       "Species_ID": "SP_0877",
@@ -308,8 +287,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "03-2009",
-      "Threat_Status": null
+      "Date": "03-2009"
     }
   ]
 }

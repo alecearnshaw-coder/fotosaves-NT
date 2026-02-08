@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T18:26:38.324462",
     "group_key": "SP_0444",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Mesada de las Colmenas, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     },
     {
       "Species_ID": "SP_0444",
@@ -52,8 +47,7 @@
       "Location": "Ruta 101, Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "23-09-2015",
-      "Threat_Status": null
+      "Date": "23-09-2015"
     },
     {
       "Species_ID": "SP_0444",
@@ -68,8 +62,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "23-09-2015",
-      "Threat_Status": null
+      "Date": "23-09-2015"
     },
     {
       "Species_ID": "SP_0444",
@@ -84,8 +77,7 @@
       "Location": "Sendero Macuco, Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "21-09-2015",
-      "Threat_Status": null
+      "Date": "21-09-2015"
     },
     {
       "Species_ID": "SP_0444",
@@ -100,8 +92,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     }
   ]
 }

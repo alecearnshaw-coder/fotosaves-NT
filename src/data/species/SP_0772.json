@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Phyl/Furnariidae-Phyl_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T10:22:35.380969",
     "group_key": "SP_0772",
     "total_rows": 19,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Sendero Costero. Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "15-02-2017",
-      "Threat_Status": null
+      "Date": "15-02-2017"
     },
     {
       "Species_ID": "SP_0772",
@@ -52,8 +47,7 @@
       "Location": "Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-02-2017",
-      "Threat_Status": null
+      "Date": "13-02-2017"
     },
     {
       "Species_ID": "SP_0772",
@@ -68,8 +62,7 @@
       "Location": "Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-02-2017",
-      "Threat_Status": null
+      "Date": "13-02-2017"
     },
     {
       "Species_ID": "SP_0772",
@@ -84,8 +77,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -100,8 +92,7 @@
       "Location": "Sendero Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-02-2014",
-      "Threat_Status": null
+      "Date": "03-02-2014"
     },
     {
       "Species_ID": "SP_0772",
@@ -116,8 +107,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "09-02-2008",
-      "Threat_Status": null
+      "Date": "09-02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -132,8 +122,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -148,8 +137,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -164,8 +152,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -180,8 +167,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -196,8 +182,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -212,8 +197,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -228,8 +212,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -244,8 +227,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -260,8 +242,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -276,8 +257,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -292,8 +272,7 @@
       "Location": "PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0772",
@@ -308,8 +287,7 @@
       "Location": "Lago Victoria",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0772",
@@ -324,8 +302,7 @@
       "Location": "Lago Victoria",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     }
   ]
 }

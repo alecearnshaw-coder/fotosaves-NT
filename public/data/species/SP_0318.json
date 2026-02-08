@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Pelecaniformes/Pelecaniformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-11T23:40:40.307575",
     "group_key": "SP_0318",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Municipal Finky, Turdera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-10-2018",
-      "Threat_Status": null
+      "Date": "25-10-2018"
     },
     {
       "Species_ID": "SP_0318",
@@ -52,8 +47,7 @@
       "Location": "Parque Municipal Finky, Turdera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-10-2018",
-      "Threat_Status": null
+      "Date": "25-10-2018"
     },
     {
       "Species_ID": "SP_0318",
@@ -68,8 +62,7 @@
       "Location": "Parque Municipal Finky, Turdera",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-10-2018",
-      "Threat_Status": null
+      "Date": "25-10-2018"
     },
     {
       "Species_ID": "SP_0318",
@@ -84,8 +77,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "20-11-2015",
-      "Threat_Status": null
+      "Date": "20-11-2015"
     },
     {
       "Species_ID": "SP_0318",
@@ -100,8 +92,7 @@
       "Location": "Reserva Municipal de San Isidro \"Ribera Norte\"",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0318",
@@ -116,8 +107,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0318",
@@ -132,8 +122,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0318",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0318",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0318",
@@ -180,8 +167,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0318",
@@ -196,8 +182,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0318",
@@ -212,8 +197,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Pipridae/Pipridae_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T22:20:40.885657",
     "group_key": "SP_0561",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Sendero \"La Lagunita\", Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-04-2018",
-      "Threat_Status": null
+      "Date": "14-04-2018"
     },
     {
       "Species_ID": "SP_0561",
@@ -52,8 +47,7 @@
       "Location": "Mesada de las Colmenas, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     }
   ]
 }

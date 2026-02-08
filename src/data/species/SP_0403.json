@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T23:30:46.165791",
     "group_key": "SP_0403",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "RP 83 cerca de Abra Colorada, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "30-08-2023",
-      "Threat_Status": null
+      "Date": "30-08-2023"
     }
   ]
 }

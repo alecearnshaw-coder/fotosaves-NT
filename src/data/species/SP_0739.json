@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Rhinocryptidae/Rhinocryptidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T13:33:47.103340",
     "group_key": "SP_0739",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Vilches",
       "Province": "Maule",
       "Country": "CHILE",
-      "Date": "18-12-2009",
-      "Threat_Status": null
+      "Date": "18-12-2009"
     },
     {
       "Species_ID": "SP_0739",
@@ -52,8 +47,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "10-2008",
-      "Threat_Status": null
+      "Date": "10-2008"
     }
   ]
 }

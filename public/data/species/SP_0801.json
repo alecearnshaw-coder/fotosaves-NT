@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Furn/Furnariidae-Furn_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T11:31:08.479002",
     "group_key": "SP_0801",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Glaciar Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "30-01-2008",
-      "Threat_Status": null
+      "Date": "30-01-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -52,8 +47,7 @@
       "Location": "Playa Larga, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0801",
@@ -68,8 +62,7 @@
       "Location": "Ushuaia, P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -84,8 +77,7 @@
       "Location": "Ushuaia, P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -100,8 +92,7 @@
       "Location": "Ushuaia, P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -116,8 +107,7 @@
       "Location": "Ushuaia, P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -132,8 +122,7 @@
       "Location": "Ushuaia, P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -148,8 +137,7 @@
       "Location": "Ushuaia, P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -164,8 +152,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -180,8 +167,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0801",
@@ -196,8 +182,7 @@
       "Location": "Viña del Mar",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0801",
@@ -212,8 +197,7 @@
       "Location": "Viña del Mar",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0801",
@@ -228,8 +212,7 @@
       "Location": "Viña del Mar",
       "Province": "Valparaiso",
       "Country": "CHILE",
-      "Date": "03-2006",
-      "Threat_Status": null
+      "Date": "03-2006"
     },
     {
       "Species_ID": "SP_0801",
@@ -244,8 +227,7 @@
       "Location": "Le Martial, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-2001",
-      "Threat_Status": null
+      "Date": "01-2001"
     }
   ]
 }

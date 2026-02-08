@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Suliformes/Suliformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-10T21:46:29.312582",
     "group_key": "SP_0300",
     "total_rows": 17,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2008",
-      "Threat_Status": null
+      "Date": "31-01-2008"
     },
     {
       "Species_ID": "SP_0300",
@@ -52,8 +47,7 @@
       "Location": "Sendero Ea. Túnel, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0300",
@@ -68,8 +62,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0300",
@@ -84,8 +77,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0300",
@@ -100,8 +92,7 @@
       "Location": "Sendero Costero, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "15-02-2017",
-      "Threat_Status": null
+      "Date": "15-02-2017"
     },
     {
       "Species_ID": "SP_0300",
@@ -116,8 +107,7 @@
       "Location": "Costanera, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0300",
@@ -132,8 +122,7 @@
       "Location": "Costanera, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0300",
@@ -148,8 +137,7 @@
       "Location": "Cabo Raso",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0300",
@@ -164,8 +152,7 @@
       "Location": "Cabo Raso",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0300",
@@ -180,8 +167,7 @@
       "Location": "Cabo Raso",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0300",
@@ -196,8 +182,7 @@
       "Location": "Canal de Beagle, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0300",
@@ -212,8 +197,7 @@
       "Location": "Canal de Beagle, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0300",
@@ -228,8 +212,7 @@
       "Location": "Canal de Beagle, PN Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0300",
@@ -244,8 +227,7 @@
       "Location": "Cabo Dos Bahías",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2003",
-      "Threat_Status": null
+      "Date": "02-2003"
     },
     {
       "Species_ID": "SP_0300",
@@ -260,8 +242,7 @@
       "Location": "Canal de Beagle",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0300",
@@ -276,8 +257,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0300",
@@ -292,8 +272,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     }
   ]
 }

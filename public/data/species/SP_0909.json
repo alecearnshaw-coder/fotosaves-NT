@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Motacillidae/Motacillidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-22T23:55:16.301282",
     "group_key": "SP_0909",
     "total_rows": 29,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2007",
-      "Threat_Status": null
+      "Date": "28-07-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -52,8 +47,7 @@
       "Location": "Ea. Los Flamencos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "28-01-2014",
-      "Threat_Status": null
+      "Date": "28-01-2014"
     },
     {
       "Species_ID": "SP_0909",
@@ -68,8 +62,7 @@
       "Location": "Ea. Los Flamencos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "28-01-2014",
-      "Threat_Status": null
+      "Date": "28-01-2014"
     },
     {
       "Species_ID": "SP_0909",
@@ -84,8 +77,7 @@
       "Location": "Ea. Los Flamencos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "28-01-2014",
-      "Threat_Status": null
+      "Date": "28-01-2014"
     },
     {
       "Species_ID": "SP_0909",
@@ -100,8 +92,7 @@
       "Location": "Laguna Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0909",
@@ -116,8 +107,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-03-2007",
-      "Threat_Status": null
+      "Date": "13-03-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -132,8 +122,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     },
     {
       "Species_ID": "SP_0909",
@@ -148,8 +137,7 @@
       "Location": "El Porvenir",
       "Province": "Tierra del Fuego",
       "Country": "CHILE",
-      "Date": "01-2001",
-      "Threat_Status": null
+      "Date": "01-2001"
     },
     {
       "Species_ID": "SP_0909",
@@ -164,8 +152,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0909",
@@ -180,8 +167,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0909",
@@ -196,8 +182,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0909",
@@ -212,8 +197,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-10-2007",
-      "Threat_Status": null
+      "Date": "15-10-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -228,8 +212,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-10-2007",
-      "Threat_Status": null
+      "Date": "15-10-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -244,8 +227,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-10-2007",
-      "Threat_Status": null
+      "Date": "15-10-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -260,8 +242,7 @@
       "Location": "San Sebastian",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0909",
@@ -276,8 +257,7 @@
       "Location": "San Sebastian",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0909",
@@ -292,8 +272,7 @@
       "Location": "San Sebastian",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0909",
@@ -308,8 +287,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0909",
@@ -324,8 +302,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0909",
@@ -340,8 +317,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2007",
-      "Threat_Status": null
+      "Date": "28-07-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -356,8 +332,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2007",
-      "Threat_Status": null
+      "Date": "28-07-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -372,8 +347,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2010",
-      "Threat_Status": null
+      "Date": "27-02-2010"
     },
     {
       "Species_ID": "SP_0909",
@@ -388,8 +362,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "27-02-2010",
-      "Threat_Status": null
+      "Date": "27-02-2010"
     },
     {
       "Species_ID": "SP_0909",
@@ -404,8 +377,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -420,8 +392,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -436,8 +407,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -452,8 +422,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -468,8 +437,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0909",
@@ -484,8 +452,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     }
   ]
 }

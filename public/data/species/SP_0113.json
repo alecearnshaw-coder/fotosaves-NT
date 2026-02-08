@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Columbiformes/Columbiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:39.492541",
     "group_key": "SP_0113",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-01-2013",
-      "Threat_Status": null
+      "Date": "05-01-2013"
     },
     {
       "Species_ID": "SP_0113",
@@ -52,8 +47,7 @@
       "Location": "Lago de Palermo",
       "Province": "AMBA",
       "Country": null,
-      "Date": "08-12-2012",
-      "Threat_Status": null
+      "Date": "08-12-2012"
     },
     {
       "Species_ID": "SP_0113",
@@ -68,8 +62,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-11-2013",
-      "Threat_Status": null
+      "Date": "06-11-2013"
     },
     {
       "Species_ID": "SP_0113",
@@ -84,8 +77,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-06-2021",
-      "Threat_Status": null
+      "Date": "13-06-2021"
     },
     {
       "Species_ID": "SP_0113",
@@ -100,8 +92,7 @@
       "Location": "Lago de Palermo",
       "Province": "AMBA",
       "Country": null,
-      "Date": "29-06-2008",
-      "Threat_Status": null
+      "Date": "29-06-2008"
     },
     {
       "Species_ID": "SP_0113",
@@ -116,8 +107,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "22-05-2016",
-      "Threat_Status": null
+      "Date": "22-05-2016"
     },
     {
       "Species_ID": "SP_0113",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "20-06-2010",
-      "Threat_Status": null
+      "Date": "20-06-2010"
     },
     {
       "Species_ID": "SP_0113",
@@ -148,8 +137,7 @@
       "Location": "Av. 9 de julio",
       "Province": "AMBA",
       "Country": null,
-      "Date": "09-2002",
-      "Threat_Status": null
+      "Date": "09-2002"
     },
     {
       "Species_ID": "SP_0113",
@@ -164,8 +152,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0113",
@@ -180,8 +167,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0113",
@@ -196,8 +182,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0113",
@@ -212,8 +197,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-2008",
-      "Threat_Status": null
+      "Date": "04-2008"
     },
     {
       "Species_ID": "SP_0113",
@@ -228,8 +212,7 @@
       "Location": "Lag. de Palermo",
       "Province": "AMBA",
       "Country": null,
-      "Date": "06-2008",
-      "Threat_Status": null
+      "Date": "06-2008"
     },
     {
       "Species_ID": "SP_0113",
@@ -244,8 +227,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2009",
-      "Threat_Status": null
+      "Date": "02-2009"
     },
     {
       "Species_ID": "SP_0113",
@@ -260,8 +242,7 @@
       "Location": "Ribera Norte",
       "Province": "Acassuso",
       "Country": null,
-      "Date": "09-2001",
-      "Threat_Status": null
+      "Date": "09-2001"
     }
   ]
 }

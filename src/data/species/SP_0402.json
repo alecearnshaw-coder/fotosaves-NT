@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T23:30:46.188478",
     "group_key": "SP_0402",
     "total_rows": 9,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Médanos",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-10-2015",
-      "Threat_Status": null
+      "Date": "18-10-2015"
     },
     {
       "Species_ID": "SP_0402",
@@ -52,8 +47,7 @@
       "Location": "Pieres",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": null
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0402",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "25-10-2014",
-      "Threat_Status": null
+      "Date": "25-10-2014"
     },
     {
       "Species_ID": "SP_0402",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-10-2013",
-      "Threat_Status": null
+      "Date": "05-10-2013"
     },
     {
       "Species_ID": "SP_0402",
@@ -100,8 +92,7 @@
       "Location": "Pieres",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": null
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0402",
@@ -116,8 +107,7 @@
       "Location": "Pieres",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": null
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0402",
@@ -132,8 +122,7 @@
       "Location": "Claromecó",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0402",
@@ -148,8 +137,7 @@
       "Location": "Claromecó",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0402",
@@ -164,8 +152,7 @@
       "Location": "Yráizoz, Miramar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     }
   ]
 }

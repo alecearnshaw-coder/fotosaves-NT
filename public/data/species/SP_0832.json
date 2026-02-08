@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.395314",
     "group_key": "SP_0832",
     "total_rows": 33,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-03-2012",
-      "Threat_Status": null
+      "Date": "29-03-2012"
     },
     {
       "Species_ID": "SP_0832",
@@ -52,8 +47,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-03-2014",
-      "Threat_Status": null
+      "Date": "16-03-2014"
     },
     {
       "Species_ID": "SP_0832",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-05-2015",
-      "Threat_Status": null
+      "Date": "09-05-2015"
     },
     {
       "Species_ID": "SP_0832",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-05-2015",
-      "Threat_Status": null
+      "Date": "09-05-2015"
     },
     {
       "Species_ID": "SP_0832",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "04-12-2021",
-      "Threat_Status": null
+      "Date": "04-12-2021"
     },
     {
       "Species_ID": "SP_0832",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0832",
@@ -132,8 +122,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0832",
@@ -148,8 +137,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0832",
@@ -164,8 +152,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0832",
@@ -180,8 +167,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0832",
@@ -196,8 +182,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2006",
-      "Threat_Status": null
+      "Date": "09-2006"
     },
     {
       "Species_ID": "SP_0832",
@@ -212,8 +197,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-05-2007",
-      "Threat_Status": null
+      "Date": "13-05-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -228,8 +212,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-05-2007",
-      "Threat_Status": null
+      "Date": "13-05-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -244,8 +227,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-05-2007",
-      "Threat_Status": null
+      "Date": "13-05-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -260,8 +242,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -276,8 +257,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -292,8 +272,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -308,8 +287,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -324,8 +302,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -340,8 +317,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0832",
@@ -356,8 +332,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
-      "Threat_Status": null
+      "Date": "22-02-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -372,8 +347,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
-      "Threat_Status": null
+      "Date": "22-02-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -388,8 +362,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-02-2008",
-      "Threat_Status": null
+      "Date": "22-02-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -404,8 +377,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -420,8 +392,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -436,8 +407,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -452,8 +422,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -468,8 +437,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -484,8 +452,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-03-2008",
-      "Threat_Status": null
+      "Date": "30-03-2008"
     },
     {
       "Species_ID": "SP_0832",
@@ -500,8 +467,7 @@
       "Location": "Escobar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-06-2009",
-      "Threat_Status": null
+      "Date": "11-06-2009"
     },
     {
       "Species_ID": "SP_0832",
@@ -516,8 +482,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "04-10-2009",
-      "Threat_Status": null
+      "Date": "04-10-2009"
     },
     {
       "Species_ID": "SP_0832",
@@ -532,8 +497,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-03-2012",
-      "Threat_Status": null
+      "Date": "29-03-2012"
     },
     {
       "Species_ID": "SP_0832",
@@ -548,8 +512,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-03-2012",
-      "Threat_Status": null
+      "Date": "29-03-2012"
     }
   ]
 }

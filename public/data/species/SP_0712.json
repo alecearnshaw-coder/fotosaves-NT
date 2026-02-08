@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.260475",
     "group_key": "SP_0712",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0712",
@@ -52,8 +47,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0712",
@@ -68,8 +62,7 @@
       "Location": "Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     }
   ]
 }

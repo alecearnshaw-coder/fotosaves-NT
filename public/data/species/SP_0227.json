@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.071987",
     "group_key": "SP_0227",
     "total_rows": 21,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "16-02-2017",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017",
-      "Threat_Status": null
+      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
       "Species_ID": "SP_0227",
@@ -55,8 +50,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "16-02-2017",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017",
-      "Threat_Status": null
+      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
       "Species_ID": "SP_0227",
@@ -72,8 +66,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "16-02-2017",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017",
-      "Threat_Status": null
+      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
       "Species_ID": "SP_0227",
@@ -89,8 +82,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "16-02-2017",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017",
-      "Threat_Status": null
+      "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
       "Species_ID": "SP_0227",
@@ -106,8 +98,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "15-09-2012",
-      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 15/9/2012",
-      "Threat_Status": null
+      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 15/9/2012"
     },
     {
       "Species_ID": "SP_0227",
@@ -123,8 +114,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0227",
@@ -140,8 +130,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0227",
@@ -157,8 +146,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Puerto Madryn, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Puerto Madryn, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0227",
@@ -174,8 +162,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "08-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
       "Species_ID": "SP_0227",
@@ -191,8 +178,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "08-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
       "Species_ID": "SP_0227",
@@ -208,8 +194,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "08-2006",
-      "Location_Date": "Costanera Sur, CABA - 8/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
       "Species_ID": "SP_0227",
@@ -225,8 +210,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "07-2006",
-      "Location_Date": "Costanera Sur, CABA - 7/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 7/2006"
     },
     {
       "Species_ID": "SP_0227",
@@ -242,8 +226,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Rios - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 15/7/2007"
     },
     {
       "Species_ID": "SP_0227",
@@ -259,8 +242,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "03-2008",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008"
     },
     {
       "Species_ID": "SP_0227",
@@ -276,8 +258,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "03-2008",
-      "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008",
-      "Threat_Status": null
+      "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008"
     },
     {
       "Species_ID": "SP_0227",
@@ -293,8 +274,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "03-2009",
-      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009",
-      "Threat_Status": null
+      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
       "Species_ID": "SP_0227",
@@ -310,8 +290,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "03-2009",
-      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009",
-      "Threat_Status": null
+      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
       "Species_ID": "SP_0227",
@@ -327,8 +306,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "03-2009",
-      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009",
-      "Threat_Status": null
+      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
       "Species_ID": "SP_0227",
@@ -344,8 +322,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "03-2009",
-      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009",
-      "Threat_Status": null
+      "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
       "Species_ID": "SP_0227",
@@ -361,8 +338,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-2009",
-      "Location_Date": "Mar del Plata, Buenos Aires - 7/2009",
-      "Threat_Status": null
+      "Location_Date": "Mar del Plata, Buenos Aires - 7/2009"
     },
     {
       "Species_ID": "SP_0227",
@@ -378,8 +354,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "13-01-2012",
-      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012",
-      "Threat_Status": null
+      "Location_Date": "Comodoro Rivadavia, Chubut - 13/1/2012"
     }
   ]
 }

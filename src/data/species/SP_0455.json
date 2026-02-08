@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Accipitriformes/Accipitriformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T18:26:38.324462",
     "group_key": "SP_0455",
     "total_rows": 29,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "La Estrella, RP13 al N de Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2017",
-      "Threat_Status": null
+      "Date": "12-10-2017"
     },
     {
       "Species_ID": "SP_0455",
@@ -52,8 +47,7 @@
       "Location": "Reserva Natural de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-06-2023",
-      "Threat_Status": null
+      "Date": "25-06-2023"
     },
     {
       "Species_ID": "SP_0455",
@@ -68,8 +62,7 @@
       "Location": "Reserva Natural de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-07-2017",
-      "Threat_Status": null
+      "Date": "23-07-2017"
     },
     {
       "Species_ID": "SP_0455",
@@ -84,8 +77,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-05-2021",
-      "Threat_Status": null
+      "Date": "26-05-2021"
     },
     {
       "Species_ID": "SP_0455",
@@ -100,8 +92,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-05-2021",
-      "Threat_Status": null
+      "Date": "26-05-2021"
     },
     {
       "Species_ID": "SP_0455",
@@ -116,8 +107,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-08-2017",
-      "Threat_Status": null
+      "Date": "05-08-2017"
     },
     {
       "Species_ID": "SP_0455",
@@ -132,8 +122,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-07-2012",
-      "Threat_Status": null
+      "Date": "05-07-2012"
     },
     {
       "Species_ID": "SP_0455",
@@ -148,8 +137,7 @@
       "Location": "Lago Regatas de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-12-2018",
-      "Threat_Status": null
+      "Date": "08-12-2018"
     },
     {
       "Species_ID": "SP_0455",
@@ -164,8 +152,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-01-2024",
-      "Threat_Status": null
+      "Date": "17-01-2024"
     },
     {
       "Species_ID": "SP_0455",
@@ -180,8 +167,7 @@
       "Location": "Lago Regatas de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-12-2018",
-      "Threat_Status": null
+      "Date": "08-12-2018"
     },
     {
       "Species_ID": "SP_0455",
@@ -196,8 +182,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "25-09-2018",
-      "Threat_Status": null
+      "Date": "25-09-2018"
     },
     {
       "Species_ID": "SP_0455",
@@ -212,8 +197,7 @@
       "Location": "R. N. Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2007",
-      "Threat_Status": null
+      "Date": "28-07-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -228,8 +212,7 @@
       "Location": "R. N. Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2007",
-      "Threat_Status": null
+      "Date": "28-07-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -244,8 +227,7 @@
       "Location": "R. N. Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2007",
-      "Threat_Status": null
+      "Date": "28-07-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -260,8 +242,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0455",
@@ -276,8 +257,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0455",
@@ -292,8 +272,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0455",
@@ -308,8 +287,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -324,8 +302,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -340,8 +317,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -356,8 +332,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "05-2008",
-      "Threat_Status": null
+      "Date": "05-2008"
     },
     {
       "Species_ID": "SP_0455",
@@ -372,8 +347,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "05-2008",
-      "Threat_Status": null
+      "Date": "05-2008"
     },
     {
       "Species_ID": "SP_0455",
@@ -388,8 +362,7 @@
       "Location": "Viñedos de Galleguillo, Copiapó",
       "Province": "Desierto de Atacama",
       "Country": "CHILE",
-      "Date": "05-2008",
-      "Threat_Status": null
+      "Date": "05-2008"
     },
     {
       "Species_ID": "SP_0455",
@@ -404,8 +377,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0455",
@@ -420,8 +392,7 @@
       "Location": "INTA Castelar",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-2007",
-      "Threat_Status": null
+      "Date": "03-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -436,8 +407,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "31-08-2007",
-      "Threat_Status": null
+      "Date": "31-08-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -452,8 +422,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "31-08-2007",
-      "Threat_Status": null
+      "Date": "31-08-2007"
     },
     {
       "Species_ID": "SP_0455",
@@ -468,8 +437,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2011",
-      "Threat_Status": null
+      "Date": "17-07-2011"
     },
     {
       "Species_ID": "SP_0455",
@@ -484,8 +452,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-07-2011",
-      "Threat_Status": null
+      "Date": "17-07-2011"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.788732",
     "group_key": "SP_0038",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "28-01-2014",
-      "Threat_Status": null
+      "Date": "28-01-2014"
     },
     {
       "Species_ID": "SP_0038",
@@ -52,8 +47,7 @@
       "Location": "Ea. Los Flamencos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "28-01-2014",
-      "Threat_Status": null
+      "Date": "28-01-2014"
     },
     {
       "Species_ID": "SP_0038",
@@ -68,8 +62,7 @@
       "Location": "El Porvenir",
       "Province": "Tierra del Fuego",
       "Country": "CHILE",
-      "Date": "01-2001",
-      "Threat_Status": null
+      "Date": "01-2001"
     },
     {
       "Species_ID": "SP_0038",
@@ -84,8 +77,7 @@
       "Location": "El Porvenir",
       "Province": "Tierra del Fuego",
       "Country": "CHILE",
-      "Date": "01-2001",
-      "Threat_Status": null
+      "Date": "01-2001"
     },
     {
       "Species_ID": "SP_0038",
@@ -100,8 +92,7 @@
       "Location": "Sur",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-2009",
-      "Threat_Status": null
+      "Date": "07-2009"
     }
   ]
 }

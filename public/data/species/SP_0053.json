@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.944970",
     "group_key": "SP_0053",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Frigate Bay Beach, Basseterre",
       "Province": "Saint Kitts",
       "Country": "St. Kitts & Nevis",
-      "Date": "2001",
-      "Threat_Status": null
+      "Date": "2001"
     }
   ]
 }

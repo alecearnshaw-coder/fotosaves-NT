@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thamnophilidae/Thamnophilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T11:27:12.731209",
     "group_key": "SP_0724",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "26-09-2015",
-      "Threat_Status": "Vulnerable"
+      "Date": "26-09-2015"
     }
   ]
 }

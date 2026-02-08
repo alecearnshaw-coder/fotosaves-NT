@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.866847",
     "group_key": "SP_0044",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-02-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "01-02-2014"
     },
     {
       "Species_ID": "SP_0044",
@@ -68,8 +62,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -84,8 +77,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -100,8 +92,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -116,8 +107,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -132,8 +122,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -148,8 +137,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -164,8 +152,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -180,8 +167,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -196,8 +182,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -212,8 +197,7 @@
       "Location": "P.N. Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": "Near-threatened"
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0044",
@@ -228,8 +212,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": "Near-threatened"
+      "Date": null
     }
   ]
 }

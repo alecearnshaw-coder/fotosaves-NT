@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.442525",
     "group_key": "SP_1011",
     "total_rows": 8,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_1011",
@@ -52,8 +47,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_1011",
@@ -68,8 +62,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_1011",
@@ -84,8 +77,7 @@
       "Location": "Volcán",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_1011",
@@ -100,8 +92,7 @@
       "Location": "Tilcara",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_1011",
@@ -116,8 +107,7 @@
       "Location": "Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "04-2007",
-      "Threat_Status": null
+      "Date": "04-2007"
     },
     {
       "Species_ID": "SP_1011",
@@ -132,8 +122,7 @@
       "Location": "Bogotá",
       "Province": "Cundinamarca",
       "Country": "COLOMBIA",
-      "Date": "04-2007",
-      "Threat_Status": null
+      "Date": "04-2007"
     },
     {
       "Species_ID": "SP_1011",
@@ -148,8 +137,7 @@
       "Location": "Manzano Histórico, Tunuyán",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     }
   ]
 }

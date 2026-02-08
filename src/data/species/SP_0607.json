@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.242895",
     "group_key": "SP_0607",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Entre Mesada de las Colmenas y Monolito, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     },
     {
       "Species_ID": "SP_0607",
@@ -52,8 +47,7 @@
       "Location": "Abra Colorada, Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-10-2017",
-      "Threat_Status": null
+      "Date": "14-10-2017"
     }
   ]
 }

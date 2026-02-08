@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.017888",
     "group_key": "SP_0183",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Kasai-Rimkai Park, Edogawa",
       "Province": "Tokyo",
       "Country": "JAPAN",
-      "Date": "11-10-2025",
-      "Threat_Status": null
+      "Date": "11-10-2025"
     },
     {
       "Species_ID": "SP_0183",
@@ -52,8 +47,7 @@
       "Location": "Kasai-Rimkai Park, Edogawa",
       "Province": "Tokyo",
       "Country": "JAPAN",
-      "Date": "11-10-2025",
-      "Threat_Status": null
+      "Date": "11-10-2025"
     }
   ]
 }

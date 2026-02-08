@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.009894",
     "group_key": "SP_0197",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": "VU"
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0197",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-12-2014",
-      "Threat_Status": null
+      "Date": "26-12-2014"
     },
     {
       "Species_ID": "SP_0197",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0197",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-03-2008",
-      "Threat_Status": null
+      "Date": "15-03-2008"
     },
     {
       "Species_ID": "SP_0197",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-03-2008",
-      "Threat_Status": null
+      "Date": "15-03-2008"
     },
     {
       "Species_ID": "SP_0197",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0197",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0197",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0197",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0197",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     },
     {
       "Species_ID": "SP_0197",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2011",
-      "Threat_Status": null
+      "Date": "05-02-2011"
     }
   ]
 }

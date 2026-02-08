@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:00:57.742315",
     "group_key": "SP_0012",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "La Intermedia",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     },
     {
       "Species_ID": "SP_0012",
@@ -52,8 +47,7 @@
       "Location": "La Intermedia",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-10-2014",
-      "Threat_Status": null
+      "Date": "13-10-2014"
     }
   ]
 }

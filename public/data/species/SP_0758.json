@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Dendro/Furnariidae-Dendro_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T23:39:16.729302",
     "group_key": "SP_0758",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "04-05-2014",
-      "Threat_Status": null
+      "Date": "04-05-2014"
     },
     {
       "Species_ID": "SP_0758",
@@ -52,8 +47,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-08-2014",
-      "Threat_Status": null
+      "Date": "16-08-2014"
     },
     {
       "Species_ID": "SP_0758",
@@ -68,8 +62,7 @@
       "Location": "Sendero Macuco, Parque Nacional Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "23-09-2015",
-      "Threat_Status": null
+      "Date": "23-09-2015"
     },
     {
       "Species_ID": "SP_0758",
@@ -84,8 +77,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "07-07-2016",
-      "Threat_Status": null
+      "Date": "07-07-2016"
     },
     {
       "Species_ID": "SP_0758",
@@ -100,8 +92,7 @@
       "Location": "San Sebastián de la Selva, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "07-07-2016",
-      "Threat_Status": null
+      "Date": "07-07-2016"
     },
     {
       "Species_ID": "SP_0758",
@@ -116,8 +107,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "10-09-2018",
-      "Threat_Status": null
+      "Date": "10-09-2018"
     },
     {
       "Species_ID": "SP_0758",
@@ -132,8 +122,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "08-09-2018",
-      "Threat_Status": null
+      "Date": "08-09-2018"
     }
   ]
 }

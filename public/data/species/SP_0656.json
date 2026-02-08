@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.456892",
     "group_key": "SP_0656",
     "total_rows": 28,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "24-11-2013",
-      "Threat_Status": null
+      "Date": "24-11-2013"
     },
     {
       "Species_ID": "SP_0656",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-10-2013",
-      "Threat_Status": null
+      "Date": "12-10-2013"
     },
     {
       "Species_ID": "SP_0656",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-10-2013",
-      "Threat_Status": null
+      "Date": "05-10-2013"
     },
     {
       "Species_ID": "SP_0656",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-01-2010",
-      "Threat_Status": null
+      "Date": "09-01-2010"
     },
     {
       "Species_ID": "SP_0656",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "13-01-2024",
-      "Threat_Status": null
+      "Date": "13-01-2024"
     },
     {
       "Species_ID": "SP_0656",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "25-10-2014",
-      "Threat_Status": null
+      "Date": "25-10-2014"
     },
     {
       "Species_ID": "SP_0656",
@@ -132,8 +122,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": null
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0656",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -196,8 +182,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2002",
-      "Threat_Status": null
+      "Date": "11-2002"
     },
     {
       "Species_ID": "SP_0656",
@@ -212,8 +197,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0656",
@@ -228,8 +212,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0656",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2007",
-      "Threat_Status": null
+      "Date": "02-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -276,8 +257,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -292,8 +272,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0656",
@@ -308,8 +287,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-2007",
-      "Threat_Status": null
+      "Date": "01-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0656",
@@ -340,8 +317,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -356,8 +332,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "01-2009",
-      "Threat_Status": null
+      "Date": "01-2009"
     },
     {
       "Species_ID": "SP_0656",
@@ -372,8 +347,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-2009",
-      "Threat_Status": null
+      "Date": "02-2009"
     },
     {
       "Species_ID": "SP_0656",
@@ -388,8 +362,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "17-02-2009",
-      "Threat_Status": null
+      "Date": "17-02-2009"
     },
     {
       "Species_ID": "SP_0656",
@@ -404,8 +377,7 @@
       "Location": "Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "27-10-2010",
-      "Threat_Status": null
+      "Date": "27-10-2010"
     },
     {
       "Species_ID": "SP_0656",
@@ -420,8 +392,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-12-2007",
-      "Threat_Status": null
+      "Date": "21-12-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -436,8 +407,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-12-2007",
-      "Threat_Status": null
+      "Date": "21-12-2007"
     },
     {
       "Species_ID": "SP_0656",
@@ -452,8 +422,7 @@
       "Location": "Lunlunta, Maipú",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "25-10-2011",
-      "Threat_Status": null
+      "Date": "25-10-2011"
     },
     {
       "Species_ID": "SP_0656",
@@ -468,8 +437,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2012",
-      "Threat_Status": null
+      "Date": "05-02-2012"
     }
   ]
 }

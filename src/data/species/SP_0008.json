@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:00:57.759063",
     "group_key": "SP_0008",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ea. el Monte Santa Elena, Berraondo",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-08-2024",
-      "Threat_Status": null
+      "Date": "06-08-2024"
     }
   ]
 }

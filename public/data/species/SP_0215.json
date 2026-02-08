@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.115121",
     "group_key": "SP_0215",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": null
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0215",
@@ -52,8 +47,7 @@
       "Location": "Observatorio de Aves, Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-03-2019",
-      "Threat_Status": null
+      "Date": "24-03-2019"
     },
     {
       "Species_ID": "SP_0215",
@@ -68,8 +62,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": null
+      "Date": "07-07-2013"
     }
   ]
 }

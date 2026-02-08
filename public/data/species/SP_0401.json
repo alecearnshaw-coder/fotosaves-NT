@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T23:30:46.172853",
     "group_key": "SP_0401",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Lapataia, PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0401",
@@ -52,8 +47,7 @@
       "Location": "Lapataia, PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "16-02-2017",
-      "Threat_Status": null
+      "Date": "16-02-2017"
     },
     {
       "Species_ID": "SP_0401",
@@ -68,8 +62,7 @@
       "Location": "Lapataia, PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-02-2014",
-      "Threat_Status": null
+      "Date": "01-02-2014"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.286254",
     "group_key": "SP_1078",
     "total_rows": 23,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-08-2015",
-      "Threat_Status": null
+      "Date": "02-08-2015"
     },
     {
       "Species_ID": "SP_1078",
@@ -52,8 +47,7 @@
       "Location": "Costanera de Formosa (ciudad)",
       "Province": "Formosa",
       "Country": null,
-      "Date": "20-10-2019",
-      "Threat_Status": null
+      "Date": "20-10-2019"
     },
     {
       "Species_ID": "SP_1078",
@@ -68,8 +62,7 @@
       "Location": "Costanera de Formosa (ciudad)",
       "Province": "Formosa",
       "Country": null,
-      "Date": "20-10-2019",
-      "Threat_Status": null
+      "Date": "20-10-2019"
     },
     {
       "Species_ID": "SP_1078",
@@ -84,8 +77,7 @@
       "Location": "Costanera de Formosa (ciudad)",
       "Province": "Formosa",
       "Country": null,
-      "Date": "20-10-2019",
-      "Threat_Status": null
+      "Date": "20-10-2019"
     },
     {
       "Species_ID": "SP_1078",
@@ -100,8 +92,7 @@
       "Location": "Reserva Municipal de Vicente Lopez, La Lucilia",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-09-2017",
-      "Threat_Status": null
+      "Date": "02-09-2017"
     },
     {
       "Species_ID": "SP_1078",
@@ -116,8 +107,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-07-2006",
-      "Threat_Status": null
+      "Date": "29-07-2006"
     },
     {
       "Species_ID": "SP_1078",
@@ -132,8 +122,7 @@
       "Location": "Reserva Municipal de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-11-2014",
-      "Threat_Status": null
+      "Date": "08-11-2014"
     },
     {
       "Species_ID": "SP_1078",
@@ -148,8 +137,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "03-2002",
-      "Threat_Status": null
+      "Date": "03-2002"
     },
     {
       "Species_ID": "SP_1078",
@@ -164,8 +152,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1078",
@@ -180,8 +167,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1078",
@@ -196,8 +182,7 @@
       "Location": "Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-08-2007",
-      "Threat_Status": null
+      "Date": "06-08-2007"
     },
     {
       "Species_ID": "SP_1078",
@@ -212,8 +197,7 @@
       "Location": "Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-08-2007",
-      "Threat_Status": null
+      "Date": "06-08-2007"
     },
     {
       "Species_ID": "SP_1078",
@@ -228,8 +212,7 @@
       "Location": "Paraná",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-08-2007",
-      "Threat_Status": null
+      "Date": "06-08-2007"
     },
     {
       "Species_ID": "SP_1078",
@@ -244,8 +227,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_1078",
@@ -260,8 +242,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_1078",
@@ -276,8 +257,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_1078",
@@ -292,8 +272,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_1078",
@@ -308,8 +287,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_1078",
@@ -324,8 +302,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_1078",
@@ -340,8 +317,7 @@
       "Location": "Ibicuy",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-07-2010",
-      "Threat_Status": null
+      "Date": "09-07-2010"
     },
     {
       "Species_ID": "SP_1078",
@@ -356,8 +332,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_1078",
@@ -372,8 +347,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_1078",
@@ -388,8 +362,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "05-01-2009",
-      "Threat_Status": null
+      "Date": "05-01-2009"
     }
   ]
 }

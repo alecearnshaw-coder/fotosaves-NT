@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.380002",
     "group_key": "SP_1000",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Azul Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": null
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_1000",
@@ -52,8 +47,7 @@
       "Location": "Purmamarca",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_1000",
@@ -68,8 +62,7 @@
       "Location": "Cuesta de Lipán",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_1000",
@@ -84,8 +77,7 @@
       "Location": "Cuesta de Lipán",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_1000",
@@ -100,8 +92,7 @@
       "Location": "Copiapó",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1000",
@@ -116,8 +107,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1000",
@@ -132,8 +122,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1000",
@@ -148,8 +137,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1000",
@@ -164,8 +152,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1000",
@@ -180,8 +167,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1000",
@@ -196,8 +182,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     },
     {
       "Species_ID": "SP_1000",
@@ -212,8 +197,7 @@
       "Location": "Copiapó (Cerro Blanco)",
       "Province": "Atacama",
       "Country": "CHILE",
-      "Date": "23-05-2008",
-      "Threat_Status": null
+      "Date": "23-05-2008"
     }
   ]
 }

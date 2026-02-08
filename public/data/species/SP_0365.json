@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Apodiformes/Trochilidae/Trochilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T20:48:34.317751",
     "group_key": "SP_0365",
     "total_rows": 8,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Cuesta de Lipan",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_0365",
@@ -52,8 +47,7 @@
       "Location": "Cuesta de Lipan",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "09-10-2017",
-      "Threat_Status": null
+      "Date": "09-10-2017"
     },
     {
       "Species_ID": "SP_0365",
@@ -68,8 +62,7 @@
       "Location": "Jardín Botánico",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "11-04-2007",
-      "Threat_Status": null
+      "Date": "11-04-2007"
     },
     {
       "Species_ID": "SP_0365",
@@ -84,8 +77,7 @@
       "Location": "Jardín Botánico",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "11-04-2007",
-      "Threat_Status": null
+      "Date": "11-04-2007"
     },
     {
       "Species_ID": "SP_0365",
@@ -100,8 +92,7 @@
       "Location": "Jardín Botánico",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "11-04-2007",
-      "Threat_Status": null
+      "Date": "11-04-2007"
     },
     {
       "Species_ID": "SP_0365",
@@ -116,8 +107,7 @@
       "Location": "Jardín Botánico",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "11-04-2007",
-      "Threat_Status": null
+      "Date": "11-04-2007"
     },
     {
       "Species_ID": "SP_0365",
@@ -132,8 +122,7 @@
       "Location": "Jardín Botánico",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "11-04-2007",
-      "Threat_Status": null
+      "Date": "11-04-2007"
     },
     {
       "Species_ID": "SP_0365",
@@ -148,8 +137,7 @@
       "Location": "Jardín Botánico",
       "Province": "Bogotá",
       "Country": "COLOMBIA",
-      "Date": "11-04-2007",
-      "Threat_Status": null
+      "Date": "11-04-2007"
     }
   ]
 }

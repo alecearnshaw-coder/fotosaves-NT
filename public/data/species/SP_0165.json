@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasA_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:25:36.167109",
     "group_key": "SP_0165",
     "total_rows": 24,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": null
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0165",
@@ -52,8 +47,7 @@
       "Location": "Ea. Los Flamencos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "28-01-2014",
-      "Threat_Status": null
+      "Date": "28-01-2014"
     },
     {
       "Species_ID": "SP_0165",
@@ -68,8 +62,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0165",
@@ -84,8 +77,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0165",
@@ -100,8 +92,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "06-02-2008",
-      "Threat_Status": null
+      "Date": "06-02-2008"
     },
     {
       "Species_ID": "SP_0165",
@@ -116,8 +107,7 @@
       "Location": "Punta Piedras",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-07-2013",
-      "Threat_Status": null
+      "Date": "07-07-2013"
     },
     {
       "Species_ID": "SP_0165",
@@ -132,8 +122,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0165",
@@ -148,8 +137,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0165",
@@ -164,8 +152,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0165",
@@ -180,8 +167,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0165",
@@ -196,8 +182,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0165",
@@ -212,8 +197,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0165",
@@ -228,8 +212,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-200 8",
-      "Threat_Status": null
+      "Date": "19-4-200 8"
     },
     {
       "Species_ID": "SP_0165",
@@ -244,8 +227,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-200 8",
-      "Threat_Status": null
+      "Date": "19-4-200 8"
     },
     {
       "Species_ID": "SP_0165",
@@ -260,8 +242,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-4-200 8",
-      "Threat_Status": null
+      "Date": "19-4-200 8"
     },
     {
       "Species_ID": "SP_0165",
@@ -276,8 +257,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0165",
@@ -292,8 +272,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0165",
@@ -308,8 +287,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0165",
@@ -324,8 +302,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0165",
@@ -340,8 +317,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0165",
@@ -356,8 +332,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2003",
-      "Threat_Status": null
+      "Date": "02-2003"
     },
     {
       "Species_ID": "SP_0165",
@@ -372,8 +347,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2003",
-      "Threat_Status": null
+      "Date": "02-2003"
     },
     {
       "Species_ID": "SP_0165",
@@ -388,8 +362,7 @@
       "Location": "Costa Bonita, Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2005",
-      "Threat_Status": null
+      "Date": "06-2005"
     },
     {
       "Species_ID": "SP_0165",
@@ -404,8 +377,7 @@
       "Location": "Costa Bonita, Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2005",
-      "Threat_Status": null
+      "Date": "06-2005"
     }
   ]
 }

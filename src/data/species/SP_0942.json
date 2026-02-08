@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Icteridae/Icteridae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T13:53:09.011361",
     "group_key": "SP_0942",
     "total_rows": 6,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0942",
@@ -52,8 +47,7 @@
       "Location": "Reserva Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "27-04-2014",
-      "Threat_Status": null
+      "Date": "27-04-2014"
     },
     {
       "Species_ID": "SP_0942",
@@ -68,8 +62,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0942",
@@ -84,8 +77,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0942",
@@ -100,8 +92,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0942",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     }
   ]
 }

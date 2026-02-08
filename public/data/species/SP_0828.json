@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.404308",
     "group_key": "SP_0828",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-11-2013",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-11-2013"
     },
     {
       "Species_ID": "SP_0828",
@@ -52,8 +47,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-11-2013",
-      "Threat_Status": "Near-threatened"
+      "Date": "17-11-2013"
     },
     {
       "Species_ID": "SP_0828",
@@ -68,8 +62,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "01-10-2006"
     },
     {
       "Species_ID": "SP_0828",
@@ -84,8 +77,7 @@
       "Location": "Ruta 11 y Río Salado",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-09-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "20-09-2014"
     },
     {
       "Species_ID": "SP_0828",
@@ -100,8 +92,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0828",
@@ -116,8 +107,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0828",
@@ -132,8 +122,7 @@
       "Location": "Punta Lara",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": "Near-threatened"
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0828",
@@ -148,8 +137,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0828",
@@ -164,8 +152,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0828",
@@ -180,8 +167,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0828",
@@ -196,8 +182,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0828",
@@ -212,8 +197,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0828",
@@ -228,8 +212,7 @@
       "Location": "Ribera Norte Reserve",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-02-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "01-02-2009"
     }
   ]
 }

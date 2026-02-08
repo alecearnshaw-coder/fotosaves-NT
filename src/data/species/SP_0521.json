@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T11:56:38.837051",
     "group_key": "SP_0521",
     "total_rows": 34,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural del Puerto, Mar del Plata",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-12-2023",
-      "Threat_Status": null
+      "Date": "09-12-2023"
     },
     {
       "Species_ID": "SP_0521",
@@ -52,8 +47,7 @@
       "Location": "Lago Pellegrini, Cinco Saltos",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "14-09-2012",
-      "Threat_Status": null
+      "Date": "14-09-2012"
     },
     {
       "Species_ID": "SP_0521",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ecológica de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "17-01-2024",
-      "Threat_Status": null
+      "Date": "17-01-2024"
     },
     {
       "Species_ID": "SP_0521",
@@ -84,8 +77,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-06-2021",
-      "Threat_Status": null
+      "Date": "13-06-2021"
     },
     {
       "Species_ID": "SP_0521",
@@ -100,8 +92,7 @@
       "Location": "Capilla del Monte",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-03-2013",
-      "Threat_Status": null
+      "Date": "22-03-2013"
     },
     {
       "Species_ID": "SP_0521",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "26-01-2013",
-      "Threat_Status": null
+      "Date": "26-01-2013"
     },
     {
       "Species_ID": "SP_0521",
@@ -132,8 +122,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "01-02-2014",
-      "Threat_Status": null
+      "Date": "01-02-2014"
     },
     {
       "Species_ID": "SP_0521",
@@ -148,8 +137,7 @@
       "Location": "Vieytes",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "21-06-2014",
-      "Threat_Status": null
+      "Date": "21-06-2014"
     },
     {
       "Species_ID": "SP_0521",
@@ -164,8 +152,7 @@
       "Location": "Reserva Bahía Encerrada, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "17-02-2017",
-      "Threat_Status": null
+      "Date": "17-02-2017"
     },
     {
       "Species_ID": "SP_0521",
@@ -180,8 +167,7 @@
       "Location": "Reserva Bahía Encerrada, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "17-02-2017",
-      "Threat_Status": null
+      "Date": "17-02-2017"
     },
     {
       "Species_ID": "SP_0521",
@@ -196,8 +182,7 @@
       "Location": "Los Robles, Moreno",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-06-2010",
-      "Threat_Status": null
+      "Date": "05-06-2010"
     },
     {
       "Species_ID": "SP_0521",
@@ -212,8 +197,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0521",
@@ -228,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-2002",
-      "Threat_Status": null
+      "Date": "04-2002"
     },
     {
       "Species_ID": "SP_0521",
@@ -244,8 +227,7 @@
       "Location": "Perdices",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0521",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0521",
@@ -276,8 +257,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     },
     {
       "Species_ID": "SP_0521",
@@ -292,8 +272,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -308,8 +287,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -324,8 +302,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -340,8 +317,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -356,8 +332,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -372,8 +347,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -388,8 +362,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -404,8 +377,7 @@
       "Location": "PN Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -420,8 +392,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "26-05-2007",
-      "Threat_Status": null
+      "Date": "26-05-2007"
     },
     {
       "Species_ID": "SP_0521",
@@ -436,8 +407,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0521",
@@ -452,8 +422,7 @@
       "Location": "Ea. Marahué, Pedro Luro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2002",
-      "Threat_Status": null
+      "Date": "09-2002"
     },
     {
       "Species_ID": "SP_0521",
@@ -468,8 +437,7 @@
       "Location": "Ruta 5",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-04-2009",
-      "Threat_Status": null
+      "Date": "01-04-2009"
     },
     {
       "Species_ID": "SP_0521",
@@ -484,8 +452,7 @@
       "Location": "Ruta 5",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-04-2009",
-      "Threat_Status": null
+      "Date": "01-04-2009"
     },
     {
       "Species_ID": "SP_0521",
@@ -500,8 +467,7 @@
       "Location": "Ruta 5",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-03-2009",
-      "Threat_Status": null
+      "Date": "01-03-2009"
     },
     {
       "Species_ID": "SP_0521",
@@ -516,8 +482,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0521",
@@ -532,8 +497,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0521",
@@ -548,8 +512,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     },
     {
       "Species_ID": "SP_0521",
@@ -564,8 +527,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "13-03-2011",
-      "Threat_Status": null
+      "Date": "13-03-2011"
     }
   ]
 }

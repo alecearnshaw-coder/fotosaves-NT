@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thamnophilidae/Thamnophilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T11:27:12.765151",
     "group_key": "SP_0730",
     "total_rows": 34,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Natural Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-09-2009",
-      "Threat_Status": null
+      "Date": "19-09-2009"
     },
     {
       "Species_ID": "SP_0730",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "18-05-2014",
-      "Threat_Status": null
+      "Date": "18-05-2014"
     },
     {
       "Species_ID": "SP_0730",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-05-2015",
-      "Threat_Status": null
+      "Date": "09-05-2015"
     },
     {
       "Species_ID": "SP_0730",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-03-2012",
-      "Threat_Status": null
+      "Date": "03-03-2012"
     },
     {
       "Species_ID": "SP_0730",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-03-2012",
-      "Threat_Status": null
+      "Date": "03-03-2012"
     },
     {
       "Species_ID": "SP_0730",
@@ -116,8 +107,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2002",
-      "Threat_Status": null
+      "Date": "09-2002"
     },
     {
       "Species_ID": "SP_0730",
@@ -132,8 +122,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -148,8 +137,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -164,8 +152,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -180,8 +167,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -196,8 +182,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "01-2006",
-      "Threat_Status": null
+      "Date": "01-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -212,8 +197,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -228,8 +212,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -244,8 +227,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -260,8 +242,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-2009",
-      "Threat_Status": null
+      "Date": "09-2009"
     },
     {
       "Species_ID": "SP_0730",
@@ -276,8 +257,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-2009",
-      "Threat_Status": null
+      "Date": "09-2009"
     },
     {
       "Species_ID": "SP_0730",
@@ -292,8 +272,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "09-2009",
-      "Threat_Status": null
+      "Date": "09-2009"
     },
     {
       "Species_ID": "SP_0730",
@@ -308,8 +287,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -324,8 +302,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "11-2006",
-      "Threat_Status": null
+      "Date": "11-2006"
     },
     {
       "Species_ID": "SP_0730",
@@ -340,8 +317,7 @@
       "Location": "Reserva Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "13-07-2008",
-      "Threat_Status": null
+      "Date": "13-07-2008"
     },
     {
       "Species_ID": "SP_0730",
@@ -356,8 +332,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-09-2007",
-      "Threat_Status": null
+      "Date": "01-09-2007"
     },
     {
       "Species_ID": "SP_0730",
@@ -372,8 +347,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-09-2007",
-      "Threat_Status": null
+      "Date": "01-09-2007"
     },
     {
       "Species_ID": "SP_0730",
@@ -388,8 +362,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "22-09-2007",
-      "Threat_Status": null
+      "Date": "22-09-2007"
     },
     {
       "Species_ID": "SP_0730",
@@ -404,8 +377,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-10-2007",
-      "Threat_Status": null
+      "Date": "07-10-2007"
     },
     {
       "Species_ID": "SP_0730",
@@ -420,8 +392,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-09-2008",
-      "Threat_Status": null
+      "Date": "18-09-2008"
     },
     {
       "Species_ID": "SP_0730",
@@ -436,8 +407,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-09-2008",
-      "Threat_Status": null
+      "Date": "18-09-2008"
     },
     {
       "Species_ID": "SP_0730",
@@ -452,8 +422,7 @@
       "Location": "Va. Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-01-2009",
-      "Threat_Status": null
+      "Date": "06-01-2009"
     },
     {
       "Species_ID": "SP_0730",
@@ -468,8 +437,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2009",
-      "Threat_Status": null
+      "Date": "10-2009"
     },
     {
       "Species_ID": "SP_0730",
@@ -484,8 +452,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-10-2011",
-      "Threat_Status": null
+      "Date": "16-10-2011"
     },
     {
       "Species_ID": "SP_0730",
@@ -500,8 +467,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-10-2011",
-      "Threat_Status": null
+      "Date": "16-10-2011"
     },
     {
       "Species_ID": "SP_0730",
@@ -516,8 +482,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-10-2011",
-      "Threat_Status": null
+      "Date": "16-10-2011"
     },
     {
       "Species_ID": "SP_0730",
@@ -532,8 +497,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-10-2011",
-      "Threat_Status": null
+      "Date": "16-10-2011"
     },
     {
       "Species_ID": "SP_0730",
@@ -548,8 +512,7 @@
       "Location": "Va. Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "05-02-2012",
-      "Threat_Status": null
+      "Date": "05-02-2012"
     },
     {
       "Species_ID": "SP_0730",
@@ -564,8 +527,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "03-03-2012",
-      "Threat_Status": null
+      "Date": "03-03-2012"
     }
   ]
 }

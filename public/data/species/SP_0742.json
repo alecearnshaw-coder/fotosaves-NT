@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Rhinocryptidae/Rhinocryptidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T13:33:47.118467",
     "group_key": "SP_0742",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Paso Córdoba, General Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "15-09-2012",
-      "Threat_Status": null
+      "Date": "15-09-2012"
     },
     {
       "Species_ID": "SP_0742",
@@ -52,8 +47,7 @@
       "Location": "Paso Córdoba, General Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "15-09-2012",
-      "Threat_Status": null
+      "Date": "15-09-2012"
     },
     {
       "Species_ID": "SP_0742",
@@ -68,8 +62,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "29-03-2009",
-      "Threat_Status": null
+      "Date": "29-03-2009"
     },
     {
       "Species_ID": "SP_0742",
@@ -84,8 +77,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "29-03-2009",
-      "Threat_Status": null
+      "Date": "29-03-2009"
     },
     {
       "Species_ID": "SP_0742",
@@ -100,8 +92,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "29-03-2009",
-      "Threat_Status": null
+      "Date": "29-03-2009"
     },
     {
       "Species_ID": "SP_0742",
@@ -116,8 +107,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "29-03-2009",
-      "Threat_Status": null
+      "Date": "29-03-2009"
     },
     {
       "Species_ID": "SP_0742",
@@ -132,8 +122,7 @@
       "Location": "Gral. Roca",
       "Province": "Río Negro",
       "Country": null,
-      "Date": "29-03-2009",
-      "Threat_Status": null
+      "Date": "29-03-2009"
     }
   ]
 }

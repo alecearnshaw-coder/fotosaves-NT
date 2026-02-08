@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.005156",
     "group_key": "SP_0198",
     "total_rows": 17,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "29-01-2014",
-      "Threat_Status": null
+      "Date": "29-01-2014"
     },
     {
       "Species_ID": "SP_0198",
@@ -52,8 +47,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0198",
@@ -68,8 +62,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "14-12-2006",
-      "Threat_Status": null
+      "Date": "14-12-2006"
     },
     {
       "Species_ID": "SP_0198",
@@ -84,8 +77,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0198",
@@ -100,8 +92,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0198",
@@ -116,8 +107,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0198",
@@ -132,8 +122,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0198",
@@ -148,8 +137,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0198",
@@ -164,8 +152,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0198",
@@ -180,8 +167,7 @@
       "Location": "Claromecó & Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0198",
@@ -196,8 +182,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0198",
@@ -212,8 +197,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0198",
@@ -228,8 +212,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0198",
@@ -244,8 +227,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0198",
@@ -260,8 +242,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0198",
@@ -276,8 +257,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     },
     {
       "Species_ID": "SP_0198",
@@ -292,8 +272,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-2008",
-      "Threat_Status": null
+      "Date": "02-2008"
     }
   ]
 }

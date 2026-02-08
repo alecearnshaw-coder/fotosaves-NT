@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasB_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:28:10.024303",
     "group_key": "SP_0204",
     "total_rows": 40,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": "VU"
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-10-2013",
-      "Threat_Status": null
+      "Date": "12-10-2013"
     },
     {
       "Species_ID": "SP_0204",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-10-2013",
-      "Threat_Status": null
+      "Date": "12-10-2013"
     },
     {
       "Species_ID": "SP_0204",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-10-2013",
-      "Threat_Status": null
+      "Date": "12-10-2013"
     },
     {
       "Species_ID": "SP_0204",
@@ -100,8 +92,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0204",
@@ -116,8 +107,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0204",
@@ -132,8 +122,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0204",
@@ -148,8 +137,7 @@
       "Location": "Laguna de los Patos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": null
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0204",
@@ -164,8 +152,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "20-09-2014",
-      "Threat_Status": null
+      "Date": "20-09-2014"
     },
     {
       "Species_ID": "SP_0204",
@@ -180,8 +167,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "3-200 8",
-      "Threat_Status": null
+      "Date": "3-200 8"
     },
     {
       "Species_ID": "SP_0204",
@@ -196,8 +182,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -212,8 +197,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -228,8 +212,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -244,8 +227,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -260,8 +242,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -276,8 +257,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -292,8 +272,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -308,8 +287,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -324,8 +302,7 @@
       "Location": "Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -340,8 +317,7 @@
       "Location": "San Blas",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2004",
-      "Threat_Status": null
+      "Date": "02-2004"
     },
     {
       "Species_ID": "SP_0204",
@@ -356,8 +332,7 @@
       "Location": "San Blas",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-2004",
-      "Threat_Status": null
+      "Date": "02-2004"
     },
     {
       "Species_ID": "SP_0204",
@@ -372,8 +347,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -388,8 +362,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -404,8 +377,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -420,8 +392,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -436,8 +407,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -452,8 +422,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -468,8 +437,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -484,8 +452,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0204",
@@ -500,8 +467,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "04-11-2009",
-      "Threat_Status": null
+      "Date": "04-11-2009"
     },
     {
       "Species_ID": "SP_0204",
@@ -516,8 +482,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     },
     {
       "Species_ID": "SP_0204",
@@ -532,8 +497,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     },
     {
       "Species_ID": "SP_0204",
@@ -548,8 +512,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     },
     {
       "Species_ID": "SP_0204",
@@ -564,8 +527,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     },
     {
       "Species_ID": "SP_0204",
@@ -580,8 +542,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "18-11-2010",
-      "Threat_Status": null
+      "Date": "18-11-2010"
     },
     {
       "Species_ID": "SP_0204",
@@ -596,8 +557,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-01-2011",
-      "Threat_Status": null
+      "Date": "10-01-2011"
     },
     {
       "Species_ID": "SP_0204",
@@ -612,8 +572,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-01-2012",
-      "Threat_Status": null
+      "Date": "13-01-2012"
     },
     {
       "Species_ID": "SP_0204",
@@ -628,8 +587,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     },
     {
       "Species_ID": "SP_0204",
@@ -644,8 +602,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     },
     {
       "Species_ID": "SP_0204",
@@ -660,8 +617,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     }
   ]
 }

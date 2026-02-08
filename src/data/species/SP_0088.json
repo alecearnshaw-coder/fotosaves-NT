@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cuculiformes/Cuculiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:21.407206",
     "group_key": "SP_0088",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "15-09-2018",
-      "Threat_Status": null
+      "Date": "15-09-2018"
     },
     {
       "Species_ID": "SP_0088",
@@ -52,8 +47,7 @@
       "Location": "Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "15-09-2018",
-      "Threat_Status": null
+      "Date": "15-09-2018"
     },
     {
       "Species_ID": "SP_0088",
@@ -68,8 +62,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "02-05-2014",
-      "Threat_Status": null
+      "Date": "02-05-2014"
     },
     {
       "Species_ID": "SP_0088",
@@ -84,8 +77,7 @@
       "Location": "Bioreserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "04-07-2016",
-      "Threat_Status": null
+      "Date": "04-07-2016"
     }
   ]
 }

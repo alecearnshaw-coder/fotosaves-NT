@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.409574",
     "group_key": "SP_0652",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "25-09-2015",
-      "Threat_Status": null
+      "Date": "25-09-2015"
     },
     {
       "Species_ID": "SP_0652",
@@ -52,8 +47,7 @@
       "Location": "Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "17-03-2019",
-      "Threat_Status": null
+      "Date": "17-03-2019"
     },
     {
       "Species_ID": "SP_0652",
@@ -68,8 +62,7 @@
       "Location": "Surucuá Reserva y Ecolodge, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "02-05-2014",
-      "Threat_Status": null
+      "Date": "02-05-2014"
     }
   ]
 }

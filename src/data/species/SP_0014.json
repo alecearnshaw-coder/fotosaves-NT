@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:00:57.742315",
     "group_key": "SP_0014",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Pampa de la Viuda Agustina",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "01-03-2025",
-      "Threat_Status": null
+      "Date": "01-03-2025"
     },
     {
       "Species_ID": "SP_0014",
@@ -52,8 +47,7 @@
       "Location": "Dique Paso de las Carretas",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.414453",
     "group_key": "SP_0542",
     "total_rows": 3,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "EcoPortal de Piedra, Palma Sola",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "19-08-2014",
-      "Threat_Status": null
+      "Date": "19-08-2014"
     },
     {
       "Species_ID": "SP_0542",
@@ -52,8 +47,7 @@
       "Location": "Estación de Recría \"Guira Oga\", Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "07-1999",
-      "Threat_Status": null
+      "Date": "07-1999"
     },
     {
       "Species_ID": "SP_0542",
@@ -68,8 +62,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-2001",
-      "Threat_Status": null
+      "Date": "10-2001"
     }
   ]
 }

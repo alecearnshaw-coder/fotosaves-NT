@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thamnophilidae/Thamnophilidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-27T11:27:12.784135",
     "group_key": "SP_0733",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "05-07-2016",
-      "Threat_Status": null
+      "Date": "05-07-2016"
     },
     {
       "Species_ID": "SP_0733",
@@ -52,8 +47,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "05-07-2016",
-      "Threat_Status": null
+      "Date": "05-07-2016"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Strigiformes/Strigiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-13T23:30:46.171783",
     "group_key": "SP_0407",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-08-2012",
-      "Threat_Status": null
+      "Date": "24-08-2012"
     },
     {
       "Species_ID": "SP_0407",
@@ -52,8 +47,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "15-01-2014",
-      "Threat_Status": null
+      "Date": "15-01-2014"
     },
     {
       "Species_ID": "SP_0407",
@@ -68,8 +62,7 @@
       "Location": "Estancia Virocay",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "17-04-2014",
-      "Threat_Status": null
+      "Date": "17-04-2014"
     },
     {
       "Species_ID": "SP_0407",
@@ -84,8 +77,7 @@
       "Location": "Parque Nacional El Palmar, Colón",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-2001",
-      "Threat_Status": null
+      "Date": "07-2001"
     },
     {
       "Species_ID": "SP_0407",
@@ -100,8 +92,7 @@
       "Location": "Estancia San Isidro, Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "1998",
-      "Threat_Status": null
+      "Date": "1998"
     },
     {
       "Species_ID": "SP_0407",
@@ -116,8 +107,7 @@
       "Location": "Rivera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-2006",
-      "Threat_Status": null
+      "Date": "04-2006"
     },
     {
       "Species_ID": "SP_0407",
@@ -132,8 +122,7 @@
       "Location": "Rivera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-2006",
-      "Threat_Status": null
+      "Date": "04-2006"
     }
   ]
 }

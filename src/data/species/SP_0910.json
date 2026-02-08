@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Fringillidae-Euph/Euphoniinae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T02:24:13.885935",
     "group_key": "SP_0910",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "15-10-2017",
-      "Threat_Status": null
+      "Date": "15-10-2017"
     },
     {
       "Species_ID": "SP_0910",
@@ -52,8 +47,7 @@
       "Location": "San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "15-10-2017",
-      "Threat_Status": null
+      "Date": "15-10-2017"
     }
   ]
 }

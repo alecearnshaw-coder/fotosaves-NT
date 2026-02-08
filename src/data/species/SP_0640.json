@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.149584",
     "group_key": "SP_0640",
     "total_rows": 9,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "22-10-2006",
-      "Location_Date": "Ceibas, Entre Ríos - 22-10-2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 22-10-2006"
     },
     {
       "Species_ID": "SP_0640",
@@ -55,8 +50,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "04-01-2014",
-      "Location_Date": "Ceibas, Entre Ríos - 04-01-2014",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 04-01-2014"
     },
     {
       "Species_ID": "SP_0640",
@@ -72,8 +66,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
-      "Threat_Status": null
+      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019"
     },
     {
       "Species_ID": "SP_0640",
@@ -89,8 +82,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "16-03-2019",
-      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019",
-      "Threat_Status": null
+      "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019"
     },
     {
       "Species_ID": "SP_0640",
@@ -106,8 +98,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-2006",
-      "Location_Date": "Ceibas, Entre Rios - 12/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 12/2006"
     },
     {
       "Species_ID": "SP_0640",
@@ -123,8 +114,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Rios - 10/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
       "Species_ID": "SP_0640",
@@ -140,8 +130,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "10-2006",
-      "Location_Date": "Ceibas, Entre Rios - 10/2006",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
       "Species_ID": "SP_0640",
@@ -157,8 +146,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "12-200 7",
-      "Location_Date": "Ceibas, Entre Ríos - 6/12/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 6/12/2007"
     },
     {
       "Species_ID": "SP_0640",
@@ -174,8 +162,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-11-2009",
-      "Location_Date": "Ceibas, Entre Ríos - 15/11/2009",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/11/2009"
     }
   ]
 }

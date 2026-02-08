@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.929346",
     "group_key": "SP_0023",
     "total_rows": 7,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0023",
@@ -52,8 +47,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "28-11-2014",
-      "Threat_Status": null
+      "Date": "28-11-2014"
     },
     {
       "Species_ID": "SP_0023",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0023",
@@ -84,8 +77,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0023",
@@ -100,8 +92,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "15-07-2007",
-      "Threat_Status": null
+      "Date": "15-07-2007"
     },
     {
       "Species_ID": "SP_0023",
@@ -116,8 +107,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "27-10-2007",
-      "Threat_Status": null
+      "Date": "27-10-2007"
     },
     {
       "Species_ID": "SP_0023",
@@ -132,8 +122,7 @@
       "Location": "Villa Paranacita",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "31-10-2009",
-      "Threat_Status": null
+      "Date": "31-10-2009"
     }
   ]
 }

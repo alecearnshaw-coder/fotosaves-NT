@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.520624",
     "group_key": "SP_1009",
     "total_rows": 11,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Manzano Histórico, Tupungato",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_1009",
@@ -52,8 +47,7 @@
       "Location": "Laguna Mulas Muertas",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_1009",
@@ -68,8 +62,7 @@
       "Location": "Laguna Mulas Muertas",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_1009",
@@ -84,8 +77,7 @@
       "Location": "Laguna Mulas Muertas",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "27-02-2025",
-      "Threat_Status": null
+      "Date": "27-02-2025"
     },
     {
       "Species_ID": "SP_1009",
@@ -100,8 +92,7 @@
       "Location": "Parque Nacional Quebrada del Condorito",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "22-02-2020",
-      "Threat_Status": null
+      "Date": "22-02-2020"
     },
     {
       "Species_ID": "SP_1009",
@@ -116,8 +107,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_1009",
@@ -132,8 +122,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_1009",
@@ -148,8 +137,7 @@
       "Location": "El Yeso",
       "Province": "Santiago",
       "Country": "CHILE",
-      "Date": "13-12-2009",
-      "Threat_Status": null
+      "Date": "13-12-2009"
     },
     {
       "Species_ID": "SP_1009",
@@ -164,8 +152,7 @@
       "Location": "Manzano Histórico, Tunuyán",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_1009",
@@ -180,8 +167,7 @@
       "Location": "Manzano Histórico, Tunuyán",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     },
     {
       "Species_ID": "SP_1009",
@@ -196,8 +182,7 @@
       "Location": "Manzano Histórico, Tunuyán",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "30-10-2011",
-      "Threat_Status": null
+      "Date": "30-10-2011"
     }
   ]
 }

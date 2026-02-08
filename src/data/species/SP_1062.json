@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.223761",
     "group_key": "SP_1062",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "05-07-2016",
-      "Threat_Status": "Near-threatened"
+      "Date": "05-07-2016"
     },
     {
       "Species_ID": "SP_1062",
@@ -52,8 +47,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "05-07-2016",
-      "Threat_Status": "Near-threatened"
+      "Date": "05-07-2016"
     }
   ]
 }

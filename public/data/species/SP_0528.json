@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T11:56:38.837051",
     "group_key": "SP_0528",
     "total_rows": 17,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": null
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0528",
@@ -52,8 +47,7 @@
       "Location": "Carlos Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "25-03-2012",
-      "Threat_Status": null
+      "Date": "25-03-2012"
     },
     {
       "Species_ID": "SP_0528",
@@ -68,8 +62,7 @@
       "Location": "Estancia Virocay",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "18-04-2014",
-      "Threat_Status": null
+      "Date": "18-04-2014"
     },
     {
       "Species_ID": "SP_0528",
@@ -84,8 +77,7 @@
       "Location": "Palma Sola al norte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "19-08-2014",
-      "Threat_Status": null
+      "Date": "19-08-2014"
     },
     {
       "Species_ID": "SP_0528",
@@ -100,8 +92,7 @@
       "Location": "Arditi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2014",
-      "Threat_Status": null
+      "Date": "19-07-2014"
     },
     {
       "Species_ID": "SP_0528",
@@ -116,8 +107,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-09-2007",
-      "Threat_Status": null
+      "Date": "01-09-2007"
     },
     {
       "Species_ID": "SP_0528",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "01-09-2007",
-      "Threat_Status": null
+      "Date": "01-09-2007"
     },
     {
       "Species_ID": "SP_0528",
@@ -148,8 +137,7 @@
       "Location": "Bavio",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-06-2009",
-      "Threat_Status": null
+      "Date": "07-06-2009"
     },
     {
       "Species_ID": "SP_0528",
@@ -164,8 +152,7 @@
       "Location": "Bavio",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "07-06-2009",
-      "Threat_Status": null
+      "Date": "07-06-2009"
     },
     {
       "Species_ID": "SP_0528",
@@ -180,8 +167,7 @@
       "Location": "Brandsen",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-07-2009",
-      "Threat_Status": null
+      "Date": "10-07-2009"
     },
     {
       "Species_ID": "SP_0528",
@@ -196,8 +182,7 @@
       "Location": "Brandsen",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-07-2009",
-      "Threat_Status": null
+      "Date": "10-07-2009"
     },
     {
       "Species_ID": "SP_0528",
@@ -212,8 +197,7 @@
       "Location": "Magdalena",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-07-2009",
-      "Threat_Status": null
+      "Date": "10-07-2009"
     },
     {
       "Species_ID": "SP_0528",
@@ -228,8 +212,7 @@
       "Location": "Rehab., Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-06-2011",
-      "Threat_Status": null
+      "Date": "25-06-2011"
     },
     {
       "Species_ID": "SP_0528",
@@ -244,8 +227,7 @@
       "Location": "Rehab., Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-06-2011",
-      "Threat_Status": null
+      "Date": "25-06-2011"
     },
     {
       "Species_ID": "SP_0528",
@@ -260,8 +242,7 @@
       "Location": "Rehab., Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-06-2011",
-      "Threat_Status": null
+      "Date": "25-06-2011"
     },
     {
       "Species_ID": "SP_0528",
@@ -276,8 +257,7 @@
       "Location": "Rehab., Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-06-2011",
-      "Threat_Status": null
+      "Date": "25-06-2011"
     },
     {
       "Species_ID": "SP_0528",
@@ -292,8 +272,7 @@
       "Location": "Rehab., Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "25-06-2011",
-      "Threat_Status": null
+      "Date": "25-06-2011"
     }
   ]
 }

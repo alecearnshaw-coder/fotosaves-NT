@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Psittaciformes/Psittaciformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T15:02:47.351954",
     "group_key": "SP_0540",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "El Fuerte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "18-08-2014",
-      "Threat_Status": "Vulnerable"
+      "Date": "18-08-2014"
     },
     {
       "Species_ID": "SP_0540",
@@ -52,8 +47,7 @@
       "Location": null,
       "Province": null,
       "Country": null,
-      "Date": null,
-      "Threat_Status": null
+      "Date": null
     }
   ]
 }

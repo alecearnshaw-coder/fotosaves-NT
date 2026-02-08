@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Parulidae/Parulidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T14:35:49.530529",
     "group_key": "SP_0966",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Colonia Carols Pellegrini",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0966",
@@ -52,8 +47,7 @@
       "Location": "Ea. San Isidro",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-05-2015",
-      "Threat_Status": null
+      "Date": "24-05-2015"
     },
     {
       "Species_ID": "SP_0966",
@@ -68,8 +62,7 @@
       "Location": "Paseo del Viento, Olivos",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-05-2016",
-      "Threat_Status": null
+      "Date": "28-05-2016"
     },
     {
       "Species_ID": "SP_0966",
@@ -84,8 +77,7 @@
       "Location": "BioReserva Karadyá, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "08-09-2018",
-      "Threat_Status": null
+      "Date": "08-09-2018"
     },
     {
       "Species_ID": "SP_0966",
@@ -100,8 +92,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "21-10-2019",
-      "Threat_Status": null
+      "Date": "21-10-2019"
     },
     {
       "Species_ID": "SP_0966",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "04-2006",
-      "Threat_Status": null
+      "Date": "04-2006"
     },
     {
       "Species_ID": "SP_0966",
@@ -132,8 +122,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0966",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2006",
-      "Threat_Status": null
+      "Date": "05-2006"
     },
     {
       "Species_ID": "SP_0966",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "03-06-2007",
-      "Threat_Status": null
+      "Date": "03-06-2007"
     },
     {
       "Species_ID": "SP_0966",
@@ -180,8 +167,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0966",
@@ -196,8 +182,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0966",
@@ -212,8 +197,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0966",
@@ -228,8 +212,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0966",
@@ -244,8 +227,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     },
     {
       "Species_ID": "SP_0966",
@@ -260,8 +242,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "26-03-2012",
-      "Threat_Status": null
+      "Date": "26-03-2012"
     }
   ]
 }

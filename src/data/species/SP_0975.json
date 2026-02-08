@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Cardinalidae/Cardinalidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T18:04:31.553008",
     "group_key": "SP_0975",
     "total_rows": 1,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ryerson Forest Preserve, Lake County",
       "Province": "Illinois",
       "Country": "USA",
-      "Date": "14-05-2017",
-      "Threat_Status": null
+      "Date": "14-05-2017"
     }
   ]
 }

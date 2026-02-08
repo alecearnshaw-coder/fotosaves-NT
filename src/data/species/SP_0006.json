@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Tinamiformes/Tinamiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:00:57.742315",
     "group_key": "SP_0006",
     "total_rows": 10,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ruta Provincial 27, Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0006",
@@ -52,8 +47,7 @@
       "Location": "Ruta Provincial 27, Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0006",
@@ -68,8 +62,7 @@
       "Location": "Ruta Provincial 27, Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "15-01-2012",
-      "Threat_Status": null
+      "Date": "15-01-2012"
     },
     {
       "Species_ID": "SP_0006",
@@ -84,8 +77,7 @@
       "Location": "Ruta Provincial 1, Isla Escondida",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-02-2006",
-      "Threat_Status": null
+      "Date": "13-02-2006"
     },
     {
       "Species_ID": "SP_0006",
@@ -100,8 +92,7 @@
       "Location": "Ruta Provincial 1",
       "Province": "Chubut",
       "Country": null,
-      "Date": "13-02-2006",
-      "Threat_Status": null
+      "Date": "13-02-2006"
     },
     {
       "Species_ID": "SP_0006",
@@ -116,8 +107,7 @@
       "Location": "Camarones, Km16",
       "Province": "Chubut",
       "Country": null,
-      "Date": "11-02-2006",
-      "Threat_Status": null
+      "Date": "11-02-2006"
     },
     {
       "Species_ID": "SP_0006",
@@ -132,8 +122,7 @@
       "Location": "Uzcudún",
       "Province": "Chubut",
       "Country": null,
-      "Date": "03-07-2009",
-      "Threat_Status": null
+      "Date": "03-07-2009"
     },
     {
       "Species_ID": "SP_0006",
@@ -148,8 +137,7 @@
       "Location": "Punta Ninfas, Pto. Madryn",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-1998",
-      "Threat_Status": null
+      "Date": "01-1998"
     },
     {
       "Species_ID": "SP_0006",
@@ -164,8 +152,7 @@
       "Location": "Península Valdés",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-1998",
-      "Threat_Status": null
+      "Date": "01-1998"
     },
     {
       "Species_ID": "SP_0006",
@@ -180,8 +167,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2004",
-      "Threat_Status": null
+      "Date": "02-2004"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasA_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:25:36.213136",
     "group_key": "SP_0153",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0153",
@@ -52,8 +47,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0153",
@@ -68,8 +62,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-11-2013",
-      "Threat_Status": null
+      "Date": "16-11-2013"
     },
     {
       "Species_ID": "SP_0153",
@@ -84,8 +77,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     },
     {
       "Species_ID": "SP_0153",
@@ -100,8 +92,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "17-09-2016",
-      "Threat_Status": null
+      "Date": "17-09-2016"
     },
     {
       "Species_ID": "SP_0153",
@@ -116,8 +107,7 @@
       "Location": "San Antonio Este",
       "Province": "Rio Negro",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0153",
@@ -132,8 +122,7 @@
       "Location": "San Antonio Este",
       "Province": "Rio Negro",
       "Country": null,
-      "Date": "02-2006",
-      "Threat_Status": null
+      "Date": "02-2006"
     },
     {
       "Species_ID": "SP_0153",
@@ -148,8 +137,7 @@
       "Location": "Claromecó y Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0153",
@@ -164,8 +152,7 @@
       "Location": "Claromecó y Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0153",
@@ -180,8 +167,7 @@
       "Location": "Claromecó y Costa Bonita",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "18-07-2009",
-      "Threat_Status": null
+      "Date": "18-07-2009"
     },
     {
       "Species_ID": "SP_0153",
@@ -196,8 +182,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0153",
@@ -212,8 +197,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "16-04-2011",
-      "Threat_Status": null
+      "Date": "16-04-2011"
     },
     {
       "Species_ID": "SP_0153",
@@ -228,8 +212,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     },
     {
       "Species_ID": "SP_0153",
@@ -244,8 +227,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     },
     {
       "Species_ID": "SP_0153",
@@ -260,8 +242,7 @@
       "Location": "Comodoro Rivadavia",
       "Province": "Chubut",
       "Country": null,
-      "Date": "14-01-2012",
-      "Threat_Status": null
+      "Date": "14-01-2012"
     }
   ]
 }

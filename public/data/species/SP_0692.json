@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Tyrannidae/Tyrannidae_Image_Listing.xlsx",
-    "generated_at": "2025-09-26T23:21:33.412575",
     "group_key": "SP_0692",
     "total_rows": 32,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "24-05-2015",
-      "Location_Date": "Vieytes, Buenos Aires - 24-05-2015",
-      "Threat_Status": null
+      "Location_Date": "Vieytes, Buenos Aires - 24-05-2015"
     },
     {
       "Species_ID": "SP_0692",
@@ -55,8 +50,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-02-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 05-02-2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 05-02-2011"
     },
     {
       "Species_ID": "SP_0692",
@@ -72,8 +66,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "28-01-2014",
-      "Location_Date": "Ea. Los Flamencos, Río Grande, Tierra del Fuego - 28-01-2014",
-      "Threat_Status": null
+      "Location_Date": "Ea. Los Flamencos, Río Grande, Tierra del Fuego - 28-01-2014"
     },
     {
       "Species_ID": "SP_0692",
@@ -89,8 +82,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "09-05-2015",
-      "Location_Date": "Ceibas, Entre Ríos - 09-05-2015",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 09-05-2015"
     },
     {
       "Species_ID": "SP_0692",
@@ -106,8 +98,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "28-01-2014",
-      "Location_Date": "Ea. Los Flamencos, Río Grande, Tierra del Fuego - 28-01-2014",
-      "Threat_Status": null
+      "Location_Date": "Ea. Los Flamencos, Río Grande, Tierra del Fuego - 28-01-2014"
     },
     {
       "Species_ID": "SP_0692",
@@ -123,8 +114,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Ea. Laguna del Monte, San Antonio Oeste, Río Negro - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Ea. Laguna del Monte, San Antonio Oeste, Río Negro - 2/2006"
     },
     {
       "Species_ID": "SP_0692",
@@ -140,8 +130,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Camarones, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0692",
@@ -157,8 +146,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "3-2-2007 !",
-      "Location_Date": "Ceibas, Entre Ríos - 3/2/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 3/2/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -174,8 +162,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-05-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 13/5/2007",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 13/5/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -191,8 +178,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-05-2007",
-      "Location_Date": "Otamendi, Buenos Aires - 13/5/2007",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 13/5/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -208,8 +194,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "26-04-2008",
-      "Location_Date": "Otamendi, Buenos Aires - 26/4/2008",
-      "Threat_Status": null
+      "Location_Date": "Otamendi, Buenos Aires - 26/4/2008"
     },
     {
       "Species_ID": "SP_0692",
@@ -225,8 +210,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Camarones, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0692",
@@ -242,8 +226,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Camarones, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0692",
@@ -259,8 +242,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Camarones, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Camarones, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0692",
@@ -276,8 +258,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "20-08-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -293,8 +274,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "20-08-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -310,8 +290,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "20-08-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 20/8/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -327,8 +306,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -344,8 +322,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -361,8 +338,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -378,8 +354,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -395,8 +370,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 15/7/2007"
     },
     {
       "Species_ID": "SP_0692",
@@ -412,8 +386,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "02-2008",
-      "Location_Date": "San Sebastián, Tierra del Fuego - 2/2008",
-      "Threat_Status": null
+      "Location_Date": "San Sebastián, Tierra del Fuego - 2/2008"
     },
     {
       "Species_ID": "SP_0692",
@@ -429,8 +402,7 @@
       "Province": "Tierra del Fuego",
       "Country": null,
       "Date": "02-2008",
-      "Location_Date": "Río Grande, Tierra del Fuego - 2/2008",
-      "Threat_Status": null
+      "Location_Date": "Río Grande, Tierra del Fuego - 2/2008"
     },
     {
       "Species_ID": "SP_0692",
@@ -446,8 +418,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "28-03-2009",
-      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009",
-      "Threat_Status": null
+      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009"
     },
     {
       "Species_ID": "SP_0692",
@@ -463,8 +434,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "28-03-2009",
-      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009",
-      "Threat_Status": null
+      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009"
     },
     {
       "Species_ID": "SP_0692",
@@ -480,8 +450,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "28-03-2009",
-      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009",
-      "Threat_Status": null
+      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009"
     },
     {
       "Species_ID": "SP_0692",
@@ -497,8 +466,7 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "28-03-2009",
-      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009",
-      "Threat_Status": null
+      "Location_Date": "Paso Córdoba, Gral. Roca, Río Negro - 28/3/2009"
     },
     {
       "Species_ID": "SP_0692",
@@ -514,8 +482,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-06-2009",
-      "Location_Date": "Magdalena, Buenos Aires - 7/6/2009",
-      "Threat_Status": null
+      "Location_Date": "Magdalena, Buenos Aires - 7/6/2009"
     },
     {
       "Species_ID": "SP_0692",
@@ -531,8 +498,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-08-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010"
     },
     {
       "Species_ID": "SP_0692",
@@ -548,8 +514,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-08-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010"
     },
     {
       "Species_ID": "SP_0692",
@@ -565,8 +530,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "28-08-2010",
-      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 28/8/2010"
     }
   ]
 }

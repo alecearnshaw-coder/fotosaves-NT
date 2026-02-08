@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Sturnidae/Sturnidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-08T22:38:52.308280",
     "group_key": "SP_0882",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "31-08-2013",
-      "Threat_Status": null
+      "Date": "31-08-2013"
     },
     {
       "Species_ID": "SP_0882",
@@ -52,8 +47,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "27-04-2014",
-      "Threat_Status": null
+      "Date": "27-04-2014"
     },
     {
       "Species_ID": "SP_0882",
@@ -68,8 +62,7 @@
       "Location": "Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "31-08-2013",
-      "Threat_Status": null
+      "Date": "31-08-2013"
     },
     {
       "Species_ID": "SP_0882",
@@ -84,8 +77,7 @@
       "Location": "Parque de los Niños",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2013",
-      "Threat_Status": null
+      "Date": "28-07-2013"
     },
     {
       "Species_ID": "SP_0882",
@@ -100,8 +92,7 @@
       "Location": "Parque de los Niños",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "28-07-2012",
-      "Threat_Status": null
+      "Date": "28-07-2012"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Falconiformes/Falconiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-21T11:56:38.837051",
     "group_key": "SP_0520",
     "total_rows": 6,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Estancia Virocay",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "17-04-2014",
-      "Threat_Status": null
+      "Date": "17-04-2014"
     },
     {
       "Species_ID": "SP_0520",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": null
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0520",
@@ -68,8 +62,7 @@
       "Location": "Estancia Virocay",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "17-04-2014",
-      "Threat_Status": null
+      "Date": "17-04-2014"
     },
     {
       "Species_ID": "SP_0520",
@@ -84,8 +77,7 @@
       "Location": "Parque Natural Metropolitano",
       "Province": "Panama City",
       "Country": "PANAMA",
-      "Date": "22-05-2017",
-      "Threat_Status": null
+      "Date": "22-05-2017"
     },
     {
       "Species_ID": "SP_0520",
@@ -100,8 +92,7 @@
       "Location": "Eastancia San Juan de Poriahu",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "04-2000",
-      "Threat_Status": null
+      "Date": "04-2000"
     },
     {
       "Species_ID": "SP_0520",
@@ -116,8 +107,7 @@
       "Location": "Ea. \"El Bagual\"",
       "Province": "Formosa",
       "Country": null,
-      "Date": "11-2004",
-      "Threat_Status": null
+      "Date": "11-2004"
     }
   ]
 }

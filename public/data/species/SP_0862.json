@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Hirundinidae/Hirundinidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-04T13:34:36.229729",
     "group_key": "SP_0862",
     "total_rows": 10,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "29-07-2006",
-      "Threat_Status": null
+      "Date": "29-07-2006"
     },
     {
       "Species_ID": "SP_0862",
@@ -52,8 +47,7 @@
       "Location": "Laguna La Quinta, al este de Palma Sola 30 km",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "19-08-2014",
-      "Threat_Status": null
+      "Date": "19-08-2014"
     },
     {
       "Species_ID": "SP_0862",
@@ -68,8 +62,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0862",
@@ -84,8 +77,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0862",
@@ -100,8 +92,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "07-2006",
-      "Threat_Status": null
+      "Date": "07-2006"
     },
     {
       "Species_ID": "SP_0862",
@@ -116,8 +107,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0862",
@@ -132,8 +122,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0862",
@@ -148,8 +137,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-2007",
-      "Threat_Status": null
+      "Date": "04-2007"
     },
     {
       "Species_ID": "SP_0862",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-2007",
-      "Threat_Status": null
+      "Date": "04-2007"
     },
     {
       "Species_ID": "SP_0862",
@@ -180,8 +167,7 @@
       "Location": "P. N. Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "07-2000",
-      "Threat_Status": null
+      "Date": "07-2000"
     }
   ]
 }

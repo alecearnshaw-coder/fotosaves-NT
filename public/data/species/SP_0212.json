@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.098043",
     "group_key": "SP_0212",
     "total_rows": 19,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-03-2012",
-      "Threat_Status": null
+      "Date": "22-03-2012"
     },
     {
       "Species_ID": "SP_0212",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0212",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0212",
@@ -84,8 +77,7 @@
       "Location": "Gualeguaychú",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0212",
@@ -100,8 +92,7 @@
       "Location": "Punta Rasa",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-04-2008",
-      "Threat_Status": null
+      "Date": "19-04-2008"
     },
     {
       "Species_ID": "SP_0212",
@@ -116,8 +107,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-02-2010",
-      "Threat_Status": null
+      "Date": "02-02-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -132,8 +122,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-02-2010",
-      "Threat_Status": null
+      "Date": "02-02-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -148,8 +137,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -164,8 +152,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -180,8 +167,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -196,8 +182,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -212,8 +197,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -228,8 +212,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -244,8 +227,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -260,8 +242,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -276,8 +257,7 @@
       "Location": "Puerto Boca",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "21-11-2010",
-      "Threat_Status": null
+      "Date": "21-11-2010"
     },
     {
       "Species_ID": "SP_0212",
@@ -292,8 +272,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-03-2012",
-      "Threat_Status": null
+      "Date": "22-03-2012"
     },
     {
       "Species_ID": "SP_0212",
@@ -308,8 +287,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-03-2012",
-      "Threat_Status": null
+      "Date": "22-03-2012"
     },
     {
       "Species_ID": "SP_0212",
@@ -324,8 +302,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "22-03-2012",
-      "Threat_Status": null
+      "Date": "22-03-2012"
     }
   ]
 }

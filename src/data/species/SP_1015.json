@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.426876",
     "group_key": "SP_1015",
     "total_rows": 14,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Charbonier",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "23-03-2013",
-      "Threat_Status": null
+      "Date": "23-03-2013"
     },
     {
       "Species_ID": "SP_1015",
@@ -52,8 +47,7 @@
       "Location": "Reserva Provincial Chancaní",
       "Province": "Córdoba",
       "Country": null,
-      "Date": "01-03-2014",
-      "Threat_Status": null
+      "Date": "01-03-2014"
     },
     {
       "Species_ID": "SP_1015",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-10-2018",
-      "Threat_Status": null
+      "Date": "06-10-2018"
     },
     {
       "Species_ID": "SP_1015",
@@ -84,8 +77,7 @@
       "Location": "Reserva Natural Takú, La Rioja",
       "Province": "La Rioja",
       "Country": null,
-      "Date": "19-02-2025",
-      "Threat_Status": null
+      "Date": "19-02-2025"
     },
     {
       "Species_ID": "SP_1015",
@@ -100,8 +92,7 @@
       "Location": "Balde",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -116,8 +107,7 @@
       "Location": "Balde",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -132,8 +122,7 @@
       "Location": "Balde",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -148,8 +137,7 @@
       "Location": "Balde",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -164,8 +152,7 @@
       "Location": "Balde",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -180,8 +167,7 @@
       "Location": "Balde",
       "Province": "San Luis",
       "Country": null,
-      "Date": "24-10-2011",
-      "Threat_Status": null
+      "Date": "24-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -196,8 +182,7 @@
       "Location": "Lunlunta, Maipú",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "25-10-2011",
-      "Threat_Status": null
+      "Date": "25-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -212,8 +197,7 @@
       "Location": "Lunlunta, Maipú",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "25-10-2011",
-      "Threat_Status": null
+      "Date": "25-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -228,8 +212,7 @@
       "Location": "Lunlunta, Maipú",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "25-10-2011",
-      "Threat_Status": null
+      "Date": "25-10-2011"
     },
     {
       "Species_ID": "SP_1015",
@@ -244,8 +227,7 @@
       "Location": "Lunlunta, Maipú",
       "Province": "Mendoza",
       "Country": null,
-      "Date": "25-10-2011",
-      "Threat_Status": null
+      "Date": "25-10-2011"
     }
   ]
 }

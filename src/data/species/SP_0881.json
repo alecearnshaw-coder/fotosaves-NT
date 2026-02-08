@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Sturnidae/Sturnidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-08T22:38:52.308280",
     "group_key": "SP_0881",
     "total_rows": 9,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Ecológica Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "25-08-2006",
-      "Threat_Status": null
+      "Date": "25-08-2006"
     },
     {
       "Species_ID": "SP_0881",
@@ -52,8 +47,7 @@
       "Location": "Reserva Ecológica Costenera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "11-01-2014",
-      "Threat_Status": null
+      "Date": "11-01-2014"
     },
     {
       "Species_ID": "SP_0881",
@@ -68,8 +62,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "08-2006",
-      "Threat_Status": null
+      "Date": "08-2006"
     },
     {
       "Species_ID": "SP_0881",
@@ -84,8 +77,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "09-2005",
-      "Threat_Status": null
+      "Date": "09-2005"
     },
     {
       "Species_ID": "SP_0881",
@@ -100,8 +92,7 @@
       "Location": "Reserva Municipal de Vicente López La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0881",
@@ -116,8 +107,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "15-11-2007",
-      "Threat_Status": null
+      "Date": "15-11-2007"
     },
     {
       "Species_ID": "SP_0881",
@@ -132,8 +122,7 @@
       "Location": "Ciudad Universitaria",
       "Province": "CABA",
       "Country": null,
-      "Date": "18-08-2008",
-      "Threat_Status": null
+      "Date": "18-08-2008"
     },
     {
       "Species_ID": "SP_0881",
@@ -148,8 +137,7 @@
       "Location": "Brandsen",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "10-07-2009",
-      "Threat_Status": null
+      "Date": "10-07-2009"
     },
     {
       "Species_ID": "SP_0881",
@@ -164,8 +152,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "24-07-2011",
-      "Threat_Status": null
+      "Date": "24-07-2011"
     }
   ]
 }

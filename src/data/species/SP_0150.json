@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasA_Image_Listing.xlsx",
-    "generated_at": "2025-09-07T00:25:36.232211",
     "group_key": "SP_0150",
     "total_rows": 27,
     "columns": [
@@ -18,10 +16,8 @@
       "Province",
       "Country",
       "Date",
-      "Location_Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Location_Date"
+    ]
   },
   "data": [
     {
@@ -38,8 +34,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "24-11-2013",
-      "Location_Date": "Ceibas, Entre Ríos - 24-11-2013",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 24-11-2013"
     },
     {
       "Species_ID": "SP_0150",
@@ -55,8 +50,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "22-03-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22-03-2012",
-      "Threat_Status": null
+      "Location_Date": "Yataity Calle, Corrientes - 22-03-2012"
     },
     {
       "Species_ID": "SP_0150",
@@ -72,8 +66,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "25-10-2014",
-      "Location_Date": "Médanos, Entre Ríos - 25-10-2014",
-      "Threat_Status": null
+      "Location_Date": "Médanos, Entre Ríos - 25-10-2014"
     },
     {
       "Species_ID": "SP_0150",
@@ -89,8 +82,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-04-2018",
-      "Location_Date": "Ceibas, Entre Ríos - 01-04-2018",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 01-04-2018"
     },
     {
       "Species_ID": "SP_0150",
@@ -106,8 +98,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Rios - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 15/7/2007"
     },
     {
       "Species_ID": "SP_0150",
@@ -123,8 +114,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "15-07-2007",
-      "Location_Date": "Ceibas, Entre Rios - 15/7/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 15/7/2007"
     },
     {
       "Species_ID": "SP_0150",
@@ -140,8 +130,7 @@
       "Province": "CABA",
       "Country": null,
       "Date": "01-2006",
-      "Location_Date": "Costanera Sur, CABA - 1/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, CABA - 1/2006"
     },
     {
       "Species_ID": "SP_0150",
@@ -157,8 +146,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0150",
@@ -174,8 +162,7 @@
       "Province": "Chubut",
       "Country": null,
       "Date": "02-2006",
-      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006",
-      "Threat_Status": null
+      "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006"
     },
     {
       "Species_ID": "SP_0150",
@@ -191,8 +178,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "20-08-2007",
-      "Location_Date": "Ceibas, Entre Rios - 20/8/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 20/8/2007"
     },
     {
       "Species_ID": "SP_0150",
@@ -208,8 +194,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "08-2006",
-      "Location_Date": "Costanera Sur, Buenos Aires - 8/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, Buenos Aires - 8/2006"
     },
     {
       "Species_ID": "SP_0150",
@@ -225,8 +210,7 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "08-2006",
-      "Location_Date": "Costanera Sur, Buenos Aires - 8/2006",
-      "Threat_Status": null
+      "Location_Date": "Costanera Sur, Buenos Aires - 8/2006"
     },
     {
       "Species_ID": "SP_0150",
@@ -242,8 +226,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "12-2007",
-      "Location_Date": "Ceibas, Entre Rios - 7/12/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 7/12/2007"
     },
     {
       "Species_ID": "SP_0150",
@@ -259,8 +242,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "07-12-2007",
-      "Location_Date": "Ceibas, Entre Rios - 7/12/2007",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Rios - 7/12/2007"
     },
     {
       "Species_ID": "SP_0150",
@@ -276,8 +258,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "9/7-2010",
-      "Location_Date": "Ibicuy, Entre Rios - 9/7/2010",
-      "Threat_Status": null
+      "Location_Date": "Ibicuy, Entre Rios - 9/7/2010"
     },
     {
       "Species_ID": "SP_0150",
@@ -293,8 +274,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "09-07-2010",
-      "Location_Date": "Ibicuy, Entre Rios - 9/7/2010",
-      "Threat_Status": null
+      "Location_Date": "Ibicuy, Entre Rios - 9/7/2010"
     },
     {
       "Species_ID": "SP_0150",
@@ -310,8 +290,7 @@
       "Province": "Entre Rios",
       "Country": null,
       "Date": "10-01-2011",
-      "Location_Date": "Ceibas, , Entre Rios - 10/1/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, , Entre Rios - 10/1/2011"
     },
     {
       "Species_ID": "SP_0150",
@@ -327,8 +306,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-02-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 5/2/2011"
     },
     {
       "Species_ID": "SP_0150",
@@ -344,8 +322,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 27/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 27/2/2011"
     },
     {
       "Species_ID": "SP_0150",
@@ -361,8 +338,7 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "27-02-2011",
-      "Location_Date": "Ceibas, Entre Ríos - 27/2/2011",
-      "Threat_Status": null
+      "Location_Date": "Ceibas, Entre Ríos - 27/2/2011"
     },
     {
       "Species_ID": "SP_0150",
@@ -378,8 +354,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "22-03-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012"
     },
     {
       "Species_ID": "SP_0150",
@@ -395,8 +370,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "22-03-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012"
     },
     {
       "Species_ID": "SP_0150",
@@ -412,8 +386,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "22-03-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012"
     },
     {
       "Species_ID": "SP_0150",
@@ -429,8 +402,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "22-03-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012"
     },
     {
       "Species_ID": "SP_0150",
@@ -446,8 +418,7 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "22-03-2012",
-      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012",
-      "Threat_Status": null
+      "Location_Date": "Yataity Calle, Corrientes - 22/3/2012"
     },
     {
       "Species_ID": "SP_0150",
@@ -463,8 +434,7 @@
       "Province": "St. Kitts",
       "Country": "East Caribbean",
       "Date": "02-2001",
-      "Location_Date": "Basseterre, St. Kitts, East Caribbean - 2/2001",
-      "Threat_Status": null
+      "Location_Date": "Basseterre, St. Kitts, East Caribbean - 2/2001"
     },
     {
       "Species_ID": "SP_0150",
@@ -480,8 +450,7 @@
       "Province": "St. Kitts",
       "Country": "East Caribbean",
       "Date": "02-2001",
-      "Location_Date": "Basseterre, St. Kitts, East Caribbean - 2/2001",
-      "Threat_Status": null
+      "Location_Date": "Basseterre, St. Kitts, East Caribbean - 2/2001"
     }
   ]
 }

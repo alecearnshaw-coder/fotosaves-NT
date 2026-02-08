@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.380002",
     "group_key": "SP_1065",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Jardín de los Picaflores, Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "13-09-2018",
-      "Threat_Status": null
+      "Date": "13-09-2018"
     },
     {
       "Species_ID": "SP_1065",
@@ -52,8 +47,7 @@
       "Location": "Jardín de los Picaflores, Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "02-05-2014",
-      "Threat_Status": null
+      "Date": "02-05-2014"
     },
     {
       "Species_ID": "SP_1065",
@@ -68,8 +62,7 @@
       "Location": "Jardín de los Picaflores, Puerto Iguazú",
       "Province": "Misiones",
       "Country": null,
-      "Date": "13-09-2018",
-      "Threat_Status": null
+      "Date": "13-09-2018"
     },
     {
       "Species_ID": "SP_1065",
@@ -84,8 +77,7 @@
       "Location": "Basterre",
       "Province": "St. Kitts",
       "Country": "EAST CARIBBEAN",
-      "Date": "02-2001",
-      "Threat_Status": null
+      "Date": "02-2001"
     }
   ]
 }

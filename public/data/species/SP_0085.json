@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Cuculiformes/Cuculiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T00:01:21.407206",
     "group_key": "SP_0085",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Mojón de Fierro",
       "Province": "Formosa",
       "Country": null,
-      "Date": "19-10-2019",
-      "Threat_Status": null
+      "Date": "19-10-2019"
     },
     {
       "Species_ID": "SP_0085",
@@ -52,8 +47,7 @@
       "Location": "Mojón de Fierro",
       "Province": "Formosa",
       "Country": null,
-      "Date": "19-10-2019",
-      "Threat_Status": null
+      "Date": "19-10-2019"
     }
   ]
 }

@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Gruiformes/Gruiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-04T03:21:11.508512",
     "group_key": "SP_0137",
     "total_rows": 13,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Laguna Malka, Tilcara",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2014",
-      "Threat_Status": null
+      "Date": "11-10-2014"
     },
     {
       "Species_ID": "SP_0137",
@@ -52,8 +47,7 @@
       "Location": "Laguna Huancar, Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": null
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_0137",
@@ -68,8 +62,7 @@
       "Location": "Laguna \"La Maravilla\", Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "15-12-2006",
-      "Threat_Status": null
+      "Date": "15-12-2006"
     },
     {
       "Species_ID": "SP_0137",
@@ -84,8 +77,7 @@
       "Location": "Laguna Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0137",
@@ -100,8 +92,7 @@
       "Location": "Laguna Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0137",
@@ -116,8 +107,7 @@
       "Location": "Laguna Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0137",
@@ -132,8 +122,7 @@
       "Location": "Laguna Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0137",
@@ -148,8 +137,7 @@
       "Location": "Laguna Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": null
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0137",
@@ -164,8 +152,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0137",
@@ -180,8 +167,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0137",
@@ -196,8 +182,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0137",
@@ -212,8 +197,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     },
     {
       "Species_ID": "SP_0137",
@@ -228,8 +212,7 @@
       "Location": "Pantanos de Villa",
       "Province": "Lima",
       "Country": "PERU",
-      "Date": "12-2006",
-      "Threat_Status": null
+      "Date": "12-2006"
     }
   ]
 }

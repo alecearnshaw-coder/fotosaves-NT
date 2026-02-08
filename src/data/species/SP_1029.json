@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Thraupidae/Thraupidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-26T16:47:20.317503",
     "group_key": "SP_1029",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Reserva Guaycolec",
       "Province": "Formosa",
       "Country": null,
-      "Date": "22-10-2019",
-      "Threat_Status": null
+      "Date": "22-10-2019"
     },
     {
       "Species_ID": "SP_1029",
@@ -52,8 +47,7 @@
       "Location": "Zanjón Loreto, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "17-03-2019",
-      "Threat_Status": null
+      "Date": "17-03-2019"
     }
   ]
 }

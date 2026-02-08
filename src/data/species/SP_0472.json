@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Coraciiformes/Coraciiformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-14T20:22:57.720567",
     "group_key": "SP_0472",
     "total_rows": 21,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "28-06-2008",
-      "Threat_Status": null
+      "Date": "28-06-2008"
     },
     {
       "Species_ID": "SP_0472",
@@ -52,8 +47,7 @@
       "Location": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "16-03-2019",
-      "Threat_Status": null
+      "Date": "16-03-2019"
     },
     {
       "Species_ID": "SP_0472",
@@ -68,8 +62,7 @@
       "Location": "Parque Nacional Los Alerces, Esquel",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-05-2011",
-      "Threat_Status": null
+      "Date": "01-05-2011"
     },
     {
       "Species_ID": "SP_0472",
@@ -84,8 +77,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-02-2014",
-      "Threat_Status": null
+      "Date": "02-02-2014"
     },
     {
       "Species_ID": "SP_0472",
@@ -100,8 +92,7 @@
       "Location": "Parque Nacional Tierra del Fuego, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "02-02-2014",
-      "Threat_Status": null
+      "Date": "02-02-2014"
     },
     {
       "Species_ID": "SP_0472",
@@ -116,8 +107,7 @@
       "Location": "Victoria",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-08-2007",
-      "Threat_Status": null
+      "Date": "06-08-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -132,8 +122,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "05-2007",
-      "Threat_Status": null
+      "Date": "05-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -148,8 +137,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-09-2007",
-      "Threat_Status": null
+      "Date": "29-09-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -164,8 +152,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-09-2007",
-      "Threat_Status": null
+      "Date": "29-09-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -180,8 +167,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "29-09-2007",
-      "Threat_Status": null
+      "Date": "29-09-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -196,8 +182,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-11-2007",
-      "Threat_Status": null
+      "Date": "11-11-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -212,8 +197,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-11-2007",
-      "Threat_Status": null
+      "Date": "11-11-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -228,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-11-2007",
-      "Threat_Status": null
+      "Date": "11-11-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -244,8 +227,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-11-2007",
-      "Threat_Status": null
+      "Date": "11-11-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -260,8 +242,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-11-2007",
-      "Threat_Status": null
+      "Date": "11-11-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -276,8 +257,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-11-2007",
-      "Threat_Status": null
+      "Date": "11-11-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -292,8 +272,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "11-11-2007",
-      "Threat_Status": null
+      "Date": "11-11-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -308,8 +287,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "08-12-2007",
-      "Threat_Status": null
+      "Date": "08-12-2007"
     },
     {
       "Species_ID": "SP_0472",
@@ -324,8 +302,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "28-06-2008",
-      "Threat_Status": null
+      "Date": "28-06-2008"
     },
     {
       "Species_ID": "SP_0472",
@@ -340,8 +317,7 @@
       "Location": "Lago de Palermo",
       "Province": "CABA",
       "Country": null,
-      "Date": "28-06-2008",
-      "Threat_Status": null
+      "Date": "28-06-2008"
     },
     {
       "Species_ID": "SP_0472",
@@ -356,8 +332,7 @@
       "Location": "Villa Paranacito",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "04-2005",
-      "Threat_Status": null
+      "Date": "04-2005"
     }
   ]
 }

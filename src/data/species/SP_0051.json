@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Anseriformes/Anseriformes_Image_Listing.xlsx",
-    "generated_at": "2025-08-30T08:07:42.835597",
     "group_key": "SP_0051",
     "total_rows": 15,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "02-10-2011",
-      "Threat_Status": null
+      "Date": "02-10-2011"
     },
     {
       "Species_ID": "SP_0051",
@@ -52,8 +47,7 @@
       "Location": "Reserva Ecológica Costenera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "15-01-2014",
-      "Threat_Status": null
+      "Date": "15-01-2014"
     },
     {
       "Species_ID": "SP_0051",
@@ -68,8 +62,7 @@
       "Location": "Reserva Ecológica Costenera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "12-07-2015",
-      "Threat_Status": null
+      "Date": "12-07-2015"
     },
     {
       "Species_ID": "SP_0051",
@@ -84,8 +77,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "10-11-2015",
-      "Threat_Status": null
+      "Date": "10-11-2015"
     },
     {
       "Species_ID": "SP_0051",
@@ -100,8 +92,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "10-2003",
-      "Threat_Status": null
+      "Date": "10-2003"
     },
     {
       "Species_ID": "SP_0051",
@@ -116,8 +107,7 @@
       "Location": "Costanera Sur",
       "Province": "CABA",
       "Country": null,
-      "Date": "10-2003",
-      "Threat_Status": null
+      "Date": "10-2003"
     },
     {
       "Species_ID": "SP_0051",
@@ -132,8 +122,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0051",
@@ -148,8 +137,7 @@
       "Location": "(En cuativerio) (In captivity) Slimbridge Wetland Centre, Gloucestershire",
       "Province": "England",
       "Country": null,
-      "Date": "08-1981",
-      "Threat_Status": null
+      "Date": "08-1981"
     },
     {
       "Species_ID": "SP_0051",
@@ -164,8 +152,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "09-2002",
-      "Threat_Status": null
+      "Date": "09-2002"
     },
     {
       "Species_ID": "SP_0051",
@@ -180,8 +167,7 @@
       "Location": "Reserva de Vicente López, La Lucila",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "30-12-2007",
-      "Threat_Status": null
+      "Date": "30-12-2007"
     },
     {
       "Species_ID": "SP_0051",
@@ -196,8 +182,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-05-2009",
-      "Threat_Status": null
+      "Date": "23-05-2009"
     },
     {
       "Species_ID": "SP_0051",
@@ -212,8 +197,7 @@
       "Location": "Los Robles",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "23-05-2009",
-      "Threat_Status": null
+      "Date": "23-05-2009"
     },
     {
       "Species_ID": "SP_0051",
@@ -228,8 +212,7 @@
       "Location": "Ribera Norte, Acassuso",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "9--8-2009",
-      "Threat_Status": null
+      "Date": "9--8-2009"
     },
     {
       "Species_ID": "SP_0051",
@@ -244,8 +227,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "04-10-2009",
-      "Threat_Status": null
+      "Date": "04-10-2009"
     },
     {
       "Species_ID": "SP_0051",
@@ -260,8 +242,7 @@
       "Location": "Otamendi",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "02-10-2011",
-      "Threat_Status": null
+      "Date": "02-10-2011"
     }
   ]
 }

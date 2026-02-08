@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Parulidae/Parulidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-25T14:35:49.530529",
     "group_key": "SP_0965",
     "total_rows": 4,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "San Francisco, Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "13-04-2018",
-      "Threat_Status": null
+      "Date": "13-04-2018"
     },
     {
       "Species_ID": "SP_0965",
@@ -52,8 +47,7 @@
       "Location": "Finca El Garabatal, El Fuerte",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "18-08-2014",
-      "Threat_Status": null
+      "Date": "18-08-2014"
     },
     {
       "Species_ID": "SP_0965",
@@ -68,8 +62,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "11-10-2017",
-      "Threat_Status": null
+      "Date": "11-10-2017"
     },
     {
       "Species_ID": "SP_0965",
@@ -84,8 +77,7 @@
       "Location": "Parque Nacional Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "07-2000",
-      "Threat_Status": null
+      "Date": "07-2000"
     }
   ]
 }

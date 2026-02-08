@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Pelecaniformes/Pelecaniformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-11T23:40:40.225728",
     "group_key": "SP_0306",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-08-2010",
-      "Threat_Status": null
+      "Date": "07-08-2010"
     },
     {
       "Species_ID": "SP_0306",
@@ -52,8 +47,7 @@
       "Location": "Campos del Aguapey",
       "Province": "Corrietes",
       "Country": null,
-      "Date": "20-04-2014",
-      "Threat_Status": null
+      "Date": "20-04-2014"
     },
     {
       "Species_ID": "SP_0306",
@@ -68,8 +62,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-08-2010",
-      "Threat_Status": null
+      "Date": "07-08-2010"
     },
     {
       "Species_ID": "SP_0306",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-08-2010",
-      "Threat_Status": null
+      "Date": "07-08-2010"
     },
     {
       "Species_ID": "SP_0306",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "07-08-2010",
-      "Threat_Status": null
+      "Date": "07-08-2010"
     }
   ]
 }

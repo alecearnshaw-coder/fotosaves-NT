@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Galbuliformes/Galbuliformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-15T22:53:05.159712",
     "group_key": "SP_0476",
     "total_rows": 2,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Caburé-i, Andresito",
       "Province": "Misiones",
       "Country": null,
-      "Date": "02-05-2014",
-      "Threat_Status": null
+      "Date": "02-05-2014"
     },
     {
       "Species_ID": "SP_0476",
@@ -52,8 +47,7 @@
       "Location": "Ea. Virocay, Virasoro",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "20-04-2014",
-      "Threat_Status": null
+      "Date": "20-04-2014"
     }
   ]
 }

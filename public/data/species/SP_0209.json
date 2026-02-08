@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.041178",
     "group_key": "SP_0209",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Canal de Beagle, Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0209",
@@ -52,8 +47,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0209",
@@ -68,8 +62,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0209",
@@ -84,8 +77,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0209",
@@ -100,8 +92,7 @@
       "Location": "Isla Martillo, Harberton",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "31-01-2014",
-      "Threat_Status": null
+      "Date": "31-01-2014"
     },
     {
       "Species_ID": "SP_0209",
@@ -116,8 +107,7 @@
       "Location": "Sendero Costero, P. N. Tierra del Fuego",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "15-02-2017",
-      "Threat_Status": null
+      "Date": "15-02-2017"
     },
     {
       "Species_ID": "SP_0209",
@@ -132,8 +122,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-1998",
-      "Threat_Status": null
+      "Date": "01-1998"
     },
     {
       "Species_ID": "SP_0209",
@@ -148,8 +137,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-1998",
-      "Threat_Status": null
+      "Date": "01-1998"
     },
     {
       "Species_ID": "SP_0209",
@@ -164,8 +152,7 @@
       "Location": "Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "01-1998",
-      "Threat_Status": null
+      "Date": "01-1998"
     },
     {
       "Species_ID": "SP_0209",
@@ -180,8 +167,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0209",
@@ -196,8 +182,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     },
     {
       "Species_ID": "SP_0209",
@@ -212,8 +197,7 @@
       "Location": "Ushuaia",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "03-2008",
-      "Threat_Status": null
+      "Date": "03-2008"
     }
   ]
 }

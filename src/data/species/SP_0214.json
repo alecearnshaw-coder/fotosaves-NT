@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Charadriiformes/PlayerasC_Image_Listing.xlsx",
-    "generated_at": "2025-09-09T00:20:49.037047",
     "group_key": "SP_0214",
     "total_rows": 12,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0214",
@@ -52,8 +47,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-04-2013",
-      "Threat_Status": null
+      "Date": "06-04-2013"
     },
     {
       "Species_ID": "SP_0214",
@@ -68,8 +62,7 @@
       "Location": "Zanjón Loreto, Ituzaingó",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "17-03-2019",
-      "Threat_Status": null
+      "Date": "17-03-2019"
     },
     {
       "Species_ID": "SP_0214",
@@ -84,8 +77,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "06-2006",
-      "Threat_Status": null
+      "Date": "06-2006"
     },
     {
       "Species_ID": "SP_0214",
@@ -100,8 +92,7 @@
       "Location": "Ceibas",
       "Province": "Entre Ríos",
       "Country": null,
-      "Date": "10-2006",
-      "Threat_Status": null
+      "Date": "10-2006"
     },
     {
       "Species_ID": "SP_0214",
@@ -116,8 +107,7 @@
       "Location": "Iberá",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "03-01-2009",
-      "Threat_Status": null
+      "Date": "03-01-2009"
     },
     {
       "Species_ID": "SP_0214",
@@ -132,8 +122,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0214",
@@ -148,8 +137,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0214",
@@ -164,8 +152,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0214",
@@ -180,8 +167,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0214",
@@ -196,8 +182,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     },
     {
       "Species_ID": "SP_0214",
@@ -212,8 +197,7 @@
       "Location": "Yataity Calle",
       "Province": "Corrientes",
       "Country": null,
-      "Date": "23-03-2012",
-      "Threat_Status": null
+      "Date": "23-03-2012"
     }
   ]
 }

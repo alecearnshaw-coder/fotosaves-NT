@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Turdidae/Turdidae_Image_Listing.xlsx",
-    "generated_at": "2025-10-09T01:40:04.390346",
     "group_key": "SP_0887",
     "total_rows": 5,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Río Jordan, San Francisco",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "14-04-2018",
-      "Threat_Status": null
+      "Date": "14-04-2018"
     },
     {
       "Species_ID": "SP_0887",
@@ -52,8 +47,7 @@
       "Location": "Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     },
     {
       "Species_ID": "SP_0887",
@@ -68,8 +62,7 @@
       "Location": "Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     },
     {
       "Species_ID": "SP_0887",
@@ -84,8 +77,7 @@
       "Location": "Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     },
     {
       "Species_ID": "SP_0887",
@@ -100,8 +92,7 @@
       "Location": "Sierras de Calilegua",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "16-10-2017",
-      "Threat_Status": null
+      "Date": "16-10-2017"
     }
   ]
 }

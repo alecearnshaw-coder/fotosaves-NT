@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Podicipediformes/Podicipediformes_Image_Listing.xlsx",
-    "generated_at": "2025-09-03T01:26:02.747093",
     "group_key": "SP_0078",
     "total_rows": 21,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Puerto de Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -52,8 +47,7 @@
       "Location": "Laguna de los Patos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0078",
@@ -68,8 +62,7 @@
       "Location": "Laguna de los Patos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0078",
@@ -84,8 +77,7 @@
       "Location": "Laguna de los Patos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0078",
@@ -100,8 +92,7 @@
       "Location": "Laguna de los Patos, Río Grande",
       "Province": "Tierra del Fuego",
       "Country": null,
-      "Date": "27-01-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "27-01-2014"
     },
     {
       "Species_ID": "SP_0078",
@@ -116,8 +107,7 @@
       "Location": "Laguna Huáncar, Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_0078",
@@ -132,8 +122,7 @@
       "Location": "Laguna Huáncar, Abra Pampa",
       "Province": "Jujuy",
       "Country": null,
-      "Date": "12-10-2014",
-      "Threat_Status": "Near-threatened"
+      "Date": "12-10-2014"
     },
     {
       "Species_ID": "SP_0078",
@@ -148,8 +137,7 @@
       "Location": "Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": "Near-threatened"
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0078",
@@ -164,8 +152,7 @@
       "Location": "Cortaderas",
       "Province": "Catamarca",
       "Country": null,
-      "Date": "23-02-2025",
-      "Threat_Status": "Near-threatened"
+      "Date": "23-02-2025"
     },
     {
       "Species_ID": "SP_0078",
@@ -180,8 +167,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -196,8 +182,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -212,8 +197,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -228,8 +212,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -244,8 +227,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -260,8 +242,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -276,8 +257,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -292,8 +272,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -308,8 +287,7 @@
       "Location": "Quequén",
       "Province": "Buenos Aires",
       "Country": null,
-      "Date": "19-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "19-07-2009"
     },
     {
       "Species_ID": "SP_0078",
@@ -324,8 +302,7 @@
       "Location": "anteriores / older stock Playa \"Elola\", Camarones",
       "Province": "Chubut",
       "Country": null,
-      "Date": "02-2003",
-      "Threat_Status": "Near-threatened"
+      "Date": "02-2003"
     },
     {
       "Species_ID": "SP_0078",
@@ -340,8 +317,7 @@
       "Location": "Reserva Costanera Sur",
       "Province": "AMBA",
       "Country": null,
-      "Date": "06-2004",
-      "Threat_Status": "Near-threatened"
+      "Date": "06-2004"
     },
     {
       "Species_ID": "SP_0078",
@@ -356,8 +332,7 @@
       "Location": "Laguna Negra, Trelew",
       "Province": "Chubut",
       "Country": null,
-      "Date": "30-07-2009",
-      "Threat_Status": "Near-threatened"
+      "Date": "30-07-2009"
     }
   ]
 }

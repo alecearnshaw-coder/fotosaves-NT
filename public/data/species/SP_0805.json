@@ -1,7 +1,5 @@
 {
   "metadata": {
-    "source_file": "../../Passeriformes/Furnariidae-Sina/Furnariidae-Sina_Image_Listing.xlsx",
-    "generated_at": "2025-09-28T18:57:40.369142",
     "group_key": "SP_0805",
     "total_rows": 10,
     "columns": [
@@ -17,10 +15,8 @@
       "Location",
       "Province",
       "Country",
-      "Date",
-      "Threat_Status"
-    ],
-    "column_range": "B-P"
+      "Date"
+    ]
   },
   "data": [
     {
@@ -36,8 +32,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "15-10-2008",
-      "Threat_Status": null
+      "Date": "15-10-2008"
     },
     {
       "Species_ID": "SP_0805",
@@ -52,8 +47,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "15-10-2008",
-      "Threat_Status": null
+      "Date": "15-10-2008"
     },
     {
       "Species_ID": "SP_0805",
@@ -68,8 +62,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "15-10-2008",
-      "Threat_Status": null
+      "Date": "15-10-2008"
     },
     {
       "Species_ID": "SP_0805",
@@ -84,8 +77,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "15-10-2008",
-      "Threat_Status": null
+      "Date": "15-10-2008"
     },
     {
       "Species_ID": "SP_0805",
@@ -100,8 +92,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "15-10-2008",
-      "Threat_Status": null
+      "Date": "15-10-2008"
     },
     {
       "Species_ID": "SP_0805",
@@ -116,8 +107,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "15-10-2008",
-      "Threat_Status": null
+      "Date": "15-10-2008"
     },
     {
       "Species_ID": "SP_0805",
@@ -132,8 +122,7 @@
       "Location": "Concepción",
       "Province": "Biobío",
       "Country": "CHILE",
-      "Date": "15-10-2008",
-      "Threat_Status": null
+      "Date": "15-10-2008"
     },
     {
       "Species_ID": "SP_0805",
@@ -148,8 +137,7 @@
       "Location": "Vilches",
       "Province": "Maule",
       "Country": "CHILE",
-      "Date": "19-12-2009",
-      "Threat_Status": null
+      "Date": "19-12-2009"
     },
     {
       "Species_ID": "SP_0805",
@@ -164,8 +152,7 @@
       "Location": "Vilches",
       "Province": "Maule",
       "Country": "CHILE",
-      "Date": "19-12-2009",
-      "Threat_Status": null
+      "Date": "19-12-2009"
     },
     {
       "Species_ID": "SP_0805",
@@ -180,8 +167,7 @@
       "Location": "Vilches",
       "Province": "Maule",
       "Country": "CHILE",
-      "Date": "19-12-2009",
-      "Threat_Status": null
+      "Date": "19-12-2009"
     }
   ]
 }
