@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0404",
-    "total_rows": 11,
+    "total_rows": 12,
     "columns": [
       "Species_ID",
       "Slug",
@@ -16,7 +16,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-08T15:48:03.299000"
   },
   "data": [
     {
@@ -78,6 +79,21 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "04-08-2019"
+    },
+    {
+      "Species_ID": "SP_0404",
+      "Slug": "LechuzonOrejudo",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_LechuzonOrejudoJ_PqueSarmiento_11Ago2024_600.jpg",
+      "Large_Filename": "A_LechuzonOrejudoJ_PqueSarmiento_11Ago2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + 100-400 f/4.5-5.6 L IS II USM",
+      "Sex_Age": "J",
+      "Location": "Parque Sarmiento",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "11-08-2024"
     },
     {
       "Species_ID": "SP_0404",
