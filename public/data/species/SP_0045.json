@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0045",
-    "total_rows": 26,
+    "total_rows": 27,
     "columns": [
       "Species_ID",
       "Slug",
@@ -16,7 +16,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-08T17:46:10.676056"
   },
   "data": [
     {
@@ -63,6 +64,21 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-11-2014"
+    },
+    {
+      "Species_ID": "SP_0045",
+      "Slug": "PatoCutiri",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PatoCutiriJ_C_13Ene2024_600.jpg",
+      "Large_Filename": "A_PatoCutiriJ_C_13Ene2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "J",
+      "Location": "Ceibas",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "13-01-2024"
     },
     {
       "Species_ID": "SP_0045",

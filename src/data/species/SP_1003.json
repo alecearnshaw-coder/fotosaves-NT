@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_1003",
-    "total_rows": 29,
+    "total_rows": 30,
     "columns": [
       "Species_ID",
       "Slug",
@@ -17,7 +17,8 @@
       "Country",
       "Date",
       "Location_Date"
-    ]
+    ],
+    "generated_at": "2026-02-08T17:46:10.600123"
   },
   "data": [
     {
@@ -67,6 +68,21 @@
       "Country": null,
       "Date": "24-11-2013",
       "Location_Date": "Perdices, Entre Ríos - 24-11-2013"
+    },
+    {
+      "Species_ID": "SP_1003",
+      "Slug": "JilgueroDorado",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_JilgueroDoradoH_RVL_17Ene2024_600.jpg",
+      "Large_Filename": "A_JilgueroDoradoH_RVL_17Ene2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Reserva de Vicente López, Vicente López",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "17-01-2024"
     },
     {
       "Species_ID": "SP_1003",

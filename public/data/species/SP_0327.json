@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0327",
-    "total_rows": 22,
+    "total_rows": 23,
     "columns": [
       "Species_ID",
       "Slug",
@@ -16,7 +16,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-08T17:46:10.574772"
   },
   "data": [
     {
@@ -63,6 +64,21 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-08-2016"
+    },
+    {
+      "Species_ID": "SP_0327",
+      "Slug": "GarzaBlanca",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GarzaBlanca_LRegatas_29Ene2024_600.jpg",
+      "Large_Filename": "A_GarzaBlanca_LRegatas_29Ene2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "En el nido con juvenil - <span class='english-text'><b>On nest with chick</b></span>",
+      "Location": "Lago Regatas, Palermo",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "29-01-2024"
     },
     {
       "Species_ID": "SP_0327",
