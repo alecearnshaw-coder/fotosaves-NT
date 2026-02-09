@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0919",
-    "total_rows": 18,
+    "total_rows": 19,
     "columns": [
       "Species_ID",
       "Slug",
@@ -16,7 +16,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-08T22:20:09.754276"
   },
   "data": [
     {
@@ -63,6 +64,21 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "18-05-2014"
+    },
+    {
+      "Species_ID": "SP_0919",
+      "Slug": "CabecitanegraComun",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_CabecitanegraC_EcoparqueSanFernando_3Feb2024_600.jpg",
+      "Large_Filename": "A_CabecitanegraC_EcoparqueSanFernando_3Feb2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Ecoparque, San Fernando",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "03-02-2024"
     },
     {
       "Species_ID": "SP_0919",

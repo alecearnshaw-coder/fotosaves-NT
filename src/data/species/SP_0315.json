@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0315",
-    "total_rows": 35,
+    "total_rows": 36,
     "columns": [
       "Species_ID",
       "Slug",
@@ -16,7 +16,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-08T22:20:09.887109"
   },
   "data": [
     {
@@ -168,6 +169,21 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "01-04-2018"
+    },
+    {
+      "Species_ID": "SP_0315",
+      "Slug": "HocoColorado",
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_HocoColoradoJ_RECS_21Feb2024_600.jpg",
+      "Large_Filename": "A_HocoColoradoJ_RECS_21Feb2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "J",
+      "Location": "Reserva Ecológica Costanera Sur",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "21-02-2024"
     },
     {
       "Species_ID": "SP_0315",
