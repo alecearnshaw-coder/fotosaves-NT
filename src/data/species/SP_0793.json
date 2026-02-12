@@ -3,8 +3,6 @@
     "group_key": "SP_0793",
     "total_rows": 10,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "10-02-2006"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "02-2006"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -65,8 +57,6 @@
       "Date": "02-2006"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -80,8 +70,6 @@
       "Date": "02-2006"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -95,8 +83,6 @@
       "Date": "28-03-2009"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -110,8 +96,6 @@
       "Date": "15-12-2009"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -125,8 +109,6 @@
       "Date": "15-12-2009"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -140,8 +122,6 @@
       "Date": "15-12-2009"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -155,8 +135,6 @@
       "Date": "14-01-2012"
     },
     {
-      "Species_ID": "SP_0793",
-      "Slug": "BanduritaComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

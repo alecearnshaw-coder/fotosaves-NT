@@ -3,8 +3,6 @@
     "group_key": "SP_0668",
     "total_rows": 37,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -37,8 +33,6 @@
       "Location_Date": "La Argentina, Entre Ríos - 05-10-2013"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -53,8 +47,6 @@
       "Location_Date": "Ruta 11 y Río Salado, Buenos Aires - 21-09-2014"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -69,8 +61,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 20-09-2009"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -85,8 +75,6 @@
       "Location_Date": "Pucusana, Lima, PERU - 17-09-2016"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -101,8 +89,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 13-01-2024"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -117,8 +103,6 @@
       "Location_Date": "Pucusana, Lima, PERU - 17-09-2016"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -133,8 +117,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 9/7/2010"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -149,8 +131,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 9/7/2010"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -165,8 +145,6 @@
       "Location_Date": "Ceibas, Entre Rios - 14/9/2008"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -181,8 +159,6 @@
       "Location_Date": "Ceibas, Entre Rios - 11/2005"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -197,8 +173,6 @@
       "Location_Date": "Ceibas, Entre Rios - 11/2005"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -213,8 +187,6 @@
       "Location_Date": "Ceibas, Entre Rios - 11/2005"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -229,8 +201,6 @@
       "Location_Date": "Punta Chica, Buenos Aires - 9/2002"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -245,8 +215,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 1/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -261,8 +229,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 1/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -277,8 +243,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 2/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -293,8 +257,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 2/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -309,8 +271,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 2/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -325,8 +285,6 @@
       "Location_Date": "Ceibas, Entre Ríos -1/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -341,8 +299,6 @@
       "Location_Date": "Perdices, Entre Ríos -1/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -357,8 +313,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 2/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -373,8 +327,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 22/9/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -389,8 +341,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 22/9/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -405,8 +355,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 14/11/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -421,8 +369,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 14/11/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -437,8 +383,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 14/11/2007"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -453,8 +397,6 @@
       "Location_Date": "Perdices, Entre Ríos - 21/12/2008"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -469,8 +411,6 @@
       "Location_Date": "Iberá, Corrientes - 4/1/2009"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -485,8 +425,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 6/9/2009"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -501,8 +439,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 17/1/2010"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -517,8 +453,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 10/1/2010"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -533,8 +467,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 10/1/2010"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -549,8 +481,6 @@
       "Location_Date": "Perdices, Entre Ríos - 27/2/2010"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -565,8 +495,6 @@
       "Location_Date": "Ceibas, Entre Rios 10/2001"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -581,8 +509,6 @@
       "Location_Date": "Refugio de Estancia Marahué, Pedro Luro, Buenos Aires - 9/2002"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -597,8 +523,6 @@
       "Location_Date": "Ceibas, Entre Rios - 29/3/2012"
     },
     {
-      "Species_ID": "SP_0668",
-      "Slug": "Churrinche",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

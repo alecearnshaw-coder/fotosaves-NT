@@ -3,8 +3,6 @@
     "group_key": "SP_0930",
     "total_rows": 52,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -37,8 +33,6 @@
       "Location_Date": "Capilla del Monte, Córdoba - 19-03-2013"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -53,8 +47,6 @@
       "Location_Date": "Capilla del Monte, Córdoba - 19-03-2013"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -69,8 +61,6 @@
       "Location_Date": "Olivos, Buenos Aires - 20-06-2021"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -85,8 +75,6 @@
       "Location_Date": "Olivos, Buenos Aires - 13-06-2021"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -101,8 +89,6 @@
       "Location_Date": "Olivos, Buenos Aires - 18-01-2018"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -117,8 +103,6 @@
       "Location_Date": "Olivos, Buenos Aires - 18-01-2018"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -133,8 +117,6 @@
       "Location_Date": "EcoPortal de Piedra, Palma Sola, Jujuy - 16-08-2014"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -149,8 +131,6 @@
       "Location_Date": "Parque Nacional Quebrada del Condorito, Córdoba - 22-02-2020"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -165,8 +145,6 @@
       "Location_Date": "Lomas de Asia, Lima, PERU - 18/09/2009"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -181,8 +159,6 @@
       "Location_Date": "Sendero Costero, PN Tierra del Fuego, Tierra del Fuego - 15-02-2017"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -197,8 +173,6 @@
       "Location_Date": "Ea. Tunel, Ushuaia, Tierra del Fuego - 13-02-2017"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -213,8 +187,6 @@
       "Location_Date": "Olivos, Buenos Aires - 13/5/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -229,8 +201,6 @@
       "Location_Date": "Reserva Costanera Sur, CABA - 9/2002"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -245,8 +215,6 @@
       "Location_Date": "Reserva Municipal de Vicente López La Lucila, Buenos Aires - 6/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -261,8 +229,6 @@
       "Location_Date": "Costanera Sur, CABA - 1/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -277,8 +243,6 @@
       "Location_Date": "Costanera Sur, CABA - 1/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -293,8 +257,6 @@
       "Location_Date": "Costanera Sur, CABA - 1/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -309,8 +271,6 @@
       "Location_Date": "Perdices, Entre Ríos - 1/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -325,8 +285,6 @@
       "Location_Date": "Costanera Sur, CABA - 1/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -341,8 +299,6 @@
       "Location_Date": "Costanera Sur, CABA - 1/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -357,8 +313,6 @@
       "Location_Date": "Costanera Sur, CABA - 7/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -373,8 +327,6 @@
       "Location_Date": "Reserva Vicente López, Buenos Aires - 1/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -389,8 +341,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 22/9/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -405,8 +355,6 @@
       "Location_Date": "Viña del Mar, Valparaiso, CHILE - 3/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -421,8 +369,6 @@
       "Location_Date": "Viña del Mar, Valparaiso, CHILE - 3/2006"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -437,8 +383,6 @@
       "Location_Date": "Bogotá, Cundinamarca, COLOMBIA - 4/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -453,8 +397,6 @@
       "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 11/11/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -469,8 +411,6 @@
       "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 11/11/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -485,8 +425,6 @@
       "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 11/11/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -501,8 +439,6 @@
       "Location_Date": "PN Tierra del Fuego, Tierra del Fuego - 2/2008"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -517,8 +453,6 @@
       "Location_Date": "PN Tierra del Fuego, Tierra del Fuego - 2/2008"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -533,8 +467,6 @@
       "Location_Date": "PN Tierra del Fuego, Tierra del Fuego - 2/2008"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -549,8 +481,6 @@
       "Location_Date": "Cabo Dominguez, Río Grande, Tierra del Fuego - 2/2008"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -565,8 +495,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 2/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -581,8 +509,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 2/2007"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -597,8 +523,6 @@
       "Location_Date": "Ribear Norte, Acasusso, Buenos Aires - 25/5/2009"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -613,8 +537,6 @@
       "Location_Date": "Dolores, Buenos Aires - 19/4/2008"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -629,8 +551,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 29/5/2011"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -645,8 +565,6 @@
       "Location_Date": "Colonia Pellegrini, Corrientes - 26/3/2012"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -661,8 +579,6 @@
       "Location_Date": "Colonia Pellegrini, Corrientes - 26/3/2012"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -677,8 +593,6 @@
       "Location_Date": "Colonia Pellegrini, Corrientes - 26/3/2012"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -693,8 +607,6 @@
       "Location_Date": "Colonia Pellegrini, Corrientes - 26/3/2012"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -709,8 +621,6 @@
       "Location_Date": "Camarones, Chubut - 2/2003"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -725,8 +635,6 @@
       "Location_Date": "Camarones, Chubut - 2/2003"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -741,8 +649,6 @@
       "Location_Date": "Camarones, Chubut - 2/2003"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -757,8 +663,6 @@
       "Location_Date": "Laguna Negra, Chubut - 30/7/2009"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -773,8 +677,6 @@
       "Location_Date": "Laguna Negra, Chubut - 30/7/2009"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -789,8 +691,6 @@
       "Location_Date": "Laguna Negra, Chubut - 30/7/2009"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -805,8 +705,6 @@
       "Location_Date": "Gral. Roca, Río Negro - 29/3/2009"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -821,8 +719,6 @@
       "Location_Date": "Esquel, Chubut - 30/5/2011"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -837,8 +733,6 @@
       "Location_Date": "Manzano Histórico, Tunuyán, Mendoza - 30/10/2011"
     },
     {
-      "Species_ID": "SP_0930",
-      "Slug": "Chingolo",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

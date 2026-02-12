@@ -3,8 +3,6 @@
     "group_key": "SP_0470",
     "total_rows": 3,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0470",
-      "Slug": "Yeruva",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "16-09-2018"
     },
     {
-      "Species_ID": "SP_0470",
-      "Slug": "Yeruva",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "07-09-2018"
     },
     {
-      "Species_ID": "SP_0470",
-      "Slug": "Yeruva",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,

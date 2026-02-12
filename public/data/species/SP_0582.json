@@ -3,8 +3,6 @@
     "group_key": "SP_0582",
     "total_rows": 1,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0582",
-      "Slug": "PicochatoEnano",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",

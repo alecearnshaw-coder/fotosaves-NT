@@ -3,8 +3,6 @@
     "group_key": "SP_0025",
     "total_rows": 9,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -37,8 +33,6 @@
       "Location_Date": "Reserva Ecológica Costanera Sur, CABA - 28-11-2014"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -53,8 +47,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 27-10-2012"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -69,8 +61,6 @@
       "Location_Date": "Reserva Costanera Sur, CABA - 10-11-2015"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -85,8 +75,6 @@
       "Location_Date": "Reserva Costanera Sur, CABA - 10-11-2015"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -101,8 +89,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 01-12-2012"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -117,8 +103,6 @@
       "Location_Date": "Perdices, Entre Ríos - 10/2006"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -133,8 +117,6 @@
       "Location_Date": "Perdices, Entre Ríos - 10/2006"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -149,8 +131,6 @@
       "Location_Date": "Perdices, Entre Ríos - 10/2006"
     },
     {
-      "Species_ID": "SP_0025",
-      "Slug": "PatoFierro",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

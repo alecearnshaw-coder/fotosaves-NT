@@ -3,8 +3,6 @@
     "group_key": "SP_0640",
     "total_rows": 9,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -37,8 +33,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 22-10-2006"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -53,8 +47,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 04-01-2014"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -69,8 +61,6 @@
       "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -85,8 +75,6 @@
       "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -101,8 +89,6 @@
       "Location_Date": "Ceibas, Entre Rios - 12/2006"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -117,8 +103,6 @@
       "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -133,8 +117,6 @@
       "Location_Date": "Ceibas, Entre Rios - 10/2006"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -149,8 +131,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 6/12/2007"
     },
     {
-      "Species_ID": "SP_0640",
-      "Slug": "BurlistoPicoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

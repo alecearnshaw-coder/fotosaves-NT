@@ -3,8 +3,6 @@
     "group_key": "SP_0312",
     "total_rows": 5,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0312",
-      "Slug": "CuervilloPuneno",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "13-10-2014"
     },
     {
-      "Species_ID": "SP_0312",
-      "Slug": "CuervilloPuneno",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "15-12-2006"
     },
     {
-      "Species_ID": "SP_0312",
-      "Slug": "CuervilloPuneno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -65,8 +57,6 @@
       "Date": "12-2006"
     },
     {
-      "Species_ID": "SP_0312",
-      "Slug": "CuervilloPuneno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -80,8 +70,6 @@
       "Date": "12-2006"
     },
     {
-      "Species_ID": "SP_0312",
-      "Slug": "CuervilloPuneno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

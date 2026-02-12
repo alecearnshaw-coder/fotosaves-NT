@@ -3,8 +3,6 @@
     "group_key": "SP_0227",
     "total_rows": 21,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -37,8 +33,6 @@
       "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -53,8 +47,6 @@
       "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -69,8 +61,6 @@
       "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -85,8 +75,6 @@
       "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -101,8 +89,6 @@
       "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 15/9/2012"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -117,8 +103,6 @@
       "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -133,8 +117,6 @@
       "Location_Date": "Parque Temático \"La Laguna\", Puerto Madryn, Chubut - 2/2006"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -149,8 +131,6 @@
       "Location_Date": "Puerto Madryn, Chubut - 2/2006"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -165,8 +145,6 @@
       "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -181,8 +159,6 @@
       "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -197,8 +173,6 @@
       "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -213,8 +187,6 @@
       "Location_Date": "Costanera Sur, CABA - 7/2006"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -229,8 +201,6 @@
       "Location_Date": "Ceibas, Entre Rios - 15/7/2007"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -245,8 +215,6 @@
       "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -261,8 +229,6 @@
       "Location_Date": "Ushuaia, Tierra del Fuego - 3/2008"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -277,8 +243,6 @@
       "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -293,8 +257,6 @@
       "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -309,8 +271,6 @@
       "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -325,8 +285,6 @@
       "Location_Date": "Lago Pellegrini, Cinco Saltos, Río Negro - 3/2009"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -341,8 +299,6 @@
       "Location_Date": "Mar del Plata, Buenos Aires - 7/2009"
     },
     {
-      "Species_ID": "SP_0227",
-      "Slug": "PlayerasC_GaviotaCapuchoCafe",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

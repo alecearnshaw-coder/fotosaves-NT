@@ -3,8 +3,6 @@
     "group_key": "SP_0919",
     "total_rows": 19,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -36,8 +32,6 @@
       "Date": "25-06-2017"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -51,8 +45,6 @@
       "Date": "13-01-2024"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -66,8 +58,6 @@
       "Date": "18-05-2014"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -81,8 +71,6 @@
       "Date": "03-02-2024"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -96,8 +84,6 @@
       "Date": "20-09-2009"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -111,8 +97,6 @@
       "Date": "13-10-2014"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -126,8 +110,6 @@
       "Date": "09-2001"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -141,8 +123,6 @@
       "Date": "02-2006"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -156,8 +136,6 @@
       "Date": "07-2006"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -171,8 +149,6 @@
       "Date": "07-2006"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -186,8 +162,6 @@
       "Date": "07-2006"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -201,8 +175,6 @@
       "Date": "20-09-2009"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -216,8 +188,6 @@
       "Date": "12-2001"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -231,8 +201,6 @@
       "Date": "07-2006"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -246,8 +214,6 @@
       "Date": "07-2006"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -261,8 +227,6 @@
       "Date": "14-11-2007"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -276,8 +240,6 @@
       "Date": "14-11-2007"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -291,8 +253,6 @@
       "Date": "08-2011"
     },
     {
-      "Species_ID": "SP_0919",
-      "Slug": "CabecitanegraComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

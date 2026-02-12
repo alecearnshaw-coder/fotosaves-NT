@@ -3,8 +3,6 @@
     "group_key": "SP_0622",
     "total_rows": 1,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0622",
-      "Slug": "PiojitoDeLosPinos",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",

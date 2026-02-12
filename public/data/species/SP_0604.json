@@ -3,8 +3,6 @@
     "group_key": "SP_0604",
     "total_rows": 12,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -37,8 +33,6 @@
       "Location_Date": "Colonia Carlos Pellegrini, Corrientes - 25-03-2012"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -53,8 +47,6 @@
       "Location_Date": "P. N. El Palmar, Colon, Entre Ríos - 06-12-2015"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -69,8 +61,6 @@
       "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -85,8 +75,6 @@
       "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -101,8 +89,6 @@
       "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 5/2007"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -117,8 +103,6 @@
       "Location_Date": "Ribera Norte, Acassuso, Buenos Aires - 3/2006"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -133,8 +117,6 @@
       "Location_Date": "Vuelta de Obligado, Buenos Aires - 25/5/2007"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -149,8 +131,6 @@
       "Location_Date": "Perdices, Entre Rios - 3/12/2007"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -165,8 +145,6 @@
       "Location_Date": "Perdices, Entre Rios - 3/12/2007"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -181,8 +159,6 @@
       "Location_Date": "Ceibas, Entre Rios - 12/10/2009"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -197,8 +173,6 @@
       "Location_Date": "Ceibas, Entre Rios - 12/10/2009"
     },
     {
-      "Species_ID": "SP_0604",
-      "Slug": "PiojitoSilbon",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

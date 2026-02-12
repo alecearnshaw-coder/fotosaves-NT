@@ -3,8 +3,6 @@
     "group_key": "SP_0204",
     "total_rows": 40,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "12-10-2013"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -65,8 +57,6 @@
       "Date": "12-10-2013"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -80,8 +70,6 @@
       "Date": "12-10-2013"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -95,8 +83,6 @@
       "Date": "16-11-2013"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -110,8 +96,6 @@
       "Date": "27-01-2014"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -125,8 +109,6 @@
       "Date": "27-01-2014"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -140,8 +122,6 @@
       "Date": "27-01-2014"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -155,8 +135,6 @@
       "Date": "20-09-2014"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -170,8 +148,6 @@
       "Date": "3-200 8"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -185,8 +161,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -200,8 +174,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -215,8 +187,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -230,8 +200,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -245,8 +213,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -260,8 +226,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -275,8 +239,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -290,8 +252,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -305,8 +265,6 @@
       "Date": "03-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -320,8 +278,6 @@
       "Date": "02-2004"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -335,8 +291,6 @@
       "Date": "02-2004"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -350,8 +304,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -365,8 +317,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -380,8 +330,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -395,8 +343,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -410,8 +356,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -425,8 +369,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -440,8 +382,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -455,8 +395,6 @@
       "Date": "19-04-2008"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -470,8 +408,6 @@
       "Date": "04-11-2009"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -485,8 +421,6 @@
       "Date": "18-11-2010"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -500,8 +434,6 @@
       "Date": "18-11-2010"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -515,8 +447,6 @@
       "Date": "18-11-2010"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -530,8 +460,6 @@
       "Date": "18-11-2010"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -545,8 +473,6 @@
       "Date": "18-11-2010"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -560,8 +486,6 @@
       "Date": "10-01-2011"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -575,8 +499,6 @@
       "Date": "13-01-2012"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -590,8 +512,6 @@
       "Date": "14-01-2012"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -605,8 +525,6 @@
       "Date": "14-01-2012"
     },
     {
-      "Species_ID": "SP_0204",
-      "Slug": "PlayerasB_PlayeritoRabadillaBlanca",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

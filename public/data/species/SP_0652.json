@@ -3,8 +3,6 @@
     "group_key": "SP_0652",
     "total_rows": 3,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0652",
-      "Slug": "Pitangua",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "25-09-2015"
     },
     {
-      "Species_ID": "SP_0652",
-      "Slug": "Pitangua",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "17-03-2019"
     },
     {
-      "Species_ID": "SP_0652",
-      "Slug": "Pitangua",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,

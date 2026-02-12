@@ -3,8 +3,6 @@
     "group_key": "SP_0675",
     "total_rows": 6,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0675",
-      "Slug": "MosquetaParda",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -36,8 +32,6 @@
       "Date": "23-09-2012"
     },
     {
-      "Species_ID": "SP_0675",
-      "Slug": "MosquetaParda",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -51,8 +45,6 @@
       "Date": "26-10-2019"
     },
     {
-      "Species_ID": "SP_0675",
-      "Slug": "MosquetaParda",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -66,8 +58,6 @@
       "Date": "23-09-2012"
     },
     {
-      "Species_ID": "SP_0675",
-      "Slug": "MosquetaParda",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -81,8 +71,6 @@
       "Date": "09-03-2014"
     },
     {
-      "Species_ID": "SP_0675",
-      "Slug": "MosquetaParda",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -96,8 +84,6 @@
       "Date": "09-03-2014"
     },
     {
-      "Species_ID": "SP_0675",
-      "Slug": "MosquetaParda",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,

@@ -19,7 +19,9 @@
 const fs = require('fs/promises');
 const path = require('path');
 
+// Keys to remove from metadata.columns and each row in data[]
 const TARGET_KEYS = ['Threat_Status', 'Display_Order', 'Paired'];
+const IDENTIFIER_KEYS = ['Species_ID', 'Slug'];
 const TARGET_META_FIELDS = ['generated_at', 'source_file'];
 
 function parseArgs(argv) {
@@ -27,6 +29,7 @@ function parseArgs(argv) {
     apply: false,
     removeColumnRange: false,
     removeMetaFields: false,
+    removeIdentifiers: false,
     jsonIndent: 2,
   };
 
@@ -34,6 +37,7 @@ function parseArgs(argv) {
     if (raw === '--apply') args.apply = true;
     else if (raw === '--remove-column-range') args.removeColumnRange = true;
     else if (raw === '--remove-meta-fields') args.removeMetaFields = true;
+    else if (raw === '--remove-identifiers') args.removeIdentifiers = true;
     else if (raw.startsWith('--json-indent=')) {
       const n = Number(raw.split('=')[1]);
       if (Number.isFinite(n) && n >= 0) args.jsonIndent = n;
@@ -52,12 +56,13 @@ function printHelpAndExit(code) {
 Clean SP_*.json species image data (dry-run by default).
 
 Usage:
-  node ./scripts/clean-species-json.js [--apply] [--remove-column-range] [--remove-meta-fields] [--json-indent=N]
+  node ./scripts/clean-species-json.js [--apply] [--remove-column-range] [--remove-meta-fields] [--remove-identifiers] [--json-indent=N]
 
 Options:
   --apply               Write changes to disk. (Default: dry-run)
   --remove-column-range Delete metadata.column_range if present.
   --remove-meta-fields  Delete metadata.generated_at and metadata.source_file if present.
+  --remove-identifiers  Delete Species_ID and Slug from metadata.columns and each data[] row.
   --json-indent=N       JSON indentation for writes (default: 2). Use 0 for minified.
 `);
   process.exit(code);
@@ -88,9 +93,11 @@ function analyzeFileObject(obj, opts) {
   const meta = obj && typeof obj === 'object' ? obj.metadata : null;
   const data = obj && typeof obj === 'object' ? obj.data : null;
 
+  const keysToCheck = opts.removeIdentifiers ? [...TARGET_KEYS, ...IDENTIFIER_KEYS] : TARGET_KEYS;
+
   const result = {
-    columnsHas: Object.fromEntries(TARGET_KEYS.map((k) => [k, 0])),
-    rowsHas: Object.fromEntries(TARGET_KEYS.map((k) => [k, 0])),
+    columnsHas: Object.fromEntries(keysToCheck.map((k) => [k, 0])),
+    rowsHas: Object.fromEntries(keysToCheck.map((k) => [k, 0])),
     hasColumnRange: false,
     metaFieldsHas: Object.fromEntries(TARGET_META_FIELDS.map((k) => [k, 0])),
     wouldChange: false,
@@ -98,7 +105,7 @@ function analyzeFileObject(obj, opts) {
 
   // metadata.columns[]
   if (meta && Array.isArray(meta.columns)) {
-    for (const k of TARGET_KEYS) {
+    for (const k of keysToCheck) {
       const present = meta.columns.includes(k);
       if (present) {
         result.columnsHas[k] += 1; // count per-file presence
@@ -127,7 +134,7 @@ function analyzeFileObject(obj, opts) {
   if (Array.isArray(data)) {
     for (const row of data) {
       if (!row || typeof row !== 'object') continue;
-      for (const k of TARGET_KEYS) {
+      for (const k of keysToCheck) {
         if (hasOwn(row, k)) {
           result.rowsHas[k] += 1; // count per-row occurrences
           result.wouldChange = true;
@@ -142,10 +149,11 @@ function analyzeFileObject(obj, opts) {
 function applyCleanup(obj, opts) {
   let changed = false;
   const meta = obj && typeof obj === 'object' ? obj.metadata : null;
+  const keysToRemove = opts.removeIdentifiers ? [...TARGET_KEYS, ...IDENTIFIER_KEYS] : TARGET_KEYS;
 
   if (meta && Array.isArray(meta.columns)) {
     const beforeLen = meta.columns.length;
-    meta.columns = meta.columns.filter((c) => !TARGET_KEYS.includes(c));
+    meta.columns = meta.columns.filter((c) => !keysToRemove.includes(c));
     if (meta.columns.length !== beforeLen) changed = true;
   }
 
@@ -166,7 +174,7 @@ function applyCleanup(obj, opts) {
   if (obj && typeof obj === 'object' && Array.isArray(obj.data)) {
     for (const row of obj.data) {
       if (!row || typeof row !== 'object') continue;
-      for (const k of TARGET_KEYS) {
+      for (const k of keysToRemove) {
         if (hasOwn(row, k)) {
           delete row[k];
           changed = true;
@@ -184,6 +192,7 @@ function formatCount(n) {
 
 async function processFolder(folderLabel, folderPath, opts) {
   const files = await listSpeciesJsonFiles(folderPath);
+  const summaryKeys = opts.removeIdentifiers ? [...TARGET_KEYS, ...IDENTIFIER_KEYS] : TARGET_KEYS;
 
   const summary = {
     label: folderLabel,
@@ -192,8 +201,8 @@ async function processFolder(folderLabel, folderPath, opts) {
     parsedOk: 0,
     parseErrors: [],
     wouldChangeFiles: 0,
-    keysInColumnsFiles: Object.fromEntries(TARGET_KEYS.map((k) => [k, 0])),
-    keysInRowsTotal: Object.fromEntries(TARGET_KEYS.map((k) => [k, 0])),
+    keysInColumnsFiles: Object.fromEntries(summaryKeys.map((k) => [k, 0])),
+    keysInRowsTotal: Object.fromEntries(summaryKeys.map((k) => [k, 0])),
     columnRangeFiles: 0,
     metaFieldsFiles: Object.fromEntries(TARGET_META_FIELDS.map((k) => [k, 0])),
     filesWritten: 0,
@@ -213,7 +222,7 @@ async function processFolder(folderLabel, folderPath, opts) {
 
     const analysis = analyzeFileObject(obj, opts);
 
-    for (const k of TARGET_KEYS) {
+    for (const k of summaryKeys) {
       // columnsHas[k] is 0/1 per file
       summary.keysInColumnsFiles[k] += analysis.columnsHas[k];
       summary.keysInRowsTotal[k] += analysis.rowsHas[k];
@@ -240,13 +249,14 @@ async function processFolder(folderLabel, folderPath, opts) {
 }
 
 function printSummary(folderSummaries, opts) {
+  const summaryKeys = opts.removeIdentifiers ? [...TARGET_KEYS, ...IDENTIFIER_KEYS] : TARGET_KEYS;
   const totals = {
     totalFiles: 0,
     parsedOk: 0,
     parseErrors: 0,
     wouldChangeFiles: 0,
-    keysInColumnsFiles: Object.fromEntries(TARGET_KEYS.map((k) => [k, 0])),
-    keysInRowsTotal: Object.fromEntries(TARGET_KEYS.map((k) => [k, 0])),
+    keysInColumnsFiles: Object.fromEntries(summaryKeys.map((k) => [k, 0])),
+    keysInRowsTotal: Object.fromEntries(summaryKeys.map((k) => [k, 0])),
     columnRangeFiles: 0,
     metaFieldsFiles: Object.fromEntries(TARGET_META_FIELDS.map((k) => [k, 0])),
     filesWritten: 0,
@@ -259,7 +269,7 @@ function printSummary(folderSummaries, opts) {
     totals.wouldChangeFiles += s.wouldChangeFiles;
     totals.columnRangeFiles += s.columnRangeFiles;
     totals.filesWritten += s.filesWritten;
-    for (const k of TARGET_KEYS) {
+    for (const k of summaryKeys) {
       totals.keysInColumnsFiles[k] += s.keysInColumnsFiles[k];
       totals.keysInRowsTotal[k] += s.keysInRowsTotal[k];
     }
@@ -287,11 +297,11 @@ function printSummary(folderSummaries, opts) {
     if (opts.apply) console.log(`Files written: ${formatCount(s.filesWritten)}`);
 
     console.log('metadata.columns contains (files):');
-    for (const k of TARGET_KEYS) {
+    for (const k of summaryKeys) {
       console.log(`  - ${k}: ${formatCount(s.keysInColumnsFiles[k])}`);
     }
     console.log('data[] contains (total row occurrences):');
-    for (const k of TARGET_KEYS) {
+    for (const k of summaryKeys) {
       console.log(`  - ${k}: ${formatCount(s.keysInRowsTotal[k])}`);
     }
 
@@ -317,11 +327,11 @@ function printSummary(folderSummaries, opts) {
   }
   if (opts.apply) console.log(`Files written: ${formatCount(totals.filesWritten)}`);
   console.log('metadata.columns contains (files):');
-  for (const k of TARGET_KEYS) {
+  for (const k of summaryKeys) {
     console.log(`  - ${k}: ${formatCount(totals.keysInColumnsFiles[k])}`);
   }
   console.log('data[] contains (total row occurrences):');
-  for (const k of TARGET_KEYS) {
+  for (const k of summaryKeys) {
     console.log(`  - ${k}: ${formatCount(totals.keysInRowsTotal[k])}`);
   }
 }

@@ -3,8 +3,6 @@
     "group_key": "SP_0820",
     "total_rows": 29,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "08-05-2016"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "08-05-2016"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -65,8 +57,6 @@
       "Date": "20-03-2012"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -80,8 +70,6 @@
       "Date": "19-03-2013"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -95,8 +83,6 @@
       "Date": "03-2006"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -110,8 +96,6 @@
       "Date": "03-2006"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -125,8 +109,6 @@
       "Date": "03-2006"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -140,8 +122,6 @@
       "Date": "11-2006"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -155,8 +135,6 @@
       "Date": "01-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -170,8 +148,6 @@
       "Date": "01-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -185,8 +161,6 @@
       "Date": "20-08-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -200,8 +174,6 @@
       "Date": "20-08-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -215,8 +187,6 @@
       "Date": "20-08-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -230,8 +200,6 @@
       "Date": "20-08-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -245,8 +213,6 @@
       "Date": "20-08-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -260,8 +226,6 @@
       "Date": "06-12-2007"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -275,8 +239,6 @@
       "Date": "14-09-2008"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -290,8 +252,6 @@
       "Date": "14-09-2008"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -305,8 +265,6 @@
       "Date": "06-09-2009"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -320,8 +278,6 @@
       "Date": "20-09-2009"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -335,8 +291,6 @@
       "Date": "20-09-2009"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -350,8 +304,6 @@
       "Date": "20-09-2009"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -365,8 +317,6 @@
       "Date": "20-09-2009"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -380,8 +330,6 @@
       "Date": "12-10-2009"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -395,8 +343,6 @@
       "Date": "29-05-2011"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -410,8 +356,6 @@
       "Date": "29-05-2011"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -425,8 +369,6 @@
       "Date": "29-05-2011"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -440,8 +382,6 @@
       "Date": "21-03-2012"
     },
     {
-      "Species_ID": "SP_0820",
-      "Slug": "CanasteroChaqueno",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

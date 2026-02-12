@@ -3,8 +3,6 @@
     "group_key": "SP_0871",
     "total_rows": 2,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0871",
-      "Slug": "RatonaGrande",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "25-11-2019"
     },
     {
-      "Species_ID": "SP_0871",
-      "Slug": "RatonaGrande",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,

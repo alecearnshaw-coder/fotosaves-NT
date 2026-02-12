@@ -3,8 +3,6 @@
     "group_key": "SP_1003",
     "total_rows": 30,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -22,8 +20,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -38,8 +34,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 5-02-2011"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -54,8 +48,6 @@
       "Location_Date": "Reserva Ecológica Ciudad Universitaria Costanera Norte (RECUCN), CABA - 23-07-2022"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -70,8 +62,6 @@
       "Location_Date": "Perdices, Entre Ríos - 24-11-2013"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -85,8 +75,6 @@
       "Date": "17-01-2024"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -101,8 +89,6 @@
       "Location_Date": "Costanera de Formosa (ciudad), Formosa - 20-10-2019"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -117,8 +103,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 9-10-2010"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -133,8 +117,6 @@
       "Location_Date": "San Sebastián de la Selva, Andresito, Misiones - 11-07-2016"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -149,8 +131,6 @@
       "Location_Date": "Jardín de los Picaflores, Puerto Iguazú, Misiones - 2-05-2014"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -165,8 +145,6 @@
       "Location_Date": "Puerto Iguazú, Misiones - 15-09-2018"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -181,8 +159,6 @@
       "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -197,8 +173,6 @@
       "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -213,8 +187,6 @@
       "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -229,8 +201,6 @@
       "Location_Date": "Ribear Norte, Acassuso, Buenos Aires - 25/5/2009"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -245,8 +215,6 @@
       "Location_Date": "Costanera Sur, CABA - 5/2006"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -261,8 +229,6 @@
       "Location_Date": "Escobar, Buenos Aires - 1/2003"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -277,8 +243,6 @@
       "Location_Date": "Escobar, Buenos Aires - 1/2003"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -293,8 +257,6 @@
       "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -309,8 +271,6 @@
       "Location_Date": "Costanera Sur, CABA - 8/2006"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -325,8 +285,6 @@
       "Location_Date": "Reserva de Vicente López, Buenos Aires - 9/2006"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -341,8 +299,6 @@
       "Location_Date": "Vuelta de Obligado, Buenos Aires - 5/2007"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -357,8 +313,6 @@
       "Location_Date": "Costanera Sur, CABA - 18/8/2008"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -373,8 +327,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 11/2002"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -389,8 +341,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 11/2006"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -405,8 +355,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 22/11/2008"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -421,8 +369,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 22/2/2008"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -437,8 +383,6 @@
       "Location_Date": "Iberá, Corrientes - 4/1/2009"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -453,8 +397,6 @@
       "Location_Date": "Iberá, Corrientes - 4/1/2009"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -469,8 +411,6 @@
       "Location_Date": "Neuquén - 1/9/2010"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -485,8 +425,6 @@
       "Location_Date": "Ceibas, Entre Ríos - 5/2/2011"
     },
     {
-      "Species_ID": "SP_1003",
-      "Slug": "JilgueroDorado",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

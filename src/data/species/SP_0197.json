@@ -3,8 +3,6 @@
     "group_key": "SP_0197",
     "total_rows": 12,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -36,8 +32,6 @@
       "Date": "05-02-2011"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -51,8 +45,6 @@
       "Date": "26-12-2014"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -66,8 +58,6 @@
       "Date": "13-01-2024"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -81,8 +71,6 @@
       "Date": "02-2007"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -96,8 +84,6 @@
       "Date": "15-03-2008"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -111,8 +97,6 @@
       "Date": "15-03-2008"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -126,8 +110,6 @@
       "Date": "05-02-2011"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -141,8 +123,6 @@
       "Date": "05-02-2011"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -156,8 +136,6 @@
       "Date": "05-02-2011"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -171,8 +149,6 @@
       "Date": "05-02-2011"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -186,8 +162,6 @@
       "Date": "05-02-2011"
     },
     {
-      "Species_ID": "SP_0197",
-      "Slug": "PlayerasB_PlayeritoCanela",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

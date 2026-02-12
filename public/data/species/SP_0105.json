@@ -3,8 +3,6 @@
     "group_key": "SP_0105",
     "total_rows": 15,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -21,8 +19,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -36,8 +32,6 @@
       "Date": "25-02-2007"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -51,8 +45,6 @@
       "Date": "08-12-2015"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -66,8 +58,6 @@
       "Date": "16-03-2019"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -81,8 +71,6 @@
       "Date": "03-02-2024"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -96,8 +84,6 @@
       "Date": "02-2007"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -111,8 +97,6 @@
       "Date": "07-2006"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -126,8 +110,6 @@
       "Date": "07-2006"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -141,8 +123,6 @@
       "Date": "06-2006"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -156,8 +136,6 @@
       "Date": "05-10-2008"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -171,8 +149,6 @@
       "Date": "01-2009"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -186,8 +162,6 @@
       "Date": "01-2009"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -201,8 +175,6 @@
       "Date": "01-2009"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -216,8 +188,6 @@
       "Date": "03-12-2009"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -231,8 +201,6 @@
       "Date": "05-2010"
     },
     {
-      "Species_ID": "SP_0105",
-      "Slug": "YerutiComun",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,

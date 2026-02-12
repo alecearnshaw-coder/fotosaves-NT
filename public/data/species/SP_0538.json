@@ -3,8 +3,6 @@
     "group_key": "SP_0538",
     "total_rows": 3,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0538",
-      "Slug": "LoroMaitaca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "10-2001"
     },
     {
-      "Species_ID": "SP_0538",
-      "Slug": "LoroMaitaca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "22-09-2015"
     },
     {
-      "Species_ID": "SP_0538",
-      "Slug": "LoroMaitaca",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,

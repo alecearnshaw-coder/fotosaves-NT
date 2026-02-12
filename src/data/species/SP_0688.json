@@ -3,8 +3,6 @@
     "group_key": "SP_0688",
     "total_rows": 22,
     "columns": [
-      "Species_ID",
-      "Slug",
       "Subspecies_ID",
       "Slide",
       "Cover",
@@ -20,8 +18,6 @@
   },
   "data": [
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": "Y",
@@ -35,8 +31,6 @@
       "Date": "01-02-2014"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -50,8 +44,6 @@
       "Date": "01-02-2014"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -65,8 +57,6 @@
       "Date": "23-07-2022"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -80,8 +70,6 @@
       "Date": "20-06-2007"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -95,8 +83,6 @@
       "Date": "13-07-2014"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -110,8 +96,6 @@
       "Date": "14-02-2017"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -125,8 +109,6 @@
       "Date": "14-02-2017"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -140,8 +122,6 @@
       "Date": "14-02-2017"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
@@ -155,8 +135,6 @@
       "Date": "14-02-2017"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -170,8 +148,6 @@
       "Date": "06-2007"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -185,8 +161,6 @@
       "Date": "20-06-2007"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -200,8 +174,6 @@
       "Date": "20-06-2007"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -215,8 +187,6 @@
       "Date": "20-06-2007"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -230,8 +200,6 @@
       "Date": "20-06-2007"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -245,8 +213,6 @@
       "Date": "20-06-2007"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -260,8 +226,6 @@
       "Date": "02-2008"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -275,8 +239,6 @@
       "Date": "02-2008"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -290,8 +252,6 @@
       "Date": "02-2008"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -305,8 +265,6 @@
       "Date": "02-2008"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -320,8 +278,6 @@
       "Date": "02-2008"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
@@ -335,8 +291,6 @@
       "Date": "30-07-2009"
     },
     {
-      "Species_ID": "SP_0688",
-      "Slug": "DormilonaCaraNegra",
       "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
