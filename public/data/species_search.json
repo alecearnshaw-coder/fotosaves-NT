@@ -1,6 +1,6 @@
 {
-    "generated_at":  "2026-02-13T23:20:50",
-    "count":  797,
+    "generated_at":  "2026-02-14T19:34:45",
+    "count":  800,
     "data":  [
                  {
                      "id":  "SP_0001",
@@ -693,6 +693,26 @@
                      "path":  "Cuculiformes/"
                  },
                  {
+                     "id":  "SP_0095",
+                     "slug":  "PalomitaMoteada",
+                     "hasLink":  null,
+                     "group":  "Columbiformes",
+                     "sci":  "Metriopelia ceciliae",
+                     "sp":  "Palomita Moteada",
+                     "en":  "Bare-faced Ground Dove",
+                     "path":  "Columbiformes/"
+                 },
+                 {
+                     "id":  "SP_0096",
+                     "slug":  "PalomitaOjoDesnudo",
+                     "hasLink":  null,
+                     "group":  "Columbiformes",
+                     "sci":  "Metriopelia morenoi",
+                     "sp":  "Palomita Ojo Desnudo",
+                     "en":  "Moreno´s Ground Dove",
+                     "path":  "Columbiformes/"
+                 },
+                 {
                      "id":  "SP_0097",
                      "slug":  "PalomitaCordillerana",
                      "hasLink":  "Y",
@@ -700,6 +720,16 @@
                      "sci":  "Metriopelia melanoptera",
                      "sp":  "Palomita Cordillerana",
                      "en":  "Black-winged Ground Dove",
+                     "path":  "Columbiformes/"
+                 },
+                 {
+                     "id":  "SP_0098",
+                     "slug":  "PalomitaDorada",
+                     "hasLink":  null,
+                     "group":  "Columbiformes",
+                     "sci":  "Metriopelia aymara",
+                     "sp":  "Palomita Dorada",
+                     "en":  "Golden-spotted Ground Dove",
                      "path":  "Columbiformes/"
                  },
                  {

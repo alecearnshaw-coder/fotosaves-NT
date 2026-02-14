@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0420",
-    "total_rows": 12,
+    "total_rows": 13,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-14T19:34:34.601658"
   },
   "data": [
     {
@@ -42,6 +43,19 @@
       "Province": "Sao Paulo",
       "Country": "BRAZIL",
       "Date": "28-10-2008"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_JoteCabNegra_RN12_5Mar2024_600.jpg",
+      "Large_Filename": "A_JoteCabNegra_RN12_5Mar2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "RN12, Brazo Largo",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "05-03-2024"
     },
     {
       "Subspecies_ID": null,

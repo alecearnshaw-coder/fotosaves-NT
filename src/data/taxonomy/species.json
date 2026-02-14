@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_file": "Species_Data.xlsx",
-    "generated_at": "2026-02-13T23:20:47.952251",
+    "generated_at": "2026-02-14T13:40:52.993740",
     "total_rows": 1084,
     "columns": [
       "Species_ID",
@@ -81,7 +81,7 @@
       "Species_Name_Sp": "Quiula Puneña",
       "Species_Name_En": "Puna Tinamou",
       "Species_Name_Sci": "Tinamotis pentlandii",
-      "Slug": "",
+      "Slug": null,
       "Species_Name_Sp_Alt": null,
       "Endangered": null,
       "Image_Cnt": 0,
@@ -2087,7 +2087,7 @@
       "Species_Name_Sp_Alt": null,
       "Endangered": "CR",
       "Image_Cnt": 0,
-      "Has_Sp_Link": null,
+      "Has_Sp_Link": "Y",
       "coverThumb1": null,
       "coverLarge1": null,
       "coverSex1": null,
@@ -9374,7 +9374,7 @@
       "Slug": "JoteCabezaNegra",
       "Species_Name_Sp_Alt": null,
       "Endangered": "",
-      "Image_Cnt": 12,
+      "Image_Cnt": 13,
       "Has_Sp_Link": "Y",
       "coverThumb1": null,
       "coverLarge1": null,
