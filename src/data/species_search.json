@@ -1,6 +1,6 @@
 {
-    "generated_at":  "2026-02-02T01:21:04",
-    "count":  796,
+    "generated_at":  "2026-02-13T23:20:50",
+    "count":  797,
     "data":  [
                  {
                      "id":  "SP_0001",
@@ -7740,6 +7740,16 @@
                      "sci":  "Poospiza nigrorufa",
                      "sp":  "Sietevestidos Común",
                      "en":  "Black-and-rufous Warbling Finch",
+                     "path":  "Passeriformes/Thraupidae/"
+                 },
+                 {
+                     "id":  "SP_1055",
+                     "slug":  "MonteritaPechoGris",
+                     "hasLink":  null,
+                     "group":  "Thraupidae",
+                     "sci":  "Poospizopsis hypocondria",
+                     "sp":  "Monterita Pecho Gris",
+                     "en":  "Rufous-sided Warbling Finch",
                      "path":  "Passeriformes/Thraupidae/"
                  },
                  {

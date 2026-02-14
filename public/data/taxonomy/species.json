@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_file": "Species_Data.xlsx",
-    "generated_at": "2025-08-09T15:53:02.584115",
+    "generated_at": "2026-02-13T23:20:47.952251",
     "total_rows": 1084,
     "columns": [
       "Species_ID",
@@ -2108,7 +2108,7 @@
       "Slug": "PalomitaMoteada",
       "Species_Name_Sp_Alt": null,
       "Endangered": null,
-      "Image_Cnt": 0,
+      "Image_Cnt": 2,
       "Has_Sp_Link": null,
       "coverThumb1": null,
       "coverLarge1": null,
@@ -2130,7 +2130,7 @@
       "Slug": "PalomitaOjoDesnudo",
       "Species_Name_Sp_Alt": null,
       "Endangered": null,
-      "Image_Cnt": 0,
+      "Image_Cnt": 1,
       "Has_Sp_Link": null,
       "coverThumb1": null,
       "coverLarge1": null,
@@ -2174,7 +2174,7 @@
       "Slug": "PalomitaDorada",
       "Species_Name_Sp_Alt": null,
       "Endangered": null,
-      "Image_Cnt": 0,
+      "Image_Cnt": 1,
       "Has_Sp_Link": null,
       "coverThumb1": null,
       "coverLarge1": null,

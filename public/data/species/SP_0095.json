@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-13T23:48:25.938312",
+    "group_key": "SP_0095",
+    "total_rows": 2,
+    "columns": [
+      "Subspecies_ID",
+      "Slide",
+      "Cover",
+      "Thumbnail_Filename",
+      "Large_Filename",
+      "Equipment",
+      "Sex_Age",
+      "Location",
+      "Province",
+      "Country",
+      "Date"
+    ]
+  },
+  "data": [
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": "Y",
+      "Thumbnail_Filename": "A_PalomitaMoteada_Yavi_13Oct2014_600.jpg",
+      "Large_Filename": "A_PalomitaMoteada_Yavi_13Oct2014_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Yavi",
+      "Province": "Jujuy",
+      "Country": null,
+      "Date": "13-10-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PalomitaMoteada_LomasDeAsia_18Sep2016_600.jpg",
+      "Large_Filename": "A_PalomitaMoteada_LomasDeAsia_18Sep2016_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Lomas de Asia",
+      "Province": "Lima",
+      "Country": "PERU",
+      "Date": "18-09-2016"
+    }
+  ]
+}
