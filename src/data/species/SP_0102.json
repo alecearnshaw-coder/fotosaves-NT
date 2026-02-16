@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0102",
-    "total_rows": 16,
+    "total_rows": 18,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-16T02:22:08.313096"
   },
   "data": [
     {
@@ -42,6 +43,32 @@
       "Province": "Río Negro",
       "Country": null,
       "Date": "27-03-2009"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TorcacitaComunM1_VL_4May2024_600.jpg",
+      "Large_Filename": "A_TorcacitaComunM1_VL_4May2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "M",
+      "Location": "Costanera de Vicente López",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "04-05-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TorcacitaComunH_VL_4May2024_600.jpg",
+      "Large_Filename": "A_TorcacitaComunH_VL_4May2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Costanera de Vicente López",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "04-05-2024"
     },
     {
       "Subspecies_ID": null,

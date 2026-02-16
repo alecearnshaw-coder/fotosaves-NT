@@ -1,5 +1,5 @@
 {
-    "generated_at":  "2026-02-14T19:34:45",
+    "generated_at":  "2026-02-16T02:22:20",
     "count":  800,
     "data":  [
                  {
@@ -695,7 +695,7 @@
                  {
                      "id":  "SP_0095",
                      "slug":  "PalomitaMoteada",
-                     "hasLink":  null,
+                     "hasLink":  "Y",
                      "group":  "Columbiformes",
                      "sci":  "Metriopelia ceciliae",
                      "sp":  "Palomita Moteada",

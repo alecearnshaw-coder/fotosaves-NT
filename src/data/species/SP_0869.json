@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0869",
-    "total_rows": 20,
+    "total_rows": 21,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-16T02:22:08.140041"
   },
   "data": [
     {
@@ -94,6 +95,19 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "05-10-2013"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TacuaritaAzulM_VL-Yrigoyen_27Abr2024_600.jpg",
+      "Large_Filename": "A_TacuaritaAzulM_VL-Yrigoyen_27Abr2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Costanera de Vicente López",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "27-04-2024"
     },
     {
       "Subspecies_ID": null,

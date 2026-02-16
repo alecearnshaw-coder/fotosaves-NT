@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source_file": "Species_Data.xlsx",
-    "generated_at": "2026-02-14T13:40:52.993740",
-    "total_rows": 1084,
+    "generated_at": "2026-02-16T02:22:08.948492",
+    "total_rows": 1085,
     "columns": [
       "Species_ID",
       "Order_Sci",
@@ -24516,6 +24516,28 @@
       "coverLarge2": null,
       "coverSex2": null,
       "Species_Anchor": "stilpnia-cayana"
+    },
+    {
+      "Species_ID": "SP_1085",
+      "Order_Sci": "Passeriformes",
+      "Suborder_Sci": null,
+      "Family_Sci": "Thraupidae",
+      "Subfamily_Sci": null,
+      "Species_Name_Sp": "Diuca Ala Blanca",
+      "Species_Name_En": "Glacier Finch",
+      "Species_Name_Sci": "Idiopsar speculifer",
+      "Slug": "DiucaAlaBlanca",
+      "Species_Name_Sp_Alt": null,
+      "Endangered": null,
+      "Image_Cnt": 0,
+      "Has_Sp_Link": "Y",
+      "coverThumb1": null,
+      "coverLarge1": null,
+      "coverSex1": null,
+      "coverThumb2": null,
+      "coverLarge2": null,
+      "coverSex2": null,
+      "Species_Anchor": "idiopsar-speculifer"
     }
   ]
 }

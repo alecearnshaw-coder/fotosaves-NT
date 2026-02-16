@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0042",
-    "total_rows": 15,
+    "total_rows": 17,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-16T02:22:07.179963"
   },
   "data": [
     {
@@ -24,7 +25,7 @@
       "Thumbnail_Filename": "A_PatoPicazo_300.jpg",
       "Large_Filename": "A_PatoPicazo.jpg",
       "Equipment": "Panasonic Lumix FZ30",
-      "Sex_Age": null,
+      "Sex_Age": "M",
       "Location": "Reserva Costanera Sur",
       "Province": "CABA",
       "Country": null,
@@ -94,6 +95,32 @@
       "Province": "Ciudad de Buenos Aires",
       "Country": null,
       "Date": "15-11-2015"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PatoPicazoM_SVicente_20Abr2024_600.jpg",
+      "Large_Filename": "A_PatoPicazoM_SVicente_20Abr2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "M",
+      "Location": "Laguna de San Vicente",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "20-04-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PatoPicazoH_SVicente_20Abr2024_600.jpg",
+      "Large_Filename": "A_PatoPicazoH_SVicente_20Abr2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Laguna de San Vicente",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "20-04-2024"
     },
     {
       "Subspecies_ID": null,

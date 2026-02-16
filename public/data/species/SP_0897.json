@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0897",
-    "total_rows": 24,
+    "total_rows": 25,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-16T02:22:08.014363"
   },
   "data": [
     {
@@ -55,6 +56,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-06-2021"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_ZorzalColorado_VLopez_19Abr2024_600.jpg",
+      "Large_Filename": "A_ZorzalColorado_VLopez_19Abr2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Costanera de Vicente López",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "19-04-2024"
     },
     {
       "Subspecies_ID": null,
