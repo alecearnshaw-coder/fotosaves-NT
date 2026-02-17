@@ -1,6 +1,6 @@
 {
-    "generated_at":  "2026-02-16T02:22:20",
-    "count":  800,
+    "generated_at":  "2026-02-17T00:49:37",
+    "count":  801,
     "data":  [
                  {
                      "id":  "SP_0001",
@@ -8000,6 +8000,16 @@
                      "sci":  "Thraupis palmarum",
                      "sp":  "Celestino Oliváceo",
                      "en":  "Palm Tanager",
+                     "path":  "Passeriformes/Thraupidae/"
+                 },
+                 {
+                     "id":  "SP_1085",
+                     "slug":  "DiucaAlaBlanca",
+                     "hasLink":  "Y",
+                     "group":  "Thraupidae",
+                     "sci":  "Idiopsar speculifer",
+                     "sp":  "Diuca Ala Blanca",
+                     "en":  "Glacier Finch",
                      "path":  "Passeriformes/Thraupidae/"
                  }
              ]

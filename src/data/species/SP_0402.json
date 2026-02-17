@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0402",
-    "total_rows": 9,
+    "total_rows": 14,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-17T00:49:26.393765"
   },
   "data": [
     {
@@ -34,6 +35,19 @@
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
+      "Thumbnail_Filename": "A_LechuzonDeCampo0_Pieres_3Ago2024_600.jpg",
+      "Large_Filename": "A_LechuzonDeCampo0_Pieres_3Ago2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Pieres",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "03-08-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
       "Thumbnail_Filename": "A_LechuzonDeCampo_600.jpg",
       "Large_Filename": "A_LechuzonDeCampo_1200.jpg",
       "Equipment": "Digiscoping - Canon PowerShot SD1100 + Vixen 67 Geoma II ED scope + GLH20 (x20 Wide) eyepiece",
@@ -47,6 +61,45 @@
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
+      "Thumbnail_Filename": "A_LechuzonDeCampo_Pieres_3Ago2024_600.jpg",
+      "Large_Filename": "A_LechuzonDeCampo_Pieres_3Ago2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Pieres",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "03-08-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_LechuzonDeCampo_Pieres_4Ago2024_600.jpg",
+      "Large_Filename": "A_LechuzonDeCampo_Pieres_4Ago2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Pieres",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "04-08-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_LechuzonDeCampo_Pieres_5Ago2024_600.jpg",
+      "Large_Filename": "A_LechuzonDeCampo_Pieres_5Ago2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Pieres",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "05-08-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
       "Thumbnail_Filename": "A_LechuzonDeCampo_C_25Oct2014_600.jpg",
       "Large_Filename": "A_LechuzonDeCampo_C_25Oct_2014_1200.jpg",
       "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x + Canon Speedlite 580EX II flash",
@@ -55,6 +108,19 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "25-10-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_LechuzonDeCampo1_Pieres_3Ago2024_600.jpg",
+      "Large_Filename": "A_LechuzonDeCampo1_Pieres_3Ago2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Pieres",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "03-08-2024"
     },
     {
       "Subspecies_ID": null,

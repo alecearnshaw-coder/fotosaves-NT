@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0550",
-    "total_rows": 7,
+    "total_rows": 8,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-17T00:49:25.351783"
   },
   "data": [
     {
@@ -42,6 +43,19 @@
       "Province": "CABA",
       "Country": null,
       "Date": "13-10-2023"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Nanday_PqdelosNinos_25May2024_600.jpg",
+      "Large_Filename": "A_Nanday_PqdelosNinos_25May2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Parque de los Niños",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "25-05-2024"
     },
     {
       "Subspecies_ID": null,
