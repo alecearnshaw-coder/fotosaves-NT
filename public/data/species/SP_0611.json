@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0611",
-    "total_rows": 27,
+    "total_rows": 29,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:43.339124"
   },
   "data": [
     {
@@ -60,6 +61,19 @@
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
+      "Thumbnail_Filename": "A_FiofioPicoCorto_RECS_16Nov2024_600.jpg",
+      "Large_Filename": "A_FiofioPicoCorto_RECS_16Nov2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ecológica Costanera Sur (RECS)",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "16-11-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
       "Thumbnail_Filename": "A_FioFioPicoCorto_Otamendi_10Oct2011_600.jpg",
       "Large_Filename": "A_FioFioPicoCorto_Otamendi_10Oct2011_1200.jpg",
       "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter 1.7x",
@@ -94,6 +108,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "09-01-2016"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_FiofioPicoCorto_C_5Oct2024_600.jpg",
+      "Large_Filename": "A_FiofioPicoCorto_C_5Oct2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Ceibas",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "05-10-2024"
     },
     {
       "Subspecies_ID": null,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0820",
-    "total_rows": 29,
+    "total_rows": 30,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:45.752314"
   },
   "data": [
     {
@@ -42,6 +43,19 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "08-05-2016"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_CanasteroChaqueno_C_10May2025_600.jpg",
+      "Large_Filename": "A_CanasteroChaqueno_C_10May2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Ceibas",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "10-05-2025"
     },
     {
       "Subspecies_ID": null,

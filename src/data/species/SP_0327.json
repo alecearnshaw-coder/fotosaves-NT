@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0327",
-    "total_rows": 23,
+    "total_rows": 24,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-08T17:46:10.574772"
+    "generated_at": "2026-02-19T14:13:40.522422"
   },
   "data": [
     {
@@ -95,6 +95,19 @@
       "Province": "Incheon Province",
       "Country": "SOUTH KOREA",
       "Date": "18-11-2017"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GarzaBlanca_CaminoElCazal_28Sept2024_600.jpg",
+      "Large_Filename": "A_GarzaBlanca_CaminoElCazal_28Sept2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Camino a El Cazal, Escobar",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "28-09-2024"
     },
     {
       "Subspecies_ID": null,

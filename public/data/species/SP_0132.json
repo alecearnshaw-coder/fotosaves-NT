@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0132",
-    "total_rows": 12,
+    "total_rows": 13,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:40.206833"
   },
   "data": [
     {
@@ -42,6 +43,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-05-2007"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GallaretaEscRojo_RP65-9deJulio_9Ago2024_600.jpg",
+      "Large_Filename": "A_GallaretaEscRojo_RP65-9deJulio_9Ago2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "RP65, 9 de Julio",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "09-08-2024"
     },
     {
       "Subspecies_ID": null,

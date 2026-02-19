@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0323",
-    "total_rows": 7,
+    "total_rows": 8,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:46.866385"
   },
   "data": [
     {
@@ -55,6 +56,19 @@
       "Province": "Lima",
       "Country": "PERU",
       "Date": "17-09-2016"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GarzaAzul1_Navarro_5Sept2025_600.jpg",
+      "Large_Filename": "A_GarzaAzul1_Navarro_5Sept2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Laguna de Navarro, Navarro",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "05-09-2025"
     },
     {
       "Subspecies_ID": null,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0398",
-    "total_rows": 31,
+    "total_rows": 32,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:45.247031"
   },
   "data": [
     {
@@ -81,6 +82,19 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "04-01-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_LechucitaVizcachera_SClementePuerto_20Dic2024_600.jpg",
+      "Large_Filename": "A_LechucitaVizcachera_SClementePuerto_20Dic2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "Con el buche lleno - <span class='english-text'><b>Showing a full crop</b></span>",
+      "Location": "Zona portuaria, San Clemente del Tuyú",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "20-12-2024"
     },
     {
       "Subspecies_ID": null,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0818",
-    "total_rows": 16,
+    "total_rows": 18,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:46.185751"
   },
   "data": [
     {
@@ -68,6 +69,32 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "27-03-2012"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_EspineroGrande_RN_13Jul2025_600.jpg",
+      "Large_Filename": "A_EspineroGrande_RN_13Jul2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "Encima de su nido - <span class='english-text'><b>Outside its nest</b></span>",
+      "Location": "Reserva Ribera Norte, Acassuso",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "13-07-2025"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_EspineoGrande1_RN_28Abr2025_600.jpg",
+      "Large_Filename": "A_EspineoGrande1_RN_28Abr2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ribera Norte, Acassuso",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "28-04-2025"
     },
     {
       "Subspecies_ID": null,

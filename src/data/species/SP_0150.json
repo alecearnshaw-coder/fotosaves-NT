@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0150",
-    "total_rows": 27,
+    "total_rows": 28,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,8 @@
       "Country",
       "Date",
       "Location_Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:42.590442"
   },
   "data": [
     {
@@ -59,6 +60,19 @@
       "Country": null,
       "Date": "25-10-2014",
       "Location_Date": "Médanos, Entre Ríos - 25-10-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TeroReal_C_5Oct2024_600.jpg",
+      "Large_Filename": "A_TeroReal_C_5Oct2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Ceibas",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "05-10-2024"
     },
     {
       "Subspecies_ID": null,

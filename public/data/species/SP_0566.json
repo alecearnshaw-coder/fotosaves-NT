@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0566",
-    "total_rows": 32,
+    "total_rows": 33,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-17T00:49:25.072173"
+    "generated_at": "2026-02-19T14:13:45.391458"
   },
   "data": [
     {
@@ -69,6 +69,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "17-06-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_CortaramasH_PampaDeLaViuda_1Mar2025_600.jpg",
+      "Large_Filename": "A_CortaramasH_PampaDeLaViuda_1Mar2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Pampa de la Viuda Agustina, Sierras del Velasco, Sanagasta",
+      "Province": "La Rioja",
+      "Country": null,
+      "Date": "01-03-2025"
     },
     {
       "Subspecies_ID": null,

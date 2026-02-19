@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0161",
-    "total_rows": 36,
+    "total_rows": 38,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-16T02:22:07.941794"
+    "generated_at": "2026-02-19T14:13:43.015933"
   },
   "data": [
     {
@@ -30,6 +30,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "09-12-2023"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Tero_PqIndoamericano_18Nov2024_600.jpg",
+      "Large_Filename": "A_Tero_PqIndoamericano_18Nov2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reservorio del Parque Indoamericano, Villa Soldatti",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "18-11-2024"
     },
     {
       "Subspecies_ID": null,
@@ -95,6 +108,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "12-01-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_TeroComunconJ_PqueFinky_4Oct2024_600.jpg",
+      "Large_Filename": "A_TeroComunconJ_PqueFinky_4Oct2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "Se ven las patas de 3 o 4 pichones ocultos bajo la madre - <span class='english-text'><b>Note legs of 3 or 4 chicks hiding under the mom</b></span>",
+      "Location": "Parque Municipal Finky, Turdera",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "04-10-2024"
     },
     {
       "Subspecies_ID": null,

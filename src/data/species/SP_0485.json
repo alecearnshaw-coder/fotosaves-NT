@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0485",
-    "total_rows": 26,
+    "total_rows": 29,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-16T02:22:08.508150"
+    "generated_at": "2026-02-19T14:13:46.569423"
   },
   "data": [
     {
@@ -61,6 +61,32 @@
       "Subspecies_ID": null,
       "Slide": null,
       "Cover": null,
+      "Thumbnail_Filename": "A_CarpinteritoComunH1_RVL_29-08-2025_600.jpg",
+      "Large_Filename": "A_CarpinteritoComunH1_RVL_29-08-2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Reserva Ecológica Vicente López, La Lucila",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "29-08-2025"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_CarpinteritoComunH3_RVL_29-08-2025_600.jpg",
+      "Large_Filename": "A_CarpinteritoComunH3_RVL_29-08-2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Reserva Ecológica Vicente López, La Lucila",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "29-08-2025"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
       "Thumbnail_Filename": "A_CarpinteritoComun_RN_30Dic2017_600.jpg",
       "Large_Filename": "A_CarpinteritoComun_RN_30Dic2017_1200.jpg",
       "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM + Extender EF III 1.4",
@@ -69,6 +95,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "30-12-2017"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_CarpinteritoComunH2_RVL_29-08-2025_600.jpg",
+      "Large_Filename": "A_CarpinteritoComunH2_RVL_29-08-2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "F",
+      "Location": "Reserva Ecológica Vicente López, La Lucila",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "29-08-2025"
     },
     {
       "Subspecies_ID": null,

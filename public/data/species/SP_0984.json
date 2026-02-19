@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0984",
-    "total_rows": 25,
+    "total_rows": 26,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:43.412632"
   },
   "data": [
     {
@@ -55,6 +56,19 @@
       "Province": "CABA",
       "Country": null,
       "Date": "18-08-2008"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_FruteroNegroM_RECS_28Dic2024_600.jpg",
+      "Large_Filename": "A_FruteroNegroM_RECS_28Dic2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "M",
+      "Location": "Reserva Ecológica Costanera Sur (RECS)",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "28-12-2024"
     },
     {
       "Subspecies_ID": null,

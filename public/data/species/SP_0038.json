@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0038",
-    "total_rows": 6,
+    "total_rows": 7,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-17T00:49:27.057950"
+    "generated_at": "2026-02-19T14:13:46.920340"
   },
   "data": [
     {
@@ -59,6 +59,19 @@
     },
     {
       "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_ColuditoCopeton_Ceibas_19Sept2025_600.jpg",
+      "Large_Filename": "A_ColuditoCopeton_Ceibas_19Sept2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Laguna de Navarro, Navarro",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "19-09-2025"
+    },
+    {
+      "Subspecies_ID": null,
       "Slide": "Y",
       "Cover": null,
       "Thumbnail_Filename": "CauquenColorado_ElPovernir_2001_th.jpg",
@@ -85,7 +98,7 @@
     },
     {
       "Subspecies_ID": null,
-      "Slide": null,
+      "Slide": "Y",
       "Cover": null,
       "Thumbnail_Filename": "CauquenColorado_SEBA_18Jul09_th.jpg",
       "Large_Filename": "CauquenColorado_SEBA_18Jul09.jpg",

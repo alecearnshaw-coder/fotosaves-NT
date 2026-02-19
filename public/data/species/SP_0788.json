@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0788",
-    "total_rows": 36,
+    "total_rows": 37,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:46.733281"
   },
   "data": [
     {
@@ -29,6 +30,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "25-06-2017"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PajonaleraPicoCurvo1_VaParanacito_20Sept2025_600.jpg",
+      "Large_Filename": "A_PajonaleraPicoCurvo1_VaParanacito_20Sept2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Villa Paranacito",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "20-09-2025"
     },
     {
       "Subspecies_ID": null,

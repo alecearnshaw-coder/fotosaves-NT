@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0084",
-    "total_rows": 7,
+    "total_rows": 8,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:43.639536"
   },
   "data": [
     {
@@ -42,6 +43,19 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "23-11-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Crespin_Perdices_8Dic2024_600.jpg",
+      "Large_Filename": "A_Crespin_Perdices_8Dic2024_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Perdices",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "08-12-2024"
     },
     {
       "Subspecies_ID": null,

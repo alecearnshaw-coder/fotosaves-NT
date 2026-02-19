@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_1068",
-    "total_rows": 17,
+    "total_rows": 18,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-02-19T14:13:46.635366"
   },
   "data": [
     {
@@ -29,6 +30,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "02-09-2017"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_SairaDeAntifazM_RVL_26-08-2025_600.jpg",
+      "Large_Filename": "A_SairaDeAntifazM_RVL_26-08-2025_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "M",
+      "Location": "Reserva Ecológica Vicente López, La Lucila",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "26-08-2025"
     },
     {
       "Subspecies_ID": null,

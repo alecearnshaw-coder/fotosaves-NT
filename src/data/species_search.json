@@ -1,5 +1,5 @@
 {
-    "generated_at":  "2026-02-17T00:49:37",
+    "generated_at":  "2026-02-19T14:14:00",
     "count":  801,
     "data":  [
                  {
@@ -1065,7 +1065,7 @@
                  {
                      "id":  "SP_0146",
                      "slug":  "BurritoNegruzco",
-                     "hasLink":  null,
+                     "hasLink":  "Y",
                      "group":  "Gruiformes",
                      "sci":  "Laterallus spiloptera",
                      "sp":  "Burrito Negruzco",
@@ -3745,7 +3745,7 @@
                  {
                      "id":  "SP_0558",
                      "slug":  "CalancateCaraRoja",
-                     "hasLink":  "",
+                     "hasLink":  "Y",
                      "group":  "Psittaciformes",
                      "sci":  "Psittacara mitratus",
                      "sp":  "Calancate Cara Roja",
