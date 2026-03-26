@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0211",
-    "total_rows": 26,
+    "total_rows": 27,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-19T14:13:44.944279"
+    "generated_at": "2026-03-26T00:45:57.647290"
   },
   "data": [
     {
@@ -30,6 +30,19 @@
       "Province": "Corrientes",
       "Country": null,
       "Date": "22-03-2012"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Rayador1_PR_15Mar2026_600.jpg",
+      "Large_Filename": "A_Rayador1_PR_15Mar2026_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "Punta Rasa (Tapera de López), San Clemente del Tuyú",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "15-03-2026"
     },
     {
       "Subspecies_ID": null,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0327",
-    "total_rows": 24,
+    "total_rows": 25,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-19T14:13:40.522422"
+    "generated_at": "2026-03-26T00:45:56.965597"
   },
   "data": [
     {
@@ -56,6 +56,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-08-2016"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GarzaBlanca_SanClemente_15Mar2026_600.jpg",
+      "Large_Filename": "A_GarzaBlanca_SanClemente_15Mar2026_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "San Clemente del Tuyú (puerto)",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "15-03-2026"
     },
     {
       "Subspecies_ID": null,

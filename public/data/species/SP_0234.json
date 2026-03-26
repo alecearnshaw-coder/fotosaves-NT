@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0234",
-    "total_rows": 39,
+    "total_rows": 40,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-19T14:13:40.278544"
+    "generated_at": "2026-03-26T00:45:57.188428"
   },
   "data": [
     {
@@ -82,6 +82,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "04-08-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GaviotaCocineraI1_SanClemente_15Mar2026_600.jpg",
+      "Large_Filename": "A_GaviotaCocineraI1_SanClemente_15Mar2026_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": "I",
+      "Location": "San Clemente del Tuyú (puerto)",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "15-03-2026"
     },
     {
       "Subspecies_ID": null,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0227",
-    "total_rows": 22,
+    "total_rows": 23,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -16,7 +16,7 @@
       "Date",
       "Location_Date"
     ],
-    "generated_at": "2026-02-17T00:49:27.284552"
+    "generated_at": "2026-03-26T00:45:57.141556"
   },
   "data": [
     {
@@ -73,6 +73,19 @@
       "Country": null,
       "Date": "16-02-2017",
       "Location_Date": "Ushuaia, Tierra del Fuego - 16-02-2017"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GaviotaCapuchoCafe_SanClemente_15Mar2026_600.jpg",
+      "Large_Filename": "A_GaviotaCapuchoCafe_SanClemente_15Mar2026_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
+      "Sex_Age": null,
+      "Location": "San Clemente del Tuyú (puerto)",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "15-03-2026"
     },
     {
       "Subspecies_ID": null,

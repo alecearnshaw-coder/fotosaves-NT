@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0189",
-    "total_rows": 16,
+    "total_rows": 17,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-19T14:13:42.365635"
+    "generated_at": "2026-03-26T00:45:57.758003"
   },
   "data": [
     {
@@ -56,6 +56,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "16-11-2013"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PitotoyChico_PampasDeAnguya-Tutu_14Mar2026_600.jpg",
+      "Large_Filename": "A_PitotoyChico_PampasDeAnguya-Tutu_14Mar2026_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS",
+      "Sex_Age": null,
+      "Location": "Pampas de Anguyá-Tutú, San Clemente del Tuyú",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "14-03-2026"
     },
     {
       "Subspecies_ID": null,

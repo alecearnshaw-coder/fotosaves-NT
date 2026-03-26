@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0872",
-    "total_rows": 14,
+    "total_rows": 15,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-19T14:13:45.180089"
+    "generated_at": "2026-03-26T00:45:57.694163"
   },
   "data": [
     {
@@ -69,6 +69,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "07-07-2013"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_RatonaAperdizada1_PR_14Mar2026_600.jpg",
+      "Large_Filename": "A_RatonaAperdizada1_PR_14Mar2026_1200.jpg",
+      "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS",
+      "Sex_Age": null,
+      "Location": "Punta Rasa, San Clemente del Tuyú",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "14-03-2026"
     },
     {
       "Subspecies_ID": null,
