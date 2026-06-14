@@ -220,6 +220,7 @@ html { scroll-behavior: smooth; }
     font-weight: bold;
     margin: 0;
     line-height: 1.5;
+    color: #333;
 }
 
 .scientific-name {
@@ -252,6 +253,7 @@ html { scroll-behavior: smooth; }
     font-size: 0.9em;
     margin: 0;
     font-weight: bold;
+    color: #333;
 }
 
 /* Image frame */
@@ -284,6 +286,7 @@ html { scroll-behavior: smooth; }
     text-align: center;
     margin-bottom: 0;
     border: 1px solid #999;
+    color: #333;
 }
 
 .info-section:last-child {
@@ -294,12 +297,14 @@ html { scroll-behavior: smooth; }
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     margin: 0;
+    color: #333;
 }
 
 .location-info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     margin: 0;
+    color: #333;
 }
 
 /* Container for image + info sections */

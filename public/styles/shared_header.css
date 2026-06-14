@@ -155,9 +155,6 @@
   font-size: 14px;
   border-radius: 4px;
   margin-left: 6px;
-  color: #494242 !important;
-  font-weight: bold !important;
-  background-color: #DCBBAB !important;
 }
 
 #species-search.expanded #species-search-input {
@@ -165,9 +162,6 @@
   padding: 4px 8px;
   border: 1px solid #6a9678;
   opacity: 1;
-  color: #494242 !important;
-  font-weight: bold !important;
-  background-color: #DCBBAB !important;
 }
 
 #species-search-results {
@@ -175,7 +169,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: 376px;
+  width: 320px;
   max-height: 400px;
   overflow-y: auto;
   background: #fff;

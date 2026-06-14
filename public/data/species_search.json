@@ -1,5 +1,5 @@
 {
-    "generated_at":  "2026-03-26T00:46:19",
+    "generated_at":  "2026-06-14T15:27:37",
     "count":  801,
     "data":  [
                  {
@@ -2694,8 +2694,8 @@
                  },
                  {
                      "id":  "SP_0417",
-                     "slug":  "LechuzaBatarazChaqueña",
-                     "hasLink":  "Y",
+                     "slug":  "LechuzaBatarazChaquena",
+                     "hasLink":  null,
                      "group":  "Strigiformes",
                      "sci":  "Strix chacoensis",
                      "sp":  "Lechuza Bataraz Chaqueña",
