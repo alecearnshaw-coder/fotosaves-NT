@@ -45,8 +45,8 @@
     },
     {
       "Subspecies_ID": null,
-      "Slide": "Y",
-      "Cover": null,
+      "Slide": null,
+      "Cover": "Y",
       "Thumbnail_Filename": "A_ComeseboAndinoH_PasoCordoba_13Sep2012_600.jpg",
       "Large_Filename": "A_ComeseboAndinoH_PasoCordoba_13Sep2012_1200.jpg",
       "Equipment": "Canon EOS 7D + Canon 300mm f/4 L IS + Extender EF III 1.4x",
