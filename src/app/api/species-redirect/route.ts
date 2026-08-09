@@ -16,7 +16,7 @@ export async function GET(request: NextRequest) {
 
   try {
     // Load species data to find the slug
-    const filePath = path.join(process.cwd(), 'src/data/taxonomy/species.json');
+    const filePath = path.join(process.cwd(), 'public/data/taxonomy/species.json');
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const speciesData = JSON.parse(fileContents);
     

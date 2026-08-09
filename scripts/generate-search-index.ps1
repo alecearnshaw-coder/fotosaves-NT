@@ -9,13 +9,12 @@
 Write-Host "Generating species search index..." -ForegroundColor Cyan
 
 $basePath = "$PSScriptRoot\.."
-$speciesPath = "$basePath\src\data\taxonomy\species.json"
-$ordersPath = "$basePath\src\data\taxonomy\orders.json"
-$subordersPath = "$basePath\src\data\taxonomy\suborders.json"
-$familiesPath = "$basePath\src\data\taxonomy\families.json"
-$subfamiliesPath = "$basePath\src\data\taxonomy\subfamilies.json"
-$outputPath = "$basePath\src\data\species_search.json"
-$publicOutputPath = "$basePath\public\data\species_search.json"
+$speciesPath = "$basePath\public\data\taxonomy\species.json"
+$ordersPath = "$basePath\public\data\taxonomy\orders.json"
+$subordersPath = "$basePath\public\data\taxonomy\suborders.json"
+$familiesPath = "$basePath\public\data\taxonomy\families.json"
+$subfamiliesPath = "$basePath\public\data\taxonomy\subfamilies.json"
+$outputPath = "$basePath\public\data\species_search.json"
 
 # Read all data
 $speciesData = Get-Content $speciesPath -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -159,13 +158,11 @@ $output = [PSCustomObject]@{
     data = $searchIndex
 }
 
-# Write to both src and public with UTF-8 without BOM
+# Write to public/data with UTF-8 without BOM
 $json = $output | ConvertTo-Json -Depth 10
 $utf8NoBom = New-Object System.Text.UTF8Encoding $false
 [System.IO.File]::WriteAllText($outputPath, $json, $utf8NoBom)
-[System.IO.File]::WriteAllText($publicOutputPath, $json, $utf8NoBom)
 
 Write-Host "  Generated $($searchIndex.Count) searchable species" -ForegroundColor Green
 Write-Host "  Output: $outputPath" -ForegroundColor Gray
-Write-Host "  Output: $publicOutputPath" -ForegroundColor Gray
 Write-Host "Done!" -ForegroundColor Cyan

@@ -1,47 +1,41 @@
+NO NEED TO RUN SYNC WHEN THE DATABASE FILES ARE UUPDATED
+The JSON Database files now only reside in /public/data. Exclusive "source of truth"
+The JSON database files in /src/data no longer exist. Removed 9th August 2026.
+
 How to Run It Yourself
-Option 1: From Cursor's terminal (press `` Ctrl+ to open) ``powershell
+Option 1: From Cursor's terminal (press Ctrl+` to open)
+powershell
 .\scripts\sync-data.ps1
-.\scripts\sync-data.ps1
-package.json
-+2
--1
-    "start": "next start",    "lint": "eslint"  },
-    "lint": "eslint"    "start": "next start",    "lint": "eslint",    "sync": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-data.ps1"  },
 
-
-
-
+Or via npm:
+npm run sync
 
 Your Site: Hybrid Architecture
 You're right - it's not a simple static site. It's a dynamic site with client-side rendering:
 800+ species pages generated dynamically from JSON data
 Group pages (orders, families, subfamilies) built on-the-fly
 Currently rendered in the browser (CSR)
-Current Workflow (Until SSG Migration)
-┌─────────────────┐      sync       ┌──────────────────┐      fetch      ┌─────────────┐
-│  src/data/      │ ──────────────► │  public/data/    │ ◄─────────────  │  Browser    │
-│  (edit here)    │   (run script)  │  (served to web) │                 │  (renders)  │
-└─────────────────┘                 └──────────────────┘                 └─────────────┘
-After editing JSON files in src/data/, run:
-.\scripts\sync-data.ps1
-Then commit and push both src/ and public/ changes.
 
+Current Workflow
+┌─────────────────┐      fetch      ┌─────────────┐
+│  public/data/   │ ◄─────────────  │  Browser    │
+│  (single copy)  │                 │  (renders)  │
+└─────────────────┘                 └─────────────┘
+         ▲
+         │ read (fs)
+┌─────────────────┐
+│  Next.js server │
+│  (SSR / APIs)   │
+└─────────────────┘
 
-Future: SSG/ISR with Next.js
-When you migrate, the flow becomes:
-┌─────────────────┐      import     ┌──────────────────┐      serve      ┌─────────────┐
-│  src/data/      │ ──────────────► │  Next.js Build   │ ──────────────► │  Browser    │
-│  (source)       │   (at build)    │  (pre-renders)   │   (HTML ready)  │  (instant)  │
-└─────────────────┘                 └──────────────────┘                 └─────────────┘
-Benefits of SSG/ISR:
-800 species pages pre-built as static HTML
-Instant page loads (no JS rendering wait)
-SEO-friendly (Google sees full content)
-ISR: Rebuild individual pages when data changes, without full rebuild
+Edit JSON files directly in public/data/. No data sync step.
+
+However, is making any edits fo builder HTML/JS/CSS in src/builders/, run:
+.\scripts\sync-data.ps1  which will synch some folders.
+Then commit and push the public/ changes.
+
 Summary
 Folder	Purpose	Edit?
-src/data/	Source of truth for JSON data	✅ Yes
-public/data/	Synced copy for current CSR	No (auto-synced)
-src/builders/	Builder logic (reference for migration)	✅ Yes
-public/*.html	Currently served HTML files	✅ Yes (for now)
-
+public/data/	Single source of truth for taxonomy/species JSON	Yes
+src/builders/	Builder logic (synced to public for CSR)	Yes
+public/*.html	Currently served HTML files (synced from builders)	Via sync

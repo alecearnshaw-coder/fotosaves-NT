@@ -13,7 +13,7 @@ export const dynamic = 'force-static';
 
 
 export async function generateStaticParams() {
-  const filePath = path.join(process.cwd(), 'src/data/taxonomy/species.json');
+  const filePath = path.join(process.cwd(), 'public/data/taxonomy/species.json');
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const speciesData = JSON.parse(fileContents);
 
@@ -215,7 +215,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
   const { slug } = await params;
-  const speciesData = readJsonFile<Species>('src/data/taxonomy/species.json');
+  const speciesData = readJsonFile<Species>('public/data/taxonomy/species.json');
   const species = speciesData?.data.find(sp => sp.Slug === slug);
   
   if (!species) {
@@ -601,11 +601,11 @@ export default async function SpeciesPage({
   const { slug } = await params;
   
   // Read all taxonomy data from local JSON files (build-time for SSG/ISR)
-  const speciesData = readJsonFile<Species>('src/data/taxonomy/species.json');
-  const ordersData = readJsonFile<Order>('src/data/taxonomy/orders.json');
-  const subordersData = readJsonFile<Suborder>('src/data/taxonomy/suborders.json');
-  const familiesData = readJsonFile<Family>('src/data/taxonomy/families.json');
-  const subfamiliesData = readJsonFile<Subfamily>('src/data/taxonomy/subfamilies.json');
+  const speciesData = readJsonFile<Species>('public/data/taxonomy/species.json');
+  const ordersData = readJsonFile<Order>('public/data/taxonomy/orders.json');
+  const subordersData = readJsonFile<Suborder>('public/data/taxonomy/suborders.json');
+  const familiesData = readJsonFile<Family>('public/data/taxonomy/families.json');
+  const subfamiliesData = readJsonFile<Subfamily>('public/data/taxonomy/subfamilies.json');
   
   if (!speciesData) {
     notFound();
@@ -618,7 +618,7 @@ export default async function SpeciesPage({
   }
   
   // Load species images
-  const imagesData = readJsonFile<ImageData>(`src/data/species/${species.Species_ID}.json`);
+  const imagesData = readJsonFile<ImageData>(`public/data/species/${species.Species_ID}.json`);
   const images = imagesData?.data || [];
   
   // Get image path

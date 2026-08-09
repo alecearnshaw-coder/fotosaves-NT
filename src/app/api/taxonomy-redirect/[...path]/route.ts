@@ -41,8 +41,8 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   }
 
   // Load taxonomy data to check for species URL patterns
-  const ordersPath = path.join(process.cwd(), 'src/data/taxonomy/orders.json');
-  const subordersPath = path.join(process.cwd(), 'src/data/taxonomy/suborders.json');
+  const ordersPath = path.join(process.cwd(), 'public/data/taxonomy/orders.json');
+  const subordersPath = path.join(process.cwd(), 'public/data/taxonomy/suborders.json');
   const [ordersData, subordersData] = await Promise.all([
     fs.promises.readFile(ordersPath, 'utf8'),
     fs.promises.readFile(subordersPath, 'utf8')
@@ -195,8 +195,8 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
 
   try {
     // Load taxonomy data (orders and suborders already loaded above)
-    const familiesPath = path.join(process.cwd(), 'src/data/taxonomy/families.json');
-    const subfamiliesPath = path.join(process.cwd(), 'src/data/taxonomy/subfamilies.json');
+    const familiesPath = path.join(process.cwd(), 'public/data/taxonomy/families.json');
+    const subfamiliesPath = path.join(process.cwd(), 'public/data/taxonomy/subfamilies.json');
 
     const [familiesData, subfamiliesData] = await Promise.all([
       fs.promises.readFile(familiesPath, 'utf8'),

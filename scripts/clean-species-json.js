@@ -342,7 +342,6 @@ async function main() {
   const repoRoot = path.join(__dirname, '..');
   const folders = [
     { label: 'public/data/species', folder: path.join(repoRoot, 'public', 'data', 'species') },
-    { label: 'src/data/species', folder: path.join(repoRoot, 'src', 'data', 'species') },
   ];
 
   const summaries = [];

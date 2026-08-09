@@ -44,19 +44,6 @@ def save_json_file(filepath, data):
     except Exception as e:
         print(f"Error saving {filepath}: {e}")
 
-def save_json_file_mirrored(public_path, src_path, data):
-    """Save to public path and mirror to src path."""
-    save_json_file(public_path, data)
-    try:
-        os.makedirs(os.path.dirname(src_path), exist_ok=True)
-        with open(src_path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"Mirrored: {src_path}")
-    except Exception as e:
-        print(f"Error saving mirror {src_path}: {e}")
-
-    
-
 def update_taxonomy_counts():
     """Update species and image counts across all taxonomic levels"""
 
@@ -69,9 +56,6 @@ def update_taxonomy_counts():
     public_data_dir = os.path.join(repo_root, "public", "data")
     public_taxonomy_dir = os.path.join(public_data_dir, "taxonomy")
     public_species_dir = os.path.join(public_data_dir, "species")
-
-    src_data_dir = os.path.join(repo_root, "src", "data")
-    src_taxonomy_dir = os.path.join(src_data_dir, "taxonomy")
 
     # Load all taxonomy files
     species_data = load_json_file(os.path.join(public_taxonomy_dir, 'species.json'), report_missing=True)
@@ -115,11 +99,7 @@ def update_taxonomy_counts():
             record['Image_Cnt'] = species_counts[sid]
             updated_species_records += 1
     print(f"Updated Image_Cnt for {updated_species_records} species from SP files")
-    save_json_file_mirrored(
-        os.path.join(public_taxonomy_dir, 'species.json'),
-        os.path.join(src_taxonomy_dir, 'species.json'),
-        species_data
-    )
+    save_json_file(os.path.join(public_taxonomy_dir, 'species.json'), species_data)
 
     # Initialize counters
     subfamily_counts = defaultdict(lambda: {'species': 0, 'images': 0})
@@ -186,11 +166,7 @@ def update_taxonomy_counts():
                 subfamily['Species_Cnt'] = subfamily_counts[sf_name]['species']
                 subfamily['Image_Cnt'] = subfamily_counts[sf_name]['images']
 
-        save_json_file_mirrored(
-            os.path.join(public_taxonomy_dir, 'subfamilies.json'),
-            os.path.join(src_taxonomy_dir, 'subfamilies.json'),
-            subfamilies_data
-        )
+        save_json_file(os.path.join(public_taxonomy_dir, 'subfamilies.json'), subfamilies_data)
     else:
         print("Warning: subfamilies_data is None")
 
@@ -204,11 +180,7 @@ def update_taxonomy_counts():
                 family['Species_Cnt'] = family_counts[f_name]['species']
                 family['Image_Cnt'] = family_counts[f_name]['images']
 
-        save_json_file_mirrored(
-            os.path.join(public_taxonomy_dir, 'families.json'),
-            os.path.join(src_taxonomy_dir, 'families.json'),
-            families_data
-        )
+        save_json_file(os.path.join(public_taxonomy_dir, 'families.json'), families_data)
     else:
         print("Warning: families_data is None")
 
@@ -222,11 +194,7 @@ def update_taxonomy_counts():
                 suborder['Species_Cnt'] = suborder_counts[so_name]['species']
                 suborder['Image_Cnt'] = suborder_counts[so_name]['images']
 
-        save_json_file_mirrored(
-            os.path.join(public_taxonomy_dir, 'suborders.json'),
-            os.path.join(src_taxonomy_dir, 'suborders.json'),
-            suborders_data
-        )
+        save_json_file(os.path.join(public_taxonomy_dir, 'suborders.json'), suborders_data)
     else:
         print("Warning: suborders_data is None")
 
@@ -239,11 +207,7 @@ def update_taxonomy_counts():
                 order['Species_Cnt'] = order_counts[o_name]['species']
                 order['Image_Cnt'] = order_counts[o_name]['images']
 
-        save_json_file_mirrored(
-            os.path.join(public_taxonomy_dir, 'orders.json'),
-            os.path.join(src_taxonomy_dir, 'orders.json'),
-            orders_data
-        )
+        save_json_file(os.path.join(public_taxonomy_dir, 'orders.json'), orders_data)
 
     # Create SiteStats.json with totals
     print("Creating SiteStats.json...")
@@ -257,11 +221,7 @@ def update_taxonomy_counts():
         "description": "Total species and image counts from actual image files (top level sum only)"
     }
 
-    save_json_file_mirrored(
-        os.path.join(public_taxonomy_dir, 'SiteStats.json'),
-        os.path.join(src_taxonomy_dir, 'SiteStats.json'),
-        site_stats
-    )
+    save_json_file(os.path.join(public_taxonomy_dir, 'SiteStats.json'), site_stats)
 
     # Print summary
     print("\n=== TAXONOMY COUNT SUMMARY ===")

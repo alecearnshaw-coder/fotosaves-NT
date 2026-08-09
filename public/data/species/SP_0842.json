@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0842",
-    "total_rows": 23,
+    "total_rows": 24,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -16,7 +16,7 @@
       "Date",
       "Location_Date"
     ],
-    "generated_at": "2026-02-16T02:22:08.736325"
+    "generated_at": "2026-08-09T14:36:56.688612"
   },
   "data": [
     {
@@ -46,6 +46,19 @@
       "Country": null,
       "Date": "29-03-2014",
       "Location_Date": "Reserva Ribera Norte, Acassuso, Buenos Aires - 29-03-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PijuiPlomizo1_Talavera_20Jun2026_600.jpg",
+      "Large_Filename": "A_PijuiPlomizo1_Talavera_20Jun2026_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Isla Talavera, Zárate",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "20-06-2026"
     },
     {
       "Subspecies_ID": null,

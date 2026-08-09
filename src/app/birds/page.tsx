@@ -524,11 +524,11 @@ function renderPasseriformesSection(families: Family[], subfamilies: Subfamily[]
 
 export default async function AvesPage() {
   // Load all taxonomy data
-  const ordersData = readJsonFile<Order>('src/data/taxonomy/orders.json');
-  const subordersData = readJsonFile<Suborder>('src/data/taxonomy/suborders.json');
-  const familiesData = readJsonFile<Family>('src/data/taxonomy/families.json');
-  const subfamiliesData = readJsonFile<Subfamily>('src/data/taxonomy/subfamilies.json');
-  const speciesData = readJsonFile<Species>('src/data/taxonomy/species.json');
+  const ordersData = readJsonFile<Order>('public/data/taxonomy/orders.json');
+  const subordersData = readJsonFile<Suborder>('public/data/taxonomy/suborders.json');
+  const familiesData = readJsonFile<Family>('public/data/taxonomy/families.json');
+  const subfamiliesData = readJsonFile<Subfamily>('public/data/taxonomy/subfamilies.json');
+  const speciesData = readJsonFile<Species>('public/data/taxonomy/species.json');
 
   const orders = ordersData?.data || [];
   const suborders = subordersData?.data || [];

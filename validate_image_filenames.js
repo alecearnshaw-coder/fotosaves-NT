@@ -7,7 +7,7 @@ const path = require('path');
  */
 
 function validateImageFilenames() {
-  const speciesDir = path.join(__dirname, 'src', 'data', 'species');
+  const speciesDir = path.join(__dirname, 'public', 'data', 'species');
   const mismatches = [];
 
   try {

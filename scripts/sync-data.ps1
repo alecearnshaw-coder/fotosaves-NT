@@ -1,15 +1,8 @@
-# Sync script: copies data and builders from src/ to public/ for client-side rendering
-# Run this after editing files in src/data/ or src/builders/
+# Sync script: copies builders from src/ to public/ for client-side rendering
+# Run this after editing files in src/builders/
+# Taxonomy/species JSON lives only in public/data/ (edit there directly).
 
-Write-Host "Syncing from src/ to public/..." -ForegroundColor Cyan
-
-# Sync species data
-Copy-Item -Path "$PSScriptRoot\..\src\data\species\*" -Destination "$PSScriptRoot\..\public\data\species\" -Force -Recurse
-Write-Host "  [OK] Species data synced" -ForegroundColor Green
-
-# Sync taxonomy data
-Copy-Item -Path "$PSScriptRoot\..\src\data\taxonomy\*" -Destination "$PSScriptRoot\..\public\data\taxonomy\" -Force -Recurse
-Write-Host "  [OK] Taxonomy data synced" -ForegroundColor Green
+Write-Host "Syncing builders from src/ to public/..." -ForegroundColor Cyan
 
 # Sync builders (note the name mapping)
 Copy-Item -Path "$PSScriptRoot\..\src\builders\Group_Builder.html" -Destination "$PSScriptRoot\..\public\grupo.html" -Force
@@ -31,5 +24,5 @@ Write-Host "  [OK] Shared scripts synced" -ForegroundColor Green
 Copy-Item -Path "$PSScriptRoot\..\src\builders\*.css" -Destination "$PSScriptRoot\..\public\styles\" -Force
 Write-Host "  [OK] Shared styles synced" -ForegroundColor Green
 
-Write-Host "`nSync complete! Remember to commit and push both src/ and public/ changes." -ForegroundColor Yellow
-
+Write-Host "`nSync complete! Remember to commit and push public/ builder changes." -ForegroundColor Yellow
+Write-Host "JSON data: edit public/data/ directly (no sync needed)." -ForegroundColor Yellow
