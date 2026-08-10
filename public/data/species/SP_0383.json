@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0383",
-    "total_rows": 51,
+    "total_rows": 54,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,8 @@
       "Country",
       "Date",
       "Location_Date"
-    ]
+    ],
+    "generated_at": "2026-08-10T18:07:06.862698"
   },
   "data": [
     {
@@ -45,6 +46,19 @@
       "Country": null,
       "Date": "16-02-2014",
       "Location_Date": "Barrio Santa Rita, San Isidro, Buenos Aires - 16/2/2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PicaflorComunM_RECS_5Feb2023_600.jpg",
+      "Large_Filename": "A_PicaflorComunM_RECS_5Feb2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "M",
+      "Location": "Reserva Ecológica Costanera Sur (RECS)",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "05-02-2023"
     },
     {
       "Subspecies_ID": null,
@@ -119,6 +133,19 @@
     {
       "Subspecies_ID": null,
       "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PicaflorComunM2_RECS_5Feb2023_600.jpg",
+      "Large_Filename": "A_PicaflorComunM2_RECS_5Feb2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "Macho libando de Talilla o Tumiñico (Lycium cestroides) - <span class='english-text'><b>Male feeding on Lycium cestroides</b></span>",
+      "Location": "Reserva Ecológica Costanera Sur (RECS)",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "05-02-2023"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
       "Cover": "Y",
       "Thumbnail_Filename": "A_PicaflorComunH_Olivos_13Dic2017_600.jpg",
       "Large_Filename": "A_PicaflorComunH_Olivos_13Dic2017_1200.jpg",
@@ -171,6 +198,19 @@
       "Country": null,
       "Date": "06-01-2013",
       "Location_Date": "Olivos, Buenos Aires - 06-01-2013"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PicaflorComunH_RECS_5Feb2023_600.jpg",
+      "Large_Filename": "A_PicaflorComunH_RECS_5Feb2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "Hembra libando de Talilla o Tumiñco (Lycium cestroides) - <span class='english-text'><b>Female feeding on Lycium cestroides</b></span>",
+      "Location": "Reserva Ecológica Costanera Sur (RECS)",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "05-02-2023"
     },
     {
       "Subspecies_ID": null,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0077",
-    "total_rows": 31,
+    "total_rows": 32,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-19T14:13:43.947278"
+    "generated_at": "2026-08-10T18:07:06.522702"
   },
   "data": [
     {
@@ -69,6 +69,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "20-12-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Huala-y-BargeAmarillo_Palerrmo_28May2023_600.jpg",
+      "Large_Filename": "A_Huala-y-BargeAmarillo_Palerrmo_28May2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "Con Bagre Amarillo - Pimelodus clarias - <span class='english-text'><b>With a clarias catfish</b></span>",
+      "Location": "Lago \"Regatas\" de Palermo",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "28-05-2023"
     },
     {
       "Subspecies_ID": null,

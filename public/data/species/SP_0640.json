@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0640",
-    "total_rows": 9,
+    "total_rows": 10,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,8 @@
       "Country",
       "Date",
       "Location_Date"
-    ]
+    ],
+    "generated_at": "2026-08-10T18:07:06.960443"
   },
   "data": [
     {
@@ -73,6 +74,19 @@
       "Country": null,
       "Date": "16-03-2019",
       "Location_Date": "Parque Nacional Iberá, Portal Cambyretá, Ituzaingó, Corrientes - 16-03-2019"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_BurlistoPicoCanela_RECS_5Feb2023_600.jpg",
+      "Large_Filename": "A_BurlistoPicoCanela_RECS_5Feb2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ecológica Costanera Sur (RECS)",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "05-02-2023"
     },
     {
       "Subspecies_ID": null,

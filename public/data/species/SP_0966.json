@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0966",
-    "total_rows": 15,
+    "total_rows": 16,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -14,7 +14,8 @@
       "Province",
       "Country",
       "Date"
-    ]
+    ],
+    "generated_at": "2026-08-10T18:07:06.068773"
   },
   "data": [
     {
@@ -68,6 +69,19 @@
       "Province": "Misiones",
       "Country": null,
       "Date": "08-09-2018"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_AraneroCoronadoChico1_RNPtaLara_23Sep2023_600.jpg",
+      "Large_Filename": "A_AraneroCoronadoChico1_RNPtaLara_23Sep2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Natural Punta Lara",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "23-09-2023"
     },
     {
       "Subspecies_ID": null,

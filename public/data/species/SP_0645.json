@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0645",
-    "total_rows": 17,
+    "total_rows": 18,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -16,7 +16,7 @@
       "Date",
       "Location_Date"
     ],
-    "generated_at": "2026-02-16T02:22:07.749465"
+    "generated_at": "2026-08-10T18:07:05.735283"
   },
   "data": [
     {
@@ -86,6 +86,19 @@
       "Country": null,
       "Date": "15-02-2014",
       "Location_Date": "Reserva Natural Otamendi, Campana, Buenos Aires - 15-02-2014"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Picabuey_EcoParqueSF_8Oct2023_600.jpg",
+      "Large_Filename": "A_Picabuey_EcoParqueSF_8Oct2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "EcoParque, San Fernando",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "08-10-2023"
     },
     {
       "Subspecies_ID": null,

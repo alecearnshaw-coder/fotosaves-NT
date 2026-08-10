@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0329",
-    "total_rows": 40,
+    "total_rows": 41,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-17T00:49:25.416935"
+    "generated_at": "2026-08-10T18:07:05.782160"
   },
   "data": [
     {
@@ -134,6 +134,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "13-08-2016"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GarzaMora_RECUCN_13Oct2023_600.jpg",
+      "Large_Filename": "A_GarzaMora_RECUCN_13Oct2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Reserva Ecológica Ciudad Universitaria - Costanera Norte",
+      "Province": "CABA",
+      "Country": null,
+      "Date": "13-10-2023"
     },
     {
       "Subspecies_ID": null,

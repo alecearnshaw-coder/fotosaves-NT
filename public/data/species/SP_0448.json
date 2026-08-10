@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0448",
-    "total_rows": 36,
+    "total_rows": 37,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-19T14:13:41.374861"
+    "generated_at": "2026-08-10T18:07:06.100025"
   },
   "data": [
     {
@@ -121,6 +121,19 @@
       "Province": "Entre Ríos",
       "Country": null,
       "Date": "30-12-2012"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_Caracolero_RNPtaLara_23Sep2023_600.jpg",
+      "Large_Filename": "A_Caracolero_RNPtaLara_23Sep2023_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "J",
+      "Location": "Reserva Natural Punta Lara",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "23-09-2023"
     },
     {
       "Subspecies_ID": null,

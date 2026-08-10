@@ -1,5 +1,5 @@
 {
-    "generated_at":  "2026-08-09T14:37:05",
+    "generated_at":  "2026-08-10T18:07:17",
     "count":  801,
     "data":  [
                  {
@@ -7875,7 +7875,7 @@
                  {
                      "id":  "SP_1067",
                      "slug":  "EspigueroPardo",
-                     "hasLink":  "",
+                     "hasLink":  "Y",
                      "group":  "Thraupidae",
                      "sci":  "Asemospiza obscura",
                      "sp":  "Espiguero Pardo",
