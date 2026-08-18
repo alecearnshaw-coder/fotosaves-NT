@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0220",
-    "total_rows": 23,
+    "total_rows": 24,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-03-26T00:45:57.297801"
+    "generated_at": "2026-08-17T21:44:34.783575"
   },
   "data": [
     {
@@ -121,6 +121,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "04-08-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_GaviotinLagunero_PdelViento_16Oct2021_600.jpg",
+      "Large_Filename": "A_GaviotinLagunero_PdelViento_16Oct2021_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Paseo del Viento, La Lucila",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "16-10-2021"
     },
     {
       "Subspecies_ID": null,

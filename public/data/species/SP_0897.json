@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0897",
-    "total_rows": 25,
+    "total_rows": 26,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-16T02:22:08.014363"
+    "generated_at": "2026-08-17T21:44:35.239044"
   },
   "data": [
     {
@@ -69,6 +69,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "19-04-2024"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_ZorzalColorado_H_13Jun2021_600.jpg",
+      "Large_Filename": "A_ZorzalColorado_H_13Jun2021_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Olivos",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "13-06-2021"
     },
     {
       "Subspecies_ID": null,

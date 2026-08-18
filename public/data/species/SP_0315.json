@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0315",
-    "total_rows": 37,
+    "total_rows": 38,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-02-16T02:22:08.585441"
+    "generated_at": "2026-08-17T21:44:33.943558"
   },
   "data": [
     {
@@ -95,6 +95,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "31-08-2013"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_HocoConAnguila_C_2Nov2022_600.jpg",
+      "Large_Filename": "A_HocoConAnguila_C_2Nov2022_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": "Pescando una anguila (Synbranchus marmoratus) - <span class='english-text'><b>Catching a Marbled swamp eel</b></span>",
+      "Location": "Ceibas",
+      "Province": "Entre Ríos",
+      "Country": null,
+      "Date": "02-11-2022"
     },
     {
       "Subspecies_ID": null,

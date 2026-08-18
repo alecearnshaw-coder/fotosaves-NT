@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0045",
-    "total_rows": 28,
+    "total_rows": 29,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -15,7 +15,7 @@
       "Country",
       "Date"
     ],
-    "generated_at": "2026-08-10T18:07:05.955181"
+    "generated_at": "2026-08-17T21:44:34.414820"
   },
   "data": [
     {
@@ -69,6 +69,19 @@
       "Province": "Buenos Aires",
       "Country": null,
       "Date": "23-09-2023"
+    },
+    {
+      "Subspecies_ID": null,
+      "Slide": null,
+      "Cover": null,
+      "Thumbnail_Filename": "A_PatoCutiri_ElChaja_24Sept2022_600.jpg",
+      "Large_Filename": "A_PatoCutiri_ElChaja_24Sept2022_1200.jpg",
+      "Equipment": "Canon EOS 7D Mk II + Canon 100-400 f/4:5-5.6 L IS II USM",
+      "Sex_Age": null,
+      "Location": "Ea. El Chajá, Chenaut",
+      "Province": "Buenos Aires",
+      "Country": null,
+      "Date": "24-09-2022"
     },
     {
       "Subspecies_ID": null,

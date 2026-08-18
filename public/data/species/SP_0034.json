@@ -1,7 +1,7 @@
 {
   "metadata": {
     "group_key": "SP_0034",
-    "total_rows": 13,
+    "total_rows": 12,
     "columns": [
       "Subspecies_ID",
       "Slide",
@@ -97,26 +97,13 @@
     },
     {
       "Subspecies_ID": null,
-      "Slide": "Y",
+      "Slide": null,
       "Cover": null,
       "Thumbnail_Filename": "A_Guayata_600.jpg",
       "Large_Filename": "A_Guayata.jpg",
       "Equipment": "Panasonic Lumix FZ30 + DMW-LT55 teleconverter 1.7x",
       "Sex_Age": null,
       "Location": "Zoológico, Copiapó",
-      "Province": "Atacama",
-      "Country": "CHILE",
-      "Date": "24-05-2008"
-    },
-    {
-      "Subspecies_ID": null,
-      "Slide": "Y",
-      "Cover": null,
-      "Thumbnail_Filename": "Guayata1_Copiapo_24May08_th.jpg",
-      "Large_Filename": "Guayata1_Copiapo_24May08.jpg",
-      "Equipment": null,
-      "Sex_Age": null,
-      "Location": "Zoológico, Copiapá",
       "Province": "Atacama",
       "Country": "CHILE",
       "Date": "24-05-2008"

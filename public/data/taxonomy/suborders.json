@@ -27,7 +27,7 @@
       "SO_Image": "A_Chorlo.jpg",
       "Known_Species_Cnt": 20,
       "Species_Cnt": 18,
-      "Image_Cnt": 257,
+      "Image_Cnt": 258,
       "SO_Path": "Charadriiformes/",
       "Species_URL_Pattern": "FotosPlayerasA_"
     },
@@ -40,7 +40,7 @@
       "SO_Image": "A_Playerito.jpg",
       "Known_Species_Cnt": 34,
       "Species_Cnt": 30,
-      "Image_Cnt": 430,
+      "Image_Cnt": 433,
       "SO_Path": "Charadriiformes/",
       "Species_URL_Pattern": "FotosPlayerasB_"
     },
@@ -53,7 +53,7 @@
       "SO_Image": "A_Gaviota.jpg",
       "Known_Species_Cnt": 30,
       "Species_Cnt": 20,
-      "Image_Cnt": 309,
+      "Image_Cnt": 310,
       "SO_Path": "Charadriiformes/",
       "Species_URL_Pattern": "FotosPlayerasC_"
     }
