@@ -440,6 +440,9 @@ const pageStyles = `
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
   }
 
   .slide-info {
@@ -862,7 +865,7 @@ export default async function SpeciesPage({
                             rel={`lightbox[${species.Species_ID}-slides]`}
                             title={locationDateStr}
                           >
-                            <img src={thumb} alt={species.Species_Name_Sp} loading="lazy" />
+                            <img src={thumb} alt={species.Species_Name_Sp} />
                           </a>
                         ) : (
                           <img src={thumb} alt={species.Species_Name_Sp} loading="lazy" />
